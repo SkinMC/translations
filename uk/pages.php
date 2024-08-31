@@ -143,7 +143,8 @@ return [
         'head_info' => 'Для використання з командними блоками',
         'first_wearing' => 'Перший гравець помічений із цим скином:',
         'profiles' => ':profiles у профілі|:profiles у профілях',
-        'profiles_title' => 'Профілів з цим скином: :profiles|Профілів з цим скином: :profiles'
+        'profiles_title' => 'Профілів з цим скином: :profiles|Профілів з цим скином: :profiles',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Тема профілю',
             'theme-primary' => 'Основний',
             'theme-secondary' => 'Додатковий',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Керувати прив’язаним обліковим записом Minecraft',
