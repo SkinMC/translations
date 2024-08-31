@@ -143,7 +143,8 @@ return [
         'head_info' => 'Mit Befehlsblöcken verwenden',
         'first_wearing' => 'Erster Spieler mit diesem Skin:',
         'profiles' => ':profiles profile|:profiles profile',
-        'profiles_title' => ':profiles Profil mit diesem Skin|:profiles Profile mit diesem Skin'
+        'profiles_title' => ':profiles Profil mit diesem Skin|:profiles Profile mit diesem Skin',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profil-Design',
             'theme-primary' => 'Primär',
             'theme-secondary' => 'Sekundär',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Verwalte dein verlinktes Minecraft-Konto',
