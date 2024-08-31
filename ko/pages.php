@@ -143,7 +143,8 @@ return [
         'head_info' => '명령 블록과 함께 사용하세요',
         'first_wearing' => '이 스킨을 처음 착용한 플레이어:',
         'profiles' => '프로필 :profiles개',
-        'profiles_title' => '이 스킨을 착용 중인 프로필 :profiles개'
+        'profiles_title' => '이 스킨을 착용 중인 프로필 :profiles개',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -887,6 +888,7 @@ return [
             'theme' => '프로필 테마',
             'theme-primary' => '기본',
             'theme-secondary' => '보조',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => '연동된 Minecraft 계정 관리',
