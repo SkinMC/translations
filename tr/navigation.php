@@ -34,7 +34,7 @@ return [
     'cancel_search' => 'Vazgeç',
     'search_type' => 'Arama Tipi',
     'search_type_all' => 'All results',
-    'profiles' => '',
+    'profiles' => 'Profiles',
     'view_skin' => 'View skin',
     'edit_skin' => 'Skin\'i düzenle',
     'make_avatar' => 'Avatar yap',
