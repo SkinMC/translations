@@ -143,7 +143,8 @@ return [
         'head_info' => 'Para usar con bloques de comandos',
         'first_wearing' => 'Primer jugador visto usando este aspecto:',
         'profiles' => ':profiles perfil|:profiles perfiles',
-        'profiles_title' => ':profiles perfil con este aspecto|:profiles perfiles con este aspecto'
+        'profiles_title' => ':profiles perfil con este aspecto|:profiles perfiles con este aspecto',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profile theme',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Administrar cuenta de Minecraft vinculada',
