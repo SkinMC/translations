@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'skins' => 'Skinn',
+    'avatars' => 'Avatarer',
+    'editor' => 'Redigerare',
+    'capes' => 'Kappor',
+    'servers' => 'Servrar',
+    'achievement' => 'Prestation',
+
+    'logout' => 'Logga ut',
+    'register' => 'Registrera dig',
+    'login' => 'Logga in',
+    'about' => 'Om',
+    'faqs' => 'Vanliga frågor',
+
+    'minecraft_name' => 'Minecraft Namn',
+    'recent_searches' => 'Senaste sökningar',
+    'search' => 'Sök',
+    'search_placeholder' => 'Prova',
+    'start_search' => 'Börja söka',
+    'cancel_search' => 'Avbryt',
+    'search_type' => 'Sök typ',
+    'view_skin' => 'Visa skinn',
+    'edit_skin' => 'Redigera skal',
+    'make_avatar' => 'Skapa avatar',
+
+    'home' => 'Hem',
+    'help' => 'Hjälp',
+    'tools' => 'Verktyg',
+    'skin_viewer' => 'Skinn tittare',
+    'avatar_maker' => 'Avatar skapare',
+    'collections' => 'Samlingar',
+    'popular_skins' => 'Populära skinn',
+    'cartoon_skins' => 'Tecknade skinn',
+    'animal_skins' => 'Djur skinn',
+    'community' => 'Gemenskap',
+    'imprint' => 'Avtryck',
+    'cookies' => 'Cookies',
+    'terms' => 'Villkor',
+];
