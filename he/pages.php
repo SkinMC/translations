@@ -143,7 +143,8 @@ return [
         'head_info' => 'לשימוש עם קומנד בלוקס',
         'first_wearing' => 'השחקן הראשון שנראה לובש את הסקין הזה:',
         'profiles' => 'הפרופיל של :profile|הפרופילים של :profiles',
-        'profiles_title' => ':profiles פרופילים עם הסקין הזה|:profiles פרופילים עם הסקין הזה'
+        'profiles_title' => ':profiles פרופילים עם הסקין הזה|:profiles פרופילים עם הסקין הזה',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profile theme',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'קשר משתמשי מיינקראפט',
