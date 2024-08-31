@@ -143,7 +143,8 @@ return [
         'head_info' => '使用命令块',
         'first_wearing' => '首次看到玩家戴着这个皮肤：',
         'profiles' => ':profiles 个人资料|:profiles 个人资料',
-        'profiles_title' => ':profiles 个人资料带有此皮肤|:profiles 个人资料带有此皮肤'
+        'profiles_title' => ':profiles 个人资料带有此皮肤|:profiles 个人资料带有此皮肤',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -890,6 +891,7 @@ return [
             'theme' => '个人资料主题',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Manage linked Minecraft account',
