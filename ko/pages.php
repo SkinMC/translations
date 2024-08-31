@@ -144,7 +144,7 @@ return [
         'first_wearing' => '이 스킨을 처음 착용한 플레이어:',
         'profiles' => '프로필 :profiles개',
         'profiles_title' => '이 스킨을 착용 중인 프로필 :profiles개',
-        'screenshot' => 'Screenshot',
+        'screenshot' => '스크린샷',
     ],
     'skins' => [
         'meta' => [
@@ -639,7 +639,7 @@ return [
             'custom_features' => '맞춤 기능',
             'custom_features_description' => 'Missing a feature for your server? Open a ticket, and we\'ll implement it.',
             'faq' => [
-                'title' => 'Answers to your questions',
+                'title' => '내 질문에 답변해요',
                 'suited-question' => 'Is my Minecraft Server suited for SkinMC?',
                 'suited-answer' => 'Minecraft Players on SkinMC love to discover new experiences, content and engage with communities. On the platform you\'ll find a large variety of different, unique, fun Minecraft servers. From a large network to even a small survival server, it can make someones day!',
                 'get-started-question' => '어떻게 시작하나요?',
@@ -730,8 +730,8 @@ return [
             'r_leg' => '오른쪽 다리',
         ],
         'model' => '모델',
-        'steve' => 'Steve',
-        'alex' => 'Alex',
+        'steve' => '스티브',
+        'alex' => '알렉스',
         'stance' => [
             'title' => '위치',
             'default' => '기본',
