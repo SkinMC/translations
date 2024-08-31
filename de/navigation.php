@@ -22,7 +22,7 @@ return [
     'faqs' => 'FAQ',
 
     'minecraft_name' => 'Minecraft-Name',
-    'minecraft_uuid' => 'Minecraft UUID',
+    'minecraft_uuid' => 'Minecraft-UUID',
     'what' => 'Was',
     'recent_searches' => 'Letzte Suchen',
     'username' => 'Benutzername',
@@ -57,7 +57,7 @@ return [
     'privacy' => 'Datenschutzerklärung',
     'app' => 'App',
     'mod' => 'Mod',
-    'totem' => 'Totems',
+    'totem' => 'Totem',
 
     'feedback' => 'Feedback',
     'status' => 'Status',

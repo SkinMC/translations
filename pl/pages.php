@@ -143,7 +143,8 @@ return [
         'head_info' => 'Do użycia z blokami poleceń',
         'first_wearing' => 'Pierwszy gracz noszący tę skórkę:',
         'profiles' => ':profiles profile|:profiles profiles',
-        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin'
+        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Motyw profilu',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Zarządzaj połączonym kontem Minecraft',

@@ -143,7 +143,8 @@ return [
         'head_info' => 'To use with command blocks',
         'first_wearing' => 'First player seen wearing this skin:',
         'profiles' => ':profiles profile|:profiles profiles',
-        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin'
+        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profile theme',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Manage linked Minecraft account',

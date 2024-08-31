@@ -143,7 +143,8 @@ return [
         'head_info' => 'لاستخدام مع الكوماند بلوك',
         'first_wearing' => 'أول لاعب شوهد يرتدي هذا السكن:',
         'profiles' => 'الملف الشخصي :profiles|الملفات الشخصيه :profiles',
-        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin'
+        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profile theme',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Manage linked Minecraft account',

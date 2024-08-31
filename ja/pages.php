@@ -143,7 +143,8 @@ return [
         'head_info' => 'コマンドブロックで使用する',
         'first_wearing' => 'このスキンを着用した最初のプレイヤー:',
         'profiles' => ':profiles プロフィール',
-        'profiles_title' => ':profile このスキンを使用しているプロファイル'
+        'profiles_title' => ':profile このスキンを使用しているプロファイル',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'プロフィールテーマ',
             'theme-primary' => 'プライマリ',
             'theme-secondary' => 'セカンダリ',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => '連携済みのMinecraft アカウントを管理',

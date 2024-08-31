@@ -144,7 +144,8 @@ return [
         'head_info' => 'Da usare con blocchi di comando',
         'first_wearing' => 'Primo giocatore visto indossare questa skin:',
         'profiles' => ':profiles profile|:profiles profiles',
-        'profiles_title' => ':profiles profilo con questa skin|:profiles profili con questa skin'
+        'profiles_title' => ':profiles profilo con questa skin|:profiles profili con questa skin',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -891,6 +892,7 @@ return [
             'theme' => 'Tema del profilo',
             'theme-primary' => 'Primario',
             'theme-secondary' => 'Secondario',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Gestisci account di Minecraft collegato',

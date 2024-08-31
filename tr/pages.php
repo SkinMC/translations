@@ -143,7 +143,8 @@ return [
         'head_info' => 'Komut blokları ile kullanmak için',
         'first_wearing' => 'Bu Cildi giyen ilk oyuncu',
         'profiles' => ':profiller profil|:profiller profiller',
-        'profiles_title' => ':profiles bu cilt ile profil|:profiles bu cilt ile profiller'
+        'profiles_title' => ':profiles bu cilt ile profil|:profiles bu cilt ile profiller',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profile theme',
             'theme-primary' => 'Primary',
             'theme-secondary' => 'Secondary',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Manage linked Minecraft account',

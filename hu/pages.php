@@ -143,7 +143,8 @@ return [
         'head_info' => 'Parancsblokkokkal való használathoz',
         'first_wearing' => 'Az első játékos, aki ezt a kinézetet használta:',
         'profiles' => ':profiles fiók',
-        'profiles_title' => ':profiles fiók használja ezt a kinézetet'
+        'profiles_title' => ':profiles fiók használja ezt a kinézetet',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Profil témája',
             'theme-primary' => 'Alapszín',
             'theme-secondary' => 'Másodlagos szín',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Összekapcsolt Minecraft-fiók kezelése',

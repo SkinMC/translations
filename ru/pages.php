@@ -143,7 +143,8 @@ return [
         'head_info' => 'Использовать при помощи командных блоков',
         'first_wearing' => 'Первый игрок, который надел этот скин:',
         'profiles' => ':profiles профиль|:profiles профили',
-        'profiles_title' => 'Профиль:profiles с этим скином|:profiles профили с этим скином'
+        'profiles_title' => 'Профиль:profiles с этим скином|:profiles профили с этим скином',
+        'screenshot' => 'Screenshot',
     ],
     'skins' => [
         'meta' => [
@@ -889,6 +890,7 @@ return [
             'theme' => 'Тема профиля',
             'theme-primary' => 'Основной',
             'theme-secondary' => 'Вторичный',
+            'appearance' => 'Appearance',
         ],
         'link' => [
             'manage' => 'Управление привязанным аккаунтом Minecraft',
