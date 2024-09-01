@@ -1094,7 +1094,7 @@ return [
         'followers-info' => 'Eingeloggte oder Mitglieder die mir folgen.',
         'private' => 'Nur ich',
         'private-info' => 'Privater Beitrag nur kann ich ihn sehen.',
-        'submit' => 'Beitrag',
+        'submit' => 'Posten',
         'like' => 'Like',
         'comment' => 'Antwort',
         'share' => 'Teilen',
