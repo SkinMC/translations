@@ -758,7 +758,7 @@ return [
             'eyedropper' => 'Use the eyedropper to select a colour from your skin and add it to your current palette.',
             'fill' => 'Fill entire areas of your skin using the fill tool. Select a colour before using fill.',
             'move' => 'Pan and move around the skin editor canvas with the move tool.',
-            'decrease_brightness' => 'Decrease the brightness of the currently active colour.',
+            'decrease_brightness' => '현재 사용 중인 색상의 밝기를 줄여요.',
             'increase_brightness' => 'Increase the brightness of the currently active colour.',
             'erase' => 'Erase pixels drawn on the secondary overlay layer.',
         ],
