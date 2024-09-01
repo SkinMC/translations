@@ -625,7 +625,7 @@ return [
             'social_connections' => 'SNS 연결',
             'social_connections_description' => 'Connect your Servers social accounts and show new players where they can find you.',
             'verified_badge' => '인증 배지',
-            'verified_badge_description' => 'Authentic servers can apply for a verification badge.',
+            'verified_badge_description' => '공인된 서버는 인증 배지를 신청할 수 있어요.',
             'owner_profile' => '오너 프로필',
             'owner_profile_description' => 'Add a personal touch, by completing your custom profile.',
             'categories' => '카테고리',
