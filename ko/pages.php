@@ -111,8 +111,8 @@ return [
         'server-fav-list-empty' => '아직 :username님이 아무 서버도 즐겨찾기 하지 않은거 같아요. :username님이 서버를 즐겨찾기에 저장하면, 여기에서 확인할 수 있어요.',
         'server-own-list-empty' => '아직 :username님이 아무 서버도 추가하지 않은거 같아요. :username님이 서버를 추가하면, 여기에서 확인할 수 있어요.',
         'capes-list-empty' => ':username님이 아직 아무 망토도 장착하지 않은 것 같아요. :username님이 망토를 장착하면, 여기에서 확인할 수 있어요.',
-        'feed-own-list-empty' => '아직 아무 게시글도 게시하지 않은 것 같아요. 게시글을 게시하면 여기에서 확인할 수 있어요.',
-        'feed-list-empty' => '흠, :username님이 아직 아무 게시글도 게시하지 않은 것 같아요. :username님이 게시글을 게시하면 여기에서 확인할 수 있어요.',
+        'feed-own-list-empty' => '아직 아무 게시물도 게시하지 않은 것 같아요. 게시물을 게시하면 여기에서 확인할 수 있어요.',
+        'feed-list-empty' => '흠, :username님이 아직 아무 게시물도 게시하지 않은 것 같아요. :username님이 게시물을 게시하면 여기에서 확인할 수 있어요.',
         'following-own-list-empty' => '아직 아무도 팔로우하지 않은 것 같아요! 누군가를 팔로우하기 시작하면, 여기에서 확인할 수 있어요.',
         'following-list-empty' => '흠, :username님이 아무도 팔로우하지 않은 것 같아요. :username님이 누군가를 팔로우하기 시작하면 여기서 확인할 수 있어요.',
         'followers-own-list-empty' => '누군가 나를 팔로우하기 시작하면, 여기에 표시돼요.',
@@ -211,7 +211,7 @@ return [
         'other_discord' => 'Discord 서버에 참가해서 다른 분과 연결하고, 게임 관련 대화를 하고, 내 최애 팩을 공유하고, 커뮤니티 지원을 받아보세요.',
         'other_twitter' => 'Twitter에서 팔로우해서 언제 새 업데이트나 기능이 출시되는지 확인하고, 이번 주의 스킨을 확인해 보세요.',
         'other_instagram' => 'Instagram에서 SkinMC를 팔로우해서 멋지고 특색있는 Minecraft 스킨과 사진을 살펴보고 발견해 보세요.',
-        'other_facebook' => 'Facebook에서 팬이 되어 내가 Minecraft 콘텐츠를 탐험하면서 다른 분께 댓글을 남기고 대화할 수 있는 모든 게시글을 확인해 보세요.'
+        'other_facebook' => 'Facebook에서 팬이 되어 내가 Minecraft 콘텐츠를 탐험하면서 다른 분께 댓글을 남기고 대화할 수 있는 모든 게시물을 확인해 보세요.'
     ],
     'about' => [
         'intro' => '<span>Minecraft</span> <span>스킨</span><span>을 위한</span> <span>나만의</span> <span>플랫폼</span>',
@@ -364,11 +364,11 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Minecraft 갑옷 거치대 생성기',
             'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
         ],
         'meta' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Minecraft 갑옷 거치대 생성기',
             'description' => 'Easily generate and create custom Minecraft Armor Stands. The editor helps you make different poses, positions, place items, custom skins, and much more.',
         ],
     ],
@@ -826,7 +826,7 @@ return [
             'delete' => '계정 삭제',
             'account-deletion' => 'SkinMC 계정을 삭제하세요.',
             'delete-info' => '계속하려면 확인해 주세요',
-            'delete-confirmation' => '계정을 삭제하는 것은 되돌릴 수 없어요. 모든 개인 정보와 게시글, 즐겨찾기, 업로드한 망토, 꾸민 것 등이 삭제되며 다시 복원할 수 없어요.',
+            'delete-confirmation' => '계정을 삭제하는 것은 되돌릴 수 없어요. 모든 개인 정보와 게시물, 즐겨찾기, 업로드한 망토, 꾸민 것 등이 삭제되며 다시 복원할 수 없어요.',
             'delete-confirmation-info' => '계속하려면 비밀번호를 입력하세요',
             'yes-confirm-delete' => '네, 삭제를 확인했어요',
             'account-successfully-deleted' => '계정과 데이터가 삭제됐어요.'
@@ -902,7 +902,7 @@ return [
             'disconnect-info' => 'Minecraft 계정 연동을 해제하시겠어요?',
             'disconnect-features' => '댓글 기능, 맞춤 설정 기능과 같은 Minecraft 계정 연동이 필요한 기능을 이용할 수 없게 돼요. 다시 이용하려면 Minecraft 계정을 연동해야 해요.',
             'disconnect-following' => 'Minecraft 계정과 연동을 해제하면 팔로우 중인 프로필이 모두 삭제돼요.',
-            'disconnect-posts' => '생성한 피드 게시글과 좋아요가 삭제될 거예요.',
+            'disconnect-posts' => '생성한 피드 게시물과 좋아요가 삭제될 거예요.',
             'can-not-undo' => '이 작업은 되돌릴 수 없어요.',
             'are-you-sure' => '확실하신가요?',
             'confirm' => '네, 연동이 해제됨을 확인했어요',
@@ -920,7 +920,7 @@ return [
             'social' => '소셜 링크 추가',
             'comment' => '댓글 기능 사용',
             'direct_message' => '다이렉트 메시지 전송',
-            'feed' => '피드에 게시글 상태 업데이트',
+            'feed' => '피드에 게시물 상태 업데이트',
             'follow' => '친구와 팔로우',
             'badge' => '내 프로필에 배지 표시',
             'cape' => '맞춤 Minecraft 망토 이용 가능',
@@ -1091,41 +1091,41 @@ return [
         'followers' => '팔로워',
         'followers-info' => '로그인했거나 나를 팔로우하는 사람만',
         'private' => '나만',
-        'private-info' => '나 자신만 볼 수 있는 비공개 게시글',
-        'submit' => '게시글',
+        'private-info' => '나 자신만 볼 수 있는 비공개 게시물',
+        'submit' => '게시물',
         'like' => '좋아요',
         'comment' => '답장',
         'share' => '공유',
         'remaining' => '남아있는',
-        'profile' => ':username님의 게시글',
-        'posts' => '모든 게시글',
-        'my-posts' => '내 게시글',
-        'view-all' => '모든 게시글 보기',
+        'profile' => ':username님의 게시물',
+        'posts' => '모든 게시물',
+        'my-posts' => '내 게시물',
+        'view-all' => '모든 게시물 보기',
         'post' => [
             'meta' => 'SkinMC:에 :username :text',
             'title' => '게시',
             'created' => 'Status update posted!',
-            'confirm-delete' => '게시글을 삭제하시겠어요? 삭제하면 되돌릴 수 없어요.',
-            'delete' => '게시글 삭제하기',
-            'deleted' => '게시글이 삭제되었어요.',
+            'confirm-delete' => '게시물을 삭제하시겠어요? 삭제하면 되돌릴 수 없어요.',
+            'delete' => '게시물 삭제하기',
+            'deleted' => '게시물이 삭제되었어요.',
         ],
         'follow-suggestions' => '팀 팔로우하기',
         'explore' => 'Explore',
         'hashtag' => '해시태그',
     ],
     'private' => [
-        'title' => '게시글을 비공개로 돌리기',
-        'text' => '이 게시글은 비공개입니다.'
+        'title' => '게시물을 비공개로 돌리기',
+        'text' => '이 게시물은 비공개입니다.'
     ] ,
     'liked' => [
         'title' => '좋아요 누름'
     ],
     'following' => [
         'title' => '팔로잉',
-        'text' => '로그인하여 게시글을 확인하세요.'
+        'text' => '로그인하여 게시물을 확인하세요.'
     ],
     'tags' => [
-        'empty' => 'No tags to vote on yet',
+        'empty' => '투표할 태그가 아직 없어요',
         'empty-subtitle' => 'Be the first to add one',
     ],
     'inbox' => [
@@ -1166,7 +1166,7 @@ return [
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Stats'
+            'stats' => '통계'
         ]
     ],
     'report' => [
