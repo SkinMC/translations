@@ -32,7 +32,7 @@ return [
         'about_download' => '다운로드 또는 수정',
         'about_download_detail' => '원하는 스킨을 찾으셨나요? 즐겨찾기에 추가하고, 수정 또는 다운로드하여 나만의 것으로 만드세요.',
         'about_platform' => '플랫폼 전환하기',
-        'about_platform_detail' => 'Want to take the skin on the go? Scan the QR code and save the image on your phone for Minecraft PE.',
+        'about_platform_detail' => '이동 중에 스킨을 착용하고 싶으신가요? QR 코드를 스캔해서 기기에 Minecraft 포켓에디션용 사진을 저장하세요.',
         'meta' => [
             'title' => 'Minecraft 스킨 뷰어',
             'description' => 'View and download Minecraft skins, discover the best skins in curated collections, check username availability and history and so much more!',
