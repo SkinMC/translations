@@ -67,7 +67,7 @@ return [
     'json' => ':attribute은(는) 유효한 JSON 문자열이어야 해요.',
     'lt' => [
         'numeric' => ':attribute은(는) :value 미만이어야 해요.',
-        'file' => ':attribute은(는) :value 킬로마이트 미만이어야 해요.',
+        'file' => ':attribute은(는) :value 킬로바이트 미만이어야 해요.',
         'string' => ':attribute은(는) :value자 미만이어야 해요.',
         'array' => ':attribute은(는) :value 아이템 미만이어야 해요.',
     ],
