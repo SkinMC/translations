@@ -17,7 +17,7 @@ return [
 
     'functional' => '기능 쿠키',
     'functional_description' => '이러한 쿠키는 동영상 등에서 향상된 기능을 제공할 수 있도록 해요. 저희나 페이지에 추가한 타사 제공자가 쿠키를 설정할 수도 있어요. 쿠키를 허용하지 않게 되면, 일부 또는 모든 기능이 제대로 작동하지 않을 수도 있어요.',
-    'youtube' => '유튜브',
+    'youtube' => 'YouTube',
 
     'analytical' => '진단 쿠키',
     'analytical_description' => '이러한 쿠키는 방문 횟수와 유입 경로를 추적해서 사이트 성능 개선을 할 수 있도록 해요. 쿠키를 허용하지 않게 되면, 쿠키에서 오는 정보가 사이트 성능 개선에 도움을 주지 않아요.',
@@ -25,8 +25,8 @@ return [
     'microsoftClarity' => 'Microsoft Clarity',
 
     'googleOneTap' => 'Google로 로그인',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap_description' => '이러한 쿠키는 빠르게 Google에 로그인하거나 Google로 계정을 생성하도록 허용해요. Google에 로그인한 데이터는 오로지 보안 목적으로만 사용돼요.',
 
     'facebookLogin' => 'Facebook으로 로그인',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin_description' => '이러한 쿠키는 빠르게 Facebook에 로그인하거나 Facebook으로 계정을 생성하도록 허용해요.',
 ];
