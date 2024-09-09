@@ -35,7 +35,7 @@ return [
         'about_platform_detail' => '이동 중에 스킨을 착용하고 싶으신가요? QR 코드를 스캔해서 기기에 Minecraft 포켓에디션용 사진을 저장하세요.',
         'meta' => [
             'title' => 'Minecraft 스킨 뷰어',
-            'description' => 'View and download Minecraft skins, discover the best skins in curated collections, check username availability and history and so much more!',
+            'description' => 'Minecraft 스킨을 보고 다운로드하고, 엄선된 컬렉션에서 최고의 스킨을 찾고, 사용자 이름 사용 가능 여부와 기록을 확인하는 등 다양한 활동을 즐겨보세요!',
         ],
         'recently_viewed' => '최근 조회',
         'explore_title' => '새로운 걸 시도해 보세요',
@@ -365,7 +365,7 @@ return [
     'armor' => [
         'header' => [
             'title' => 'Minecraft 갑옷 거치대 생성기',
-            'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
+            'subtitle' => '나만의 Minecraft 갑옷 거치대를 생성해 보세요. 각기 다른 포즈, 위치, 아이템 배치 등을 만들어보세요.',
         ],
         'meta' => [
             'title' => 'Minecraft 갑옷 거치대 생성기',
@@ -538,7 +538,7 @@ return [
                 'meh' => '그저그럼',
                 'bad' => '별로임',
             ],
-            'rate-experience' => 'Next, rate your experience in these areas',
+            'rate-experience' => '다음으로, 이곳에서의 경험을 평가해 주세요.',
             'overall' => '전반적인',
             'server-team' => '서버 팀',
             'community' => '커뮤니티',
