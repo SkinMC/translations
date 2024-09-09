@@ -614,7 +614,7 @@ return [
             'get_reviews_description' => '서버의 리뷰를 남기게 만들고, 게임 안에서 보상을 얻을 수 있게 하세요.',
             'why_list_on_skinmc' => 'Why you should list your Server on SkinMC',
             'others' => '기타',
-            'quality_check_and_confirmation' => 'Quality check and confirmation',
+            'quality_check_and_confirmation' => '퀄리티 체크 및 확인',
             'quality_check_description' => 'Our team reviews every server to ensure quality.',
             'verified_players' => '인증된 마인크래프트 유저들의 리뷰',
             'verified_players_description' => 'Collect authentic player reviews from legitimate accounts with Votifier integration.',
