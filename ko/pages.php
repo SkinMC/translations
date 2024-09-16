@@ -14,7 +14,7 @@ return [
     'home' => [
         'hero_slogan' => 'Minecraft 스킨을 찾는 나만의 공간',
         'hero_cta' => '아무거나 볼래요!',
-        'hero_explore_cta' => '스킨 탐방하기',
+        'hero_explore_cta' => '스킨 둘러보기',
         'skin_viewer' => '스킨 뷰어',
         'skin_viewer_detail' => '스킨 :count개 둘러보기',
         'skin_editor' => '스킨 편집기',
@@ -35,7 +35,7 @@ return [
         'about_platform_detail' => '이동 중에 스킨을 착용하고 싶으신가요? QR 코드를 스캔해서 기기에 Minecraft 포켓에디션용 사진을 저장하세요.',
         'meta' => [
             'title' => 'Minecraft 스킨 뷰어',
-            'description' => 'View and download Minecraft skins, discover the best skins in curated collections, check username availability and history and so much more!',
+            'description' => 'Minecraft 스킨을 보고 다운로드하고, 엄선된 컬렉션에서 최고의 스킨을 찾고, 사용자 이름 사용 가능 여부와 기록을 확인하는 등 다양한 활동을 즐겨보세요!',
         ],
         'recently_viewed' => '최근 조회',
         'explore_title' => '새로운 걸 시도해 보세요',
@@ -365,7 +365,7 @@ return [
     'armor' => [
         'header' => [
             'title' => 'Minecraft 갑옷 거치대 생성기',
-            'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
+            'subtitle' => '나만의 Minecraft 갑옷 거치대를 생성해 보세요. 각기 다른 포즈, 위치, 아이템 배치 등을 만들어보세요.',
         ],
         'meta' => [
             'title' => 'Minecraft 갑옷 거치대 생성기',
@@ -538,7 +538,7 @@ return [
                 'meh' => '그저그럼',
                 'bad' => '별로임',
             ],
-            'rate-experience' => 'Next, rate your experience in these areas',
+            'rate-experience' => '다음으로, 이곳에서의 경험을 평가해 주세요.',
             'overall' => '전반적인',
             'server-team' => '서버 팀',
             'community' => '커뮤니티',
@@ -614,7 +614,7 @@ return [
             'get_reviews_description' => '서버의 리뷰를 남기게 만들고, 게임 안에서 보상을 얻을 수 있게 하세요.',
             'why_list_on_skinmc' => 'Why you should list your Server on SkinMC',
             'others' => '기타',
-            'quality_check_and_confirmation' => 'Quality check and confirmation',
+            'quality_check_and_confirmation' => '퀄리티 체크 및 확인',
             'quality_check_description' => 'Our team reviews every server to ensure quality.',
             'verified_players' => '인증된 마인크래프트 유저들의 리뷰',
             'verified_players_description' => 'Collect authentic player reviews from legitimate accounts with Votifier integration.',
@@ -623,7 +623,7 @@ return [
             'server_listing_page' => '효과적인 서버 정렬 페이지',
             'server_listing_page_description' => '사진, 설명, 유튜브 영상을 추가하고 서버를 돋보여서 플레이어들이 그곳에 참여하게 만드세요.',
             'social_connections' => 'SNS 연결',
-            'social_connections_description' => 'Connect your Servers social accounts and show new players where they can find you.',
+            'social_connections_description' => '내 서버의 SNS 계정을 연결하여 새로운 플레이어들이 서버를 탐색할 때 보여줘요.',
             'verified_badge' => '인증 배지',
             'verified_badge_description' => '공인된 서버는 인증 배지를 신청할 수 있어요.',
             'owner_profile' => '오너 프로필',
@@ -631,7 +631,7 @@ return [
             'categories' => '카테고리',
             'categories_description' => '여러 분류로 서버를 찾기 쉬워요.',
             'vote' => '투표',
-            'vote_description' => 'Ask users to vote for your server.',
+            'vote_description' => '유저들에게 내 서버에 투표를 요청해요.',
             'fair_listings' => '공정한 등록',
             'fair_listings_description' => 'Server listings can not be artificially boosted in results on SkinMC.',
             'support' => '24시간 지원',
@@ -747,7 +747,7 @@ return [
         'download' => [
             'title' => '저장 및 다운로드',
             'subtitle' => 'SkinMC 계정',
-            'description' => 'Would you like to create a free SkinMC account to save your skin and future ones to the cloud?',
+            'description' => '현재 내 스킨과 이후의 스킨을 클라우드에 저장하기 위해 SkinMC 계정을 생성하시겠어요?',
             'start_description' => '클라우드에 저장하지 않고 바로 다운로드를 시작하세요',
             'start' => '스킨 다운로드',
         ],
