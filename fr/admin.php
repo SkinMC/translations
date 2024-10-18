@@ -12,7 +12,7 @@ return [
     'dashboard' => [
         'title' => 'Tableau de bord',
         'total-members' => 'Total des membres',
-        'claimed-profiles' => 'Claimed profiles',
+        'claimed-profiles' => '',
         'profiles' => 'Profiles',
         'skins' => 'Skins',
         'users' => 'Users',
