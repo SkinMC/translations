@@ -13,13 +13,13 @@ return [
     |
     */
 
-    'failed' => 'Credenciais não coincidem com nossos registros.',
+    'failed' => 'Estes credenciais não correspondem aos nossos registros.',
     'password' => 'A senha fornecida está incorreta.',
-    'throttle' => 'Muitas tentativas, por favor tente novamente em :seconds segundos.',
-    'welcome-back' => 'Bem-vindo de volta, ao SkinMC!',
-    'welcome' => 'Seja bem-vindo ao SkinMC!',
-    'see-you-soon' => 'Até logo!',
-    'blocked' => 'Sua conta foi desativada em :date. se você acredita que foi um erro, por favor visite <a target="_blank" href=":url"> nosso Centro de suporte </a> para obter assistência.',
+    'throttle' => 'Muitas tentativas de registro. Tente novamente em :seconds segundos.',
+    'welcome-back' => 'Bem-vindo(a) de volta, bom ver você!',
+    'welcome' => 'Bem-vindo(a) ao SkinMC!',
+    'see-you-soon' => 'Até breve!',
+    'blocked' => 'Sua conta foi desativada em :date. se você acha que foi um erro, visite o <a target="_blank" href=":url"> Centro de Suporte </a> para obter assistência.',
     'show-password' => 'Exibir senha',
     'hide-password' => 'Ocultar senha',
     'invite_code' => 'Código de convite'
