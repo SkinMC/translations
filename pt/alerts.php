@@ -11,7 +11,7 @@ return [
     */
     'follower' => [
         'title' => 'Novo seguidor',
-        'text' => ':user agora está te seguindo!'
+        'text' => ':user agora está seguindo você!'
     ],
     'comment' => [
         'new' => [
@@ -19,7 +19,7 @@ return [
             'text' => ':user comentou no seu :model'
         ],
         'reply' => [
-            'title' => 'Responder em :model comment',
+            'title' => 'Responder no comentário de :model',
             'text' => ':user respondeu a um comentário :model'
         ]
     ],
@@ -41,16 +41,16 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'Recebemos sua denúncia! (Caso :id)',
-            'text' => 'Nosso time esta trabalhando nisso e vai ver isso em seguida. Obrigado por ser incrível e ajudar nós mantemos as coisas calmas! '
+            'title' => 'Recebemos seu relatório! (Caso :id)',
+            'text' => 'Nossa equipe está trabalhando em seu problema. Obrigada por ser gentil e ajudar-nos a manter as coisas calmas! '
         ],
         'resolved' => [
-            'title' => 'Recebemos sua denúncia (Caso :id)',
-            'text' => 'Ola, o problema denunciado já foi resolvido. Obrigado por ser um super-herói da nossa comunidade!',
+            'title' => 'Nós revisamos seu relatório (Caso :id)',
+            'text' => 'Olá, o problema informado já foi resolvido e ordenado. Obrigada por ser um super-herói da nossa comunidade!',
         ],
         'dismissed' => [
-            'title' => 'Atualização a sua denúncia (Case :id)',
-            'text' => 'Depois de algum trabalho de detetive, decidimos que o conteúdo que você denunciou não viola nossas diretrizes. Se você quer que nos avaliemos algo específico, por favor denuncie a skin, perfil, etc., e inclua contexto adicional quando seja preciso. Obrigado por sua preocupação e envolvimento em nossa comunidade!',
+            'title' => 'Atualização para seu relatório (Case :id)',
+            'text' => 'Depois de uma investigação, nós vimos que o conteúdo informado por você não viola nossas diretrizes. Se você quiser a revisão de algo específico, por favor, certifique-se de que a(o) skin, perfil, etc. forneça contexto adicional quando preciso. Obrigada pela preocupação e o envolvimento em nossa comunidade!',
         ]
     ]
 ];
