@@ -18,7 +18,7 @@ return [
     ],
     'signup' => [
         'title' => 'Criar conta',
-        'existing' => 'Já tem uma conta?',
+        'existing' => 'Já possui uma conta?',
         'button' => 'Concordar e continuar',
         'terms_by_selecting' => 'Por selecionar',
         'terms_agree_to' => ', eu concordo com os termos do SkinMC',
@@ -26,19 +26,19 @@ return [
     ],
     'recover' => [
         'title' => 'Recuperar conta',
-        'description' => 'Perdeu sua senha? Recupere a senha digitando seu endereço de e-mail para recebê-la de novo.',
+        'description' => 'Esqueceu a senha? Recupere a senha inserindo seu e-mail para recebê-la novamente.',
         'button' => 'Enviar e-mail de recuperação',
-        'found' => 'Encontrou sua senha?',
+        'found' => 'Recuperou sua senha?',
     ],
     'logout' => [
-        'title' => 'Encerrar sessão',
-        'description' => 'Tem certeza que deseja sair do SkinMC?',
+        'title' => 'Sair',
+        'description' => 'Deseja sair da sua conta do SkinMC?',
         'logout' => 'Sair',
         'cancel' => 'Cancelar',
     ],
     'profile_qrcode' => [
         'title' => 'Escanear QR code',
-        'done' => 'Pronto',
+        'done' => 'Concluído',
     ],
     'language' => [
         'title' => 'Idioma',
@@ -47,23 +47,23 @@ return [
         'contribute_add' => 'Adicionar tradução',
         'updated' => 'Seu idioma foi definido'
     ],
-    'copied' => 'Copiado para área de transferência!',
+    'copied' => 'Copiado para a área de transferência!',
     'close' => 'Fechar',
     'feedback' => [
-        'title' => 'Dê sua opinião',
+        'title' => 'Feedback',
         'type' => [
-            'select' => 'Selecione o tipo de feedback',
+            'select' => 'Selecionar tipo de feedback',
             'label' => 'Tipo de feedback',
             'comment' => 'Comentários',
             'question' => 'Perguntas',
-            'bug' => 'Reportar bug',
-            'feature' => 'Solicitar um Recurso',
+            'bug' => 'Informar erro',
+            'feature' => 'Sugerir recurso',
             ],
         'submit' => 'Enviar',
-        'nps' => 'Em uma escala de 0 a 10 qual a probabilidade de você recomendar SkinMC para um amigo?',
+        'nps' => 'Em uma de escala de 0 a 10 qual seria a chance de você recomendar um(a) amigo(a) ao SkinMC?',
         'success' => [
-            'title' => 'Muito obrigado!',
-            'message' => 'Sua mensagem foi enviada, espere uma resposta em breve! Para mais perguntas, entre no Discord ou envie outra mensagem.',
+            'title' => 'Obrigada!',
+            'message' => 'Sua mensagem foi enviada, espere por uma resposta em breve! Para mais perguntas, junte-se ao nosso Discord ou envie outra mensagem.',
         ]
     ]
 ];
