@@ -10,7 +10,7 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Painel de controle',
+        'title' => 'Painel',
         'total-members' => 'Total de membros',
         'claimed-profiles' => 'Perfis reivindicados',
         'profiles' => 'Perfis',
@@ -22,13 +22,13 @@ return [
     ],
     'help' => [
         'title' => 'Ajuda',
-        'subtitle' => 'Dicas úteis para Dashboard do SkinMC',
+        'subtitle' => 'Dicas úteis para o painel do SkinMC',
     ],
     'users' => [
         'title' => 'Usuários',
-        'subtitle' => ':count total de usuários cadastrados',
+        'subtitle' => ':count total de usuários registrados',
         'list' => [
-            'username' => 'Usuário',
+            'username' => 'Nome de usuário',
             'email' => 'E-mail',
             'status' => 'Status',
             'role' => 'Função'
@@ -39,11 +39,11 @@ return [
     ],
     'tags' => [
         'title' => 'Tags',
-        'pending' => 'Tags Pendentes',
+        'pending' => 'Tags pendentes',
         'banned' => 'Tags banidas',
     ],
     'reports' => [
-        'title' => 'Denúncias',
+        'title' => 'Relatórios',
     ],
     'feed' => [
         'title' => 'Publicações do feed',
@@ -51,10 +51,10 @@ return [
     ],
     'comments' => [
         'title' => 'Comentários',
-        'subtitle' => ':count comentários postados',
+        'subtitle' => ':count comentários publicados',
         'deleted' => [
             'title' => 'Comentários deletados',
-            'subtitle' => ':count comentários deletados',
+            'subtitle' => ':count comentários excluídos',
         ]
     ]
 ];
