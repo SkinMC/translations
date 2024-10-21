@@ -22,7 +22,7 @@ return [
         'avatar_maker' => 'Gerador de Avatar',
         'avatar_maker_detail' => 'Gere suas fotos de perfil de avatar do Minecraft.',
         'trending' => 'Em destaque',
-        'minecraft_skin' => 'Minecraft skin',
+        'minecraft_skin' => 'Skin do Minecraft',
         'favourite' => 'Favorito',
         'collections' => 'Coleções',
         'collections_detail' => 'Coleções de Skins para cada ocasião',
