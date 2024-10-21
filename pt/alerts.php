@@ -35,22 +35,22 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'You leveled up!',
-            'text' => 'Congratulations on reaching level :level!'
+            'title' => 'Você subiu de nível!',
+            'text' => 'Parabéns em alcançar o nível :level!'
         ]
     ],
     'report' => [
         'created' => [
-            'title' => 'We\'ve received your report! (Case :id)',
-            'text' => 'Our team is on it and will look into it right away. Thanks for being awesome and helping us keep things chill! '
+            'title' => 'Recebemos sua denúncia! (Caso :id)',
+            'text' => 'Nosso time esta trabalhando nisso e vai ver isso em seguida. Obrigado por ser incrível e ajudar nós mantemos as coisas calmas! '
         ],
         'resolved' => [
-            'title' => 'We reviewed your report (Case :id)',
-            'text' => 'Hi there, the reported issue has been taken care of and is now sorted. Thanks for being a superhero of our community!',
+            'title' => 'Recebemos sua denúncia (Caso :id)',
+            'text' => 'Ola, o problema denunciado já foi resolvido. Obrigado por ser um super-herói da nossa comunidade!',
         ],
         'dismissed' => [
-            'title' => 'Update to your report (Case :id)',
-            'text' => 'After some detective work, we\'ve found that the content you had reported doesn\'t go against our guidelines. If you want us to review something specific, please make sure that you report the skin, profile, etc, and provide additional context when needed. Thanks for your concern and involvement in our community!',
+            'title' => 'Atualização a sua denúncia (Case :id)',
+            'text' => 'Depois de algum trabalho de detetive, decidimos que o conteúdo que você denunciou não viola nossas diretrizes. Se você quer que nos avaliemos algo específico, por favor denuncie a skin, perfil, etc., e inclua contexto adicional quando seja preciso. Obrigado por sua preocupação e envolvimento em nossa comunidade!',
         ]
     ]
 ];
