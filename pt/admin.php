@@ -29,7 +29,7 @@ return [
         'subtitle' => ':count total de usuários cadastrados',
         'list' => [
             'username' => 'Usuário',
-            'email' => 'Email',
+            'email' => 'E-mail',
             'status' => 'Status',
             'role' => 'Função'
         ],
