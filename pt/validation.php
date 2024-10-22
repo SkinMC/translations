@@ -69,10 +69,10 @@ return [
         'numeric' => 'O :attribute deve ser menor que :value.',
         'file' => 'O :attribute deve ser menor que :value kilobytes.',
         'string' => 'O :attribute deve ter menos que :value caracteres.',
-        'array' => 'The :attribute must have less than :value items.',
+        'array' => 'O :attribute deve ter menos que :value itens.',
     ],
     'lte' => [
-        'numeric' => 'The :attribute must be less than or equal :value.',
+        'numeric' => 'O :attribute deve ser menor que ou igual a :value.',
         'file' => 'The :attribute must be less than or equal :value kilobytes.',
         'string' => 'The :attribute must be less than or equal :value characters.',
         'array' => 'The :attribute must not have more than :value items.',
