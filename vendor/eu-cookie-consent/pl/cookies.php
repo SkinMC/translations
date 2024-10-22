@@ -21,12 +21,12 @@ return [
 
     'analytical' => 'Ciasteczka analityczne',
     'analytical_description' => 'Te ciasteczka pozwalają nam liczyć odwiedziny i źródła ruchu, abyśmy mogli mierzyć i poprawiać wydajność naszej strony. Jeśli nie zezwalasz na używanie tych plików cookie, informacje z tych plików cookie nie będą wykorzystywane do poprawy wydajności strony.',
-    'googleAnalytics' => 'Google Analytics',
-    'microsoftClarity' => 'Microsoft Clarity',
+    'googleAnalytics' => 'Analiza Google',
+    'microsoftClarity' => 'Przejrzystość Microsoftu',
 
     'googleOneTap' => 'Zaloguj się przez Google',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap_description' => 'Te pliki cookie umożliwiają funkcjonalność z Zaloguj się przez Google, aby szybko zalogować się lub utworzyć konto w Google. Dane z Zaloguj się przez Google są używane wyłącznie w celach bezpieczeństwa.',
 
     'facebookLogin' => 'Zaloguj się przez Facebook',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin_description' => 'Te pliki cookie umożliwiają funkcjonalność Zaloguj się przez Facebook, umożliwiającą szybkie zalogowanie się lub utworzenie konta na Facebooku.',
 ];
