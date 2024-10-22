@@ -42,7 +42,7 @@ return [
         'explore' => 'Explore novas ideias e ferramentas',
         'servers_browse' => 'Explorar servidores',
         'servers' => 'Descubra os melhores servidores para Minecraft',
-        'heads' => 'Minecraft heads',
+        'heads' => 'Cabeças do Minecraft',
         'head_description' => 'Encontre as melhores cabeças do Minecraft, ou cria suas próprias.',
         'achievement' => 'Gerador de conquistas',
         'achievement_detail' => 'Crie e personalize suas próprias conquistas.',
