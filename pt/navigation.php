@@ -2,7 +2,7 @@
 
 return [
     'skins' => 'Skins',
-    'avatars' => 'Avatar',
+    'avatars' => 'Avatares',
     'editor' => 'Editor',
     'heads' => 'Cabeças',
     'capes' => 'Capas',
@@ -23,12 +23,12 @@ return [
 
     'minecraft_name' => 'Nome no Minecraft',
     'minecraft_uuid' => 'UUID do Minecraft',
-    'what' => 'O quê',
+    'what' => 'Que',
     'recent_searches' => 'Buscas recentes',
     'username' => 'Nome de usuário',
     'uuid' => 'UUID',
     'search' => 'Buscar',
-    'search_placeholder' => 'Tentar',
+    'search_placeholder' => 'Tente',
     'search_placeholder_uuid' => 'Inserir UUID',
     'start_search' => 'Iniciar pesquisa',
     'cancel_search' => 'Cancelar',
