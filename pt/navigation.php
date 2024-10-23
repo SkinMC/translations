@@ -9,7 +9,7 @@ return [
     'servers' => 'Servidores',
     'achievement' => 'Conquistas',
     'armor' => 'Suporte de armadura',
-    'banners' => 'Banner',
+    'banners' => 'Banners',
     'profile' => 'Meu perfil',
 
     'generators' => 'Geradores',
