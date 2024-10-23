@@ -53,7 +53,7 @@ return [
         'minecraft_profile' => 'Perfil do Minecraft',
         'show_qr_code' => 'Mostrar QR Code',
         'favourite' => 'Favorito',
-        'user_title' => ':username Minecraft Skin',
+        'user_title' => ':username Skin do Minecraft',
         'user_views' => 'Visto :views time| Visto :views times',
         'uuid' => 'UUID',
         'copy' => 'Copiar',
@@ -63,7 +63,7 @@ return [
         'username_history_name' => 'Nome',
         'username_history_timestamp' => 'Alterado em',
         'username_history_initial_name' => 'Nome inicial',
-        'user_downloads' => ':downloads download|:downloads downloads',
+        'user_downloads' => ':downloads baixamento|:downloads baixamentos',
         'download_skin' => 'Baixar skin',
         'apply_skin' => 'Aplicar skin',
         'capes' => 'Capas',
@@ -77,7 +77,7 @@ return [
             'title' => 'Histórico de Skin do Minecraft'
         ],
         'qr_code' => [
-            'meta_title' => ':username\'s QR Code',
+            'meta_title' => 'QR Code de :username',
             'meta_description' => ':username QR Code personalizado do perfil de Minecraft'
         ],
         'sub_nav' => [
@@ -88,7 +88,7 @@ return [
             'comments' => 'Comentários'
         ],
         'cape' => 'Capa',
-        'elytra' => 'Elytra',
+        'elytra' => 'Élitro',
         'nametag' => 'Name tag',
         'animation' => 'Animação',
         'rotation' => 'Rotação',
