@@ -30,13 +30,13 @@ return [
         ],
         'mention' => [
             'title' => 'Nova menção',
-            'text' => ':user mencionou você em sua publicação!'
+            'text' => ':user mencionou você em uma publicação!'
         ]
     ],
     'level' => [
         'up' => [
             'title' => 'Você subiu de nível!',
-            'text' => 'Parabéns em alcançar o nível :level!'
+            'text' => 'Parabéns por alcançar o nível :level!'
         ]
     ],
     'report' => [
