@@ -16,16 +16,16 @@ return [
     'comment' => [
         'new' => [
             'title' => ':model comentário',
-            'text' => ':user comentou no seu :model'
+            'text' => ':user comentou em seu :model'
         ],
         'reply' => [
-            'title' => 'Responder no comentário de :model',
-            'text' => ':user respondeu a um comentário :model'
+            'title' => 'Responder ao comentário de :model',
+            'text' => ':user respondeu a um comentário em :model'
         ]
     ],
     'post' => [
         'like' => [
-            'title' => 'Curtidas recebidas',
+            'title' => 'Curtida recebida',
             'text' => ':user curtiu sua publicação!',
         ],
         'mention' => [
