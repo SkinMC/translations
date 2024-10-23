@@ -14,7 +14,7 @@ return [
         'tag_approved' => 'A tag adicionada por você foi aprovada',
         'tag_approved_vote' => 'A tag que você votou foi aprovada',
         'comment' => 'Deixou um comentário',
-        'comment_reply' => 'XP adicional por responder um comentário',
+        'comment_reply' => 'EXP adicional por responder um comentário',
         'generic' => 'Obteve EXP',
         'daily_login' => 'EXP de registro diário',
         'sign_up' => 'Bem-vindo(a) ao SkinMC.',
