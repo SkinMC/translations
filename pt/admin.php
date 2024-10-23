@@ -11,7 +11,7 @@ return [
     */
     'dashboard' => [
         'title' => 'Painel',
-        'total-members' => 'Total de membros',
+        'total-members' => 'Membros totais',
         'claimed-profiles' => 'Perfis reivindicados',
         'profiles' => 'Perfis',
         'skins' => 'Skins',
@@ -26,11 +26,11 @@ return [
     ],
     'users' => [
         'title' => 'Usuários',
-        'subtitle' => ':count total de usuários registrados',
+        'subtitle' => ':count usuários totais registrados',
         'list' => [
             'username' => 'Nome de usuário',
             'email' => 'E-mail',
-            'status' => 'Status',
+            'status' => 'Estado',
             'role' => 'Função'
         ],
     ],
@@ -47,14 +47,14 @@ return [
     ],
     'feed' => [
         'title' => 'Publicações do feed',
-        'subtitle' => ':count total de publicações criadas',
+        'subtitle' => ':count publicações totais',
     ],
     'comments' => [
         'title' => 'Comentários',
-        'subtitle' => ':count comentários publicados',
+        'subtitle' => ':count comentários totais',
         'deleted' => [
-            'title' => 'Comentários deletados',
-            'subtitle' => ':count comentários excluídos',
+            'title' => 'Comentários excluídos',
+            'subtitle' => ':count comentários totais',
         ]
     ]
 ];
