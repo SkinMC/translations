@@ -73,12 +73,12 @@ return [
     ],
     'lte' => [
         'numeric' => 'O :attribute deve ser menor que ou igual a :value.',
-        'file' => 'The :attribute must be less than or equal :value kilobytes.',
-        'string' => 'The :attribute must be less than or equal :value characters.',
-        'array' => 'The :attribute must not have more than :value items.',
+        'file' => 'O :attribute deve ser menor que ou igual a :value kilobytes.',
+        'string' => 'O :attribute deve ser menor que ou igual a :value caracteres.',
+        'array' => 'O :attribute deve não ter mais que :value itens.',
     ],
     'max' => [
-        'numeric' => 'The :attribute may not be greater than :max.',
+        'numeric' => 'O :attribute não deve ser maior que :max.',
         'file' => 'The :attribute may not be greater than :max kilobytes.',
         'string' => 'The :attribute may not be greater than :max characters.',
         'array' => 'The :attribute may not have more than :max items.',
