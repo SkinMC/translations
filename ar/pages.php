@@ -88,7 +88,7 @@ return [
             'comments' => 'التعليقات'
         ],
         'cape' => 'الكيبات',
-        'elytra' => 'Elytra',
+        'elytra' => 'اليترا',
         'nametag' => 'اسم العلامة',
         'animation' => 'الحركة',
         'rotation' => 'الدوران',
@@ -108,7 +108,7 @@ return [
         ],
         'edit' => 'تعديل الملف الشخصي',
         'joined' => 'تم الإنضمام',
-        'server-fav-list-empty' => 'Looks like :username hasn\'t got any favourite servers yet. Once :username has saved a server as their favourite, you can see it here.',
+        'server-fav-list-empty' => 'يبدو أن :username لم يحصل على أي سيرفرات مفضلة حتى الآن. بمجرد أن يقوم :username بحفظ سيرفر كمفضله، يمكنك رؤيته هنا.',
         'server-own-list-empty' => 'Looks like :username hasn\'t got any servers yet. Once :username has listed a server, you can see it here.',
         'capes-list-empty' => 'Looks like :username isn\'t wearing any capes yet. Once :username is wearing a cape, you can see it here.',
         'feed-own-list-empty' => 'Looks like you haven\'t posted anything to the feed yet! Once you post, you can see your posts here.',
