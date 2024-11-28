@@ -144,7 +144,7 @@ return [
         'first_wearing' => 'Первый игрок, который надел этот скин:',
         'profiles' => ':profiles профиль|:profiles профили',
         'profiles_title' => 'Профиль:profiles с этим скином|:profiles профили с этим скином',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Снимок экрана',
     ],
     'skins' => [
         'meta' => [
@@ -819,9 +819,9 @@ return [
             'save' => 'Сохранить',
             'password' => 'Пароль',
             'password-title' => 'Измените ваш пароль в любое время.',
-            'social-provider' => 'To update your account information, such as your password, please visit your login provider:',
-            'social-provider-email' => 'Your associated email address with your login provider',
-            'social-provider-connected' => 'Currently connected login providers',
+            'social-provider' => 'Для того чтобы обновить информацию об аккаунте, такую как Ваш пароль, посетите сайт поставщика метода авторизации:',
+            'social-provider-email' => 'Ваш email-адрес, ассоциированный с данным способом входа',
+            'social-provider-connected' => 'Сторонние методы авторизации, привязанные к аккаунту',
             'current-password' => 'Текущий пароль',
             'forgot' => 'Забыли пароль?',
             'edit' => 'Редактирование',
@@ -882,7 +882,7 @@ return [
             ],
             'status' => 'Статус',
             'status-toggle' => 'Показать мой статус онлайн',
-            'emoji' => 'Emoji',
+            'emoji' => 'Эмодзи',
             'name-history-toggle' => 'Сделать историю ника приватной',
             'name-history-info' => 'История вашего ника Minecraft сейчас',
             'name-history-toggle-on' => 'приватный',
@@ -890,7 +890,7 @@ return [
             'theme' => 'Тема профиля',
             'theme-primary' => 'Основной',
             'theme-secondary' => 'Вторичный',
-            'appearance' => 'Appearance',
+            'appearance' => 'Оформление',
         ],
         'link' => [
             'manage' => 'Управление привязанным аккаунтом Minecraft',
@@ -955,7 +955,7 @@ return [
             'share' => 'Отправить другу пригласительную ссылку'
         ],
         'emoji' => [
-            'title' => 'SkinMC Emoji',
+            'title' => 'Эмодзи SkinMC',
             'introducing' => 'Введение',
             'info' => 'Украсьте свой профиль с помощью emoji. Больше emoji будет доступно по мере увеличения Вашего уровня.',
             'unlocked_at' => 'Разблокируется на уровне :level',
