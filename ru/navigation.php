@@ -52,7 +52,7 @@ return [
     'animal_skins' => 'Скины животных',
     'community' => 'Сообщество',
     'imprint' => 'Отпечаток',
-    'cookies' => 'Cookies',
+    'cookies' => 'Файлы cookie',
     'terms' => 'Условия использования',
     'privacy' => 'Политика конфиденциальности',
     'app' => 'Приложение',
