@@ -11,7 +11,7 @@ return [
     */
     'follower' => [
         'title' => 'Novo seguidor',
-        'text' => ':user agora está seguindo você!'
+        'text' => ':user seguiu você!'
     ],
     'comment' => [
         'new' => [
@@ -19,7 +19,7 @@ return [
             'text' => ':user comentou em seu :model'
         ],
         'reply' => [
-            'title' => 'Responder ao comentário de :model',
+            'title' => 'Responder ao comentário no :model',
             'text' => ':user respondeu a um comentário em :model'
         ]
     ],
