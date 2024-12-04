@@ -19,10 +19,10 @@ return [
         'claim_detail' => 'Conecte-se com o Minecraft (apenas Java) e obtenha um emblema exclusivo em sua página junto ao acesso à personalização, sistema de comentário, e capas personalizadas. Deixe todos saberem onde encontrá-lo, do Discord, Twitter, YouTube, TikTok e muito mais.',
         'skin_history_title' => 'Histórico de skin',
         'skin_history_detail' => 'Mantenha o rastro de todas as suas skins anteriores do Minecraft com o histórico de skins na página do seu perfil. Acesse rapidamente e baixe suas skins usadas no passado.',
-        'avatar_generator_title' => 'Criador de avatar',
-        'avatar_generator_detail' => 'O criador de avatar original do Minecraft deixa você selecionar 4 estilos populares. Crie um avatar personalizado em Busto, Cubo, Formato da Cabeça, e o mais novo completamente personalizado em base 3D do seu nome de usuário do Java Edition.',
-        'achievements_title' => 'Criador de progressos/conquistas',
-        'achievements_detail' => 'Faça suas(eus) próprias(os) conquistas/progressos personalizados. Personalize tudo do texto amarelo, texto e o item em exibição.',
+        'avatar_generator_title' => 'Criador de skins',
+        'avatar_generator_detail' => 'O Criador de Skins original para Minecraft o permite selecionar um de 4 estilos populares. Crie uma skin personalizada em Busto, Cubo, Formato da Cabeça, e uma versão 3D bastante personalizada baseada no seu nome de usuário do Java Edition.',
+        'achievements_title' => 'Criador de Progressos/Conquistas',
+        'achievements_detail' => 'Faça suas conquistas personalizadas. Personalize tudo desde o texto amarelo, o texto branco e item exibido.',
         'no_ads_title' => 'Sem anúncios',
         'no_ads_detail' => 'SkinMC é inteiramente sem anúncios. Aproveite uma experiência livre de anúncios sem chatices intrusivas.'
     ],
@@ -33,7 +33,7 @@ return [
         'qr_scanner' => 'Leitor de QR Code integrado',
         'new_skins' => 'Milhares de novas skins todo dia',
         'achievement' =>  'Criador de conquistas',
-        'avatar' => 'O criador original de avatar'
+        'avatar' => 'O criador de skins original'
     ],
     'patch_notes_update' => 'Obrigada por usar o SkinMC. Com esta atualização você verá correções de erro e melhorias. O que você acha do SkinMC? Avalie-nos!'
 ];
