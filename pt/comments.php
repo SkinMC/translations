@@ -31,7 +31,7 @@ return [
     'last-seen' => 'Visto ultimamente :time',
     'member-since' => 'Membro desde',
     'comments' => 'Comentários',
-    'comment-karma' => 'Carma de comentário',
+    'comment-karma' => 'Karma de comentários',
     'rank' => 'Posição',
     'edit' => 'Editar comentário',
     'save-edit' => 'Salvar',
