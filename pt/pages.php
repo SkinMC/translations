@@ -102,9 +102,9 @@ return [
         'unfollow' => 'Deixar de seguir',
         'followers' => 'Seguidor|Seguidores',
         'toast' => [
-            'following' => 'Você agora segue :username!',
+            'following' => 'Você seguiu :username!',
             'follow-self-error' => 'Desculpe :username, você não pode seguir você mesmo.',
-            'unfollowed' => 'Você deixou de seguir :username'
+            'unfollowed' => 'Você parou de seguir :username'
         ],
         'edit' => 'Editar perfil',
         'joined' => 'Conectado',
@@ -123,32 +123,32 @@ return [
         'name-history-info' => 'A Mojang removeu o suporte para acessar a API do histórico de nomes no dia 13 de setembro de 2022. Se você deseja ocultar seu histórico de nomes, reivindique seu perfil e vá para configurações para torná-lo privado.',
         'edit-skins' => 'Editar histórico de skin',
         'hide-skin' => 'Ocultar skin',
-        'show-skin' => 'Exibir Skin',
+        'show-skin' => 'Exibir skin',
         'edit-skin' => 'Editar skin',
         'servers' => [
             'title' => 'Servidores de :username',
         ],
         'cape-list' => [
-            'title' => 'Capas de :username',
+            'title' => 'Mantos de :username',
         ]
     ],
     'skin' => [
         'meta' => [
             'title' => 'Skins de :username',
             'description' => 'Baixe e veja a pele e veja quais jogadores também estão usando a mesma pele.',
-            'tags' => ':username Minecraft Skin, :username Skin, Minecraft Skin, :username Custom Minecraft Skin, Download Skin, Players with the same skin',
+            'tags' => ':username Skin de Minecraft, :username Skin, Skin de Minecraft, :username Skin personalizada de Minecraft, Baixar skin, Jogadores com skins compartilhadas',
         ],
-        'title' => ':username Minecraft Skin',
-        'head' => 'Head commands',
-        'head_info' => 'To use with command blocks',
-        'first_wearing' => 'First player seen wearing this skin:',
-        'profiles' => ':profiles profile|:profiles profiles',
-        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
-        'screenshot' => 'Screenshot',
+        'title' => ':username Skin de Minecraft',
+        'head' => 'Comandos de cabeça',
+        'head_info' => 'Para usar com blocos de comando',
+        'first_wearing' => 'Primeiro jogador a usar esta skin:',
+        'profiles' => ':profiles perfil|:profiles perfis',
+        'profiles_title' => ':profiles perfil com esta skin|:profiles perfis com esta skin',
+        'screenshot' => 'Fazer captura de tela',
     ],
     'skins' => [
         'meta' => [
-            'title' => 'Page :current — All Minecraft Skins',
+            'title' => 'Página :current — Todas as Skins',
             'description' => 'Browse through our :last pages list of :total custom Minecraft skins and download your favourite next skin!',
             'tags' => ':username Minecraft Skin, :username Skin, Minecraft Skin, :username Custom Minecraft Skin, Download Skin, Players with the same skin',
             'tags-title' => ':tag Minecraft Skins',
