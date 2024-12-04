@@ -2,10 +2,10 @@
 
 return [
     'skins' => 'Skins',
-    'avatars' => 'Avatares',
+    'avatars' => 'Foto de perfil',
     'editor' => 'Editor',
     'heads' => 'Cabeças',
-    'capes' => 'Capas',
+    'capes' => 'Mantos',
     'servers' => 'Servidores',
     'achievement' => 'Conquistas',
     'armor' => 'Suporte de armadura',
@@ -37,7 +37,7 @@ return [
     'profiles' => 'Perfis',
     'view_skin' => 'Ver skin',
     'edit_skin' => 'Editar tema',
-    'make_avatar' => 'Criar avatar',
+    'make_avatar' => 'Criar skin',
     'find_heads' => 'Buscar cabeça de jogadores',
 
     'home' => 'Início',
