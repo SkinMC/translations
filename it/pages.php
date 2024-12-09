@@ -118,8 +118,8 @@ return [
         'following-list-empty' => 'Hmm, sembra che :username non stia seguendo nessuno. Una volta :username inizia a seguire le persone che puoi vedere qui.',
         'followers-own-list-empty' => 'Una volta che le persone iniziano a seguire il tuo profilo, appariranno qui.',
         'followers-list-empty' => 'Hmm, sembra che :username non sia seguito da nessuno. Sii il primo a seguire :username. Una volta che più persone seguono, puoi vederle qui.',
-        'render' => 'Renderer',
-        '3d' => '3D render',
+        'render' => 'Modalità di rendering',
+        '3d' => 'Rendering 3D',
         '2d' => 'render 2D',
         'name-history-info' => 'Cronologia nomi utente sta scomparendo. Mojang ha rimosso il supporto per accedere all\'API della cronologia dei nomi il 13 settembre 2022, con conseguente accurata cronologia dei nomi non è più disponibile. Se si desidera nascondere la cronologia dei nomi, rivendicare il tuo profilo e andare alle impostazioni per renderlo privato.',
         'edit-skins' => 'Modifica cronologia di skin',
@@ -143,9 +143,9 @@ return [
         'head' => 'Comandi di testa',
         'head_info' => 'Da usare con blocchi di comando',
         'first_wearing' => 'Primo giocatore visto indossare questa skin:',
-        'profiles' => ':profiles profile|:profiles profiles',
+        'profiles' => ':profili profilo|:profili profili',
         'profiles_title' => ':profiles profilo con questa skin|:profiles profili con questa skin',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Cattura schermata',
     ],
     'skins' => [
         'meta' => [
@@ -454,7 +454,7 @@ return [
             ],
         ],
         'servers' => [
-            'button' => 'Servers',
+            'button' => 'Server',
             'empty_headline' => 'Ancora nessun server preferito',
             'empty_subtitle' => 'Non hai ancora nessuna skin salvata nella tua lista preferiti. Visita la pagina del server e scopri la tua prossima preferita!',
             'empty_browse' => 'Sfoglia server',
@@ -545,7 +545,7 @@ return [
             'rate-experience' => 'Successivamente, valuta la tua esperienza in queste sezioni',
             'overall' => 'Globale',
             'server-team' => 'Squadra del server',
-            'community' => 'Community',
+            'community' => 'Comunità',
             'experience' => 'Esperienza',
             'availablility' => 'Orari e disponibilità',
             'shop' => 'Negozio',
@@ -725,7 +725,7 @@ return [
         'layers' => 'Livelli',
         'body' => [
             'title' => 'Corpo',
-            'overlay' => 'Overlay',
+            'overlay' => 'Copertura',
             'head' => 'Testa',
             'torso' => 'Busto',
             'l_arm' => 'Braccio sinistro',
@@ -791,7 +791,7 @@ return [
             'automatic_backups_info' => 'Come membro SkinMC plus le tue skin vengono salvate ogni giorno.',
         ],
         'capes' => [
-            'title' => 'SkinMC Minecraft Cape',
+            'title' => 'Mantello SkinMC',
             'description' => 'Indossa qualsiasi mantello che desideri nel gioco con SkinMC Capes gratis.',
             'drop' => 'Trascina qui un mantello',
             'drop-hint' => 'Dimensioni 64x32px',
@@ -892,7 +892,7 @@ return [
             'theme' => 'Tema del profilo',
             'theme-primary' => 'Primario',
             'theme-secondary' => 'Secondario',
-            'appearance' => 'Appearance',
+            'appearance' => 'Aspetto',
         ],
         'link' => [
             'manage' => 'Gestisci account di Minecraft collegato',
@@ -1184,7 +1184,7 @@ return [
         'submit' => 'Invia segnalazione',
         'reasons' => [
             'INAPPROPRIATE_CONTENT' => 'Contenuto inappropriato',
-            'SPAM' => 'Spam',
+            'SPAM' => 'Posta indesiderata',
             'HARASSMENT' => 'Molestia',
             'OTHER' => 'Altro',
         ]
