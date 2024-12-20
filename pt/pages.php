@@ -252,87 +252,87 @@ return [
             'change_skin' => '
                 <p>Para mudar sua Skin siga esses passos: </p>
                 <ol>
-                    <li>Visite <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a> Faça login com sua conta Mojang.</li><li>Depois de fazer login, selecione <b>"Skin"</b> no menu esquerdo.</li><li>Em seguida, escolha e carregue uma skin de sua preferência</li>
+                    <li>Visite <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a> faça login com sua conta Mojang.</li><li>Depois de fazer login, selecione <b>"Skin"</b> no menu esquerdo.</li><li>Em seguida, escolha e carregue uma skin de sua preferência.</li>
                 </ol>',
-            'change_username_t' => 'How do I change my Minecraft Username?',
+            'change_username_t' => 'Como mudar meu Nome de Usuário de Minecraft?',
             'change_username' => '
-                <p>To change your Username do the following:</p>
+                <p>Para mudar seu nome de usuário faça o seguinte:</p>
                 <ol>
-                    <li>Visit <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account.mojang.com/login</a> and log in with your Mojang account.</li>
-                    <li>Find your Minecraft Profile Name and press the <b>"(Change)"</b> button</li>
-                    <li>On the next page, enter your desired new username.</li>
-                    <li>Finally, confirm the changes by entering your password and pressing "Change name".</li>
+                    <li>Visite <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account.mojang.com/login</a> faça login com sua conta Mojang.</li>
+                    <li>Encontre o nome do seu perfil do Minecraft e pressione o botão <b>"(Mudar)"</b> button</li>
+                    <li>Na próxima página, insira o novo nome de usuário desejado.</li>
+                    <li>Por fim, confirme as alterações digitando sua senha e pressionando “Alterar nome”.</li>
                 </ol>',
-            'dl_t' => 'How do I download someones Minecraft Skin?',
+            'dl_t' => 'Como faço para baixar a Skin Minecraft de alguém?',
             'dl' => '
-                <p>To download anyones Minecraft Skin do the following:</p>
+<p>Para baixar a Skin Minecraft de qualquer pessoa, faça o seguinte:</p>
                 <ol>
-                    <li>Press on the search bar and enter the username of the player you would like to download the skin from.</li>
-                    <li>On the profile page you can preview the skin</li>
-                    <li>Click on the <strong>Download Skin</strong> button under the preview</li>
+                    <li>Pressione na barra de pesquisa e digite o nome de usuário do player do qual você deseja baixar o skin.</li>
+                    <li>Na página de perfil você pode visualizar a skin</li>
+                    <li>Clique no botão <strong>Baixar skin</strong> abaixo da visualização</li>
                 </ol>',
-            'submit_q' => 'How do I submit a skin to a collection?',
-            'submit_a' => '<p>Please fill out the following short form with the usernames and their category of which you would like to add to the collections. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Collection submission form</a>',
-            'mcpe_t' => 'Can I use the Skin on Minecraft PE?',
+            'submit_q' => 'Como faço para enviar uma skin para uma coleção?',
+            'submit_a' => '<p>Por favor preencha o seguinte formulário com os nomes de usuário e suas categorias que você gostaria de adicionar às coleções. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Formulário de envio de coleção</a>',
+            'mcpe_t' => 'Posso usar a Skin no Minecraft PE?',
             'mcpe' => '
-                <p>Yes. To use the Skin in Minecraft Pocket Edition do the following:</p>
+<p>Sim. Para usar a Skin no Minecraft Pocket Edition faça o seguinte:</p>
                 <ol>
-                    <li>Open SkinMC.net on your smartphone and tap the search bar</li>
-                    <li>Enter the username of the player\'s skin you would like to download</li>
-                    <li>Tap the <strong>Download Skin</strong> button under the preview </li>
-                    <li>Open Minecraft PE and tap on <strong>Profile</strong> on the right side</li>
-                    <li>Tap on the <strong>+</strong>, or edit character and go to the "classic skins tab"</li>
-                    <li>Tap on "owned", then "import", then "choose new skin"</li>
+                    <li>Abra SkinMC.net no seu smartphone e toque na barra de pesquisa</li>
+                    <li>Digite o nome de usuário da skin do jogador que você deseja baixar</li>
+                    <li>Toque no botão <strong>Baixar skin</strong> abaixo da visualização </li>
+                    <li>Abra o Minecraft PE e toque em <strong>Perfil</strong> no lado direito</li>
+                    <li>Toque em <strong>+</strong> ou edite o personagem e vá para a "guia de skins clássicas"</li>
+                    <li>Toque em "propriedade", depois em "importar" e em "escolher nova skin"</li>
                 </ol>',
-            'change_times_t' => 'How often can I change my username?',
-            'change_times' => '<p>You can change your Minecraft Username <strong>once</strong> every <strong>30 days</strong>.</p>',
-            'available_t' => 'After I changed my username, when does it become available for others to claim it?',
-            'available' => '<p>If you want to change back to your previous username, you can change back <strong>after 30 days.</strong> Everyone else needs to wait an additional <strong>7 days</strong> (37 days after changing) before they can claim your old username. </p>',
-            'username_history_t' => 'Can you remove my username history please?',
+            'change_times_t' => 'Com que frequência eu posso mudar meu nome de usuário?',
+            'change_times' => '<p>Você pode alterar seu nome de usuário do Minecraft <strong>uma vez</strong> a cada <strong>30 dias</strong>.</p>',
+            'available_t' => 'Após alterar meu nome de usuário, quando ele ficará disponível para que outras pessoas possam reivindicá-lo?',
+            'available' => '<p>Se quiser voltar ao seu nome de usuário anterior, você poderá alterá-lo novamente <strong>após 30 dias.</strong> Todos os outros precisarão esperar mais <strong>7 dias</strong> (37 dias após a alteração). antes que eles possam reivindicar seu nome de usuário antigo. </p>',
+            'username_history_t' => 'Como excluir meu histórico de nome de usuário?',
             'username_history' => '
-                <p>As the username history data comes from Mojang, the username history can not be removed. Mojang has previously stated that their intention was that previous usernames can be seen¹, and that they provide a direct method for the public to access this information².</p>
+<p>Como os dados do histórico do nome de usuário vêm da Mojang, o histórico do nome de usuário não pode ser removido. A Mojang declarou anteriormente que sua intenção era que os nomes de usuário anteriores pudessem ser vistos¹ e que eles fornecessem um método direto para o público acessar essas informações².</p>
                 <p class="font-14">¹<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames</a></p>
-                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter.com/dinnerbone/status/554739042529849345</a> (Tweet archived 2 years ago: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>)
+                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter. com/dinnerbone/status/554739042529849345</a> (Tweet arquivado há 2 anos: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>)
                 </p>',
         ],
     ],
     'avatars' => [
         'start' => [
-            'title' => 'Create your own Minecraft avatar',
-            'subtitle' => 'Use the Minecraft avatar generator to create a fun avatar from any skin!',
-            'avatar_face' => 'Face style avatar',
-            'avatar_bust' => 'Bust style avatar',
-            'avatar_cube' => 'Cube style avatar',
-            'avatar_head3d' => 'Custom 3D head',
+            'title' => 'Crie seu próprio avatar de Minecraft',
+            'subtitle' => 'Use o gerador de avatar do Minecraft para criar um avatar divertido de qualquer skin!',
+            'avatar_face' => 'Avatar - Estilo facial',
+            'avatar_bust' => 'Avatar - Estilo Busto',
+            'avatar_cube' => 'Avatar - Estilo Cubo',
+            'avatar_head3d' => 'Cabeça 3D personalizada',
         ],
         'user' => [
-            'title' => 'Choose skin',
-            'subtitle' => 'Enter the Minecraft Username for the avatar you would like to generate',
-            'form_label' => 'Minecraft username',
-            'form_submit' => 'Continue',
+            'title' => 'Escolher skin',
+            'subtitle' => 'Digite o nome de usuário do Minecraft para o avatar que deseja gerar',
+            'form_label' => 'Usuário do Minecraft',
+            'form_submit' => 'Continuar',
         ],
         'output' => [
-            'title' => 'Preview and save',
-            'subtitle' => 'Enjoy using your new Minecraft avatar',
-            'download_info' => 'Happy with the result? Start using your new avatar by downloading it here',
-            'download_button' => 'Download avatar',
-            'avatar_style' => 'Avatar style',
-            'skin_username' => 'Skin username',
-            'change' => 'Change',
-            'generate' => 'Generate',
-            'avatar_colour' => 'Background colour',
-            'avatar_colour_palette' => 'Palette',
-            'avatar_colour_basic' => 'Basic',
+            'title' => 'Visualizar e salvar',
+            'subtitle' => 'Aproveite usando seu novo avatar de Minecraft',
+            'download_info' => 'Feliz com o resultado? Comece a usar sua nova skin fazendo o download aqui',
+            'download_button' => 'Download Skin',
+            'avatar_style' => 'Estilo de Skin',
+            'skin_username' => 'Usuário da skin',
+            'change' => 'Alterar',
+            'generate' => 'Gerar',
+            'avatar_colour' => 'Cor do plano de fundo',
+            'avatar_colour_palette' => 'Paleta',
+            'avatar_colour_basic' => 'Básico',
         ],
         'meta' => [
-            'title' => 'Minecraft Avatar Generator',
-            'description' => 'Minecraft Avatar Maker: create custom Minecraft profile pictures using your Minecraft skin',
+            'title' => 'Gerador Minecraft Avatar',
+            'description' => 'Criador de Avatar do Minecraft: crie fotos de perfil personalizadas usando sua skin de Minecraft',
         ],
     ],
     'totem' => [
-        'title' => 'Custom Minecraft Totem',
-        'subtitle' => 'Use the Minecraft Totem generator to create a custom resource pack with a Totem of Undying from any skin.',
-        'download_info' => 'Happy with the preview? Choose your Minecraft version to save your custom resource pack:',
+        'title' => 'Totem de Minecraft Personalizado',
+        'subtitle' => 'Use o gerador de Totem do Minecraft para criar uma textura personalizada com um Totem de Imortalidade de qualquer skin.',
+        'download_info' => 'Feliz com a prévia? Escolha sua versão do Minecraft para salvar seu pacote de recursos personalizado:',
         'meta' => [
             'title' => 'Minecraft Custom Totem Generator',
             'description' => 'Custom Minecraft Totems: generate and create a custom Minecraft Resource Pack with a Totem of Undying using your or any other players Minecraft skin.',
