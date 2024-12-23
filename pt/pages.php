@@ -334,35 +334,35 @@ return [
         'subtitle' => 'Use o gerador de Totem do Minecraft para criar uma textura personalizada com um Totem de Imortalidade de qualquer skin.',
         'download_info' => 'Feliz com a prévia? Escolha sua versão do Minecraft para salvar seu pacote de recursos personalizado:',
         'meta' => [
-            'title' => 'Minecraft Custom Totem Generator',
-            'description' => 'Custom Minecraft Totems: generate and create a custom Minecraft Resource Pack with a Totem of Undying using your or any other players Minecraft skin.',
+            'title' => 'Gerador de Totem Personalizado do Minecraft',
+            'description' => 'Totens personalizados: gere e crie um pacote personalizado para o Minecraft com um Totem da imortalidade usando sua ou qualquer outro skin para o Minecraft.',
         ],
         'type' => [
-            'mini' => 'A mini version of your skin!',
-            'full' => 'A full version of your skin!',
-            'model3d' => 'A 3d model of your skin!',
-            'add_designs' => 'Want to see more designs? Submit your design suggestion here:'
+            'mini' => 'Uma mini versão da sua skin!',
+            'full' => 'Uma versão completa da sua skin!',
+            'model3d' => 'Um modelo 3D de sua skin!',
+            'add_designs' => 'Quer ver mais designs? Envie sua sugestão de design aqui:'
         ]
     ],
     'achievement' => [
         'header' => [
-            'title' => 'Create your own Minecraft Achievement',
-            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and use show your advancements in anything you like to!',
+            'title' => 'Crie sua própria Conquista do Minecraft',
+            'subtitle' => 'Use o Gerador de Conquistas do Minecraft para criar sua própria conquista personalizada e usar para mostrar seus avanços em todo lugar que você quiser!',
         ],
         'generator' => [
-            'yellow_text' => 'Yellow text',
-            'white_text' => 'White text',
-            'choose_icon' => 'Choose icon',
-            'face' => 'Minecraft face instead of icon',
+            'yellow_text' => 'Texto amarelo',
+            'white_text' => 'Texto branco',
+            'choose_icon' => 'Escolha o ícone',
+            'face' => 'Face de Minecraft em vez do ícone',
             'form_submit' => 'Download',
-            'form_label' => 'Minecraft username',
+            'form_label' => 'Usuário do Minecraft',
             'download' => 'Download',
             'embed' => 'Embed',
-            'embed_copy' => 'Copy',
+            'embed_copy' => 'Copiar',
         ],
         'meta' => [
-            'title' => 'Minecraft Achievement Generator',
-            'description' => 'Generate custom Minecraft Achievements and Advancements with the Achievement creator. Download the image directly, use it in forum signatures, embed with HTML or BB code, and more',
+            'title' => 'Gerador de Conquistas do Minecraft',
+            'description' => 'Gerar Conquistas personalizadas do Minecraft e avanços com o criador de conquistas. Baixar a imagem diretamente, use em assinaturas do fórum, incorpore HTML ou BB code, e muito mais',
         ],
     ],
     'armor' => [
