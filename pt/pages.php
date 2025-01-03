@@ -6,14 +6,14 @@ return [
             'title' => 'Bem-vindo ao SkinMC',
         ],
         'register' => [
-            'title' => 'Registre-se na SkinMC',
-            'subtitle' => 'Comece e crie sua conta para ter acesso total.'
+            'title' => 'Registre-se no SkinMC',
+            'subtitle' => 'Inicie e crie sua conta para ter acesso total.'
         ]
     ],
 
     'home' => [
         'hero_slogan' => 'Seu lugar para Skins de Minecraft.',
-        'hero_cta' => 'Me surpreenda',
+        'hero_cta' => 'Surpreenda-me',
         'hero_explore_cta' => 'Explorar skins',
         'skin_viewer' => 'Skins',
         'skin_viewer_detail' => 'Navegar por :count skins',
@@ -22,7 +22,7 @@ return [
         'avatar_maker' => 'Gerador de Avatar',
         'avatar_maker_detail' => 'Gere suas fotos de perfil de avatar do Minecraft.',
         'trending' => 'Em destaque',
-        'minecraft_skin' => 'Minecraft skin',
+        'minecraft_skin' => 'Skin do Minecraft',
         'favourite' => 'Favorito',
         'collections' => 'Coleções',
         'collections_detail' => 'Coleções de Skins para cada ocasião',
@@ -42,7 +42,7 @@ return [
         'explore' => 'Explore novas ideias e ferramentas',
         'servers_browse' => 'Explorar servidores',
         'servers' => 'Descubra os melhores servidores para Minecraft',
-        'heads' => 'Minecraft heads',
+        'heads' => 'Cabeças do Minecraft',
         'head_description' => 'Encontre as melhores cabeças do Minecraft, ou cria suas próprias.',
         'achievement' => 'Gerador de conquistas',
         'achievement_detail' => 'Crie e personalize suas próprias conquistas.',
@@ -53,7 +53,7 @@ return [
         'minecraft_profile' => 'Perfil do Minecraft',
         'show_qr_code' => 'Mostrar QR Code',
         'favourite' => 'Favorito',
-        'user_title' => ':username Minecraft Skin',
+        'user_title' => ':username Skin do Minecraft',
         'user_views' => 'Visto :views time| Visto :views times',
         'uuid' => 'UUID',
         'copy' => 'Copiar',
@@ -77,7 +77,7 @@ return [
             'title' => 'Histórico de Skin do Minecraft'
         ],
         'qr_code' => [
-            'meta_title' => ':username\'s QR Code',
+            'meta_title' => 'QR Code de :username',
             'meta_description' => ':username QR Code personalizado do perfil de Minecraft'
         ],
         'sub_nav' => [
@@ -88,8 +88,8 @@ return [
             'comments' => 'Comentários'
         ],
         'cape' => 'Capa',
-        'elytra' => 'Elytra',
-        'nametag' => 'Name tag',
+        'elytra' => 'Élitro',
+        'nametag' => 'Etiqueta',
         'animation' => 'Animação',
         'rotation' => 'Rotação',
         'none' => 'Nenhum',
@@ -102,267 +102,267 @@ return [
         'unfollow' => 'Deixar de seguir',
         'followers' => 'Seguidor|Seguidores',
         'toast' => [
-            'following' => 'Você agora segue :username!',
+            'following' => 'Você seguiu :username!',
             'follow-self-error' => 'Desculpe :username, você não pode seguir você mesmo.',
-            'unfollowed' => 'Você deixou de seguir :username'
+            'unfollowed' => 'Você parou de seguir :username'
         ],
         'edit' => 'Editar perfil',
         'joined' => 'Conectado',
-        'server-fav-list-empty' => 'Looks like :username hasn\'t got any favourite servers yet. Once :username has saved a server as their favourite, you can see it here.',
-        'server-own-list-empty' => 'Looks like :username hasn\'t got any servers yet. Once :username has listed a server, you can see it here.',
-        'capes-list-empty' => 'Looks like :username isn\'t wearing any capes yet. Once :username is wearing a cape, you can see it here.',
-        'feed-own-list-empty' => 'Looks like you haven\'t posted anything to the feed yet! Once you post, you can see your posts here.',
-        'feed-list-empty' => 'Hmm, it seems like :username hasn\'t posted anything to the feed yet. Once :username posts something you can see it here.',
+        'server-fav-list-empty' => 'Parece que :username não tem servidores favoritos ainda. Quando :username favoritar um servidor, você verá-lo aqui.',
+        'server-own-list-empty' => 'Parece que :username não listou um servidor ainda. Quando :username listar um servidor, você verá-lo aqui.',
+        'capes-list-empty' => 'Parece que :username não está vestindo nenhuma capa. Quando :username vestir uma capa, você verá-lo aqui.',
+        'feed-own-list-empty' => 'Parece que você ainda não postou nada no feed! Quando você postar, você poderá vê-los aqui.',
+        'feed-list-empty' => 'Hmm, parece que :username ainda não postou nada no feed. Quando :username postar algo, você poderá vê-lo aqui.',
         'following-own-list-empty' => 'Parece que você ainda não está seguindo ninguém! Quando começar a seguir outras pessoas, você poderá vê-las aqui.',
         'following-list-empty' => 'Hmm, parece que :username não está seguindo ninguém. Quando :username começa a seguir alguém, você pode vê-las aqui.',
         'followers-own-list-empty' => 'Quando as pessoas começarem a seguir o seu perfil, elas aparecerão aqui.',
         'followers-list-empty' => 'Hmm, parece que :username não está sendo seguido por ninguém. Seja o primeiro a seguir :username.',
         'render' => 'Renderizador',
-        '3d' => '3D render',
-        '2d' => '2D render',
+        '3d' => 'Renderização 3D',
+        '2d' => 'Renderização 2D',
         'name-history-info' => 'A Mojang removeu o suporte para acessar a API do histórico de nomes no dia 13 de setembro de 2022. Se você deseja ocultar seu histórico de nomes, reivindique seu perfil e vá para configurações para torná-lo privado.',
         'edit-skins' => 'Editar histórico de skin',
         'hide-skin' => 'Ocultar skin',
-        'show-skin' => 'Exibir Skin',
+        'show-skin' => 'Exibir skin',
         'edit-skin' => 'Editar skin',
         'servers' => [
-            'title' => ':username\'s servers',
+            'title' => 'Servidores de :username',
         ],
         'cape-list' => [
-            'title' => ':username\'s capes',
+            'title' => 'Mantos de :username',
         ]
     ],
     'skin' => [
         'meta' => [
-            'title' => ':username Minecraft Skin',
+            'title' => 'Skins de :username',
             'description' => 'Baixe e veja a pele e veja quais jogadores também estão usando a mesma pele.',
-            'tags' => ':username Minecraft Skin, :username Skin, Minecraft Skin, :username Custom Minecraft Skin, Download Skin, Players with the same skin',
+            'tags' => ':username Skin de Minecraft, :username Skin, Skin de Minecraft, :username Skin personalizada de Minecraft, Baixar skin, Jogadores com skins compartilhadas',
         ],
-        'title' => ':username Minecraft Skin',
-        'head' => 'Head commands',
-        'head_info' => 'To use with command blocks',
-        'first_wearing' => 'First player seen wearing this skin:',
-        'profiles' => ':profiles profile|:profiles profiles',
-        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
-        'screenshot' => 'Screenshot',
+        'title' => ':username Skin de Minecraft',
+        'head' => 'Comandos de cabeça',
+        'head_info' => 'Para usar com blocos de comando',
+        'first_wearing' => 'Primeiro jogador a usar esta skin:',
+        'profiles' => ':profiles perfil|:profiles perfis',
+        'profiles_title' => ':profiles perfil com esta skin|:profiles perfis com esta skin',
+        'screenshot' => 'Fazer captura de tela',
     ],
     'skins' => [
         'meta' => [
-            'title' => 'Page :current — All Minecraft Skins',
-            'description' => 'Browse through our :last pages list of :total custom Minecraft skins and download your favourite next skin!',
-            'tags' => ':username Minecraft Skin, :username Skin, Minecraft Skin, :username Custom Minecraft Skin, Download Skin, Players with the same skin',
+            'title' => 'Página :current — Todas as Skins',
+            'description' => 'Navegue através da nossa :last page lista de skins de Minecraft personalizadas :total e baixe sua próxima skina favorita!',
+            'tags' => ':username Skin de Minecraft, :username Skin, Skin de Minecraft, :username Skin personalizada de Minecraft, Baixar skin, Jogadores com skins compartilhadas',
             'tags-title' => ':tag Minecraft Skins',
-            'tags-description' => 'Browse through our :last pages list of :total :tag Minecraft skins and download your favourite :tag skin!',
+            'tags-description' => 'Navegue pela nossa :last page lista de :total :tag skins de Minecraft para baixar sua skin :tag favorita!',
             'tags-metatags' => ':tag Minecraft Skin, :tag Skin, Minecraft Skin, :tag Custom Minecraft Skin, Download :tag Skin, Minecraft :tag Skins',
         ],
-        'title-skin-tags' => 'Tagged Minecraft Skins',
-        'subtitle' => 'Page :current of :last from :total Minecraft Skins',
-        'subtitle-skin-tags' => 'Page :current of :last from :total Tagged Minecraft Skins',
-        'sort_by' => 'Sort by',
-        'latest' => 'Latest skins',
-        'most_profiles' => 'Most used skins',
-        'profiles_today' => 'Most used today',
-        'profiles_this_week' => 'Most used this week',
-        'profiles_this_month' => 'Most used this month',
-        'default' => 'Default sorting',
-        'this_month' => 'Added this month',
-        'this_week' => 'Added this week',
-        'today' => 'Added today',
-        'random' => 'Random',
-        'similar' => 'Similar skins',
-        'no_similar_skins' => 'No similar skins found yet.',
-        'favorite' => ':count favourite|:count favourites',
+        'title-skin-tags' => 'Tags Minecraft Skin',
+        'subtitle' => 'Página :current de :last de :total Skins de Minecraft',
+        'subtitle-skin-tags' => 'Página :current de :last de :total Tags Minecraft Skin',
+        'sort_by' => 'Ordenar por',
+        'latest' => 'Skin mais recente',
+        'most_profiles' => 'Skins mais usadas',
+        'profiles_today' => 'Mais usados hoje',
+        'profiles_this_week' => 'Mais usados nesta semana',
+        'profiles_this_month' => 'Mais usados este mês',
+        'default' => 'Ordenar por padrão',
+        'this_month' => 'Adicionado este mês',
+        'this_week' => 'Adicionado esta semana',
+        'today' => 'Adicionado hoje',
+        'random' => 'Aleatório',
+        'similar' => 'Skins semelhantes',
+        'no_similar_skins' => 'Nenhuma skin semelhante foi encontrada ainda.',
+        'favorite' => ':count favorito|:count favoritos',
     ],
     'skin-tags' => [
-        'faq' => 'What are tags?',
-        'about' => 'Tags are a way you to add relevant categories to skins. Adding tags allows you to discover more skins you like easily!',
+        'faq' => 'O que são tags?',
+        'about' => 'Tags são uma forma de adicionar categorias relevantes a skins. Adicionar tags permite que você descubra mais skins de que gosta facilmente!',
         'guidelines' => [
             'good' => [
-                'title' => 'General guidelines for good tags are:',
-                'short' => 'Short',
-                'descriptive' => 'Descriptive',
-                'spelled' => 'Spelled correctly',
+                'title' => 'As diretrizes gerais para boas tags são:',
+                'short' => 'Curto',
+                'descriptive' => 'Descritivo',
+                'spelled' => 'Ortografia correta',
             ],
             'bad' => [
-                'title' => 'Do not add tags such as:',
-                'general' => 'Too general',
-                'specific' =>  'Too specific',
-                'too-many-tags' =>  'Should be three separate tags',
-                'spelling' => 'Should be :example',
+                'title' => 'Não adicione tags como:',
+                'general' => 'Muito geral',
+                'specific' =>  'Muito específico',
+                'too-many-tags' =>  'Deve ser três tags separadas',
+                'spelling' => 'Deve ser :example',
             ],
         ],
         'toast' => [
-            'added' => 'Tag ”:tag” added for voting',
-            'removed' => 'Tag ”:tag” has been removed',
-            'upvote' => 'Upvoted ”:tag”',
+            'added' => 'Tag ":tag" adicionada para votação',
+            'removed' => 'Tag ":tag" foi removida',
+            'upvote' => 'Upvoted ":tag"',
             'downvote' => 'Downvoted ”:tag”'
         ],
         'vote' => [
             'up' => 'Upvote',
             'down' => 'Downvote',
-            'remove' => 'Remove vote',
+            'remove' => 'Remover voto',
         ],
     ],
     'contact' => [
-        'contact' => 'Contact',
-        'email' => 'Please feel free to write us at <a href="mailto:support@skinmc.net">support@skinmc.net</a> for any questions you have.',
-        'faq' => 'We kindly ask to first check out the <a href=":link">FAQ page</a> if your question is already answered there.',
-        'other' => 'Other ways to connect',
-        'other_discord' => 'Join the Discord server and connect with others, chat about games, share your favourite packs and get help from the community.',
-        'other_twitter' => 'Follow on Twitter to see when a new update or feature is released, see the skin of the week and more.',
-        'other_instagram' => 'Follow SkinMC on Instagram to browse and discover cool new featured Minecraft Skins and images.',
-        'other_facebook' => 'Become a fan on Facebook and see all posts where you can comment and talk to others while exploring Minecraft content.'
+        'contact' => 'Contato',
+        'email' => 'Sinta-se a vontade para nos escrever em <a href="mailto:support@skinmc.net">support@skinmc.net</a> para qualquer dúvida que você tenha.',
+        'faq' => 'Você pode conferir aqui <a href=":link">página FAQ</a> se sua pergunta já foi respondida lá.',
+        'other' => 'Outras maneiras de conectar',
+        'other_discord' => 'Entre no servidor do Discord e se conecte com outras pessoas, converse sobre jogos, compartilhe seus pacotes favoritos e tenha ajuda da comunidade.',
+        'other_twitter' => 'Siga no Twitter para ver quando uma nova atualização ou recurso for lançada, veja a skin da semana e muito mais.',
+        'other_instagram' => 'Siga SkinMC no Instagram para navegar e descobrir novas skins e imagens em destaque do Minecraft.',
+        'other_facebook' => 'Torne-se um fã no Facebook e veja todas as postagens onde você pode comentar e conversar com os outros enquanto explora o conteúdo do Minecraft.'
     ],
     'about' => [
-        'intro' => '<span>Your</span> <span>platform</span> <span>for</span> <span>Minecraft</span> <span>Skins.</span>',
-        'header_credit' => 'Illustration "Epic Nether Battle" by',
-        'info' => 'Keep track of everything.',
-        'info_explainer' => 'View a players name history, see their previous skins, add them as a friend, download skins, and even get details statistics.',
-        'card_find_title' => 'Find any minecrafter',
-        'card_find_detail' => 'Get started by searching for any players username or UUID of your choice.',
-        'card_view_title' => 'View, save & edit',
-        'card_view_detail' => 'Found a skin you like? Save it by downloading or use the editor to make it your own.',
-        'card_claim_title' => 'Get verified',
-        'card_claim_detail' => 'Link up your Minecraft account and claim your profile to unlock cool new features!',
-        'card_customise_title' => 'Customise your profile',
-        'card_customise_detail' => 'Verified players can add their social media links and make their profile their own.',
-        'card_friends_title' => 'Add your friends',
-        'card_friends_detail' => 'Get connected with your friends on SkinMC and show your friend list on the profile.',
-        'card_history_title' => 'Username & skin history',
-        'card_history_detail' => 'Use the advanced search to find and see the username/skin history of a player.',
-        'founders' => 'The founders',
-        'founders_cofounder' => 'Cofounder of SkinMC',
-        'head_of_design' => 'Head of design',
-        'head_of_code' => 'Head of code',
-        'feedback' => 'Send us feedback',
-        'faq' => 'Questions about Minecraft, Skins, and more? Read our FAQs with answers to most frequently asked questions.',
-        'faq_link' => 'Visit FAQ center',
-        'contact' => 'Do you want to reach out or have further questions? Contact us directly.',
-        'contact_link' => 'Contact us',
+        'intro' => '<span>Sua</span> <span>plataforma</span> <span>para</span> <span>Minecraft</span> <span>Skins.</span>',
+        'header_credit' => 'Ilustração "Epic Nether Battle" por',
+        'info' => 'Acompanhe tudo.',
+        'info_explainer' => 'Veja o histórico de nomes dos jogadores, veja suas skins anteriores, adicione-as como um amigo, baixe skins, e até mesmo receba estatísticas detalhadas.',
+        'card_find_title' => 'Encontre qualquer jogador de Minecraft',
+        'card_find_detail' => 'Comece procurando por qualquer nome de jogador ou UUID de sua escolha.',
+        'card_view_title' => 'Ver, salvar e editar',
+        'card_view_detail' => 'Encontrou uma skin que você gostou? baixe ou use o editor para torná-la sua.',
+        'card_claim_title' => 'Seja verificado',
+        'card_claim_detail' => 'Conecte sua conta do Minecraft e reivindique seu perfil para desbloquear novos recursos!',
+        'card_customise_title' => 'Personalize seu Perfil',
+        'card_customise_detail' => 'Jogadores verificados podem adicionar links de mídia social e criar seu próprio perfil.',
+        'card_friends_title' => 'Adicione seus amigos',
+        'card_friends_detail' => 'Conecte-se com seus amigos no SkinMC e mostre sua lista de amigos no perfil.',
+        'card_history_title' => 'Nome de usuário e histórico de skin',
+        'card_history_detail' => 'Use a pesquisa avançada para encontrar e ver o histórico do nome de usuário/skin de um jogador.',
+        'founders' => 'Os fundadores',
+        'founders_cofounder' => 'Cofundador do SkinMC',
+        'head_of_design' => 'Chefe de design',
+        'head_of_code' => 'Chefe de códigos',
+        'feedback' => 'Envie seu comentário',
+        'faq' => 'Perguntas sobre Minecraft, Skins e muito mais? Leia nossas perguntas frequentes com respostas às perguntas mais frequentes.',
+        'faq_link' => 'Visite o Centro FAQ',
+        'contact' => 'Você quer entrar em contato conosco ou tem mais dúvidas? Contate-nos diretamente.',
+        'contact_link' => 'Fale conosco',
 
     ],
     'faq' => [
         'title' => 'FAQs',
-        'subtitle' => 'Frequently asked questions',
-        'help' => 'Need more help?',
-        'discord' => 'Join the Discord server to chat with other Minecraft players.',
-        'contact' => 'Contact us',
+        'subtitle' => 'Perguntas frequentes',
+        'help' => 'Precisa de mais ajuda?',
+        'discord' => 'Entre no servidor do Discord para conversar com outros jogadores de Minecraft.',
+        'contact' => 'Fale conosco',
         'q' => [
-            'change_skin_t' => 'How do I change my Minecraft Skin?',
+            'change_skin_t' => 'Como mudo minha Skin do Minecraft?',
             'change_skin' => '
-                <p>To change your Skin do the following:</p>
+                <p>Para mudar sua Skin siga esses passos: </p>
                 <ol>
-                    <li>Visit <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a> and sign in with your Mojang account.</li><li>Once signed in, select <b>"Skin"</b> on the left menu.</li><li>Then, choose a Model you prefer and upload a the Skin of your liking.</li>
+                    <li>Visite <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a> faça login com sua conta Mojang.</li><li>Depois de fazer login, selecione <b>"Skin"</b> no menu esquerdo.</li><li>Em seguida, escolha e carregue uma skin de sua preferência.</li>
                 </ol>',
-            'change_username_t' => 'How do I change my Minecraft Username?',
+            'change_username_t' => 'Como mudar meu Nome de Usuário de Minecraft?',
             'change_username' => '
-                <p>To change your Username do the following:</p>
+                <p>Para mudar seu nome de usuário faça o seguinte:</p>
                 <ol>
-                    <li>Visit <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account.mojang.com/login</a> and log in with your Mojang account.</li>
-                    <li>Find your Minecraft Profile Name and press the <b>"(Change)"</b> button</li>
-                    <li>On the next page, enter your desired new username.</li>
-                    <li>Finally, confirm the changes by entering your password and pressing "Change name".</li>
+                    <li>Visite <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account.mojang.com/login</a> faça login com sua conta Mojang.</li>
+                    <li>Encontre o nome do seu perfil do Minecraft e pressione o botão <b>"(Mudar)"</b> button</li>
+                    <li>Na próxima página, insira o novo nome de usuário desejado.</li>
+                    <li>Por fim, confirme as alterações digitando sua senha e pressionando “Alterar nome”.</li>
                 </ol>',
-            'dl_t' => 'How do I download someones Minecraft Skin?',
+            'dl_t' => 'Como faço para baixar a Skin Minecraft de alguém?',
             'dl' => '
-                <p>To download anyones Minecraft Skin do the following:</p>
+<p>Para baixar a Skin Minecraft de qualquer pessoa, faça o seguinte:</p>
                 <ol>
-                    <li>Press on the search bar and enter the username of the player you would like to download the skin from.</li>
-                    <li>On the profile page you can preview the skin</li>
-                    <li>Click on the <strong>Download Skin</strong> button under the preview</li>
+                    <li>Pressione na barra de pesquisa e digite o nome de usuário do player do qual você deseja baixar o skin.</li>
+                    <li>Na página de perfil você pode visualizar a skin</li>
+                    <li>Clique no botão <strong>Baixar skin</strong> abaixo da visualização</li>
                 </ol>',
-            'submit_q' => 'How do I submit a skin to a collection?',
-            'submit_a' => '<p>Please fill out the following short form with the usernames and their category of which you would like to add to the collections. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Collection submission form</a>',
-            'mcpe_t' => 'Can I use the Skin on Minecraft PE?',
+            'submit_q' => 'Como faço para enviar uma skin para uma coleção?',
+            'submit_a' => '<p>Por favor preencha o seguinte formulário com os nomes de usuário e suas categorias que você gostaria de adicionar às coleções. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Formulário de envio de coleção</a>',
+            'mcpe_t' => 'Posso usar a Skin no Minecraft PE?',
             'mcpe' => '
-                <p>Yes. To use the Skin in Minecraft Pocket Edition do the following:</p>
+<p>Sim. Para usar a Skin no Minecraft Pocket Edition faça o seguinte:</p>
                 <ol>
-                    <li>Open SkinMC.net on your smartphone and tap the search bar</li>
-                    <li>Enter the username of the player\'s skin you would like to download</li>
-                    <li>Tap the <strong>Download Skin</strong> button under the preview </li>
-                    <li>Open Minecraft PE and tap on <strong>Profile</strong> on the right side</li>
-                    <li>Tap on the <strong>+</strong>, or edit character and go to the "classic skins tab"</li>
-                    <li>Tap on "owned", then "import", then "choose new skin"</li>
+                    <li>Abra SkinMC.net no seu smartphone e toque na barra de pesquisa</li>
+                    <li>Digite o nome de usuário da skin do jogador que você deseja baixar</li>
+                    <li>Toque no botão <strong>Baixar skin</strong> abaixo da visualização </li>
+                    <li>Abra o Minecraft PE e toque em <strong>Perfil</strong> no lado direito</li>
+                    <li>Toque em <strong>+</strong> ou edite o personagem e vá para a "guia de skins clássicas"</li>
+                    <li>Toque em "propriedade", depois em "importar" e em "escolher nova skin"</li>
                 </ol>',
-            'change_times_t' => 'How often can I change my username?',
-            'change_times' => '<p>You can change your Minecraft Username <strong>once</strong> every <strong>30 days</strong>.</p>',
-            'available_t' => 'After I changed my username, when does it become available for others to claim it?',
-            'available' => '<p>If you want to change back to your previous username, you can change back <strong>after 30 days.</strong> Everyone else needs to wait an additional <strong>7 days</strong> (37 days after changing) before they can claim your old username. </p>',
-            'username_history_t' => 'Can you remove my username history please?',
+            'change_times_t' => 'Com que frequência eu posso mudar meu nome de usuário?',
+            'change_times' => '<p>Você pode alterar seu nome de usuário do Minecraft <strong>uma vez</strong> a cada <strong>30 dias</strong>.</p>',
+            'available_t' => 'Após alterar meu nome de usuário, quando ele ficará disponível para que outras pessoas possam reivindicá-lo?',
+            'available' => '<p>Se quiser voltar ao seu nome de usuário anterior, você poderá alterá-lo novamente <strong>após 30 dias.</strong> Todos os outros precisarão esperar mais <strong>7 dias</strong> (37 dias após a alteração). antes que eles possam reivindicar seu nome de usuário antigo. </p>',
+            'username_history_t' => 'Como excluir meu histórico de nome de usuário?',
             'username_history' => '
-                <p>As the username history data comes from Mojang, the username history can not be removed. Mojang has previously stated that their intention was that previous usernames can be seen¹, and that they provide a direct method for the public to access this information².</p>
+<p>Como os dados do histórico do nome de usuário vêm da Mojang, o histórico do nome de usuário não pode ser removido. A Mojang declarou anteriormente que sua intenção era que os nomes de usuário anteriores pudessem ser vistos¹ e que eles fornecessem um método direto para o público acessar essas informações².</p>
                 <p class="font-14">¹<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames</a></p>
-                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter.com/dinnerbone/status/554739042529849345</a> (Tweet archived 2 years ago: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>)
+                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter. com/dinnerbone/status/554739042529849345</a> (Tweet arquivado há 2 anos: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>)
                 </p>',
         ],
     ],
     'avatars' => [
         'start' => [
-            'title' => 'Create your own Minecraft avatar',
-            'subtitle' => 'Use the Minecraft avatar generator to create a fun avatar from any skin!',
-            'avatar_face' => 'Face style avatar',
-            'avatar_bust' => 'Bust style avatar',
-            'avatar_cube' => 'Cube style avatar',
-            'avatar_head3d' => 'Custom 3D head',
+            'title' => 'Crie seu próprio avatar de Minecraft',
+            'subtitle' => 'Use o gerador de avatar do Minecraft para criar um avatar divertido de qualquer skin!',
+            'avatar_face' => 'Avatar - Estilo facial',
+            'avatar_bust' => 'Avatar - Estilo Busto',
+            'avatar_cube' => 'Avatar - Estilo Cubo',
+            'avatar_head3d' => 'Cabeça 3D personalizada',
         ],
         'user' => [
-            'title' => 'Choose skin',
-            'subtitle' => 'Enter the Minecraft Username for the avatar you would like to generate',
-            'form_label' => 'Minecraft username',
-            'form_submit' => 'Continue',
+            'title' => 'Escolher skin',
+            'subtitle' => 'Digite o nome de usuário do Minecraft para o avatar que deseja gerar',
+            'form_label' => 'Usuário do Minecraft',
+            'form_submit' => 'Continuar',
         ],
         'output' => [
-            'title' => 'Preview and save',
-            'subtitle' => 'Enjoy using your new Minecraft avatar',
-            'download_info' => 'Happy with the result? Start using your new avatar by downloading it here',
-            'download_button' => 'Download avatar',
-            'avatar_style' => 'Avatar style',
-            'skin_username' => 'Skin username',
-            'change' => 'Change',
-            'generate' => 'Generate',
-            'avatar_colour' => 'Background colour',
-            'avatar_colour_palette' => 'Palette',
-            'avatar_colour_basic' => 'Basic',
+            'title' => 'Visualizar e salvar',
+            'subtitle' => 'Aproveite usando seu novo avatar de Minecraft',
+            'download_info' => 'Feliz com o resultado? Comece a usar sua nova skin fazendo o download aqui',
+            'download_button' => 'Download Skin',
+            'avatar_style' => 'Estilo de Skin',
+            'skin_username' => 'Usuário da skin',
+            'change' => 'Alterar',
+            'generate' => 'Gerar',
+            'avatar_colour' => 'Cor do plano de fundo',
+            'avatar_colour_palette' => 'Paleta',
+            'avatar_colour_basic' => 'Básico',
         ],
         'meta' => [
-            'title' => 'Minecraft Avatar Generator',
-            'description' => 'Minecraft Avatar Maker: create custom Minecraft profile pictures using your Minecraft skin',
+            'title' => 'Gerador Minecraft Avatar',
+            'description' => 'Criador de Avatar do Minecraft: crie fotos de perfil personalizadas usando sua skin de Minecraft',
         ],
     ],
     'totem' => [
-        'title' => 'Custom Minecraft Totem',
-        'subtitle' => 'Use the Minecraft Totem generator to create a custom resource pack with a Totem of Undying from any skin.',
-        'download_info' => 'Happy with the preview? Choose your Minecraft version to save your custom resource pack:',
+        'title' => 'Totem de Minecraft Personalizado',
+        'subtitle' => 'Use o gerador de Totem do Minecraft para criar uma textura personalizada com um Totem de Imortalidade de qualquer skin.',
+        'download_info' => 'Feliz com a prévia? Escolha sua versão do Minecraft para salvar seu pacote de recursos personalizado:',
         'meta' => [
-            'title' => 'Minecraft Custom Totem Generator',
-            'description' => 'Custom Minecraft Totems: generate and create a custom Minecraft Resource Pack with a Totem of Undying using your or any other players Minecraft skin.',
+            'title' => 'Gerador de Totem Personalizado do Minecraft',
+            'description' => 'Totens personalizados: gere e crie um pacote personalizado para o Minecraft com um Totem da imortalidade usando sua ou qualquer outro skin para o Minecraft.',
         ],
         'type' => [
-            'mini' => 'A mini version of your skin!',
-            'full' => 'A full version of your skin!',
-            'model3d' => 'A 3d model of your skin!',
-            'add_designs' => 'Want to see more designs? Submit your design suggestion here:'
+            'mini' => 'Uma mini versão da sua skin!',
+            'full' => 'Uma versão completa da sua skin!',
+            'model3d' => 'Um modelo 3D de sua skin!',
+            'add_designs' => 'Quer ver mais designs? Envie sua sugestão de design aqui:'
         ]
     ],
     'achievement' => [
         'header' => [
-            'title' => 'Create your own Minecraft Achievement',
-            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and use show your advancements in anything you like to!',
+            'title' => 'Crie sua própria Conquista do Minecraft',
+            'subtitle' => 'Use o Gerador de Conquistas do Minecraft para criar sua própria conquista personalizada e usar para mostrar seus avanços em todo lugar que você quiser!',
         ],
         'generator' => [
-            'yellow_text' => 'Yellow text',
-            'white_text' => 'White text',
-            'choose_icon' => 'Choose icon',
-            'face' => 'Minecraft face instead of icon',
+            'yellow_text' => 'Texto amarelo',
+            'white_text' => 'Texto branco',
+            'choose_icon' => 'Escolha o ícone',
+            'face' => 'Face de Minecraft em vez do ícone',
             'form_submit' => 'Download',
-            'form_label' => 'Minecraft username',
+            'form_label' => 'Usuário do Minecraft',
             'download' => 'Download',
             'embed' => 'Embed',
-            'embed_copy' => 'Copy',
+            'embed_copy' => 'Copiar',
         ],
         'meta' => [
-            'title' => 'Minecraft Achievement Generator',
-            'description' => 'Generate custom Minecraft Achievements and Advancements with the Achievement creator. Download the image directly, use it in forum signatures, embed with HTML or BB code, and more',
+            'title' => 'Gerador de Conquistas do Minecraft',
+            'description' => 'Gerar Conquistas personalizadas do Minecraft e avanços com o criador de conquistas. Baixar a imagem diretamente, use em assinaturas do fórum, incorpore HTML ou BB code, e muito mais',
         ],
     ],
     'armor' => [
@@ -497,7 +497,7 @@ return [
     ],
     'servers' => [
         'title' => 'Minecraft servers',
-        'subtitle' => 'Browse and explore minecraft servers',
+        'subtitle' => 'Navegue e explore os Servidores de Minecraft',
         'all' => 'All servers',
         'manage_your_servers' => 'Manage your servers',
         'add_new_server' => 'Add new server',
@@ -524,7 +524,7 @@ return [
         'review-count' => ':count Review|:count Reviews',
         'meta' => [
             'title' => 'Minecraft Server List',
-            'description' => 'Browse and explore the Minecraft Servers list to find the best Minecraft server! Filter by the latest, most popular and much more',
+            'description' => 'Navegue e explore a lista de Servidores de Minecraft para encontrar o melhor Servidor! Filtre pelos mais recentes, mais populares e muito mais',
         ],
         'reviews' => [
             'meta' => [

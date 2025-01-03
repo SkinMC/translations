@@ -57,7 +57,7 @@ return [
         'user_views' => 'Wyświetlono :view time|Wyświetlono :view times',
         'uuid' => 'UUUID',
         'copy' => 'Kopiuj',
-        'link' => 'Link',
+        'link' => 'Połączyć',
         'skin_history' => 'Historia skórek Minecraft (:skins)',
         'username_history' => 'Historia nazw użytkownika',
         'username_history_name' => 'Nazwisko',
@@ -73,7 +73,7 @@ return [
         'created_at' => 'Zaktualizowano: :changed_at',
         'skins' => [
             'meta_title' => 'Historia skórki Minecraft :username',
-            'meta_description' => 'View :username Minecraft Skins history and previously used Skins. Use the history to browse through old or past used skins, backup and rollback or collect new skins.',
+            'meta_description' => 'Widok :username Historia skórek Minecraft i poprzednio używane skórki. Użyj historii, aby przeglądać stare lub poprzednio używane skórki, tworzyć kopie zapasowe i przywracać lub zbierać nowe skórki.',
             'title' => 'Historia Skórki Minecraft'
         ],
         'qr_code' => [
@@ -88,7 +88,7 @@ return [
             'comments' => 'Komentarze'
         ],
         'cape' => 'Pelerynka',
-        'elytra' => 'Elytra',
+        'elytra' => 'Pokrywy',
         'nametag' => 'Etykieta nazwy',
         'animation' => 'Animacja',
         'rotation' => 'Rotacja',
@@ -108,9 +108,9 @@ return [
         ],
         'edit' => 'Edytuj profil',
         'joined' => 'Dołączył(a)',
-        'server-fav-list-empty' => 'Looks like :username hasn\'t got any favourite servers yet. Once :username has saved a server as their favourite, you can see it here.',
-        'server-own-list-empty' => 'Looks like :username hasn\'t got any servers yet. Once :username has listed a server, you can see it here.',
-        'capes-list-empty' => 'Looks like :username isn\'t wearing any capes yet. Once :username is wearing a cape, you can see it here.',
+        'server-fav-list-empty' => 'Wygląda na to, że :username nie ma jeszcze żadnych ulubionych serwerów. Gdy :username zapisze serwer jako swój ulubiony, możesz go zobaczyć tutaj.',
+        'server-own-list-empty' => 'Wygląda na to, że :username nie ma jeszcze żadnych serwerów. Gdy :username doda serwer, możesz go tutaj zobaczyć.',
+        'capes-list-empty' => 'Wygląda na to, że :username nie nosi jeszcze żadnej peleryny. Gdy :username założy pelerynę, możesz ją zobaczyć tutaj.',
         'feed-own-list-empty' => 'Looks like you haven\'t posted anything to the feed yet! Once you post, you can see your posts here.',
         'feed-list-empty' => 'Hmm, it seems like :username hasn\'t posted anything to the feed yet. Once :username posts something you can see it here.',
         'following-own-list-empty' => 'Wygląda na to, że jeszcze nikogo nie obserwujesz! Gdy zaczniesz obserwować inne osoby, zobaczysz je tutaj.',

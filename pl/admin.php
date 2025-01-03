@@ -29,7 +29,7 @@ return [
         'subtitle' => ':count zarejestrowanych użytkowników',
         'list' => [
             'username' => 'Nazwa użytkownika',
-            'email' => 'Email',
+            'email' => 'E-mail',
             'status' => 'Status',
             'role' => 'Rola'
         ],

@@ -12,7 +12,7 @@ return [
     'banners' => 'Banery',
     'profile' => 'Mój profil',
 
-    'generators' => 'Generators',
+    'generators' => 'Generatory',
 
     'logout' => 'Wyloguj się',
     'register' => 'Zarejestruj',
@@ -22,11 +22,11 @@ return [
     'faqs' => 'Często zadawane pytania',
 
     'minecraft_name' => 'Nazwa Minecraft',
-    'minecraft_uuid' => 'Minecraft UUID',
+    'minecraft_uuid' => 'Identyfikator UUID Minecrafta',
     'what' => 'Co',
     'recent_searches' => 'Ostatnie wyszukiwania',
     'username' => 'Nazwa użytkownika',
-    'uuid' => 'UUID',
+    'uuid' => 'Identyfikator UUID',
     'search' => 'Szukaj',
     'search_placeholder' => 'Wypróbuj',
     'search_placeholder_uuid' => 'Wprowadź UUID',

@@ -10,8 +10,8 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Painel de controle',
-        'total-members' => 'Total de membros',
+        'title' => 'Painel',
+        'total-members' => 'Membros totais',
         'claimed-profiles' => 'Perfis reivindicados',
         'profiles' => 'Perfis',
         'skins' => 'Skins',
@@ -22,15 +22,15 @@ return [
     ],
     'help' => [
         'title' => 'Ajuda',
-        'subtitle' => 'Dicas úteis para Dashboard do SkinMC',
+        'subtitle' => 'Dicas úteis para o painel do SkinMC',
     ],
     'users' => [
         'title' => 'Usuários',
-        'subtitle' => ':count total de usuários cadastrados',
+        'subtitle' => ':count usuários totais registrados',
         'list' => [
-            'username' => 'Usuário',
-            'email' => 'Email',
-            'status' => 'Status',
+            'username' => 'Nome de usuário',
+            'email' => 'E-mail',
+            'status' => 'Estado',
             'role' => 'Função'
         ],
     ],
@@ -39,22 +39,22 @@ return [
     ],
     'tags' => [
         'title' => 'Tags',
-        'pending' => 'Tags Pendentes',
+        'pending' => 'Tags pendentes',
         'banned' => 'Tags banidas',
     ],
     'reports' => [
-        'title' => 'Denúncias',
+        'title' => 'Relatórios',
     ],
     'feed' => [
         'title' => 'Publicações do feed',
-        'subtitle' => ':count total de publicações criadas',
+        'subtitle' => ':count publicações totais',
     ],
     'comments' => [
         'title' => 'Comentários',
-        'subtitle' => ':count comentários postados',
+        'subtitle' => ':count comentários totais',
         'deleted' => [
-            'title' => 'Comentários deletados',
-            'subtitle' => ':count comentários deletados',
+            'title' => 'Comentários excluídos',
+            'subtitle' => ':count comentários totais',
         ]
     ]
 ];

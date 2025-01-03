@@ -28,7 +28,7 @@ return [
         'collections_detail' => '모든 경우를 위해 엄선된 Minecraft 스킨',
         'about_skinmc' => 'SkinMC 소개',
         'about_find' => '아무 스킨 찾기',
-        'about_find_detail' => 'Use the SkinMC search for any Minecraft Username to find, view and download your next new skin.',
+        'about_find_detail' => '특정 Minecraft 사용자 이름을 찾기 위해, 내 다음 새로운 스킨을 사기 위해 SkinMC 검색 기능을 사용해요.',
         'about_download' => '다운로드 또는 수정',
         'about_download_detail' => '원하는 스킨을 찾으셨나요? 즐겨찾기에 추가하고, 수정 또는 다운로드하여 나만의 것으로 만드세요.',
         'about_platform' => '플랫폼 전환하기',
@@ -284,7 +284,7 @@ return [
             'change_times_t' => '제 사용자 이름을 얼마나 자주 변경할 수 있나요?',
             'change_times' => '<p>Minecraft 사용자 이름은 <strong>30일에</strong> 한 번 <strong>변경할 수 있습니다</strong>.</p>',
             'available_t' => '제 닉네임을 변경한 후 다른 사람들에게 언제부터 변경사항이 적용되나요?',
-            'available' => '<p>If you want to change back to your previous username, you can change back <strong>after 30 days.</strong> Everyone else needs to wait an additional <strong>7 days</strong> (37 days after changing) before they can claim your old username. </p>',
+            'available' => '<p>이전 사용자명으로 되돌아가려면, <strong>30일 후</strong>부터 가능해요. 다른 사람이 내 이전 사용자명을 가져가려면 <strong>7일</strong>(변경 후 37일)을 더 기다려야 해요.</p>',
             'username_history_t' => '제 사용자 이름 기록을 지워주실 수 있나요?',
             'username_history' => '
                 <p>As the username history data comes from Mojang, the username history can not be removed. Mojang has previously stated that their intention was that previous usernames can be seen¹, and that they provide a direct method for the public to access this information².</p>

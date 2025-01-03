@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'acceptAllButton' => 'Aceitar Todos',
+    'acceptAllButton' => 'Aceitar tudo',
     'save' => 'Salvar',
     'PopupTitle' => 'Consentimento de cookies',
     'PopupDescription' => 'SkinMC usa cookies para oferecer funcionalidades e recursos.',
@@ -9,8 +9,8 @@ return [
     'customise' => 'Personalizar',
     'customise_title' => 'Personalizar cookies',
 
-    'essential' => 'Dados básicos',
-    'essential_description' => 'Cookies de dados básicos são necessários para executar o site. Você não pode desativá-los.',
+    'essential' => 'Dados essenciais',
+    'essential_description' => 'Cookies de dados essenciais são requeridos para executar o site. Você não pode desativá-los.',
 
     'session' => 'Cookie de sessão: PHP usa um Cookie para identificar sessões de usuário.',
     'xsrf-token' => 'Cookie XSRF-Tok: cria automaticamente CSRF "token" para cada sessão de usuário ativa gerenciada pela aplicação. Este token é usado para verificar se o usuário autenticado é o que realmente faz as solicitações ao aplicativo.',
@@ -24,9 +24,9 @@ return [
     'googleAnalytics' => 'Google Analytics',
     'microsoftClarity' => 'Microsoft Clarity',
 
-    'googleOneTap' => 'Sign in with Google',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap' => 'Registrar com o Google',
+    'googleOneTap_description' => 'Este cookies permitem a funcionalidade pelo Registro com o Google para registrar ou criar uma conta mais rapidamente usando o Google. Os dados do registro com o Google é somente usado para questões de segurança.',
 
-    'facebookLogin' => 'Sign in with Facebook',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin' => 'Registrar com o Facebook',
+    'facebookLogin_description' => 'Estes cookies permitem funcionalidade do Registro com o Facebook para registrar ou criar uma conta rapidamente com o Facebook.',
 ];

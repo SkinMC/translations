@@ -11,46 +11,46 @@ return [
     */
     'follower' => [
         'title' => 'Novo seguidor',
-        'text' => ':user agora está te seguindo!'
+        'text' => ':user seguiu você!'
     ],
     'comment' => [
         'new' => [
             'title' => ':model comentário',
-            'text' => ':user comentou no seu :model'
+            'text' => ':user comentou em seu :model'
         ],
         'reply' => [
-            'title' => 'Responder em :model comment',
-            'text' => ':user respondeu a um comentário :model'
+            'title' => 'Responder ao comentário no :model',
+            'text' => ':user respondeu a um comentário em :model'
         ]
     ],
     'post' => [
         'like' => [
-            'title' => 'Curtidas recebidas',
+            'title' => 'Curtida recebida',
             'text' => ':user curtiu sua publicação!',
         ],
         'mention' => [
             'title' => 'Nova menção',
-            'text' => ':user mencionou você em sua publicação!'
+            'text' => ':user mencionou você em uma publicação!'
         ]
     ],
     'level' => [
         'up' => [
-            'title' => 'You leveled up!',
-            'text' => 'Congratulations on reaching level :level!'
+            'title' => 'Você subiu de nível!',
+            'text' => 'Parabéns por alcançar o nível :level!'
         ]
     ],
     'report' => [
         'created' => [
-            'title' => 'We\'ve received your report! (Case :id)',
-            'text' => 'Our team is on it and will look into it right away. Thanks for being awesome and helping us keep things chill! '
+            'title' => 'Recebemos seu relatório! (Caso :id)',
+            'text' => 'Nossa equipe está trabalhando em seu problema. Obrigada por ser gentil e ajudar-nos a manter as coisas calmas! '
         ],
         'resolved' => [
-            'title' => 'We reviewed your report (Case :id)',
-            'text' => 'Hi there, the reported issue has been taken care of and is now sorted. Thanks for being a superhero of our community!',
+            'title' => 'Nós revisamos seu relatório (Caso :id)',
+            'text' => 'Olá, o problema informado já foi resolvido e ordenado. Obrigada por ser um super-herói da nossa comunidade!',
         ],
         'dismissed' => [
-            'title' => 'Update to your report (Case :id)',
-            'text' => 'After some detective work, we\'ve found that the content you had reported doesn\'t go against our guidelines. If you want us to review something specific, please make sure that you report the skin, profile, etc, and provide additional context when needed. Thanks for your concern and involvement in our community!',
+            'title' => 'Atualização para seu relatório (Case :id)',
+            'text' => 'Depois de uma investigação, nós vimos que o conteúdo informado por você não viola nossas diretrizes. Se você quiser a revisão de algo específico, por favor, certifique-se de que a(o) skin, perfil, etc. forneça contexto adicional quando preciso. Obrigada pela preocupação e o envolvimento em nossa comunidade!',
         ]
     ]
 ];
