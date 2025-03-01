@@ -38,12 +38,12 @@ return [
         'title' => 'Skins',
     ],
     'tags' => [
-        'title' => 'Tags',
-        'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
+        'title' => 'Étiquettes',
+        'pending' => 'Étiquettes en attente',
+        'banned' => 'Tag Banni',
     ],
     'reports' => [
-        'title' => 'Reports',
+        'title' => 'Signaler',
     ],
     'feed' => [
         'title' => 'Publications du flux',
@@ -51,10 +51,10 @@ return [
     ],
     'comments' => [
         'title' => 'Commentaire',
-        'subtitle' => ':count total comments posted',
+        'subtitle' => ':count total de commentaires postés',
         'deleted' => [
-            'title' => 'Deleted comments',
-            'subtitle' => ':count total comments deleted',
+            'title' => 'Commentaire supprimer',
+            'subtitle' => ':count total de commentaires supprimés',
         ]
     ]
 ];
