@@ -1157,39 +1157,39 @@ return [
         'report_message' => 'Signaler le message',
         'add_reaction' => 'Ajouter une réaction',
         'today' => 'Aujourd\'hui',
-        'reconnect' => 'Please reconnect your Minecraft account to chat',
-        'account_disconnected' => 'This user disconnected their linked Minecraft account.',
-        'saved_messages' => 'Saved messages',
-        'new_message_to_label' => 'To',
-        'external-link-to' => 'This link will take you to',
-        'external-link-confirmation' => 'Are you sure you want to go there?',
-        'external-link' => 'External link',
-        'reply' => 'Reply'
+        'reconnect' => 'Veuillez reconnecter votre compte Minecraft pour discuter',
+        'account_disconnected' => 'Cet utilisateur a déconnecté son compte Minecraft lié.',
+        'saved_messages' => 'Messages enregistrés',
+        'new_message_to_label' => 'À',
+        'external-link-to' => 'Ce lien vous amènera vers',
+        'external-link-confirmation' => 'Êtes-vous sûr de vouloir y aller ?',
+        'external-link' => 'Lien externe',
+        'reply' => 'Répondre'
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Stats'
+            'stats' => 'Statistiques'
         ]
     ],
     'report' => [
-        'button' => 'Report',
-        'title' => 'Report content',
-        'describe' => 'Briefly describe why you are reporting this',
-        'select' => 'Select report reason',
-        'submit' => 'Submit report',
+        'button' => 'Signaler',
+        'title' => 'Signaler le contenu',
+        'describe' => 'Décrivez brièvement pourquoi vous signalez ceci',
+        'select' => 'Sélectionnez la raison du signalement',
+        'submit' => 'Envoyer le signalement',
         'reasons' => [
-            'INAPPROPRIATE_CONTENT' => 'Inappropriate content',
+            'INAPPROPRIATE_CONTENT' => 'Contenu inapproprié',
             'SPAM' => 'Spam',
-            'HARASSMENT' => 'Harassment',
-            'OTHER' => 'Other',
+            'HARASSMENT' => 'Harcèlement',
+            'OTHER' => 'Autre',
         ]
     ],
     'leaderboard' => [
-        'title' => 'Leaderboard',
-        'description' => 'View the SkinMC leaderboard of users.',
+        'title' => 'Classement',
+        'description' => 'Voir le classement des utilisateurs de SkinMC.',
         'headline' => 'Top 10',
-        'all-time-invites' => 'All time invites',
-        'all-time-xp' => 'All time XP',
-        '30-day-xp' => '30 days XP'
+        'all-time-invites' => 'Invitations en tout temps',
+        'all-time-xp' => 'XP de tous les temps',
+        '30-day-xp' => '30 jours d\'XP'
     ],
 ];
