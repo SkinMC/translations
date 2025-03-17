@@ -35,7 +35,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'You leveled up!',
+            'title' => 'Szintet léptél!',
             'text' => 'Congratulations on reaching level :level!'
         ]
     ],
