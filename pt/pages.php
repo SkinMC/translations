@@ -367,7 +367,7 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Criador de Suporte de Armadura do Minecraft',
             'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
         ],
         'meta' => [
