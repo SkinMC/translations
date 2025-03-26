@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Your place for Minecraft Skins',
+    'short_description' => 'Votre lieu pour les skins Minecraft',
     'full_description' => [
-        'intro' => 'SkinMC is your place to discover, save, and get the best Skins for Minecraft Bedrock and Java Edition. The list of the most popular trending Skins updates every week.',
+        'intro' => 'SkinMC est votre endroit pour découvrir, enregistrer et obtenir les meilleures Skins pour Minecraft Bedrock et Java Edition. La liste des mises à jour des apparences les plus populaires chaque semaine.',
         'why_skinmc_title' => 'Pourquoi SkinMC?',
-        'why_skinmc_detail' => 'The app offers an exclusive built in QR Code scanner, to quickly open skins or profiles you have found using the desktop version. Create your own custom SkinMC QR Code to share with your friends.',
+        'why_skinmc_detail' => 'L\'application offre un scanner de QR Code exclusif pour ouvrir rapidement des skins ou des profils que vous avez trouvés en utilisant la version de bureau. Créez votre propre code QR SkinMC personnalisé à partager avec vos amis.',
         'claim_title' => 'Réclamer votre profil',
-        'claim_detail' => 'Connect with Minecraft (Java Only) and get an exclusive badge displayed on your page together with access to personalisation, comment system, and custom capes. Add your social media links to your profile. Let everyone know where to find you, from Discord, Twitter, YouTube, TikTok and many more.',
-        'skin_history_title' => 'Skin History',
-        'skin_history_detail' => 'Keep track of all your previous Minecraft Skins with the Skin history on your Profile page. Quickly access and download your past used Skins.',
+        'claim_detail' => 'Connectez-vous avec Minecraft (Java uniquement) et obtenez un badge exclusif affiché sur votre page avec accès à la personnalisation, au système de commentaires et aux capes personnalisés. Ajoutez vos liens de réseaux sociaux à votre profil. Faites savoir à tout le monde où vous trouver, à partir de Discord, Twitter, YouTube, TikTok et bien plus encore.',
+        'skin_history_title' => 'Historique des skins',
+        'skin_history_detail' => 'Gardez une trace de tous vos skins Minecraft précédents avec l\'historique des skins sur votre page de profil. Accédez rapidement et téléchargez vos skins utilisés précédemment.',
         'avatar_generator_title' => 'Générateur d\'Avatar',
-        'avatar_generator_detail' => 'The original Minecraft Avatar Generator lets you choose from 4 popular styles. Create a custom and personalised Avatar in Bust, Cube, Head format, and brand new also fully custom in 3D based from your Java-Edition username.',
-        'achievements_title' => 'Achievement/Advancement Generator',
-        'achievements_detail' => 'Make your very own personalised achievements. Customise everything from the yellow title, text and item displayed.',
+        'avatar_generator_detail' => 'Le générateur original d\'Avatar Minecraft vous permet de choisir parmi 4 styles populaires. Créez un avatar personnalisé et personnalisé en format Bust, Cube, Head et tout nouveau également entièrement personnalisé en 3D basé sur votre nom d\'utilisateur Java-Edition.',
+        'achievements_title' => 'Générateur de Succès / Réalisation',
+        'achievements_detail' => 'Créez vos propres réalisations personnalisées. Personnalisez tout depuis le titre jaune, le texte et l\'objet affichés.',
         'no_ads_title' => 'Aucune publicité',
-        'no_ads_detail' => 'SkinMC is completely free of ads. Enjoy an Ad-free experience without intrusive annoyances.'
+        'no_ads_detail' => 'SkinMC est complètement sans publicité. Profiter d\'une agréable expérience sans publicité dérangeante.'
     ],
     'screenshots' => [
         'find' => 'Trouver n\'importe quel joueur Minecraft',
-        'claim' => 'Claim & customise your Profile',
+        'claim' => 'Revendiquer et personnaliser votre profil',
         'qr' => 'Créez votre code QR personnalisé',
-        'qr_scanner' => 'Built in QR Code scanner',
-        'new_skins' => 'Thousands of new Skins everyday',
-        'achievement' =>  'Achievement generator',
-        'avatar' => 'The original avatar maker'
+        'qr_scanner' => 'Scanner de QR Code intégré',
+        'new_skins' => 'Des milliers de nouveaux skins tous les jours',
+        'achievement' =>  'Générateur de succès',
+        'avatar' => 'Le fabricant de l\'avatar original'
     ],
-    'patch_notes_update' => 'Thanks for using the SkinMC App. With this update you will receive some bug fixes and improvements. What do you think of the SkinMC app? Rate us!'
+    'patch_notes_update' => 'Merci d\'avoir utilisé l\'application SkinMC. Avec cette mise à jour, vous recevrez quelques corrections de bugs et améliorations. Que pensez-vous de l\'application SkinMC ? Notez-nous!'
 ];

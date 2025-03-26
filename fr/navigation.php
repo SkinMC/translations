@@ -12,7 +12,7 @@ return [
     'banners' => 'Bannière',
     'profile' => 'Mon profil',
 
-    'generators' => 'Generators',
+    'generators' => 'Générateur',
 
     'logout' => 'Déconnexion',
     'register' => 'S\'inscrire',
@@ -63,7 +63,7 @@ return [
     'status' => 'Statut',
     'recent_searches_placeholder' => 'Voici les dernières recherches que vous avez effectuées.',
     'recent_views_placeholder' => 'Voici les profiles que vous avez regardés il y a pas longtemps.',
-    'moderate' => 'Moderate',
+    'moderate' => 'Modéré',
     'listings' => 'Listes',
     'add' => 'Ajouter',
 

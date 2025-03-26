@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'acceptAllButton' => 'Accept all',
-    'save' => 'Save',
+    'acceptAllButton' => 'Összes elfogadása',
+    'save' => 'Mentés',
     'PopupTitle' => 'Cookie consent',
     'PopupDescription' => 'SkinMC uses cookies to provide functionality and features.',
 

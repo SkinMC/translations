@@ -13,48 +13,48 @@ return [
         'title' => 'Tableau de bord',
         'total-members' => 'Total des membres',
         'claimed-profiles' => 'Profils réclamés',
-        'profiles' => 'Profiles',
+        'profiles' => 'Profils',
         'skins' => 'Skins',
-        'users' => 'Users',
-        'last-30-days' => 'Last 30 days',
-        'members' => 'Members',
-        'usernames' => 'Usernames',
+        'users' => 'Utilisateur',
+        'last-30-days' => '30 derniers jours',
+        'members' => 'Membres',
+        'usernames' => 'Pseudos',
     ],
     'help' => [
-        'title' => 'Help',
-        'subtitle' => 'Useful tips for the SkinMC dashboard',
+        'title' => 'Aide',
+        'subtitle' => 'Astuces utiles pour le tableau de bord SkinMC',
     ],
     'users' => [
-        'title' => 'Users',
-        'subtitle' => ':count total users signed up',
+        'title' => 'Utilisateurs',
+        'subtitle' => ':count nombre total d\'utilisateurs inscrits',
         'list' => [
-            'username' => 'Username',
+            'username' => 'Pseudo',
             'email' => 'Email',
             'status' => 'Status',
-            'role' => 'Role'
+            'role' => 'Rôle'
         ],
     ],
     'skins' => [
         'title' => 'Skins',
     ],
     'tags' => [
-        'title' => 'Tags',
-        'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
+        'title' => 'Étiquettes',
+        'pending' => 'Étiquettes en attente',
+        'banned' => 'Tag Banni',
     ],
     'reports' => [
-        'title' => 'Reports',
+        'title' => 'Signaler',
     ],
     'feed' => [
-        'title' => 'Feed posts',
-        'subtitle' => ':count total posts created',
+        'title' => 'Publications du flux',
+        'subtitle' => ':count total de publications créées',
     ],
     'comments' => [
-        'title' => 'Comments',
-        'subtitle' => ':count total comments posted',
+        'title' => 'Commentaire',
+        'subtitle' => ':count total de commentaires postés',
         'deleted' => [
-            'title' => 'Deleted comments',
-            'subtitle' => ':count total comments deleted',
+            'title' => 'Commentaire supprimer',
+            'subtitle' => ':count total de commentaires supprimés',
         ]
     ]
 ];

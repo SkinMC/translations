@@ -26,7 +26,7 @@ return [
     ],
     'users' => [
         'title' => 'Benutzer',
-        'subtitle' => 'Anzahl insgesamt registrierte Benutzer',
+        'subtitle' => ':count insgesamt registrierte Benutzer',
         'list' => [
             'username' => 'Benutzername',
             'email' => 'E-Mail',
