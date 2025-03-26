@@ -535,8 +535,8 @@ return [
             'subtitle' => 'Laissez un score global de votre expérience passée avec le serveur.',
             'scale' => [
                 'great' => 'Très bon',
-                'good' => '',
-                'okay' => '',
+                'good' => 'Bon',
+                'okay' => 'D\'accord',
                 'meh' => 'Bof',
                 'bad' => 'Mauvais',
             ],
