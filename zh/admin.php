@@ -31,7 +31,7 @@ return [
             'username' => '用户名',
             'email' => '电子邮箱',
             'status' => '状态',
-            'role' => 'Role'
+            'role' => ''
         ],
     ],
     'skins' => [
