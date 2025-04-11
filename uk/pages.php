@@ -144,7 +144,7 @@ return [
         'first_wearing' => 'Перший гравець помічений із цим скином:',
         'profiles' => ':profiles у профілі|:profiles у профілях',
         'profiles_title' => 'Профілів з цим скином: :profiles|Профілів з цим скином: :profiles',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Знімок екрану',
     ],
     'skins' => [
         'meta' => [
@@ -890,7 +890,7 @@ return [
             'theme' => 'Тема профілю',
             'theme-primary' => 'Основний',
             'theme-secondary' => 'Додатковий',
-            'appearance' => 'Appearance',
+            'appearance' => 'Зовнішній вигляд',
         ],
         'link' => [
             'manage' => 'Керувати прив’язаним обліковим записом Minecraft',
