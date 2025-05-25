@@ -126,10 +126,10 @@ return [
         'show-skin' => 'Pokaż skórkę',
         'edit-skin' => 'Edytuj skórkę',
         'servers' => [
-            'title' => ':username\'s servers',
+            'title' => ':servery użytkownika',
         ],
         'cape-list' => [
-            'title' => ':username\'s capes',
+            'title' => ':peleryny użytkownika',
         ]
     ],
     'skin' => [
@@ -144,7 +144,7 @@ return [
         'first_wearing' => 'Pierwszy gracz noszący tę skórkę:',
         'profiles' => ':profiles profile|:profiles profiles',
         'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Zrzut ekranu',
     ],
     'skins' => [
         'meta' => [
@@ -170,11 +170,11 @@ return [
         'today' => 'Dodane dzisiaj',
         'random' => 'Losowe',
         'similar' => 'Podobne skórki',
-        'no_similar_skins' => 'No similar skins found yet.',
+        'no_similar_skins' => 'Nie znaleziono podobnych skórek',
         'favorite' => ':count ulubiony|:count ulubionych',
     ],
     'skin-tags' => [
-        'faq' => 'What are tags?',
+        'faq' => 'Co to są tagi?',
         'about' => 'Tags are a way you to add relevant categories to skins. Adding tags allows you to discover more skins you like easily!',
         'guidelines' => [
             'good' => [
@@ -198,8 +198,8 @@ return [
             'downvote' => 'Downvoted ”:tag”'
         ],
         'vote' => [
-            'up' => 'Upvote',
-            'down' => 'Downvote',
+            'up' => 'Głosuj za',
+            'down' => 'Głosuj przeciw',
             'remove' => 'Usuń głos',
         ],
     ],
@@ -231,7 +231,7 @@ return [
         'card_history_title' => 'Nazwa użytkownika i historia skinów',
         'card_history_detail' => 'Użyj zaawansowanego wyszukiwania, aby znaleźć i zobaczyć nazwę użytkownika/historię użytkownika gracza.',
         'founders' => 'Założyciele',
-        'founders_cofounder' => 'Cofounder of SkinMC',
+        'founders_cofounder' => 'Współtwórca SkinMC',
         'head_of_design' => 'Head of design',
         'head_of_code' => 'Head of code',
         'feedback' => 'Wyślij nam opinię',
@@ -367,18 +367,18 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Kreator stojaków na zbroję Minecraft',
             'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
         ],
         'meta' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Kreator stojaków na zbroję Minecraft',
             'description' => 'Easily generate and create custom Minecraft Armor Stands. The editor helps you make different poses, positions, place items, custom skins, and much more.',
         ],
     ],
     'banner' => [
         'editor' => [
             'header' => [
-                'title' => 'Minecraft Banner Editor',
+                'title' => 'Edytor sztandarów Minecraft',
                 'subtitle' => 'Design and create your very own custom Minecraft Banners. These can be used to decorate your world or also commonly seen used as <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> capes.',
             ],
             'meta' => [
@@ -388,11 +388,11 @@ return [
         ],
         'gallery' => [
             'header' => [
-                'title' => 'Minecraft Banner Gallery',
+                'title' => 'Kreator sztandarów Minecraft',
                 'subtitle' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner as a cape to make your Minecraft skin more unique, or use a Banner as a flag to decorate your world.',
             ],
             'meta' => [
-                'title' => 'Minecraft Banner Gallery',
+                'title' => 'Galeria sztandarów Minecraft',
                 'description' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner as a cape to make your Minecraft skin more unique, or use a Banner as a flag to decorate your world.',
             ],
         ],
@@ -415,7 +415,7 @@ return [
         'no_results' => 'Nie znaleziono profili. Spróbuj wyszukać poprzez UUID, zmieniając typ wyszukiwania.',
         'no_results_tags' => 'No tagged skins found. Try searching for other tags such as "blue", "girl", "fox", etc...',
         'again' => 'Szukaj ponownie',
-        'sorry' => 'Sssssssorry...',
+        'sorry' => 'Przeeepraszamy...',
         'view_profile' => 'Zobacz profil',
     ],
     'collection' => [
@@ -438,8 +438,8 @@ return [
         'subtitle' => 'Zobacz i zarządzaj skinami, które zapisałeś później na liście ulubionych',
         'sort' => 'Sortuj według',
         'toast' => [
-            'added' => 'Added to your favourites list',
-            'removed' => 'Removed from your favourites list'
+            'added' => 'Dodano do listy ulubionych',
+            'removed' => 'Usunięto z listy ulubionych'
         ],
         'skins' => [
             'button' => 'Skórki',
@@ -448,7 +448,7 @@ return [
             'empty_browse' => 'Przeglądaj skórki',
             'meta' => [
                 'title' => 'Moje ulubione skórki',
-                'description' => 'My favourite saved Minecraft skins',
+                'description' => 'Moje ulubione skórki Minecrafta',
             ],
         ],
         'servers' => [
@@ -537,12 +537,12 @@ return [
                 'great' => 'Świetne',
                 'good' => 'Dobrze',
                 'okay' => 'Okej',
-                'meh' => 'Meh',
+                'meh' => 'e, tam...',
                 'bad' => 'Źle',
             ],
             'rate-experience' => 'Next, rate your experience in these areas',
             'overall' => 'Overall',
-            'server-team' => 'Server team',
+            'server-team' => 'Zespół serwera',
             'community' => 'Społeczność',
             'experience' => 'Doświadczenie',
             'availablility' => 'Czas działania i dostępność',
@@ -561,7 +561,7 @@ return [
             'tos-checkbox-part-2' => 'review guidelines.',
             'tos-checkbox-part-3' => 'Your review will be published after submission, but can be subject to review.'
         ],
-        'slots' => 'Slots',
+        'slots' => 'Miejsca',
         'empty-helper' => 'You can try to do another search or',
         'empty' => 'Hmm it\'s still empty here.',
         'verified' => 'Zweryfikowany',
@@ -612,10 +612,10 @@ return [
             'list_your_server_description' => 'Create a listing for your server, add photos, social media and more.',
             'find_players' => 'Znajdź graczy',
             'find_players_description' => 'Find and reach new players to join your server and grow your community.',
-            'get_reviews' => 'Get reviews',
+            'get_reviews' => 'Uzyskaj recenzje',
             'get_reviews_description' => 'Ask your community to review your server, and reward them in game.',
             'why_list_on_skinmc' => 'Why you should list your Server on SkinMC',
-            'others' => 'Others',
+            'others' => 'Inne',
             'quality_check_and_confirmation' => 'Quality check and confirmation',
             'quality_check_description' => 'Our team reviews every server to ensure quality.',
             'verified_players' => 'Reviews from verified Minecraft players',
