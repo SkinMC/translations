@@ -695,6 +695,14 @@ return [
             'drag' => '스킨을 여기에 끌어다 놓거나, 클릭하세요',
             'click' => '이미지 선택'
         ],
+        'download' => [
+            'error' => [
+                'no-data' => 'No skin data was provided. Please try again.',
+                'invalid-format' => 'The skin data format is invalid. Please try again.',
+                'invalid-data' => 'The skin data is corrupted. Please try again.',
+                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+            ],
+        ],
         'draw' => '그리기',
         'eyedropper' => '스포이드',
         'fill' => '채우기',
