@@ -697,6 +697,14 @@ return [
             'drag' => 'Перетягніть сюди скин або натисніть',
             'click' => 'Вибрати зображення'
         ],
+        'download' => [
+            'error' => [
+                'no-data' => 'No skin data was provided. Please try again.',
+                'invalid-format' => 'The skin data format is invalid. Please try again.',
+                'invalid-data' => 'The skin data is corrupted. Please try again.',
+                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+            ],
+        ],
         'draw' => 'Малювати',
         'eyedropper' => 'Піпетка',
         'fill' => 'Заповнити',
