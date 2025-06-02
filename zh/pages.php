@@ -698,6 +698,14 @@ return [
             'drag' => '拖放皮肤到此处，或点击',
             'click' => '选择图片'
         ],
+        'download' => [
+            'error' => [
+                'no-data' => 'No skin data was provided. Please try again.',
+                'invalid-format' => 'The skin data format is invalid. Please try again.',
+                'invalid-data' => 'The skin data is corrupted. Please try again.',
+                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+            ],
+        ],
         'draw' => '画笔',
         'eyedropper' => '吸管工具',
         'fill' => '填充',
