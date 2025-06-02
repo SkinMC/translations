@@ -10,16 +10,16 @@ return [
     |
     */
     'award' => [
-        'feed_post' => 'Posted to the feed',
-        'tag_approved' => 'Tag you added was approved',
-        'tag_approved_vote' => 'Tag you voted for was approved',
-        'comment' => 'Left a comment',
-        'comment_reply' => 'Extra XP for reply on a comment',
-        'generic' => 'Earned XP',
-        'daily_login' => 'Daily login XP',
-        'sign_up' => 'Welcome to SkinMC.',
-        'invite_friend' => 'Invite a friend',
-        'invited_friend' => 'Invited by a friend',
+        'feed_post' => 'Beslemeye gönderildi',
+        'tag_approved' => 'Eklediğiniz etiket onaylandı',
+        'tag_approved_vote' => 'Oy verdiğiniz etiket onaylandı',
+        'comment' => 'Bir yorum bıraktı',
+        'comment_reply' => 'Bir yoruma yanıt verdiğinizde ekstra XP kazanırsınız',
+        'generic' => 'Kazanılan XP',
+        'daily_login' => 'Günlük giriş XP',
+        'sign_up' => 'SkinMC’ye hoş geldiniz.',
+        'invite_friend' => 'Bir arkadaşını davet et',
+        'invited_friend' => 'Bir arkadaşım tarafından davet edildim',
     ],
-    'empty' => 'Earn some XP to see it here.',
+    'empty' => 'Bunu burada görebilmek için biraz XP kazanmanız gerekiyor.',
 ];
