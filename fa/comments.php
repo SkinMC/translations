@@ -12,7 +12,7 @@ return [
     */
 
     'conversation' => 'گفتگو',
-    'conversation_count' => ':count comment|:count comments',
+    'conversation_count' => 'تعداد کامنت|:count comments',
     'placeholder' => 'فکر شما چیست؟',
     'submit' => 'نظر',
     'cancel' => 'لفو',
