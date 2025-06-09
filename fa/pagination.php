@@ -14,7 +14,7 @@ return [
     */
 
     'title' => 'Numbering of search results',
-    'previous' => 'Previous',
-    'next' => 'Next',
+    'previous' => 'قبلی',
+    'next' => 'بعدی',
 
 ];
