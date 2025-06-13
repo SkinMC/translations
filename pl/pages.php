@@ -117,7 +117,7 @@ return [
         'following-list-empty' => 'Hmm, wygląda na to, że :username nikogo nie obserwuje. Kiedy :username zacznie obserwować ludzi, będziesz mógł ich zobaczyć tutaj.',
         'followers-own-list-empty' => 'Gdy ludzie zaczną śledzić Twój profil, pojawią się tutaj.',
         'followers-list-empty' => 'Hmm, wygląda na to, że :username nie jest przez nikogo śledzony. Bądź pierwszym, który śledzi :username. Gdy więcej osób zacznie śledzić, będziesz mógł je zobaczyć tutaj.',
-        'render' => 'Renderer',
+        'render' => 'Silnik renderujący',
         '3d' => 'Render 3D',
         '2d' => 'Render 2D',
         'name-history-info' => 'Historia nazwy użytkownika jest niedostępna. Mojang usunął obsługę dostępu do API historii nazw 13 września 2022 r., co spowodowało niedostępność dokładnej historii nazw. Jeśli chcesz ukryć historię nazw, stwórz swój profil i przejdź do ustawień, aby uczynić go prywatnym.',
@@ -187,8 +187,8 @@ return [
                 'title' => 'Nie dodawaj tagów takich jak:',
                 'general' => 'Zbyt ogólne',
                 'specific' =>  'Zbyt specyficzne',
-                'too-many-tags' =>  'Should be three separate tags',
-                'spelling' => 'Should be :example',
+                'too-many-tags' =>  'Powinno być trzy oddzielne znaczniki',
+                'spelling' => 'Powinno być :przykład',
             ],
         ],
         'toast' => [
@@ -207,7 +207,7 @@ return [
         'contact' => 'Kontakt',
         'email' => 'Please feel free to write us at <a href="mailto:support@skinmc.net">support@skinmc.net</a> for any questions you have.',
         'faq' => 'We kindly ask to first check out the <a href=":link">FAQ page</a> if your question is already answered there.',
-        'other' => 'Other ways to connect',
+        'other' => 'Inne sposoby połączenia',
         'other_discord' => 'Join the Discord server and connect with others, chat about games, share your favourite packs and get help from the community.',
         'other_twitter' => 'Follow on Twitter to see when a new update or feature is released, see the skin of the week and more.',
         'other_instagram' => 'Follow SkinMC on Instagram to browse and discover cool new featured Minecraft Skins and images.',
@@ -271,7 +271,7 @@ return [
                     <li>Na stronie profilu możesz zobaczyć podgląd skórki</li>
                     <li>Kliknij na przycisk <strong>Pobierz skórkę</strong> pod podglądem</li>
                 </ol>',
-            'submit_q' => 'How do I submit a skin to a collection?',
+            'submit_q' => 'Jak dodać skórkę do kolekcji?',
             'submit_a' => '<p>Please fill out the following short form with the usernames and their category of which you would like to add to the collections. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Collection submission form</a>',
             'mcpe_t' => 'Czy mogę użyć Skórki na Minecraft PE?',
             'mcpe' => '
@@ -303,7 +303,7 @@ return [
             'avatar_face' => 'Awatar stylu twarzy',
             'avatar_bust' => 'Awatar stylu pyłu',
             'avatar_cube' => 'Awatar stylu kostki',
-            'avatar_head3d' => 'Custom 3D head',
+            'avatar_head3d' => 'Niestandardowa głowa 3D',
         ],
         'user' => [
             'title' => 'Wybierz skórkę',
@@ -382,7 +382,7 @@ return [
                 'subtitle' => 'Design and create your very own custom Minecraft Banners. These can be used to decorate your world or also commonly seen used as <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> capes.',
             ],
             'meta' => [
-                'title' => 'Minecraft Banner Creator',
+                'title' => 'Kreator sztandarów Minecraft',
                 'description' => 'Create and design your very own custom Minecraft Banners designs with all the patterns and colors from the game! These can be used to decorate your world or be worn as an Optifine Cape using the Banner Cape. You can generate give codes for banners or shields.',
             ],
         ],
@@ -399,7 +399,7 @@ return [
     ],
     'search' => [
         'meta' => [
-            'title' => 'Search results: :search',
+            'title' => 'Wyniki wyszukiwania: :szukaj',
         ],
         'title' => 'Wyniki wyszukiwania',
         'results' => 'Page :current for :count result|Page :current of about :count results ',
@@ -424,7 +424,7 @@ return [
         'filters' => 'Filtry',
         'title_trending' => 'Popularne',
         'title_all' => 'Wszystkie skórki Minecraft',
-        'skin_tags' => 'Tagged Skins',
+        'skin_tags' => 'Oznaczone skórki',
         'filters_skin_type' => 'Typ skóry',
         'filter_skin_type_steve' => 'Typ Steve',
         'filter_skin_type_alex' => 'Typ Alex',
@@ -453,7 +453,7 @@ return [
         ],
         'servers' => [
             'button' => 'Serwery',
-            'empty_headline' => 'No favourite servers yet',
+            'empty_headline' => 'Nie ma jeszcze ulubionych serwerów',
             'empty_subtitle' => 'You do not have any servers saved to your favourites list yet. Visit the server page and discover your next favourite!',
             'empty_browse' => 'Przeglądaj serwery',
             'meta' => [
