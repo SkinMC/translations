@@ -194,8 +194,8 @@ return [
         'toast' => [
             'added' => 'Tag ”:tag” added for voting',
             'removed' => 'Tag ”:tag” has been removed',
-            'upvote' => 'Upvoted ”:tag”',
-            'downvote' => 'Downvoted ”:tag”'
+            'upvote' => 'Polubione ":tag"',
+            'downvote' => 'Niepolubione na ":tag"'
         ],
         'vote' => [
             'up' => 'Głosuj za',
@@ -205,7 +205,7 @@ return [
     ],
     'contact' => [
         'contact' => 'Kontakt',
-        'email' => 'Please feel free to write us at <a href="mailto:support@skinmc.net">support@skinmc.net</a> for any questions you have.',
+        'email' => 'Proszę napisz do nas pod adresem <a href="mailto:support@skinmc.net">support@skinmc.net</a> dla wszelkich pytań.',
         'faq' => 'We kindly ask to first check out the <a href=":link">FAQ page</a> if your question is already answered there.',
         'other' => 'Inne sposoby połączenia',
         'other_discord' => 'Join the Discord server and connect with others, chat about games, share your favourite packs and get help from the community.',
@@ -444,7 +444,7 @@ return [
         'skins' => [
             'button' => 'Skórki',
             'empty_headline' => 'Brak ulubionych skórek',
-            'empty_subtitle' => 'You do not have any skins saved to your favourites list yet. Visit the server page and discover your next favourite!',
+            'empty_subtitle' => 'Nie masz jeszcze żadnych skórek zapisanych na liście ulubionych. Odwiedź stronę serwera i odkryj następną ulubioną!',
             'empty_browse' => 'Przeglądaj skórki',
             'meta' => [
                 'title' => 'Moje ulubione skórki',
@@ -454,7 +454,7 @@ return [
         'servers' => [
             'button' => 'Serwery',
             'empty_headline' => 'Nie ma jeszcze ulubionych serwerów',
-            'empty_subtitle' => 'You do not have any servers saved to your favourites list yet. Visit the server page and discover your next favourite!',
+            'empty_subtitle' => 'Nie masz jeszcze żadnych serwerów zapisanych na liście ulubionych. Odwiedź stronę serwera i odkryj następną ulubioną!',
             'empty_browse' => 'Przeglądaj serwery',
             'meta' => [
                 'title' => 'Moje ulubione serwery',
@@ -469,7 +469,7 @@ return [
             'subtitle' => 'Użyj edytora peleryn Minecraft, aby stworzyć swoją własną, niestandardową, zaprojektowaną pelerynę.',
             'meta' => [
                 'title' => 'Edytor pelerynek Minecraft',
-                'description' => 'Use the Minecraft Cape Editor to create your very own custom designed cape.',
+                'description' => 'Użyj edytora peleryn Minecraft, aby stworzyć swoją własną, niestandardową, zaprojektowaną pelerynę.',
             ],
         ],
         'list' => [
@@ -477,7 +477,7 @@ return [
             'subtitle' => 'Oficjalne pelerynki gry Minecraft. Pelerynki są przedmiotami pamiątkowymi i są noszone jako dodatek do skórki gracza. Mogą również zmienić wygląd po założeniu elytry.',
             'meta' => [
                 'title' => 'Lista pelerynek Minecraft',
-                'description' => 'Minecraft cape list: View all official Minecraft capes including Mojang, Minecon, Personal, Special and vanity capes',
+                'description' => 'Lista peleryn Minecrafta: Zobacz wszystkie oficjalne pelerny Minecrafta w tym Mojang, Minecon, Osobiste, Specjalne i próżne',
             ],
         ],
         'detail' => [
@@ -530,9 +530,9 @@ return [
             'meta' => [
                 'title' => 'Napisz opinię',
             ],
-            'editing' => 'You\'re editing your review from :date. Would you like to delete your review instead?',
-            'welcome' => 'Hi :username. How was your overall experience with :servername?',
-            'subtitle' => 'Leave an overall score of your past experience with the server.',
+            'editing' => 'Edytujesz swoją opinię od :date. Czy chcesz usunąć swoją recenzję?',
+            'welcome' => 'Witaj :username. Jak masz ogólne doświadczenie z :servername?',
+            'subtitle' => 'Pozostaw ogólny wynik swojego doświadczenia z serwerem.',
             'scale' => [
                 'great' => 'Świetne',
                 'good' => 'Dobrze',
@@ -540,15 +540,15 @@ return [
                 'meh' => 'e, tam...',
                 'bad' => 'Źle',
             ],
-            'rate-experience' => 'Next, rate your experience in these areas',
-            'overall' => 'Overall',
+            'rate-experience' => 'Następnie oceń swoje doświadczenia w tych obszarach',
+            'overall' => 'Ogólnie',
             'server-team' => 'Zespół serwera',
             'community' => 'Społeczność',
             'experience' => 'Doświadczenie',
             'availablility' => 'Czas działania i dostępność',
             'shop' => 'Sklep',
             'write-review-title' => 'Napisz opinię',
-            'write-review-subtitle' => 'Leave a few notes, you can highlight what you enjoyed, what made your experience special, or offer a few suggestions.',
+            'write-review-subtitle' => 'Pozostaw kilka notatek, możesz podkreślić co Ci się podobało, co uczyniło Twoje doświadczenie specjalnym lub zaproponować kilka sugestii.',
             'write-review-helper' => 'Write a server review to share your experience with new players, and help the server owners with feedback.',
             'write-review-tips' => 'Oto kilka porad',
             'submit-title' => 'Gotowy na przesłanie opinii?',
