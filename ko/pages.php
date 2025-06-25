@@ -856,6 +856,7 @@ return [
             'youtube' => 'YouTube 채널 이름을 입력하고 SkinMC 프로필에 YouTube 채널 정보를 표시해 보세요.',
             'youtube-format' => '채널 링크에 따라 다음 형식을 사용하세요:',
             'twitter' => 'Twitter 계정 이름을 입력하고 SkinMC 프로필에 Twitter 계정 정보를 표시해 보세요.',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => 'Twitch 채널 이름을 입력하고 SkinMC 프로필에 Twitch 채널 정보를 표시해 보세요.',
             'reddit' => 'Reddit 계정 이름을 입력하고 SkinMC 프로필에 Reddit 프로필 정보를 표시해 보세요.',
             'github' => 'GitHub 계정 이름을 입력하고 SkinMC 프로필에 GitHub 프로필 정보를 표시해 보세요.',
