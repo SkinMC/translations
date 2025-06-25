@@ -858,6 +858,7 @@ return [
             'youtube' => 'SkinMCにYouTubeチャンネルを追加し、プロフィールにYouTubeチャンネルを表示します。',
             'youtube-format' => 'チャンネルリンクに応じて、次のフォーマットを使用します',
             'twitter' => 'X（旧Twitter）のユーザー名を入力し、プロフィールに表示する。',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => 'Twitchのユーザー名を入力し、プロフィールにTwitchチャンネルを表示します。',
             'reddit' => 'Redditのユーザー名を入力して、プロフィールにRedditのプロフィールを表示します。',
             'github' => 'GitHubのユーザー名を入力して、あなたのプロフィールにGitHubのプロフィールを表示します。',
