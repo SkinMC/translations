@@ -858,6 +858,7 @@ return [
             'youtube' => 'הוסף את שם ערוץ הYoutube שלך כדי להציג מידע על הערוץ שלך בפרופיל שלך.',
             'youtube-format' => 'השתמש בפורמט המתאים בהתאם לקישור של הערוץ שלך:',
             'twitter' => 'הוסף את שם המשתמש של הTwitter שלך כדי להציג מידע על הTwitter שלך בפרופיל שלך.',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => 'הוסף את שם המשתמש של Twitch שלך כדי להציג מידע על הTwitch שלך בפרופיל שלך.',
             'reddit' => 'הוסף את שם המשתמש של הReddit שלך כדי להציג מידע על הReddit שלך בפרופיל שלך.',
             'github' => 'הוסף את שם המשתמש של הGithub שלך כדי להציג מידע על הGithub שלך בפרופיל שלך.',
