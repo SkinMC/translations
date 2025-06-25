@@ -699,10 +699,10 @@ return [
         ],
         'download' => [
             'error' => [
-                'no-data' => 'No skin data was provided. Please try again.',
-                'invalid-format' => 'The skin data format is invalid. Please try again.',
-                'invalid-data' => 'The skin data is corrupted. Please try again.',
-                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+                'no-data' => 'Es wurden keine Skin-Daten bereitgestellt. Bitte versuche es erneut.',
+                'invalid-format' => 'Das Skin-Datenformat ist ungültig. Bitte versuche es erneut.',
+                'invalid-data' => 'Die Skin-Daten sind beschädigt. Bitte versuche es erneut.',
+                'generic' => 'Da ist etwas schiefgegangen. Bitte versuch es noch einmal.',
             ],
         ],
         'draw' => 'Zeichnen',
