@@ -144,7 +144,7 @@ return [
         'first_wearing' => 'Перший гравець помічений із цим скином:',
         'profiles' => ':profiles у профілі|:profiles у профілях',
         'profiles_title' => 'Профілів з цим скином: :profiles|Профілів з цим скином: :profiles',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Знімок екрану',
     ],
     'skins' => [
         'meta' => [
@@ -697,6 +697,14 @@ return [
             'drag' => 'Перетягніть сюди скин або натисніть',
             'click' => 'Вибрати зображення'
         ],
+        'download' => [
+            'error' => [
+                'no-data' => 'No skin data was provided. Please try again.',
+                'invalid-format' => 'The skin data format is invalid. Please try again.',
+                'invalid-data' => 'The skin data is corrupted. Please try again.',
+                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+            ],
+        ],
         'draw' => 'Малювати',
         'eyedropper' => 'Піпетка',
         'fill' => 'Заповнити',
@@ -890,7 +898,7 @@ return [
             'theme' => 'Тема профілю',
             'theme-primary' => 'Основний',
             'theme-secondary' => 'Додатковий',
-            'appearance' => 'Appearance',
+            'appearance' => 'Зовнішній вигляд',
         ],
         'link' => [
             'manage' => 'Керувати прив’язаним обліковим записом Minecraft',

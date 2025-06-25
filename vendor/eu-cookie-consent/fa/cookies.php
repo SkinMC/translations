@@ -25,9 +25,9 @@ return [
     'googleAnalytics' => 'تجزیه و تحلیل ترافیک گوگل',
     'microsoftClarity' => 'Microsoft Clarity',
 
-    'googleOneTap' => 'Sign in with Google',
+    'googleOneTap' => 'ورود با گوگل',
     'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
 
-    'facebookLogin' => 'Sign in with Facebook',
+    'facebookLogin' => 'ورود با حساب Facebook',
     'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
 ];

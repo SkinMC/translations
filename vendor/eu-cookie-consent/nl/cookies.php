@@ -22,7 +22,7 @@ return [
     'analytical' => 'Analytische cookies',
     'analytical_description' => 'Met deze cookies kunnen we bezoeken en verkeersbronnen tellen, zodat we de prestaties van onze site kunnen meten en verbeteren. Als u deze cookies niet toestaat, zal informatie van deze cookies niet worden gebruikt om de prestaties van de site te verbeteren.',
     'googleAnalytics' => 'Google Analytics',
-    'microsoftClarity' => 'Microsoft Clarity',
+    'microsoftClarity' => 'Microsoft Charity',
 
     'googleOneTap' => 'Inloggen met Google',
     'googleOneTap_description' => 'Met deze cookies kunt u snel inloggen met Google of een account aanmaken via Google. Gegevens van inloggen met Google worden alleen gebruikt voor veiligheidsdoeleinden.',

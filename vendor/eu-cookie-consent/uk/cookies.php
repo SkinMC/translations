@@ -21,7 +21,7 @@ return [
 
     'analytical' => 'Аналітичні файли cookie',
     'analytical_description' => 'Ці файли cookie дозволяють нам підраховувати відвідування та джерела трафіку, щоб ми могли вимірювати та покращувати продуктивність нашого сайту. Якщо ви не дозволите ці файли cookie, інформація з цих файлів cookie не використовуватиметься для покращення роботи сайту.',
-    'googleAnalytics' => 'Google Analytics',
+    'googleAnalytics' => 'Google Аналітика',
     'microsoftClarity' => 'Ясність Microsoft',
 
     'googleOneTap' => 'Увійти через Google',

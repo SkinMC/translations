@@ -20,7 +20,7 @@ return [
     'sr-only' => 'Ga naar reactie :comment_id.',
     'reply' => 'Beantwoord',
     'share' => 'Deel',
-    'tweet' => 'Tweet',
+    'tweet' => 'Tweeten',
     'copy' => 'Link kopiëren',
     'more' => 'Meer',
     'report' => 'Melden',

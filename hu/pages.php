@@ -697,6 +697,14 @@ return [
             'drag' => 'Kattints, vagy húzz ide egy kinézetet',
             'click' => 'Kép kiválasztása'
         ],
+        'download' => [
+            'error' => [
+                'no-data' => 'No skin data was provided. Please try again.',
+                'invalid-format' => 'The skin data format is invalid. Please try again.',
+                'invalid-data' => 'The skin data is corrupted. Please try again.',
+                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+            ],
+        ],
         'draw' => 'Draw',
         'eyedropper' => 'Eyedropper',
         'fill' => 'Fill',

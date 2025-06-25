@@ -117,7 +117,7 @@ return [
         'following-list-empty' => 'Hmm, wygląda na to, że :username nikogo nie obserwuje. Kiedy :username zacznie obserwować ludzi, będziesz mógł ich zobaczyć tutaj.',
         'followers-own-list-empty' => 'Gdy ludzie zaczną śledzić Twój profil, pojawią się tutaj.',
         'followers-list-empty' => 'Hmm, wygląda na to, że :username nie jest przez nikogo śledzony. Bądź pierwszym, który śledzi :username. Gdy więcej osób zacznie śledzić, będziesz mógł je zobaczyć tutaj.',
-        'render' => 'Renderer',
+        'render' => 'Silnik renderujący',
         '3d' => 'Render 3D',
         '2d' => 'Render 2D',
         'name-history-info' => 'Historia nazwy użytkownika jest niedostępna. Mojang usunął obsługę dostępu do API historii nazw 13 września 2022 r., co spowodowało niedostępność dokładnej historii nazw. Jeśli chcesz ukryć historię nazw, stwórz swój profil i przejdź do ustawień, aby uczynić go prywatnym.',
@@ -126,10 +126,10 @@ return [
         'show-skin' => 'Pokaż skórkę',
         'edit-skin' => 'Edytuj skórkę',
         'servers' => [
-            'title' => ':username\'s servers',
+            'title' => ':servery użytkownika',
         ],
         'cape-list' => [
-            'title' => ':username\'s capes',
+            'title' => ':peleryny użytkownika',
         ]
     ],
     'skin' => [
@@ -144,7 +144,7 @@ return [
         'first_wearing' => 'Pierwszy gracz noszący tę skórkę:',
         'profiles' => ':profiles profile|:profiles profiles',
         'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Zrzut ekranu',
     ],
     'skins' => [
         'meta' => [
@@ -170,11 +170,11 @@ return [
         'today' => 'Dodane dzisiaj',
         'random' => 'Losowe',
         'similar' => 'Podobne skórki',
-        'no_similar_skins' => 'No similar skins found yet.',
+        'no_similar_skins' => 'Nie znaleziono podobnych skórek',
         'favorite' => ':count ulubiony|:count ulubionych',
     ],
     'skin-tags' => [
-        'faq' => 'What are tags?',
+        'faq' => 'Co to są tagi?',
         'about' => 'Tags are a way you to add relevant categories to skins. Adding tags allows you to discover more skins you like easily!',
         'guidelines' => [
             'good' => [
@@ -187,27 +187,27 @@ return [
                 'title' => 'Nie dodawaj tagów takich jak:',
                 'general' => 'Zbyt ogólne',
                 'specific' =>  'Zbyt specyficzne',
-                'too-many-tags' =>  'Should be three separate tags',
-                'spelling' => 'Should be :example',
+                'too-many-tags' =>  'Powinno być trzy oddzielne znaczniki',
+                'spelling' => 'Powinno być :przykład',
             ],
         ],
         'toast' => [
             'added' => 'Tag ”:tag” added for voting',
             'removed' => 'Tag ”:tag” has been removed',
-            'upvote' => 'Upvoted ”:tag”',
-            'downvote' => 'Downvoted ”:tag”'
+            'upvote' => 'Polubione ":tag"',
+            'downvote' => 'Niepolubione na ":tag"'
         ],
         'vote' => [
-            'up' => 'Upvote',
-            'down' => 'Downvote',
+            'up' => 'Głosuj za',
+            'down' => 'Głosuj przeciw',
             'remove' => 'Usuń głos',
         ],
     ],
     'contact' => [
         'contact' => 'Kontakt',
-        'email' => 'Please feel free to write us at <a href="mailto:support@skinmc.net">support@skinmc.net</a> for any questions you have.',
+        'email' => 'Proszę napisz do nas pod adresem <a href="mailto:support@skinmc.net">support@skinmc.net</a> dla wszelkich pytań.',
         'faq' => 'We kindly ask to first check out the <a href=":link">FAQ page</a> if your question is already answered there.',
-        'other' => 'Other ways to connect',
+        'other' => 'Inne sposoby połączenia',
         'other_discord' => 'Join the Discord server and connect with others, chat about games, share your favourite packs and get help from the community.',
         'other_twitter' => 'Follow on Twitter to see when a new update or feature is released, see the skin of the week and more.',
         'other_instagram' => 'Follow SkinMC on Instagram to browse and discover cool new featured Minecraft Skins and images.',
@@ -231,7 +231,7 @@ return [
         'card_history_title' => 'Nazwa użytkownika i historia skinów',
         'card_history_detail' => 'Użyj zaawansowanego wyszukiwania, aby znaleźć i zobaczyć nazwę użytkownika/historię użytkownika gracza.',
         'founders' => 'Założyciele',
-        'founders_cofounder' => 'Cofounder of SkinMC',
+        'founders_cofounder' => 'Współtwórca SkinMC',
         'head_of_design' => 'Head of design',
         'head_of_code' => 'Head of code',
         'feedback' => 'Wyślij nam opinię',
@@ -271,7 +271,7 @@ return [
                     <li>Na stronie profilu możesz zobaczyć podgląd skórki</li>
                     <li>Kliknij na przycisk <strong>Pobierz skórkę</strong> pod podglądem</li>
                 </ol>',
-            'submit_q' => 'How do I submit a skin to a collection?',
+            'submit_q' => 'Jak dodać skórkę do kolekcji?',
             'submit_a' => '<p>Please fill out the following short form with the usernames and their category of which you would like to add to the collections. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Collection submission form</a>',
             'mcpe_t' => 'Czy mogę użyć Skórki na Minecraft PE?',
             'mcpe' => '
@@ -303,7 +303,7 @@ return [
             'avatar_face' => 'Awatar stylu twarzy',
             'avatar_bust' => 'Awatar stylu pyłu',
             'avatar_cube' => 'Awatar stylu kostki',
-            'avatar_head3d' => 'Custom 3D head',
+            'avatar_head3d' => 'Niestandardowa głowa 3D',
         ],
         'user' => [
             'title' => 'Wybierz skórkę',
@@ -367,39 +367,39 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Kreator stojaków na zbroję Minecraft',
             'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
         ],
         'meta' => [
-            'title' => 'Minecraft Armor Stand Creator',
+            'title' => 'Kreator stojaków na zbroję Minecraft',
             'description' => 'Easily generate and create custom Minecraft Armor Stands. The editor helps you make different poses, positions, place items, custom skins, and much more.',
         ],
     ],
     'banner' => [
         'editor' => [
             'header' => [
-                'title' => 'Minecraft Banner Editor',
+                'title' => 'Edytor sztandarów Minecraft',
                 'subtitle' => 'Design and create your very own custom Minecraft Banners. These can be used to decorate your world or also commonly seen used as <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> capes.',
             ],
             'meta' => [
-                'title' => 'Minecraft Banner Creator',
+                'title' => 'Kreator sztandarów Minecraft',
                 'description' => 'Create and design your very own custom Minecraft Banners designs with all the patterns and colors from the game! These can be used to decorate your world or be worn as an Optifine Cape using the Banner Cape. You can generate give codes for banners or shields.',
             ],
         ],
         'gallery' => [
             'header' => [
-                'title' => 'Minecraft Banner Gallery',
+                'title' => 'Kreator sztandarów Minecraft',
                 'subtitle' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner as a cape to make your Minecraft skin more unique, or use a Banner as a flag to decorate your world.',
             ],
             'meta' => [
-                'title' => 'Minecraft Banner Gallery',
+                'title' => 'Galeria sztandarów Minecraft',
                 'description' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner as a cape to make your Minecraft skin more unique, or use a Banner as a flag to decorate your world.',
             ],
         ],
     ],
     'search' => [
         'meta' => [
-            'title' => 'Search results: :search',
+            'title' => 'Wyniki wyszukiwania: :szukaj',
         ],
         'title' => 'Wyniki wyszukiwania',
         'results' => 'Page :current for :count result|Page :current of about :count results ',
@@ -415,7 +415,7 @@ return [
         'no_results' => 'Nie znaleziono profili. Spróbuj wyszukać poprzez UUID, zmieniając typ wyszukiwania.',
         'no_results_tags' => 'No tagged skins found. Try searching for other tags such as "blue", "girl", "fox", etc...',
         'again' => 'Szukaj ponownie',
-        'sorry' => 'Sssssssorry...',
+        'sorry' => 'Przeeepraszamy...',
         'view_profile' => 'Zobacz profil',
     ],
     'collection' => [
@@ -424,7 +424,7 @@ return [
         'filters' => 'Filtry',
         'title_trending' => 'Popularne',
         'title_all' => 'Wszystkie skórki Minecraft',
-        'skin_tags' => 'Tagged Skins',
+        'skin_tags' => 'Oznaczone skórki',
         'filters_skin_type' => 'Typ skóry',
         'filter_skin_type_steve' => 'Typ Steve',
         'filter_skin_type_alex' => 'Typ Alex',
@@ -438,23 +438,23 @@ return [
         'subtitle' => 'Zobacz i zarządzaj skinami, które zapisałeś później na liście ulubionych',
         'sort' => 'Sortuj według',
         'toast' => [
-            'added' => 'Added to your favourites list',
-            'removed' => 'Removed from your favourites list'
+            'added' => 'Dodano do listy ulubionych',
+            'removed' => 'Usunięto z listy ulubionych'
         ],
         'skins' => [
             'button' => 'Skórki',
             'empty_headline' => 'Brak ulubionych skórek',
-            'empty_subtitle' => 'You do not have any skins saved to your favourites list yet. Visit the server page and discover your next favourite!',
+            'empty_subtitle' => 'Nie masz jeszcze żadnych skórek zapisanych na liście ulubionych. Odwiedź stronę serwera i odkryj następną ulubioną!',
             'empty_browse' => 'Przeglądaj skórki',
             'meta' => [
                 'title' => 'Moje ulubione skórki',
-                'description' => 'My favourite saved Minecraft skins',
+                'description' => 'Moje ulubione skórki Minecrafta',
             ],
         ],
         'servers' => [
             'button' => 'Serwery',
-            'empty_headline' => 'No favourite servers yet',
-            'empty_subtitle' => 'You do not have any servers saved to your favourites list yet. Visit the server page and discover your next favourite!',
+            'empty_headline' => 'Nie ma jeszcze ulubionych serwerów',
+            'empty_subtitle' => 'Nie masz jeszcze żadnych serwerów zapisanych na liście ulubionych. Odwiedź stronę serwera i odkryj następną ulubioną!',
             'empty_browse' => 'Przeglądaj serwery',
             'meta' => [
                 'title' => 'Moje ulubione serwery',
@@ -469,7 +469,7 @@ return [
             'subtitle' => 'Użyj edytora peleryn Minecraft, aby stworzyć swoją własną, niestandardową, zaprojektowaną pelerynę.',
             'meta' => [
                 'title' => 'Edytor pelerynek Minecraft',
-                'description' => 'Use the Minecraft Cape Editor to create your very own custom designed cape.',
+                'description' => 'Użyj edytora peleryn Minecraft, aby stworzyć swoją własną, niestandardową, zaprojektowaną pelerynę.',
             ],
         ],
         'list' => [
@@ -477,7 +477,7 @@ return [
             'subtitle' => 'Oficjalne pelerynki gry Minecraft. Pelerynki są przedmiotami pamiątkowymi i są noszone jako dodatek do skórki gracza. Mogą również zmienić wygląd po założeniu elytry.',
             'meta' => [
                 'title' => 'Lista pelerynek Minecraft',
-                'description' => 'Minecraft cape list: View all official Minecraft capes including Mojang, Minecon, Personal, Special and vanity capes',
+                'description' => 'Lista peleryn Minecrafta: Zobacz wszystkie oficjalne pelerny Minecrafta w tym Mojang, Minecon, Osobiste, Specjalne i próżne',
             ],
         ],
         'detail' => [
@@ -530,25 +530,25 @@ return [
             'meta' => [
                 'title' => 'Napisz opinię',
             ],
-            'editing' => 'You\'re editing your review from :date. Would you like to delete your review instead?',
-            'welcome' => 'Hi :username. How was your overall experience with :servername?',
-            'subtitle' => 'Leave an overall score of your past experience with the server.',
+            'editing' => 'Edytujesz swoją opinię od :date. Czy chcesz usunąć swoją recenzję?',
+            'welcome' => 'Witaj :username. Jak masz ogólne doświadczenie z :servername?',
+            'subtitle' => 'Pozostaw ogólny wynik swojego doświadczenia z serwerem.',
             'scale' => [
                 'great' => 'Świetne',
                 'good' => 'Dobrze',
                 'okay' => 'Okej',
-                'meh' => 'Meh',
+                'meh' => 'e, tam...',
                 'bad' => 'Źle',
             ],
-            'rate-experience' => 'Next, rate your experience in these areas',
-            'overall' => 'Overall',
-            'server-team' => 'Server team',
+            'rate-experience' => 'Następnie oceń swoje doświadczenia w tych obszarach',
+            'overall' => 'Ogólnie',
+            'server-team' => 'Zespół serwera',
             'community' => 'Społeczność',
             'experience' => 'Doświadczenie',
             'availablility' => 'Czas działania i dostępność',
             'shop' => 'Sklep',
             'write-review-title' => 'Napisz opinię',
-            'write-review-subtitle' => 'Leave a few notes, you can highlight what you enjoyed, what made your experience special, or offer a few suggestions.',
+            'write-review-subtitle' => 'Pozostaw kilka notatek, możesz podkreślić co Ci się podobało, co uczyniło Twoje doświadczenie specjalnym lub zaproponować kilka sugestii.',
             'write-review-helper' => 'Write a server review to share your experience with new players, and help the server owners with feedback.',
             'write-review-tips' => 'Oto kilka porad',
             'submit-title' => 'Gotowy na przesłanie opinii?',
@@ -561,7 +561,7 @@ return [
             'tos-checkbox-part-2' => 'review guidelines.',
             'tos-checkbox-part-3' => 'Your review will be published after submission, but can be subject to review.'
         ],
-        'slots' => 'Slots',
+        'slots' => 'Miejsca',
         'empty-helper' => 'You can try to do another search or',
         'empty' => 'Hmm it\'s still empty here.',
         'verified' => 'Zweryfikowany',
@@ -612,10 +612,10 @@ return [
             'list_your_server_description' => 'Create a listing for your server, add photos, social media and more.',
             'find_players' => 'Znajdź graczy',
             'find_players_description' => 'Find and reach new players to join your server and grow your community.',
-            'get_reviews' => 'Get reviews',
+            'get_reviews' => 'Uzyskaj recenzje',
             'get_reviews_description' => 'Ask your community to review your server, and reward them in game.',
             'why_list_on_skinmc' => 'Why you should list your Server on SkinMC',
-            'others' => 'Others',
+            'others' => 'Inne',
             'quality_check_and_confirmation' => 'Quality check and confirmation',
             'quality_check_description' => 'Our team reviews every server to ensure quality.',
             'verified_players' => 'Reviews from verified Minecraft players',
@@ -696,6 +696,14 @@ return [
             'import_button' => 'Importuj',
             'drag' => 'Drag and drop a skin here, or click',
             'click' => 'Select image'
+        ],
+        'download' => [
+            'error' => [
+                'no-data' => 'No skin data was provided. Please try again.',
+                'invalid-format' => 'The skin data format is invalid. Please try again.',
+                'invalid-data' => 'The skin data is corrupted. Please try again.',
+                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+            ],
         ],
         'draw' => 'Rysuj',
         'eyedropper' => 'Eyedropper',

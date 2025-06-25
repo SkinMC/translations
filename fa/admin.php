@@ -14,15 +14,15 @@ return [
         'total-members' => 'همه اعضا',
         'claimed-profiles' => 'پروفایل های گرفته شده',
         'profiles' => 'پروفایل',
-        'skins' => 'پوسته ها',
+        'skins' => 'اسکین ها',
         'users' => 'کاربران',
-        'last-30-days' => '30 روز گذشته',
+        'last-30-days' => '۳۰ روز گذشته',
         'members' => 'اعضا',
         'usernames' => 'نام کاربری ها',
     ],
     'help' => [
         'title' => 'راهنما',
-        'subtitle' => 'نکته های مفید برای میزکار اسکین ام سی',
+        'subtitle' => 'نکته های مفید برای داشبورد SkinMC',
     ],
     'users' => [
         'title' => 'کاربر ها',

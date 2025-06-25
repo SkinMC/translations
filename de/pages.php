@@ -697,6 +697,14 @@ return [
             'drag' => 'Ziehe einen Skin hierher oder klicke',
             'click' => 'Bild auswählen'
         ],
+        'download' => [
+            'error' => [
+                'no-data' => 'Es wurden keine Skin-Daten bereitgestellt. Bitte versuche es erneut.',
+                'invalid-format' => 'Das Skin-Datenformat ist ungültig. Bitte versuche es erneut.',
+                'invalid-data' => 'Die Skin-Daten sind beschädigt. Bitte versuche es erneut.',
+                'generic' => 'Da ist etwas schiefgegangen. Bitte versuch es noch einmal.',
+            ],
+        ],
         'draw' => 'Zeichnen',
         'eyedropper' => 'Farbpipette',
         'fill' => 'Füllen',
