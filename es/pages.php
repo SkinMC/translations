@@ -858,6 +858,7 @@ return [
             'youtube' => 'Introduce tu canal de YouTube a SkinMC que mostrará tu canal de YouTube en tu perfil.',
             'youtube-format' => 'Utilice el siguiente formato dependiendo del enlace de su canal:',
             'twitter' => 'Introduce tu nombre de usuario de Twitter para mostrarlo en tu perfil.',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => 'Introduce tu nombre de usuario de Twitch para mostrar tu canal de Twitch en tu perfil.',
             'reddit' => 'Introduce tu nombre de usuario de Reddit para mostrar tu perfil de Reddit en tu perfil.',
             'github' => 'Introduce tu nombre de usuario de GitHub para mostrar tu perfil de GitHub en tu perfil.',

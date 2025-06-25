@@ -858,6 +858,7 @@ return [
             'youtube' => 'Ha szeretnéd a YouTube-csatornádat megjeleníteni a profilodon, add meg a csatornaazonosítót!',
             'youtube-format' => 'A csatorna hivatkozásának felépítésétől függően az alábbi formátumok valamelyikét kell megadnod:',
             'twitter' => 'Ha szeretnél a profilodon Twitter-adatokat megjeleníteni, add meg a Twitter-felhasználónevedet!',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => 'Ha szeretnél a profilodon Twitch-adatokat megjeleníteni, add meg a Twitch-felhasználónevedet!',
             'reddit' => 'Ha szeretnél a profilodon Reddit-adatokat megjeleníteni, add meg a Reddit-felhasználónevedet!',
             'github' => 'Ha szeretnél a profilodon GitHub-adatokat megjeleníteni, add meg a GitHub-felhasználónevedet!',

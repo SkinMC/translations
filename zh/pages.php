@@ -859,6 +859,7 @@ return [
             'youtube' => '添加您的 YouTube 频道到 SkinMC ，这将在您的个人资料中显示您的 YouTube 频道。',
             'youtube-format' => 'Use the following format depending on your channel link:',
             'twitter' => '输入您的Twitter用户名以在您的个人资料中显示它。',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => '输入您的Twitch用户名以在您的个人资料上显示您的Twitch频道。',
             'reddit' => '输入您的Reddit用户名以在您的个人资料上显示您的Reddit信息。',
             'github' => '输入您的GitHub用户名以在您的个人资料上显示您的GitHub信息。',
