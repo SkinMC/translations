@@ -858,6 +858,7 @@ return [
             'youtube' => 'Add your YouTube channel to SkinMC which will display your YouTube channel on your profile.',
             'youtube-format' => 'Use the following format depending on your channel link:',
             'twitter' => 'Enter your Twitter username to display it on your profile.',
+            'bluesky' => 'Enter your Bluesky handle to display your Bluesky profile on your profile.',
             'twitch' => 'Enter your Twitch username to display your Twitch channel on your profile.',
             'reddit' => 'Enter your Reddit username to display your Reddit profile on your profile.',
             'github' => 'Enter your GitHub username to display your GitHub profile on your profile.',
