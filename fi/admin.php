@@ -38,23 +38,23 @@ return [
         'title' => 'Skinit',
     ],
     'tags' => [
-        'title' => 'Tagit',
-        'pending' => 'Odottavat tagit',
-        'banned' => 'Kielletyt tagit',
+        'title' => 'Tunnisteet',
+        'pending' => 'Odottavat tunnisteet',
+        'banned' => 'Kielletyt tunnisteet',
     ],
     'reports' => [
         'title' => 'Raportit',
     ],
     'feed' => [
-        'title' => 'Feed posts',
-        'subtitle' => ':count total posts created',
+        'title' => 'Syötteen julkaisut',
+        'subtitle' => ':count julkaisuja luotu yhteensä',
     ],
     'comments' => [
-        'title' => 'Comments',
-        'subtitle' => ':count total comments posted',
+        'title' => 'Kommentit',
+        'subtitle' => ':count kommentteja julkaistu yhteensä',
         'deleted' => [
-            'title' => 'Deleted comments',
-            'subtitle' => ':count total comments deleted',
+            'title' => 'Poistetut kommentit',
+            'subtitle' => ':count kommentteja poistettu yhteensä',
         ]
     ]
 ];
