@@ -12,8 +12,8 @@ return [
 
     'link' => [
         'error' => [
-            'missing-game-copy' => 'This Microsoft account doesn\'t own Minecraft. Go to Minecraft.net and log in to your Microsoft account which owns Minecraft Java Edition.',
-            'generic' => 'Hmm... something went wrong. Please try again or contact SkinMC support via e-mail or Discord for assistance.'
+            'missing-game-copy' => 'Tällä Microsoft-tilillä ei ole Minecraftia. Siirry osoitteeseen Minecraft.net ja kirjaudu sisään siihen Microsoft-tiliin, jolla on Minecraft Java Edition.',
+            'generic' => 'Hmm... jokin meni pieleen. Yritä uudelleen tai ota yhteyttä SkinMC tukeen sähköpostitse tai Discordissa saadaksesi apua.'
         ],
     ],
 
