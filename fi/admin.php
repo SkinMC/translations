@@ -10,40 +10,40 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Dashboard',
-        'total-members' => 'Total members',
-        'claimed-profiles' => 'Claimed profiles',
-        'profiles' => 'Profiles',
-        'skins' => 'Skins',
-        'users' => 'Users',
-        'last-30-days' => 'Last 30 days',
-        'members' => 'Members',
-        'usernames' => 'Usernames',
+        'title' => 'Hallintapaneeli',
+        'total-members' => 'Jäseniä yhteensä',
+        'claimed-profiles' => 'Lunastetut profiilit',
+        'profiles' => 'Profiilit',
+        'skins' => 'Skinit',
+        'users' => 'Käyttäjät',
+        'last-30-days' => 'Viimeisten 30 päivän aikana',
+        'members' => 'Jäseniä',
+        'usernames' => 'Käyttäjänimet',
     ],
     'help' => [
-        'title' => 'Help',
-        'subtitle' => 'Useful tips for the SkinMC dashboard',
+        'title' => 'Apua',
+        'subtitle' => 'Hyödyllisiä vinkkejä SkinMC hallintapaneeliin',
     ],
     'users' => [
-        'title' => 'Users',
-        'subtitle' => ':count total users signed up',
+        'title' => 'Käyttäjät',
+        'subtitle' => ':count käyttäjiä rekisteröitynyt yhteensä',
         'list' => [
-            'username' => 'Username',
-            'email' => 'Email',
-            'status' => 'Status',
-            'role' => 'Role'
+            'username' => 'Käyttäjänimi',
+            'email' => 'Sähköposti',
+            'status' => 'Tila',
+            'role' => 'Rooli'
         ],
     ],
     'skins' => [
-        'title' => 'Skins',
+        'title' => 'Skinit',
     ],
     'tags' => [
-        'title' => 'Tags',
-        'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
+        'title' => 'Tagit',
+        'pending' => 'Odottavat tagit',
+        'banned' => 'Kielletyt tagit',
     ],
     'reports' => [
-        'title' => 'Reports',
+        'title' => 'Raportit',
     ],
     'feed' => [
         'title' => 'Feed posts',
