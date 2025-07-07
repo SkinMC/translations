@@ -10,16 +10,16 @@ return [
     |
     */
     'award' => [
-        'feed_post' => 'Posted to the feed',
-        'tag_approved' => 'Tag you added was approved',
-        'tag_approved_vote' => 'Tag you voted for was approved',
-        'comment' => 'Left a comment',
-        'comment_reply' => 'Extra XP for reply on a comment',
-        'generic' => 'Earned XP',
-        'daily_login' => 'Daily login XP',
-        'sign_up' => 'Welcome to SkinMC.',
-        'invite_friend' => 'Invite a friend',
-        'invited_friend' => 'Invited by a friend',
+        'feed_post' => 'Julkaistu syötteeseen',
+        'tag_approved' => 'Lisäämäsi tunniste on hyväksytty',
+        'tag_approved_vote' => 'Tunniste jota äänestit, oli hyväksytty',
+        'comment' => 'Jätti kommentin',
+        'comment_reply' => 'Lisää XP kommenttiin vastaamisesta',
+        'generic' => 'Ansaittu XP',
+        'daily_login' => 'Päivittäinen sisäänkirjautumisen XP',
+        'sign_up' => 'Tervetuloa SkinMC:iin.',
+        'invite_friend' => 'Kutsu ystävä',
+        'invited_friend' => 'Ystävän kutsuma',
     ],
-    'empty' => 'Earn some XP to see it here.',
+    'empty' => 'Ansaitse XP:tä nähdäksesi sen täällä.',
 ];
