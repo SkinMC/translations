@@ -35,5 +35,5 @@ return [
         'achievement' =>  'Framsteg-generator',
         'avatar' => 'Den originella avatarskaparen'
     ],
-    'patch_notes_update' => 'Thanks for using the SkinMC App. With this update you will receive some bug fixes and improvements. What do you think of the SkinMC app? Rate us!'
+    'patch_notes_update' => 'Tack för att du använder SkincMC-appen. Med denna uppdatering kommer du få ett par buggfixar och förbättringar. Vad tycker du om SkinMC-appen? Betygsätt oss!'
 ];
