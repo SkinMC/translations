@@ -68,11 +68,11 @@ return [
         'apply_skin' => 'Apply skin',
         'capes' => 'Capes',
         'claim_profile' => 'Are you :username? Claim your profile to verify & customise it!',
-        'claimed' => 'Claimed profile',
-        'meta_description' => 'View and download :username Minecraft Skin. See their UUID, name history, detailed stats, and more',
-        'created_at' => 'Updated: :changed_at',
+        'claimed' => 'Anspråkad profil',
+        'meta_description' => 'Visa och ladda ner :username Minecraft utseende. Se deras UUID, namnhistorik, detaljerad statistik med mera',
+        'created_at' => 'Uppdaterades: :changed_at',
         'skins' => [
-            'meta_title' => ':username Minecraft Skin History',
+            'meta_title' => ':username Minecraft utseendehistorik',
             'meta_description' => 'View :username Minecraft Skins history and previously used Skins. Use the history to browse through old or past used skins, backup and rollback or collect new skins.',
             'title' => 'Minecraft Skin history'
         ],
