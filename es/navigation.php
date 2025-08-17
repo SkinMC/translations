@@ -12,7 +12,7 @@ return [
     'banners' => 'Estandartes',
     'profile' => 'Mi perfil',
 
-    'generators' => 'Generators',
+    'generators' => 'Generadores',
 
     'logout' => 'Cerrar sesión',
     'register' => 'Registrarse',
@@ -53,8 +53,8 @@ return [
     'community' => 'Comunidad',
     'imprint' => 'Imprimir',
     'cookies' => 'Cookies',
-    'terms' => 'Terms of Service',
-    'privacy' => 'Privacy policy',
+    'terms' => 'Términos de servicio',
+    'privacy' => 'Política de privacidad',
     'app' => 'Aplicación',
     'mod' => 'Mod',
     'totem' => 'Totems',
@@ -68,8 +68,8 @@ return [
     'add' => 'Añadir',
 
     'theme' => [
-        'dark' => 'Dark',
-        'light' => 'Light',
-        'auto' => 'Automatic'
+        'dark' => 'Oscuro',
+        'light' => 'Claro',
+        'auto' => 'Automático'
     ],
 ];
