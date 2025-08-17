@@ -4,29 +4,29 @@ return [
     'acceptAllButton' => 'Aceptar todo',
     'save' => 'Guardar',
     'PopupTitle' => 'Responsabilidad de Cookies',
-    'PopupDescription' => 'SkinMC uses cookies to provide functionality and features.',
+    'PopupDescription' => 'SkinMC utiliza cookies para proporcionar funciones y características.',
 
-    'customise' => 'Customise',
-    'customise_title' => 'Customise cookies',
+    'customise' => 'Personalizar',
+    'customise_title' => 'Personalizar cookies',
 
     'essential' => 'Datos esenciales',
-    'essential_description' => 'Essential data cookies are required to run the site you are visiting technically. You can not deactivate them.',
+    'essential_description' => 'Las cookies de datos esenciales son necesarias para ejecutar el sitio que estás visitando técnicamente. No puedes desactivarlas.',
 
-    'session' => 'Session Cookie: PHP uses a Cookie to identify user sessions.',
-    'xsrf-token' => 'XSRF-Token Cookie: automatically created CSRF "token" for each active user session managed by the application. This token is used to verify that the authenticated user is the one actually making the requests to the application.',
+    'session' => 'Cookie de sesión: PHP utiliza una Cookie para identificar sesiones de usuario.',
+    'xsrf-token' => 'XSRF-Token Cookie: automáticamente creado CSRF "token" para cada sesión de usuario activo gestionada por la aplicación. Este token se utiliza para verificar que el usuario autenticado es el que realmente hace las peticiones a la aplicación.',
 
     'functional' => 'Cookies funcionales',
-    'functional_description' => 'These cookies allow the provision of enhanced functionality such as videos. They may be set by us or by third-party providers whose services we have added to our pages. If you do not allow these cookies, then some or all of these functionalities may not function properly.',
+    'functional_description' => 'Estas cookies permiten la provisión de funcionalidad mejorada como vídeos. Pueden ser establecidos por nosotros o por terceros cuyos servicios hemos añadido a nuestras páginas. Si no permite estas cookies, es posible que algunas o todas estas funcionalidades no funcionen correctamente.',
     'youtube' => 'YouTube',
 
     'analytical' => 'Cookies analíticas',
-    'analytical_description' => 'These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. If you do not allow these cookies, information from these cookies will not be used to help site performance.',
+    'analytical_description' => 'Estas cookies nos permiten contar visitas y fuentes de tráfico para que podamos medir y mejorar el rendimiento de nuestro sitio. Si no permite estas cookies, la información de estas cookies no se utilizará para ayudar al rendimiento del sitio.',
     'googleAnalytics' => 'Google Analytics',
     'microsoftClarity' => 'Microsoft Clarity',
 
-    'googleOneTap' => 'Sign in with Google',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap' => 'Iniciar sesión con Google',
+    'googleOneTap_description' => 'Estas cookies permiten la funcionalidad de iniciar sesión con Google para iniciar sesión rápidamente o crear una cuenta con Google. Los datos de inicio de sesión con Google solo se utilizan con fines de seguridad.',
 
-    'facebookLogin' => 'Sign in with Facebook',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin' => 'Iniciar sesión con Facebook',
+    'facebookLogin_description' => 'Estas cookies permiten la funcionalidad de iniciar sesión con Facebook para iniciar sesión rápidamente o crear una cuenta con Facebook.',
 ];
