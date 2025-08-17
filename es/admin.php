@@ -10,51 +10,51 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Dashboard',
-        'total-members' => 'Total members',
-        'claimed-profiles' => 'Claimed profiles',
-        'profiles' => 'Profiles',
+        'title' => 'Panel',
+        'total-members' => 'Miembros totales',
+        'claimed-profiles' => 'Perfiles reclamados',
+        'profiles' => 'Perfiles',
         'skins' => 'Skins',
-        'users' => 'Users',
-        'last-30-days' => 'Last 30 days',
-        'members' => 'Members',
-        'usernames' => 'Usernames',
+        'users' => 'Usuarios',
+        'last-30-days' => 'Últimos 30 días',
+        'members' => 'Miembros',
+        'usernames' => 'Nombres de usuario',
     ],
     'help' => [
-        'title' => 'Help',
-        'subtitle' => 'Useful tips for the SkinMC dashboard',
+        'title' => 'Ayuda',
+        'subtitle' => 'Consejos útiles para el panel de control de SkinMC',
     ],
     'users' => [
-        'title' => 'Users',
-        'subtitle' => ':count total users signed up',
+        'title' => 'Usuarios',
+        'subtitle' => ':count usuarios totales registrados',
         'list' => [
-            'username' => 'Username',
-            'email' => 'Email',
-            'status' => 'Status',
-            'role' => 'Role'
+            'username' => 'Nombre de usuario',
+            'email' => 'Correo electrónico',
+            'status' => 'Estado',
+            'role' => 'Rol'
         ],
     ],
     'skins' => [
         'title' => 'Skins',
     ],
     'tags' => [
-        'title' => 'Tags',
-        'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
+        'title' => 'Etiquetas',
+        'pending' => 'Etiquetas pendientes',
+        'banned' => 'Etiquetas prohibidas',
     ],
     'reports' => [
-        'title' => 'Reports',
+        'title' => 'Reportes',
     ],
     'feed' => [
-        'title' => 'Feed posts',
-        'subtitle' => ':count total posts created',
+        'title' => 'Publicaciones',
+        'subtitle' => ':count total de publicaciones creadas',
     ],
     'comments' => [
-        'title' => 'Comments',
-        'subtitle' => ':count total comments posted',
+        'title' => 'Comentarios',
+        'subtitle' => ':count comentarios publicados',
         'deleted' => [
-            'title' => 'Deleted comments',
-            'subtitle' => ':count total comments deleted',
+            'title' => 'Comentarios eliminados',
+            'subtitle' => ':count comentarios totales eliminados',
         ]
     ]
 ];
