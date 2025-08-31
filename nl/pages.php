@@ -144,7 +144,7 @@ return [
         'first_wearing' => 'Eerste speler met deze skin gezien:',
         'profiles' => ':profiles profiel|:profiles profielen',
         'profiles_title' => ':profiles profiel met deze skin|:profiles profielen met deze skin',
-        'screenshot' => 'Screenshot',
+        'screenshot' => 'Schermafbeelding',
     ],
     'skins' => [
         'meta' => [
