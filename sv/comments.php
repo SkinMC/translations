@@ -38,5 +38,5 @@ return [
     'delete' => 'Radera kommentar',
     'empty' => 'Inga kommentarer ännu',
     'empty-subtitle' => 'Bli först att dela med dig om vad du tycker!',
-    'deleted' => 'Your comment was successfully deleted'
+    'deleted' => 'Din kommentar är nu raderad'
 ];
