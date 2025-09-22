@@ -22,5 +22,5 @@ return [
     'blocked' => 'Your account was deactivated on :date. Bunun bir hata olduğunu düşünüyorsanız, lütfen yardım için <a target="_blank" href=":url">support center</a>  adresini ziyaret edin.',
     'show-password' => 'Şifreyi göster',
     'hide-password' => 'Şifreyi gizle',
-    'invite_code' => 'Invite code'
+    'invite_code' => 'Davet kodu'
 ];
