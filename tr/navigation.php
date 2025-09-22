@@ -28,7 +28,7 @@ return [
     'username' => 'Kullanıcı Adı',
     'uuid' => 'UUID',
     'search' => 'Arama',
-    'search_placeholder' => 'Deneme',
+    'search_placeholder' => 'Şunu Deneyin',
     'search_placeholder_uuid' => 'UUID\'yi girin',
     'start_search' => 'Aramaya başla',
     'cancel_search' => 'Vazgeç',
