@@ -36,16 +36,16 @@ return [
     'level' => [
         'up' => [
             'title' => 'Seviye atladın!',
-            'text' => 'Congratulations on reaching level :level!'
+            'text' => ':level seviyeye ulaştığınız için tebrikler!'
         ]
     ],
     'report' => [
         'created' => [
-            'title' => 'We\'ve received your report! (Case :id)',
-            'text' => 'Our team is on it and will look into it right away. Thanks for being awesome and helping us keep things chill! '
+            'title' => 'Raporunuzu aldık! (Vaka :id)',
+            'text' => 'Ekibimiz bu konuyla ilgileniyor ve hemen inceleyecek. Harika olduğun ve işleri sakin tutmamıza yardımcı olduğun için teşekkürler! '
         ],
         'resolved' => [
-            'title' => 'We reviewed your report (Case :id)',
+            'title' => 'Raporunuzu inceledik (Vaka :id)',
             'text' => 'Hi there, the reported issue has been taken care of and is now sorted. Thanks for being a superhero of our community!',
         ],
         'dismissed' => [
