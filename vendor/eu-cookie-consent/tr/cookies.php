@@ -16,7 +16,7 @@ return [
     'xsrf-token' => 'XSRF-Token Cookie: Uygulama tarafından yönetilen her aktif kullanıcı oturumu için otomatik olarak oluşturulan CSRF "token". Bu belirteç, kimliği doğrulanmış kullanıcının uygulamaya gerçekten istekte bulunan kişi olduğunu doğrulamak için kullanılır.',
 
     'functional' => 'Fonksiyonel çerezler',
-    'functional_description' => 'These cookies allow the provision of enhanced functionality such as videos. They may be set by us or by third-party providers whose services we have added to our pages. If you do not allow these cookies, then some or all of these functionalities may not function properly.',
+    'functional_description' => 'Bu çerezler, videolar gibi gelişmiş işlevlerin sağlanmasına izin verir. Bunlar bizim tarafımızdan veya hizmetlerini sayfalarımıza eklediğimiz üçüncü taraf sağlayıcılar tarafından belirlenebilir. Bu tanımlama bilgilerine izin vermezseniz, bu işlevlerin bazıları veya tümü düzgün çalışmayabilir.',
     'youtube' => 'YouTube',
 
     'analytical' => 'Analitik çerezler',
@@ -25,8 +25,8 @@ return [
     'microsoftClarity' => 'Microsoft Clarity',
 
     'googleOneTap' => 'Google ile giriş yap',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap_description' => 'Bu çerezler, Google ile Oturum Açma özelliğinin hızlı bir şekilde oturum açmanıza veya Google ile bir hesap oluşturmanıza olanak tanır. Google ile Oturum Açma özelliğinden elde edilen veriler yalnızca güvenlik amacıyla kullanılır.',
 
     'facebookLogin' => 'Facebook ile giriş yap',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin_description' => 'Bu çerezler, Facebook ile hızlı bir şekilde oturum açmak veya Facebook ile hesap oluşturmak için Facebook ile Oturum Açma işlevini etkinleştirir.',
 ];
