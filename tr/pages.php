@@ -215,29 +215,29 @@ return [
     ],
     'about' => [
         'intro' => '<span>Minecraft</span> <span>Skinleri</span> <span>için</span> <span>platformunuz.</span>',
-        'header_credit' => 'Illustration "Epic Nether Battle" by',
+        'header_credit' => '“Epic Nether Battle” adlı illüstrasyon',
         'info' => 'Her şeyin kaydını tutun.',
         'info_explainer' => 'Bir oyuncunun isim geçmişini görüntüleyin, önceki görünümlerini görün, arkadaş olarak ekleyin, görünümleri indirin ve hatta ayrıntı istatistiklerini alın.',
         'card_find_title' => 'Herhangi bir Minecraft Oyuncusunu Bul',
-        'card_find_detail' => 'Get started by searching for any players username or UUID of your choice.',
+        'card_find_detail' => 'İstediğiniz herhangi bir oyuncunun kullanıcı adını veya UUID\'sini arayarak başlayın.',
         'card_view_title' => 'Görüntüle, kaydet ve düzenle',
-        'card_view_detail' => 'Found a skin you like? Save it by downloading or use the editor to make it your own.',
+        'card_view_detail' => 'Beğendiğiniz bir tema buldunuz mu? İndirerek kaydedin veya düzenleyiciyi kullanarak kendi temanızı oluşturun.',
         'card_claim_title' => 'Doğrulanın',
-        'card_claim_detail' => 'Link up your Minecraft account and claim your profile to unlock cool new features!',
+        'card_claim_detail' => 'Minecraft hesabını bağla ve profilini talep ederek harika yeni özelliklerin kilidini aç!',
         'card_customise_title' => 'Profilinizi özelleştirin',
-        'card_customise_detail' => 'Verified players can add their social media links and make their profile their own.',
+        'card_customise_detail' => 'Doğrulanmış oyuncular sosyal medya bağlantılarını ekleyebilir ve profillerini kendilerine ait hale getirebilirler.',
         'card_friends_title' => 'Arkadaşlarınızı ekleyin',
-        'card_friends_detail' => 'Get connected with your friends on SkinMC and show your friend list on the profile.',
+        'card_friends_detail' => 'SkinMC\'de arkadaşlarınızla bağlantı kurun ve profilinizde arkadaş listenizi gösterin.',
         'card_history_title' => 'Kullanıcı adı ve skin geçmişi',
-        'card_history_detail' => 'Use the advanced search to find and see the username/skin history of a player.',
+        'card_history_detail' => 'Gelişmiş arama özelliğini kullanarak bir oyuncunun kullanıcı adı/skin geçmişini bulabilir ve görüntüleyebilirsiniz.',
         'founders' => 'Kurucular',
         'founders_cofounder' => 'SkinMC\'nin kurucu ortağı',
         'head_of_design' => 'Tasarım başkanı',
         'head_of_code' => 'Kod başkanı',
         'feedback' => 'Bize geri bildirimde bulunun',
-        'faq' => 'Questions about Minecraft, Skins, and more? Read our FAQs with answers to most frequently asked questions.',
+        'faq' => 'Minecraft, Skinler ve daha fazlası hakkında sorularınız mı var? En sık sorulan soruların yanıtlarını içeren SSS bölümümüzü okuyun.',
         'faq_link' => 'SSS merkezini ziyaret edin',
-        'contact' => 'Do you want to reach out or have further questions? Contact us directly.',
+        'contact' => 'İletişim kurmak mı istiyorsunuz veya başka sorularınız mı var? Doğrudan bizimle iletişime geçin.',
         'contact_link' => 'Bize ulaşın',
 
     ],
@@ -285,7 +285,7 @@ return [
                     <li>Tap on "owned", then "import", then "choose new skin"</li>
                 </ol>',
             'change_times_t' => 'Kullanıcı adımı ne sıklıkla değiştirebilirim?',
-            'change_times' => '<p>You can change your Minecraft Username <strong>once</strong> every <strong>30 days</strong>.</p>',
+            'change_times' => '<p>Minecraft kullanıcı adınızı her <strong>30 günde bir</strong> <strong>bir kez</strong> değiştirebilirsiniz.</p>',
             'available_t' => 'Kullanıcı adımı değiştirdikten sonra, diğer kullanıcılar ne zaman bu kullanıcı adını talep edebilir?',
             'available' => '<p>If you want to change back to your previous username, you can change back <strong>after 30 days.</strong> Everyone else needs to wait an additional <strong>7 days</strong> (37 days after changing) before they can claim your old username. </p>',
             'username_history_t' => 'Kullanıcı adı geçmişimi silebilir misiniz lütfen?',
@@ -347,7 +347,7 @@ return [
     'achievement' => [
         'header' => [
             'title' => 'Kendi Minecraft başarımınızı oluşturun',
-            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and use show your advancements in anything you like to!',
+            'subtitle' => 'Minecraft Başarım Oluşturucuyu kullanarak kendi özel başarımınızı oluşturun ve istediğiniz her alanda ilerlemenizi gösterin!',
         ],
         'generator' => [
             'yellow_text' => 'Sarı yazı',
@@ -368,32 +368,32 @@ return [
     'armor' => [
         'header' => [
             'title' => 'Minecraft Zırh Standı Oluşturucu',
-            'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
+            'subtitle' => 'Kendi özel Minecraft Zırh Standlarınızı oluşturun ve tasarlayın. Farklı pozlar, pozisyonlar oluşturun, öğeleri yerleştirin ve çok daha fazlasını yapın.',
         ],
         'meta' => [
             'title' => 'Minecraft Zırh Standı Oluşturucu',
-            'description' => 'Easily generate and create custom Minecraft Armor Stands. The editor helps you make different poses, positions, place items, custom skins, and much more.',
+            'description' => 'Özel Minecraft Zırh Standlarını kolayca oluşturun ve tasarlayın. Editör, farklı pozlar, konumlar, öğeleri yerleştirme, özel görünümler ve çok daha fazlasını yapmanıza yardımcı olur.',
         ],
     ],
     'banner' => [
         'editor' => [
             'header' => [
                 'title' => 'Minecraft Flama Düzenleyici',
-                'subtitle' => 'Design and create your very own custom Minecraft Banners. These can be used to decorate your world or also commonly seen used as <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> capes.',
+                'subtitle' => 'Kendi özel Minecraft Flamalarınızı tasarlayın ve oluşturun. Bunlar dünyanızı süslemek için kullanılabilir veya genellikle <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> pelerinleri olarak da kullanılır.',
             ],
             'meta' => [
                 'title' => 'Minecraft Flama Oluşturucu',
-                'description' => 'Create and design your very own custom Minecraft Banners designs with all the patterns and colors from the game! These can be used to decorate your world or be worn as an Optifine Cape using the Banner Cape. You can generate give codes for banners or shields.',
+                'description' => 'Oyundaki tüm desen ve renkleri kullanarak kendi özel Minecraft Flama tasarımlarınızı oluşturun ve tasarlayın! Bunlar, dünyanızı süslemek için kullanılabilir veya Flama Pelerinini kullanarak Optifine Pelerin olarak giyilebilir. Flamalar veya kalkanlar için hediye kodları oluşturabilirsiniz.',
             ],
         ],
         'gallery' => [
             'header' => [
                 'title' => 'Minecraft Flama Galerisi',
-                'subtitle' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner as a cape to make your Minecraft skin more unique, or use a Banner as a flag to decorate your world.',
+                'subtitle' => ':count tane özel tasarlanmış Minecraft Flamaları galerisini inceleyin. Flamayı, Minecraft görünümünüzü daha benzersiz hale getirmek için pelerin olarak veya dünyanızı süslemek için bayrak olarak kullanabilirsiniz.',
             ],
             'meta' => [
                 'title' => 'Minecraft Flama Galerisi',
-                'description' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner as a cape to make your Minecraft skin more unique, or use a Banner as a flag to decorate your world.',
+                'description' => ':count tane özel tasarlanmış Minecraft Flamaları galerisini inceleyin. Flamayı, Minecraft görünümünüzü daha benzersiz hale getirmek için pelerin olarak veya dünyanızı süslemek için bayrak olarak kullanabilirsiniz.',
             ],
         ],
     ],
