@@ -43,7 +43,7 @@ return [
         'banned' => 'Tag vietati',
     ],
     'reports' => [
-        'title' => 'Segnala',
+        'title' => 'Segnalazioni',
     ],
     'feed' => [
         'title' => 'Elenco feed',
