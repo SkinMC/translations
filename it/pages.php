@@ -42,10 +42,10 @@ return [
         'explore' => 'Esplora nuove idee e strumenti',
         'servers_browse' => 'Cerca server',
         'servers' => 'Scopri i migliori server Minecraft',
-        'heads' => 'Testa di Minecraft',
-        'head_description' => 'Sfoglia il database delle teste, o creane di nuovi.',
-        'achievement' => 'Generatore di obiettivi',
-        'achievement_detail' => 'Crea il tuo obiettivo personalizzato.',
+        'heads' => 'Teste di Minecraft',
+        'head_description' => 'Sfoglia il database delle teste, o creane di nuove.',
+        'achievement' => 'Generatore di achievement',
+        'achievement_detail' => 'Crea i tuoi achievements personalizzati.',
         'continue' => 'Contina a sfogliare'
     ],
     'profile' => [
