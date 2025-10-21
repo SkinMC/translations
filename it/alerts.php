@@ -10,7 +10,7 @@ return [
     |
     */
     'follower' => [
-        'title' => 'Nuovo seguace',
+        'title' => 'Nuovo follower',
         'text' => ':user ti segue!'
     ],
     'comment' => [
@@ -41,16 +41,16 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'Abbiamo ricevuto il tuo rapporto! (Caso :id)',
-            'text' => 'La nostra squadra è sempre allerta e lo visionerà il prima possibile. Grazie per la tua disponibilità nell\'aiutarci a mantenere un ambiente tranquillo! '
+            'title' => 'Abbiamo ricevuto il tuo report! (Caso :id)',
+            'text' => 'La nostra squadra è sempre allerta e agirà il prima possibile. Grazie per la tua disponibilità nell\'aiutarci a mantenere un ambiente tranquillo! '
         ],
         'resolved' => [
-            'title' => 'Abbiamo esaminato il tuo rapporto (Caso :id)',
+            'title' => 'Abbiamo esaminato il tuo report (Caso :id)',
             'text' => 'Ehilà, il problema segnalato è stato ricevuto ed è ora registrato. Grazie per essere un supereroe della nostra comunità!',
         ],
         'dismissed' => [
             'title' => 'Abbiamo esaminato il tuo rapporto (Caso :id)',
-            'text' => 'Dopo qualche indagine, abbiamo scoperto che il contenuto che hai segnalato non va contro le nostre linee guida. Se vuoi farci visionare qualcosa di specifico, assicurati di segnalare la skin, il profilo, ecc, e di fornire un contesto aggiuntivo quando necessario. Grazie per la tua solerzia e il tuo aiuto alla nostra comunità!',
+            'text' => 'Dopo qualche indagine, abbiamo scoperto che il contenuto che hai segnalato non va contro le nostre linee guida. Se vuoi farci visionare qualcosa di specifico, assicurati di segnalare la skin, il profilo, ecc, e di fornire un contesto aggiuntivo quando necessario. Grazie per la tua sollecitazione e il tuo aiuto alla nostra comunità!',
         ]
     ]
 ];
