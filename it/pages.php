@@ -3,11 +3,11 @@
 return [
     'auth' => [
         'login' => [
-            'title' => 'Benvenuto a SkinMC',
+            'title' => 'Benvenuto su SkinMC',
         ],
         'register' => [
             'title' => 'Registrati su SkinMC',
-            'subtitle' => 'Salta su e crea il tuo account per l\'accesso completo.'
+            'subtitle' => 'Inizia e crea il tuo account per l\'accesso completo.'
         ]
     ],
 
@@ -16,25 +16,25 @@ return [
         'hero_cta' => 'Sorprendimi',
         'hero_explore_cta' => 'Esplora le skin',
         'skin_viewer' => 'Visualizzatore Skin',
-        'skin_viewer_detail' => 'Sfoglia le skin :count',
-        'skin_editor' => 'Editor skin',
+        'skin_viewer_detail' => 'Sfoglia le :count skin',
+        'skin_editor' => 'Editor di skin',
         'skin_editor_detail' => 'Progetta la tua skin',
-        'avatar_maker' => 'Generatore avatar',
-        'avatar_maker_detail' => 'Genera le tue immagini personalizzate del profilo avatar di Minecraft.',
+        'avatar_maker' => 'Generatore di avatar',
+        'avatar_maker_detail' => 'Genera le immagini personalizzate del tuo avatar di Minecraft per il tuo profilo.',
         'trending' => 'Di tendenza',
         'minecraft_skin' => 'Skin di Minecraft',
-        'favourite' => 'Preferiti',
+        'favourite' => 'Preferito',
         'collections' => 'Collezioni',
         'collections_detail' => 'Skin di Minecraft adatte per ogni occasione',
         'about_skinmc' => 'Informazioni su SkinMC',
         'about_find' => 'Trova qualsiasi skin',
-        'about_find_detail' => 'Usa la ricerca SkinMC per qualsiasi nome utente di Minecraft per trovare, visualizzare e scaricare la tua prossima nuova pelle.',
+        'about_find_detail' => 'Usa la ricerca SkinMC per qualsiasi nome utente di Minecraft per trovare, visualizzare e scaricare la tua prossima skin.',
         'about_download' => 'Scarica o modifica',
         'about_download_detail' => 'Hai trovato una skin che ti piace? Aggiungila ai tuoi preferiti, modificala o scaricala e rendila tua.',
         'about_platform' => 'Cross platform',
-        'about_platform_detail' => 'Vuoi prendere la skin in movimento? Scansiona il codice QR e salva l\'immagine sul tuo telefono per Minecraft PE.',
+        'about_platform_detail' => 'Vuoi prendere la skin al volo? Scansiona il codice QR e salva l\'immagine sul tuo telefono per Minecraft PE.',
         'meta' => [
-            'title' => 'Visualizzatore Skin Minecraft',
+            'title' => 'Visualizzatore di Skin Minecraft',
             'description' => 'Visualizza e scarica le skin di Minecraft, scopri le migliori skin nelle collezioni curate, controlla la disponibilità del nome utente e la storia e molto altro ancora!',
         ],
         'recently_viewed' => 'Visti di recente',
@@ -117,7 +117,7 @@ return [
         'following-own-list-empty' => 'Sembra che tu non stia ancora seguendo nessuno! Una volta che inizi a seguire le persone, puoi vederle qui.',
         'following-list-empty' => 'Hmm, sembra che :username non stia seguendo nessuno. Una volta :username inizia a seguire le persone che puoi vedere qui.',
         'followers-own-list-empty' => 'Una volta che le persone iniziano a seguire il tuo profilo, appariranno qui.',
-        'followers-list-empty' => 'Hmm, sembra che :username non sia seguito da nessuno. Sii il primo a seguire :username. Una volta che più persone seguono, puoi vederle qui.',
+        'followers-list-empty' => 'Hmm, sembra che :username non sia seguito da nessuno. Sii il primo a seguire :username. Una volta che più persone lo seguono, potrai vederle qui.',
         'render' => 'Modalità di rendering',
         '3d' => 'Rendering 3D',
         '2d' => 'render 2D',
@@ -701,10 +701,10 @@ return [
         ],
         'download' => [
             'error' => [
-                'no-data' => 'No skin data was provided. Please try again.',
-                'invalid-format' => 'The skin data format is invalid. Please try again.',
-                'invalid-data' => 'The skin data is corrupted. Please try again.',
-                'generic' => 'Something went wrong while downloading your skin. Please try again.',
+                'no-data' => 'Non è stato provveduto nessun dato per la skin. Per favore riprova.',
+                'invalid-format' => 'Il formato dati della skin non è valido. Per favore riprova.',
+                'invalid-data' => 'I dati della skin sono corrotti. Per favore riprova.',
+                'generic' => 'Qualcosa è andato storto durante il download della tua skin. Per favore riprova.',
             ],
         ],
         'draw' => 'Disegno',
@@ -859,8 +859,8 @@ return [
             'discord' => 'Inserisci il tuo nome utente e numero Discord per visualizzare le informazioni Discord sul tuo profilo SkinMC.',
             'youtube' => 'Aggiungi il tuo canale YouTube a SkinMC che mostrerà il tuo canale YouTube sul tuo profilo.',
             'youtube-format' => 'Utilizzare il seguente formato a seconda del link del canale:',
-            'twitter' => 'Enter your X (formerly Twitter) username to display it on your profile.',
-            'bluesky' => 'Enter your Bluesky handle e.g. username.bsky.social to display your Bluesky profile on your profile.',
+            'twitter' => 'Inserisci il tuo nome utente X (ex Twitter) per visualizzarlo sul tuo profilo.',
+            'bluesky' => 'Inserisci il tuo nome utente Bluesky per esempio username.bsky.social per visualizzare il tuo profilo Bluesky sul tuo profilo.',
             'twitch' => 'Inserisci il tuo nome utente Twitch per visualizzare il tuo canale Twitch sul tuo profilo.',
             'reddit' => 'Inserisci il tuo nome utente Reddit per visualizzare il tuo profilo Reddit sul tuo profilo.',
             'github' => 'Inserisci il tuo nome utente Reddit per visualizzare il tuo profilo Reddit sul tuo profilo.',
@@ -1104,7 +1104,7 @@ return [
         'audience-title' => 'Chi può vedere questo?',
         'everyone' => 'Chiunque',
         'everyone-info' => 'Chiunque dentro o fuori SkinMC.',
-        'followers' => 'Seguaci',
+        'followers' => 'Followers',
         'followers-info' => 'Accesso effettuato o membri che mi seguono.',
         'private' => 'Solo io',
         'private-info' => 'Post privato che posso vedere solo io.',
@@ -1134,7 +1134,7 @@ return [
         'text' => 'Questo post è privato.'
     ] ,
     'liked' => [
-        'title' => 'Ha messo Mi Piace'
+        'title' => 'Mi piace'
     ],
     'following' => [
         'title' => 'Seguiti',
