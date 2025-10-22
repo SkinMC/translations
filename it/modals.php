@@ -3,7 +3,7 @@
 return [
     'login' => [
         'title' => 'Accedi',
-        'email' => 'Indirizzo di posta',
+        'email' => 'Indirizzo email',
         'password' => 'Password',
         'button' => 'Accedi',
         'forgot' => 'Hai dimenticato la password?',
