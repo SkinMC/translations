@@ -72,8 +72,8 @@ return [
         'meta_description' => 'Visualizza e scarica :username Minecraft Skin. Vedi la loro UUID, cronologia dei nomi, statistiche dettagliate e altro ancora',
         'created_at' => 'Aggiornato: :changed_at',
         'skins' => [
-            'meta_title' => ':username Minecraft Cronologia Skin',
-            'meta_description' => 'Visualizza :username Minecraft cronologia skin e skin precedentemente utilizzate. Utilizzare la cronologia per sfogliare vecchi o passati pelli usate, backup e rollback o raccogliere nuove skins.',
+            'meta_title' => ':username Cronologia Skin Minecraft',
+            'meta_description' => 'Visualizza la cronologia skin Minecraft di :username e le skin precedentemente utilizzate. Utilizza la cronologia per sfogliare skin vecchie o precedentemente usate, eseguire backup e ripristinare o raccogliere nuove skin.',
             'title' => 'Cronologia delle Skin di Minecraft 
 '
         ],
