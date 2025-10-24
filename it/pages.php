@@ -99,7 +99,7 @@ return [
         'run' => 'Corre',
         'fly' => 'Volare',
         'follow' => 'Segue',
-        'following' => 'Seguire',
+        'following' => 'Following',
         'unfollow' => 'Non seguire più',
         'followers' => 'Follower Followers',
         'toast' => [
