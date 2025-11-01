@@ -115,7 +115,7 @@ return [
         'feed-own-list-empty' => 'Sembra che tu non abbia ancora pubblicato niente nel feed! Una volta che pubblicherai, potrai vedere il tuo post qui.',
         'feed-list-empty' => 'Hmm, sembra che :username non abbia ancora pubblicato nulla nel feed. Una volta che :username pubblicherà qualcosa la potrai vedere qui.',
         'following-own-list-empty' => 'Sembra che tu non stia ancora seguendo nessuno! Una volta che inizi a seguire le persone, puoi vederle qui.',
-        'following-list-empty' => 'Hmm, sembra che :username non stia seguendo nessuno. Una volta :username inizia a seguire le persone che puoi vedere qui.',
+        'following-list-empty' => 'Hmm, sembra che :username non stia seguendo nessuno. Una volta :username inizierà a seguire le persone, le potrai vedere qui.',
         'followers-own-list-empty' => 'Una volta che le persone iniziano a seguire il tuo profilo, appariranno qui.',
         'followers-list-empty' => 'Hmm, sembra che :username non sia seguito da nessuno. Sii il primo a seguire :username. Una volta che più persone lo seguono, potrai vederle qui.',
         'render' => 'Modalità di rendering',
@@ -253,13 +253,13 @@ return [
             'change_skin' => '
                 <p>Per cambiare la tua Skin fai quanto segue:</p>
                 <ol>
-                    <li>Visita <a href="https://my.minecraft.net/en-us/login/">https://my. inecraft.net/en-us/login/</a> e accedi con il tuo account Mojang.</li><li>Una volta effettuato l\'accesso, seleziona <b>"Skin"</b> sul menu a sinistra.</li><li>Poi, scegli un modello che preferisci e carica una Skin di tuo gradimento.</li>
+                    <li>Visita <a href="https://minecraft.net/it-it/login/">https://minecraft.net/it-it/login/</a> e accedi con il tuo account Microsoft.</li><li>Una volta effettuato l\'accesso, seleziona <b>"Skin"</b> sul menu a sinistra.</li><li>Poi, scegli un modello che preferisci e carica una Skin di tuo gradimento.</li>
                 </ol>',
             'change_username_t' => 'Come faccio a cambiare il mio nome utente di Minecraft?',
             'change_username' => '
                 <p>Per cambiare il tuo nome utente fai quanto segue:</p>
                 <ol>
-                    <li>Visita <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account. ojang.com/login</a> e accedi con il tuo account Mojang.</li>
+                    <li>Visita <a href="https://minecraft.net/it-it/login" target="_blank" rel="nofollow">https://minecraft.net/it-it/login</a> e accedi con il tuo account Microsoft.</li>
                     <li>Trova il tuo nome del profilo di Minecraft e premi il pulsante <b>"(Cambiare)"</b></li>
                     <li>Nella pagina successiva, inserisci il nuovo nome utente desiderato.</li>
                     <li>Infine, confermare le modifiche inserendo la password e premendo "Cambia nome".</li>
@@ -268,7 +268,7 @@ return [
             'dl' => '
                 <p>Per scaricare chiunque Minecraft Skin effettua le seguenti operazioni:</p>
                 <ol>
-                    <li>Premi sulla barra di ricerca e inserisci il nome utente del giocatore da cui vuoi scaricare la pelle.</li>
+                    <li>Premi sulla barra di ricerca e inserisci il nome utente del giocatore da cui vuoi scaricare la skin.</li>
                     <li>Nella pagina del profilo puoi vedere in anteprima la skin</li>
                     <li>Clicca sul pulsante <strong>Scarica Skin</strong> sotto l\'anteprima</li>
                 </ol>',
