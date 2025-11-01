@@ -54,11 +54,11 @@ return [
         'show_qr_code' => 'Mostra il QR code',
         'favourite' => 'Preferito',
         'user_title' => ':username Skin Minecraft',
-        'user_views' => 'Visualizzati :views time<unk> Visualizzati :views times',
+        'user_views' => 'Visualizzati :views volta<unk> Visualizzati :views volte',
         'uuid' => 'UUID',
         'copy' => 'Copia',
         'link' => 'Link',
-        'skin_history' => 'Cronologia delle Skin di Minecraft (:skins)',
+        'skin_history' => 'Cronologia delle Skin Minecraft (:skins)',
         'username_history' => 'Cronologia degli username',
         'username_history_name' => 'Nome',
         'username_history_timestamp' => 'Cambiato il',
@@ -70,7 +70,7 @@ return [
         'claim_profile' => 'Sei :username? Richiedi il tuo profilo per verificarlo e personalizzarlo!',
         'claimed' => 'Profilo recamato',
         'meta_description' => 'Visualizza e scarica :username Minecraft Skin. Vedi la loro UUID, cronologia dei nomi, statistiche dettagliate e altro ancora',
-        'created_at' => 'Aggiornato: :changed_at',
+        'created_at' => 'Aggiornato il: :changed_at',
         'skins' => [
             'meta_title' => ':username Cronologia Skin Minecraft',
             'meta_description' => 'Visualizza la cronologia skin Minecraft di :username e le skin precedentemente utilizzate. Utilizza la cronologia per sfogliare skin vecchie o precedentemente usate, eseguire backup e ripristinare o raccogliere nuove skin.',
@@ -90,13 +90,13 @@ return [
         ],
         'cape' => 'Mantelli',
         'elytra' => 'Elytra',
-        'nametag' => 'Tag nome',
+        'nametag' => 'Name tag',
         'animation' => 'Animazione',
         'rotation' => 'Rotazione',
-        'none' => 'Nessun',
+        'none' => 'Nessuno',
         'idle' => 'Inattivo',
         'walk' => 'Camminare',
-        'run' => 'Corre',
+        'run' => 'Correre',
         'fly' => 'Volare',
         'follow' => 'Segue',
         'following' => 'Following',
@@ -157,18 +157,18 @@ return [
             'tags-metatags' => ':tag Skin di Minecraft, :tag Skin, Skin di Minecraft, :tag Skin personalizzata Minecraft, Scarica :tag Skin, Minecraft :tag Skins',
         ],
         'title-skin-tags' => 'Skin di Minecraft etichettate',
-        'subtitle' => 'Pagina :current di :last da :total Minecraft Skins',
-        'subtitle-skin-tags' => 'Pagina :current di :last da :total skin di Minecraft etichettate',
+        'subtitle' => 'Pagina :current di :last per :total Minecraft Skin',
+        'subtitle-skin-tags' => 'Pagina :current di :last per :total skin di Minecraft etichettate',
         'sort_by' => 'Ordinato per',
         'latest' => 'Ultime skin',
         'most_profiles' => 'Skin più usate',
-        'profiles_today' => 'I più usati oggi',
+        'profiles_today' => 'Le più usate oggi',
         'profiles_this_week' => 'Più usate questa settimana',
         'profiles_this_month' => 'Più usate questo mese',
         'default' => 'Ordinamento predefinito',
-        'this_month' => 'Aggiunto questo mese',
-        'this_week' => 'Aggiunto questa settimana',
-        'today' => 'Aggiunto oggi',
+        'this_month' => 'Aggiunta questo mese',
+        'this_week' => 'Aggiunta questa settimana',
+        'today' => 'Aggiunta oggi',
         'random' => 'Casuale',
         'similar' => 'Skin simili',
         'no_similar_skins' => 'Nessuna skin simile trovata.',
@@ -179,7 +179,7 @@ return [
         'about' => 'I tag sono un modo per aggiungere categorie rilevanti alle skin. L\'aggiunta di tag ti permette di scoprire più skin che ti piacciono facilmente!',
         'guidelines' => [
             'good' => [
-                'title' => 'Le linee guida generali per i buoni tag sono:',
+                'title' => 'Le linee guida generali per ottimi tag sono:',
                 'short' => 'Corto',
                 'descriptive' => 'Descrittivo',
                 'spelled' => 'Ortografia corretta',
@@ -209,20 +209,20 @@ return [
         'email' => 'Non esitate a scriverci a <a href="mailto:support@skinmc.net">support@skinmc.net</a> per tutte le domande che hai.',
         'faq' => 'Chiediamo gentilmente di consultare prima la pagina <a href=":link">FAQ</a> se la tua domanda è già stata risolta.',
         'other' => 'Più modi per conneterti',
-        'other_discord' => 'Unisciti al server Discord e connettiti con altri, chiacchierati sui giochi, condividi i tuoi pacchetti preferiti e ottieni aiuto dalla comunità.',
+        'other_discord' => 'Unisciti al server Discord e connettiti con altri, chiacchiera su giochi, condividi i tuoi pacchetti preferiti e ottieni aiuto dalla comunità.',
         'other_twitter' => 'Segui su Twitter per vedere quando viene rilasciato un nuovo aggiornamento o una nuova funzionalità, vedi le skin della settimana e altro ancora.',
-        'other_instagram' => 'Segui SkinMC su Instagram per sfogliare e scoprire nuove e interessanti Skins Minecraft e immagini.',
-        'other_facebook' => 'Diventa un fan su Facebook e vedere tutti i post in cui è possibile commentare e parlare con gli altri durante l\'esplorazione dei contenuti di Minecraft.'
+        'other_instagram' => 'Segui SkinMC su Instagram per sfogliare e scoprire nuove e interessanti Skin Minecraft e immagini.',
+        'other_facebook' => 'Diventa un fan su Facebook e vedi tutti i post in cui è possibile commentare e parlare con altri durante l\'esplorazione dei contenuti di Minecraft.'
     ],
     'about' => [
         'intro' => '<span>La tua</span> <span>piattaforma</span> <span>per</span> <span>Minecraft</span> <span>Skins.</span>',
-        'header_credit' => 'Illustrazione "Epica Nether Battle" di',
+        'header_credit' => 'Illustrazione "Epica Nether Battle" da',
         'info' => 'Tieni traccia di tutto.',
         'info_explainer' => 'Visualizza la cronologia dei nomi di un giocatore, vedi le loro skin precedenti, aggiungili come amico, scarica skin e anche ottieni statistiche dei dettagli.',
         'card_find_title' => 'Trova qualsiasi minecrafter',
         'card_find_detail' => 'Inizia cercando qualsiasi nome utente del giocatore o UUID di tua scelta.',
         'card_view_title' => 'Visualizza, salva e modifica',
-        'card_view_detail' => 'Trovato un skin che ti piace? Salvarlo scaricando o utilizzare l\'editor per renderlo proprio.',
+        'card_view_detail' => 'Trovato un skin che ti piace? Salvala scaricandola o utilizza l\'editor per renderla tua.',
         'card_claim_title' => 'Ottieni la verifica',
         'card_claim_detail' => 'Collega il tuo account Minecraft e rivendica il tuo profilo per sbloccare nuove funzionalità!',
         'card_customise_title' => 'Personalizza il tuo profilo',
@@ -279,12 +279,12 @@ return [
             'mcpe' => '
                 <p>Sì. Per utilizzare la Skin in Minecraft Pocket Edition procedere come segue:</p>
                 <ol>
-                    <li>Open SkinMC. et on your smartphone and tap the search bar</li>
-                    <li>Enter the username of the player\'s skin you want to download</li>
-                    <li>Tap the <strong>Download Skin</strong> button under the preview </li>
-                    <li>Open Minecraft PE and tap on <strong>Profile</strong> on the right side</li>
-                    <li>Tap on the <strong>+</strong>, o modifica il carattere e vai alla "scheda skin classiche"</li>
-                    <li>Tocca "owned", poi "importare", poi "scegli una nuova pelle"</li>
+                    <li>Apri SkinMC.net sul tuo cellulare e clicca sulla barra di ricerca</li>
+                    <li>Inserisci il nome utente che possiede la skin che vorresti scaricare</li>
+                    <li>Clicca il pulsante <strong>Download Skin</strong> sotto l\'anteprima </li>
+                    <li>Apri Minecraft PE e clicca su <strong>Profilo</strong> nella zona a destra</li>
+                    <li>Clicca sul <strong>+</strong>, o modifica il carattere e vai alla "scheda skin classiche"</li>
+                    <li>Tocca "possedute", poi "importare", poi "scegli una nuova skin"</li>
                 </ol>',
             'change_times_t' => 'Quanto spesso posso cambiare il mio nome utente?',
             'change_times' => '<p>Puoi cambiare il tuo nome utente di Minecraft <strong>una volta</strong> ogni <strong>30 giorni</strong>.</p>',
@@ -559,7 +559,7 @@ return [
             'back' => 'Indietro',
             'continue' => 'Continua',
             'delete-title' => 'Sei sicuro di voler eliminare la tua recensione?',
-            'tos-checkbox-part-1' => 'Inviando questo modulo accetti i Termini di Servizio, l\'Informativa sulla Riservatezza e le Linee Guida comunitarie di SkinMC. Confermi anche che tutte le informazioni sono esatte, e segue la',
+            'tos-checkbox-part-1' => 'Inviando questo modulo accetti i Termini di Servizio, l\'Informativa sulla Privacy e le Linee Guida della Community di SkinMC. Confermi anche che tutte le informazioni sono esatte, e seguono i',
             'tos-checkbox-part-2' => 'riesamina le linee guida.',
             'tos-checkbox-part-3' => 'La tua recensione sarà pubblicata dopo l\'invio, ma può essere soggetta a revisione.'
         ],
@@ -592,7 +592,7 @@ return [
             'ready_to_submit_your_server' => 'Pronto per creare il server?',
             'review-hint' => 'Dopo l\'invio esamineremo attentamente la tua richiesta di elenco del server. Successivamente, il tuo server sarà pubblicato, o ti richiederemo delle modifiche per consentirlo.',
             'terms' => [
-                'part-1' => 'Inviando questo modulo accetti i Termini di Servizio, l\'Informativa sulla Riservatezza e le Linee Guida comunitarie di SkinMC. Confermi anche che tutte le informazioni sono esatte, e segui i',
+                'part-1' => 'Inviando questo modulo accetti i Termini di Servizio, l\'Informativa sulla Privacy e le Linee Guida della Community di SkinMC. Confermi anche che tutte le informazioni sono esatte, e hai correttamente seguito i',
                 'part-2' => 'requisiti del server per la configurazione',
                 'part-3' => ', e che il server di Minecraft è posseduto e gestito dall\'entità che stai rappresentando.'
             ],
@@ -1125,7 +1125,7 @@ return [
             'delete' => 'Cancella Post',
             'deleted' => 'Il tuo post è stato cancellato.',
         ],
-        'follow-suggestions' => 'Segui questa squadra',
+        'follow-suggestions' => 'Segui il team',
         'explore' => 'Esplora',
         'hashtag' => 'Hashtag',
     ],
