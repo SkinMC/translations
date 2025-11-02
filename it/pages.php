@@ -249,7 +249,7 @@ return [
         'discord' => 'Unisciti al server Discord per chattare con altri giocatori di Minecraft.',
         'contact' => 'Contattaci',
         'q' => [
-            'change_skin_t' => 'Come faccio a cambiare la mia pelle di Minecraft?',
+            'change_skin_t' => 'Come faccio a cambiare la mia skin di Minecraft?',
             'change_skin' => '
                 <p>Per cambiare la tua Skin fai quanto segue:</p>
                 <ol>
@@ -264,9 +264,9 @@ return [
                     <li>Nella pagina successiva, inserisci il nuovo nome utente desiderato.</li>
                     <li>Infine, confermare le modifiche inserendo la password e premendo "Cambia nome".</li>
                 </ol>',
-            'dl_t' => 'Come faccio a scaricare qualcuno Minecraft Skin?',
+            'dl_t' => 'Come faccio a scaricare la skin Minecraft di qualcuno?',
             'dl' => '
-                <p>Per scaricare chiunque Minecraft Skin effettua le seguenti operazioni:</p>
+                <p>Per scaricare la skin Minecraft di chiunque effettua le seguenti operazioni:</p>
                 <ol>
                     <li>Premi sulla barra di ricerca e inserisci il nome utente del giocatore da cui vuoi scaricare la skin.</li>
                     <li>Nella pagina del profilo puoi vedere in anteprima la skin</li>
