@@ -292,19 +292,18 @@ return [
             'available' => '<p>Se vuoi tornare al tuo nome utente precedente, puoi tornare indietro <strong>dopo 30 giorni.</strong> Tutti gli altri devono aspettare un ulteriore <strong>7 giorni</strong> (37 giorni dopo il cambiamento) prima che possano reclamare il tuo vecchio nome utente. </p>',
             'username_history_t' => 'Riesci a rimuovere la cronologia dei miei username, per favore?',
             'username_history' => '
-                <p>Poiché i dati della cronologia dei nomi utente provengono da Mojang, la cronologia del nome utente non può essere rimossa. Mojang ha precedentemente dichiarato che la loro intenzione era che i nomi utente precedenti possono essere visti1, e forniscono al pubblico un metodo diretto per accedere a tali informazioni2.</p>
-                <p class="font-14">1<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help. inecraft. et/hc/en-us/articles/360034636712-Minecraft-Usernames</a></p>
-                <p class="font-14 mb-0">2<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter. om/dinnerbone/status/554739042529849345</a> (Tweet archived 2 years fa: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive. s/TeAyj</a>)
+                <p>Poiché i dati della cronologia dei nomi utente provengono da Mojang, la cronologia del nome utente non può essere rimossa. Mojang ha precedentemente dichiarato che la loro intenzione era che i nomi utente precedenti possono essere visti, e forniscono al pubblico un metodo diretto per accedere a tali informazioni².</p>
+                                <p class="font-14 mb-0">2<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter. om/dinnerbone/status/554739042529849345</a> (Tweet archived 2 years fa: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive. s/TeAyj</a>)
                 </p>',
         ],
     ],
     'avatars' => [
         'start' => [
             'title' => 'Crea il tuo avatar di Minecraft',
-            'subtitle' => 'Usa il generatore avatar di Minecraft per creare un divertente avatar da qualsiasi pelle!',
-            'avatar_face' => 'Avatar stile volto',
-            'avatar_bust' => 'Avatar stile Busto',
-            'avatar_cube' => 'Avatar stile cubo',
+            'subtitle' => 'Usa il generatore avatar di Minecraft per creare un divertente avatar da qualsiasi skin!',
+            'avatar_face' => 'Stile avatar: Volto',
+            'avatar_bust' => 'Stile avatar: Busto',
+            'avatar_cube' => 'Stile avatar: Cubo',
             'avatar_head3d' => 'Testa 3D personalizzata',
         ],
         'user' => [
@@ -328,7 +327,7 @@ return [
         ],
         'meta' => [
             'title' => 'Generatore Avatar Di Minecraft',
-            'description' => 'Minecraft Avatar Maker: crea immagini personalizzate del profilo Minecraft utilizzando la pelle di Minecraft',
+            'description' => 'Minecraft Avatar Maker: crea immagini personalizzate del profilo Minecraft utilizzando la tua skin di Minecraft',
         ],
     ],
     'totem' => [
@@ -348,14 +347,14 @@ return [
     ],
     'achievement' => [
         'header' => [
-            'title' => 'Crea il tuo obiettivo di Minecraft',
-            'subtitle' => 'Usa il Generatore di Successi di Minecraft per creare il tuo risultato personalizzato e utilizzare mostrare i tuoi progressi in qualsiasi cosa ti piace!',
+            'title' => 'Crea il tuo achievement di Minecraft',
+            'subtitle' => 'Usa il Generatore di Successi di Minecraft per creare il tuo risultato personalizzato e utilizzare mostrare i tuoi achievements in qualsiasi cosa ti piace!',
         ],
         'generator' => [
             'yellow_text' => 'Testo giallo',
             'white_text' => 'Testo bianco',
             'choose_icon' => 'Scegli icona',
-            'face' => 'Minecraft faccia invece dell\'icona',
+            'face' => 'Volto su Minecraft invece dell\'icona',
             'form_submit' => 'Scarica',
             'form_label' => 'Nome utente di Minecraft',
             'download' => 'Scarica',
@@ -363,8 +362,8 @@ return [
             'embed_copy' => 'Copia',
         ],
         'meta' => [
-            'title' => 'Generatore Di Obiettivi Minecraft',
-            'description' => 'Genera obiettivi e progressi personalizzati di Minecraft con il creatore di Achievement. Scarica l\'immagine direttamente, usala nelle firme del forum, incorporata con codice HTML o BB e altro',
+            'title' => 'Generatore Di Achievement Minecraft',
+            'description' => 'Genera achievement e progressi personalizzati di Minecraft con il creatore di Achievement. Scarica l\'immagine direttamente, usala nelle firme del forum, incorporata con codice HTML o BB e altro',
         ],
     ],
     'armor' => [
@@ -404,7 +403,7 @@ return [
             'title' => 'Risultati di ricerca: :search',
         ],
         'title' => 'Risultati della ricerca',
-        'results' => 'Pagina :current per :count result<unk> Pagina :current di circa :count risultati ',
+        'results' => 'Pagina :current per :count risultato<unk> Pagina :current di circa :count risultati ',
         'time' => '(:tempo secondi)',
         'username_available' => 'Nome utente disponibile*',
         'username_unavailable' => 'Nome utente non disponibile',
@@ -415,25 +414,25 @@ return [
         'username_searches_count' => ':count / giorno',
         'username_available_disclaimer' => '*A meno che il nome non sia temporaneamente o permanentemente vietato da Mojang.',
         'no_results' => 'Nessun profilo trovato. Prova a cercare con l\'UUID cambiando il tipo di ricerca.',
-        'no_results_tags' => 'Nessuna skin registrata trovata. Prova a cercare altri tag come "blu", "ragazza", "volpe", ecc...',
+        'no_results_tags' => 'Nessuna skin registrata trovata. Prova a cercare altri tag come "blue", "girl", "fox", ecc...',
         'again' => 'Cerca di nuovo',
         'sorry' => 'Sssssssscusa...',
         'view_profile' => 'Visualizza profilo',
     ],
     'collection' => [
         'title' => 'Collezione skin di Minecraft',
-        'subtitle' => 'Sfoglia la nostra collezione curata di pelli Minecraft.',
+        'subtitle' => 'Sfoglia la nostra collezione curata di skin Minecraft.',
         'filters' => 'Filtri',
         'title_trending' => 'Tendenze',
         'title_all' => 'Tutte Le Skin Di Minecraft',
         'skin_tags' => 'Skin registrate',
-        'filters_skin_type' => 'Tipo di pelle',
-        'filter_skin_type_steve' => 'Tipo steve',
+        'filters_skin_type' => 'Tipo di skin',
+        'filter_skin_type_steve' => 'Tipo di steve',
         'filter_skin_type_alex' => 'Tipo di Alex',
         'cancel' => 'Annulla',
         'apply' => 'Applica',
-        'username_minecraft_skin' => 'skin di Minecraft di :username',
-        'user_downloads' => '<span class="fw-500">:downloads</span> download<unk><span class="fw-500">:downloads</span> download',
+        'username_minecraft_skin' => 'skin Minecraft di :username',
+        'user_downloads' => '<span class="fw-500">:downloads</span> download|<span class="fw-500">:downloads</span> download',
     ],
     'favourites' => [
         'title' => 'Preferiti',
@@ -444,13 +443,13 @@ return [
             'removed' => 'Rimosso dalla tua lista preferiti'
         ],
         'skins' => [
-            'button' => 'Skins',
+            'button' => 'Skin',
             'empty_headline' => 'Ancora nessuna skin preferita',
             'empty_subtitle' => 'Non hai ancora nessuna skin salvata nella tua lista preferiti. Visita la pagina del server e scopri la tua prossima preferita!',
             'empty_browse' => 'Sfoglia le skin',
             'meta' => [
-                'title' => 'Skin preferite',
-                'description' => 'Skin preferite salvate di Minecraft',
+                'title' => 'Le mie Skin preferite',
+                'description' => 'Skin preferite di Minecraft salvate ',
             ],
         ],
         'servers' => [
@@ -475,21 +474,21 @@ return [
             ],
         ],
         'list' => [
-            'title' => 'Capes di Minecraft',
-            'subtitle' => 'Capes ufficiali di Minecraft',
+            'title' => 'Mantelli di Minecraft',
+            'subtitle' => 'Mantelli ufficiali di Minecraft. I mantelli sono oggetti commemorativi e vengono indossati come aggiunta alla skin del giocatore. Possono anche cambiare l\'aspetto quando viene indossato un elytra.',
             'meta' => [
                 'title' => 'Lista Mantelli di Minecraft',
-                'description' => 'Lista di Mantelli di Minecraft: Vedi tutti i mantelli ufficiali di Minecraft tra cui Mojang, Minecon, Personal, Special e sciccosi.',
+                'description' => 'Lista di Mantelli di Minecraft: Vedi tutti i mantelli ufficiali di Minecraft tra cui Mojang, Minecon, Personali, Speciali e sciccosi.',
             ],
         ],
         'detail' => [
-            'title' => ':cape Capo',
+            'title' => 'Mantello :cape',
             'info' => 'Informazioni sul mantello',
             'profile_list' => 'Profili con questo mantello',
             'profiles' => ':profili profilo|:profili profili',
             'meta' => [
-                'title' => 'Minecraft Capes List',
-                'description' => 'Minecraft Cape lista: Vedi tutti i mantelli ufficiali di Minecraft tra cui Mojang, Minecon, Personale, Speical e vanity Capes',
+                'title' => 'Mantello di Minecraft :cape',
+                'description' => 'Scopri il Mantello Minecraft :cape e guarda i giocatori che lo indossano!',
             ],
         ],
         'list-custom' => [
@@ -499,7 +498,7 @@ return [
     ],
     'servers' => [
         'title' => 'Server di Minecraft',
-        'subtitle' => 'Esplora ed esplora i server di minecraft',
+        'subtitle' => 'Cerca ed esplora i server di minecraft',
         'all' => 'Tutti i server',
         'manage_your_servers' => 'Gestisci i tuoi server',
         'add_new_server' => 'Aggiungi un nuovo server',
@@ -508,13 +507,13 @@ return [
             'updated' => 'Aggiornato',
             'new' => 'Nuovo',
             'most_viewed' => 'Più visti',
-            'top_voted' => 'Votati in alto',
+            'top_voted' => 'Piu votati',
             'sorting' => 'Ordina',
             'sort_by_latest' => 'Ordina per ultimo',
             'sort_by_oldest' => 'Ordina dal più vecchio',
             'categories' => 'Categorie',
             'server_location' => 'Posizione del server',
-            'show_results' => 'Visualizza risultati',
+            'show_results' => 'Visualizza i risultati',
             'show_more' => 'Mostra di più',
             'show_less' => 'Mostra di meno',
             'clear_filters' => 'Cancella i filtri',
@@ -523,7 +522,7 @@ return [
             'sort_by_lowest_rating' => 'Ordina per voto più basso',
             'bedrock_and_java_support' => 'Supporto Bedrock e Java'
         ],
-        'review-count' => ':count Recensioni<unk>:count Recensioni',
+        'review-count' => ':count Recensione|:count Recensioni',
         'meta' => [
             'title' => 'Lista Server Minecraft',
             'description' => 'Sfoglia ed esplora l\'elenco dei server di Minecraft per trovare il miglior server di Minecraft! Filtra per l\'ultimo, più popolare e molto altro',
