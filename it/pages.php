@@ -54,7 +54,7 @@ return [
         'show_qr_code' => 'Mostra il QR code',
         'favourite' => 'Preferito',
         'user_title' => ':username Skin Minecraft',
-        'user_views' => 'Visualizzati :views volta<unk> Visualizzati :views volte',
+        'user_views' => 'Visualizzato :views volta|Visualizzato :views volte',
         'uuid' => 'UUID',
         'copy' => 'Copia',
         'link' => 'Link',
@@ -63,7 +63,7 @@ return [
         'username_history_name' => 'Nome',
         'username_history_timestamp' => 'Cambiato il',
         'username_history_initial_name' => 'Nome iniziale',
-        'user_downloads' => ':download download<unk> :download download',
+        'user_downloads' => ':download download|:download download',
         'download_skin' => 'Scarica skin',
         'apply_skin' => 'Applica la skin',
         'capes' => 'Mantelli',
@@ -88,7 +88,7 @@ return [
             'head' => 'Testa',
             'comments' => 'Commenti'
         ],
-        'cape' => 'Mantelli',
+        'cape' => 'Mantello',
         'elytra' => 'Elytra',
         'nametag' => 'Name tag',
         'animation' => 'Animazione',
@@ -101,7 +101,7 @@ return [
         'follow' => 'Segue',
         'following' => 'Following',
         'unfollow' => 'Non seguire più',
-        'followers' => 'Follower Followers',
+        'followers' => 'Follower|Followers',
         'toast' => [
             'following' => 'Ora segui :username!',
             'follow-self-error' => 'Spiacenti :username, non puoi seguirti da solo.',
@@ -403,7 +403,7 @@ return [
             'title' => 'Risultati di ricerca: :search',
         ],
         'title' => 'Risultati della ricerca',
-        'results' => 'Pagina :current per :count risultato<unk> Pagina :current di circa :count risultati ',
+        'results' => 'Pagina :current per :count risultato|Pagina :current di circa :count risultati ',
         'time' => '(:tempo secondi)',
         'username_available' => 'Nome utente disponibile*',
         'username_unavailable' => 'Nome utente non disponibile',
@@ -542,7 +542,7 @@ return [
                 'bad' => 'Brutto',
             ],
             'rate-experience' => 'Successivamente, valuta la tua esperienza in queste sezioni',
-            'overall' => 'Globale',
+            'overall' => 'Complessivo',
             'server-team' => 'Squadra del server',
             'community' => 'Comunità',
             'experience' => 'Esperienza',
@@ -559,7 +559,7 @@ return [
             'continue' => 'Continua',
             'delete-title' => 'Sei sicuro di voler eliminare la tua recensione?',
             'tos-checkbox-part-1' => 'Inviando questo modulo accetti i Termini di Servizio, l\'Informativa sulla Privacy e le Linee Guida della Community di SkinMC. Confermi anche che tutte le informazioni sono esatte, e seguono i',
-            'tos-checkbox-part-2' => 'riesamina le linee guida.',
+            'tos-checkbox-part-2' => 'le linee guida.',
             'tos-checkbox-part-3' => 'La tua recensione sarà pubblicata dopo l\'invio, ma può essere soggetta a revisione.'
         ],
         'slots' => 'Slot',
@@ -627,8 +627,8 @@ return [
             'server_listing_page_description' => 'Aggiungi foto, descrizione, video su youtube e metti in primo piano il perché i giocatori dovrebbero unirsi al tuo server.',
             'social_connections' => 'Collegamenti ai social media',
             'social_connections_description' => 'Collega i tuoi account social ai server e mostra ai nuovi giocatori dove possono trovarti.',
-            'verified_badge' => 'Codice di verifica',
-            'verified_badge_description' => 'I server autentici possono richiedere un codice di verifica.',
+            'verified_badge' => 'Badge di verifica',
+            'verified_badge_description' => 'I server autentici possono richiedere un badge di verifica.',
             'owner_profile' => 'Profilo del proprietario',
             'owner_profile_description' => 'Aggiungi un tocco personale, completando il tuo profilo personalizzato.',
             'categories' => 'Categorie',
@@ -714,10 +714,10 @@ return [
         'increase_brightness' => 'Aumenta luminosità',
         'erase' => 'Cancella',
         'undo' => 'Torna indietro (CTRL+Z)',
-        'redo' => 'Vai avanti',
+        'redo' => 'Vai avanti (CTRL+Y)',
         'default_view' => 'Vista predefinita',
-        'zoom_in' => 'Aumenta ingrandimento (CTRL +)',
-        'zoom_out' => 'Riduci ingrandimento (CTRL -)',
+        'zoom_in' => 'Aumenta lo zoom (CTRL +)',
+        'zoom_out' => 'Riduci lo zoom (CTRL -)',
         'saved' => 'Ultimo salvataggio appena salvato',
         'saving' => 'Salvataggio automatico...',
         'save_error' => 'Si è verificato un errore',
@@ -747,9 +747,9 @@ return [
             'title' => 'Posizione',
             'default' => 'Predefinito',
             'walk' => 'Camminare',
-            'run' => 'Esegui',
-            'hug' => 'posa a T',
-            'fly' => 'Volo',
+            'run' => 'Correre',
+            'hug' => 'T-pose',
+            'fly' => 'Volare',
         ],
         'fullscreen' => 'Schermo intero',
         'fullscreen_exit' => 'Esci da schermo intero',
@@ -768,7 +768,7 @@ return [
             'draw' => 'Disegna con lo strumento penna. Seleziona un colore dalla tavolozza per usarlo.',
             'eyedropper' => 'Usa il contagocce per selezionare un colore dalla skin e aggiungerlo alla tavolozza attuale.',
             'fill' => 'Riempi intere aree della skin usando lo strumento di riempimento. Seleziona un colore prima di usarlo.',
-            'move' => 'Pan e muoviti intorno alla tela dell\'editor di skin con lo strumento di movimento.',
+            'move' => 'Trascina e muoviti intorno alla tela dell\'editor di skin con lo strumento di movimento.',
             'decrease_brightness' => 'Diminuisce la luminosità del colore attualmente attivo.',
             'increase_brightness' => 'Aumenta la luminosità del colore attualmente attivo.',
             'erase' => 'Cancella i pixel disegnati sul livello secondario di sovrapposizione.',
@@ -777,11 +777,11 @@ return [
     'account' => [
         'level' => 'Livello',
         'level_history' => 'Cronologia livello',
-        'xp' => 'PE',
-        'my_xp' => 'I miei PE',
-        'xp_to_next_level' => ':xp PE al livello successivo',
-        'xp_info' => 'Che cosa sono i PE?',
-        'xp_info_tooltip' => 'I PE si guadagnano con varie attività, come l\'aggiunta di tag alle skin, invitando amici, scrivendo commenti e altro. Con ogni PE guadagnato puoi salire di livello e sbloccare cose interessanti!',
+        'xp' => 'XP',
+        'my_xp' => 'I miei XP',
+        'xp_to_next_level' => ':xp XP al livello successivo',
+        'xp_info' => 'Che cosa sono gli XP?',
+        'xp_info_tooltip' => 'Gli XP si guadagnano con varie attività, come l\'aggiunta di tag alle skin, invitando amici, scrivendo commenti e altro. Con ogni XP guadagnato puoi salire di livello e sbloccare cose interessanti!',
         'settings' => [
             'title' => 'Account',
             'show_profile' => 'Vai al profilo',
@@ -808,8 +808,8 @@ return [
             'uploaded-cape' => 'Mantello caricato',
             'no-cape' => 'Nessun Mantello',
             'remove-cape' => 'Rimuovi mantello',
-            'download' => 'Scarica SkinMC Mod per vedere il tuo e altri giocatori mantella in gioco.',
-            'learn-more' => 'Voglio saperne di più',
+            'download' => 'Scarica SkinMC Mod per vedere il tuo e mantelli di altri giocatori in gioco.',
+            'learn-more' => 'Scopri di più',
             'link-account' => 'Collega il tuo account Minecraft per caricare un mantello.',
             'updated' => 'Il tuo mantello è stato aggiornato!',
             'removed' => 'Il tuo mantello è stato rimosso.',
@@ -843,7 +843,7 @@ return [
             'account-successfully-deleted' => 'Il tuo account e i tuoi dati sono stati eliminati con successo.'
         ],
         'social' => [
-            'title' => 'Conti sociali',
+            'title' => 'Account Social',
             'edit' => 'Modifica',
             'save' => 'Salva',
             'link-account' => 'Collega il tuo account Minecraft a SkinMC per visualizzare i tuoi link sociali sul tuo profilo.',
@@ -862,8 +862,8 @@ return [
             'bluesky' => 'Inserisci il tuo nome utente Bluesky per esempio username.bsky.social per visualizzare il tuo profilo Bluesky sul tuo profilo.',
             'twitch' => 'Inserisci il tuo nome utente Twitch per visualizzare il tuo canale Twitch sul tuo profilo.',
             'reddit' => 'Inserisci il tuo nome utente Reddit per visualizzare il tuo profilo Reddit sul tuo profilo.',
-            'github' => 'Inserisci il tuo nome utente Reddit per visualizzare il tuo profilo Reddit sul tuo profilo.',
-            'telegram' => 'Inserisci il tuo nome utente Reddit per visualizzare il tuo profilo Reddit sul tuo profilo.',
+            'github' => 'Inserisci il tuo nome utente Github per visualizzare il tuo profilo Github sul tuo profilo.',
+            'telegram' => 'Inserisci il tuo nome utente Telegram per visualizzare il tuo link Telegram sul tuo profilo.',
             'tiktok' => 'Inserisci il tuo nome utente di TikTok per visualizzare il tuo profilo TikTok sul tuo profilo.',
             'snapchat' => 'Inserisci il tuo nome utente Snapchat per visualizzare il tuo profilo Snapchat sul tuo profilo.',
             'instagram' => 'Inserisci il tuo nome utente Instagram per visualizzare il tuo profilo Instagram sul tuo profilo.',
@@ -934,20 +934,20 @@ return [
             'direct_message' => 'Invia messaggi diretti',
             'feed' => 'Pubblica gli aggiornamenti di stato sul feed',
             'follow' => 'Segui i tuoi amici',
-            'badge' => 'Simbolo visualizzato sul tuo profilo',
+            'badge' => 'Badge mostrato sul tuo profilo',
             'cape' => 'Mantelli di Minecraft personalizzati',
             'backup' => 'Backup automatico della skin',
             'more' => 'E altro...'
         ],
         'skins' => [
             'title' => 'Gestisci skin',
-            'toggle' => 'La visibilità della skin è stata attivata/disattivata',
+            'toggle' => 'La visibilità della skin è stata modificata',
         ],
         'invite' => [
             'title' => 'I miei inviti',
             'headline' => 'Invita i tuoi amici',
-            'info' => 'Crea un codice invito da condividere con il tuo amico. Se lo accetterà, entrambi otterrete qualche PE in più!',
-            'description' => 'Crea un invito per i tuoi amici e guadagnerete entrambi alcuni PE extra.',
+            'info' => 'Crea un codice invito da condividere con il tuo amico. Se lo accetterà, entrambi otterrete qualche XP extra!',
+            'description' => 'Crea un invito per i tuoi amici e guadagnerete entrambi alcuni XP extra.',
             'generate' => 'Crea codice invito',
             'empty' => 'Non hai ancora creato alcun invito.',
             'code' => 'Codice',
@@ -998,7 +998,7 @@ return [
     ],
     'error' => [
         'offline' => [
-            'title' => 'No Internet',
+            'title' => 'Nessuna connessione',
             'subtitle' => 'La connessione Internet è stata interrotta. Controllare la connessione e ricaricare la pagina per riprovare.',
             'try_again' => 'Riprova'
         ],
@@ -1012,32 +1012,32 @@ return [
     'heads' => [
         'list' => [
             'meta' => [
-                'title' => 'Database di teste di Minecraft',
-                'description' => 'Esplora il database delle teste di Minecraft con cui decorare il tuo mondo o generare il tuo comando personalizzato. Visualizza le teste ufficiali, le teste dei giocatori e le teste personalizzate con texture che non cambiano mai.'
+                'title' => 'Database delle teste Minecraft',
+                'description' => 'Esplora il database delle teste Minecraft con cui decorare il tuo mondo o generare il tuo comando personalizzato. Visualizza le teste ufficiali, le teste dei giocatori e le teste personalizzate con texture che non cambiano mai.'
             ],
             'header' => [
-                'title' => 'Testa di Minecraft',
+                'title' => 'Teste Minecraft',
                 'subtitle' => 'Esplorate il nostro database di teste di Minecraft per decorare il vostro mondo o per generare il vostro comando. Le teste dei giocatori mostrano la skin correntemente indossata da un utente e possono cambiare quando l\'utente aggiorna la propria skin. Le teste personalizzate sono collegate al file della skin di Mojang e non cambiano mai. Le teste personalizzate devono essere evocate utilizzando un blocco di comando, poiché il comando è molto lungo.
 ',
             ],
             'count' => [
-                'heads' => ':heads teste|:heads teste',
+                'heads' => ':heads testa|:heads teste',
             ],
             'customheads' => [
-                'title' => 'Testa personalizzata',
+                'title' => 'Teste personalizzata',
                 'description' => 'Le teste personalizzate utilizzano il percorso diretto del file di texture sui server Mojang. Pertanto le texture non verranno mai eliminate e le teste non cambieranno mai.',
                 'version' => 'Minecraft 1.8 o successivo
 ',
             ],
             'playerheads' => [
                 'title' => 'Teste dei Giocatori',
-                'description' => 'Le teste dei giocatori utilizzano la texture della pelle corrente di un giocatore di Minecraft. Essendo basate sul nome utente, quando il giocatore cambia nome o pelle, la testa cambia.',
+                'description' => 'Le teste dei giocatori utilizzano la texture della pelle corrente di un giocatore di Minecraft. Essendo basate sul nome utente, quando il giocatore cambia nome o skin, la testa cambia.',
                 'version' => 'Tutte le versioni di Minecraft',
             ]
         ],
     ],
     'mod' => [
-        'title' => 'SkinMC Mod:Gratis mantelli personalizzati',
+        'title' => 'SkinMC Mod: mantelli personalizzati gratis',
         'headline' => 'Introduzione della mod SkinMC per una maggiore personalizzazione',
         'description' => 'Ritornando alla comunità di Minecraft, con una mod gratuita che consente ai giocatori di personalizzare maggiormente con i mantelli personalizzati, disponibile e visibile per chiunque utilizzi il mod.',
         'download' => 'Scarica ora',
@@ -1202,7 +1202,7 @@ return [
         'description' => 'Visualizza la classifica SkinMC degli utenti.',
         'headline' => 'Primi 10',
         'all-time-invites' => 'Tutti gli inviti',
-        'all-time-xp' => 'Tutti i PE',
-        '30-day-xp' => 'PE degli ultimi 30 giorni'
+        'all-time-xp' => 'Tutti gli XP',
+        '30-day-xp' => 'XP degli ultimi 30 giorni'
     ],
 ];
