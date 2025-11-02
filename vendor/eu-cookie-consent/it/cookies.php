@@ -22,7 +22,7 @@ return [
     'analytical' => 'Cookie analitici',
     'analytical_description' => 'Questi cookie ci permettono di contare le visite e le fonti di traffico in modo da poter misurare e migliorare le prestazioni del nostro sito. Se non consentite questi cookie, le informazioni di questi cookie non saranno utilizzate per aiutare il miglioramento del sito.',
     'googleAnalytics' => 'Google Analytics',
-    'microsoftClarity' => 'Chiarezza di Microsoft',
+    'microsoftClarity' => 'Microsoft Clarity',
 
     'googleOneTap' => 'Accedi con Google',
     'googleOneTap_description' => 'Questi cookie consentono funzionalità da Accedi con Google, l\'accesso rapido o il creare un account con Google. I dati di accesso con Google vengono utilizzati solo per scopi di sicurezza.',
