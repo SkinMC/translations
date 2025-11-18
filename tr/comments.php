@@ -12,7 +12,7 @@ return [
     */
 
     'conversation' => 'Konuşma',
-    'conversation_count' => ':count comment|:count comments',
+    'conversation_count' => ':count yorum|:count yorum',
     'placeholder' => 'Sizin düşünceleriniz nedir?',
     'submit' => 'Yorum',
     'cancel' => 'İptal',

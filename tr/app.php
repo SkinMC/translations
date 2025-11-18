@@ -21,8 +21,8 @@ return [
         'skin_history_detail' => 'Profil sayfanızdaki cilt geçmişi ile önceki tüm Minecraft Ciltlerinizi takip edin. Geçmişte kullandığınız Ciltlere hızlıca erişin ve indirin.',
         'avatar_generator_title' => 'Avatar Oluşturucu',
         'avatar_generator_detail' => 'Orijinal Minecraft Avatar Oluşturucu, 4 popüler stil arasından seçim yapmanızı sağlar. Büst, Küp, Kafa biçiminde özel ve kişiselleştirilmiş bir Avatar oluşturun ve Java-Edition kullanıcı adınızı temel alarak 3D olarak tamamen özel yepyeni bir Avatar oluşturun.',
-        'achievements_title' => 'Başarı/İlerleme Üretici',
-        'achievements_detail' => 'Kendi kişiselleştirilmiş başarılarınızı oluşturun. Sarı başlık, metin ve görüntülenen öğeye kadar her şeyi özelleştirin.',
+        'achievements_title' => 'Başarım/İlerleme Üretici',
+        'achievements_detail' => 'Kendi kişiselleştirilmiş başarımlarınızı oluşturun. Sarı başlık, metin ve görüntülenen öğeye kadar her şeyi özelleştirin.',
         'no_ads_title' => 'Reklam Yok',
         'no_ads_detail' => 'SkinMC tamamen reklamsızdır. Müdahaleci rahatsızlıklar olmadan Reklamsız bir deneyimin keyfini çıkarın.'
     ],
@@ -32,7 +32,7 @@ return [
         'qr' => 'Özel QR Kodunuzu oluşturun',
         'qr_scanner' => 'Dahili QR Kod tarayıcı',
         'new_skins' => 'Her gün binlerce yeni görünüm',
-        'achievement' =>  'Başarı üreteci',
+        'achievement' =>  'Başarım oluşturucu',
         'avatar' => 'Orijinal avatar yapıcı'
     ],
     'patch_notes_update' => 'SkinMC Uygulamasını kullandığınız için teşekkürler. Bu güncelleme ile bazı hata düzeltmeleri ve iyileştirmeler alacaksınız. SkinMC uygulaması hakkında ne düşünüyorsunuz? Bize puan verin!'

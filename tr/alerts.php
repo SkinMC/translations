@@ -36,21 +36,21 @@ return [
     'level' => [
         'up' => [
             'title' => 'Seviye atladın!',
-            'text' => 'Congratulations on reaching level :level!'
+            'text' => ':level seviyeye ulaştığınız için tebrikler!'
         ]
     ],
     'report' => [
         'created' => [
-            'title' => 'We\'ve received your report! (Case :id)',
-            'text' => 'Our team is on it and will look into it right away. Thanks for being awesome and helping us keep things chill! '
+            'title' => 'Raporunuzu aldık! (Vaka :id)',
+            'text' => 'Ekibimiz bu konuyla ilgileniyor ve hemen inceleyecek. Harika olduğun ve işleri sakin tutmamıza yardımcı olduğun için teşekkürler! '
         ],
         'resolved' => [
-            'title' => 'We reviewed your report (Case :id)',
-            'text' => 'Hi there, the reported issue has been taken care of and is now sorted. Thanks for being a superhero of our community!',
+            'title' => 'Raporunuzu inceledik (Vaka :id)',
+            'text' => 'Merhaba, bildirilen sorun çözüldü ve artık halledildi. Topluluğumuzun süper kahramanı olduğun için teşekkürler!',
         ],
         'dismissed' => [
-            'title' => 'Update to your report (Case :id)',
-            'text' => 'After some detective work, we\'ve found that the content you had reported doesn\'t go against our guidelines. If you want us to review something specific, please make sure that you report the skin, profile, etc, and provide additional context when needed. Thanks for your concern and involvement in our community!',
+            'title' => 'Raporunuzu güncelleyin (Vaka :id)',
+            'text' => 'Biraz araştırma yaptıktan sonra, bildirdiğiniz içeriğin kurallarımıza aykırı olmadığını tespit ettik. Belirli bir şeyi incelememizi istiyorsanız, lütfen skin, profil vb. bilgileri bildirip gerektiğinde ek bilgiler de ekleyin. İlginiz ve topluluğumuza katılımınız için teşekkür ederiz!',
         ]
     ]
 ];

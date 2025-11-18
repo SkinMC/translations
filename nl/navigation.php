@@ -12,7 +12,7 @@ return [
     'banners' => 'Banieren',
     'profile' => 'Mijn profiel',
 
-    'generators' => 'Generators',
+    'generators' => 'Generatoren',
 
     'logout' => 'Uitloggen',
     'register' => 'Registreren',

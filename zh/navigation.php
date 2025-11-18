@@ -22,8 +22,8 @@ return [
     'faqs' => '常见问题',
 
     'minecraft_name' => 'Minecraft名字',
-    'minecraft_uuid' => 'Minecraft UUID',
-    'what' => 'What',
+    'minecraft_uuid' => '我的世界 UUID',
+    'what' => '什麼',
     'recent_searches' => '近期搜索',
     'username' => '用户名',
     'uuid' => 'UUID',
@@ -57,7 +57,7 @@ return [
     'privacy' => '隐私政策',
     'app' => '应用程序',
     'mod' => 'Mod（模组）',
-    'totem' => 'Totems',
+    'totem' => '图腾',
 
     'feedback' => '意见反馈',
     'status' => '状态',

@@ -10,51 +10,51 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Dashboard',
-        'total-members' => 'Total members',
-        'claimed-profiles' => 'Claimed profiles',
-        'profiles' => 'Profiles',
-        'skins' => 'Skins',
-        'users' => 'Users',
-        'last-30-days' => 'Last 30 days',
-        'members' => 'Members',
-        'usernames' => 'Usernames',
+        'title' => 'Instrumentpanel',
+        'total-members' => 'Antal medlemmar',
+        'claimed-profiles' => 'Registrerade profiler',
+        'profiles' => 'Profiler',
+        'skins' => 'Utseenden',
+        'users' => 'Användare',
+        'last-30-days' => 'Senaste 30 dagarna',
+        'members' => 'Medlemmar',
+        'usernames' => 'Användarnamn',
     ],
     'help' => [
-        'title' => 'Help',
-        'subtitle' => 'Useful tips for the SkinMC dashboard',
+        'title' => 'Hjälp',
+        'subtitle' => 'Användbara tips för SkinMC instrumentpanelen',
     ],
     'users' => [
-        'title' => 'Users',
-        'subtitle' => ':count total users signed up',
+        'title' => 'Användare',
+        'subtitle' => ':count antal registrerade användare',
         'list' => [
-            'username' => 'Username',
-            'email' => 'Email',
+            'username' => 'Användarnamn',
+            'email' => 'E-post',
             'status' => 'Status',
-            'role' => 'Role'
+            'role' => 'Roll'
         ],
     ],
     'skins' => [
-        'title' => 'Skins',
+        'title' => 'Utseenden',
     ],
     'tags' => [
-        'title' => 'Tags',
-        'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
+        'title' => 'Taggar',
+        'pending' => 'Väntande taggar',
+        'banned' => 'Bannade taggar',
     ],
     'reports' => [
-        'title' => 'Reports',
+        'title' => 'Rapporteringar',
     ],
     'feed' => [
-        'title' => 'Feed posts',
-        'subtitle' => ':count total posts created',
+        'title' => 'Inlägg på flödet',
+        'subtitle' => ':count antal inlägg skapade',
     ],
     'comments' => [
-        'title' => 'Comments',
-        'subtitle' => ':count total comments posted',
+        'title' => 'Kommentarer',
+        'subtitle' => ':count antal kommentarer publicerade',
         'deleted' => [
-            'title' => 'Deleted comments',
-            'subtitle' => ':count total comments deleted',
+            'title' => 'Raderade kommentarer',
+            'subtitle' => ':count antal raderade kommentarer',
         ]
     ]
 ];

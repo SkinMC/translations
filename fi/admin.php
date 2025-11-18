@@ -10,51 +10,51 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Dashboard',
-        'total-members' => 'Total members',
-        'claimed-profiles' => 'Claimed profiles',
-        'profiles' => 'Profiles',
-        'skins' => 'Skins',
-        'users' => 'Users',
-        'last-30-days' => 'Last 30 days',
-        'members' => 'Members',
-        'usernames' => 'Usernames',
+        'title' => 'Hallintapaneeli',
+        'total-members' => 'Jäseniä yhteensä',
+        'claimed-profiles' => 'Lunastetut profiilit',
+        'profiles' => 'Profiilit',
+        'skins' => 'Skinit',
+        'users' => 'Käyttäjät',
+        'last-30-days' => 'Viimeisten 30 päivän aikana',
+        'members' => 'Jäseniä',
+        'usernames' => 'Käyttäjänimet',
     ],
     'help' => [
-        'title' => 'Help',
-        'subtitle' => 'Useful tips for the SkinMC dashboard',
+        'title' => 'Apua',
+        'subtitle' => 'Hyödyllisiä vinkkejä SkinMC hallintapaneeliin',
     ],
     'users' => [
-        'title' => 'Users',
-        'subtitle' => ':count total users signed up',
+        'title' => 'Käyttäjät',
+        'subtitle' => ':count käyttäjiä rekisteröitynyt yhteensä',
         'list' => [
-            'username' => 'Username',
-            'email' => 'Email',
-            'status' => 'Status',
-            'role' => 'Role'
+            'username' => 'Käyttäjänimi',
+            'email' => 'Sähköposti',
+            'status' => 'Tila',
+            'role' => 'Rooli'
         ],
     ],
     'skins' => [
-        'title' => 'Skins',
+        'title' => 'Skinit',
     ],
     'tags' => [
-        'title' => 'Tags',
-        'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
+        'title' => 'Tunnisteet',
+        'pending' => 'Odottavat tunnisteet',
+        'banned' => 'Kielletyt tunnisteet',
     ],
     'reports' => [
-        'title' => 'Reports',
+        'title' => 'Raportit',
     ],
     'feed' => [
-        'title' => 'Feed posts',
-        'subtitle' => ':count total posts created',
+        'title' => 'Syötteen julkaisut',
+        'subtitle' => ':count julkaisuja luotu yhteensä',
     ],
     'comments' => [
-        'title' => 'Comments',
-        'subtitle' => ':count total comments posted',
+        'title' => 'Kommentit',
+        'subtitle' => ':count kommentteja julkaistu yhteensä',
         'deleted' => [
-            'title' => 'Deleted comments',
-            'subtitle' => ':count total comments deleted',
+            'title' => 'Poistetut kommentit',
+            'subtitle' => ':count kommentteja poistettu yhteensä',
         ]
     ]
 ];

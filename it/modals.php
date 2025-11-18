@@ -3,7 +3,7 @@
 return [
     'login' => [
         'title' => 'Accedi',
-        'email' => 'Indirizzo di posta',
+        'email' => 'Indirizzo email',
         'password' => 'Password',
         'button' => 'Accedi',
         'forgot' => 'Hai dimenticato la password?',
@@ -21,14 +21,14 @@ return [
         'existing' => 'Hai già un account?',
         'button' => 'Accetta e continua',
         'terms_by_selecting' => 'Selezionando',
-        'terms_agree_to' => ', Accetto SkinMC',
-        'terms_acknowledge' => 'e riconosco la',
+        'terms_agree_to' => ', Accetto i [terms_agree_to] di SkinMC',
+        'terms_acknowledge' => 'e riconosco i',
     ],
     'recover' => [
         'title' => 'Recupera l\'account',
-        'description' => 'Hai perso la password? Recuperala inserendo il tuo indirizzo di posta.',
+        'description' => 'Hai perso la password? Recuperala inserendo il tuo indirizzo email.',
         'button' => 'Invia email di recupero',
-        'found' => 'Hai trovata la tua password?',
+        'found' => 'Hai trovato la tua password?',
     ],
     'logout' => [
         'title' => 'Disconnettiti',
@@ -38,7 +38,7 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'Scansiona il codice QR',
-        'done' => 'Fine',
+        'done' => 'Fatto',
     ],
     'language' => [
         'title' => 'Lingua',
@@ -53,7 +53,7 @@ return [
         'title' => 'Suggerimenti',
         'type' => [
             'select' => 'Seleziona tipo di suggerimento',
-            'label' => 'Tipo di suggerimenti',
+            'label' => 'Tipo di suggerimento',
             'comment' => 'Commenti',
             'question' => 'Domande',
             'bug' => 'Segnalazione bug',

@@ -20,7 +20,7 @@ return [
         'skin_history_title' => 'Utseendehistorik',
         'skin_history_detail' => 'Håll koll på alla dina Minecraft-utseenden med utseendehistoriken på din profil. Få snabb tillgång och ladda ned dina tidigare utseenden.',
         'avatar_generator_title' => 'Avatargenerator',
-        'avatar_generator_detail' => 'The original Minecraft Avatar Generator lets you choose from 4 popular styles. Create a custom and personalised Avatar in Bust, Cube, Head format, and brand new also fully custom in 3D based from your Java-Edition username.',
+        'avatar_generator_detail' => 'Den originella Minecraft Avatar Generator låter dig välja mellan fyra populära stilar. Skapa en anpassad och personlig avatar i formatet Bust, Cube, Head och helt ny, helt anpassad i 3D baserad på ditt Java-Edition-användarnamn.',
         'achievements_title' => 'Framstegsgenerator',
         'achievements_detail' => 'Skapa dina egna framsteg. Anpassa allt från den gula titeln, texten och föremålet som visas.',
         'no_ads_title' => 'Inga annonser',
@@ -28,12 +28,12 @@ return [
     ],
     'screenshots' => [
         'find' => 'Hitta vilken Minecraft spelare som helst',
-        'claim' => 'Claim & customise your Profile',
-        'qr' => 'Create your custom QR Code',
-        'qr_scanner' => 'Built in QR Code scanner',
-        'new_skins' => 'Thousands of new Skins everyday',
-        'achievement' =>  'Achievement generator',
-        'avatar' => 'The original avatar maker'
+        'claim' => 'Anspråka & anpassa din profil',
+        'qr' => 'Skapa din egen QR-kod',
+        'qr_scanner' => 'Inbyggd QR-kod skanner',
+        'new_skins' => 'Tusentals nya utseenden varje dag',
+        'achievement' =>  'Framsteg-generator',
+        'avatar' => 'Den originella avatarskaparen'
     ],
-    'patch_notes_update' => 'Thanks for using the SkinMC App. With this update you will receive some bug fixes and improvements. What do you think of the SkinMC app? Rate us!'
+    'patch_notes_update' => 'Tack för att du använder SkincMC-appen. Med denna uppdatering kommer du få ett par buggfixar och förbättringar. Vad tycker du om SkinMC-appen? Betygsätt oss!'
 ];

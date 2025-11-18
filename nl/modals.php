@@ -53,7 +53,7 @@ return [
         'title' => 'Feedback',
         'type' => [
             'select' => 'Selecteer feedback type',
-            'label' => 'Feedback type',
+            'label' => 'Type feedback',
             'comment' => 'Commentaar',
             'question' => 'Vragen',
             'bug' => 'Bugmelding',
