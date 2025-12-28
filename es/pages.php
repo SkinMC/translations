@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'Editar Perfil',
         'joined' => 'Se unió',
+        'role' => 'Role',
         'server-fav-list-empty' => 'Parece que :username aún no tiene servidores favoritos. Una vez :username ha guardado un servidor como su favorito, puedes verlo aquí.',
         'server-own-list-empty' => 'Parece que :username aún no tiene servidores. Una vez :username ha listado un servidor, puedes verlo aquí.',
         'capes-list-empty' => 'Parece que :username aún no lleva ninguna capa. Una vez :username está usando una capa, puedes verlo aquí.',
