@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'Modifier votre profil',
         'joined' => 'Rejoint',
+        'role' => 'Role',
         'server-fav-list-empty' => 'On dirait que :username n\'a pas encore de serveurs favoris. Une fois que :username auras enregistré un serveur comme favoris, vous pouvez le voir ici.',
         'server-own-list-empty' => 'On dirait que :username n\'a pas encore de serveurs favoris. Une fois que :username auras enregistré un serveur comme favoris, vous pouvez le voir ici.',
         'capes-list-empty' => 'On dirait que :username ne porte pas encore de capes. Une fois que :username porte une cape, vous pourrez le voir ici.',
