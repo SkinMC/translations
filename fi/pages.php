@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'Muokkaa profiilia',
         'joined' => 'Liittyi',
+        'role' => 'Role',
         'server-fav-list-empty' => 'Näyttää siltä, että :username ei saanut ole vielä yhtään suosikkipalvelinta. Kun :username on tallentanut palvelimen suosikikseen, voit nähdä sen täällä.',
         'server-own-list-empty' => 'Näyttää siltä, että :username ei ole saanut vielä yhtään palvelinta. Kun :username on listannut palvelimen, näet sen täällä.',
         'capes-list-empty' => 'Näyttää siltä, että :username ei ole vielä pukeutunut mihinkään viittaan. Kun :username on pukeutunut viittaan, näet sen täältä.',
