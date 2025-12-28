@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'Profili düzenle',
         'joined' => 'Katıldım',
+        'role' => 'Role',
         'server-fav-list-empty' => 'Görünüşe göre :username kullanıcısının henüz favori sunucusu yok. :username bir sunucuyu favori olarak kaydettiğinde, onu burada görebilirsiniz.',
         'server-own-list-empty' => 'Görünüşe göre :username henüz herhangi bir sunucuya sahip değil. :username bir sunucu listelediğinde, onu burada görebilirsiniz.',
         'capes-list-empty' => 'Görünüşe göre :username henüz pelerin giymiyor. :username pelerin giydiğinde, bunu burada görebilirsiniz.',
