@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'تعديل الملف الشخصي',
         'joined' => 'تم الإنضمام',
+        'role' => 'Role',
         'server-fav-list-empty' => 'يبدو أن :username لم يحصل على أي سيرفرات مفضلة حتى الآن. بمجرد أن يقوم :username بحفظ سيرفر كمفضله، يمكنك رؤيته هنا.',
         'server-own-list-empty' => 'Looks like :username hasn\'t got any servers yet. Once :username has listed a server, you can see it here.',
         'capes-list-empty' => 'Looks like :username isn\'t wearing any capes yet. Once :username is wearing a cape, you can see it here.',
