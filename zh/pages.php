@@ -108,6 +108,7 @@ return [
         ],
         'edit' => '编辑个人资料',
         'joined' => '注册时间',
+        'role' => 'Role',
         'server-fav-list-empty' => '似乎 :username 尚未收藏任何服务器。如果 :username 收藏了服务器，您可以在这里看到。',
         'server-own-list-empty' => '似乎 :username 尚未设置拥有的服务器。如果 :username 设置了服务器，您可以在这里看到。',
         'capes-list-empty' => '似乎 :username 尚未穿戴任何披风。如果 :username 穿戴了披风，您可以在这里看到。',
