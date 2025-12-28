@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'Profil bearbeiten',
         'joined' => 'Beigetreten',
+        'role' => 'Rolle',
         'server-fav-list-empty' => 'Es sieht so aus das :username noch keine Lieblingsserver hat. Sobald :username einen Server als einen Lieblingsserver speichert, kannst du ihn sehen.',
         'server-own-list-empty' => 'Es sieht so aus das :username noch keine Server hat. Sobald :username einen Server auflistet, kannst du ihn hier sehen.',
         'capes-list-empty' => 'Anscheinend trägt :username im Augenblick noch keine Umhänge. Sobald :username einen Umhang trägt, kannst du ihn hier sehen.',

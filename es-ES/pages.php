@@ -44,6 +44,7 @@ return [
         'user_downloads' => ':downloads download|:downloads',
         'download_skin' => 'Descargar skin',
         'claim_profile' => '¿Eres :username? ¡Reclama tu perfil para verificarlo y personalizarlo!',
+        'role' => 'Rol',
     ],
     'about' => [
         'intro' => '<span>Tu</span> <span>plataforma</span> <span>para</span> <span>aspectos de Minecraft</span> <span></span>',

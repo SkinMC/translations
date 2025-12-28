@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'Edytuj profil',
         'joined' => 'Dołączył(a)',
+        'role' => 'Rola',
         'server-fav-list-empty' => 'Wygląda na to, że :username nie ma jeszcze żadnych ulubionych serwerów. Gdy :username zapisze serwer jako swój ulubiony, możesz go zobaczyć tutaj.',
         'server-own-list-empty' => 'Wygląda na to, że :username nie ma jeszcze żadnych serwerów. Gdy :username doda serwer, możesz go tutaj zobaczyć.',
         'capes-list-empty' => 'Wygląda na to, że :username nie nosi jeszcze żadnej peleryny. Gdy :username założy pelerynę, możesz ją zobaczyć tutaj.',

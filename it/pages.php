@@ -109,6 +109,7 @@ return [
         ],
         'edit' => 'Modifica il profilo',
         'joined' => 'Unito',
+        'role' => 'Ruolo',
         'server-fav-list-empty' => 'Sembra che :username non abbia server preferiti al momento. Una volta che :username avrà salvato un server come preferito, lo potrai vedere qui.',
         'server-own-list-empty' => 'Sembra che :username non abbia ancora alcun server. Una volta che :username avrà elencato un server, lo potrai vedere qui.',
         'capes-list-empty' => 'Sembra che :username non indossi ancora nessun mantello. Una volta che :username indosserà un mantello, lo potrai vedere qui.',

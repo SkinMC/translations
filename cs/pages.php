@@ -67,6 +67,7 @@ return [
         'capes' => 'Capes',
         'claim_profile' => 'Jste :username? Požádejte svůj profil pro ověření a přizpůsobení!',
         'claimed' => 'Claimed profile',
+        'role' => 'Role',
         'meta_description' => 'View and download :username Minecraft Skin. See their UUID, name history, detailed stats, and more',
         'created_at' => 'Updated: :changed_at',
         'skins' => [

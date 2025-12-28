@@ -108,6 +108,7 @@ return [
         ],
         'edit' => 'プロフィールを編集',
         'joined' => '参加済み',
+        'role' => '役割',
         'server-fav-list-empty' => 'Looks like :username hasn\'t got any favourite servers yet. Once :username has saved a server as their favourite, you can see it here.',
         'server-own-list-empty' => 'Looks like :username hasn\'t got any servers yet. Once :username has listed a server, you can see it here.',
         'capes-list-empty' => 'Looks like :username isn\'t wearing any capes yet. Once :username is wearing a cape, you can see it here.',
