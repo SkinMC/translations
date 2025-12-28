@@ -108,6 +108,7 @@ return [
         ],
         'edit' => '프로필 편집',
         'joined' => '가입 시기:',
+        'role' => 'Role',
         'server-fav-list-empty' => '아직 :username님이 아무 서버도 즐겨찾기 하지 않은거 같아요. :username님이 서버를 즐겨찾기에 저장하면, 여기에서 확인할 수 있어요.',
         'server-own-list-empty' => '아직 :username님이 아무 서버도 추가하지 않은거 같아요. :username님이 서버를 추가하면, 여기에서 확인할 수 있어요.',
         'capes-list-empty' => ':username님이 아직 아무 망토도 장착하지 않은 것 같아요. :username님이 망토를 장착하면, 여기에서 확인할 수 있어요.',
