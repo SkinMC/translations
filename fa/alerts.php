@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'پاسخ به نظر مدل',
             'text' => 'کاربر به نظر مدل پاسخ داد'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
