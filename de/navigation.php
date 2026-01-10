@@ -10,9 +10,17 @@ return [
     'achievement' => 'Errungenschaften',
     'armor' => 'Rüstungsständer',
     'banners' => 'Banner',
+    'banner' => 'Banner Editor',
     'profile' => 'Mein Profil',
 
     'generators' => 'Generatoren',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
 
     'logout' => 'Abmelden',
     'register' => 'Registrieren',
@@ -58,6 +66,8 @@ return [
     'app' => 'App',
     'mod' => 'Mod',
     'totem' => 'Totem',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
@@ -68,8 +78,9 @@ return [
     'add' => 'Hinzufügen',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Dunkel',
         'light' => 'Hell',
-        'auto' => 'Automatisch'
+        'auto' => 'Auto'
     ],
 ];
