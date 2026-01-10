@@ -13,6 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => 'Minecraft 스킨을 찾는 나만의 공간',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => '아무거나 볼래요!',
         'hero_explore_cta' => '스킨 둘러보기',
         'skin_viewer' => '스킨 뷰어',
@@ -1122,6 +1124,17 @@ return [
         'follow-suggestions' => '팀 팔로우하기',
         'explore' => '둘러보기',
         'hashtag' => '해시태그',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => '게시물을 비공개로 돌리기',
