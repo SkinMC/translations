@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => ':modelのコメントへの返信',
             'text' => ':userさんが:modelコメントに返信しました'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
