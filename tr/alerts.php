@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => ':model yorumuna cevap ver',
             'text' => ':kullanıcı :model yorumuna cevap verdi'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
