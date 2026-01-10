@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Svara på :model kommentar',
             'text' => ':user svarade på en :model kommentar'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
