@@ -10,9 +10,17 @@ return [
     'achievement' => '成就',
     'armor' => '盔甲架',
     'banners' => '旗帜',
+    'banner' => 'Banner Editor',
     'profile' => '个人资料',
 
     'generators' => '生成器',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
 
     'logout' => '登出',
     'register' => '注册',
@@ -58,6 +66,8 @@ return [
     'app' => '应用程序',
     'mod' => 'Mod（模组）',
     'totem' => '图腾',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => '意见反馈',
     'status' => '状态',
@@ -68,8 +78,9 @@ return [
     'add' => '添加',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => '暗色模式',
         'light' => '亮色模式',
-        'auto' => '跟随主题'
+        'auto' => 'Auto'
     ],
 ];
