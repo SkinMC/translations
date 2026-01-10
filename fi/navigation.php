@@ -10,9 +10,17 @@ return [
     'achievement' => 'Saavutus',
     'armor' => 'Haarniskateline',
     'banners' => 'Bannerit',
+    'banner' => 'Banner Editor',
     'profile' => 'Profiilini',
 
     'generators' => 'Generaattorit',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
 
     'logout' => 'Kirjaudu ulos',
     'register' => 'Rekisteröidy nyt',
@@ -58,6 +66,8 @@ return [
     'app' => 'Sovellus',
     'mod' => 'Modi',
     'totem' => 'Toteemit',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Palaute',
     'status' => 'Tila',
@@ -68,8 +78,9 @@ return [
     'add' => 'Lisää',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Tumma',
         'light' => 'Vaalea',
-        'auto' => 'Automaattinen'
+        'auto' => 'Auto'
     ],
 ];
