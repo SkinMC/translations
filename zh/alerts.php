@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => '对 :model 评论的回复',
             'text' => ':user 回复了一个 :model 评论'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
