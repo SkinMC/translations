@@ -13,6 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => 'Ваше місце для скинів Minecraft.',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => 'Здивувати мене',
         'hero_explore_cta' => 'Дослідити скини',
         'skin_viewer' => 'Переглядач скинів',
@@ -1124,6 +1126,17 @@ return [
         'follow-suggestions' => 'Стежити за командою',
         'explore' => 'Дослідити',
         'hashtag' => 'Хештег',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Приватні дописи',
