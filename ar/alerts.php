@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'الرد على تعليق :model',
             'text' => ':user رد على تعليق :model'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
