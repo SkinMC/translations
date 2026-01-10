@@ -13,6 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => 'Votre place pour les skins Minecraft.',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => 'Surprenez-moi',
         'hero_explore_cta' => 'Explorer les skins',
         'skin_viewer' => 'Visualiseur de skins',
@@ -1124,6 +1126,17 @@ return [
         'follow-suggestions' => 'Suivre l\'équipe',
         'explore' => 'Découvrir',
         'hashtag' => 'Hashtag',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Publications privées',
