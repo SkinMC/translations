@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => ':model에 답글 작성됨',
             'text' => ':user님이 :model에 답글을 작성했어요'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
