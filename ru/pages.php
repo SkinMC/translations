@@ -13,6 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => 'Ваше место для скинов Minecraft.',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => 'Случайный скин',
         'hero_explore_cta' => 'Изучить скины',
         'skin_viewer' => 'Просмотр скинов',
@@ -1124,6 +1126,17 @@ return [
         'follow-suggestions' => 'Подпишитесь на команду',
         'explore' => 'Обзор',
         'hashtag' => 'Хештег',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Приватные записи',
