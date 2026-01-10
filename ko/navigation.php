@@ -10,9 +10,17 @@ return [
     'achievement' => '도전과제',
     'armor' => '갑옷 거치대',
     'banners' => '배너',
+    'banner' => 'Banner Editor',
     'profile' => '내 프로필',
 
     'generators' => '생성기',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
 
     'logout' => '로그아웃',
     'register' => '가입',
@@ -58,6 +66,8 @@ return [
     'app' => '앱',
     'mod' => '모드',
     'totem' => '토템',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => '의견 보내기',
     'status' => '상태',
@@ -68,8 +78,9 @@ return [
     'add' => '추가',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => '어둡게',
         'light' => '밝게',
-        'auto' => '자동'
+        'auto' => 'Auto'
     ],
 ];
