@@ -13,6 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => 'Minecraftのスキンのためのあなたの場所',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => '私を驚かせて',
         'hero_explore_cta' => 'スキンを探索',
         'skin_viewer' => 'スキンビューアー',
@@ -1124,6 +1126,17 @@ return [
         'follow-suggestions' => 'チームをフォロー',
         'explore' => '探索',
         'hashtag' => 'ハッシュタグ',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => '非公開投稿',
