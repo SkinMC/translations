@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Új válasz ennél: :model',
             'text' => ':user válaszolt a hozzászólásodra ezen: :model'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
