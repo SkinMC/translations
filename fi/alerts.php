@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Vastaa :model kommentilla',
             'text' => ':user vastasi :model kommenttiin'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
