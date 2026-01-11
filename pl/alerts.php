@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Nowa wzmianka',
             'text' => ':user wspomiał o Tobie w swoim poście!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
