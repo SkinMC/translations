@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Новое упоминание',
             'text' => ':user упомянул вас в своем посте!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
