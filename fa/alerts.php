@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'اشاره جدید',
             'text' => ':user به شما در پستشان اشاره کرد!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
