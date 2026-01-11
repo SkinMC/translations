@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Új említés',
             'text' => ':user megemlített Téged!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
