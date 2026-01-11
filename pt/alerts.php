@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Nova menção',
             'text' => ':user mencionou você em uma publicação!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
