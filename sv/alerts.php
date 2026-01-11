@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Ny omnämning',
             'text' => ':user nämnde dig i deras inlägg!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
