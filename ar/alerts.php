@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'حد منشنك',
             'text' => ':user منشنك في البوست!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
