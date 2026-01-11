@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Нова згадка',
             'text' => ':user згадує вас у своєму дописі!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
