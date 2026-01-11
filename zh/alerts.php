@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => '新提及我的',
             'text' => ':user 在他们的帖子中提到了你！'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
