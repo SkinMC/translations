@@ -38,5 +38,7 @@ return [
     'delete' => 'Eliminar comentario',
     'empty' => 'Aún no hay ningún comentario',
     'empty-subtitle' => '¡Sé el primero en compartir lo que piensas!',
-    'deleted' => 'Tu comentario fue satisfactoriamente eliminado'
+    'deleted' => 'Tu comentario fue satisfactoriamente eliminado',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];
