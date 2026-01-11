@@ -38,5 +38,7 @@ return [
     'delete' => 'Delete comment',
     'empty' => 'No comments yet',
     'empty-subtitle' => 'Be the first to share what you think!',
-    'deleted' => 'Your comment was successfully deleted'
+    'deleted' => 'Your comment was successfully deleted',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];
