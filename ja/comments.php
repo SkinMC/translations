@@ -38,5 +38,7 @@ return [
     'delete' => 'コメントを削除',
     'empty' => 'まだコメントはありません',
     'empty-subtitle' => '最初にコメントをしよう！',
-    'deleted' => '正常にコメントを削除されました'
+    'deleted' => '正常にコメントを削除されました',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];
