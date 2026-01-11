@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => '새 언급',
             'text' => ':user님이 작성한 포스트에 나를 언급했어요!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
