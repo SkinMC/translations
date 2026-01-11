@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Yeni bahsetme',
             'text' => ':kullanıcı gönderisinde senden bahsetti!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
