@@ -21,6 +21,9 @@ return [
     'mods' => 'Mods',
     'shaders' => 'Shaders',
     'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => '로그아웃',
     'register' => '가입',
