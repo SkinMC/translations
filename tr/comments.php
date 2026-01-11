@@ -38,5 +38,7 @@ return [
     'delete' => 'Yorumu Sil',
     'empty' => 'Henüz yorum yok',
     'empty-subtitle' => 'Düşüncelerinizi ilk paylaşan siz olun!',
-    'deleted' => 'Yorumunuz başarıyla silindi'
+    'deleted' => 'Yorumunuz başarıyla silindi',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];
