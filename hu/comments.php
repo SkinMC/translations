@@ -38,5 +38,7 @@ return [
     'delete' => 'Hozzászólás törlése',
     'empty' => 'Még senki sem írt hozzászólást.',
     'empty-subtitle' => 'Kezdd el a beszélgetést!',
-    'deleted' => 'Hozzászólás törölve.'
+    'deleted' => 'Hozzászólás törölve.',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];
