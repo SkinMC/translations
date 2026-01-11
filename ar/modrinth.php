@@ -19,6 +19,9 @@ return [
         'mod' => 'Browse and discover the best Minecraft mods',
         'shader' => 'Browse and discover the best Minecraft shaders',
         'resourcepack' => 'Browse and discover the best Minecraft resource packs',
+        'modpack' => 'Browse and discover the best Minecraft modpacks',
+        'datapack' => 'Browse and discover the best Minecraft data packs',
+        'plugin' => 'Browse and discover the best Minecraft server plugins',
     ],
 
     // Page descriptions
@@ -27,6 +30,9 @@ return [
         'mod' => 'Explore and discover the best mods to enhance your Minecraft experience',
         'shader' => 'Transform your Minecraft visuals with stunning shaders',
         'resourcepack' => 'Customise your Minecraft look with resource packs and textures',
+        'modpack' => 'Find curated collections of mods ready to play together',
+        'datapack' => 'Enhance vanilla Minecraft with data packs and custom features',
+        'plugin' => 'Power up your Minecraft server with the best plugins',
     ],
 
     // Filters & Search
