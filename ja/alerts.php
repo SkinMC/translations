@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => '新たな返信',
             'text' => ':userさんがあなたについて投稿しました！'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
