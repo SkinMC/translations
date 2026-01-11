@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Nieuwe vermelding',
             'text' => ':user noemde je in zijn bericht!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
