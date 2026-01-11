@@ -35,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Uusi maininta',
             'text' => ':user mainitsi sinut heidän julkaisussaan!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
