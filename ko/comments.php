@@ -38,5 +38,7 @@ return [
     'delete' => '댓글 삭제',
     'empty' => '댓글 없음',
     'empty-subtitle' => '제일 먼저 자신의 의견을 남겨보세요!',
-    'deleted' => '댓글이 삭제됐어요'
+    'deleted' => '댓글이 삭제됐어요',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];
