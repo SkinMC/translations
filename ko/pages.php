@@ -1133,6 +1133,8 @@ return [
             'removed' => 'Repost removed.',
             'already_reposted' => 'You have already reposted this.',
             'undo' => 'Undo repost',
+            'original_deleted' => 'The original post has been deleted.',
+            'deleted_post' => 'This post has been deleted',
         ],
         'follow-suggestions' => '팀 팔로우하기',
         'explore' => '둘러보기',
