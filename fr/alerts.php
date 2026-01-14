@@ -24,7 +24,7 @@ return [
         ],
         'like' => [
             'title' => 'Commentaire aimé',
-            'text' => ':user a aimé votre publication !'
+            'text' => ':user a aimé votre post !'
         ]
     ],
     'post' => [
@@ -38,7 +38,7 @@ return [
         ],
         'repost' => [
             'title' => 'Reposter',
-            'text' => ':user reposted your post!'
+            'text' => ':user a reposté votre post !'
         ]
     ],
     'level' => [
