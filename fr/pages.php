@@ -13,8 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => 'Votre place pour les skins Minecraft.',
-        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
-        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
+        'hero_slogan_alt_1' => 'Tout Minecraft. Un endroit.',
+        'hero_slogan_alt_2' => 'Là où les Minecrafters se rencontrent.',
         'hero_cta' => 'Surprenez-moi',
         'hero_explore_cta' => 'Explorer les skins',
         'skin_viewer' => 'Visualiseur de skins',
@@ -1124,7 +1124,7 @@ return [
             'deleted' => 'Votre publication a été supprimée.',
         ],
         'repost' => [
-            'button' => 'Repost',
+            'button' => 'Reposter',
             'quote_button' => 'Quote',
             'title' => 'Repost this post',
             'quote_title' => 'Quote post',
