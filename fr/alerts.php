@@ -23,8 +23,8 @@ return [
             'text' => ':user a répondu à un commentaire de :model'
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
+            'title' => 'Commentaire aimé',
+            'text' => ':user a aimé votre publication !'
         ]
     ],
     'post' => [
@@ -37,7 +37,7 @@ return [
             'text' => ':user vous a mentionné dans sa publication !'
         ],
         'repost' => [
-            'title' => 'Repost',
+            'title' => 'Reposter',
             'text' => ':user reposted your post!'
         ]
     ],
