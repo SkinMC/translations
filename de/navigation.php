@@ -17,9 +17,9 @@ return [
 
     // Navigation dropdowns
     'feed' => 'Feed',
-    'discover' => 'Discover',
+    'discover' => 'Entdecken',
     'mods' => 'Mods',
-    'shaders' => 'Shaders',
+    'shaders' => 'Shader',
     'resource_packs' => 'Resource Packs',
     'modpacks' => 'Modpacks',
     'datapacks' => 'Data Packs',
