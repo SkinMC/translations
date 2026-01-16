@@ -38,7 +38,7 @@ return [
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
+            'text' => ':user hat deinen Beitrag repostet!'
         ]
     ],
     'level' => [
