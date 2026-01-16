@@ -39,6 +39,6 @@ return [
     'empty' => 'Ancora nessun commento',
     'empty-subtitle' => 'Sii il primo a condividere ciò che pensi!',
     'deleted' => 'Il tuo commento è stato con successo eliminato',
-    'author' => 'Author',
-    'author-liked' => 'Liked by the post author'
+    'author' => 'Autore',
+    'author-liked' => 'L\'autore del post ha messo mi piace'
 ];
