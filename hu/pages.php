@@ -1170,6 +1170,7 @@ return [
         'follow-suggestions' => 'Kövesd a csapatot!',
         'explore' => 'Felfedezés',
         'hashtag' => 'Címke',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
