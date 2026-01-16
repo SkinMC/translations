@@ -1174,6 +1174,7 @@ return [
         'follow-suggestions' => 'Segui il team',
         'explore' => 'Esplora',
         'hashtag' => 'Hashtag',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Archivio Delle Storie',
