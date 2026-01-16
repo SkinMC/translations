@@ -774,6 +774,12 @@ return [
             'decrease_brightness' => 'Зменшити яскравість поточного активного кольору.',
             'increase_brightness' => 'Збільшить яскравість нині активного кольору.',
             'erase' => 'Видаліть пікселі, намальовані на вторинному шарі накладання.',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
