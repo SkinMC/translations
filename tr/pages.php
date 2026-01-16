@@ -1170,6 +1170,7 @@ return [
         'follow-suggestions' => 'Ekibi takip et',
         'explore' => 'Keşfet',
         'hashtag' => 'Hashtag',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
