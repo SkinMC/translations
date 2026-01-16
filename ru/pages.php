@@ -1170,6 +1170,7 @@ return [
         'follow-suggestions' => 'Подпишитесь на команду',
         'explore' => 'Обзор',
         'hashtag' => 'Хештег',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
