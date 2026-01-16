@@ -774,6 +774,12 @@ return [
             'decrease_brightness' => 'Verringert die Helligkeit der aktuell aktiven Farbe.',
             'increase_brightness' => 'Erhöht die Helligkeit der aktuell aktiven Farbe.',
             'erase' => 'Lösche Pixel, die auf der sekundären Overlay-Ebene gezeichnet wurden.',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
