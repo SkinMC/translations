@@ -1170,6 +1170,7 @@ return [
         'follow-suggestions' => 'チームをフォロー',
         'explore' => '探索',
         'hashtag' => 'ハッシュタグ',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
