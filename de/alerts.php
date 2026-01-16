@@ -23,8 +23,8 @@ return [
             'text' => ':user antwortete auf einen :model Kommentar'
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
+            'title' => 'Kommentar wurde geliked',
+            'text' => ':user gefällt dein Kommentar!'
         ]
     ],
     'post' => [
