@@ -1168,6 +1168,7 @@ return [
         'follow-suggestions' => '팀 팔로우하기',
         'explore' => '둘러보기',
         'hashtag' => '해시태그',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
