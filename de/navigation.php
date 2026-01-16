@@ -20,10 +20,10 @@ return [
     'discover' => 'Entdecken',
     'mods' => 'Mods',
     'shaders' => 'Shader',
-    'resource_packs' => 'Resource Packs',
+    'resource_packs' => 'Ressourcenpakete',
     'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'datapacks' => 'Datenpakete',
+    'plugins' => 'Plug-Ins',
 
     'logout' => 'Abmelden',
     'register' => 'Registrieren',
@@ -70,7 +70,7 @@ return [
     'mod' => 'Mod',
     'totem' => 'Totem',
     'cube' => 'Cube',
-    'new' => 'New',
+    'new' => 'Neu',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
@@ -81,7 +81,7 @@ return [
     'add' => 'Hinzufügen',
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'Thema',
         'dark' => 'Dunkel',
         'light' => 'Hell',
         'auto' => 'Auto'
