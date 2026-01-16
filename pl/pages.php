@@ -1170,6 +1170,7 @@ return [
         'follow-suggestions' => 'Obserwuj zespół',
         'explore' => 'Odkrywaj',
         'hashtag' => 'Hashtag',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
