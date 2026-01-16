@@ -1170,6 +1170,7 @@ return [
         'follow-suggestions' => 'Seuraa tiimiä',
         'explore' => 'Selaa',
         'hashtag' => 'Aihetunniste',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
