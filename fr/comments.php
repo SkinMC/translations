@@ -39,6 +39,6 @@ return [
     'empty' => 'Aucun commentaire pour l\'instant',
     'empty-subtitle' => 'Soyez le premier à partager ce que vous pensez !',
     'deleted' => 'Votre commentaire a bien été supprimé',
-    'author' => 'Author',
-    'author-liked' => 'Liked by the post author'
+    'author' => 'Auteur',
+    'author-liked' => 'Aimé par l\'auteur du post'
 ];
