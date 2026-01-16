@@ -1171,6 +1171,7 @@ return [
         'follow-suggestions' => 'Follow the team',
         'explore' => 'Explore',
         'hashtag' => 'Hashtag',
+        'no_users' => 'No users found.',
         'stories' => [
             'archive' => [
                 'title' => 'Story Archive',
