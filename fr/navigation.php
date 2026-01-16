@@ -10,19 +10,19 @@ return [
     'achievement' => 'Accomplissement',
     'armor' => 'Porte-armure',
     'banners' => 'Bannière',
-    'banner' => 'Banner Editor',
+    'banner' => 'Éditeur de bannière',
     'profile' => 'Mon profil',
 
     'generators' => 'Générateur',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
-    'discover' => 'Discover',
+    'feed' => 'Fil d\'actualités',
+    'discover' => 'Découvrir',
     'mods' => 'Mods',
     'shaders' => 'Shaders',
-    'resource_packs' => 'Resource Packs',
+    'resource_packs' => 'Packs de ressources',
     'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
+    'datapacks' => 'Datapacks',
     'plugins' => 'Plugins',
 
     'logout' => 'Déconnexion',
@@ -70,7 +70,7 @@ return [
     'mod' => 'Mod',
     'totem' => 'Totems',
     'cube' => 'Cube',
-    'new' => 'New',
+    'new' => 'Nouveau',
 
     'feedback' => 'Commentaires',
     'status' => 'Statut',
@@ -81,7 +81,7 @@ return [
     'add' => 'Ajouter',
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'Thème',
         'dark' => 'Sombre',
         'light' => 'Clair',
         'auto' => 'Auto'
