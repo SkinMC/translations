@@ -7,8 +7,8 @@ return [
         ],
         'register' => [
             'title' => 'SkinMC\'ye kaydolun',
-            'subtitle' => 'Başlayın ve tam erişim için hesabınızı oluşturun.'
-        ]
+            'subtitle' => 'Başlayın ve tam erişim için hesabınızı oluşturun.',
+        ],
     ],
 
     'home' => [
@@ -48,7 +48,7 @@ return [
         'head_description' => 'Minecraft kafaları veritabanına göz atın veya yenilerini oluşturun.',
         'achievement' => 'Başarım oluşturucu',
         'achievement_detail' => 'Kendi, özel ve kişiselleştirilmiş başarımlarınızı oluşturun.',
-        'continue' => 'Göz atmaya devam edin'
+        'continue' => 'Göz atmaya devam edin',
     ],
     'profile' => [
         'verified' => 'Doğrulanmış profil',
@@ -76,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username Minecraft Geçmişi',
             'meta_description' => 'Görünüm :username Minecraft Skinleri geçmişi ve daha önce kullanılan Skinler. Eski veya geçmişte kullanılan kaplamalara göz atmak, yedeklemek ve geri almak veya yeni kaplamalar toplamak için geçmişi kullanın.',
-            'title' => 'Minecraft Skin geçmişi'
+            'title' => 'Minecraft Skin geçmişi',
         ],
         'qr_code' => [
             'meta_title' => ':kullanıcı adının QR Kodu',
-            'meta_description' => ':kullanıcı adı Özel Minecraft Profili QR Kodu'
+            'meta_description' => ':kullanıcı adı Özel Minecraft Profili QR Kodu',
         ],
         'sub_nav' => [
             'skin' => 'Cilt',
             'about' => 'Hakkında',
             'usernames' => 'Kullanıcı adları',
             'head' => 'Kafa',
-            'comments' => 'Yorumlar'
+            'comments' => 'Yorumlar',
         ],
         'cape' => 'Pelerin',
         'elytra' => 'Elitra',
@@ -106,7 +106,7 @@ return [
         'toast' => [
             'following' => 'Şimdi takip ediyorsunuz :kullanıcı adı!',
             'follow-self-error' => 'Üzgünüm :kullanıcı adı, kendinizi takip edemezsiniz.',
-            'unfollowed' => 'Takibi bıraktınız :username'
+            'unfollowed' => 'Takibi bıraktınız :username',
         ],
         'edit' => 'Profili düzenle',
         'joined' => 'Katıldım',
@@ -133,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username kullanıcısının pelerinleri',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -189,8 +189,8 @@ return [
             'bad' => [
                 'title' => 'Gibi etiketler eklemeyin:',
                 'general' => 'Çok genel',
-                'specific' =>  'Çok spesifik',
-                'too-many-tags' =>  'Üç ayrı etiket olmalıdır',
+                'specific' => 'Çok spesifik',
+                'too-many-tags' => 'Üç ayrı etiket olmalıdır',
                 'spelling' => 'Şöyle olmalı :example',
             ],
         ],
@@ -198,7 +198,7 @@ return [
             'added' => 'Oylama için “:tag” etiketi eklendi',
             'removed' => '“:tag” etiketi kaldırıldı',
             'upvote' => '”:tag” beğenildi',
-            'downvote' => '”:tag” beğenilmedi'
+            'downvote' => '”:tag” beğenilmedi',
         ],
         'vote' => [
             'up' => 'Yukarı oy',
@@ -214,7 +214,7 @@ return [
         'other_discord' => 'Discord sunucusuna katılın ve diğer kullanıcılarla bağlantı kurun, oyunlar hakkında sohbet edin, en sevdiğiniz favori paketleri paylaşın ve topluluktan yardım alın.',
         'other_twitter' => 'Twitter\'da takip ederek yeni güncellemelerin veya özelliklerin ne zaman yayınlandığını öğrenin, haftanın temalarını görün ve daha fazlasını keşfedin.',
         'other_instagram' => 'Yeni öne çıkan harika Minecraft Ciltlerini ve görsellerine göz atmak ve keşfetmek için SkinMC\'yi Instagram\'da takip edin.',
-        'other_facebook' => 'Facebook\'ta hayran olun ve Minecraft içeriğini keşfederken yorum yapabileceğiniz ve başkalarıyla konuşabileceğiniz tüm gönderileri görün.'
+        'other_facebook' => 'Facebook\'ta hayran olun ve Minecraft içeriğini keşfederken yorum yapabileceğiniz ve başkalarıyla konuşabileceğiniz tüm gönderileri görün.',
     ],
     'about' => [
         'intro' => '<span>Minecraft</span> <span>Skinleri</span> <span>için</span> <span>platformunuz.</span>',
@@ -344,8 +344,8 @@ return [
             'mini' => 'Skin\'inizin mini versiyonu!',
             'full' => 'Skin\'inizin tam versiyonu!',
             'model3d' => 'Skin\'inizin 3d model versiyonu!',
-            'add_designs' => 'Daha fazla tasarım görmek ister misiniz? Tasarım önerinizi buradan gönderin:'
-        ]
+            'add_designs' => 'Daha fazla tasarım görmek ister misiniz? Tasarım önerinizi buradan gönderin:',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -442,7 +442,7 @@ return [
         'sort' => 'Şuna göre sırala',
         'toast' => [
             'added' => 'Favoriler listenize eklendi',
-            'removed' => 'Favoriler listenizden çıkarıldı'
+            'removed' => 'Favoriler listenizden çıkarıldı',
         ],
         'skins' => [
             'button' => 'Skinler',
@@ -462,7 +462,7 @@ return [
             'meta' => [
                 'title' => 'Favori sunucularım',
                 'description' => 'Favori Minecraft sunucularım',
-             ],
+            ],
         ],
 
     ],
@@ -495,8 +495,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'Özel Minecraft Pelerinleri',
-            'description' => 'SkinMC üyeleri tarafından oluşturulan ve kullanılan özel pelerinleri göz atın ve görüntüleyin.'
-        ]
+            'description' => 'SkinMC üyeleri tarafından oluşturulan ve kullanılan özel pelerinleri göz atın ve görüntüleyin.',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft sunucuları',
@@ -522,7 +522,7 @@ return [
             'reviews' => 'Yorumlar',
             'sort_by_highest_rating' => 'En yüksek puana göre sırala',
             'sort_by_lowest_rating' => 'En düşük puana göre sırala',
-            'bedrock_and_java_support' => 'Bedrock ve Java desteği'
+            'bedrock_and_java_support' => 'Bedrock ve Java desteği',
         ],
         'review-count' => ':count Yorum|:count Yorum',
         'meta' => [
@@ -562,7 +562,7 @@ return [
             'delete-title' => 'Yorumunuzu silmek istediğinizden emin misiniz?',
             'tos-checkbox-part-1' => 'Bu formu göndererek SkinMC\'nin Hizmet Şartları, Gizlilik Politikası ve Topluluk Kurallarını kabul etmiş olursunuz. Ayrıca, tüm bilgilerin doğru olduğunu ve',
             'tos-checkbox-part-2' => 'yorum kurallarına uygun olduğunu onaylamış olursunuz.',
-            'tos-checkbox-part-3' => 'Yorumunuz gönderildikten sonra yayınlanacaktır, ancak incelemeye tabi tutulabilir.'
+            'tos-checkbox-part-3' => 'Yorumunuz gönderildikten sonra yayınlanacaktır, ancak incelemeye tabi tutulabilir.',
         ],
         'slots' => 'Slotlar',
         'empty-helper' => 'Başka bir arama yapmayı deneyebilirsiniz veya',
@@ -595,15 +595,15 @@ return [
             'terms' => [
                 'part-1' => 'Bu formu göndererek, SkinMC\'nin Hizmet Şartları, Gizlilik Politikası ve Topluluk Kurallarını kabul etmiş olursunuz. Ayrıca, yukarıdaki tüm bilgilerin doğru olduğunu ve',
                 'part-2' => 'kurulum için sunucu gereksinimlerini',
-                'part-3' => ', ve Minecraft sunucusunun temsil ettiğiniz kuruluş tarafından sahip olunduğunu ve yönetildiğini de kabul etmiş olursunuz.'
+                'part-3' => ', ve Minecraft sunucusunun temsil ettiğiniz kuruluş tarafından sahip olunduğunu ve yönetildiğini de kabul etmiş olursunuz.',
             ],
             'submit-application' => 'Başvuruyu gönder',
             'video-id-helper' => [
                 'part-1' => 'Video kimliği, ardından gelen sayı ve harf dizisidir',
                 'part-2' => 'Örneğin, video url\'niz ise',
-                'part-3' => ', video kimliğiniz'
+                'part-3' => ', video kimliğiniz',
             ],
-            'welcome_description' => 'Bu adımda, sunucunuzu eklemeye başlayacağız. Sunucunuz hakkında biraz bilgi verin, bir açıklama yazın ve bir sonraki adımda bazı resimler yükleyebilirsiniz.'
+            'welcome_description' => 'Bu adımda, sunucunuzu eklemeye başlayacağız. Sunucunuz hakkında biraz bilgi verin, bir açıklama yazın ve bir sonraki adımda bazı resimler yükleyebilirsiniz.',
         ],
         'copy_server_ip' => 'Sunucunun IP\'sini kopyala',
         'all_minecraft_servers' => 'Tüm Minecraft Sunucuları',
@@ -652,9 +652,9 @@ return [
                 'players-question' => 'Minecraft sunucuma nasıl daha fazla oyuncu çekebilirim?',
                 'players-answer' => 'Building a community is the most crucial part of a long lasting Minecraft Server. Use the Minecraft Server List on SkinMC to find a new audience and continue to build your community. Ask your players to recommend your Server, or share your listing on social media platforms. Collecting good reviews can also play an important role to a great Server listing presence that attracts new players.',
                 'more-question' => 'Daha fazla sorum var. Nereden yardım alabilirim?',
-                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.'
+                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.',
             ],
-            'ready_to_list_description' => 'Add your Minecraft Server to the SkinMC Server List in just a few minutes. If you need any help, you can reach out around the clock and receive answers quickly.'
+            'ready_to_list_description' => 'Add your Minecraft Server to the SkinMC Server List in just a few minutes. If you need any help, you can reach out around the clock and receive answers quickly.',
         ],
         'manage' => [
             'index' => [
@@ -668,14 +668,14 @@ return [
                     'description-title' => 'Güzel bir sunucu açıklaması yazın',
                     'description-body' => 'Harika bir sunucu açıklamaları için faydalı ipuçları ve tavsiyeler.',
                     'images-title' => 'Sunucu görselleri ekleme',
-                    'images-body' => 'Harika görsellerle sunucu listenizi öne çıkarın.'
-                ]
+                    'images-body' => 'Harika görsellerle sunucu listenizi öne çıkarın.',
+                ],
             ],
             'listings' => [
-                'title' => 'Senin Minecraft sunucuların (:count)'
+                'title' => 'Senin Minecraft sunucuların (:count)',
             ],
             'insights' => [
-                'title' => 'İzlenimler'
+                'title' => 'İzlenimler',
             ],
             'edit_server' => 'Sunucuyu düzenle',
             'listing' => 'Listeleme',
@@ -683,14 +683,14 @@ return [
             'last_update' => 'Son güncelleme',
             'add_more_photos_to_publish' => 'Yayınlamak için daha fazla görsel ekleyin',
             'looks_empty_here' => 'Burası boş görünüyor.',
-            'get_started_by_adding_a_new_server' => 'Yeni bir sunucu ekleyerek başlayalım mı?'
+            'get_started_by_adding_a_new_server' => 'Yeni bir sunucu ekleyerek başlayalım mı?',
         ],
         'status' => [
             'approved' => 'Onaylandı',
             'pending_approval' => 'Onay bekliyor',
             'published' => 'Yayınlandı',
-            'in_review' => 'İnceleniyor'
-        ]
+            'in_review' => 'İnceleniyor',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -698,7 +698,7 @@ return [
             'import_by_username' => 'Kullanıcı adıyla içe aktar',
             'import_button' => 'İçe Aktar',
             'drag' => 'Buraya bir skin sürükleyip bırakın, veya tıklayın',
-            'click' => 'Görseli seç'
+            'click' => 'Görseli seç',
         ],
         'download' => [
             'error' => [
@@ -821,7 +821,7 @@ return [
             'link-account' => 'Pelerin yüklemek için lütfen Minecraft hesabınıza bağlanın.',
             'updated' => 'Pelerininiz güncellendi!',
             'removed' => 'Pelerininiz kaldırıldı.',
-            'active' => 'Pelerininiz etkinleştirildi!'
+            'active' => 'Pelerininiz etkinleştirildi!',
         ],
         'favourite' => 'Favori',
         'remove_favourite' => 'Favoriyi kaldır',
@@ -848,7 +848,7 @@ return [
             'delete-confirmation' => 'Deleting your account is irreversible. All your personal information and content such as posts, favourites, uploaded capes, customisations, etc. will be deleted and can not be recovered.',
             'delete-confirmation-info' => 'Devam etmek için şifrenizi girin',
             'yes-confirm-delete' => 'Evet, silme işlemini kabul ediyorum',
-            'account-successfully-deleted' => 'Hesabınız ve verileriniz başarıyla silinmiştir.'
+            'account-successfully-deleted' => 'Hesabınız ve verileriniz başarıyla silinmiştir.',
         ],
         'social' => [
             'title' => 'Sosyal hesaplar',
@@ -927,7 +927,7 @@ return [
             'are-you-sure' => 'Emin misiniz?',
             'confirm' => 'Evet, bağlantıyı kesmeyi onaylıyorum',
             'cancel' => 'Hayır, iptal et',
-            'success' => 'Hesabınızın bağlantısı başarıyla kesildi!'
+            'success' => 'Hesabınızın bağlantısı başarıyla kesildi!',
         ],
         'finish-setup' => [
             'title' => 'Hesap kurulumunu tamamla',
@@ -945,7 +945,7 @@ return [
             'badge' => 'Profilinizde gözüken rozet',
             'cape' => 'Özel Minecraft pelerini',
             'backup' => 'Otomatik skin yedeklemesi',
-            'more' => 'Ve daha fazlası...'
+            'more' => 'Ve daha fazlası...',
         ],
         'skins' => [
             'title' => 'Skinleri yönetin',
@@ -963,14 +963,14 @@ return [
             'status' => [
                 'title' => 'Durum',
                 'pending' => 'Bekliyor',
-                'accepted' => 'Kabul Edildi'
+                'accepted' => 'Kabul Edildi',
             ],
             'add_invite' => [
                 'button' => 'Davetiniz var mı?',
                 'title' => 'Bir davet kodu ekleyin',
                 'redeem' => 'Davetiyeyi kullan',
             ],
-            'share' => 'Arkadaşınıza bir davet bağlantısı gönderin'
+            'share' => 'Arkadaşınıza bir davet bağlantısı gönderin',
         ],
         'emoji' => [
             'title' => 'SkinMC Emoji',
@@ -978,8 +978,8 @@ return [
             'info' => 'Profilinizi emojiyle özelleştirin. Daha fazlası seviye atladığınızda açılır.',
             'unlocked_at' => 'Açılacağı seviye: :level',
             'unlocks_at' => 'Açmak için :level seviyeye ulaşın',
-            'turn_off' => 'Emoji göster'
-        ]
+            'turn_off' => 'Emoji göster',
+        ],
     ],
     'notifications' => [
         'title' => 'Bildirimler',
@@ -1002,25 +1002,25 @@ return [
             'archive' => 'Bildirim arşive taşındı',
             'unarchive' => 'Bildirim gelen kutusuna taşındı',
             'undo' => 'Geri al',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'İnternet yok',
             'subtitle' => 'İnternet bağlantınız kesildi. Lütfen bağlantınızı kontrol edin ve sayfayı yeniden yükleyerek tekrar deneyin.',
-            'try_again' => 'Tekrar dene'
+            'try_again' => 'Tekrar dene',
         ],
         '404' => [
             'title' => '404 — Sayfa bulunamadı.',
             'subtitle' => 'Hm, bu konumda hiçbir şey bulunamamış gibi gözüküyor. Belki geri dönmeyi veya yeni bir arama başlatmayı deneyebilirsiniz, ne dersiniz?',
-            'try_again' => 'Ana sayfaya dön'
+            'try_again' => 'Ana sayfaya dön',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraft kafa veritabanı',
-                'description' => 'Dünyanızı süslemek için Minecraft kafalarının veritabanını keşfedin veya kendi give komutunuzu oluşturun. Asla değişmeyen dokulara sahip resmi kafaları, oyuncu kafalarını ve özel kafaları görüntüleyin.'
+                'description' => 'Dünyanızı süslemek için Minecraft kafalarının veritabanını keşfedin veya kendi give komutunuzu oluşturun. Asla değişmeyen dokulara sahip resmi kafaları, oyuncu kafalarını ve özel kafaları görüntüleyin.',
             ],
             'header' => [
                 'title' => 'Minecraft kafaları',
@@ -1038,7 +1038,7 @@ return [
                 'title' => 'Oyuncu kafaları',
                 'description' => 'Oyuncu kafaları, Minecraft oyuncusunun mevcut cilt dokusunu kullanır. Kullanıcı adına dayalı oldukları için, oyuncu adını veya cilt dokusunu değiştirdiğinde kafa da değişir.',
                 'version' => 'Tüm Minecraft sürümleri',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1077,7 +1077,7 @@ return [
         'feature-experience' => 'Deneyim',
         'feature-experience-detail' => 'Ekstra özelliklerle SkinMC deneyiminin tadını her yerde çıkarın. Profilinizi özelleştirin, biyografinizi ekleyin, eğlenceli bir QR kodu oluşturun ve daha fazlasını yapın!',
         'get-app-headline' => 'SkinMC Uygulamasını indirin',
-        'get-app-detail' => 'Android cihazınız için size özel Minecraft arkadaşı — ücretsiz olarak kullanılabilir.'
+        'get-app-detail' => 'Android cihazınız için size özel Minecraft arkadaşı — ücretsiz olarak kullanılabilir.',
     ],
     'random' => [
         'title' => 'Rastgele Minecraft skini yükleniyor',
@@ -1144,6 +1144,23 @@ return [
             'original_deleted' => 'The original post has been deleted.',
             'deleted_post' => 'This post has been deleted',
         ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
         'poll' => [
             'title' => 'Poll',
             'create' => 'Create a poll',
@@ -1185,14 +1202,14 @@ return [
     ],
     'private' => [
         'title' => 'Gizli gönderiler',
-        'text' => 'Bu gönderi gizlidir.'
-    ] ,
+        'text' => 'Bu gönderi gizlidir.',
+    ],
     'liked' => [
-        'title' => 'Beğenildi'
+        'title' => 'Beğenildi',
     ],
     'following' => [
         'title' => 'Takip edilenler',
-        'text' => 'Bu gönderiyi görmek için giriş yapın.'
+        'text' => 'Bu gönderiyi görmek için giriş yapın.',
     ],
     'tags' => [
         'empty' => 'Henüz oylanacak etiket yok',
@@ -1209,7 +1226,7 @@ return [
             'no_messages' => 'Okunmamış mesaj yok',
             'start_conversation' => 'Yeni bir sohbete başlattığınızda, mesajlarınız burada görüntülenecektir.',
             'conversation' => 'Bu, :username ile sohbetinizin başlangıcıdır.',
-            'users' => 'Mevcut sorguyla eşleşen kullanıcı bulunamadı.'
+            'users' => 'Mevcut sorguyla eşleşen kullanıcı bulunamadı.',
         ],
         'typing' => ':username yazıyor...',
         'new_message' => 'Yeni mesaj',
@@ -1232,12 +1249,12 @@ return [
         'external-link-to' => 'Bu bağlantı sizi şu sayfaya yönlendirecektir:',
         'external-link-confirmation' => 'Oraya gitmek istediğinizden emin misiniz?',
         'external-link' => 'Dış bağlantı',
-        'reply' => 'Yanıtla'
+        'reply' => 'Yanıtla',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'İstatistikler'
-        ]
+            'stats' => 'İstatistikler',
+        ],
     ],
     'report' => [
         'button' => 'Bildir',
@@ -1250,7 +1267,7 @@ return [
             'SPAM' => 'Spam',
             'HARASSMENT' => 'Taciz',
             'OTHER' => 'Diğer',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Liderlik Tablosu',
@@ -1258,6 +1275,6 @@ return [
         'headline' => 'İlk 10',
         'all-time-invites' => 'Toplam davet',
         'all-time-xp' => 'Toplam XP',
-        '30-day-xp' => 'Son 30 gündeki XP'
+        '30-day-xp' => 'Son 30 gündeki XP',
     ],
 ];
