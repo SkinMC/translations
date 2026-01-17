@@ -7,8 +7,8 @@ return [
         ],
         'register' => [
             'title' => 'SkinMCにサインアップ',
-            'subtitle' => 'まずはアカウントを作成して、フルアクセスをお試しください。'
-        ]
+            'subtitle' => 'まずはアカウントを作成して、フルアクセスをお試しください。',
+        ],
     ],
 
     'home' => [
@@ -48,7 +48,7 @@ return [
         'head_description' => 'Minecraft ヘッドのデータベースを閲覧したり、新しいヘッドを作成したりできます。',
         'achievement' => '実績ジェネレーター',
         'achievement_detail' => '自分だけのオリジナルな実績を作りましょう',
-        'continue' => 'ブラウジングを続ける'
+        'continue' => 'ブラウジングを続ける',
     ],
     'profile' => [
         'verified' => '確認済みのプロフィール',
@@ -76,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username のMinecraft スキンの履歴',
             'meta_description' => ':username のMinecraftスキンの履歴と以前使用したスキンを表示します。履歴を使用して、古いスキンや過去に使用したスキンを閲覧したり、バックアップやロールバックを行ったり、新しいスキンを収集することができます。',
-            'title' => 'Minecraft スキンの履歴'
+            'title' => 'Minecraft スキンの履歴',
         ],
         'qr_code' => [
             'meta_title' => ':username のQRコード',
-            'meta_description' => ':username のカスタムプロフィールのQR コード'
+            'meta_description' => ':username のカスタムプロフィールのQR コード',
         ],
         'sub_nav' => [
             'skin' => 'スキン',
             'about' => 'About',
             'usernames' => 'ユーザー名',
             'head' => 'Head',
-            'comments' => 'コメント'
+            'comments' => 'コメント',
         ],
         'cape' => 'マント',
         'elytra' => 'エリトラ',
@@ -106,7 +106,7 @@ return [
         'toast' => [
             'following' => ':username さんをフォローしました！',
             'follow-self-error' => '申し訳ありませんが、自分自身をフォローできません。',
-            'unfollowed' => ':username さんをフォロー解除しました'
+            'unfollowed' => ':username さんをフォロー解除しました',
         ],
         'edit' => 'プロフィールを編集',
         'joined' => '参加済み',
@@ -133,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username\'s capes',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -189,8 +189,8 @@ return [
             'bad' => [
                 'title' => '悪いタグの例',
                 'general' => '一般的すぎる',
-                'specific' =>  '長すぎる',
-                'too-many-tags' =>  'タグは他に分けなければならない',
+                'specific' => '長すぎる',
+                'too-many-tags' => 'タグは他に分けなければならない',
                 'spelling' => ':example でなければなりません',
             ],
         ],
@@ -198,7 +198,7 @@ return [
             'added' => 'タグ「:tag」を追加しました',
             'removed' => 'タグ「:tag」は削除されました',
             'upvote' => '「:tag」を賛成しました',
-            'downvote' => '「:tag」を反対しました'
+            'downvote' => '「:tag」を反対しました',
         ],
         'vote' => [
             'up' => '賛成',
@@ -214,7 +214,7 @@ return [
         'other_discord' => 'Discordサーバーに参加して、他の人とつながり、ゲームについてチャットしたり、お気に入りのパックを共有したり、コミュニティからヘルプを得たりしましょう。',
         'other_twitter' => 'ツイッターをフォローして、新しいアップデートや機能のリリース、今週のスキンなどをご覧ください。',
         'other_instagram' => 'インスタグラムでSkinMCをフォローして、新しいマインクラフトスキンや画像を見つけましょう。',
-        'other_facebook' => 'Facebookでファンになって、Minecraftのコンテンツに関する投稿を探検しながら他の人と話しましょう!'
+        'other_facebook' => 'Facebookでファンになって、Minecraftのコンテンツに関する投稿を探検しながら他の人と話しましょう!',
     ],
     'about' => [
         'intro' => '<span></span> <span>プラットフォーム</span> <span>for</span> <span>Minecraft</span> <span>スキン。</span>',
@@ -344,8 +344,8 @@ return [
             'mini' => 'あなたのスキンのミニバージョン！',
             'full' => 'あなたのフルバージョンのスキンです！',
             'model3d' => 'あなたのスキンの3Dモデル！',
-            'add_designs' => 'もっとデザインを見たいですか？こちらからデザインをご提案ください'
-        ]
+            'add_designs' => 'もっとデザインを見たいですか？こちらからデザインをご提案ください',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -442,7 +442,7 @@ return [
         'sort' => '並べ替え',
         'toast' => [
             'added' => 'お気に入りリストに追加しました',
-            'removed' => 'お気に入りリストから削除されました'
+            'removed' => 'お気に入りリストから削除されました',
         ],
         'skins' => [
             'button' => 'スキン',
@@ -462,7 +462,7 @@ return [
             'meta' => [
                 'title' => 'お気に入りのサーバー',
                 'description' => 'お気に入りのMinecraftサーバー',
-             ],
+            ],
         ],
 
     ],
@@ -495,8 +495,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'カスタムMinecraft マント',
-            'description' => 'SkinMCメンバーによって作ったカスタムマントを閲覧する。'
-        ]
+            'description' => 'SkinMCメンバーによって作ったカスタムマントを閲覧する。',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft サーバー',
@@ -522,7 +522,7 @@ return [
             'reviews' => 'レビュー',
             'sort_by_highest_rating' => '最高評価でソート',
             'sort_by_lowest_rating' => '最低評価でソート',
-            'bedrock_and_java_support' => '統合版とJava版の対応'
+            'bedrock_and_java_support' => '統合版とJava版の対応',
         ],
         'review-count' => ':count件のレビュー',
         'meta' => [
@@ -562,7 +562,7 @@ return [
             'delete-title' => 'レビューを削除してもよろしいですか？',
             'tos-checkbox-part-1' => 'このフォームを送信することで、SkinMCの利用規約、プライバシーポリシー、コミュニティガイドラインに同意したことになります。また、すべての情報が正確であることを確認します。',
             'tos-checkbox-part-2' => 'レビューのガイドライン',
-            'tos-checkbox-part-3' => 'あなたのレビューは投稿後に掲載されますが、審査の対象となる場合があります。'
+            'tos-checkbox-part-3' => 'あなたのレビューは投稿後に掲載されますが、審査の対象となる場合があります。',
         ],
         'slots' => 'スロット',
         'empty-helper' => '別の検索を試みるか',
@@ -595,15 +595,15 @@ return [
             'terms' => [
                 'part-1' => 'このフォームを送信することにより、SkinMCの利用規約、プライバシーポリシー、コミュニティガイドラインに同意したものとみなされます。また、上記のすべての情報が正確であること、「利用規約」、「プライバシーポリシー」、「コミュニティガイドライン」に従っていることを確認します。',
                 'part-2' => 'セットアップに必要なサーバーの条件',
-                'part-3' => 'また、Minecraft サーバーはあなたが代表を務める団体によって所有および管理されています。'
+                'part-3' => 'また、Minecraft サーバーはあなたが代表を務める団体によって所有および管理されています。',
             ],
             'submit-application' => '申請を送信',
             'video-id-helper' => [
                 'part-1' => '動画IDは、以下の数字とアルファベットの文字列です。',
                 'part-2' => '例えば、動画のURLが',
-                'part-3' => 'この場合、ビデオIDは次のようになります。'
+                'part-3' => 'この場合、ビデオIDは次のようになります。',
             ],
-            'welcome_description' => 'このステップではサーバーの追加を開始します。次のステップでは画像をアップロードすることができます。'
+            'welcome_description' => 'このステップではサーバーの追加を開始します。次のステップでは画像をアップロードすることができます。',
         ],
         'copy_server_ip' => 'IPアドレスをコピー',
         'all_minecraft_servers' => 'すべてのMinecraft サーバー',
@@ -652,9 +652,9 @@ return [
                 'players-question' => 'Minecraft サーバーで他のプレイヤーを獲得するにはどうすればいいですか?',
                 'players-answer' => 'マインクラフトサーバーを長続きさせるには、コミュニティの構築が最も重要です。SkinMCのマインクラフトサーバーリストを利用して、新しいユーザーを見つけ、コミュニティを作りましょう。プレイヤーにあなたのサーバーを推薦してもらったり、ソーシャルメディアプラットフォームでリストを共有しましょう。良いレビューを集めることも、新しいプレイヤーを惹きつけるサーバーリストの重要な役割です。',
                 'more-question' => 'もっと質問があります。どこで相談できますか？',
-                'more-answer' => 'ヘルプボタン、ヘルプデスク、Discordサーバーのいずれかを使って、24時間いつでもSkinMCに連絡することができます。'
+                'more-answer' => 'ヘルプボタン、ヘルプデスク、Discordサーバーのいずれかを使って、24時間いつでもSkinMCに連絡することができます。',
             ],
-            'ready_to_list_description' => 'わずか数分であなたのMinecraftサーバーをSkinMCサーバーリストに追加できます。何かお困りのことがあれば、24時間いつでもご連絡ください。'
+            'ready_to_list_description' => 'わずか数分であなたのMinecraftサーバーをSkinMCサーバーリストに追加できます。何かお困りのことがあれば、24時間いつでもご連絡ください。',
         ],
         'manage' => [
             'index' => [
@@ -668,14 +668,14 @@ return [
                     'description-title' => '良いサーバーの説明を書く',
                     'description-body' => 'サーバーの説明文を書くのに役立つヒントやアドバイス。',
                     'images-title' => 'サーバー画像を追加中',
-                    'images-body' => '素敵な画像でサーバーリストを目立たせましょう。'
-                ]
+                    'images-body' => '素敵な画像でサーバーリストを目立たせましょう。',
+                ],
             ],
             'listings' => [
-                'title' => 'あなたのマインクラフトサーバー(:count)'
+                'title' => 'あなたのマインクラフトサーバー(:count)',
             ],
             'insights' => [
-                'title' => 'インサイト'
+                'title' => 'インサイト',
             ],
             'edit_server' => 'サーバーを編集',
             'listing' => '一覧',
@@ -683,14 +683,14 @@ return [
             'last_update' => '最終更新日時',
             'add_more_photos_to_publish' => '写真を追加して公開する',
             'looks_empty_here' => 'ここは何もないようです',
-            'get_started_by_adding_a_new_server' => '新しいサーバーの追加から始めませんか？'
+            'get_started_by_adding_a_new_server' => '新しいサーバーの追加から始めませんか？',
         ],
         'status' => [
             'approved' => '承認済',
             'pending_approval' => '承認待ち',
             'published' => '公開済み',
-            'in_review' => 'レビュー中'
-        ]
+            'in_review' => 'レビュー中',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -698,7 +698,7 @@ return [
             'import_by_username' => 'ユーザー名でインポート',
             'import_button' => 'インポート',
             'drag' => 'ここにスキンをドラッグ＆ドロップするか、またはクリック',
-            'click' => '画像を選択'
+            'click' => '画像を選択',
         ],
         'download' => [
             'error' => [
@@ -821,7 +821,7 @@ return [
             'link-account' => 'マントをアップロードするには、Minecraft アカウントをリンクしてください。',
             'updated' => 'マントを更新しました！',
             'removed' => 'マントを取り除きました。',
-            'active' => 'マントが有効になりました！'
+            'active' => 'マントが有効になりました！',
         ],
         'favourite' => 'お気に入り',
         'remove_favourite' => 'お気に入りを削除',
@@ -848,7 +848,7 @@ return [
             'delete-confirmation' => 'アカウントの削除はもとに戻すことができません。投稿、お気に入り、アップロードしたケープ、カスタマイズなどの個人情報やコンテンツはすべて削除され、復元することができません。',
             'delete-confirmation-info' => '続行するにはパスワードを入力してください',
             'yes-confirm-delete' => '削除を確認',
-            'account-successfully-deleted' => 'アカウントとデータは正常に削除されました。'
+            'account-successfully-deleted' => 'アカウントとデータは正常に削除されました。',
         ],
         'social' => [
             'title' => 'ソーシャルアカウント',
@@ -927,7 +927,7 @@ return [
             'are-you-sure' => 'それでも実行しますか？',
             'confirm' => 'はい、切断をします。',
             'cancel' => 'キャンセル',
-            'success' => 'アカウントの切断に成功しました。'
+            'success' => 'アカウントの切断に成功しました。',
         ],
         'finish-setup' => [
             'title' => 'アカウントの設定を完了する',
@@ -945,7 +945,7 @@ return [
             'badge' => 'プロフィールにバッジが表示されました',
             'cape' => 'カスタムMinecraft マント',
             'backup' => 'スキンの自動バックアップ',
-            'more' => 'その他...'
+            'more' => 'その他...',
         ],
         'skins' => [
             'title' => 'スキンを管理',
@@ -963,14 +963,14 @@ return [
             'status' => [
                 'title' => 'ステータス',
                 'pending' => '保留中',
-                'accepted' => '承認済み'
+                'accepted' => '承認済み',
             ],
             'add_invite' => [
                 'button' => '招待をお持ちですか？',
                 'title' => '招待コードを追加',
                 'redeem' => '招待を引き換え',
             ],
-            'share' => '友達に招待リンクを送信'
+            'share' => '友達に招待リンクを送信',
         ],
         'emoji' => [
             'title' => 'SkinMC 絵文字',
@@ -978,8 +978,8 @@ return [
             'info' => '絵文字でプロフィールをカスタマイズ。レベルアップでさらにアンロック',
             'unlocked_at' => 'レベル :level で解放されました',
             'unlocks_at' => 'レベル:level に達するとアンロックできます',
-            'turn_off' => '絵文字を見る'
-        ]
+            'turn_off' => '絵文字を見る',
+        ],
     ],
     'notifications' => [
         'title' => '通知',
@@ -1002,25 +1002,25 @@ return [
             'archive' => '通知をアーカイブに移動しました',
             'unarchive' => '通知を受信箱に移動しました',
             'undo' => '元に戻す',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'インターネットに接続されていません',
             'subtitle' => 'インターネットが切断されました。接続を確認し、ページを再読み込みして再試行してください。',
-            'try_again' => '再実行'
+            'try_again' => '再実行',
         ],
         '404' => [
             'title' => '404 — Page not found.',
             'subtitle' => 'この場所には何も見つかりませんでした。戻るか、新しい検索を開始しますか？',
-            'try_again' => 'ホームへ戻る'
+            'try_again' => 'ホームへ戻る',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraft ヘッドデータベース',
-                'description' => 'Minecraft ヘッドデータベースを検索して、あなたの世界を飾ったり、独自のコマンドを生成したりできます。公式ヘッドやプレイヤーヘッド、テクスチャが変更されないカスタムヘッドを見ることができます。'
+                'description' => 'Minecraft ヘッドデータベースを検索して、あなたの世界を飾ったり、独自のコマンドを生成したりできます。公式ヘッドやプレイヤーヘッド、テクスチャが変更されないカスタムヘッドを見ることができます。',
             ],
             'header' => [
                 'title' => 'Minecraft ヘッド',
@@ -1038,7 +1038,7 @@ return [
                 'title' => 'プレイヤーヘッド',
                 'description' => 'プレイヤーヘッドは Minecraft プレイヤーの現在のスキンテクスチャを使用します。ユーザー名ベースなので、プレイヤーの名前やスキンが変わるとヘッドも変わります。',
                 'version' => 'すべてのMinecraft バージョン',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1077,7 +1077,7 @@ return [
         'feature-experience' => '使い心地',
         'feature-experience-detail' => 'SkinMCの機能を追加して、どこでもSkinMCの体験をお楽しみください。プロフィールをカスタマイズし、プロフィールを追加し、楽しいQRコードを作成しましょう！',
         'get-app-headline' => 'SkinMCアプリを入手',
-        'get-app-detail' => 'あなたのAndroid向けのMinecraft コンパニオンは無料で利用できます。'
+        'get-app-detail' => 'あなたのAndroid向けのMinecraft コンパニオンは無料で利用できます。',
     ],
     'random' => [
         'title' => 'ランダムにMinecraft スキンを読み込み中',
@@ -1144,6 +1144,23 @@ return [
             'original_deleted' => 'The original post has been deleted.',
             'deleted_post' => 'This post has been deleted',
         ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
         'poll' => [
             'title' => 'Poll',
             'create' => 'Create a poll',
@@ -1185,14 +1202,14 @@ return [
     ],
     'private' => [
         'title' => '非公開投稿',
-        'text' => 'この投稿は非公開です。'
-    ] ,
+        'text' => 'この投稿は非公開です。',
+    ],
     'liked' => [
-        'title' => '「いいね」済み'
+        'title' => '「いいね」済み',
     ],
     'following' => [
         'title' => 'フォロー中',
-        'text' => 'この投稿を表示するにはサインインしてください。'
+        'text' => 'この投稿を表示するにはサインインしてください。',
     ],
     'tags' => [
         'empty' => '投票するタグはまだない',
@@ -1209,7 +1226,7 @@ return [
             'no_messages' => '未読メッセージはありません',
             'start_conversation' => '新しい会話を開始すると、ここにメッセージが表示されます。',
             'conversation' => ':username との会話の始まりです。',
-            'users' => '現在のクエリに一致するユーザが見つかりません。'
+            'users' => '現在のクエリに一致するユーザが見つかりません。',
         ],
         'typing' => ':username が入力しています...',
         'new_message' => '新しいメッセージ',
@@ -1232,12 +1249,12 @@ return [
         'external-link-to' => 'このリンクをクリックすると',
         'external-link-confirmation' => '本当にそこへ行きますか？',
         'external-link' => '外部リンク',
-        'reply' => 'Reply'
+        'reply' => 'Reply',
     ],
     'server' => [
         'manage' => [
-            'stats' => '統計'
-        ]
+            'stats' => '統計',
+        ],
     ],
     'report' => [
         'button' => '報告',
@@ -1250,7 +1267,7 @@ return [
             'SPAM' => 'スパム',
             'HARASSMENT' => '嫌がらせ、迷惑',
             'OTHER' => 'その他',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'リーダーボード',
@@ -1258,6 +1275,6 @@ return [
         'headline' => 'トップ 10',
         'all-time-invites' => 'すべての招待プレイヤー',
         'all-time-xp' => '通算XP',
-        '30-day-xp' => '30日間のXP'
+        '30-day-xp' => '30日間のXP',
     ],
 ];
