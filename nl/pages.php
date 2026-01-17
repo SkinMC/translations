@@ -7,8 +7,8 @@ return [
         ],
         'register' => [
             'title' => 'Registreer bij SkinMC',
-            'subtitle' => 'Aan de slag en maak uw account aan voor volledige toegang.'
-        ]
+            'subtitle' => 'Aan de slag en maak uw account aan voor volledige toegang.',
+        ],
     ],
 
     'home' => [
@@ -48,7 +48,7 @@ return [
         'head_description' => 'Blader door de Minecraft hoofden database, of maak een nieuw hoofd.',
         'achievement' => 'Prestatie generator',
         'achievement_detail' => 'Creëer je eigen, aangepaste en gepersonaliseerde prestaties.',
-        'continue' => 'Doorgaan met browsen'
+        'continue' => 'Doorgaan met browsen',
     ],
     'profile' => [
         'verified' => 'Geverifieerd profiel',
@@ -76,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username\'s Minecraft Skin Geschiedenis',
             'meta_description' => 'Bekijk :username\'s Minecraft Skins geschiedenis en eerder gebruikte Skins. Gebruik de geschiedenis om door oude of vroeger gebruikte skins te bladeren, backup en terug te zetten of nieuwe skins te verzamelen.',
-            'title' => 'Minecraft Skin geschiedenis'
+            'title' => 'Minecraft Skin geschiedenis',
         ],
         'qr_code' => [
             'meta_title' => ':username\'s QR-code',
-            'meta_description' => ':username\'s Aangepaste Minecraft Profiel QR-code'
+            'meta_description' => ':username\'s Aangepaste Minecraft Profiel QR-code',
         ],
         'sub_nav' => [
             'skin' => 'Skin',
             'about' => 'Over',
             'usernames' => 'Gebruikersnamen',
             'head' => 'Hoofd',
-            'comments' => 'Reacties'
+            'comments' => 'Reacties',
         ],
         'cape' => 'Cape',
         'elytra' => 'Elytra',
@@ -106,7 +106,7 @@ return [
         'toast' => [
             'following' => 'Je volgt nu :username!',
             'follow-self-error' => 'Sorry :username, je kunt jezelf niet volgen.',
-            'unfollowed' => 'Je volgt :username niet meer'
+            'unfollowed' => 'Je volgt :username niet meer',
         ],
         'edit' => 'Profiel bewerken',
         'joined' => 'Lid geworden',
@@ -133,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username\'s capes',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -189,8 +189,8 @@ return [
             'bad' => [
                 'title' => 'Voeg geen tags toe zoals:',
                 'general' => 'Te algemeen',
-                'specific' =>  'Te specifiek',
-                'too-many-tags' =>  'Should be three separate tags',
+                'specific' => 'Te specifiek',
+                'too-many-tags' => 'Should be three separate tags',
                 'spelling' => 'Should be :example',
             ],
         ],
@@ -198,7 +198,7 @@ return [
             'added' => 'Tag ”:tag” added for voting',
             'removed' => 'Tag ”:tag” has been removed',
             'upvote' => 'Upvoted ”:tag”',
-            'downvote' => 'Downvoted ”:tag”'
+            'downvote' => 'Downvoted ”:tag”',
         ],
         'vote' => [
             'up' => 'Upvote',
@@ -214,7 +214,7 @@ return [
         'other_discord' => 'Word lid van de Discord server en maak verbinding met anderen, chat over spellen, deel je favoriete pakketten en krijg hulp van de gemeenschap.',
         'other_twitter' => 'Volg op Twitter om te zien wanneer een nieuwe update of functie wordt uitgebracht, bekijk de skin van de week en meer.',
         'other_instagram' => 'Volg SkinMC op Instagram om coole nieuwe Minecraft skins en afbeeldingen te ontdekken.',
-        'other_facebook' => 'Word een fan op Facebook en zie alle berichten waar je kan reageren en met anderen kan praten terwijl je Minecraft-content verkent.'
+        'other_facebook' => 'Word een fan op Facebook en zie alle berichten waar je kan reageren en met anderen kan praten terwijl je Minecraft-content verkent.',
     ],
     'about' => [
         'intro' => '<span>Jouw</span> <span>platform</span> <span>voor</span> <span>Minecraft</span> <span>Skins.</span>',
@@ -344,8 +344,8 @@ return [
             'mini' => 'Een mini-versie van je skin!',
             'full' => 'Een volledige versie van je skin!',
             'model3d' => 'Een 3D-model van je skin!',
-            'add_designs' => 'Want to see more designs? Submit your design suggestion here:'
-        ]
+            'add_designs' => 'Want to see more designs? Submit your design suggestion here:',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -442,7 +442,7 @@ return [
         'sort' => 'Sorteer op',
         'toast' => [
             'added' => 'Added to your favourites list',
-            'removed' => 'Removed from your favourites list'
+            'removed' => 'Removed from your favourites list',
         ],
         'skins' => [
             'button' => 'Skins',
@@ -462,7 +462,7 @@ return [
             'meta' => [
                 'title' => 'Mijn favoriete servers',
                 'description' => 'Mijn favoriete Minecraft servers',
-             ],
+            ],
         ],
 
     ],
@@ -495,8 +495,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'Custom Minecraft Capes',
-            'description' => 'Browse and view custom capes which have been created and are used by SkinMC members.'
-        ]
+            'description' => 'Browse and view custom capes which have been created and are used by SkinMC members.',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft servers',
@@ -522,7 +522,7 @@ return [
             'reviews' => 'Beoordelingen',
             'sort_by_highest_rating' => 'Sorteer op de hoogste beoordeling',
             'sort_by_lowest_rating' => 'Sorteer op de laagste beoordeling',
-            'bedrock_and_java_support' => 'Bedrock en Java ondersteuning'
+            'bedrock_and_java_support' => 'Bedrock en Java ondersteuning',
         ],
         'review-count' => ':count Beoordeling|:count Beoordelingen',
         'meta' => [
@@ -562,7 +562,7 @@ return [
             'delete-title' => 'Are you sure you would like to delete your review?',
             'tos-checkbox-part-1' => 'By submitting this form you accept SkinMC\'s Terms of Service, Privacy Policy, and Community Guidelines. You also confirm that all of the information is accurate, and follows the',
             'tos-checkbox-part-2' => 'review guidelines.',
-            'tos-checkbox-part-3' => 'Your review will be published after submission, but can be subject to review.'
+            'tos-checkbox-part-3' => 'Your review will be published after submission, but can be subject to review.',
         ],
         'slots' => 'Slots',
         'empty-helper' => 'You can try to do another search or',
@@ -595,15 +595,15 @@ return [
             'terms' => [
                 'part-1' => 'By submitting this form you are authorised to accept SkinMC\'s Terms of Service, Privacy Policy, and Community Guidelines. You also confirm that all of the information above is accurate, you have properly followed the',
                 'part-2' => 'server requirements for setup',
-                'part-3' => ', and that the Minecraft server is owned and managed by the entity you are representing.'
+                'part-3' => ', and that the Minecraft server is owned and managed by the entity you are representing.',
             ],
             'submit-application' => 'Aanvraag verzenden',
             'video-id-helper' => [
                 'part-1' => 'The video ID is the string of numbers and letters after',
                 'part-2' => 'For example if your video url is',
-                'part-3' => ', then your video ID would be'
+                'part-3' => ', then your video ID would be',
             ],
-            'welcome_description' => 'In this step, we\'ll get started on adding your server. Tell us a bit about it, write a description, and in the next step you can upload some images.'
+            'welcome_description' => 'In this step, we\'ll get started on adding your server. Tell us a bit about it, write a description, and in the next step you can upload some images.',
         ],
         'copy_server_ip' => 'Kopieer server IP',
         'all_minecraft_servers' => 'Alle Minecraft Servers',
@@ -652,9 +652,9 @@ return [
                 'players-question' => 'How can I get more players on my Minecraft Server?',
                 'players-answer' => 'Building a community is the most crucial part of a long lasting Minecraft Server. Use the Minecraft Server List on SkinMC to find a new audience and continue to build your community. Ask your players to recommend your Server, or share your listing on social media platforms. Collecting good reviews can also play an important role to a great Server listing presence that attracts new players.',
                 'more-question' => 'I have more questions. Where can I get help?',
-                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.'
+                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.',
             ],
-            'ready_to_list_description' => 'Add your Minecraft Server to the SkinMC Server List in just a few minutes. If you need any help, you can reach out around the clock and receive answers quickly.'
+            'ready_to_list_description' => 'Add your Minecraft Server to the SkinMC Server List in just a few minutes. If you need any help, you can reach out around the clock and receive answers quickly.',
         ],
         'manage' => [
             'index' => [
@@ -668,14 +668,14 @@ return [
                     'description-title' => 'Write a good server description',
                     'description-body' => 'Helpful tips and advice to write a great server description.',
                     'images-title' => 'Adding server images',
-                    'images-body' => 'Make your server listing stand out with great images.'
-                ]
+                    'images-body' => 'Make your server listing stand out with great images.',
+                ],
             ],
             'listings' => [
-                'title' => 'Your Minecraft servers (:count)'
+                'title' => 'Your Minecraft servers (:count)',
             ],
             'insights' => [
-                'title' => 'Insights'
+                'title' => 'Insights',
             ],
             'edit_server' => 'Bewerk server',
             'listing' => 'Listing',
@@ -683,14 +683,14 @@ return [
             'last_update' => 'Last update',
             'add_more_photos_to_publish' => 'Add more photos to publish',
             'looks_empty_here' => 'Looks empty here.',
-            'get_started_by_adding_a_new_server' => 'Get started by adding a new server?'
+            'get_started_by_adding_a_new_server' => 'Get started by adding a new server?',
         ],
         'status' => [
             'approved' => 'Goedgekeurd',
             'pending_approval' => 'Wachten op goedkeuring',
             'published' => 'Gepubliceerd',
-            'in_review' => 'In beoordeling'
-        ]
+            'in_review' => 'In beoordeling',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -698,7 +698,7 @@ return [
             'import_by_username' => 'Importeer via gebruikersnaam',
             'import_button' => 'Importeer',
             'drag' => 'Sleep een skin naar hier of klik',
-            'click' => 'Afbeeldingen selecteren'
+            'click' => 'Afbeeldingen selecteren',
         ],
         'download' => [
             'error' => [
@@ -821,7 +821,7 @@ return [
             'link-account' => 'Koppel je Minecraft-account om een cape te uploaden.',
             'updated' => 'Jouw cape is bijgewerkt!',
             'removed' => 'Jouw cape is verwijdered.',
-            'active' => 'Jouw cape is geactiveerd!'
+            'active' => 'Jouw cape is geactiveerd!',
         ],
         'favourite' => 'Favoriet',
         'remove_favourite' => 'Verwijder favoriet',
@@ -848,7 +848,7 @@ return [
             'delete-confirmation' => 'Deleting your account is irreversible. All your personal information and content such as posts, favourites, uploaded capes, customisations, etc. will be deleted and can not be recovered.',
             'delete-confirmation-info' => 'Enter your password to continue',
             'yes-confirm-delete' => 'Yes, confirm delete',
-            'account-successfully-deleted' => 'Your account and data has been successfully deleted.'
+            'account-successfully-deleted' => 'Your account and data has been successfully deleted.',
         ],
         'social' => [
             'title' => 'Sociale accounts',
@@ -927,7 +927,7 @@ return [
             'are-you-sure' => 'Weet je het zeker?',
             'confirm' => 'Yes, confirm disconnect',
             'cancel' => 'Nee, annuleer',
-            'success' => 'Your account was successfully disconnected!'
+            'success' => 'Your account was successfully disconnected!',
         ],
         'finish-setup' => [
             'title' => 'Finish account setup',
@@ -945,7 +945,7 @@ return [
             'badge' => 'Badge weergeven op jouw profiel',
             'cape' => 'Aangepaste Minecraft cape',
             'backup' => 'Automatic skin backup',
-            'more' => 'En meer...'
+            'more' => 'En meer...',
         ],
         'skins' => [
             'title' => 'Manage skins',
@@ -963,14 +963,14 @@ return [
             'status' => [
                 'title' => 'Status',
                 'pending' => 'In afwachting',
-                'accepted' => 'Geaccepteerd'
+                'accepted' => 'Geaccepteerd',
             ],
             'add_invite' => [
                 'button' => 'Heb je een uitnodiging?',
                 'title' => 'Voeg een uitnodigingscode toe',
                 'redeem' => 'Uitnodiging inwisselen',
             ],
-            'share' => 'Stuur je vriend een uitnodigingslink'
+            'share' => 'Stuur je vriend een uitnodigingslink',
         ],
         'emoji' => [
             'title' => 'SkinMC Emoji',
@@ -978,8 +978,8 @@ return [
             'info' => 'Customise your profile with emoji. Unlock more as you level up.',
             'unlocked_at' => 'Unlocked at level :level',
             'unlocks_at' => 'Reach level :level to unlock',
-            'turn_off' => 'Show emoji'
-        ]
+            'turn_off' => 'Show emoji',
+        ],
     ],
     'notifications' => [
         'title' => 'Notificaties',
@@ -1002,25 +1002,25 @@ return [
             'archive' => 'Notification moved to archive',
             'unarchive' => 'Notification moved to inbox',
             'undo' => 'Undo',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'Geen Internet',
             'subtitle' => 'Uw internetverbinding is verbroken. Controleer uw verbinding en laad de pagina opnieuw om het opnieuw te proberen.',
-            'try_again' => 'Probeer het opnieuw'
+            'try_again' => 'Probeer het opnieuw',
         ],
         '404' => [
             'title' => '404 – Pagina niet gevonden.',
             'subtitle' => 'Hm, het lijkt erop dat er op deze locatie niets is gevonden. Probeer terug te gaan of probeer een nieuwe zoekopdracht?',
-            'try_again' => 'Terug naar home'
+            'try_again' => 'Terug naar home',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraft hoofden database',
-                'description' => 'Verken de database van Minecraft hoofden om je wereld mee te versieren, of genereer je eigen gave commando. Bekijk officiële hoofden, speler hoofden en aangepaste hoofden die texturen gebruiken die nooit veranderen.'
+                'description' => 'Verken de database van Minecraft hoofden om je wereld mee te versieren, of genereer je eigen gave commando. Bekijk officiële hoofden, speler hoofden en aangepaste hoofden die texturen gebruiken die nooit veranderen.',
             ],
             'header' => [
                 'title' => 'Minecraft Hoofden',
@@ -1038,7 +1038,7 @@ return [
                 'title' => 'Speler hoofden',
                 'description' => 'Speler hoofden gebruiken de huidige skin textuur van een Minecraft-speler. Omdat ze een gebruikersnaam zijn, verandert het hoofd als de speler zijn naam of skin verandert.',
                 'version' => 'Alle Minecraft-versies',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1077,7 +1077,7 @@ return [
         'feature-experience' => 'Experience',
         'feature-experience-detail' => 'Enjoy the full SkinMC experience anywhere, with added features. Customise your profile, add your bio, create a fun QR-Code and more!',
         'get-app-headline' => 'Download de SkinMC App',
-        'get-app-detail' => 'Your very own Minecraft companion for your Android — available for free.'
+        'get-app-detail' => 'Your very own Minecraft companion for your Android — available for free.',
     ],
     'random' => [
         'title' => 'Loading random Minecraft skin',
@@ -1144,6 +1144,23 @@ return [
             'original_deleted' => 'The original post has been deleted.',
             'deleted_post' => 'This post has been deleted',
         ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
         'poll' => [
             'title' => 'Poll',
             'create' => 'Create a poll',
@@ -1185,14 +1202,14 @@ return [
     ],
     'private' => [
         'title' => 'Private posts',
-        'text' => 'This post is private.'
-    ] ,
+        'text' => 'This post is private.',
+    ],
     'liked' => [
-        'title' => 'Liked'
+        'title' => 'Liked',
     ],
     'following' => [
         'title' => 'Following',
-        'text' => 'Sign in to view this post.'
+        'text' => 'Sign in to view this post.',
     ],
     'tags' => [
         'empty' => 'No tags to vote on yet',
@@ -1209,7 +1226,7 @@ return [
             'no_messages' => 'Geen ongelezen berichten',
             'start_conversation' => 'Zodra je een nieuw gesprek start, worden je berichten hier getoond.',
             'conversation' => 'This is the beginning of your conversation with :username.',
-            'users' => 'Unable to find any users that match the current query.'
+            'users' => 'Unable to find any users that match the current query.',
         ],
         'typing' => ':username is typing...',
         'new_message' => 'Nieuw bericht',
@@ -1232,12 +1249,12 @@ return [
         'external-link-to' => 'Deze link brengt je naar',
         'external-link-confirmation' => 'Weet je zeker dat je daarheen wilt gaan?',
         'external-link' => 'Externe link',
-        'reply' => 'Reply'
+        'reply' => 'Reply',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Statistieken'
-        ]
+            'stats' => 'Statistieken',
+        ],
     ],
     'report' => [
         'button' => 'Melden',
@@ -1250,7 +1267,7 @@ return [
             'SPAM' => 'Spam',
             'HARASSMENT' => 'Intimidatie',
             'OTHER' => 'Andere',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Leaderboard',
@@ -1258,6 +1275,6 @@ return [
         'headline' => 'Top 10',
         'all-time-invites' => 'All time invites',
         'all-time-xp' => 'XP aller tijden',
-        '30-day-xp' => '30 dagen XP'
+        '30-day-xp' => '30 dagen XP',
     ],
 ];
