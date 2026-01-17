@@ -38,5 +38,7 @@ return [
     'delete' => 'نظر را حذف کن',
     'empty' => 'هنوز نظری وجود ندارد',
     'empty-subtitle' => 'اولین نفری باشید که نظر خود را به اشتراک می گذارد!',
-    'deleted' => 'نظزتان با موفقیت حذف شد'
+    'deleted' => 'نظزتان با موفقیت حذف شد',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

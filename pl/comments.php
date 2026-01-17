@@ -38,5 +38,7 @@ return [
     'delete' => 'Usuń komentarz',
     'empty' => 'Brak komentarzy',
     'empty-subtitle' => 'Bądź pierwszym, który podzieli się tym, co myśli!',
-    'deleted' => 'Twój komentarz został pomyślnie usunięty'
+    'deleted' => 'Twój komentarz został pomyślnie usunięty',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

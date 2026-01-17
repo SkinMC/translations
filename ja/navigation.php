@@ -10,9 +10,20 @@ return [
     'achievement' => '実績',
     'armor' => '防具立て',
     'banners' => 'バナー',
+    'banner' => 'Banner Editor',
     'profile' => 'マイプロフィール',
 
     'generators' => '生成',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'ログアウト',
     'register' => 'サインアップ',
@@ -58,6 +69,8 @@ return [
     'app' => 'アプリ',
     'mod' => 'Mod',
     'totem' => 'トーテム',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'フィードバック',
     'status' => 'ステータス',
@@ -68,8 +81,9 @@ return [
     'add' => '追加',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'ダーク',
         'light' => 'ライト',
-        'auto' => 'オートマチック'
+        'auto' => 'Auto'
     ],
 ];

@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => ':model에 답글 작성됨',
             'text' => ':user님이 :model에 답글을 작성했어요'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => '새 언급',
             'text' => ':user님이 작성한 포스트에 나를 언급했어요!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

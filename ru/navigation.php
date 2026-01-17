@@ -10,9 +10,20 @@ return [
     'achievement' => 'Достижения',
     'armor' => 'Стойка для брони',
     'banners' => 'Баннеры',
+    'banner' => 'Banner Editor',
     'profile' => 'Мой профиль',
 
     'generators' => 'Генераторы',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Выйти',
     'register' => 'Регистрация',
@@ -58,6 +69,8 @@ return [
     'app' => 'Приложение',
     'mod' => 'Мод',
     'totem' => 'Тотемы',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Обратная связь',
     'status' => 'Статус',
@@ -68,8 +81,9 @@ return [
     'add' => 'Добавить',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Тёмная',
         'light' => 'Светлая',
-        'auto' => 'Системная'
+        'auto' => 'Auto'
     ],
 ];

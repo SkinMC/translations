@@ -38,5 +38,7 @@ return [
     'delete' => 'Видалити коментар',
     'empty' => 'Поки немає коментарів',
     'empty-subtitle' => 'Будьте першим, хто поділиться своїми думками!',
-    'deleted' => 'Ваш коментар успішно видалено'
+    'deleted' => 'Ваш коментар успішно видалено',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

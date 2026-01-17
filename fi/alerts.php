@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Vastaa :model kommentilla',
             'text' => ':user vastasi :model kommenttiin'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Uusi maininta',
             'text' => ':user mainitsi sinut heidän julkaisussaan!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

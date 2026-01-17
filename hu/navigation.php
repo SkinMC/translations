@@ -10,9 +10,20 @@ return [
     'achievement' => 'Teljesítménykészítő',
     'armor' => 'Páncélállvány-szerkesztő',
     'banners' => 'Zászlók',
+    'banner' => 'Banner Editor',
     'profile' => 'Saját profil',
 
     'generators' => 'Generators',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Kijelentkezés',
     'register' => 'Regisztráció',
@@ -58,6 +69,8 @@ return [
     'app' => 'Alkalmazás',
     'mod' => 'Mod',
     'totem' => 'Totemkészítő',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Visszajelzés',
     'status' => 'Állapot',
@@ -68,8 +81,9 @@ return [
     'add' => 'Új',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Dark',
         'light' => 'Light',
-        'auto' => 'Automatic'
+        'auto' => 'Auto'
     ],
 ];

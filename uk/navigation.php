@@ -10,9 +10,20 @@ return [
     'achievement' => 'Досягнення',
     'armor' => 'Стійка для броні',
     'banners' => 'Стяги',
+    'banner' => 'Banner Editor',
     'profile' => 'Мій профіль',
 
     'generators' => 'Генератори',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Вийти',
     'register' => 'Зареєструватися',
@@ -58,6 +69,8 @@ return [
     'app' => 'Додаток',
     'mod' => 'Мод',
     'totem' => 'Тотеми',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Зворотний звʼязок',
     'status' => 'Статус',
@@ -68,8 +81,9 @@ return [
     'add' => 'Додати',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Темна',
         'light' => 'Світла',
-        'auto' => 'Автоматично'
+        'auto' => 'Auto'
     ],
 ];

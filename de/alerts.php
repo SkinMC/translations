@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Antwort auf :model Kommentar',
             'text' => ':user antwortete auf einen :model Kommentar'
+        ],
+        'like' => [
+            'title' => 'Kommentar wurde geliked',
+            'text' => ':user gefällt dein Kommentar!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Neue Erwähnung',
             'text' => ':user hat dich in seinem Beitrag erwähnt!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user hat deinen Beitrag repostet!'
         ]
     ],
     'level' => [

@@ -10,9 +10,20 @@ return [
     'achievement' => 'Prestasjon',
     'armor' => 'Armor stand',
     'banners' => 'Banners',
+    'banner' => 'Banner Editor',
     'profile' => 'My profile',
 
     'generators' => 'Generators',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Logg ut',
     'register' => 'Registrer deg',
@@ -58,6 +69,8 @@ return [
     'app' => 'App',
     'mod' => 'Mod',
     'totem' => 'Totems',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
@@ -68,8 +81,9 @@ return [
     'add' => 'Add',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Dark',
         'light' => 'Light',
-        'auto' => 'Automatic'
+        'auto' => 'Auto'
     ],
 ];

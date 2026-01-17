@@ -10,9 +10,20 @@ return [
     'achievement' => 'Osiągnięcie',
     'armor' => 'Stojak na zbroję',
     'banners' => 'Banery',
+    'banner' => 'Banner Editor',
     'profile' => 'Mój profil',
 
     'generators' => 'Generatory',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Wyloguj się',
     'register' => 'Zarejestruj',
@@ -58,6 +69,8 @@ return [
     'app' => 'Aplikacja',
     'mod' => 'Modyfikacja',
     'totem' => 'Totemy',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Sugestie',
     'status' => 'Status',
@@ -68,8 +81,9 @@ return [
     'add' => 'Dodaj',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Ciemny',
         'light' => 'Jasny',
-        'auto' => 'Automatyczny'
+        'auto' => 'Auto'
     ],
 ];

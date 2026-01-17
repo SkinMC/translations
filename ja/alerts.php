@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => ':modelのコメントへの返信',
             'text' => ':userさんが:modelコメントに返信しました'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => '新たな返信',
             'text' => ':userさんがあなたについて投稿しました！'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

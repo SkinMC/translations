@@ -10,9 +10,20 @@ return [
     'achievement' => 'Framsteg',
     'armor' => 'Rustningsställ',
     'banners' => 'Banderoller',
+    'banner' => 'Banner Editor',
     'profile' => 'Min profil',
 
     'generators' => 'Generatorer',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Logga ut',
     'register' => 'Registrera dig',
@@ -58,6 +69,8 @@ return [
     'app' => 'App',
     'mod' => 'Mod',
     'totem' => 'Totem',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
@@ -68,8 +81,9 @@ return [
     'add' => 'Lägg till',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Mörk',
         'light' => 'Ljus',
-        'auto' => 'Automatisk'
+        'auto' => 'Auto'
     ],
 ];

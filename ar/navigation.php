@@ -10,9 +10,20 @@ return [
     'achievement' => 'الإنجازات',
     'armor' => 'ارمور ستاند',
     'banners' => 'البنرات',
+    'banner' => 'Banner Editor',
     'profile' => 'ملفي الشخصي',
 
     'generators' => 'Generators',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'تسجيل الخروج',
     'register' => 'إنشاء حساب',
@@ -58,6 +69,8 @@ return [
     'app' => 'التطبيق',
     'mod' => 'مود',
     'totem' => 'Totems',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'الملاحظات',
     'status' => 'الحالة',
@@ -68,8 +81,9 @@ return [
     'add' => 'إضافة',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'داكن',
         'light' => 'فاتح',
-        'auto' => 'تلقائي'
+        'auto' => 'Auto'
     ],
 ];

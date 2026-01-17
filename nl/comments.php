@@ -38,5 +38,7 @@ return [
     'delete' => 'Reactie verwijderen',
     'empty' => 'Nog geen reacties',
     'empty-subtitle' => 'Wees de eerste om te delen wat je denkt!',
-    'deleted' => 'Uw reactie is succesvol verwijderd'
+    'deleted' => 'Uw reactie is succesvol verwijderd',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

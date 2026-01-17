@@ -38,5 +38,7 @@ return [
     'delete' => 'מחק תגובה',
     'empty' => 'אין תגובות כרגע',
     'empty-subtitle' => 'תהיה הראשון לשתף את מה שאתה חושב עליו!',
-    'deleted' => 'התגובה שלך נמחקה בהצלחה'
+    'deleted' => 'התגובה שלך נמחקה בהצלחה',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

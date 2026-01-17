@@ -10,9 +10,20 @@ return [
     'achievement' => 'הישגים',
     'armor' => 'ארמור סטנד',
     'banners' => 'באנרים',
+    'banner' => 'Banner Editor',
     'profile' => 'הפרופיל שלי',
 
     'generators' => 'מחוללים',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'התנתק',
     'register' => 'הירשם',
@@ -58,6 +69,8 @@ return [
     'app' => 'אפליקציה',
     'mod' => 'מוד',
     'totem' => 'טוטמים',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'משוב',
     'status' => 'סטאטוס',
@@ -68,8 +81,9 @@ return [
     'add' => 'הוסף',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'כהה',
         'light' => 'בהיר',
-        'auto' => 'אוטומטי'
+        'auto' => 'Auto'
     ],
 ];

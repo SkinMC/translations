@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Reageer op :model reactie',
             'text' => ':user antwoordde op een :model reactie'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Nieuwe vermelding',
             'text' => ':user noemde je in zijn bericht!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

@@ -10,9 +10,20 @@ return [
     'achievement' => 'Prestatie',
     'armor' => 'Harnashouder',
     'banners' => 'Banieren',
+    'banner' => 'Banner Editor',
     'profile' => 'Mijn profiel',
 
     'generators' => 'Generatoren',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Uitloggen',
     'register' => 'Registreren',
@@ -58,6 +69,8 @@ return [
     'app' => 'App',
     'mod' => 'Mod',
     'totem' => 'Totems',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
@@ -68,8 +81,9 @@ return [
     'add' => 'Toevoegen',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Donker',
         'light' => 'Licht',
-        'auto' => 'Automatisch'
+        'auto' => 'Auto'
     ],
 ];

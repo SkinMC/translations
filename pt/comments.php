@@ -38,5 +38,7 @@ return [
     'delete' => 'Excluir comentário',
     'empty' => 'Nenhum comentário ainda',
     'empty-subtitle' => 'Seja o primeiro a compartilhar o que está em mente!',
-    'deleted' => 'Comentário excluído com sucesso'
+    'deleted' => 'Comentário excluído com sucesso',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

@@ -10,9 +10,20 @@ return [
     'achievement' => 'Achievement',
     'armor' => 'Supporto per armature',
     'banners' => 'Stendardi',
+    'banner' => 'Editor Di Banner',
     'profile' => 'Profilo personale',
 
     'generators' => 'Generatori',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Scopri',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Pacchetti Texture',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Pack',
+    'plugins' => 'Plugins',
 
     'logout' => 'Disconnettiti',
     'register' => 'Registrati',
@@ -58,6 +69,8 @@ return [
     'app' => 'App',
     'mod' => 'Mod',
     'totem' => 'Totem',
+    'cube' => 'Cubo',
+    'new' => 'Nuovo',
 
     'feedback' => 'Suggerimento',
     'status' => 'Stato',
@@ -68,8 +81,9 @@ return [
     'add' => 'Aggiungi',
 
     'theme' => [
+        'title' => 'Tema',
         'dark' => 'Scuro',
         'light' => 'Chiaro',
-        'auto' => 'Automatico'
+        'auto' => 'Auto'
     ],
 ];

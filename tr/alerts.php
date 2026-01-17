@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => ':model yorumuna cevap ver',
             'text' => ':kullanıcı :model yorumuna cevap verdi'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Yeni bahsetme',
             'text' => ':kullanıcı gönderisinde senden bahsetti!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

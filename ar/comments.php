@@ -38,5 +38,7 @@ return [
     'delete' => 'حذف التعليق',
     'empty' => 'لا توجد تعليقات بعد',
     'empty-subtitle' => 'كن أول من يشارك ما تفكر به!',
-    'deleted' => 'تم حذف تعليقك بنجاح'
+    'deleted' => 'تم حذف تعليقك بنجاح',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

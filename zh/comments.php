@@ -38,5 +38,7 @@ return [
     'delete' => '删除评论',
     'empty' => '尚无评论',
     'empty-subtitle' => '第一个分享你的想法！',
-    'deleted' => '您的评论已成功删除'
+    'deleted' => '您的评论已成功删除',
+    'author' => 'Author',
+    'author-liked' => 'Liked by the post author'
 ];

@@ -7,12 +7,14 @@ return [
         ],
         'register' => [
             'title' => 'Inscrivez-vous à SkinMC',
-            'subtitle' => 'Commencez à créer votre compte pour profiter de toutes les fonctionnalités.'
-        ]
+            'subtitle' => 'Commencez à créer votre compte pour profiter de toutes les fonctionnalités.',
+        ],
     ],
 
     'home' => [
         'hero_slogan' => 'Votre place pour les skins Minecraft.',
+        'hero_slogan_alt_1' => 'Tout Minecraft. Un endroit.',
+        'hero_slogan_alt_2' => 'Là où les Minecrafters se rencontrent.',
         'hero_cta' => 'Surprenez-moi',
         'hero_explore_cta' => 'Explorer les skins',
         'skin_viewer' => 'Visualiseur de skins',
@@ -46,7 +48,7 @@ return [
         'head_description' => 'Parcourez les têtes de skins dans la base de donnée de Minecraft, ou créez en un.',
         'achievement' => 'Générateur de succès',
         'achievement_detail' => 'Créez vos propres succès personnalisés.',
-        'continue' => 'Continuer la navigation'
+        'continue' => 'Continuer la navigation',
     ],
     'profile' => [
         'verified' => 'Profil vérifié',
@@ -74,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => 'Historique des skins Minecraft de :username',
             'meta_description' => 'Regarde l\'historique des skins Minecraft précédemment utilisées par :username. Utilisez cet historique afin de parcourir les skins qui ont été utilisés par le passé, en avoir une sauvegarde et les récupérer.',
-            'title' => 'Historique des skins Minecraft'
+            'title' => 'Historique des skins Minecraft',
         ],
         'qr_code' => [
             'meta_title' => 'QR code de :username',
-            'meta_description' => 'QR code personnalisé du profil Minecraft de :username'
+            'meta_description' => 'QR code personnalisé du profil Minecraft de :username',
         ],
         'sub_nav' => [
             'skin' => 'Skin',
             'about' => 'À propos',
             'usernames' => 'Pseudonymes',
             'head' => 'Tête',
-            'comments' => 'Commentaires'
+            'comments' => 'Commentaires',
         ],
         'cape' => 'Cape',
         'elytra' => 'Élytres',
@@ -104,7 +106,7 @@ return [
         'toast' => [
             'following' => 'Vous vous êtes abonné à :username !',
             'follow-self-error' => 'Désolé :username, mais tu ne peux pas te suivre toi-même.',
-            'unfollowed' => 'Vous vous êtes désabonné de :username'
+            'unfollowed' => 'Vous vous êtes désabonné de :username',
         ],
         'edit' => 'Modifier votre profil',
         'joined' => 'Rejoint',
@@ -131,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => 'Capes de :username',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -187,8 +189,8 @@ return [
             'bad' => [
                 'title' => 'Ne pas ajouter de balises telles que:',
                 'general' => 'Trop général',
-                'specific' =>  'Trop spécifique',
-                'too-many-tags' =>  'Doit être trois balises séparées',
+                'specific' => 'Trop spécifique',
+                'too-many-tags' => 'Doit être trois balises séparées',
                 'spelling' => 'Doit être :example',
             ],
         ],
@@ -196,7 +198,7 @@ return [
             'added' => 'Étiquette ”:tag” ajoutée pour le vote',
             'removed' => 'L\'étiquette ”:tag” a été supprimé',
             'upvote' => 'Voté pour ":tag"',
-            'downvote' => 'Voté contre ”:tag”'
+            'downvote' => 'Voté contre ”:tag”',
         ],
         'vote' => [
             'up' => 'Voter',
@@ -212,7 +214,7 @@ return [
         'other_discord' => 'Rejoignez le serveur Discord et connectez-vous avec d\'autres joueurs, discutez à propos des jeux, partagez vos packs favoris et obtenez de l\'aide de la communauté.',
         'other_twitter' => 'Suivez-nous sur X (avant Twitter) pour voir quand une nouvelle mise à jour, une nouvelle fonctionnalité est publiée, même voir le skin de la semaine et encore plus.',
         'other_instagram' => 'Suivez SkinMC sur Instagram pour naviguer et découvrir de nouveaux skins et images Minecraft mis en avant.',
-        'other_facebook' => 'Devenez fan sur Facebook et voyez tous les messages où vous pouvez commenter et parler à d\'autres tout en explorant le contenu de Minecraft.'
+        'other_facebook' => 'Devenez fan sur Facebook et voyez tous les messages où vous pouvez commenter et parler à d\'autres tout en explorant le contenu de Minecraft.',
     ],
     'about' => [
         'intro' => '<span>Votre plateforme</span> <span></span> <span>pour</span> <span>skins Minecraft</span> <span>.</span>',
@@ -342,8 +344,8 @@ return [
             'mini' => 'Une version miniature de votre skin !',
             'full' => 'Une version complète de votre skin !',
             'model3d' => 'Un modèle 3D de votre skin !',
-            'add_designs' => 'Vous voulez voir plus de designs ? Soumettez votre suggestion de design ici :'
-        ]
+            'add_designs' => 'Vous voulez voir plus de designs ? Soumettez votre suggestion de design ici :',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -440,7 +442,7 @@ return [
         'sort' => 'Trier par',
         'toast' => [
             'added' => 'Ajouté à vos favoris',
-            'removed' => 'Supprimé de vos favoris'
+            'removed' => 'Supprimé de vos favoris',
         ],
         'skins' => [
             'button' => 'Skins',
@@ -460,7 +462,7 @@ return [
             'meta' => [
                 'title' => 'Mes serveurs favoris',
                 'description' => 'Mes serveurs Minecraft favoris',
-             ],
+            ],
         ],
 
     ],
@@ -493,8 +495,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'Capes Minecraft personnalisé',
-            'description' => 'Parcourez et regardez les capes personnalisées qui ont été créés et utilisés par les membres de SkinMC.'
-        ]
+            'description' => 'Parcourez et regardez les capes personnalisées qui ont été créés et utilisés par les membres de SkinMC.',
+        ],
     ],
     'servers' => [
         'title' => 'Serveurs Minecraft',
@@ -520,7 +522,7 @@ return [
             'reviews' => 'Avis',
             'sort_by_highest_rating' => 'Trier par note la plus élevée',
             'sort_by_lowest_rating' => 'Trier par note la plus basse',
-            'bedrock_and_java_support' => 'Support Bedrock et Java'
+            'bedrock_and_java_support' => 'Support Bedrock et Java',
         ],
         'review-count' => ':count Avis|:count Avis',
         'meta' => [
@@ -560,7 +562,7 @@ return [
             'delete-title' => 'Êtes-vous sûr de vouloir supprimer votre avis ?',
             'tos-checkbox-part-1' => '',
             'tos-checkbox-part-2' => 'revoir les lignes directrices.',
-            'tos-checkbox-part-3' => 'Votre avis sera publié après soumission, mais peut être revu.'
+            'tos-checkbox-part-3' => 'Votre avis sera publié après soumission, mais peut être revu.',
         ],
         'slots' => 'Emplacements',
         'empty-helper' => 'Vous pouvez essayer de faire une autre recherche ou',
@@ -593,15 +595,15 @@ return [
             'terms' => [
                 'part-1' => 'En soumettant ce formulaire, vous êtes autorisé à accepter les conditions d\'utilisation, la politique de confidentialité et les directives communautaires de SkinMC. Vous confirmez également que toutes les informations ci-dessus sont exactes, vous avez correctement suivi les',
                 'part-2' => 'pré-requis du serveur pour la configuration',
-                'part-3' => ', et que le serveur Minecraft est propriétaire et géré par l\'entité que vous représentez.'
+                'part-3' => ', et que le serveur Minecraft est propriétaire et géré par l\'entité que vous représentez.',
             ],
             'submit-application' => 'Soumettre une demande',
             'video-id-helper' => [
                 'part-1' => 'L\'identifiant de la vidéo est la chaîne de chiffres et de lettres après',
                 'part-2' => 'Par exemple si votre url vidéo est',
-                'part-3' => ', alors votre identifiant vidéo serait'
+                'part-3' => ', alors votre identifiant vidéo serait',
             ],
-            'welcome_description' => 'Dans cette étape, nous allons commencer à ajouter votre serveur. Parlez-nous un peu à ce sujet, écrivez une description, et à l\'étape suivante vous pouvez télécharger quelques images.'
+            'welcome_description' => 'Dans cette étape, nous allons commencer à ajouter votre serveur. Parlez-nous un peu à ce sujet, écrivez une description, et à l\'étape suivante vous pouvez télécharger quelques images.',
         ],
         'copy_server_ip' => 'Copier l\'IP du serveur',
         'all_minecraft_servers' => 'Tous les serveurs Minecraft',
@@ -650,9 +652,9 @@ return [
                 'players-question' => 'Comment puis-je obtenir plus de joueurs sur mon serveur Minecraft ?',
                 'players-answer' => 'Construire une communauté est la partie la plus cruciale d\'un serveur Minecraft durable. Utilisez la liste de serveurs Minecraft sur SkinMC pour trouver un nouveau public et continuer à construire votre communauté. Demandez à vos joueurs de recommander votre serveur ou de partager votre annonce sur les plateformes de réseaux sociaux. La collecte de bons avis peut également jouer un rôle important pour une grande présence de serveur qui attire de nouveaux joueurs.',
                 'more-question' => 'J\'ai plus de questions. Où puis-je obtenir de l\'aide ?',
-                'more-answer' => 'Vous pouvez contacter SkinMC à tout moment, 24 heures, en utilisant soit le bouton d\'aide, le service d\'assistance, ou en rejoignant le serveur Discord.'
+                'more-answer' => 'Vous pouvez contacter SkinMC à tout moment, 24 heures, en utilisant soit le bouton d\'aide, le service d\'assistance, ou en rejoignant le serveur Discord.',
             ],
-            'ready_to_list_description' => 'Ajoutez votre serveur Minecraft à la liste des serveurs SkinMC en quelques minutes. Si vous avez besoin d\'aide, vous pouvez vous adresser 24 heures sur 24 et recevoir des réponses rapidement.'
+            'ready_to_list_description' => 'Ajoutez votre serveur Minecraft à la liste des serveurs SkinMC en quelques minutes. Si vous avez besoin d\'aide, vous pouvez vous adresser 24 heures sur 24 et recevoir des réponses rapidement.',
         ],
         'manage' => [
             'index' => [
@@ -666,14 +668,14 @@ return [
                     'description-title' => 'Écrire une bonne description du serveur',
                     'description-body' => 'Conseils utiles et conseils pour écrire une excellente description de serveur.',
                     'images-title' => 'Ajout d\'images du serveur',
-                    'images-body' => 'Faites ressortir votre serveurs de la liste avec des images géniales.'
-                ]
+                    'images-body' => 'Faites ressortir votre serveurs de la liste avec des images géniales.',
+                ],
             ],
             'listings' => [
-                'title' => 'Vos serveurs Minecraft (:count)'
+                'title' => 'Vos serveurs Minecraft (:count)',
             ],
             'insights' => [
-                'title' => 'Analyses'
+                'title' => 'Analyses',
             ],
             'edit_server' => 'Modifier le serveur',
             'listing' => 'Liste',
@@ -681,14 +683,14 @@ return [
             'last_update' => 'Dernière mise à jour',
             'add_more_photos_to_publish' => 'Ajouter plus de photos pour publier',
             'looks_empty_here' => 'Cela semble vide ici.',
-            'get_started_by_adding_a_new_server' => 'Commencez par ajouter un nouveau serveur ?'
+            'get_started_by_adding_a_new_server' => 'Commencez par ajouter un nouveau serveur ?',
         ],
         'status' => [
             'approved' => 'Approuvé',
             'pending_approval' => 'En attente de validation',
             'published' => 'Publié',
-            'in_review' => 'En révision'
-        ]
+            'in_review' => 'En révision',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -696,7 +698,7 @@ return [
             'import_by_username' => 'Importer par nom d\'utilisateur',
             'import_button' => 'Importer',
             'drag' => 'Glissez et déposez un skin ici, ou cliquez',
-            'click' => 'Sélectionnez une image'
+            'click' => 'Sélectionnez une image',
         ],
         'download' => [
             'error' => [
@@ -772,6 +774,12 @@ return [
             'decrease_brightness' => 'Diminuer la luminosité de la couleur actuellement active.',
             'increase_brightness' => 'Augmente la luminosité de la couleur actuellement active.',
             'erase' => 'Effacer les pixels dessinés sur le calque secondaire de superposition.',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
@@ -813,7 +821,7 @@ return [
             'link-account' => 'Veuillez lier votre compte Minecraft pour télécharger un cape.',
             'updated' => 'Votre cape a été mise à jour !',
             'removed' => 'Votre cape a été retirée.',
-            'active' => 'Votre cape est activé !'
+            'active' => 'Votre cape est activé !',
         ],
         'favourite' => 'Favori',
         'remove_favourite' => 'Retirer des favoris',
@@ -840,7 +848,7 @@ return [
             'delete-confirmation' => 'La suppression de votre compte est irréversible. Toutes vos informations personnelles et contenus tels que les publications, les favoris, les capsules téléchargées, les personnalisations, etc. sera supprimé et ne pourra pas être récupéré.',
             'delete-confirmation-info' => 'Entrez votre mot de passe pour continuer',
             'yes-confirm-delete' => 'Oui, confirmer la suppression',
-            'account-successfully-deleted' => 'Votre compte et vos données ont été supprimés avec succès.'
+            'account-successfully-deleted' => 'Votre compte et vos données ont été supprimés avec succès.',
         ],
         'social' => [
             'title' => 'Comptes sociaux',
@@ -859,7 +867,7 @@ return [
             'youtube' => 'Ajoutez votre chaîne YouTube à SkinMC qui affichera votre chaîne YouTube sur votre profil.',
             'youtube-format' => 'Utilisez le format suivant en fonction de votre lien de chaîne :',
             'twitter' => 'Entrez votre nom d\'utilisateur X (anciennement Twitter) pour l\'afficher sur votre profil.',
-            'bluesky' => 'Enter your Bluesky handle e.g. username.bsky.social to display your Bluesky profile on your profile.',
+            'bluesky' => 'Entrez votre identifiant Bluesky, par exemple username.bsky.social pour afficher votre profil Bluesky sur votre profil.',
             'twitch' => 'Entrez votre nom d\'utilisateur Twitch pour afficher votre chaîne Twitch sur votre profil.',
             'reddit' => 'Entrez votre nom d\'utilisateur Reddit pour afficher votre profil Reddit sur votre profil.',
             'github' => 'Entrez votre nom d\'utilisateur Reddit pour afficher votre profil Reddit sur votre profil.',
@@ -919,7 +927,7 @@ return [
             'are-you-sure' => 'Êtes-vous sûr ?',
             'confirm' => 'Oui, confirmer la déconnexion',
             'cancel' => 'Non, annuler',
-            'success' => 'Votre compte a été déconnecté avec succès !'
+            'success' => 'Votre compte a été déconnecté avec succès !',
         ],
         'finish-setup' => [
             'title' => 'Terminer la configuration du compte',
@@ -937,7 +945,7 @@ return [
             'badge' => 'Badge affiché sur votre profil',
             'cape' => 'Capes Minecraft personnalisé',
             'backup' => 'Sauvegarde automatique du skin',
-            'more' => 'Et plus...'
+            'more' => 'Et plus...',
         ],
         'skins' => [
             'title' => 'Gérer les skins',
@@ -955,14 +963,14 @@ return [
             'status' => [
                 'title' => 'Status',
                 'pending' => 'En attente',
-                'accepted' => 'Accepté'
+                'accepted' => 'Accepté',
             ],
             'add_invite' => [
                 'button' => 'Vous avez une invitation ?',
                 'title' => 'Ajouter un code d\'invitation',
                 'redeem' => 'Utiliser l\'invitation',
             ],
-            'share' => 'Envoyez à votre ami un lien d\'invitation'
+            'share' => 'Envoyez à votre ami un lien d\'invitation',
         ],
         'emoji' => [
             'title' => 'SkinMC Emoji',
@@ -970,8 +978,8 @@ return [
             'info' => 'Personnalisez votre profil avec des emoji. Débloquez plus au fur et à mesure que vous passez au niveau supérieur.',
             'unlocked_at' => 'Déverrouillé au niveau :level',
             'unlocks_at' => 'Atteignez le niveau :level pour déverrouiller',
-            'turn_off' => 'Afficher l\'émoji'
-        ]
+            'turn_off' => 'Afficher l\'émoji',
+        ],
     ],
     'notifications' => [
         'title' => 'Notifications',
@@ -994,25 +1002,25 @@ return [
             'archive' => 'Notification déplacée vers les archives',
             'unarchive' => 'Notification déplacée vers la boîte de réception',
             'undo' => 'Annuler',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'Pas d’Internet',
             'subtitle' => 'Votre connexion internet a été déconnectée. Veuillez vérifier votre connexion et recharger la page pour réessayer.',
-            'try_again' => 'Réessayez'
+            'try_again' => 'Réessayez',
         ],
         '404' => [
             'title' => '404 — Page introuvable.',
             'subtitle' => 'Hm, on dirait que rien n\'a été trouvé à cet endroit. Essayez peut-être de revenir en arrière, ou de commencer une nouvelle recherche ?',
-            'try_again' => 'Retour à la page d\'accueil'
+            'try_again' => 'Retour à la page d\'accueil',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Base de données des têtes Minecraft',
-                'description' => 'Explorez la base de données des têtes de Minecraft pour décorer votre monde, ou générez votre propre commande de don. Voir les têtes officielles, les têtes de joueurs et les têtes personnalisées qui comportent des textures qui ne changent jamais.'
+                'description' => 'Explorez la base de données des têtes de Minecraft pour décorer votre monde, ou générez votre propre commande de don. Voir les têtes officielles, les têtes de joueurs et les têtes personnalisées qui comportent des textures qui ne changent jamais.',
             ],
             'header' => [
                 'title' => 'Têtes Minecraft',
@@ -1030,7 +1038,7 @@ return [
                 'title' => 'Têtes du joueur',
                 'description' => 'Les têtes de joueur utilisent la texture actuelle du skin d\'un joueur Minecraft. Comme ils sont basés sur le nom d\'utilisateur, quand le joueur change de nom ou de peau, la tête change.',
                 'version' => 'Toutes les versions de Minecraft',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1069,7 +1077,7 @@ return [
         'feature-experience' => 'Expérience',
         'feature-experience-detail' => 'Profitez de l\'expérience complète SkinMC n\'importe où, avec des fonctionnalités ajoutées. Personnalisez votre profil, ajoutez votre bio, créez un code QR amusant et plus encore !',
         'get-app-headline' => 'Téléchargez l\'application SkinMC',
-        'get-app-detail' => 'Votre propre compagnon Minecraft pour votre Android — disponible gratuitement.'
+        'get-app-detail' => 'Votre propre compagnon Minecraft pour votre Android — disponible gratuitement.',
     ],
     'random' => [
         'title' => 'Chargement du skin Minecraft aléatoirement',
@@ -1121,20 +1129,87 @@ return [
             'delete' => 'Supprimer la publication',
             'deleted' => 'Votre publication a été supprimée.',
         ],
+        'repost' => [
+            'button' => 'Reposter',
+            'quote_button' => 'Citation',
+            'title' => 'Republier ce post',
+            'quote_title' => 'Citer ce post',
+            'quote_label' => 'Ajouter un commentaire (facultatif)',
+            'quote_placeholder' => 'Ajoutez vos pensés...',
+            'reposted' => 'reposté',
+            'success' => 'Reposté !',
+            'removed' => 'Republication supprimée.',
+            'already_reposted' => 'Vous avez déjà reposté ceci.',
+            'undo' => 'Annuler le repost',
+            'original_deleted' => 'Le post original a été supprimé.',
+            'deleted_post' => 'Ce post a été supprimé',
+        ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
+        'poll' => [
+            'title' => 'Sondage',
+            'create' => 'Créer un sondage',
+            'option' => 'Option',
+            'add_option' => 'Ajouter une option',
+            'duration' => 'Durée',
+            'duration_1' => '1 jour',
+            'duration_3' => '3 jours',
+            'duration_7' => '7 jours',
+            'votes' => '{0} votes|{1} vote|[2,*] votes',
+            'ended' => 'Sondage terminé',
+            'ends_in' => 'Termine dans :time',
+            'login_required' => 'Connectez-vous pour voter',
+        ],
+        'gif' => [
+            'title' => 'GIF',
+            'search_placeholder' => 'Chercher des GIFs dans KLIPY...',
+            'no_results' => 'Aucun GIFs trouvé',
+            'powered_by' => 'Propulsé par',
+            'categories' => 'Catégories',
+            'trending' => 'Tendance',
+        ],
+        'media' => 'Média',
         'follow-suggestions' => 'Suivre l\'équipe',
         'explore' => 'Découvrir',
         'hashtag' => 'Hashtag',
+        'no_users' => 'No users found.',
+        'stories' => [
+            'archive' => [
+                'title' => 'Archives de stories',
+                'subtitle' => 'Vos stories archivées ne sont visibles que pour vous',
+                'empty' => 'Aucune story archivée pour le moment',
+                'empty-description' => 'Les stories que vous publiez apparaîtront ici après 24 heures.',
+                'action' => 'Archive',
+                'archived' => 'La story a été déplacée dans les archives.',
+                'already-archived' => 'Cette story est déjà archivée.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Publications privées',
-        'text' => 'Cette publication est privée.'
-    ] ,
+        'text' => 'Cette publication est privée.',
+    ],
     'liked' => [
-        'title' => 'Aimé'
+        'title' => 'Aimé',
     ],
     'following' => [
         'title' => 'Abonné',
-        'text' => 'Connectez-vous pour voir cette publication.'
+        'text' => 'Connectez-vous pour voir cette publication.',
     ],
     'tags' => [
         'empty' => 'Pas de tags à voter pour le moment',
@@ -1151,7 +1226,7 @@ return [
             'no_messages' => 'Aucun message non lu',
             'start_conversation' => 'Une fois que vous commencez une nouvelle conversation, vos messages seront affichés ici.',
             'conversation' => 'Ceci est le début de votre conversation avec :username.',
-            'users' => 'Impossible de trouver les utilisateurs qui correspondent à la requête actuelle.'
+            'users' => 'Impossible de trouver les utilisateurs qui correspondent à la requête actuelle.',
         ],
         'typing' => ':username est en train d\'écrire...',
         'new_message' => 'Nouveau message',
@@ -1174,12 +1249,12 @@ return [
         'external-link-to' => 'Ce lien vous amènera vers',
         'external-link-confirmation' => 'Êtes-vous sûr de vouloir y aller ?',
         'external-link' => 'Lien externe',
-        'reply' => 'Répondre'
+        'reply' => 'Répondre',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Statistiques'
-        ]
+            'stats' => 'Statistiques',
+        ],
     ],
     'report' => [
         'button' => 'Signaler',
@@ -1192,7 +1267,7 @@ return [
             'SPAM' => 'Spam',
             'HARASSMENT' => 'Harcèlement',
             'OTHER' => 'Autre',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Classement',
@@ -1200,6 +1275,6 @@ return [
         'headline' => 'Top 10',
         'all-time-invites' => 'Invitations en tout temps',
         'all-time-xp' => 'XP de tous les temps',
-        '30-day-xp' => '30 jours d\'XP'
+        '30-day-xp' => '30 jours d\'XP',
     ],
 ];

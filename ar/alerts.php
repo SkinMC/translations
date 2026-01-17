@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'الرد على تعليق :model',
             'text' => ':user رد على تعليق :model'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => 'حد منشنك',
             'text' => ':user منشنك في البوست!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

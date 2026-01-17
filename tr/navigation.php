@@ -10,9 +10,20 @@ return [
     'achievement' => 'Başarımlar',
     'armor' => 'Zırh Askısı',
     'banners' => 'Flamalar',
+    'banner' => 'Banner Editor',
     'profile' => 'Profilim',
 
     'generators' => 'Oluşturucular',
+
+    // Navigation dropdowns
+    'feed' => 'Feed',
+    'discover' => 'Discover',
+    'mods' => 'Mods',
+    'shaders' => 'Shaders',
+    'resource_packs' => 'Resource Packs',
+    'modpacks' => 'Modpacks',
+    'datapacks' => 'Data Packs',
+    'plugins' => 'Plugins',
 
     'logout' => 'Çıkış',
     'register' => 'Kaydol',
@@ -58,6 +69,8 @@ return [
     'app' => 'Uygulama',
     'mod' => 'Mod',
     'totem' => 'Totemler',
+    'cube' => 'Cube',
+    'new' => 'New',
 
     'feedback' => 'Geri Bildirim',
     'status' => 'Durum',
@@ -68,8 +81,9 @@ return [
     'add' => 'Ekle',
 
     'theme' => [
+        'title' => 'Theme',
         'dark' => 'Koyu',
         'light' => 'Aydınlık',
-        'auto' => 'Otomatik'
+        'auto' => 'Auto'
     ],
 ];

@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => 'Відповідь на коментар :model',
             'text' => ':user відповідає на коментар :model'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => 'Нова згадка',
             'text' => ':user згадує вас у своєму дописі!'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [

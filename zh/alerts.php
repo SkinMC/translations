@@ -21,6 +21,10 @@ return [
         'reply' => [
             'title' => '对 :model 评论的回复',
             'text' => ':user 回复了一个 :model 评论'
+        ],
+        'like' => [
+            'title' => 'Comment liked',
+            'text' => ':user liked your comment!'
         ]
     ],
     'post' => [
@@ -31,6 +35,10 @@ return [
         'mention' => [
             'title' => '新提及我的',
             'text' => ':user 在他们的帖子中提到了你！'
+        ],
+        'repost' => [
+            'title' => 'Repost',
+            'text' => ':user reposted your post!'
         ]
     ],
     'level' => [
