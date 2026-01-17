@@ -7,8 +7,8 @@ return [
         ],
         'register' => [
             'title' => 'Rekisteröidy SkinMC:hen',
-            'subtitle' => 'Aloita ja luo tilisi täydelle pääsylle.'
-        ]
+            'subtitle' => 'Aloita ja luo tilisi täydelle pääsylle.',
+        ],
     ],
 
     'home' => [
@@ -48,7 +48,7 @@ return [
         'head_description' => 'Selaa Minecraftin päätietokantaa tai luo uusia.',
         'achievement' => 'Saavutus generaattori',
         'achievement_detail' => 'Luo omia, mukautettuja ja yksilöllisiä saavutuksia.',
-        'continue' => 'Jatka selaamista'
+        'continue' => 'Jatka selaamista',
     ],
     'profile' => [
         'verified' => 'Vahvistettu profiili',
@@ -76,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username Minecraft Skini Historia',
             'meta_description' => 'Katso :username Minecraft Skinit historia ja aiemmin käytetyt Skinit. Käytä historiaa selatakseen vanhoja tai aiemmin käytettyjä skinejä, varmuuskopioi ja palauta tai kerää uusia skinejä.',
-            'title' => 'Minecraft Skini historia'
+            'title' => 'Minecraft Skini historia',
         ],
         'qr_code' => [
             'meta_title' => ':username:n QR-koodi',
-            'meta_description' => ':username Mukautettu Minecraft Profiili QR-koodi'
+            'meta_description' => ':username Mukautettu Minecraft Profiili QR-koodi',
         ],
         'sub_nav' => [
             'skin' => 'Skini',
             'about' => 'Tietoja',
             'usernames' => 'Käyttäjänimet',
             'head' => 'Pää',
-            'comments' => 'Kommentit'
+            'comments' => 'Kommentit',
         ],
         'cape' => 'Viitta',
         'elytra' => 'Liitosiivet',
@@ -106,7 +106,7 @@ return [
         'toast' => [
             'following' => 'Seuraat nyt :username!',
             'follow-self-error' => 'Anteeksi :username, et voi seurata itseäsi.',
-            'unfollowed' => 'Olet lopettanut :username seuraamisen'
+            'unfollowed' => 'Olet lopettanut :username seuraamisen',
         ],
         'edit' => 'Muokkaa profiilia',
         'joined' => 'Liittyi',
@@ -133,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username:n viitat',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -189,8 +189,8 @@ return [
             'bad' => [
                 'title' => 'Älä lisää tunnisteita, kuten:',
                 'general' => 'Liian yleinen',
-                'specific' =>  'Liian tarkka',
-                'too-many-tags' =>  'Pitäisi olla kolme erillistä tagia',
+                'specific' => 'Liian tarkka',
+                'too-many-tags' => 'Pitäisi olla kolme erillistä tagia',
                 'spelling' => 'Pitäisi olla :example',
             ],
         ],
@@ -198,7 +198,7 @@ return [
             'added' => 'Tunniste ”:tag” lisätty äänestykseen',
             'removed' => 'Tunniste ”:tag” on poistettu',
             'upvote' => 'Ylä-ääni ”:tag”',
-            'downvote' => 'Alaääni ”:tag”'
+            'downvote' => 'Alaääni ”:tag”',
         ],
         'vote' => [
             'up' => 'Ylä-ääni',
@@ -214,7 +214,7 @@ return [
         'other_discord' => 'Liity Discord palvelimeen ja ota yhteys muihin, juttele peleistä, jaa suosikkipaketit ja saa apua yhteisöltä.',
         'other_twitter' => 'Seuraa Twitterissä nähdäksesi milloin uusi päivitys tai ominaisuus on julkaistu, katso viikon skini ja paljon muuta.',
         'other_instagram' => 'Seuraa SkinMC:tä Instagramissa selataksesi ja löytääksesi uusia hienoja Minecraft Skinejä ja kuvia.',
-        'other_facebook' => 'Ryhdy faniksi Facebookissa ja näe kaikki julkaisut, joihin voit kommentoida ja puhua muiden kanssa tutkiessasi Minecraftin sisältöä.'
+        'other_facebook' => 'Ryhdy faniksi Facebookissa ja näe kaikki julkaisut, joihin voit kommentoida ja puhua muiden kanssa tutkiessasi Minecraftin sisältöä.',
     ],
     'about' => [
         'intro' => '<span>Sinun</span> <span>alustasi</span> <span></span> <span>Minecraft</span> <span>olemusta.</span>',
@@ -344,8 +344,8 @@ return [
             'mini' => 'Mini versio skinistäsi!',
             'full' => 'Täysi versio skinistäsi!',
             'model3d' => '3d malli skinistäsi!',
-            'add_designs' => 'Haluatko nähdä lisää malleja? Lähetä sinun suunnitteluehdotus täältä:'
-        ]
+            'add_designs' => 'Haluatko nähdä lisää malleja? Lähetä sinun suunnitteluehdotus täältä:',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -442,7 +442,7 @@ return [
         'sort' => 'Lajittelujärjestys',
         'toast' => [
             'added' => 'Lisätty suosikkilistaasi',
-            'removed' => 'Poistettu suosikkilistastasi'
+            'removed' => 'Poistettu suosikkilistastasi',
         ],
         'skins' => [
             'button' => 'Skinit',
@@ -462,7 +462,7 @@ return [
             'meta' => [
                 'title' => 'Minun suosikkipalvelimet',
                 'description' => 'Minun suosikkini Minecraft palvelimet',
-             ],
+            ],
         ],
 
     ],
@@ -495,8 +495,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'Mukautettu Minecraft Viitat',
-            'description' => 'Selaa ja katso mukautettuja viitat, jotka on luotu ja joita SkinMC jäsenet käyttävät.'
-        ]
+            'description' => 'Selaa ja katso mukautettuja viitat, jotka on luotu ja joita SkinMC jäsenet käyttävät.',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft palvelimet',
@@ -522,7 +522,7 @@ return [
             'reviews' => 'Arvostelut',
             'sort_by_highest_rating' => 'Lajittele korkeimman arvosanan mukaan',
             'sort_by_lowest_rating' => 'Lajittele alimman arvosanan mukaan',
-            'bedrock_and_java_support' => 'Bedrock ja Java tuki'
+            'bedrock_and_java_support' => 'Bedrock ja Java tuki',
         ],
         'review-count' => ':count Arvostelu|:count Arvostelua',
         'meta' => [
@@ -562,7 +562,7 @@ return [
             'delete-title' => 'Oletko varma, että haluat poistaa arvostelusi?',
             'tos-checkbox-part-1' => 'Lähettämällä tämän lomakkeen hyväksyt SkinMC:n käyttöehdot, tietosuojakäytännön ja yhteisön ohjeet. Vahvistat myös, että kaikki tiedot ovat paikkansapitäviä ja noudattavat',
             'tos-checkbox-part-2' => 'arvosteluohjeita.',
-            'tos-checkbox-part-3' => 'Arvostelusi julkaistaan lähettämisen jälkeen, mutta se voidaan tarkistaa.'
+            'tos-checkbox-part-3' => 'Arvostelusi julkaistaan lähettämisen jälkeen, mutta se voidaan tarkistaa.',
         ],
         'slots' => 'Paikat',
         'empty-helper' => 'Voit yrittää tehdä toisen haun tai',
@@ -595,15 +595,15 @@ return [
             'terms' => [
                 'part-1' => 'Tämän lomakkeen lähettämällä sinä hyväksyt SkinMC:n käyttöehdot, yksityisyydensuojan ja yhteisön ohjeet. Vahvistat myös, että kaikki edellä mainitut tiedot ovat paikkaansapitäviä, olet seurannut asianmukaisesti',
                 'part-2' => 'palvelimen asennusta koskevia vaatimuksia',
-                'part-3' => 'ja että Minecraft-palvelimen omistaa ja sitä hallinnoi edustamasi taho.'
+                'part-3' => 'ja että Minecraft-palvelimen omistaa ja sitä hallinnoi edustamasi taho.',
             ],
             'submit-application' => 'Lähetä hakemus',
             'video-id-helper' => [
                 'part-1' => 'Videon ID on merkkijono numeroiden ja kirjainten jälkeen',
                 'part-2' => 'Esimerkiksi, jos videon url on',
-                'part-3' => ', sitten videon ID olisi'
+                'part-3' => ', sitten videon ID olisi',
             ],
-            'welcome_description' => 'Tässä vaiheessa lähdemme aloittamaan palvelimen lisäämisen. Kerro meille hieman siitä, kirjoita kuvaus, ja seuraavassa vaiheessa voit ladata joitakin kuvia.'
+            'welcome_description' => 'Tässä vaiheessa lähdemme aloittamaan palvelimen lisäämisen. Kerro meille hieman siitä, kirjoita kuvaus, ja seuraavassa vaiheessa voit ladata joitakin kuvia.',
         ],
         'copy_server_ip' => 'Kopioi palvelin IP',
         'all_minecraft_servers' => 'Kaikki Minecraft Palvelimet',
@@ -652,9 +652,9 @@ return [
                 'players-question' => 'Miten voin saada enemmän pelaajia Minecraft Palvelimelleni?',
                 'players-answer' => 'Yhteisön rakentaminen on pitkän kestävän Minecraft Palvelimen tärkein osa. Käytä Minecraftin Palvelin Listaa SkinMC:ssä löytääksesi uuden yleisön ja jatkaaksesi yhteisösi rakentamista. Pyydä pelaajia suosittelemaan palvelintasi tai jakamaan listasi sosiaalisen median alustoille. Hyvien arvostelujen keräämisellä voi myös olla tärkeä rooli, kun halutaan saada hyvä Palvelin listaus, joka houkuttelee uusia pelaajia.',
                 'more-question' => 'Minulla on enemmän kysymyksiä. Mistä voin saada apua?',
-                'more-answer' => 'Voit ottaa yhteyttä SkinMC:hen milloin tahansa, 24 tuntia vuorokaudessa, joko käyttämällä apupainiketta, neuvontapalvelua tai liittymällä Discord palvelimeen.'
+                'more-answer' => 'Voit ottaa yhteyttä SkinMC:hen milloin tahansa, 24 tuntia vuorokaudessa, joko käyttämällä apupainiketta, neuvontapalvelua tai liittymällä Discord palvelimeen.',
             ],
-            'ready_to_list_description' => 'Lisää Minecraft Palvelimesi SkinMC Palvelin Listaan vain muutamassa minuutissa. Jos tarvitset apua, voit ottaa yhteyttä ympäri vuorokauden ja saada vastauksia nopeasti.'
+            'ready_to_list_description' => 'Lisää Minecraft Palvelimesi SkinMC Palvelin Listaan vain muutamassa minuutissa. Jos tarvitset apua, voit ottaa yhteyttä ympäri vuorokauden ja saada vastauksia nopeasti.',
         ],
         'manage' => [
             'index' => [
@@ -668,14 +668,14 @@ return [
                     'description-title' => 'Kirjoita hyvä palvelimen kuvaus',
                     'description-body' => 'Hyödyllisiä vinkkejä ja neuvoja kirjoittaa hyvä palvelimen kuvaus.',
                     'images-title' => 'Lisätään palvelimen kuvia',
-                    'images-body' => 'Tee palvelin listauksestasi erottuva suurien kuvien avulla.'
-                ]
+                    'images-body' => 'Tee palvelin listauksestasi erottuva suurien kuvien avulla.',
+                ],
             ],
             'listings' => [
-                'title' => 'Minecraft palvelimesi (:count)'
+                'title' => 'Minecraft palvelimesi (:count)',
             ],
             'insights' => [
-                'title' => 'Näkymät'
+                'title' => 'Näkymät',
             ],
             'edit_server' => 'Muokkaa palvelinta',
             'listing' => 'Listaus',
@@ -683,14 +683,14 @@ return [
             'last_update' => 'Viimeisin päivitys',
             'add_more_photos_to_publish' => 'Lisää kuvia julkaistavaksi',
             'looks_empty_here' => 'Näyttää tyhjältä täällä.',
-            'get_started_by_adding_a_new_server' => 'Aloita lisäämällä uusi palvelin?'
+            'get_started_by_adding_a_new_server' => 'Aloita lisäämällä uusi palvelin?',
         ],
         'status' => [
             'approved' => 'Hyväksytty',
             'pending_approval' => 'Odottaa hyväksyntää',
             'published' => 'Julkaistu',
-            'in_review' => 'Tarkastettavana'
-        ]
+            'in_review' => 'Tarkastettavana',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -698,7 +698,7 @@ return [
             'import_by_username' => 'Tuo käyttäjänimellä',
             'import_button' => 'Tuo',
             'drag' => 'Vedä ja pudota skini tähän, tai klikkaa',
-            'click' => 'Valitse kuva'
+            'click' => 'Valitse kuva',
         ],
         'download' => [
             'error' => [
@@ -821,7 +821,7 @@ return [
             'link-account' => 'Ole hyvä ja linkitä Minecraft-tilisi ladataksesi viitan.',
             'updated' => 'Viittasi on päivitetty!',
             'removed' => 'Viittasi on poistettu.',
-            'active' => 'Viittasi on aktivoitu!'
+            'active' => 'Viittasi on aktivoitu!',
         ],
         'favourite' => 'Suosikki',
         'remove_favourite' => 'Poista suosikki',
@@ -848,7 +848,7 @@ return [
             'delete-confirmation' => 'Tilisi poistaminen on peruuttamatonta. Kaikki henkilökohtaiset tietosi ja sisältösi, kuten viestit, suosikit, ladatut viitat, mukautukset jne. poistetaan, eikä niitä voi palauttaa.',
             'delete-confirmation-info' => 'Anna salasanasi jatkaaksesi',
             'yes-confirm-delete' => 'Kyllä, vahvista poisto',
-            'account-successfully-deleted' => 'Tilisi ja tietosi ovat poistettu onnistuneesti.'
+            'account-successfully-deleted' => 'Tilisi ja tietosi ovat poistettu onnistuneesti.',
         ],
         'social' => [
             'title' => 'Sosiaaliset tilit',
@@ -927,7 +927,7 @@ return [
             'are-you-sure' => 'Oletko varma?',
             'confirm' => 'Kyllä, vahvista yhteyden katkaisu',
             'cancel' => 'Ei, peruuta',
-            'success' => 'Tilisi katkaistiin onnistuneesti!'
+            'success' => 'Tilisi katkaistiin onnistuneesti!',
         ],
         'finish-setup' => [
             'title' => 'Viimeistele tilin määritys',
@@ -945,7 +945,7 @@ return [
             'badge' => 'Profiilissasi näkyvä merkki',
             'cape' => 'Mukautettu Minecraft Viitta',
             'backup' => 'Automaattinen skinin varmuuskopio',
-            'more' => 'Ja muuta...'
+            'more' => 'Ja muuta...',
         ],
         'skins' => [
             'title' => 'Hallinnoi skinejä',
@@ -963,14 +963,14 @@ return [
             'status' => [
                 'title' => 'Tila',
                 'pending' => 'Odottaa',
-                'accepted' => 'Hyväksytty'
+                'accepted' => 'Hyväksytty',
             ],
             'add_invite' => [
                 'button' => 'Onko sinulla kutsu?',
                 'title' => 'Lisää kutsukoodi',
                 'redeem' => 'Lunasta kutsu',
             ],
-            'share' => 'Lähetä ystävällesi kutsulinkki'
+            'share' => 'Lähetä ystävällesi kutsulinkki',
         ],
         'emoji' => [
             'title' => 'SkinMC Emoji',
@@ -978,8 +978,8 @@ return [
             'info' => 'Mukauta profiiliasi emojien avulla. Avaa lisää, kun nouset tasolle.',
             'unlocked_at' => 'Avattu tasolla :level',
             'unlocks_at' => 'Saavuta taso :level avataksesi',
-            'turn_off' => 'Näytä emoji'
-        ]
+            'turn_off' => 'Näytä emoji',
+        ],
     ],
     'notifications' => [
         'title' => 'Ilmoitukset',
@@ -1002,25 +1002,25 @@ return [
             'archive' => 'Ilmoitus siirretty arkistoon',
             'unarchive' => 'Ilmoitus siirretty saapuneisiin',
             'undo' => 'Kumoa',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'Ei internetyhteyttä',
             'subtitle' => 'Yhteytesi katkesi. Tarkista yhteytesi ja lataa sivu uudelleen yrittääksesi uudelleen.',
-            'try_again' => 'Yritä uudelleen'
+            'try_again' => 'Yritä uudelleen',
         ],
         '404' => [
             'title' => '404 — Sivua ei löytynyt.',
             'subtitle' => 'Hm, näyttää siltä, että tässä paikassa ei löytynyt mitään. Ehkä yritä palata tai aloita uusi haku?',
-            'try_again' => 'Takaisin etusivulle'
+            'try_again' => 'Takaisin etusivulle',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraft päät tietokanta',
-                'description' => 'Tutki Minecraft päättietokantaa koristellaksesi maailmasi tai luodaksesi oman komennon. Näytä viralliset päät, pelaajien päät ja mukautetut päät, joissa on tekstuurit jotka eivät koskaan muutu.'
+                'description' => 'Tutki Minecraft päättietokantaa koristellaksesi maailmasi tai luodaksesi oman komennon. Näytä viralliset päät, pelaajien päät ja mukautetut päät, joissa on tekstuurit jotka eivät koskaan muutu.',
             ],
             'header' => [
                 'title' => 'Minecraft päät',
@@ -1038,7 +1038,7 @@ return [
                 'title' => 'Pelaajan päät',
                 'description' => 'Pelaajan päät käyttävät Minecraft-pelaajan nykyistä skini koostumusta. Koska ne ovat käyttäjätunnuksen perustaa, kun pelaaja muuttaa nimeään tai skiniä, pää muuttuu.',
                 'version' => 'Kaikki Minecraft versiot',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1077,7 +1077,7 @@ return [
         'feature-experience' => 'Kokemus',
         'feature-experience-detail' => 'Nauti täydestä SkinMC-kokemuksesta missä tahansa, jossa on lisäominaisuuksia. Mukauta profiiliasi, lisää sinun bio, luo hauska QR-koodi ja paljon muuta!',
         'get-app-headline' => 'Hanki SkinMC sovellus',
-        'get-app-detail' => 'Oma Minecraft kumppanisi Androidille — saatavilla ilmaiseksi.'
+        'get-app-detail' => 'Oma Minecraft kumppanisi Androidille — saatavilla ilmaiseksi.',
     ],
     'random' => [
         'title' => 'Ladataan satunnaista Minecraftin skiniä',
@@ -1144,6 +1144,23 @@ return [
             'original_deleted' => 'The original post has been deleted.',
             'deleted_post' => 'This post has been deleted',
         ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
         'poll' => [
             'title' => 'Poll',
             'create' => 'Create a poll',
@@ -1185,14 +1202,14 @@ return [
     ],
     'private' => [
         'title' => 'Yksityiset julkaisut',
-        'text' => 'Tämä julkaisu on yksityinen.'
-    ] ,
+        'text' => 'Tämä julkaisu on yksityinen.',
+    ],
     'liked' => [
-        'title' => 'Tykätty'
+        'title' => 'Tykätty',
     ],
     'following' => [
         'title' => 'Seuratut',
-        'text' => 'Kirjaudu sisään nähdäksesi tämän julkaisun.'
+        'text' => 'Kirjaudu sisään nähdäksesi tämän julkaisun.',
     ],
     'tags' => [
         'empty' => 'Ei vielä äänestettäviä tunnisteita',
@@ -1209,7 +1226,7 @@ return [
             'no_messages' => 'Ei lukemattomia viestejä',
             'start_conversation' => 'Kun aloitat uuden keskustelun, sinun viestit näytetään täällä.',
             'conversation' => 'Tämä on keskustelusi alku :username kanssa.',
-            'users' => 'Ei löydy käyttäjiä, jotka vastaavat nykyistä hakua.'
+            'users' => 'Ei löydy käyttäjiä, jotka vastaavat nykyistä hakua.',
         ],
         'typing' => ':username kirjoittaa...',
         'new_message' => 'Uusi viesti',
@@ -1232,12 +1249,12 @@ return [
         'external-link-to' => 'Tämä linkki vie sinut kohteeseen',
         'external-link-confirmation' => 'Oletko varma, että haluat mennä sinne?',
         'external-link' => 'Ulkoinen linkki',
-        'reply' => 'Vastaa'
+        'reply' => 'Vastaa',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Tilastot'
-        ]
+            'stats' => 'Tilastot',
+        ],
     ],
     'report' => [
         'button' => 'Ilmianna',
@@ -1250,7 +1267,7 @@ return [
             'SPAM' => 'Roskaposti',
             'HARASSMENT' => 'Häirintä',
             'OTHER' => 'Muu',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Tulostaulukko',
@@ -1258,6 +1275,6 @@ return [
         'headline' => 'Top 10',
         'all-time-invites' => 'Kaikkien aikojen kutsut',
         'all-time-xp' => 'Kaikkien aikojen XP',
-        '30-day-xp' => '30 päivän XP'
+        '30-day-xp' => '30 päivän XP',
     ],
 ];
