@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Edytuj skórkę',
     'make_avatar' => 'Stwórz awatar',
     'find_heads' => 'Znajdź głowy gracza',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Strona główna',
     'help' => 'Pomoc',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Ciemny',
         'light' => 'Jasny',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
