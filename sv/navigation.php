@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Redigera utseende',
     'make_avatar' => 'Skapa avatar',
     'find_heads' => 'Hitta spelarhuvuden',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Hem',
     'help' => 'Hjälp',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Mörk',
         'light' => 'Ljus',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
