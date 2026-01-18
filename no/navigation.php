@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Rediger stil',
     'make_avatar' => 'Lag avatar',
     'find_heads' => 'Find player heads',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Hjem',
     'help' => 'Hjelp',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Dark',
         'light' => 'Light',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
