@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'ערוך סקין',
     'make_avatar' => 'צור אווטאר',
     'find_heads' => 'מצא ראשי שחקנים',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'בית',
     'help' => 'עזרה',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'כהה',
         'light' => 'בהיר',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
