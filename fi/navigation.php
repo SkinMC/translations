@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Muokkaa ulkoasua',
     'make_avatar' => 'Tee profiilikuva',
     'find_heads' => 'Etsi pelaajan päät',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Koti',
     'help' => 'Ohje',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Tumma',
         'light' => 'Vaalea',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
