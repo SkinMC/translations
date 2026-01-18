@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Skin\'i düzenle',
     'make_avatar' => 'Avatar yap',
     'find_heads' => 'Oyuncu kafalarını bulun',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Ana sayfa',
     'help' => 'Yardım',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Koyu',
         'light' => 'Aydınlık',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
