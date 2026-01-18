@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'スキンを編集',
     'make_avatar' => 'アバターを作成',
     'find_heads' => 'プレイヤーのヘッドを見つける',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'ホーム',
     'help' => 'ヘルプ',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'ダーク',
         'light' => 'ライト',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
