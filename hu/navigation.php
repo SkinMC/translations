@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Kinézet szerkesztése',
     'make_avatar' => 'Beállítás profilképként',
     'find_heads' => 'Játékosfejek keresése',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Kezdőlap',
     'help' => 'Súgó',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Dark',
         'light' => 'Light',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
