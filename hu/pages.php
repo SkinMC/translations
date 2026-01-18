@@ -7,12 +7,14 @@ return [
         ],
         'register' => [
             'title' => 'SkinMC-regisztráció',
-            'subtitle' => 'Regisztrálj a teljes hozzáféréshez.'
-        ]
+            'subtitle' => 'Regisztrálj a teljes hozzáféréshez.',
+        ],
     ],
 
     'home' => [
         'hero_slogan' => 'A Minecraft-kinézetek tárháza.',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => 'Jó napom van',
         'hero_explore_cta' => 'Felfedezés',
         'skin_viewer' => 'Kinézetvizsgáló',
@@ -46,7 +48,7 @@ return [
         'head_description' => 'Böngészd a Mincecraftfej-adatbázist vagy készíts újat!',
         'achievement' => 'Teljesítményszerkesztő',
         'achievement_detail' => 'Készíts egyedi teljesítményeket!',
-        'continue' => 'Böngészés folytatása'
+        'continue' => 'Böngészés folytatása',
     ],
     'profile' => [
         'verified' => 'Igazolt fiók',
@@ -74,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username Minecraftkinézet-előzményei',
             'meta_description' => ':username Minecraftkinézet-előzményeinek megtekintése. Itt láthatod :username előzőleg használt kinézeteit és le is töltheted azokat.',
-            'title' => 'Kinézetelőzmények'
+            'title' => 'Kinézetelőzmények',
         ],
         'qr_code' => [
             'meta_title' => ':username QR kódja',
-            'meta_description' => 'A :username Minecaft-fiókjához tartozó egyedi QR kód'
+            'meta_description' => 'A :username Minecaft-fiókjához tartozó egyedi QR kód',
         ],
         'sub_nav' => [
             'skin' => 'Kinézet',
             'about' => 'Névjegy',
             'usernames' => 'Felhasználónevek',
             'head' => 'Fej',
-            'comments' => 'Hozzászólások'
+            'comments' => 'Hozzászólások',
         ],
         'cape' => 'Köpeny',
         'elytra' => 'Kitinszárny',
@@ -104,11 +106,11 @@ return [
         'toast' => [
             'following' => 'Mostantól követed :username-t!',
             'follow-self-error' => 'Sajnáljuk, :username, de nem követheted önmagad.',
-            'unfollowed' => 'Mostantól már nem követed :username-t.'
+            'unfollowed' => 'Mostantól már nem követed :username-t.',
         ],
         'edit' => 'Profil szerkesztése',
         'joined' => 'Csatlakozott',
-        'role' => 'Szerep',
+        'role' => 'Role',
         'server-fav-list-empty' => 'Looks like :username hasn\'t got any favourite servers yet. Once :username has saved a server as their favourite, you can see it here.',
         'server-own-list-empty' => 'Looks like :username hasn\'t got any servers yet. Once :username has listed a server, you can see it here.',
         'capes-list-empty' => 'Looks like :username isn\'t wearing any capes yet. Once :username is wearing a cape, you can see it here.',
@@ -131,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username\'s capes',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -187,8 +189,8 @@ return [
             'bad' => [
                 'title' => 'Ilyen címkét ne hozz létre:',
                 'general' => 'Túl általános',
-                'specific' =>  'Túl pontos',
-                'too-many-tags' =>  'Ez három különböző címke legyen',
+                'specific' => 'Túl pontos',
+                'too-many-tags' => 'Ez három különböző címke legyen',
                 'spelling' => 'A helyes írásmód: :example',
             ],
         ],
@@ -196,7 +198,7 @@ return [
             'added' => 'A(z) „:tag”-címkét szavazásra bocsátottad.',
             'removed' => '„:tag”-címke eltávolítva.',
             'upvote' => 'Pozitívan értékelted a(z) „:tag”-címkét.',
-            'downvote' => 'Negatívan értékelted a(z) „:tag”-címkét.'
+            'downvote' => 'Negatívan értékelted a(z) „:tag”-címkét.',
         ],
         'vote' => [
             'up' => 'Tetszik',
@@ -212,7 +214,7 @@ return [
         'other_discord' => 'Csatlakozz a Discord-szerverhez, ha barátkozni szeretnél, játékokról beszélgetni, megosztani a kedvenc gyűjteményeidet, vagy segítséget kérnél!',
         'other_twitter' => 'A Twitter-profilunkon értesülhetsz az új frissítésekről és funkciókról, illetve megtekintheted a hét kinézetét.',
         'other_instagram' => 'Az Instagram-oldalunkon megtekintheted a király új Minecraft-kinézeteket és képeket.',
-        'other_facebook' => 'A Facebook-oldalunkon hozzászólhatsz a bejegyzéseinkhez és másokkal beszélgethetsz, miközben Minecraftos tartalmakat nézegetsz.'
+        'other_facebook' => 'A Facebook-oldalunkon hozzászólhatsz a bejegyzéseinkhez és másokkal beszélgethetsz, miközben Minecraftos tartalmakat nézegetsz.',
     ],
     'about' => [
         'intro' => '<span>A</span> <span>Minecraft-kinézetek</span> <span>tárháza.</span>',
@@ -342,8 +344,8 @@ return [
             'mini' => 'A kinézeted pici változata',
             'full' => 'A kinézeted teljes változata',
             'model3d' => 'A kinézeted térhatású modellje',
-            'add_designs' => 'Több lehetőségre vágysz? Ha javaslatod van, ide beküldheted:'
-        ]
+            'add_designs' => 'Több lehetőségre vágysz? Ha javaslatod van, ide beküldheted:',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -440,7 +442,7 @@ return [
         'sort' => 'Rendezés',
         'toast' => [
             'added' => 'Kedvencnek jelölve.',
-            'removed' => 'Eltávolítva a kedvencek közül.'
+            'removed' => 'Eltávolítva a kedvencek közül.',
         ],
         'skins' => [
             'button' => 'Kinézetek',
@@ -460,7 +462,7 @@ return [
             'meta' => [
                 'title' => 'Kedvenc szerverek',
                 'description' => 'Saját kedvenc Minecraft-szerverek',
-             ],
+            ],
         ],
 
     ],
@@ -493,8 +495,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'Egyedi Minecraft-köpenyek',
-            'description' => 'A SkinMC-felhasználók által készített és használt egyedi köpenyek böngészése és megtekintése.'
-        ]
+            'description' => 'A SkinMC-felhasználók által készített és használt egyedi köpenyek böngészése és megtekintése.',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft-szerverek',
@@ -520,7 +522,7 @@ return [
             'reviews' => 'Értékelések',
             'sort_by_highest_rating' => 'A legjobb elöl',
             'sort_by_lowest_rating' => 'A legrosszabb elöl',
-            'bedrock_and_java_support' => 'Bedrock- és Java-támogatás'
+            'bedrock_and_java_support' => 'Bedrock- és Java-támogatás',
         ],
         'review-count' => ':count értékelés',
         'meta' => [
@@ -560,7 +562,7 @@ return [
             'delete-title' => 'Biztosan törölni szeretnéd az értékelésedet?',
             'tos-checkbox-part-1' => 'Az űrlap kitöltésével beleegyezel a SkinMC szolgáltatási feltételeibe, adatvédelmi- és közösségi irányelveibe. Továbbá megerősíted, hogy a megadott információ pontos és megfelel az',
             'tos-checkbox-part-2' => 'értékelési irányelveknek.',
-            'tos-checkbox-part-3' => 'Az értékelésed rögtön közzétételre kerül, de lehetséges, hogy később felülvizsgáljuk.'
+            'tos-checkbox-part-3' => 'Az értékelésed rögtön közzétételre kerül, de lehetséges, hogy később felülvizsgáljuk.',
         ],
         'slots' => 'Helyek száma',
         'empty-helper' => 'Próbálj új keresést indítani vagy…',
@@ -593,15 +595,15 @@ return [
             'terms' => [
                 'part-1' => 'Az űrlap beküldésével beleegyezel a SkinMC szolgáltatási feltételeibe, adatvédelmi- és közösségi irányelveibe. Továbbá megerősíted, hogy a megadott információ pontos és megfelel a',
                 'part-2' => 'szerverhozzáadási követelményeknek',
-                'part-3' => 'és, hogy a Minecraft-szerver, melynek a listázását kérelmezed, a Te tulajdonodban áll, vagy a tulajdonos megbízásából cselekszel.'
+                'part-3' => 'és, hogy a Minecraft-szerver, melynek a listázását kérelmezed, a Te tulajdonodban áll, vagy a tulajdonos megbízásából cselekszel.',
             ],
             'submit-application' => 'Kérelem beküldése',
             'video-id-helper' => [
                 'part-1' => 'A videóazonosító az a betű- és számsor, ami a videó hivatkozásában az alábbi rész után következik:',
                 'part-2' => 'Pl.: Ha a videó hivatkozása az alábbi:',
-                'part-3' => ', akkor ebből a videóazonosító:'
+                'part-3' => ', akkor ebből a videóazonosító:',
             ],
-            'welcome_description' => 'Kezdjük meg a szervered hozzáadását! Meséld el, hogy miről szól a szerver, majd tölts fel róla képeket.'
+            'welcome_description' => 'Kezdjük meg a szervered hozzáadását! Meséld el, hogy miről szól a szerver, majd tölts fel róla képeket.',
         ],
         'copy_server_ip' => 'Szerver IP-címének másolása',
         'all_minecraft_servers' => 'Minden Minecraft-szerver',
@@ -650,9 +652,9 @@ return [
                 'players-question' => 'Hogyan csalogathatok több játékost a Minecraft-szerveremre?',
                 'players-answer' => 'Egy erős Minecraft-szerver kulcsa a közösségépítés. A SkinMC szerverböngészője segítségével könnyen találhatsz új közönséget, amiből közösséget építhetsz. Kérd meg a játékosaidat, hogy ajánlják másoknak a szerveredet és osszák meg közösségi oldalakon. Kedvező értékelések is nagy szerepet játszhatnak a szerver népszerűsítésében.',
                 'more-question' => 'Egyéb kérdésem van. Hol kaphatok segítséget?',
-                'more-answer' => 'A SkinMC-t éjjel-nappal felkeresheted a Súgó-gombbal és az ügyfélszolgálaton, vagy a Discord-szerveren.'
+                'more-answer' => 'A SkinMC-t éjjel-nappal felkeresheted a Súgó-gombbal és az ügyfélszolgálaton, vagy a Discord-szerveren.',
             ],
-            'ready_to_list_description' => 'A Minecraft-szerveredet néhány perc alatt hozzáadhatod a SkinMC adatbázisához. Ha segítségre van szükséged, éjjel-nappal elérhetsz minket.'
+            'ready_to_list_description' => 'A Minecraft-szerveredet néhány perc alatt hozzáadhatod a SkinMC adatbázisához. Ha segítségre van szükséged, éjjel-nappal elérhetsz minket.',
         ],
         'manage' => [
             'index' => [
@@ -666,14 +668,14 @@ return [
                     'description-title' => 'Írj részletes leírást!',
                     'description-body' => 'A hasznos tippeknek és tanácsoknak jó helye van a leírásban.',
                     'images-title' => 'Csatolj képeket a szerverről!',
-                    'images-body' => 'Jó képekkel feltűnőbb egy szerver.'
-                ]
+                    'images-body' => 'Jó képekkel feltűnőbb egy szerver.',
+                ],
             ],
             'listings' => [
-                'title' => 'Az általad birtokolt Minecraft-szerverek (:count db)'
+                'title' => 'Az általad birtokolt Minecraft-szerverek (:count db)',
             ],
             'insights' => [
-                'title' => 'Kimutatások'
+                'title' => 'Kimutatások',
             ],
             'edit_server' => 'Szerkesztés',
             'listing' => 'Szerveroldal',
@@ -681,14 +683,14 @@ return [
             'last_update' => 'Utoljára frissítve',
             'add_more_photos_to_publish' => 'Csatolj fényképeket!',
             'looks_empty_here' => 'Nincs itt semmi.',
-            'get_started_by_adding_a_new_server' => 'A kezdéshez add hozzá a szerveredet az adatbázishoz!'
+            'get_started_by_adding_a_new_server' => 'A kezdéshez add hozzá a szerveredet az adatbázishoz!',
         ],
         'status' => [
             'approved' => 'Jóváhagyott',
             'pending_approval' => 'Jóváhagyásra vár',
             'published' => 'Közzétett',
-            'in_review' => 'Ellenőrzés alatt'
-        ]
+            'in_review' => 'Ellenőrzés alatt',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -696,7 +698,7 @@ return [
             'import_by_username' => 'Importálás felhasználónév alapján',
             'import_button' => 'Importálás',
             'drag' => 'Kattints, vagy húzz ide egy kinézetet',
-            'click' => 'Kép kiválasztása'
+            'click' => 'Kép kiválasztása',
         ],
         'download' => [
             'error' => [
@@ -772,6 +774,12 @@ return [
             'decrease_brightness' => 'Decrease the brightness of the currently active colour.',
             'increase_brightness' => 'Increase the brightness of the currently active colour.',
             'erase' => 'Erase pixels drawn on the secondary overlay layer.',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
@@ -813,7 +821,7 @@ return [
             'link-account' => 'Köpeny feltöltéséhez össze kell kapcsolnod a Minecraft-fiókodat!',
             'updated' => 'Köpeny frissítve.',
             'removed' => 'Köpeny eltávolítva.',
-            'active' => 'Köpeny bekapcsolva.'
+            'active' => 'Köpeny bekapcsolva.',
         ],
         'favourite' => 'Kedvencnek jelölés',
         'remove_favourite' => 'Eltávolítás a kedvencek közül',
@@ -839,8 +847,11 @@ return [
             'delete-info' => 'A folytatáshoz megerősítés szükséges',
             'delete-confirmation' => 'A fiókod törlése végleges! Minden személyes adatod és az általad megosztott tartalmak, pl. a bejegyzéseid, kedvenceid, feltöltött köpenyeid, a személyre szabott profilod, stb. törölve lesz. Ez a folyamat visszavonhatatlan.',
             'delete-confirmation-info' => 'A folytatáshoz add meg a jelszavad!',
+            'delete-confirmation-info-social' => 'Type "delete" to confirm account deletion',
+            'type-delete' => 'Type "delete" to confirm',
+            'type-delete-label' => 'Type "delete" to confirm',
             'yes-confirm-delete' => 'Igen; fiók törlése',
-            'account-successfully-deleted' => 'A fiókod és minden hozzá tartozó adat törlésre került.'
+            'account-successfully-deleted' => 'A fiókod és minden hozzá tartozó adat törlésre került.',
         ],
         'social' => [
             'title' => 'Közösségi oldalak',
@@ -919,7 +930,7 @@ return [
             'are-you-sure' => 'Biztos vagy benne?',
             'confirm' => 'Igen; szétkapcsolás',
             'cancel' => 'Mégse',
-            'success' => 'A fiókjaidat sikeresen szétkapcsoltuk.'
+            'success' => 'A fiókjaidat sikeresen szétkapcsoltuk.',
         ],
         'finish-setup' => [
             'title' => 'Fiókbeállítások véglegesítése',
@@ -937,7 +948,7 @@ return [
             'badge' => 'Hitelesítő jelvény',
             'cape' => 'Egyedi Minecraft-köpeny',
             'backup' => 'Automatic skin backup',
-            'more' => 'És még sok más…'
+            'more' => 'És még sok más…',
         ],
         'skins' => [
             'title' => 'Kinézetek kezelése',
@@ -955,14 +966,14 @@ return [
             'status' => [
                 'title' => 'Status',
                 'pending' => 'Pending',
-                'accepted' => 'Accepted'
+                'accepted' => 'Accepted',
             ],
             'add_invite' => [
                 'button' => 'Have an invite?',
                 'title' => 'Add an invite code',
                 'redeem' => 'Redeem invite',
             ],
-            'share' => 'Send your friend an invite link'
+            'share' => 'Send your friend an invite link',
         ],
         'emoji' => [
             'title' => 'SkinMC Emoji',
@@ -970,8 +981,8 @@ return [
             'info' => 'Customise your profile with emoji. Unlock more as you level up.',
             'unlocked_at' => 'Unlocked at level :level',
             'unlocks_at' => 'Reach level :level to unlock',
-            'turn_off' => 'Show emoji'
-        ]
+            'turn_off' => 'Show emoji',
+        ],
     ],
     'notifications' => [
         'title' => 'Értesítések',
@@ -994,25 +1005,25 @@ return [
             'archive' => 'Értesítés archiválva.',
             'unarchive' => 'Értesítés visszaállítva.',
             'undo' => 'Visszavonás',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'Nincs kapcsolat.',
             'subtitle' => 'Megszakadt a hálózati kapcsolat. Ellenőrizd a kapcsolatot, majd töltsd újra a lapot.',
-            'try_again' => 'Újra'
+            'try_again' => 'Újra',
         ],
         '404' => [
             'title' => '404 – Az oldal nem található.',
             'subtitle' => 'Hmm… Nincs itt semmi. Próbálj visszamenni vagy indíts új keresést!',
-            'try_again' => 'Főoldal'
+            'try_again' => 'Főoldal',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraftfej-adatbázis',
-                'description' => 'Böngészd át a Minecraftfej-adatbázist és találj fejeket, amelyekkel kidíszítheted a világodat, vagy generálj egy /give-parancsot! Itt megtekintheted a hivatalos fejeket, játékosok fejeit, és egyedi fejeket, melyek sosem változnak.'
+                'description' => 'Böngészd át a Minecraftfej-adatbázist és találj fejeket, amelyekkel kidíszítheted a világodat, vagy generálj egy /give-parancsot! Itt megtekintheted a hivatalos fejeket, játékosok fejeit, és egyedi fejeket, melyek sosem változnak.',
             ],
             'header' => [
                 'title' => 'Minecraft-fejek',
@@ -1030,7 +1041,7 @@ return [
                 'title' => 'Játékosfejek',
                 'description' => 'A játékosfejek az adott játékos mindenkori kinézetét használják. Mivel felhasználónévalapúak, ezért minden kinézetváltással megváltoznak.',
                 'version' => 'Az összes Minecraft-verzió',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1069,7 +1080,7 @@ return [
         'feature-experience' => 'Funkcióteljesség',
         'feature-experience-detail' => 'A SkinMC-élmény mobilon sincs leegyszerűsítve. Szabd személyre a profilod, mesélj magadról, hozz létre QR kódokat és még sok más!',
         'get-app-headline' => 'A SkinMC-alkalmazás letöltése',
-        'get-app-detail' => 'Tökéletes társ a Minecrafthoz Androidon – teljesen ingyen.'
+        'get-app-detail' => 'Tökéletes társ a Minecrafthoz Androidon – teljesen ingyen.',
     ],
     'random' => [
         'title' => 'Véletlenszerű Minecraft-kinézet betöltése…',
@@ -1121,20 +1132,87 @@ return [
             'delete' => 'Törlés',
             'deleted' => 'Bejegyzés törölve.',
         ],
+        'repost' => [
+            'button' => 'Repost',
+            'quote_button' => 'Quote',
+            'title' => 'Repost this post',
+            'quote_title' => 'Quote post',
+            'quote_label' => 'Add a comment (optional)',
+            'quote_placeholder' => 'Add your thoughts...',
+            'reposted' => 'reposted',
+            'success' => 'Reposted!',
+            'removed' => 'Repost removed.',
+            'already_reposted' => 'You have already reposted this.',
+            'undo' => 'Undo repost',
+            'original_deleted' => 'The original post has been deleted.',
+            'deleted_post' => 'This post has been deleted',
+        ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
+        'poll' => [
+            'title' => 'Poll',
+            'create' => 'Create a poll',
+            'option' => 'Option',
+            'add_option' => 'Add option',
+            'duration' => 'Duration',
+            'duration_1' => '1 day',
+            'duration_3' => '3 days',
+            'duration_7' => '7 days',
+            'votes' => '{0} votes|{1} vote|[2,*] votes',
+            'ended' => 'Poll ended',
+            'ends_in' => 'Ends :time',
+            'login_required' => 'Sign in to vote',
+        ],
+        'gif' => [
+            'title' => 'GIF',
+            'search_placeholder' => 'Search KLIPY for GIFs...',
+            'no_results' => 'No GIFs found',
+            'powered_by' => 'Powered by',
+            'categories' => 'Categories',
+            'trending' => 'Trending',
+        ],
+        'media' => 'Media',
         'follow-suggestions' => 'Kövesd a csapatot!',
         'explore' => 'Felfedezés',
         'hashtag' => 'Címke',
+        'no_users' => 'No users found.',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Privát bejegyzések',
-        'text' => 'Ez a bejegyzés privát.'
-    ] ,
+        'text' => 'Ez a bejegyzés privát.',
+    ],
     'liked' => [
-        'title' => 'Kedvelt'
+        'title' => 'Kedvelt',
     ],
     'following' => [
         'title' => 'Követett',
-        'text' => 'A bejegyzés megtekintéséhez be kell jelentkezned!'
+        'text' => 'A bejegyzés megtekintéséhez be kell jelentkezned!',
     ],
     'tags' => [
         'empty' => 'Még nincs mire szavazni.',
@@ -1151,7 +1229,7 @@ return [
             'no_messages' => 'Nincs olvasatlan üzenet.',
             'start_conversation' => 'Ha elkezdesz egy beszélgetést, itt fognak megjelenni az üzenetek.',
             'conversation' => 'Itt kezdődik a beszélgetésetek.',
-            'users' => 'A keresési feltételeknek egy felhasználó sem felelt meg.'
+            'users' => 'A keresési feltételeknek egy felhasználó sem felelt meg.',
         ],
         'typing' => ':username is typing...',
         'new_message' => 'Új üzenet',
@@ -1174,12 +1252,12 @@ return [
         'external-link-to' => 'Ez a hivatkozás az alábbi oldalra fog átirányítani:',
         'external-link-confirmation' => 'Biztosan el akarod hagyni a SkinMC-t?',
         'external-link' => 'Külső hivatkozás',
-        'reply' => 'Reply'
+        'reply' => 'Reply',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Statisztikák'
-        ]
+            'stats' => 'Statisztikák',
+        ],
     ],
     'report' => [
         'button' => 'Report',
@@ -1192,7 +1270,7 @@ return [
             'SPAM' => 'Spam',
             'HARASSMENT' => 'Harassment',
             'OTHER' => 'Other',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Leaderboard',
@@ -1200,6 +1278,6 @@ return [
         'headline' => 'Top 10',
         'all-time-invites' => 'All time invites',
         'all-time-xp' => 'All time XP',
-        '30-day-xp' => '30 days XP'
+        '30-day-xp' => '30 days XP',
     ],
 ];
