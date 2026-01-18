@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Изменить скин',
     'make_avatar' => 'Сделать аватар',
     'find_heads' => 'Найти головы игроков',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Главная страница',
     'help' => 'Справка',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'Тёмная',
         'light' => 'Светлая',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
