@@ -50,6 +50,7 @@ return [
     'edit_skin' => '스킨 편집',
     'make_avatar' => '아바타 만들기',
     'find_heads' => '플레이어 머리 찾기',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => '홈',
     'help' => '도움말',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => '어둡게',
         'light' => '밝게',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
