@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'تعديل السكن',
     'make_avatar' => 'صنع افتار',
     'find_heads' => 'ايجاد دماغ الاعب',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'الرئيسية',
     'help' => 'مساعدة',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => 'داكن',
         'light' => 'فاتح',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
