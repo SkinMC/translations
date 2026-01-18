@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Skin bearbeiten',
     'make_avatar' => 'Avatar erstellen',
     'find_heads' => 'Spielerköpfe anzeigen',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Startseite',
     'help' => 'Hilfe',
@@ -84,6 +85,6 @@ return [
         'title' => 'Thema',
         'dark' => 'Dunkel',
         'light' => 'Hell',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
