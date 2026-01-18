@@ -13,9 +13,11 @@ return [
     'link' => [
         'error' => [
             'missing-game-copy' => 'هذا حساب مايكروسوفت لا يمتلك ماين كرافت. انتقل إلى Minecraft.net وقم بتسجيل الدخول إلى حسابك في مايكروسوفت الذي يمتلك ماين كرافت إصدار الجافا.',
-            'generic' => 'همم... حدث خطأ ما. الرجاء المحاولة مرة أخرى أو الاتصال بدعم SkinMC عن طريق البريد الإلكتروني أو ديسكورد للمساعدة.'
+            'generic' => 'همم... حدث خطأ ما. الرجاء المحاولة مرة أخرى أو الاتصال بدعم SkinMC عن طريق البريد الإلكتروني أو ديسكورد للمساعدة.',
+            'already-linked' => 'Minecraft account is already linked',
+            'profile-already-linked' => 'This Minecraft account is already linked to another user',
+            'failed' => 'Failed to link Minecraft account. Please try again.',
         ],
     ],
 
 ];
-
