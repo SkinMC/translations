@@ -13,9 +13,11 @@ return [
     'link' => [
         'error' => [
             'missing-game-copy' => '이 Microsoft 계정은 Minecraft를 소유하고 있지 않아요. Minecraft.net으로 이동해서 Minecraft 자바 에디션을 소유 중인 Microsoft 계정으로 로그인하세요.',
-            'generic' => '흠... 무언가 잘못된 것 같아요. 다시 시도해 주시거나 도움이 필요하시면 이메일 또는 Discord로 연락해 주세요.'
+            'generic' => '흠... 무언가 잘못된 것 같아요. 다시 시도해 주시거나 도움이 필요하시면 이메일 또는 Discord로 연락해 주세요.',
+            'already-linked' => 'Minecraft account is already linked',
+            'profile-already-linked' => 'This Minecraft account is already linked to another user',
+            'failed' => 'Failed to link Minecraft account. Please try again.',
         ],
     ],
 
 ];
-
