@@ -7,12 +7,14 @@ return [
         ],
         'register' => [
             'title' => 'SkinMC에 가입하기',
-            'subtitle' => '모든 기능을 사용하려면 계정을 생성하고 시작하세요.'
-        ]
+            'subtitle' => '모든 기능을 사용하려면 계정을 생성하고 시작하세요.',
+        ],
     ],
 
     'home' => [
         'hero_slogan' => 'Minecraft 스킨을 찾는 나만의 공간',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => '아무거나 볼래요!',
         'hero_explore_cta' => '스킨 둘러보기',
         'skin_viewer' => '스킨 뷰어',
@@ -46,7 +48,7 @@ return [
         'head_description' => 'Minecraft 머리 데이터베이스를 둘러보거나, 새로운 걸 생성해 보세요.',
         'achievement' => '도전과제 생성기',
         'achievement_detail' => '나만의 개인적인 맞춤 도전과제를 생성해 보세요.',
-        'continue' => '계속 둘러보기'
+        'continue' => '계속 둘러보기',
     ],
     'profile' => [
         'verified' => '인증된 프로필',
@@ -74,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username님의 Minecraft 스킨 기록',
             'meta_description' => ':username님의 Minecraft 스킨 기록과 이전에 사용했던 스킨을 봐요. 이 기록을 이용해서 과거에 사용했던 스킨을 살펴보고, 백업하거나 다시 되돌리거나 새 스킨을 수집해 보세요.',
-            'title' => 'Minecraft 스킨 기록'
+            'title' => 'Minecraft 스킨 기록',
         ],
         'qr_code' => [
             'meta_title' => ':username님의 QR 코드',
-            'meta_description' => ':username님의 맞춤 Minecraft 프로필 QR 코드'
+            'meta_description' => ':username님의 맞춤 Minecraft 프로필 QR 코드',
         ],
         'sub_nav' => [
             'skin' => '스킨',
             'about' => '내 소개',
             'usernames' => '사용자 이름',
             'head' => '머리',
-            'comments' => '댓글'
+            'comments' => '댓글',
         ],
         'cape' => '망토',
         'elytra' => '겉날개',
@@ -104,11 +106,11 @@ return [
         'toast' => [
             'following' => ':username님을 팔로우 중이에요!',
             'follow-self-error' => ':username님 죄송하지만, 자기 자신을 팔로우할 수 없어요.',
-            'unfollowed' => ':username님의 팔로우를 취소했어요'
+            'unfollowed' => ':username님의 팔로우를 취소했어요',
         ],
         'edit' => '프로필 편집',
         'joined' => '가입 시기:',
-        'role' => '역할',
+        'role' => 'Role',
         'server-fav-list-empty' => '아직 :username님이 아무 서버도 즐겨찾기 하지 않은거 같아요. :username님이 서버를 즐겨찾기에 저장하면, 여기에서 확인할 수 있어요.',
         'server-own-list-empty' => '아직 :username님이 아무 서버도 추가하지 않은거 같아요. :username님이 서버를 추가하면, 여기에서 확인할 수 있어요.',
         'capes-list-empty' => ':username님이 아직 아무 망토도 장착하지 않은 것 같아요. :username님이 망토를 장착하면, 여기에서 확인할 수 있어요.',
@@ -131,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username님의 망토',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -187,8 +189,8 @@ return [
             'bad' => [
                 'title' => '다음과 같은 태그는 추가하지 마세요:',
                 'general' => '너무 일반적임',
-                'specific' =>  '너무 구체적임',
-                'too-many-tags' =>  '3개의 분리된 태그여야 함',
+                'specific' => '너무 구체적임',
+                'too-many-tags' => '3개의 분리된 태그여야 함',
                 'spelling' => ':example이어야 함',
             ],
         ],
@@ -196,7 +198,7 @@ return [
             'added' => '":tag" 태그가 투표에 추가됐어요',
             'removed' => '":tag:" 태그가 삭제됐어요',
             'upvote' => '":tag" 태그를 추천했어요',
-            'downvote' => '":tag" 태그를 비추천했어요'
+            'downvote' => '":tag" 태그를 비추천했어요',
         ],
         'vote' => [
             'up' => '추천',
@@ -212,7 +214,7 @@ return [
         'other_discord' => 'Discord 서버에 참가해서 다른 분과 연결하고, 게임 관련 대화를 하고, 내 최애 팩을 공유하고, 커뮤니티 지원을 받아보세요.',
         'other_twitter' => 'Twitter에서 팔로우해서 언제 새 업데이트나 기능이 출시되는지 확인하고, 이번 주의 스킨을 확인해 보세요.',
         'other_instagram' => 'Instagram에서 SkinMC를 팔로우해서 멋지고 특색있는 Minecraft 스킨과 사진을 살펴보고 발견해 보세요.',
-        'other_facebook' => 'Facebook에서 팬이 되어 내가 Minecraft 콘텐츠를 탐험하면서 다른 분께 댓글을 남기고 대화할 수 있는 모든 게시물을 확인해 보세요.'
+        'other_facebook' => 'Facebook에서 팬이 되어 내가 Minecraft 콘텐츠를 탐험하면서 다른 분께 댓글을 남기고 대화할 수 있는 모든 게시물을 확인해 보세요.',
     ],
     'about' => [
         'intro' => '<span>Minecraft</span> <span>스킨</span><span>을 위한</span> <span>나만의</span> <span>플랫폼</span>',
@@ -339,8 +341,8 @@ return [
             'mini' => '스킨의 미니 버전이에요!',
             'full' => '스킨의 전체 버전이에요!',
             'model3d' => '스킨의 3D 모델 버전이에요!',
-            'add_designs' => '더 많은 디자인을 보고 싶으신가요? 디자인 제안을 여기에 남겨주세요:'
-        ]
+            'add_designs' => '더 많은 디자인을 보고 싶으신가요? 디자인 제안을 여기에 남겨주세요:',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -437,7 +439,7 @@ return [
         'sort' => '정렬 기준',
         'toast' => [
             'added' => '즐겨찾기 목록에 추가했어요',
-            'removed' => '즐겨찾기 목록에서 제거했어요'
+            'removed' => '즐겨찾기 목록에서 제거했어요',
         ],
         'skins' => [
             'button' => '스킨',
@@ -457,7 +459,7 @@ return [
             'meta' => [
                 'title' => '내가 즐겨찾기한 서버',
                 'description' => '내가 즐겨찾기한 Minecraft 서버',
-             ],
+            ],
         ],
 
     ],
@@ -490,8 +492,8 @@ return [
         ],
         'list-custom' => [
             'title' => '맞춤 Minecraft 망토',
-            'description' => 'SkinMC 멤버들이 만들고 사용 중인 커스텀 망토를 둘러보세요.'
-        ]
+            'description' => 'SkinMC 멤버들이 만들고 사용 중인 커스텀 망토를 둘러보세요.',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft 서버',
@@ -517,7 +519,7 @@ return [
             'reviews' => '평가',
             'sort_by_highest_rating' => '높은 평점순으로 정렬',
             'sort_by_lowest_rating' => '낮은 평점순으로 정렬',
-            'bedrock_and_java_support' => 'Bedrock 및 Java 지원'
+            'bedrock_and_java_support' => 'Bedrock 및 Java 지원',
         ],
         'review-count' => ':count 후기 ',
         'meta' => [
@@ -558,7 +560,7 @@ return [
             'delete-title' => '정말로 이 리뷰를 삭제하시겠어요?',
             'tos-checkbox-part-1' => '이 양식을 제출함으로써 귀하는 SkinMC의 서비스 약관, 개인정보 보호정책 및 커뮤니티 가이드라인에 동의하게 돼요. 또한 귀하는 모든 정보가 정확하고 다음 사항을 준수함을 확인해요.',
             'tos-checkbox-part-2' => '가이드라인을 검토하세요.',
-            'tos-checkbox-part-3' => '이 리뷰는 제출 이후에 공개되지만, 검토 대상이 될 수 있어요.'
+            'tos-checkbox-part-3' => '이 리뷰는 제출 이후에 공개되지만, 검토 대상이 될 수 있어요.',
         ],
         'slots' => '슬롯',
         'empty-helper' => 'You can try to do another search or',
@@ -591,15 +593,15 @@ return [
             'terms' => [
                 'part-1' => '이 양식을 제출함으로써 귀하는 SkinMC의 서비스 약관, 개인정보 보호정책 및 커뮤니티 가이드라인에 동의하는 것으로 간주돼요. 또한 귀하는 위의 모든 정보가 정확하며, 다음 사항을 올바르게 준수했음을 확인해요.',
                 'part-2' => '설정을 위한 서버 요구사항',
-                'part-3' => ', and that the Minecraft server is owned and managed by the entity you are representing.'
+                'part-3' => ', and that the Minecraft server is owned and managed by the entity you are representing.',
             ],
             'submit-application' => '지원서 등록하기',
             'video-id-helper' => [
                 'part-1' => 'The video ID is the string of numbers and letters after',
                 'part-2' => '예를 들어 영상 url이',
-                'part-3' => ', 그 다음 영상 ID가 나와요'
+                'part-3' => ', 그 다음 영상 ID가 나와요',
             ],
-            'welcome_description' => '이 단계에서는 서버 등록을 진행할 거예요. 이곳에 대해 조금 알려주세요. 설명을 작성해 주시면 다음 단계에서는 이미지를 업로드 할 수 있어요.'
+            'welcome_description' => '이 단계에서는 서버 등록을 진행할 거예요. 이곳에 대해 조금 알려주세요. 설명을 작성해 주시면 다음 단계에서는 이미지를 업로드 할 수 있어요.',
         ],
         'copy_server_ip' => '서버 IP 복사하기',
         'all_minecraft_servers' => '모든 Minecraft 서버',
@@ -648,9 +650,9 @@ return [
                 'players-question' => '내 Minecraft 서버에 더 많은 플레이어를 모으려면 어떻게 해야 하나요?',
                 'players-answer' => 'Building a community is the most crucial part of a long lasting Minecraft Server. Use the Minecraft Server List on SkinMC to find a new audience and continue to build your community. Ask your players to recommend your Server, or share your listing on social media platforms. Collecting good reviews can also play an important role to a great Server listing presence that attracts new players.',
                 'more-question' => '질문이 더 있어요. 도움은 어디서 받을 수 있나요?',
-                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.'
+                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.',
             ],
-            'ready_to_list_description' => '단 몇 분 만에 당신의 Minecraft 서버를 SkinMC 서버 목록에 추가해 보세요. 도움이 필요하시다면 언제든 요청하고 빠른 답변을 얻어보세요.'
+            'ready_to_list_description' => '단 몇 분 만에 당신의 Minecraft 서버를 SkinMC 서버 목록에 추가해 보세요. 도움이 필요하시다면 언제든 요청하고 빠른 답변을 얻어보세요.',
         ],
         'manage' => [
             'index' => [
@@ -664,14 +666,14 @@ return [
                     'description-title' => '좋은 서버 설명을 작성하세요',
                     'description-body' => '최고의 서버 설명을 작성하기 위해 도움이 되는 팁과 조언들이에요.',
                     'images-title' => '서버 이미지 추가하기',
-                    'images-body' => 'Make your server listing stand out with great images.'
-                ]
+                    'images-body' => 'Make your server listing stand out with great images.',
+                ],
             ],
             'listings' => [
-                'title' => '내 Minecraft 서버 (:count개)'
+                'title' => '내 Minecraft 서버 (:count개)',
             ],
             'insights' => [
-                'title' => '현황판'
+                'title' => '현황판',
             ],
             'edit_server' => '서버 수정하기',
             'listing' => '정렬하기',
@@ -679,14 +681,14 @@ return [
             'last_update' => '최근 갱신',
             'add_more_photos_to_publish' => '더 많은 사진을 추가하여 게시하세요',
             'looks_empty_here' => '비어 있는거 같아요.',
-            'get_started_by_adding_a_new_server' => '새 서버를 추가하면서 시작하시겠어요?'
+            'get_started_by_adding_a_new_server' => '새 서버를 추가하면서 시작하시겠어요?',
         ],
         'status' => [
             'approved' => '승인됨',
             'pending_approval' => '승인 대기 중',
             'published' => '게시됨',
-            'in_review' => '검토중'
-        ]
+            'in_review' => '검토중',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -694,7 +696,7 @@ return [
             'import_by_username' => '사용자 이름으로 가져오기',
             'import_button' => '가져오기',
             'drag' => '스킨을 여기에 끌어다 놓거나, 클릭하세요',
-            'click' => '이미지 선택'
+            'click' => '이미지 선택',
         ],
         'download' => [
             'error' => [
@@ -770,6 +772,12 @@ return [
             'decrease_brightness' => '현재 사용 중인 색상의 밝기를 낮춰요.',
             'increase_brightness' => '현재 사용 중인 색상의 밝기를 높여요.',
             'erase' => 'Erase pixels drawn on the secondary overlay layer.',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
@@ -811,7 +819,7 @@ return [
             'link-account' => '망토를 업로드하려면 Minecraft 계정과 연동하세요.',
             'updated' => '망토가 갱신됐어요!',
             'removed' => '망토가 제거됐어요.',
-            'active' => '망토가 활성화됐어요!'
+            'active' => '망토가 활성화됐어요!',
         ],
         'favourite' => '즐겨찾기',
         'remove_favourite' => '즐겨찾기에서 삭제',
@@ -837,8 +845,11 @@ return [
             'delete-info' => '계속하려면 확인해 주세요',
             'delete-confirmation' => '계정을 삭제하는 것은 되돌릴 수 없어요. 모든 개인 정보와 게시물, 즐겨찾기, 업로드한 망토, 꾸민 것 등이 삭제되며 다시 복원할 수 없어요.',
             'delete-confirmation-info' => '계속하려면 비밀번호를 입력하세요',
+            'delete-confirmation-info-social' => 'Type "delete" to confirm account deletion',
+            'type-delete' => 'Type "delete" to confirm',
+            'type-delete-label' => 'Type "delete" to confirm',
             'yes-confirm-delete' => '네, 삭제를 확인했어요',
-            'account-successfully-deleted' => '계정과 데이터가 삭제됐어요.'
+            'account-successfully-deleted' => '계정과 데이터가 삭제됐어요.',
         ],
         'social' => [
             'title' => '소셜 계정',
@@ -917,7 +928,7 @@ return [
             'are-you-sure' => '확실하신가요?',
             'confirm' => '네, 연동이 해제됨을 확인했어요',
             'cancel' => '아니요, 취소할게요',
-            'success' => '계정과의 연동이 해제됐어요!'
+            'success' => '계정과의 연동이 해제됐어요!',
         ],
         'finish-setup' => [
             'title' => '계정 설정 완료하기',
@@ -935,7 +946,7 @@ return [
             'badge' => '내 프로필에 배지 표시',
             'cape' => '맞춤 Minecraft 망토 이용 가능',
             'backup' => '자동 스킨 백업',
-            'more' => '등등...'
+            'more' => '등등...',
         ],
         'skins' => [
             'title' => '스킨 관리',
@@ -953,14 +964,14 @@ return [
             'status' => [
                 'title' => '상태',
                 'pending' => '대기 중',
-                'accepted' => '수락됨'
+                'accepted' => '수락됨',
             ],
             'add_invite' => [
                 'button' => '초대장이 있으신가요?',
                 'title' => '초대 코드 추가',
                 'redeem' => '초대 긁기',
             ],
-            'share' => '초대 링크를 친구에게 전송하세요'
+            'share' => '초대 링크를 친구에게 전송하세요',
         ],
         'emoji' => [
             'title' => 'SkinMC 이모지',
@@ -968,8 +979,8 @@ return [
             'info' => '이모지로 프로필을 꾸미세요. 레벨 업을 통해 더 많은 이모지를 사용하세요.',
             'unlocked_at' => ':level레벨에 잠금 해제',
             'unlocks_at' => ':level레벨에 도달해서 잠금 해제',
-            'turn_off' => '이모지 보기'
-        ]
+            'turn_off' => '이모지 보기',
+        ],
     ],
     'notifications' => [
         'title' => '알림',
@@ -992,25 +1003,25 @@ return [
             'archive' => '알림을 보관함으로 이동했어요',
             'unarchive' => '알림을 수신함으로 이동했어요',
             'undo' => '되돌리기',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => '인터넷 연결 없음',
             'subtitle' => '인터넷에 연결되지 않았어요. 연결을 확인하고 페이지를 다시 불러와서 다시 시도하세요.',
-            'try_again' => '다시 시도하기'
+            'try_again' => '다시 시도하기',
         ],
         '404' => [
             'title' => '404 - 페이지를 찾지 못함.',
             'subtitle' => '흠, 이 위치에 아무것도 없는 것 같아요. 다시 돌아가거나, 새로 검색해보시는 건 어떠세요?',
-            'try_again' => '홈으로 돌아가기'
+            'try_again' => '홈으로 돌아가기',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraft 머리 데이터베이스',
-                'description' => 'Explore the database of Minecraft heads to decorate your world with, or generate your own give command. View official heads, player heads and custom heads that feature textures which never change.'
+                'description' => 'Explore the database of Minecraft heads to decorate your world with, or generate your own give command. View official heads, player heads and custom heads that feature textures which never change.',
             ],
             'header' => [
                 'title' => 'Minecraft 머리',
@@ -1028,7 +1039,7 @@ return [
                 'title' => '플레이어 머리',
                 'description' => '플레이어 머리는 Minecraft 플레이어의 현재 스킨 텍스처를 사용해요. 플레이어 머리는 사용자 이름을 기반으로 하기 때문에, 플레이어가 이름이나 스킨을 바꾸면, 머리가 바뀌어요.',
                 'version' => '모든 Minecraft 버전',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1067,7 +1078,7 @@ return [
         'feature-experience' => '경험하기',
         'feature-experience-detail' => 'Enjoy the full SkinMC experience anywhere, with added features. Customise your profile, add your bio, create a fun QR-Code and more!',
         'get-app-headline' => 'SkinMC 앱 받기',
-        'get-app-detail' => 'Android를 위한 당신만의 Minecraft 동반자 — 무료로 사용 가능.'
+        'get-app-detail' => 'Android를 위한 당신만의 Minecraft 동반자 — 무료로 사용 가능.',
     ],
     'random' => [
         'title' => '랜덤 Minecraft 스킨 불러오기',
@@ -1119,20 +1130,87 @@ return [
             'delete' => '게시물 삭제하기',
             'deleted' => '게시물이 삭제되었어요.',
         ],
+        'repost' => [
+            'button' => 'Repost',
+            'quote_button' => 'Quote',
+            'title' => 'Repost this post',
+            'quote_title' => 'Quote post',
+            'quote_label' => 'Add a comment (optional)',
+            'quote_placeholder' => 'Add your thoughts...',
+            'reposted' => 'reposted',
+            'success' => 'Reposted!',
+            'removed' => 'Repost removed.',
+            'already_reposted' => 'You have already reposted this.',
+            'undo' => 'Undo repost',
+            'original_deleted' => 'The original post has been deleted.',
+            'deleted_post' => 'This post has been deleted',
+        ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
+        'poll' => [
+            'title' => 'Poll',
+            'create' => 'Create a poll',
+            'option' => 'Option',
+            'add_option' => 'Add option',
+            'duration' => 'Duration',
+            'duration_1' => '1 day',
+            'duration_3' => '3 days',
+            'duration_7' => '7 days',
+            'votes' => '{0} votes|{1} vote|[2,*] votes',
+            'ended' => 'Poll ended',
+            'ends_in' => 'Ends :time',
+            'login_required' => 'Sign in to vote',
+        ],
+        'gif' => [
+            'title' => 'GIF',
+            'search_placeholder' => 'Search KLIPY for GIFs...',
+            'no_results' => 'No GIFs found',
+            'powered_by' => 'Powered by',
+            'categories' => 'Categories',
+            'trending' => 'Trending',
+        ],
+        'media' => 'Media',
         'follow-suggestions' => '팀 팔로우하기',
         'explore' => '둘러보기',
         'hashtag' => '해시태그',
+        'no_users' => 'No users found.',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => '게시물을 비공개로 돌리기',
-        'text' => '이 게시물은 비공개입니다.'
-    ] ,
+        'text' => '이 게시물은 비공개입니다.',
+    ],
     'liked' => [
-        'title' => '좋아요 누름'
+        'title' => '좋아요 누름',
     ],
     'following' => [
         'title' => '팔로잉',
-        'text' => '로그인하여 게시물을 확인하세요.'
+        'text' => '로그인하여 게시물을 확인하세요.',
     ],
     'tags' => [
         'empty' => '투표할 태그가 아직 없어요',
@@ -1149,7 +1227,7 @@ return [
             'no_messages' => '읽지 않은 메시지 없음',
             'start_conversation' => '신규 대화를 시작하면, 내 메시지가 여기에 표시돼요.',
             'conversation' => ':username님과 나눈 대화의 첫 부분이에요.',
-            'users' => '현재 검색어와 일치하는 사용자를 찾지 못했어요.'
+            'users' => '현재 검색어와 일치하는 사용자를 찾지 못했어요.',
         ],
         'typing' => ':username님이 입력 중이에요...',
         'new_message' => '신규 메시지',
@@ -1172,12 +1250,12 @@ return [
         'external-link-to' => '이 링크는 다음으로 연결돼요:',
         'external-link-confirmation' => '확실히 거기로 이동할까요?',
         'external-link' => '외부 링크',
-        'reply' => '답장'
+        'reply' => '답장',
     ],
     'server' => [
         'manage' => [
-            'stats' => '통계'
-        ]
+            'stats' => '통계',
+        ],
     ],
     'report' => [
         'button' => '신고',
@@ -1190,7 +1268,7 @@ return [
             'SPAM' => '스팸',
             'HARASSMENT' => '괴롭힘',
             'OTHER' => '그 외',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => '순위표',
@@ -1198,6 +1276,6 @@ return [
         'headline' => '상위 10명',
         'all-time-invites' => '전체 초대',
         'all-time-xp' => '전체 경험치',
-        '30-day-xp' => '30일 경험치'
+        '30-day-xp' => '30일 경험치',
     ],
 ];
