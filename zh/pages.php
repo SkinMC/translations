@@ -7,12 +7,14 @@ return [
         ],
         'register' => [
             'title' => '注册 SkinMC',
-            'subtitle' => '开始并创建您的账户以便完全访问。'
-        ]
+            'subtitle' => '开始并创建您的账户以便完全访问。',
+        ],
     ],
 
     'home' => [
         'hero_slogan' => '你的Minecraft皮肤的地方。',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => '给我惊喜',
         'hero_explore_cta' => '探索皮肤',
         'skin_viewer' => '皮肤查看器',
@@ -46,7 +48,7 @@ return [
         'head_description' => '浏览 Minecraft 头部数据库，或创建新数据库。',
         'achievement' => '成就生成器',
         'achievement_detail' => '创建您自己的自定义和个性化成就。',
-        'continue' => '继续浏览'
+        'continue' => '继续浏览',
     ],
     'profile' => [
         'verified' => '已验证的个人资料',
@@ -74,18 +76,18 @@ return [
         'skins' => [
             'meta_title' => ':username Minecraft历史皮肤',
             'meta_description' => '查看 :username Minecraft 皮肤历史和先前使用过的皮肤。 使用历史记录浏览旧的或过去使用过的皮肤、备份和恢复或收集新皮肤。',
-            'title' => 'Minecraft皮肤历史'
+            'title' => 'Minecraft皮肤历史',
         ],
         'qr_code' => [
             'meta_title' => ':username的二维码',
-            'meta_description' => ':username 自定义 Minecraft 个人资料二维码'
+            'meta_description' => ':username 自定义 Minecraft 个人资料二维码',
         ],
         'sub_nav' => [
             'skin' => '皮肤',
             'about' => '关于',
             'usernames' => '用户名',
             'head' => '头部',
-            'comments' => '评论'
+            'comments' => '评论',
         ],
         'cape' => '披风',
         'elytra' => '鞘翅',
@@ -104,11 +106,11 @@ return [
         'toast' => [
             'following' => '你正在关注 :username ！',
             'follow-self-error' => '对不起:username, 你不能关注自己。',
-            'unfollowed' => '你已经取消关注 :用户名'
+            'unfollowed' => '你已经取消关注 :用户名',
         ],
         'edit' => '编辑个人资料',
         'joined' => '注册时间',
-        'role' => '角色',
+        'role' => 'Role',
         'server-fav-list-empty' => '似乎 :username 尚未收藏任何服务器。如果 :username 收藏了服务器，您可以在这里看到。',
         'server-own-list-empty' => '似乎 :username 尚未设置拥有的服务器。如果 :username 设置了服务器，您可以在这里看到。',
         'capes-list-empty' => '似乎 :username 尚未穿戴任何披风。如果 :username 穿戴了披风，您可以在这里看到。',
@@ -131,7 +133,7 @@ return [
         ],
         'cape-list' => [
             'title' => ':username 的披风',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -187,8 +189,8 @@ return [
             'bad' => [
                 'title' => '请不要添加以下标签',
                 'general' => '过于笼统',
-                'specific' =>  '太特定的',
-                'too-many-tags' =>  '应该是三个独立的标签',
+                'specific' => '太特定的',
+                'too-many-tags' => '应该是三个独立的标签',
                 'spelling' => '应该是 :example',
             ],
         ],
@@ -196,7 +198,7 @@ return [
             'added' => '标签 ":tag" 已添加到投票',
             'removed' => '标签 ":tag" 已被移除',
             'upvote' => '已对 ":tag" 表示赞成。',
-            'downvote' => '已对 ":tag" 表示反对。'
+            'downvote' => '已对 ":tag" 表示反对。',
         ],
         'vote' => [
             'up' => '赞成票',
@@ -212,7 +214,7 @@ return [
         'other_discord' => '加入Discord服务器并与他人建立联系，聊聊关于游戏的事情，分享您最喜欢的整合包，并获得来自社区的帮助。',
         'other_twitter' => '在 Twitter 上关注以查看新更新或功能发布的时间，查看每周皮肤等等。',
         'other_instagram' => '在Instagram上关注SkinMC，浏览并发现酷炫的新特色Minecraft皮肤和图像。',
-        'other_facebook' => '在Facebook上成为粉丝，查看所有帖子，在探索《我的世界》内容时，您可以在这些帖子中发表评论并与他人交谈。'
+        'other_facebook' => '在Facebook上成为粉丝，查看所有帖子，在探索《我的世界》内容时，您可以在这些帖子中发表评论并与他人交谈。',
     ],
     'about' => [
         'intro' => '</span>你的</span> </span>Minecraft</span> </span>皮肤</span> <span>平台</span>
@@ -343,8 +345,8 @@ return [
             'mini' => '你的皮肤的迷你版本！',
             'full' => '你的皮肤完整版本！',
             'model3d' => '你的皮肤的3d模型！',
-            'add_designs' => '想要看到更多的设计吗？在这里提交您的设计建议：'
-        ]
+            'add_designs' => '想要看到更多的设计吗？在这里提交您的设计建议：',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -441,7 +443,7 @@ return [
         'sort' => '排序方式',
         'toast' => [
             'added' => '已添加到您的收藏列表',
-            'removed' => '已从您的收藏列表中移除'
+            'removed' => '已从您的收藏列表中移除',
         ],
         'skins' => [
             'button' => '皮肤',
@@ -461,7 +463,7 @@ return [
             'meta' => [
                 'title' => '我最喜欢的服务器',
                 'description' => '我最喜欢的Minecraft服务器',
-             ],
+            ],
         ],
 
     ],
@@ -494,8 +496,8 @@ return [
         ],
         'list-custom' => [
             'title' => '自定义Minecraft披风',
-            'description' => '浏览和查看已经创建并被SkinMC 成员使用的自定义披风。'
-        ]
+            'description' => '浏览和查看已经创建并被SkinMC 成员使用的自定义披风。',
+        ],
     ],
     'servers' => [
         'title' => 'Minecraft服务器',
@@ -521,7 +523,7 @@ return [
             'reviews' => '评论',
             'sort_by_highest_rating' => '按最高评分排序',
             'sort_by_lowest_rating' => '按最低评分排序',
-            'bedrock_and_java_support' => '基岩 和 Java 支持'
+            'bedrock_and_java_support' => '基岩 和 Java 支持',
         ],
         'review-count' => ':count 评论 |:count 评论',
         'meta' => [
@@ -561,7 +563,7 @@ return [
             'delete-title' => '您确定要删除您的评论吗？',
             'tos-checkbox-part-1' => '提交此表格即表示您接受SkinMC的服务条款、隐私政策和社区指南。您还确认所有信息都是准确的，并遵循',
             'tos-checkbox-part-2' => '审评准则。',
-            'tos-checkbox-part-3' => '您的评论将在提交后发布，但可能会受到审查。'
+            'tos-checkbox-part-3' => '您的评论将在提交后发布，但可能会受到审查。',
         ],
         'slots' => '栏位',
         'empty-helper' => '您可以尝试其他搜索或',
@@ -594,15 +596,15 @@ return [
             'terms' => [
                 'part-1' => '通过提交此表格，您有权接受SkinMC的服务条款、隐私政策和社区指南。您还确认以上所有信息都是准确的，您已正确遵循。',
                 'part-2' => '服务器安装要求',
-                'part-3' => '，Minecraft服务器由您所代表的实体所有和管理。'
+                'part-3' => '，Minecraft服务器由您所代表的实体所有和管理。',
             ],
             'submit-application' => '提交申请',
             'video-id-helper' => [
                 'part-1' => '视频ID是数字和字母的字符串',
                 'part-2' => '例如，如果您的视频URL是',
-                'part-3' => '，然后您的视频 ID 将是'
+                'part-3' => '，然后您的视频 ID 将是',
             ],
-            'welcome_description' => '在这一步骤中，我们将开始添加您的服务器。 告诉我们一点有关它的信息，写一个描述，下一步你可以上传一些图像。'
+            'welcome_description' => '在这一步骤中，我们将开始添加您的服务器。 告诉我们一点有关它的信息，写一个描述，下一步你可以上传一些图像。',
         ],
         'copy_server_ip' => '复制服务器IP',
         'all_minecraft_servers' => '所有Minecraft服务器',
@@ -651,9 +653,9 @@ return [
                 'players-question' => '如何为我的Minecraft服务器吸引更多玩家？',
                 'players-answer' => 'Building a community is the most crucial part of a long lasting Minecraft Server. Use the Minecraft Server List on SkinMC to find a new audience and continue to build your community. Ask your players to recommend your Server, or share your listing on social media platforms. Collecting good reviews can also play an important role to a great Server listing presence that attracts new players.',
                 'more-question' => '我还有一些问题，我可以从哪里得到解答？',
-                'more-answer' => '您可以随时点击帮助按钮，与SkinMC联系， 或加入我们的Discord服务器。'
+                'more-answer' => '您可以随时点击帮助按钮，与SkinMC联系， 或加入我们的Discord服务器。',
             ],
-            'ready_to_list_description' => '只需几分钟即可将您的Minecraft服务器添加到SkinMC服务器列表。 如果您需要帮助，您可以随时随地联系我们，我们会尽快回复。'
+            'ready_to_list_description' => '只需几分钟即可将您的Minecraft服务器添加到SkinMC服务器列表。 如果您需要帮助，您可以随时随地联系我们，我们会尽快回复。',
         ],
         'manage' => [
             'index' => [
@@ -667,14 +669,14 @@ return [
                     'description-title' => '写一个好的服务器描述',
                     'description-body' => '写一个精美的服务器描述的一些提示和建议',
                     'images-title' => '添加一些服务器图片',
-                    'images-body' => '用精美的图片装饰你的服务器页面'
-                ]
+                    'images-body' => '用精美的图片装饰你的服务器页面',
+                ],
             ],
             'listings' => [
-                'title' => '您的 Minecraft 服务器 (:count)'
+                'title' => '您的 Minecraft 服务器 (:count)',
             ],
             'insights' => [
-                'title' => '数据分析'
+                'title' => '数据分析',
             ],
             'edit_server' => '编辑服务器',
             'listing' => '列表',
@@ -682,14 +684,14 @@ return [
             'last_update' => '最后更新',
             'add_more_photos_to_publish' => '添加更多照片到发布',
             'looks_empty_here' => '这里看起来是空的。',
-            'get_started_by_adding_a_new_server' => '从添加新服务器开始吗？'
+            'get_started_by_adding_a_new_server' => '从添加新服务器开始吗？',
         ],
         'status' => [
             'approved' => '已审批',
             'pending_approval' => '等待审批',
             'published' => '已发布',
-            'in_review' => '审核中'
-        ]
+            'in_review' => '审核中',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -697,7 +699,7 @@ return [
             'import_by_username' => '通过用户名导入',
             'import_button' => '导入',
             'drag' => '拖放皮肤到此处，或点击',
-            'click' => '选择图片'
+            'click' => '选择图片',
         ],
         'download' => [
             'error' => [
@@ -773,6 +775,12 @@ return [
             'decrease_brightness' => '降低当前激活颜色的亮度。',
             'increase_brightness' => '增加当前激活颜色的亮度。',
             'erase' => '擦除在辅助覆盖层上绘制的像素。',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
@@ -814,7 +822,7 @@ return [
             'link-account' => '要上传斗篷，请先链接您的 Minecraft 帐户。',
             'updated' => '您的披风已更新！',
             'removed' => '您的披风已被移除。',
-            'active' => '你的披风已激活！'
+            'active' => '你的披风已激活！',
         ],
         'favourite' => '收藏',
         'remove_favourite' => '取消收藏',
@@ -840,8 +848,11 @@ return [
             'delete-info' => '请再次确认以继续',
             'delete-confirmation' => '删除帐户是不可逆的。您的所有个人信息和内容，例如帖子、收藏夹、上传的披风、自定义信息等等，都将被删除，无法恢复。',
             'delete-confirmation-info' => '输入您的密码以继续',
+            'delete-confirmation-info-social' => 'Type "delete" to confirm account deletion',
+            'type-delete' => 'Type "delete" to confirm',
+            'type-delete-label' => 'Type "delete" to confirm',
             'yes-confirm-delete' => '是的，确认删除',
-            'account-successfully-deleted' => '您的帐户和数据已经成功删除。'
+            'account-successfully-deleted' => '您的帐户和数据已经成功删除。',
         ],
         'social' => [
             'title' => '社交媒体帐户',
@@ -920,7 +931,7 @@ return [
             'are-you-sure' => 'Are you sure?',
             'confirm' => 'Yes, confirm disconnect',
             'cancel' => 'No, cancel',
-            'success' => 'Your account was successfully disconnected!'
+            'success' => 'Your account was successfully disconnected!',
         ],
         'finish-setup' => [
             'title' => 'Finish account setup',
@@ -938,7 +949,7 @@ return [
             'badge' => '您的个人资料上显示的徽章',
             'cape' => 'Custom Minecraft cape',
             'backup' => 'Automatic skin backup',
-            'more' => 'And more...'
+            'more' => 'And more...',
         ],
         'skins' => [
             'title' => 'Manage skins',
@@ -956,14 +967,14 @@ return [
             'status' => [
                 'title' => 'Status',
                 'pending' => 'Pending',
-                'accepted' => 'Accepted'
+                'accepted' => 'Accepted',
             ],
             'add_invite' => [
                 'button' => 'Have an invite?',
                 'title' => 'Add an invite code',
                 'redeem' => 'Redeem invite',
             ],
-            'share' => 'Send your friend an invite link'
+            'share' => 'Send your friend an invite link',
         ],
         'emoji' => [
             'title' => 'SkinMC Emoji',
@@ -971,8 +982,8 @@ return [
             'info' => '使用Emoji自定义您的个人资料。当您升级时解锁更多。',
             'unlocked_at' => 'Unlocked at level :level',
             'unlocks_at' => 'Reach level :level to unlock',
-            'turn_off' => 'Show emoji'
-        ]
+            'turn_off' => 'Show emoji',
+        ],
     ],
     'notifications' => [
         'title' => 'Notifications',
@@ -995,25 +1006,25 @@ return [
             'archive' => 'Notification moved to archive',
             'unarchive' => 'Notification moved to inbox',
             'undo' => 'Undo',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'No internet',
             'subtitle' => 'Your internet was disconnected. Please check your connection and reload the page to try again.',
-            'try_again' => 'Try again'
+            'try_again' => 'Try again',
         ],
         '404' => [
             'title' => '404 — Page not found.',
             'subtitle' => 'Hm, it looks like nothing was found at this location. Maybe try going back, or start a new search?',
-            'try_again' => 'Back home'
+            'try_again' => 'Back home',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'Minecraft heads database',
-                'description' => 'Explore the database of Minecraft heads to decorate your world with, or generate your own give command. View official heads, player heads and custom heads that feature textures which never change.'
+                'description' => 'Explore the database of Minecraft heads to decorate your world with, or generate your own give command. View official heads, player heads and custom heads that feature textures which never change.',
             ],
             'header' => [
                 'title' => 'Minecraft heads',
@@ -1031,7 +1042,7 @@ return [
                 'title' => 'Player heads',
                 'description' => 'Player heads use the current skin texture of a Minecraft player. As they are username based, when the player changes their name or skin, the head changes.',
                 'version' => 'All Minecraft versions',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1070,7 +1081,7 @@ return [
         'feature-experience' => 'Experience',
         'feature-experience-detail' => '随时随地享受完整的 SkinMC 体验，添加功能。自定义您的个人资料，添加您的个人资料，创建一个有趣的二维码和更多！',
         'get-app-headline' => 'Get the SkinMC App',
-        'get-app-detail' => 'Your very own Minecraft companion for your Android — available for free.'
+        'get-app-detail' => 'Your very own Minecraft companion for your Android — available for free.',
     ],
     'random' => [
         'title' => 'Loading random Minecraft skin',
@@ -1122,20 +1133,87 @@ return [
             'delete' => 'Delete post',
             'deleted' => 'Your post was deleted.',
         ],
+        'repost' => [
+            'button' => 'Repost',
+            'quote_button' => 'Quote',
+            'title' => 'Repost this post',
+            'quote_title' => 'Quote post',
+            'quote_label' => 'Add a comment (optional)',
+            'quote_placeholder' => 'Add your thoughts...',
+            'reposted' => 'reposted',
+            'success' => 'Reposted!',
+            'removed' => 'Repost removed.',
+            'already_reposted' => 'You have already reposted this.',
+            'undo' => 'Undo repost',
+            'original_deleted' => 'The original post has been deleted.',
+            'deleted_post' => 'This post has been deleted',
+        ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
+        'poll' => [
+            'title' => 'Poll',
+            'create' => 'Create a poll',
+            'option' => 'Option',
+            'add_option' => 'Add option',
+            'duration' => 'Duration',
+            'duration_1' => '1 day',
+            'duration_3' => '3 days',
+            'duration_7' => '7 days',
+            'votes' => '{0} votes|{1} vote|[2,*] votes',
+            'ended' => 'Poll ended',
+            'ends_in' => 'Ends :time',
+            'login_required' => 'Sign in to vote',
+        ],
+        'gif' => [
+            'title' => 'GIF',
+            'search_placeholder' => 'Search KLIPY for GIFs...',
+            'no_results' => 'No GIFs found',
+            'powered_by' => 'Powered by',
+            'categories' => 'Categories',
+            'trending' => 'Trending',
+        ],
+        'media' => 'Media',
         'follow-suggestions' => 'Follow the team',
         'explore' => 'Explore',
         'hashtag' => 'Hashtag',
+        'no_users' => 'No users found.',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Private posts',
-        'text' => 'This post is private.'
-    ] ,
+        'text' => 'This post is private.',
+    ],
     'liked' => [
-        'title' => 'Liked'
+        'title' => 'Liked',
     ],
     'following' => [
         'title' => 'Following',
-        'text' => 'Sign in to view this post.'
+        'text' => 'Sign in to view this post.',
     ],
     'tags' => [
         'empty' => 'No tags to vote on yet',
@@ -1152,7 +1230,7 @@ return [
             'no_messages' => 'No unread messages',
             'start_conversation' => 'Once you start a new conversation, your messages will be displayed here.',
             'conversation' => 'This is the beginning of your conversation with :username.',
-            'users' => 'Unable to find any users that match the current query.'
+            'users' => 'Unable to find any users that match the current query.',
         ],
         'typing' => ':username is typing...',
         'new_message' => 'New message',
@@ -1175,12 +1253,12 @@ return [
         'external-link-to' => 'This link will take you to',
         'external-link-confirmation' => 'Are you sure you want to go there?',
         'external-link' => 'External link',
-        'reply' => 'Reply'
+        'reply' => 'Reply',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Stats'
-        ]
+            'stats' => 'Stats',
+        ],
     ],
     'report' => [
         'button' => 'Report',
@@ -1193,7 +1271,7 @@ return [
             'SPAM' => 'Spam',
             'HARASSMENT' => 'Harassment',
             'OTHER' => 'Other',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Leaderboard',
@@ -1201,6 +1279,6 @@ return [
         'headline' => '前 10',
         'all-time-invites' => 'All time invites',
         'all-time-xp' => '全部时间 XP',
-        '30-day-xp' => '30 天 XP'
+        '30-day-xp' => '30 天 XP',
     ],
 ];
