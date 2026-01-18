@@ -50,6 +50,7 @@ return [
     'edit_skin' => '编辑皮肤',
     'make_avatar' => '制作头像',
     'find_heads' => '查找玩家的头部',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => '首页',
     'help' => '帮助',
@@ -84,6 +85,6 @@ return [
         'title' => 'Theme',
         'dark' => '暗色模式',
         'light' => '亮色模式',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
