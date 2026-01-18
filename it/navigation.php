@@ -50,6 +50,7 @@ return [
     'edit_skin' => 'Modifica skin',
     'make_avatar' => 'Crea avatar',
     'find_heads' => 'Trova teste del giocatore',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Schermata Home',
     'help' => 'Aiuto',
@@ -84,6 +85,6 @@ return [
         'title' => 'Tema',
         'dark' => 'Scuro',
         'light' => 'Chiaro',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
 ];
