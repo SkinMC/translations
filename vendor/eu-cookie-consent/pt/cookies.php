@@ -2,6 +2,7 @@
 
 return [
     'acceptAllButton' => 'Aceitar tudo',
+    'declineAll' => 'Decline All',
     'save' => 'Salvar',
     'PopupTitle' => 'Consentimento de cookies',
     'PopupDescription' => 'SkinMC usa cookies para oferecer funcionalidades e recursos.',
