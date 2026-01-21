@@ -2,6 +2,7 @@
 
 return [
     'acceptAllButton' => 'Összes elfogadása',
+    'declineAll' => 'Decline All',
     'save' => 'Mentés',
     'PopupTitle' => 'Cookie consent',
     'PopupDescription' => 'SkinMC uses cookies to provide functionality and features.',
