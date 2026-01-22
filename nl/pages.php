@@ -389,7 +389,7 @@ return [
                 'description' => 'Maak en ontwerp jouw eigen Minecraft Banners ontwerpen met alle patronen en kleuren van het spel! Deze kunnen gebruikt worden om uw wereld te versieren of gedragen worden als een Optifine Cape met behulp van de Banier Cape. U kunt codes voor banieren of schilden genereren.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
