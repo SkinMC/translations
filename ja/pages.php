@@ -389,7 +389,7 @@ return [
                 'description' => 'ゲームに登場するすべてのパターンと色を使って、自分だけのカスタムバナーデザインを作成、デザインできます！バナーケープを使って、ワールドを飾ったり、Optifine マントとして身につけたりできます。バナーやシールドのコードを生成できます。',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
