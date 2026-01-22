@@ -389,7 +389,7 @@ return [
                 'description' => 'Створюйте власні дизайни стягів Minecraft з усіма візерунками та кольорами з гри! Ними можна прикрасити свій світ або носити їх як плащ Optifine за допомогою стягів. Ви можете створити коди для стягів або щитів.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
