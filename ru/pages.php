@@ -389,7 +389,7 @@ return [
                 'description' => 'Создавайте и создавайте свои собственные баннеры Minecraft со всеми узорами и цветами из игры! Они могут быть использованы для украшения вашего мира или быть носить как плащ OptiFine с помощью Баннеров. Вы можете сгенерировать коды для баннеров и щитов.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
