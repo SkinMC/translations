@@ -389,7 +389,7 @@ return [
                 'description' => 'Erstelle und gestalte deine eigenen Minecraft Banner Designs mit allen Mustern und Farben aus dem Spiel! Diese können verwendet werden, um deine Welt zu schmücken oder als Optifine Cape mit dem Banner getragen werden. Du kannnst auch Codes für Banner oder Schilde generieren.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
