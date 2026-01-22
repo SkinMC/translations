@@ -389,7 +389,7 @@ return [
                 'description' => 'Créez et concevez vos propres bannières Minecraft personnalisées avec tous les motifs et couleurs du jeu ! Ils peuvent être utilisés pour décorer votre monde ou être portés en tant que cape Optifine. Vous pouvez générer des commandes pour les obtenires en tant que bannières ou les boucliers.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
