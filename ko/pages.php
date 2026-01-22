@@ -386,7 +386,7 @@ return [
                 'description' => 'Create and design your very own custom Minecraft Banners designs with all the patterns and colors from the game! These can be used to decorate your world or be worn as an Optifine Cape using the Banner Cape. You can generate give codes for banners or shields.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
