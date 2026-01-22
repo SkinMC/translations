@@ -389,7 +389,7 @@ return [
                 'description' => 'Crie seus próprios Estandartes do Minecraft personalizados com todos os padrões e cores do jogo! Estes podem ser usados para decorar seu mundo ou ser usados como Capas do Optifine usando a Capa de Estandarte. Você pode gerar comandos de /give para estandartes ou escudos.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
