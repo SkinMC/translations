@@ -389,7 +389,7 @@ return [
                 'description' => '¡Crea y diseña tus propios diseños personalizados de Estandartes de Minecraft con todos los patrones y colores del juego! Estos se pueden utilizar para decorar tu mundo o para usarlos como Capa de Optifine usando la Capa de Estandarte. Puedes generar códigos para estandartes o escudos.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
