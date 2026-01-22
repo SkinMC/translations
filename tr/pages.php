@@ -389,7 +389,7 @@ return [
                 'description' => 'Oyundaki tüm desen ve renkleri kullanarak kendi özel Minecraft Flama tasarımlarınızı oluşturun ve tasarlayın! Bunlar, dünyanızı süslemek için kullanılabilir veya Flama Pelerinini kullanarak Optifine Pelerin olarak giyilebilir. Flamalar veya kalkanlar için hediye kodları oluşturabilirsiniz.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
