@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'verified' => 'Подтверждённый профиль',
-    'claimed' => 'Полученный профиль',
+    'verified' => 'Verified Profile',
+    'claimed' => 'Аккаунт Minecraft привязан',
     'role' => [
         'admin' => 'Администратор',
         'moderator' => 'Модератор',
