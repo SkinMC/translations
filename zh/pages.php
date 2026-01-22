@@ -390,7 +390,7 @@ return [
                 'description' => '使用游戏中的所有图案和颜色创建和设计您自己的自定义Minecraft 旗帜设计！这些可以用来装饰你的世界，也可以用旗帜披风作为可选披风穿着。你可以生成旗帜或盾牌的代码。',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
