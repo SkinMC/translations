@@ -389,7 +389,7 @@ return [
                 'description' => 'Luo ja suunnittele ikioma Minecraft-bannerisi, jossa on kaikki pelin kuviot ja värit! Niitä voidaan käyttää maailmasi koristeluun tai käyttää Optifine-viittana Banneriviitan avulla. Voit luoda antamiskoodeja bannereille tai kilville.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
