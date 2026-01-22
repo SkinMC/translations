@@ -390,7 +390,7 @@ return [
                 'description' => 'Crea e progetta i tuoi stili di stendardi di Minecraft personalizzati con tutti i modelli e colori del gioco! Possono essere utilizzati per decorare il tuo mondo o essere indossati come un Mantello Optifine utilizzando lo Stendardo Mantello. È possibile generare codici per stendardi o scudi.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
