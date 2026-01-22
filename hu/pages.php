@@ -389,7 +389,7 @@ return [
                 'description' => 'Készítsd el a saját Minecraft-zászlódat a játékban használható lehetőségekkel! Ezekkel a zászlókkal kidíszítheted a világodat vagy beállíthatod őket Optifine-köpenyként. A minták zászlókon vagy pajzsokon való felhasználásához /give-parancsokat is kérhetsz.',
             ],
             'toolbar' => [
-                'title' => 'SkinMC Banner Editor',
+                'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
