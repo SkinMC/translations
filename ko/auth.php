@@ -22,5 +22,6 @@ return [
     'blocked' => ':date에 계정이 비활성화됐어요. 이게 오류라고 생각되신다면 <a target="_blank" href=":url">지원 센터</a>에 방문해 주세요.',
     'show-password' => '비밀번호 보기',
     'hide-password' => '비밀번호 숨기기',
-    'invite_code' => '초대 코드'
+    'invite_code' => '초대 코드',
+    'ghost' => 'Ghost',
 ];
