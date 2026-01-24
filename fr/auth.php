@@ -22,5 +22,6 @@ return [
     'blocked' => 'Votre compte a été désactivé le :date. Si vous pensez qu\'il s\'agit d\'une erreur, veuillez visiter le <a target="_blank" href=":url">centre d\'assistance</a> pour obtenir de l\'aide.',
     'show-password' => 'Afficher le mot de passe',
     'hide-password' => 'Masquer le mot de passe',
-    'invite_code' => 'Code d\'invitation'
+    'invite_code' => 'Code d\'invitation',
+    'ghost' => 'Ghost',
 ];
