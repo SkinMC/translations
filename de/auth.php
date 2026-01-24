@@ -22,5 +22,6 @@ return [
     'blocked' => 'Ihr Konto wurde am :date deaktiviert. Wenn du glaubst, dass dies ein Fehler war, besuche bitte das <a target="_blank" href=":url">-Support-Center</a> für Hilfe.',
     'show-password' => 'Passwort anzeigen',
     'hide-password' => 'Passwort verbergen',
-    'invite_code' => 'Einladungscode'
+    'invite_code' => 'Einladungscode',
+    'ghost' => 'Ghost',
 ];
