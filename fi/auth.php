@@ -22,5 +22,6 @@ return [
     'blocked' => 'Tilisi poistettiin käytöstä :date. Jos uskot, että tämä oli virhe, käy <a target="_blank" href=":url">tukikeskuksessa</a> saadaksesi apua.',
     'show-password' => 'Näytä salasana',
     'hide-password' => 'Piilota salasana',
-    'invite_code' => 'Kutsukoodi'
+    'invite_code' => 'Kutsukoodi',
+    'ghost' => 'Ghost',
 ];
