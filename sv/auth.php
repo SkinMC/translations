@@ -22,5 +22,6 @@ return [
     'blocked' => 'Ditt konto inaktiverades på :date. Om du tror att detta är ett fel besök <a target="_blank" href=":url">hjälpcentret</a> för hjälp.',
     'show-password' => 'Visa lösenord',
     'hide-password' => 'Göm lösenord',
-    'invite_code' => 'Inbjudningskod'
+    'invite_code' => 'Inbjudningskod',
+    'ghost' => 'Ghost',
 ];
