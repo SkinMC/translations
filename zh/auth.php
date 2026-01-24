@@ -22,5 +22,6 @@ return [
     'blocked' => '您的账户已在 :date被停用。点击<a target="_blank" href=":url">支持中心</a>寻求帮助。',
     'show-password' => '显示密码',
     'hide-password' => '隐藏密码',
-    'invite_code' => '邀请码'
+    'invite_code' => '邀请码',
+    'ghost' => 'Ghost',
 ];
