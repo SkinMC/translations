@@ -16,5 +16,9 @@ return [
     'title' => 'Arama sonuçlarının numaralandırılması',
     'previous' => 'Önceki',
     'next' => 'Sonraki',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];
