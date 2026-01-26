@@ -500,6 +500,10 @@ return [
         'min_profiles' => 'Min profiles using',
         'try_different' => 'Try a different search term',
         'skins_no_results' => 'No skins found',
+        'empty_state' => [
+            'title' => 'No matches this time',
+            'message' => "We didn't find any results for this search. Try adjusting your keywords or browsing instead.",
+        ],
     ],
     'collection' => [
         'title' => 'Collezione skin di Minecraft',
