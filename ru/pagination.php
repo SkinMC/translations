@@ -16,5 +16,9 @@ return [
     'title' => 'Нумерация результатов поиска',
     'previous' => 'Предыдущий',
     'next' => 'Следующий',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];
