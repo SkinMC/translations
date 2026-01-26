@@ -16,5 +16,9 @@ return [
     'title' => 'Nummerering av søkeresultater',
     'previous' => 'Forrige',
     'next' => 'Neste',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];
