@@ -1231,6 +1231,7 @@ return [
             'trending-now' => 'Trending now',
             'post' => 'post',
             'posts' => 'posts',
+            'posts-count' => ':count post|:count posts',
             'hashtag' => 'Hashtag',
             'hashtags' => 'Hashtags',
             'no-results' => 'No hashtags found',
