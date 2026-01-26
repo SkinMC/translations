@@ -115,5 +115,8 @@ return [
     'external_link_warning' => 'Vous êtes sur le point de quitter SkinMC et de visiter un site Web externe. Soyez prudent et assurez-vous de faire confiance à ce lien avant de continuer.',
     'cancel' => 'Annuler',
     'continue' => 'Continuer',
-];
 
+    // General
+    'projects' => 'Projects',
+    'project_type' => 'Project type',
+];
