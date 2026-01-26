@@ -16,5 +16,9 @@ return [
     'title' => 'מיספור של תוצאות החיפוש',
     'previous' => 'הקודם',
     'next' => 'הבא',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];
