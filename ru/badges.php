@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'verified' => 'Verified Profile',
+    'verified' => 'Проверенный профиль',
     'claimed' => 'Аккаунт Minecraft привязан',
     'role' => [
         'admin' => 'Администратор',
