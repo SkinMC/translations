@@ -10,20 +10,20 @@ return [
     'achievement' => 'Достижения',
     'armor' => 'Стойка для брони',
     'banners' => 'Баннеры',
-    'banner' => 'Banner Editor',
+    'banner' => 'Редактор флагов',
     'profile' => 'Мой профиль',
 
     'generators' => 'Генераторы',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
-    'discover' => 'Discover',
-    'mods' => 'Mods',
-    'shaders' => 'Shaders',
-    'resource_packs' => 'Resource Packs',
-    'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'feed' => 'Лента',
+    'discover' => 'Исследуйте',
+    'mods' => 'Моды',
+    'shaders' => 'Шейдеры',
+    'resource_packs' => 'Наборы ресурсов',
+    'modpacks' => 'Модпаки',
+    'datapacks' => 'Набор ресурсов',
+    'plugins' => 'Плагины',
 
     'logout' => 'Выйти',
     'register' => 'Регистрация',
@@ -50,7 +50,7 @@ return [
     'edit_skin' => 'Изменить скин',
     'make_avatar' => 'Сделать аватар',
     'find_heads' => 'Найти головы игроков',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Пока нет предложений. Нажмите Enter, чтобы выполнить поиск.',
 
     'home' => 'Главная страница',
     'help' => 'Справка',
@@ -70,8 +70,8 @@ return [
     'app' => 'Приложение',
     'mod' => 'Мод',
     'totem' => 'Тотемы',
-    'cube' => 'Cube',
-    'new' => 'New',
+    'cube' => 'Куб',
+    'new' => 'Новые',
 
     'feedback' => 'Обратная связь',
     'status' => 'Статус',
@@ -83,18 +83,18 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'profile' => 'Профиль',
+        'server' => 'Сервер',
+        'project' => 'Проект',
+        'skin_tag' => 'Метка скина',
+        'server_category' => 'Категория Сервера',
+        'modrinth_category' => 'Категория Проекта',
     ],
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'Темы',
         'dark' => 'Тёмная',
         'light' => 'Светлая',
-        'auto' => 'Auto',
+        'auto' => 'Авто',
     ],
 ];
