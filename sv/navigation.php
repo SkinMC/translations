@@ -11,6 +11,7 @@ return [
     'armor' => 'Rustningsställ',
     'banners' => 'Banderoller',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Min profil',
 
     'generators' => 'Generatorer',
