@@ -11,6 +11,7 @@ return [
     'armor' => 'ארמור סטנד',
     'banners' => 'באנרים',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'הפרופיל שלי',
 
     'generators' => 'מחוללים',
