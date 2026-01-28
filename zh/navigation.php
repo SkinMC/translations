@@ -11,6 +11,7 @@ return [
     'armor' => '盔甲架',
     'banners' => '旗帜',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => '个人资料',
 
     'generators' => '生成器',
