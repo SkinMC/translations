@@ -11,6 +11,7 @@ return [
     'armor' => '防具立て',
     'banners' => 'バナー',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'マイプロフィール',
 
     'generators' => '生成',
