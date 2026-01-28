@@ -11,6 +11,7 @@ return [
     'armor' => 'Suporte de armadura',
     'banners' => 'Banners',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Meu perfil',
 
     'generators' => 'Geradores',
