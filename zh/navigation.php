@@ -97,4 +97,6 @@ return [
         'light' => '亮色模式',
         'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];
