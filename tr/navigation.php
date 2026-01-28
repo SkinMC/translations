@@ -11,6 +11,7 @@ return [
     'armor' => 'Zırh Askısı',
     'banners' => 'Flamalar',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Profilim',
 
     'generators' => 'Oluşturucular',
