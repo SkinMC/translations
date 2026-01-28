@@ -11,6 +11,7 @@ return [
     'armor' => 'Páncélállvány-szerkesztő',
     'banners' => 'Zászlók',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Saját profil',
 
     'generators' => 'Generators',
