@@ -11,6 +11,7 @@ return [
     'armor' => 'Porte-armure',
     'banners' => 'Bannière',
     'banner' => 'Éditeur de bannière',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Mon profil',
 
     'generators' => 'Générateur',
