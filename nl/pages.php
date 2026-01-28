@@ -49,6 +49,13 @@ return [
         'achievement' => 'Prestatie generator',
         'achievement_detail' => 'Creëer je eigen, aangepaste en gepersonaliseerde prestaties.',
         'continue' => 'Doorgaan met browsen',
+        'totem' => 'Minecraft Totem Generator',
+        'totem_description' => 'Create a custom Minecraft resource pack with a Totem of Undying from any skin.',
+        'banner' => 'Minecraft Banner Generator',
+        'banner_description' => 'Generate and preview custom Minecraft banners and patterns.',
+        'capes' => 'Minecraft Capes',
+        'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+
     ],
     'profile' => [
         'verified' => 'Geverifieerd profiel',
