@@ -11,6 +11,7 @@ return [
     'armor' => 'Harnashouder',
     'banners' => 'Banieren',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Mijn profiel',
 
     'generators' => 'Generatoren',
