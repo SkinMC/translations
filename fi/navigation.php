@@ -11,6 +11,7 @@ return [
     'armor' => 'Haarniskateline',
     'banners' => 'Bannerit',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Profiilini',
 
     'generators' => 'Generaattorit',
