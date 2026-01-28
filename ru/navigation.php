@@ -97,4 +97,6 @@ return [
         'light' => 'Светлая',
         'auto' => 'Авто',
     ],
+
+    'language' => 'Language',
 ];
