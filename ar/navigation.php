@@ -11,6 +11,7 @@ return [
     'armor' => 'ارمور ستاند',
     'banners' => 'البنرات',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'ملفي الشخصي',
 
     'generators' => 'Generators',
