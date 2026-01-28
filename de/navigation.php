@@ -11,6 +11,7 @@ return [
     'armor' => 'Rüstungsständer',
     'banners' => 'Banner',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Mein Profil',
 
     'generators' => 'Generatoren',
