@@ -49,6 +49,13 @@ return [
         'achievement' => '成就生成器',
         'achievement_detail' => '创建您自己的自定义和个性化成就。',
         'continue' => '继续浏览',
+        'totem' => 'Minecraft Totem Generator',
+        'totem_description' => 'Create a custom Minecraft resource pack with a Totem of Undying from any skin.',
+        'banner' => 'Minecraft Banner Generator',
+        'banner_description' => 'Generate and preview custom Minecraft banners and patterns.',
+        'capes' => 'Minecraft Capes',
+        'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+
     ],
     'profile' => [
         'verified' => '已验证的个人资料',
