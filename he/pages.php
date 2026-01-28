@@ -49,6 +49,13 @@ return [
         'achievement' => 'גנרטור הישגים',
         'achievement_detail' => 'צור משלך הישגים מותאמים אישית.',
         'continue' => 'המשך לגלות',
+        'totem' => 'Minecraft Totem Generator',
+        'totem_description' => 'Create a custom Minecraft resource pack with a Totem of Undying from any skin.',
+        'banner' => 'Minecraft Banner Generator',
+        'banner_description' => 'Generate and preview custom Minecraft banners and patterns.',
+        'capes' => 'Minecraft Capes',
+        'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+
     ],
     'profile' => [
         'verified' => 'פרופיל מאומת',
