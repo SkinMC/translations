@@ -11,6 +11,7 @@ return [
     'armor' => '갑옷 거치대',
     'banners' => '배너',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => '내 프로필',
 
     'generators' => '생성기',
