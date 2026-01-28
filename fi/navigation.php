@@ -97,4 +97,6 @@ return [
         'light' => 'Vaalea',
         'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];
