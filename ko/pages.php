@@ -49,6 +49,13 @@ return [
         'achievement' => '도전과제 생성기',
         'achievement_detail' => '나만의 개인적인 맞춤 도전과제를 생성해 보세요.',
         'continue' => '계속 둘러보기',
+        'totem' => 'Minecraft Totem Generator',
+        'totem_description' => 'Create a custom Minecraft resource pack with a Totem of Undying from any skin.',
+        'banner' => 'Minecraft Banner Generator',
+        'banner_description' => 'Generate and preview custom Minecraft banners and patterns.',
+        'capes' => 'Minecraft Capes',
+        'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+
     ],
     'profile' => [
         'verified' => '인증된 프로필',
