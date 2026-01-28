@@ -11,6 +11,7 @@ return [
     'armor' => 'Стойка для брони',
     'banners' => 'Баннеры',
     'banner' => 'Редактор флагов',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Мой профиль',
 
     'generators' => 'Генераторы',
