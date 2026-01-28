@@ -11,6 +11,7 @@ return [
     'armor' => 'Стійка для броні',
     'banners' => 'Стяги',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Мій профіль',
 
     'generators' => 'Генератори',
