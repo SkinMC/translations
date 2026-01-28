@@ -11,6 +11,7 @@ return [
     'armor' => 'Stojak na zbroję',
     'banners' => 'Banery',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Mój profil',
 
     'generators' => 'Generatory',
