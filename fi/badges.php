@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'verified' => 'Verified Profile',
-    'claimed' => 'Minecraft Account Linked',
+    'verified' => 'Vahvistettu profiili',
+    'claimed' => 'Minecraft-tili Yhdistetty',
     'role' => [
-        'admin' => 'Administrator',
-        'moderator' => 'Moderator',
-        'user' => 'User',
+        'admin' => 'Ylläpitäjä',
+        'moderator' => 'Moderaattori',
+        'user' => 'Käyttäjä',
     ],
 ];
 
