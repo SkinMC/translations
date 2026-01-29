@@ -10,21 +10,21 @@ return [
     'achievement' => 'Saavutus',
     'armor' => 'Haarniskateline',
     'banners' => 'Bannerit',
-    'banner' => 'Banner Editor',
-    'banner_gallery' => 'Banner Gallery',
+    'banner' => 'Bannerin Muokkaaja',
+    'banner_gallery' => 'Banneri Galleria',
     'profile' => 'Profiilini',
 
     'generators' => 'Generaattorit',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
-    'discover' => 'Discover',
-    'mods' => 'Mods',
-    'shaders' => 'Shaders',
-    'resource_packs' => 'Resource Packs',
-    'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'feed' => 'Syöte',
+    'discover' => 'Tutustu',
+    'mods' => 'Modit',
+    'shaders' => 'Varjostimet',
+    'resource_packs' => 'Resurssipaketit',
+    'modpacks' => 'Modipaketit',
+    'datapacks' => 'Datapaketit',
+    'plugins' => 'Laajennukset',
 
     'logout' => 'Kirjaudu ulos',
     'register' => 'Rekisteröidy nyt',
@@ -51,7 +51,7 @@ return [
     'edit_skin' => 'Muokkaa ulkoasua',
     'make_avatar' => 'Tee profiilikuva',
     'find_heads' => 'Etsi pelaajan päät',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Ei vielä ehdotuksia. Paina Enter-näppäintä katsoaksesi sitä.',
 
     'home' => 'Koti',
     'help' => 'Ohje',
@@ -71,8 +71,8 @@ return [
     'app' => 'Sovellus',
     'mod' => 'Modi',
     'totem' => 'Toteemit',
-    'cube' => 'Cube',
-    'new' => 'New',
+    'cube' => 'Kuutio',
+    'new' => 'Uusi',
 
     'feedback' => 'Palaute',
     'status' => 'Tila',
@@ -84,20 +84,20 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'profile' => 'Profiili',
+        'server' => 'Palvelin',
+        'project' => 'Projekti',
+        'skin_tag' => 'Skinin Tunnisteet',
+        'server_category' => 'Palvelimen Kategoria',
+        'modrinth_category' => 'Projektin Kategoria',
     ],
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'Teema',
         'dark' => 'Tumma',
         'light' => 'Vaalea',
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'Kieli',
 ];
