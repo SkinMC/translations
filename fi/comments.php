@@ -39,6 +39,6 @@ return [
     'empty' => 'Ei kommentteja vielä',
     'empty-subtitle' => 'Ole ensimmäinen, joka jakaa mitä ajattelet!',
     'deleted' => 'Kommenttisi poistettiin onnistuneesti',
-    'author' => 'Author',
-    'author-liked' => 'Liked by the post author'
+    'author' => 'Tekijä',
+    'author-liked' => 'Julkaisun kirjoittajan tykkäämä'
 ];
