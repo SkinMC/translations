@@ -497,6 +497,7 @@ return [
             'favourites_count' => ':count favourite|:count favourites',
             'favourite_label' => 'favourite',
             'favourites_label' => 'favourites',
+            'similar_banners' => 'Similar banners',
         ],
         'already_exists' => 'This banner is already in the gallery.',
     ],
