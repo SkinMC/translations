@@ -23,5 +23,5 @@ return [
     'show-password' => 'Näytä salasana',
     'hide-password' => 'Piilota salasana',
     'invite_code' => 'Kutsukoodi',
-    'ghost' => 'Ghost',
+    'ghost' => 'Aave',
 ];
