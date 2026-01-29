@@ -2,37 +2,37 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
-        'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'black' => 'Musta',
+        'red' => 'Punainen',
+        'green' => 'Vihreä',
+        'brown' => 'Ruskea',
+        'blue' => 'Sininen',
+        'purple' => 'Violetti',
+        'cyan' => 'Turkoosi',
+        'gray' => 'Harmaa',
+        'dark_gray' => 'Tummanharmaa',
+        'pink' => 'Vaaleanpunainen',
+        'lime' => 'Limenvihreä',
+        'yellow' => 'Keltainen',
+        'light_blue' => 'Vaaleansininen',
+        'magenta' => 'Purppura',
+        'orange' => 'Oranssi',
+        'white' => 'Valkoinen',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Täysin :color Kenttä',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
+        'bs' => 'Pohja',           // stripe_bottom
+        'ts' => 'Yläosa',         // stripe_top
+        'ls' => 'Kalpea Dexter',   // stripe_left
+        'rs' => 'Kalpea Sinister', // stripe_right
+        'cs' => 'Kalpea',          // stripe_center
+        'ms' => 'Alaosa',          // stripe_middle
+        'drs' => 'Kaarre',         // stripe_downright
+        'dls' => 'Kaartuva Sinister', // stripe_downleft
         'ss' => 'Paly',          // small_stripes
 
         // Crosses
