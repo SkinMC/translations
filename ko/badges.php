@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'verified' => '인증된 프로필',
-    'claimed' => '프로필 등록 완료',
+    'verified' => 'Verified Profile',
+    'claimed' => 'Minecraft Account Linked',
     'role' => [
-        'admin' => '관리자',
-        'moderator' => '중재자',
-        'user' => '사용자',
+        'admin' => 'Administrator',
+        'moderator' => 'Moderator',
+        'user' => 'User',
     ],
 ];
 
