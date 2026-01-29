@@ -23,5 +23,5 @@ return [
     'show-password' => 'Passwort anzeigen',
     'hide-password' => 'Passwort verbergen',
     'invite_code' => 'Einladungscode',
-    'ghost' => 'Ghost',
+    'ghost' => 'Geist',
 ];
