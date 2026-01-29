@@ -116,4 +116,3 @@ return [
     'cancel' => 'Cancel',
     'continue' => 'Continue',
 ];
-
