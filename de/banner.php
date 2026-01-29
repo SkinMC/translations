@@ -2,22 +2,22 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
+        'black' => 'Schwarz',
+        'red' => 'Rot',
+        'green' => 'Grün',
+        'brown' => 'Braun',
+        'blue' => 'Blau',
+        'purple' => 'Violett',
+        'cyan' => 'Türkis',
+        'gray' => 'Grau',
+        'dark_gray' => 'Dunkelgrau',
+        'pink' => 'Rosa',
+        'lime' => 'Hellgrün',
+        'yellow' => 'Gelb',
+        'light_blue' => 'Hellblau',
         'magenta' => 'Magenta',
         'orange' => 'Orange',
-        'white' => 'White',
+        'white' => 'Weiß',
     ],
 
     'patterns' => [
@@ -73,17 +73,17 @@ return [
         'bri' => 'Field Masoned',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
+        'gra' => 'Farbverlauf',     // gradient
         'gru' => 'Base Gradient', // gradient_up
 
         // Charges (creatures / objects)
         'cre' => 'Creeper Charge', // creeper
         'sku' => 'Skull Charge',   // skull
         'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
+        'moj' => 'Objekt',         // mojang
         'glb' => 'Globe',         // globe
         'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
+        'flow' => 'Fluss',
         'guster' => 'Guster',
     ],
 ];
