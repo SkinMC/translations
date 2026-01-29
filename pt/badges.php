@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'verified' => 'Perfil Verificado',
-    'claimed' => 'Perfil reivindicado',
+    'verified' => 'Verified Profile',
+    'claimed' => 'Minecraft Account Linked',
     'role' => [
-        'admin' => 'Administrador',
-        'moderator' => 'Moderador',
-        'user' => 'Usuário',
+        'admin' => 'Administrator',
+        'moderator' => 'Moderator',
+        'user' => 'User',
     ],
 ];
 
