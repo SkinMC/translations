@@ -491,6 +491,8 @@ return [
             'banner_give_command' => 'Banner give command',
             'setblock_command' => 'Setblock command',
             'shield_give_command' => 'Shield give command',
+            'views_count' => ':count view|:count views',
+            'favourites_count' => ':count favourite|:count favourites',
         ],
         'already_exists' => 'This banner is already in the gallery.',
     ],
