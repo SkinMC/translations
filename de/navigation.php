@@ -11,7 +11,7 @@ return [
     'armor' => 'Rüstungsständer',
     'banners' => 'Banner',
     'banner' => 'Banner Editor',
-    'banner_gallery' => 'Banner Gallery',
+    'banner_gallery' => 'Banner-Galerie',
     'profile' => 'Mein Profil',
 
     'generators' => 'Generatoren',
@@ -88,8 +88,8 @@ return [
         'server' => 'Server',
         'project' => 'Project',
         'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'server_category' => 'Serverkategorie',
+        'modrinth_category' => 'Projektkategorie',
     ],
 
     'theme' => [
@@ -99,5 +99,5 @@ return [
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'Sprache',
 ];
