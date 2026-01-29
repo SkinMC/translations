@@ -2,7 +2,7 @@
 
 return [
     'acceptAllButton' => 'Hyväksy kaikki',
-    'declineAll' => 'Decline All',
+    'declineAll' => 'Hylkää Kaikki',
     'save' => 'Tallenna',
     'PopupTitle' => 'Evästeiden suostumus',
     'PopupDescription' => 'SkinMC käyttää evästeitä toiminnallisuuden ja ominaisuuksien tarjoamiseen.',
