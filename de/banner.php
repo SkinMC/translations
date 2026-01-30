@@ -77,7 +77,7 @@ return [
         'gru' => 'Base Gradient', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
+        'cre' => 'Creeper-Ladung', // creeper
         'sku' => 'Skull Charge',   // skull
         'flo' => 'Flower Charge', // flower
         'moj' => 'Objekt',         // mojang
