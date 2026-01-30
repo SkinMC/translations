@@ -25,7 +25,7 @@ return [
         'base' => 'Fully :color Field',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
+        'bs' => 'Standard',           // stripe_bottom
         'ts' => 'Chief',         // stripe_top
         'ls' => 'Pale Dexter',   // stripe_left
         'rs' => 'Pale Sinister', // stripe_right
@@ -58,8 +58,8 @@ return [
         'tr' => 'Chief Sinister Canton', // square_top_right
 
         // Triangles
-        'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
+        'bt' => 'halbe Spitze',           // triangle_bottom
+        'tt' => 'gestürzte halbe Spitze',  // triangle_top
         'bts' => 'Base Indented',   // triangles_bottom
         'tts' => 'Chief Indented',  // triangles_top
 
@@ -78,12 +78,12 @@ return [
 
         // Charges (creatures / objects)
         'cre' => 'Creeper-Ladung', // creeper
-        'sku' => 'Skull Charge',   // skull
+        'sku' => 'Schädel',   // skull
         'flo' => 'Flower Charge', // flower
         'moj' => 'Objekt',         // mojang
-        'glb' => 'Globe',         // globe
+        'glb' => 'Globus',         // globe
         'pig' => 'Snout',         // piglin
         'flow' => 'Fluss',
-        'guster' => 'Guster',
+        'guster' => 'Windstoßer',
     ],
 ];
