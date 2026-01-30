@@ -53,8 +53,8 @@ return [
         'totem_description' => 'Erstelle von jedem Skin ein eigenes Minecraft-Ressourcenpaket mit einem Totem der Unsterblichkeit.',
         'banner' => 'Minecraft Avatar Generator',
         'banner_description' => 'Generiere und zeige dir benutzerdefinierte Minecraft-Banner und Muster.',
-        'capes' => 'Minecraft Capes',
-        'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+        'capes' => 'Minecraft-Umhänge',
+        'capes_description' => 'Durchsuche eine gigantische Minecraft-Umhang-Sammlung oder erstelle deine eigenen.',
 
     ],
     'profile' => [
@@ -1190,10 +1190,10 @@ return [
         'step-2' => '2. Profil verlinken',
         'step-2-detail' => 'Wenn du es noch nicht getan hast, melde dich an und verbinde dein Minecraft-Konto mit SkinMC.',
         'step-3' => '3. Lade dein Cape hoch',
-        'step-3-detail' => 'Gehe zu deinem Account und lade dein eigenes Cape hoch. Es wird im Spiel sichtbar sein.',
+        'step-3-detail' => 'Navigiere zu deinem Account; lade deinen eigenen Umhang hoch. Dieser wird dann im Spiel sichtbar sein.',
         'all-versions' => 'Alle Versionen',
         'latest' => 'Neueste',
-        'logged-in' => 'Lade dein Cape hoch',
+        'logged-in' => 'Lade dein Umhang hoch',
         'mirror' => 'Mirror',
         'download-via' => 'Herunterladen über:',
         'curseforge' => 'CurseForge',
