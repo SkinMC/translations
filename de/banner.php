@@ -36,7 +36,7 @@ return [
         'ss' => 'Paly',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
+        'cr' => 'Kreuz',
         'sc' => 'Saltire',       // straight_cross
 
         // Diagonals
