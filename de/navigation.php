@@ -51,7 +51,7 @@ return [
     'edit_skin' => 'Skin bearbeiten',
     'make_avatar' => 'Avatar erstellen',
     'find_heads' => 'Spielerköpfe anzeigen',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Noch keine Vorschläge. Drücke Enter um danach zu suchen.',
 
     'home' => 'Startseite',
     'help' => 'Hilfe',
@@ -84,10 +84,10 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
+        'profile' => 'Profil',
         'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
+        'project' => 'Projekt',
+        'skin_tag' => 'Skin-Tag',
         'server_category' => 'Serverkategorie',
         'modrinth_category' => 'Projektkategorie',
     ],
