@@ -576,6 +576,7 @@ return [
         'toast' => [
             'added' => 'Kedvencnek jelölve.',
             'removed' => 'Eltávolítva a kedvencek közül.',
+            'login_required' => 'Sign in to add to favourites',
         ],
         'skins' => [
             'button' => 'Kinézetek',
