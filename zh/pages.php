@@ -577,6 +577,7 @@ return [
         'toast' => [
             'added' => '已添加到您的收藏列表',
             'removed' => '已从您的收藏列表中移除',
+            'login_required' => 'Sign in to add to favourites',
         ],
         'skins' => [
             'button' => '皮肤',
