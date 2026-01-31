@@ -573,6 +573,7 @@ return [
         'toast' => [
             'added' => '즐겨찾기 목록에 추가했어요',
             'removed' => '즐겨찾기 목록에서 제거했어요',
+            'login_required' => 'Sign in to add to favourites',
         ],
         'skins' => [
             'button' => '스킨',
