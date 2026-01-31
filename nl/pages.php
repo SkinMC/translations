@@ -471,6 +471,7 @@ return [
             'invalid_base_color' => 'Invalid base colour. Must be between 0 and 15.',
             'invalid_patterns_format' => 'Invalid patterns format.',
             'invalid_pattern_structure' => 'Invalid pattern structure.',
+            'invalid_pattern_unknown' => 'Unknown pattern.',
             'invalid_pattern_color' => 'Invalid pattern colour. Must be between 0 and 15.',
         ],
         'edit' => [
