@@ -576,6 +576,7 @@ return [
         'toast' => [
             'added' => 'Added to your favourites list',
             'removed' => 'Removed from your favourites list',
+            'login_required' => 'Sign in to add to favourites',
         ],
         'skins' => [
             'button' => 'Skins',
