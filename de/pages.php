@@ -471,6 +471,7 @@ return [
             'invalid_base_color' => 'Ungültige Grundfarbe. Muss zwischen 0 und 15 liegen.',
             'invalid_patterns_format' => 'Ungültiges Musterformat.',
             'invalid_pattern_structure' => 'Ungültige Musterstruktur.',
+            'invalid_pattern_unknown' => 'Unknown pattern.',
             'invalid_pattern_color' => 'Ungültige Grundfarbe. Muss zwischen 0 und 15 liegen.',
         ],
         'edit' => [
