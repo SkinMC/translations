@@ -576,6 +576,7 @@ return [
         'toast' => [
             'added' => 'Lisätty suosikkilistaasi',
             'removed' => 'Poistettu suosikkilistastasi',
+            'login_required' => 'Sign in to add to favourites',
         ],
         'skins' => [
             'button' => 'Skinit',
