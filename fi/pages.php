@@ -471,6 +471,7 @@ return [
             'invalid_base_color' => 'Virheellinen perusväri. Värin on oltava väliltä 0 ja 15.',
             'invalid_patterns_format' => 'Virheellinen kuvion muoto.',
             'invalid_pattern_structure' => 'Virheellinen kuvion rakenne.',
+            'invalid_pattern_unknown' => 'Unknown pattern.',
             'invalid_pattern_color' => 'Virheellinen kuvion väri. Värin on oltava väliltä 0 ja 15.',
         ],
         'edit' => [
