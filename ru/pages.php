@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Присоединяйтесь к серверу Discord и общайтесь с другими, общайтесь об играх, делитесь своими любимыми ресурспаками и получайте помощь от сообщества.',
         'other_twitter' => 'Подпишитесь на Twitter, чтобы быть в курсе новых обновлений, новых скинов недели и многого другого.',
         'other_instagram' => 'Подпишитесь на SkinMC на Instagram, чтобы просмотреть и открыть для себя новые интересные Minecraft скины и изображения.',
-        'other_facebook' => 'Станьте фанатом на Facebook и увидите все записи, где можно комментировать и общаться с другими, изучая содержание Minecraft.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Ваша</span><span>площадка</span><span>для</span><span>скинов</span><span>Minecraft.</span>',
