@@ -435,7 +435,7 @@ return [
         'gallery' => [
             'header' => [
                 'title' => 'Minecraft Banner Galerie',
-                'subtitle' => 'Browse the gallery of :count custom designed Minecraft banners and patterns. Use it as a shield or cape to make your Minecraft skin more unique, or as a flag to decorate your world.',
+                'subtitle' => 'Durchsuche die Galerie mit :count individuell gestalteten Minecraft-Bannern und -Mustern. Nutze sie als Schild oder Umhang für einen einzigartigen Minecraft-Skin oder als Flagge zur Dekoration deiner Welt.',
             ],
             'meta' => [
                 'title' => 'Minecraft Banner Galerie',
