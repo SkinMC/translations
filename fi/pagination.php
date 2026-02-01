@@ -16,8 +16,8 @@ return [
     'title' => 'Hakutulosten numerointi',
     'previous' => 'Edellinen',
     'next' => 'Seuraava',
-    'Showing' => 'Showing',
-    'to' => 'to',
+    'Showing' => 'Näkyy',
+    'to' => 'vastaanottaja',
     'of' => 'of',
     'results' => 'results',
 
