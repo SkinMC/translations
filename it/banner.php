@@ -2,88 +2,88 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
-        'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'black' => 'nero',
+        'red' => 'rosso',
+        'green' => 'verde',
+        'brown' => 'marrone',
+        'blue' => 'blu',
+        'purple' => 'viola',
+        'cyan' => 'ciano',
+        'gray' => 'grigio',
+        'dark_gray' => 'grigio scuro',
+        'pink' => 'rosa',
+        'lime' => 'lime',
+        'yellow' => 'giallo',
+        'light_blue' => 'azzurro',
+        'magenta' => 'magenta',
+        'orange' => 'arancione',
+        'white' => 'bianco',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Campo :color',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
-        'ss' => 'Paly',          // small_stripes
+        'bs' => 'Fascia in punta',           // stripe_bottom
+        'ts' => 'Fascia in capo',         // stripe_top
+        'ls' => 'Palo destro',   // stripe_left
+        'rs' => 'Palo sinistro', // stripe_right
+        'cs' => 'Palo',          // stripe_center
+        'ms' => 'Fascia',          // stripe_middle
+        'drs' => 'Banda',         // stripe_downright
+        'dls' => 'Sbarra', // stripe_downleft
+        'ss' => 'Palato',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => 'Decusse',
+        'sc' => 'Croce',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => 'Tagliato',       // diagonal_left
+        'rd' => 'Trinciato',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'Trinciato rovesciato',      // diagonal_up_left
+        'rud' => 'Tagliato rovesciato', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vh' => 'Partito',              // half_vertical
+        'vhr' => 'Partito rivoltato',   // half_vertical_right
+        'hh' => 'Troncato',              // half_horizontal
+        'hhb' => 'Troncato rovesciato',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => 'Cantone destro della punta',    // square_bottom_left
+        'br' => 'Cantone sinistro della punta', // square_bottom_right
+        'tl' => 'Cantone destro del capo',  // square_top_left
+        'tr' => 'Cantone sinistro del capo', // square_top_right
 
         // Triangles
-        'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'bt' => 'Punta',           // triangle_bottom
+        'tt' => 'Punta rovesciata',  // triangle_top
+        'bts' => 'Punta cuneata',   // triangles_bottom
+        'tts' => 'Capo cuneato',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mc' => 'Torta',   // circle
+        'mr' => 'Losanga',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => 'Bordura',           // border
+        'cbo' => 'Bordura dentata', // curly_border
+        'bri' => 'Seminato di mattoni',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gra' => 'Sfumatura in capo',     // gradient
+        'gru' => 'Sfumatura in punta', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
-        'sku' => 'Skull Charge',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
-        'glb' => 'Globe',         // globe
-        'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
-        'guster' => 'Guster',
+        'cre' => 'Volto di creeper', // creeper
+        'sku' => 'Teschio',   // skull
+        'flo' => 'Fiore', // flower
+        'moj' => 'Logo',         // mojang
+        'glb' => 'Globo',         // globe
+        'pig' => 'Grugno',         // piglin
+        'flow' => 'Flusso',
+        'guster' => 'Raffica',
     ],
 ];

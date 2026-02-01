@@ -14,9 +14,9 @@ return [
     */
 
     'accepted' => ':attribute måste accepteras.',
-    'active_url' => ':attribute är inte en giltig URL.',
+    'active_url' => ':attribute är inte ett giltigt URL.',
     'after' => ':attribute måste vara ett datum efter :date.',
-    'after_or_equal' => ':attribute måste vara ett datum efter eller lika med :date.',
+    'after_or_equal' => ':attribute måste vara :date eller efter.',
     'alpha' => ':attribute får endast innehålla bokstäver.',
     'alpha_dash' => ':attribute får endast innehålla bokstäver, siffror, bindestreck och understreck.',
     'alpha_num' => ':attribute får endast innehålla bokstäver och siffror.',
@@ -31,6 +31,7 @@ return [
     ],
     'boolean' => ':attribute måste vara sant eller falskt.',
     'confirmed' => ':attribute bekräftelsen matchar inte.',
+    'current_password' => 'The password is incorrect.',
     'date' => ':attribute är inte ett giltigt datum.',
     'date_equals' => ':attribute måste vara ett datum som motsvarar :date.',
     'date_format' => ':attribute matchar inte formatet :format.',
@@ -132,7 +133,7 @@ return [
 
     'custom' => [
         'attribute-name' => [
-            'rule-name' => 'anpassat meddelande',
+            'rule-name' => 'custom-message',
         ],
     ],
 

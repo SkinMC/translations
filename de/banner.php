@@ -22,67 +22,67 @@ return [
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Vollständiges Feld (:color)',
 
         // Stripes
-        'bs' => 'Standard',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
-        'ss' => 'Paly',          // small_stripes
+        'bs' => 'Bannerfuß',           // stripe_bottom
+        'ts' => 'Bannerhaupt',         // stripe_top
+        'ls' => 'rechte Flanke',   // stripe_left
+        'rs' => 'linke Flanke', // stripe_right
+        'cs' => 'Pfahl',          // stripe_center
+        'ms' => 'Balken',          // stripe_middle
+        'drs' => 'Schrägbalken',         // stripe_downright
+        'dls' => 'Schräglinksbalken', // stripe_downleft
+        'ss' => 'Pfähle',          // small_stripes
 
         // Crosses
-        'cr' => 'Kreuz',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => 'Andreaskreuz',
+        'sc' => 'Kreuz',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => 'schräglinks geteilt',       // diagonal_left
+        'rd' => 'schrägrechts geteilt',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'schrägrechts geteilt (invertiert)',      // diagonal_up_left
+        'rud' => 'schräglinks geteilt (invertiert)', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vh' => 'Rechts gespalten',              // half_vertical
+        'vhr' => 'Links gespalten',   // half_vertical_right
+        'hh' => 'Oben geteilt',              // half_horizontal
+        'hhb' => 'Unten geteilt',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => 'rechtes Untereck',    // square_bottom_left
+        'br' => 'linkes Untereck', // square_bottom_right
+        'tl' => 'rechtes Obereck',  // square_top_left
+        'tr' => 'linkes Obereck', // square_top_right
 
         // Triangles
         'bt' => 'halbe Spitze',           // triangle_bottom
         'tt' => 'gestürzte halbe Spitze',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'bts' => 'gespickelter Bannerfuß',   // triangles_bottom
+        'tts' => 'gespickeltes Bannerhaupt',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mc' => 'Kugel',   // circle
+        'mr' => 'Raute',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => 'Bord',           // border
+        'cbo' => 'Spickelbord', // curly_border
+        'bri' => 'Feld gemauert',    // bricks
 
         // Gradients
         'gra' => 'Farbverlauf',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gru' => 'Farbverlauf (invertiert)', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper-Ladung', // creeper
+        'cre' => 'Creeper', // creeper
         'sku' => 'Schädel',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Objekt',         // mojang
+        'flo' => 'Blume', // flower
+        'moj' => 'Mojang-Logo',         // mojang
         'glb' => 'Globus',         // globe
-        'pig' => 'Snout',         // piglin
+        'pig' => 'Schnauze',         // piglin
         'flow' => 'Fluss',
         'guster' => 'Windstoßer',
     ],
