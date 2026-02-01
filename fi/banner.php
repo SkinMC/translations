@@ -61,10 +61,10 @@ return [
         'bt' => 'Chevron',           // triangle_bottom
         'tt' => 'Inverted Chevron',  // triangle_top
         'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'tts' => 'Pääasiallinen Sisennys',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
+        'mc' => 'Pyörännys',   // circle
         'mr' => 'Lozenge',   // rhombus
 
         // Borders
