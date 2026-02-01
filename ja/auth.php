@@ -22,5 +22,6 @@ return [
     'blocked' => 'あなたのアカウントは:dateにより無効化されました。エラーと思われる場合は、<a target="_blank" href=":url">サポートセンター</a>までお問い合わせください。',
     'show-password' => 'パスワードを表示する',
     'hide-password' => 'パスワードを隠す',
-    'invite_code' => '招待コード'
+    'invite_code' => '招待コード',
+    'ghost' => 'Ghost',
 ];

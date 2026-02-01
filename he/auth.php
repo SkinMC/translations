@@ -22,5 +22,6 @@ return [
     'blocked' => 'חשבונך הושבת בתאריך :date. אם אתה סבור שזו הייתה שגיאה, בקר ב<a target="_blank" href=":url">מרכז התמיכה</a> לקבלת עזרה.',
     'show-password' => 'הצג סיסמה',
     'hide-password' => 'הסתר סיסמה',
-    'invite_code' => 'קוד הזמנה'
+    'invite_code' => 'קוד הזמנה',
+    'ghost' => 'Ghost',
 ];

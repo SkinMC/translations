@@ -16,5 +16,9 @@ return [
     'title' => '検索結果の番号',
     'previous' => '前',
     'next' => '次へ',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];

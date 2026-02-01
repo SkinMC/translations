@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'verified' => '確認済みのプロフィール',
-    'claimed' => '要求されたプロフィール',
+    'verified' => 'Verified Profile',
+    'claimed' => 'Minecraft Account Linked',
     'role' => [
-        'admin' => '管理者',
-        'moderator' => 'モデレーター',
-        'user' => 'ユーザー',
+        'admin' => 'Administrator',
+        'moderator' => 'Moderator',
+        'user' => 'User',
     ],
 ];
 

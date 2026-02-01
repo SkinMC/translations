@@ -2,6 +2,7 @@
 
 return [
     'acceptAllButton' => '接受所有内容',
+    'declineAll' => 'Decline All',
     'save' => '保存',
     'PopupTitle' => '同意Cookie',
     'PopupDescription' => 'SkinMC 使用 Cookie 提供功能和特性。',

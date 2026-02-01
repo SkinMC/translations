@@ -2,6 +2,7 @@
 
 return [
     'acceptAllButton' => 'قبول کردن همه',
+    'declineAll' => 'Decline All',
     'save' => 'ذخيره',
     'PopupTitle' => 'رضایت کوکی',
     'PopupDescription' => 'اسکین ام سی از کوکی ها برای ارائه عملکرد و ویژگی ها استفاده می کند.',

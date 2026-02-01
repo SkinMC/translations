@@ -11,6 +11,7 @@ return [
     'armor' => 'ארמור סטנד',
     'banners' => 'באנרים',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'הפרופיל שלי',
 
     'generators' => 'מחוללים',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'ערוך סקין',
     'make_avatar' => 'צור אווטאר',
     'find_heads' => 'מצא ראשי שחקנים',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'בית',
     'help' => 'עזרה',
@@ -80,10 +82,22 @@ return [
     'listings' => 'רשימות',
     'add' => 'הוסף',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'כהה',
         'light' => 'בהיר',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

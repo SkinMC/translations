@@ -11,6 +11,7 @@ return [
     'armor' => 'Supporto per armature',
     'banners' => 'Stendardi',
     'banner' => 'Editor Di Banner',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Profilo personale',
 
     'generators' => 'Generatori',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Modifica skin',
     'make_avatar' => 'Crea avatar',
     'find_heads' => 'Trova teste del giocatore',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Schermata Home',
     'help' => 'Aiuto',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Inserzioni',
     'add' => 'Aggiungi',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Tema',
         'dark' => 'Scuro',
         'light' => 'Chiaro',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

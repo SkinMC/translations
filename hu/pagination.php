@@ -16,5 +16,9 @@ return [
     'title' => 'Találatok számlálása',
     'previous' => 'Előző',
     'next' => 'Következő',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];

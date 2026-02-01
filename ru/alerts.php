@@ -23,8 +23,8 @@ return [
             'text' => ':user ответил на :model комментарий'
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
+            'title' => 'Комментарий лайкнул',
+            'text' => ':user лайкнул ваш комментарий!'
         ]
     ],
     'post' => [
@@ -37,8 +37,8 @@ return [
             'text' => ':user упомянул вас в своем посте!'
         ],
         'repost' => [
-            'title' => 'Repost',
-            'text' => ':user reposted your post!'
+            'title' => 'Репост',
+            'text' => ':user перепостил ваш пост!'
         ]
     ],
     'level' => [

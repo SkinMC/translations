@@ -1,90 +1,89 @@
 <?php
 
 return [
-    // Heraldic color names from Minecraft fr_fr (e.g. "Champ de sable plain")
     'colors' => [
-        'black' => 'sable',
-        'red' => 'gueules',
-        'green' => 'sinople',
-        'brown' => 'tanné',
-        'blue' => 'azur',
-        'purple' => 'mûre',
-        'cyan' => 'cyan',
-        'gray' => 'acier',
-        'dark_gray' => 'acier',
-        'pink' => 'carnation',
-        'lime' => 'sinople clair',
-        'yellow' => 'or',
-        'light_blue' => 'bleu céleste',
-        'magenta' => 'pourpre',
-        'orange' => 'orangé',
-        'white' => 'argent',
+        'black' => 'Black',
+        'red' => 'Red',
+        'green' => 'Green',
+        'brown' => 'Brown',
+        'blue' => 'Blue',
+        'purple' => 'Purple',
+        'cyan' => 'Cyan',
+        'gray' => 'Grey',
+        'dark_gray' => 'Dark Grey',
+        'pink' => 'Pink',
+        'lime' => 'Lime',
+        'yellow' => 'Yellow',
+        'light_blue' => 'Light Blue',
+        'magenta' => 'Magenta',
+        'orange' => 'Orange',
+        'white' => 'White',
     ],
 
     'patterns' => [
-        // Base: "Champ de X plain" in Minecraft → "Champ entier :color"
-        'base' => 'Champ entier :color',
+        // Base (solid background) – game: "Fully :color Field"
+        'base' => 'Fully :color Field',
 
         // Stripes
-        'bs' => 'Champagne',           // stripe_bottom
-        'ts' => 'Chef',                // stripe_top
-        'ls' => 'Pal à dextre',        // stripe_left
-        'rs' => 'Pal à sénestre',      // stripe_right
-        'cs' => 'Pal',                 // stripe_center
-        'ms' => 'Fasce',               // stripe_middle
-        'drs' => 'Bande',              // stripe_downright
-        'dls' => 'Barre à sénestre',   // stripe_downleft
-        'ss' => 'Pals',                // small_stripes
+        'bs' => 'Base',           // stripe_bottom
+        'ts' => 'Chief',         // stripe_top
+        'ls' => 'Pale Dexter',   // stripe_left
+        'rs' => 'Pale Sinister', // stripe_right
+        'cs' => 'Pale',          // stripe_center
+        'ms' => 'Fess',          // stripe_middle
+        'drs' => 'Bend',         // stripe_downright
+        'dls' => 'Bend Sinister', // stripe_downleft
+        'ss' => 'Paly',          // small_stripes
 
         // Crosses
-        'cr' => 'Sautoir',             // cross
-        'sc' => 'Croix',               // straight_cross
+        'cr' => 'Cross',
+        'sc' => 'Saltire',       // straight_cross
 
         // Diagonals
-        'ld' => 'Taillé',                    // diagonal_left
-        'rd' => 'Bande',                     // stripe_downright (Per Bend)
-        'lud' => 'Tranché (inverté)',        // diagonal_up_left
-        'rud' => 'Taillé (inverté)',         // diagonal_up_right
+        'ld' => 'Per Bend Sinister',       // diagonal_left
+        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'Per Bend Inverted',      // diagonal_up_left
+        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
 
         // Halves
-        'vh' => 'Parti',                    // half_vertical
-        'vhr' => 'Parti (inverté)',         // half_vertical_right
-        'hh' => 'Coupé',                    // half_horizontal
-        'hhb' => 'Coupé (inverté)',         // half_horizontal_bottom
+        'vh' => 'Per Pale',              // half_vertical
+        'vhr' => 'Per Pale Inverted',   // half_vertical_right
+        'hh' => 'Per Fess',              // half_horizontal
+        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Canton en pointe à dextre',   // square_bottom_left
-        'br' => 'Canton en pointe à sénestre', // square_bottom_right
-        'tl' => 'Canton en chef à dextre',     // square_top_left
-        'tr' => 'Canton en chef à sénestre',    // square_top_right
+        'bl' => 'Base Dexter Canton',    // square_bottom_left
+        'br' => 'Base Sinister Canton', // square_bottom_right
+        'tl' => 'Chief Dexter Canton',  // square_top_left
+        'tr' => 'Chief Sinister Canton', // square_top_right
 
         // Triangles
-        'bt' => 'Mantelé',              // triangle_bottom
-        'tt' => 'Mantelé renversé',     // triangle_top
-        'bts' => 'Émanchures en pointe', // triangles_bottom
-        'tts' => 'Émanchures en chef',   // triangles_top
+        'bt' => 'Chevron',           // triangle_bottom
+        'tt' => 'Inverted Chevron',  // triangle_top
+        'bts' => 'Base Indented',   // triangles_bottom
+        'tts' => 'Chief Indented',  // triangles_top
 
         // Shapes
-        'mc' => 'Tourteau',   // circle
-        'mr' => 'Losange',    // rhombus
+        'mc' => 'Roundel',   // circle
+        'mr' => 'Lozenge',   // rhombus
 
         // Borders
         'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure cannelée', // curly_border
-        'bri' => 'Champ maçonné',    // bricks
+        'cbo' => 'Bordure Indented', // curly_border
+        'bri' => 'Field Masoned',    // bricks
 
         // Gradients
-        'gra' => 'Dégradé',           // gradient
-        'gru' => 'Dégradé en pointe', // gradient_up
+        'gra' => 'Gradient',     // gradient
+        'gru' => 'Base Gradient', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Face de Creeper', // creeper
-        'sku' => 'Crâne',           // skull
-        'flo' => 'Fleur',           // flower
-        'moj' => 'Symbole',         // mojang
-        'glb' => 'Globe',           // globe
-        'pig' => 'Groin',           // piglin
-        'flow' => 'Tourbillon',     // flow
-        'guster' => 'Rafaleur',     // guster
+        'cre' => 'Creeper Charge', // creeper
+        'sku' => 'Skull Charge',   // skull
+        'flo' => 'Flower Charge', // flower
+        'moj' => 'Thing',         // mojang
+        'glb' => 'Globe',         // globe
+        'pig' => 'Snout',         // piglin
+        'flow' => 'Flow',
+        'guster' => 'Guster',
     ],
 ];

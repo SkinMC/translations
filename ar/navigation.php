@@ -11,6 +11,7 @@ return [
     'armor' => 'ارمور ستاند',
     'banners' => 'البنرات',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'ملفي الشخصي',
 
     'generators' => 'Generators',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'تعديل السكن',
     'make_avatar' => 'صنع افتار',
     'find_heads' => 'ايجاد دماغ الاعب',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'الرئيسية',
     'help' => 'مساعدة',
@@ -80,10 +82,22 @@ return [
     'listings' => 'القوائم',
     'add' => 'إضافة',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'داكن',
         'light' => 'فاتح',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

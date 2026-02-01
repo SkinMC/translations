@@ -22,5 +22,6 @@ return [
     'blocked' => 'Ez a fiók letiltásra került ekkor: :date. Ha úgy gondolod, hogy ez téves, látogasd meg az <a target="_blank" href=":url">ügyfélszolgálatot</a>.',
     'show-password' => 'Jelszó mutatása',
     'hide-password' => 'Jelszó elrejtése',
-    'invite_code' => 'Invite code'
+    'invite_code' => 'Invite code',
+    'ghost' => 'Ghost',
 ];

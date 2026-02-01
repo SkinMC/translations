@@ -7,12 +7,14 @@ return [
         ],
         'register' => [
             'title' => 'Зареєструватися на SkinMC',
-            'subtitle' => 'Почніть роботу та створіть свій обліковий запис для повного доступу.'
-        ]
+            'subtitle' => 'Почніть роботу та створіть свій обліковий запис для повного доступу.',
+        ],
     ],
 
     'home' => [
         'hero_slogan' => 'Ваше місце для скинів Minecraft.',
+        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => 'Здивувати мене',
         'hero_explore_cta' => 'Дослідити скини',
         'skin_viewer' => 'Переглядач скинів',
@@ -46,7 +48,14 @@ return [
         'head_description' => 'Перегляньте базу даних голів Minecraft, або створіть нову.',
         'achievement' => 'Генератор досягнень',
         'achievement_detail' => 'Створіть свої власні та персоналізовані досягнення.',
-        'continue' => 'Продовжити перегляд'
+        'continue' => 'Продовжити перегляд',
+        'totem' => 'Minecraft Totem Generator',
+        'totem_description' => 'Create a custom Minecraft resource pack with a Totem of Undying from any skin.',
+        'banner' => 'Minecraft Banner Generator',
+        'banner_description' => 'Generate and preview custom Minecraft banners and patterns.',
+        'capes' => 'Minecraft Capes',
+        'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+
     ],
     'profile' => [
         'verified' => 'Підтверджений профіль',
@@ -74,18 +83,18 @@ return [
         'skins' => [
             'meta_title' => 'Історія скинів Minecraft :username',
             'meta_description' => 'Перегляд історію скінів Minecraft :username і раніше використані скіни. Використовуйте історію, щоб переглядати старі або використовувані скіни, створювати резервні копії та відкочувати або збирати нові скіни.',
-            'title' => 'Історія скина Minecraft'
+            'title' => 'Історія скина Minecraft',
         ],
         'qr_code' => [
             'meta_title' => 'QR-код :username',
-            'meta_description' => 'Користувацький QR-код профілю Minecraft :username'
+            'meta_description' => 'Користувацький QR-код профілю Minecraft :username',
         ],
         'sub_nav' => [
             'skin' => 'Скин',
             'about' => 'Інформація',
             'usernames' => 'Імена користувачів',
             'head' => 'Голова',
-            'comments' => 'Коментарі'
+            'comments' => 'Коментарі',
         ],
         'cape' => 'Плащ',
         'elytra' => 'Надкрилля',
@@ -104,11 +113,11 @@ return [
         'toast' => [
             'following' => 'Ви підписалися на :username!',
             'follow-self-error' => 'Вибачте, :username, ви не можете підписатися на себе.',
-            'unfollowed' => 'Ви відписалися від :username'
+            'unfollowed' => 'Ви відписалися від :username',
         ],
         'edit' => 'Редагувати профіль',
         'joined' => 'Приєднується',
-        'role' => 'Роль',
+        'role' => 'Role',
         'server-fav-list-empty' => 'Схоже, :username ще не має улюблених серверів. Після того, як :username збереже сервер, як улюблений, ви зможете побачити його тут.',
         'server-own-list-empty' => 'Схоже, :username ще не має улюблених серверів. Після того, як :username збереже сервер, як улюблений, ви зможете побачити його тут.',
         'capes-list-empty' => 'Схоже, :username поки що не має плащів. Як тільки :username отримає плащ, ви можете побачити його тут.',
@@ -131,7 +140,7 @@ return [
         ],
         'cape-list' => [
             'title' => 'Плащі користувача :username',
-        ]
+        ],
     ],
     'skin' => [
         'meta' => [
@@ -187,8 +196,8 @@ return [
             'bad' => [
                 'title' => 'Не додавайте такі теги, як ось:',
                 'general' => 'Занадто загальне',
-                'specific' =>  'Занадто специфічне',
-                'too-many-tags' =>  'Має бути три окремих теги',
+                'specific' => 'Занадто специфічне',
+                'too-many-tags' => 'Має бути три окремих теги',
                 'spelling' => 'Має бути :example',
             ],
         ],
@@ -196,7 +205,7 @@ return [
             'added' => 'Тег «:tag» додано для голосування',
             'removed' => 'Тег «:tag» видалено',
             'upvote' => 'Проголосовано за «:tag»',
-            'downvote' => 'Проголосовано проти «:tag»'
+            'downvote' => 'Проголосовано проти «:tag»',
         ],
         'vote' => [
             'up' => 'Голос «за»',
@@ -212,7 +221,7 @@ return [
         'other_discord' => 'Приєднуйтеся до сервера Discord і спілкуйтеся з іншими, спілкуйтеся про ігри, діліться улюбленими пакетами та отримуйте допомогу від спільноти.',
         'other_twitter' => 'Стежте за Twitter, щоб дізнатися, коли буде випущено нове оновлення чи функцію, переглянути оформлення тижня тощо.',
         'other_instagram' => 'Слідкуйте за SkinMC в Instagram, щоб переглядати та відкривати для себе нові цікаві скіни та зображення Minecraft.',
-        'other_facebook' => 'Станьте шанувальником у Facebook і перегляньте всі публікації, де ви можете коментувати та спілкуватися з іншими під час вивчення вмісту Minecraft.'
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Ваша</span> <span>платформа</span> <span>для</span> <span>скінів</span> <span>Minecraft.</span>',
@@ -342,8 +351,8 @@ return [
             'mini' => 'Міні версія вашого скина!',
             'full' => 'Повна версія вашого скина!',
             'model3d' => '3D-модель вашого скина!',
-            'add_designs' => 'Хочете побачити більше дизайнів? Надішліть свою пропозицію щодо дизайну тут:'
-        ]
+            'add_designs' => 'Хочете побачити більше дизайнів? Надішліть свою пропозицію щодо дизайну тут:',
+        ],
     ],
     'achievement' => [
         'header' => [
@@ -386,24 +395,121 @@ return [
                 'title' => 'Генератор стягів Minecraft',
                 'description' => 'Створюйте власні дизайни стягів Minecraft з усіма візерунками та кольорами з гри! Ними можна прикрасити свій світ або носити їх як плащ Optifine за допомогою стягів. Ви можете створити коди для стягів або щитів.',
             ],
+            'toolbar' => [
+                'title' => 'Banner Editor',
+                'randomise' => 'Randomise',
+                'clear_layers' => 'Clear layers',
+                'help' => 'Help',
+                'save_banner' => 'Save banner',
+                'submit_to_gallery' => 'Add to gallery',
+                'reset_from_url' => 'Load from link',
+                'minecraft_version' => 'Minecraft version',
+                'texture_type' => 'Texture type',
+                'banner' => 'Banner',
+                'shield' => 'Shield',
+                'version_1_21' => '1.21+',
+                'version_1_16' => '1.16 - 1.20',
+                'version_1_13' => '1.13 - 1.15',
+                'version_1_8' => '1.8 - 1.12',
+            ],
+            'tools' => [
+                'share_link' => 'Share link',
+                'share_link_placeholder' => 'Share link',
+                'generate_codes' => 'Generate codes',
+                'target_selector' => 'Target selector',
+                'command_give' => 'Give',
+                'command_setblock' => 'Setblock',
+                'command_replaceitem_shield' => 'Shield',
+                'code_placeholder' => 'Pick a command to generate code',
+                'import_code' => 'Import code',
+                'background_grass' => 'Grass background',
+            ],
+            'modal' => [
+                'save_banners' => 'Saved banners',
+                'share_saved_gallery' => 'Share saved gallery',
+                'share_saved_gallery_placeholder' => 'Share saved gallery',
+                'export_to_chest' => 'Export to chest',
+                'delete_all' => 'Delete all',
+            ],
         ],
         'gallery' => [
             'header' => [
                 'title' => 'Галерея стягів Minecraft',
-                'subtitle' => 'Перегляньте галерею :count власноруч розроблених стягів Minecraft. Ви можете використовувати стяг як плащ, щоб зробити свій скін Minecraft унікальним, або використовувати стяг як прапор, щоб прикрасити свій світ.',
+                'subtitle' => 'Browse the gallery of :count custom designed Minecraft banners and patterns. Use it as a shield or cape to make your Minecraft skin more unique, or as a flag to decorate your world.',
             ],
             'meta' => [
                 'title' => 'Галерея стягів Minecraft',
-                'description' => 'Перегляньте галерею :count власноруч розроблених стягів Minecraft. Ви можете використовувати банер як накидку, щоб зробити свою шкіру Minecraft унікальнішою, або використовувати банер як прапор, щоб прикрасити свій світ.',
+                'description' => 'Browse the gallery of :count custom designed Minecraft Banners. You can use a Banner Design and Pattern as a Shield or cape to make your Minecraft skin more unique, or use it as a flag to decorate your world.',
             ],
+            'add_design' => 'Add design',
+            'sort' => 'Sort:',
+            'sort_trending' => 'Trending',
+            'sort_best' => 'Best of',
+            'sort_newest' => 'Newest',
+            'sort_oldest' => 'Oldest',
+            'sort_favorites' => 'Most favourites',
+            'sort_views' => 'Most views',
+            'sort_last_week' => 'Last week',
+            'sort_last_30d' => 'Last 30 days',
+            'clear_filters' => 'Clear filters',
+            'no_banners' => 'No banners yet',
+            'no_banners_message' => 'No designs yet. Be the first to share one.',
+            'create_banner' => 'Create a banner',
         ],
+        'publish' => [
+            'title' => 'Publish banner',
+            'publish_button' => 'Publish',
+            'title_label' => 'Title',
+            'description_label' => 'Description',
+            'tags_label' => 'Tags',
+            'tags_max_reached' => 'Maximum 5 tags reached',
+            'tags_add_placeholder' => 'Add a tag',
+            'tags_help' => 'Press enter, tab, or comma to add a tag.',
+            'tags_max_error' => 'You can add a maximum of 5 tags.',
+            'generate_banner_error' => 'Create a design first.',
+            'invalid_code_format' => 'Invalid banner code format.',
+            'invalid_base_color' => 'Invalid base colour. Must be between 0 and 15.',
+            'invalid_patterns_format' => 'Invalid patterns format.',
+            'invalid_pattern_structure' => 'Invalid pattern structure.',
+            'invalid_pattern_unknown' => 'Unknown pattern.',
+            'invalid_pattern_color' => 'Invalid pattern colour. Must be between 0 and 15.',
+        ],
+        'edit' => [
+            'title' => 'Edit banner',
+            'title_label' => 'Title',
+            'description_label' => 'Description',
+            'tags_label' => 'Tags',
+            'tags_max_reached' => 'Maximum 5 tags reached',
+            'tags_add_placeholder' => 'Add a tag',
+            'tags_help' => 'Press enter, tab, or comma to add a tag.',
+            'tags_max_error' => 'You can add a maximum of 5 tags.',
+            'save_changes' => 'Save changes',
+            'cancel' => 'Cancel',
+            'edit_details' => 'Edit banner details',
+            'delete' => 'Delete banner',
+            'delete_confirm' => 'Delete this banner? This cannot be undone.',
+        ],
+        'show' => [
+            'edit_design' => 'Edit design',
+            'banner_give_command' => 'Banner give command',
+            'setblock_command' => 'Setblock command',
+            'shield_give_command' => 'Shield give command',
+            'views_count' => ':count view|:count views',
+            'favourites_count' => ':count favourite|:count favourites',
+            'favourite_label' => 'favourite',
+            'favourites_label' => 'favourites',
+            'similar_banners' => 'Similar banners',
+        ],
+        'already_exists' => 'This banner is already in the gallery.',
     ],
     'search' => [
         'meta' => [
             'title' => 'Результати пошуку: :search',
         ],
+        'what_are_you_searching_for' => 'What are you searching for?',
         'title' => 'Результати пошуку',
         'results' => 'Сторінка :current для результату :count|Сторінка :current з приблизно :count результатами ',
+        'results_count' => ':count result|:count results',
         'time' => '(:time секунд)',
         'username_available' => 'Доступне ім’я користувача*',
         'username_unavailable' => 'Ім’я користувача недоступне',
@@ -418,6 +524,35 @@ return [
         'again' => 'Шукати знову',
         'sorry' => 'Вибачте...',
         'view_profile' => 'Переглянути профіль',
+        'view_all' => 'View all',
+        'filters' => 'Filters',
+        'more_results' => 'more results',
+        'more_results_fallback' => 'more results',
+        'close' => 'Close',
+        'clear_filters' => 'Clear all',
+        'profiles' => 'Profiles',
+        'verified_only' => 'Verified only',
+        'verification' => 'Verification',
+        'all' => 'All',
+        'verified' => 'Verified',
+        'not_verified' => 'Not verified',
+        'country' => 'Country',
+        'country_placeholder' => 'e.g. US, UK',
+        'no_types_found' => 'No project types found for this search',
+        'no_categories_found' => 'No categories found for this search',
+        'featured' => 'Featured',
+        'yes' => 'Yes',
+        'no' => 'No',
+        'skins' => 'Skins',
+        'tags' => 'Tags',
+        'no_tags_found' => 'No tags found for this search',
+        'min_profiles' => 'Min profiles using',
+        'try_different' => 'Try a different search term',
+        'skins_no_results' => 'No skins found',
+        'empty_state' => [
+            'title' => 'No matches this time',
+            'message' => "We didn't find any results for this search. Try adjusting your keywords or browsing instead.",
+        ],
     ],
     'collection' => [
         'title' => 'Колекція скінів Minecraft',
@@ -440,7 +575,8 @@ return [
         'sort' => 'Сортувати',
         'toast' => [
             'added' => 'Додано до списку улюбленого',
-            'removed' => 'Видалено зі списку улюбленого'
+            'removed' => 'Видалено зі списку улюбленого',
+            'login_required' => 'Sign in to add to favourites',
         ],
         'skins' => [
             'button' => 'Скини',
@@ -460,7 +596,7 @@ return [
             'meta' => [
                 'title' => 'Мої улюблені сервери',
                 'description' => 'Мої улюблені сервери Minecraft',
-             ],
+            ],
         ],
 
     ],
@@ -493,8 +629,8 @@ return [
         ],
         'list-custom' => [
             'title' => 'Користувацькі плащі Minecraft',
-            'description' => 'Переглядайте користувацькі плащі, створені та використовувані учасниками SkinMC.'
-        ]
+            'description' => 'Переглядайте користувацькі плащі, створені та використовувані учасниками SkinMC.',
+        ],
     ],
     'servers' => [
         'title' => 'Сервери Minecraft',
@@ -520,7 +656,7 @@ return [
             'reviews' => 'Відгуки',
             'sort_by_highest_rating' => 'Сортувати за найвищим рейтингом',
             'sort_by_lowest_rating' => 'Сортувати за найнижчим рейтингом',
-            'bedrock_and_java_support' => 'Підтримка Bedrock і Java'
+            'bedrock_and_java_support' => 'Підтримка Bedrock і Java',
         ],
         'review-count' => ':count відгук|:count відгуків',
         'meta' => [
@@ -560,10 +696,10 @@ return [
             'delete-title' => 'Ви впевнені, що хочете видалити свій відгук?',
             'tos-checkbox-part-1' => 'Надсилаючи цю форму, ви приймаєте Умови використання, Політику конфіденційності та Правила спільноти SkinMC. Ви також підтверджуєте, що вся інформація точна, і дотримуєтесь',
             'tos-checkbox-part-2' => 'рекомендацій щодо відгуків.',
-            'tos-checkbox-part-3' => 'Ваш відгук буде опубліковано після надсилання, але може підлягати перевірці.'
+            'tos-checkbox-part-3' => 'Ваш відгук буде опубліковано після надсилання, але може підлягати перевірці.',
         ],
         'slots' => 'Комірок',
-        'empty-helper' => 'Ви можете спробувати виконати інший пошук або',
+        'empty-helper' => 'You can try to do another search.',
         'empty' => 'Хм, тут ще порожньо.',
         'verified' => 'Підтверджено',
         'review_translate_show_original' => 'Показати оригінал',
@@ -593,15 +729,15 @@ return [
             'terms' => [
                 'part-1' => 'Надсилаючи цю форму, ви маєте право прийняти Умови надання послуг, Політику конфіденційності та Правила спільноти SkinMC. Ви також підтверджуєте, що вся наведена вище інформація є точною, ви належним чином дотримувалися',
                 'part-2' => 'вимог до сервера для налаштування',
-                'part-3' => ', а також що сервер Minecraft належить і керується організацією, яку ви представляєте.'
+                'part-3' => ', а також що сервер Minecraft належить і керується організацією, яку ви представляєте.',
             ],
             'submit-application' => 'Подати заявку',
             'video-id-helper' => [
                 'part-1' => 'Ідентифікатор відео — це рядок цифр і літер після',
                 'part-2' => 'Наприклад, якщо URL-адреса вашого відео',
-                'part-3' => ', тоді ваш ідентифікатор відео буде'
+                'part-3' => ', тоді ваш ідентифікатор відео буде',
             ],
-            'welcome_description' => 'На цьому кроці ми почнемо додавати ваш сервер. Розкажіть нам трохи про сервер, напишіть опис, і на наступному кроці ви зможете завантажити кілька зображень.'
+            'welcome_description' => 'На цьому кроці ми почнемо додавати ваш сервер. Розкажіть нам трохи про сервер, напишіть опис, і на наступному кроці ви зможете завантажити кілька зображень.',
         ],
         'copy_server_ip' => 'Копіювати IP сервера',
         'all_minecraft_servers' => 'Усі сервери Minecraft',
@@ -650,9 +786,9 @@ return [
                 'players-question' => 'Як я можу отримати більше гравців на своєму сервері Minecraft?',
                 'players-answer' => 'Створення спільноти є найважливішою частиною довготривалого сервера Minecraft. Використовуйте список серверів Minecraft на SkinMC, щоб знайти нову аудиторію та продовжувати створювати свою спільноту. Попросіть своїх гравців порекомендувати ваш сервер або поділіться своїм записом у соціальних мережах. Збирання хороших відгуків також може зіграти важливу роль у створенні списку серверів, який залучає нових гравців.',
                 'more-question' => 'У мене є ще запитання. Де я можу отримати допомогу?',
-                'more-answer' => 'Ви можете зв’язатися зі SkinMC у будь-який час, протягом 24 годин, скориставшись кнопкою довідки, довідковою службою або приєднавшись до сервера Discord.'
+                'more-answer' => 'Ви можете зв’язатися зі SkinMC у будь-який час, протягом 24 годин, скориставшись кнопкою довідки, довідковою службою або приєднавшись до сервера Discord.',
             ],
-            'ready_to_list_description' => 'Додайте свій сервер Minecraft до списку серверів SkinMC всього за кілька хвилин. Якщо вам потрібна допомога, ви можете зв’язатися цілодобово та швидко отримати відповідь.'
+            'ready_to_list_description' => 'Додайте свій сервер Minecraft до списку серверів SkinMC всього за кілька хвилин. Якщо вам потрібна допомога, ви можете зв’язатися цілодобово та швидко отримати відповідь.',
         ],
         'manage' => [
             'index' => [
@@ -666,14 +802,14 @@ return [
                     'description-title' => 'Напишіть хороший опис сервера',
                     'description-body' => 'Корисні підказки та поради щодо написання чудового опису сервера.',
                     'images-title' => 'Додавання зображень сервера',
-                    'images-body' => 'Зробіть свій список серверів помітним за допомогою чудових зображень.'
-                ]
+                    'images-body' => 'Зробіть свій список серверів помітним за допомогою чудових зображень.',
+                ],
             ],
             'listings' => [
-                'title' => 'Ваші сервери Minecraft (:count)'
+                'title' => 'Ваші сервери Minecraft (:count)',
             ],
             'insights' => [
-                'title' => 'Аналітика'
+                'title' => 'Аналітика',
             ],
             'edit_server' => 'Редагувати сервер',
             'listing' => 'Списки',
@@ -681,14 +817,14 @@ return [
             'last_update' => 'Останнє оновлення',
             'add_more_photos_to_publish' => 'Додати більше фотографій для публікації',
             'looks_empty_here' => 'Схоже, тут порожньо.',
-            'get_started_by_adding_a_new_server' => 'Почати з додавання нового сервера?'
+            'get_started_by_adding_a_new_server' => 'Почати з додавання нового сервера?',
         ],
         'status' => [
             'approved' => 'Підтверджений',
             'pending_approval' => 'Очікує підтвердження',
             'published' => 'Опублікований',
-            'in_review' => 'На розгляді'
-        ]
+            'in_review' => 'На розгляді',
+        ],
     ],
     'editor' => [
         'import' => [
@@ -696,7 +832,7 @@ return [
             'import_by_username' => 'Імпортувати за іменем користувача',
             'import_button' => 'Імпортувати',
             'drag' => 'Перетягніть сюди скин або натисніть',
-            'click' => 'Вибрати зображення'
+            'click' => 'Вибрати зображення',
         ],
         'download' => [
             'error' => [
@@ -772,6 +908,12 @@ return [
             'decrease_brightness' => 'Зменшити яскравість поточного активного кольору.',
             'increase_brightness' => 'Збільшить яскравість нині активного кольору.',
             'erase' => 'Видаліть пікселі, намальовані на вторинному шарі накладання.',
+            'minimap' => 'Minimap',
+            'minimap_info' => 'The minimap can show you the skin texture in a flat view while in 3D mode. In 2D mode the minimap switches to a 3D preview of your skin. You can zoom in and out.',
+            'autosave' => 'Autosave',
+            'autosave_info' => 'The autosave feature saves your skin automatically every 30 seconds. You can access the autosaved skins in the editor by pressing the folder icon, and choosing "Previous skins".',
+            '2d_editor' => '2D and 3D editor',
+            '2d_editor_info' => 'Toggle between editing your Minecraft skin in 2D or 3D mode.',
         ],
     ],
     'account' => [
@@ -813,7 +955,7 @@ return [
             'link-account' => 'Щоб завантажити плащ, прив’яжіть свій обліковий запис Minecraft.',
             'updated' => 'Ваш плащ оновлено!',
             'removed' => 'Ваш плащ видалено.',
-            'active' => 'Ваш плащ активовано!'
+            'active' => 'Ваш плащ активовано!',
         ],
         'favourite' => 'Улюблене',
         'remove_favourite' => 'Видалити з улюбленого',
@@ -839,8 +981,11 @@ return [
             'delete-info' => 'Підтвердьте, щоб продовжити',
             'delete-confirmation' => 'Видалення вашого облікового запису незворотне. Уся ваша особиста інформація та вміст, як-от дописи, улюблене, завантажені плащі, налаштування тощо, буде видалено та не підлягатиме відновленню.',
             'delete-confirmation-info' => 'Введіть свій пароль, щоб продовжити',
+            'delete-confirmation-info-social' => 'Type "delete" to confirm account deletion',
+            'type-delete' => 'Type "delete" to confirm',
+            'type-delete-label' => 'Type "delete" to confirm',
             'yes-confirm-delete' => 'Так, підтвердити видалення',
-            'account-successfully-deleted' => 'Ваш обліковий запис і дані успішно видалено.'
+            'account-successfully-deleted' => 'Ваш обліковий запис і дані успішно видалено.',
         ],
         'social' => [
             'title' => 'Обл. записи соцмереж',
@@ -919,7 +1064,7 @@ return [
             'are-you-sure' => 'Ви впевнені?',
             'confirm' => 'Так, підтвердити відключення',
             'cancel' => 'Ні, скасувати',
-            'success' => 'Ваш обліковий запис успішно відключено!'
+            'success' => 'Ваш обліковий запис успішно відключено!',
         ],
         'finish-setup' => [
             'title' => 'Завершіть налаштування облікового запису',
@@ -937,7 +1082,7 @@ return [
             'badge' => 'Значок, відображений у вашому профілі',
             'cape' => 'Власний плащ Minecraft',
             'backup' => 'Автоматична резервна копія скинів',
-            'more' => 'І багато іншого...'
+            'more' => 'І багато іншого...',
         ],
         'skins' => [
             'title' => 'Керувати скинами',
@@ -955,14 +1100,14 @@ return [
             'status' => [
                 'title' => 'Стан',
                 'pending' => 'Очікування',
-                'accepted' => 'Прийнято'
+                'accepted' => 'Прийнято',
             ],
             'add_invite' => [
                 'button' => 'Маєте запрошення?',
                 'title' => 'Додати код запрошення',
                 'redeem' => 'Витратити запрошення',
             ],
-            'share' => 'Відправте своєму другу посилання на запрошення'
+            'share' => 'Відправте своєму другу посилання на запрошення',
         ],
         'emoji' => [
             'title' => 'Емодзі SkinMC',
@@ -970,8 +1115,8 @@ return [
             'info' => 'Налаштуйте свій профіль за допомогою емодзі. Розблокуйте більше з підвищенням рівня.',
             'unlocked_at' => 'Розблоковано на рівні :level',
             'unlocks_at' => 'Досягніть рівня :level, щоб розблокувати',
-            'turn_off' => 'Показати емодзі'
-        ]
+            'turn_off' => 'Показати емодзі',
+        ],
     ],
     'notifications' => [
         'title' => 'Сповіщення',
@@ -994,25 +1139,25 @@ return [
             'archive' => 'Сповіщення переміщено в архів',
             'unarchive' => 'Сповіщення переміщено у вхідні',
             'undo' => 'Скасувати',
-        ]
+        ],
     ],
     'error' => [
         'offline' => [
             'title' => 'Немає інтернет-з’єднання',
             'subtitle' => 'Немає інтернет-з’єднання. Перевірте підключення та оновіть сторінку, щоб повторити спробу.',
-            'try_again' => 'Спробувати знову'
+            'try_again' => 'Спробувати знову',
         ],
         '404' => [
             'title' => '404 — Сторінка не знайдена.',
             'subtitle' => 'Хм, схоже, у цьому місці нічого не знайдено. Можливо, спробуйте повернутися або почати новий пошук?',
-            'try_again' => 'Повернутися'
+            'try_again' => 'Повернутися',
         ],
     ],
     'heads' => [
         'list' => [
             'meta' => [
                 'title' => 'База даних голови Minecraft',
-                'description' => 'Перегляньте базу даних голів Minecraft, щоб прикрасити свій світ, або створити власну команду «give». Переглядайте офіційні голови, голови гравців і користувацькі голови з текстурами, які ніколи не змінюються.'
+                'description' => 'Перегляньте базу даних голів Minecraft, щоб прикрасити свій світ, або створити власну команду «give». Переглядайте офіційні голови, голови гравців і користувацькі голови з текстурами, які ніколи не змінюються.',
             ],
             'header' => [
                 'title' => 'Голови Minecraft',
@@ -1030,7 +1175,7 @@ return [
                 'title' => 'Голови гравців',
                 'description' => 'Голови гравців використовують поточну текстуру скіна гравця Minecraft. Оскільки вони засновані на імені користувача, коли гравець змінює своє ім’я або скін, голова змінюється.',
                 'version' => 'Всі версії Minecraft',
-            ]
+            ],
         ],
     ],
     'mod' => [
@@ -1069,7 +1214,7 @@ return [
         'feature-experience' => 'Досвід',
         'feature-experience-detail' => 'Насолоджуйтесь усіма можливостями SkinMC будь-де з додатковими функціями. Налаштуйте свій профіль, додайте свою біографію, створіть цікавий QR-код тощо!',
         'get-app-headline' => 'Завантажити застосунок SkinMC',
-        'get-app-detail' => 'Ваш власний компаньйон Minecraft для вашого Android — доступний безплатно.'
+        'get-app-detail' => 'Ваш власний компаньйон Minecraft для вашого Android — доступний безплатно.',
     ],
     'random' => [
         'title' => 'Завантаження випадкового скіна Minecraft',
@@ -1121,20 +1266,88 @@ return [
             'delete' => 'Видалити допис',
             'deleted' => 'Ваш допис видалено.',
         ],
+        'repost' => [
+            'button' => 'Repost',
+            'quote_button' => 'Quote',
+            'title' => 'Repost this post',
+            'quote_title' => 'Quote post',
+            'quote_label' => 'Add a comment (optional)',
+            'quote_placeholder' => 'Add your thoughts...',
+            'reposted' => 'reposted',
+            'success' => 'Reposted!',
+            'removed' => 'Repost removed.',
+            'already_reposted' => 'You have already reposted this.',
+            'undo' => 'Undo repost',
+            'original_deleted' => 'The original post has been deleted.',
+            'deleted_post' => 'This post has been deleted',
+        ],
+        'hashtags' => [
+            'title' => 'Trending',
+            'trending-now' => 'Trending now',
+            'post' => 'post',
+            'posts' => 'posts',
+            'posts-count' => ':count post|:count posts',
+            'hashtag' => 'Hashtag',
+            'hashtags' => 'Hashtags',
+            'no-results' => 'No hashtags found',
+        ],
+        'search' => [
+            'title' => 'Search',
+            'placeholder' => 'Search posts, hashtags...',
+            'no-results' => 'No results found',
+            'posts' => 'Posts',
+            'no-hashtags-found' => 'No hashtags found matching ":query"',
+            'no-results-found' => 'No results found for ":query"',
+        ],
+        'poll' => [
+            'title' => 'Poll',
+            'create' => 'Create a poll',
+            'option' => 'Option',
+            'add_option' => 'Add option',
+            'duration' => 'Duration',
+            'duration_1' => '1 day',
+            'duration_3' => '3 days',
+            'duration_7' => '7 days',
+            'votes' => '{0} votes|{1} vote|[2,*] votes',
+            'ended' => 'Poll ended',
+            'ends_in' => 'Ends :time',
+            'login_required' => 'Sign in to vote',
+        ],
+        'gif' => [
+            'title' => 'GIF',
+            'search_placeholder' => 'Search KLIPY for GIFs...',
+            'no_results' => 'No GIFs found',
+            'powered_by' => 'Powered by',
+            'categories' => 'Categories',
+            'trending' => 'Trending',
+        ],
+        'media' => 'Media',
         'follow-suggestions' => 'Стежити за командою',
         'explore' => 'Дослідити',
         'hashtag' => 'Хештег',
+        'no_users' => 'No users found.',
+        'stories' => [
+            'archive' => [
+                'title' => 'Story Archive',
+                'subtitle' => 'Your archived stories are only visible to you',
+                'empty' => 'No archived stories yet',
+                'empty-description' => 'Stories you post will appear here after 24 hours.',
+                'action' => 'Archive',
+                'archived' => 'Story moved to archive.',
+                'already-archived' => 'Story is already archived.',
+            ],
+        ],
     ],
     'private' => [
         'title' => 'Приватні дописи',
-        'text' => 'Цей допис приватний.'
-    ] ,
+        'text' => 'Цей допис приватний.',
+    ],
     'liked' => [
-        'title' => 'Сподобалось'
+        'title' => 'Сподобалось',
     ],
     'following' => [
         'title' => 'Підписки',
-        'text' => 'Увійдіть, щоб переглянути цей допис.'
+        'text' => 'Увійдіть, щоб переглянути цей допис.',
     ],
     'tags' => [
         'empty' => 'Ще немає тегів для голосування',
@@ -1151,7 +1364,7 @@ return [
             'no_messages' => 'Немає непрочитаних повідомлень',
             'start_conversation' => 'Щойно ви почнете нову бесіду, ваші повідомлення відображатимуться тут.',
             'conversation' => 'Це початок вашої бесіди з :username.',
-            'users' => 'Не вдалося знайти користувачів, які відповідають поточному запиту.'
+            'users' => 'Не вдалося знайти користувачів, які відповідають поточному запиту.',
         ],
         'typing' => ':username пише...',
         'new_message' => 'Нове повідомлення',
@@ -1174,12 +1387,12 @@ return [
         'external-link-to' => 'Це посилання перенаправить вас на',
         'external-link-confirmation' => 'Ви впевнені, що хочете перейти туди?',
         'external-link' => 'Зовнішнє посилання',
-        'reply' => 'Відповісти'
+        'reply' => 'Відповісти',
     ],
     'server' => [
         'manage' => [
-            'stats' => 'Статистика'
-        ]
+            'stats' => 'Статистика',
+        ],
     ],
     'report' => [
         'button' => 'Поскаржитися',
@@ -1192,7 +1405,7 @@ return [
             'SPAM' => 'Спам',
             'HARASSMENT' => 'Переслідування',
             'OTHER' => 'Інше',
-        ]
+        ],
     ],
     'leaderboard' => [
         'title' => 'Таблиця лідерів',
@@ -1200,6 +1413,6 @@ return [
         'headline' => 'Топ 10',
         'all-time-invites' => 'Всі тимчасові запрошення',
         'all-time-xp' => 'Досвід за весь час',
-        '30-day-xp' => 'Досвід за 30 днів'
+        '30-day-xp' => 'Досвід за 30 днів',
     ],
 ];

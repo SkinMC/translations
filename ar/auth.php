@@ -22,5 +22,6 @@ return [
     'blocked' => 'تم إلغاء تنشيط حسابك في :date. إذا كنت تعتقد أن هذا خطأ يرجى زيارة مركز الدعم <a target="_blank" href=":url"></a> للحصول على المساعدة.',
     'show-password' => 'إظهار كلمة المرور',
     'hide-password' => 'إخفاء كلمة السر',
-    'invite_code' => 'كود الدعوة'
+    'invite_code' => 'كود الدعوة',
+    'ghost' => 'Ghost',
 ];

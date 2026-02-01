@@ -2,7 +2,7 @@
 
 return [
     'verified' => 'Profil vérifié',
-    'claimed' => 'Profil réclamé',
+    'claimed' => 'Compte Minecraft lié',
     'role' => [
         'admin' => 'Administrateur',
         'moderator' => 'Modérateur',

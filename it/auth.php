@@ -22,5 +22,6 @@ return [
     'blocked' => 'Il tuo account è stato disattivato il :date. Se ritieni che si sia verificato un errore, visita il <a target="_blank" href=":url">centro di supporto</a> per ricevere assistenza.',
     'show-password' => 'Mostra password',
     'hide-password' => 'Nascondi password',
-    'invite_code' => 'Codice invito'
+    'invite_code' => 'Codice invito',
+    'ghost' => 'Ghost',
 ];

@@ -11,6 +11,7 @@ return [
     'armor' => 'Armor stand',
     'banners' => 'Banners',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'My profile',
 
     'generators' => 'Generators',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Rediger stil',
     'make_avatar' => 'Lag avatar',
     'find_heads' => 'Find player heads',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Hjem',
     'help' => 'Hjelp',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Listings',
     'add' => 'Add',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'Dark',
         'light' => 'Light',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

@@ -10,7 +10,7 @@ return [
     |
     */
     'dashboard' => [
-        'title' => 'Kontrollzentrum',
+        'title' => 'Dashboard',
         'total-members' => 'Gesamte Mitglieder',
         'claimed-profiles' => 'Beanspruchte Profile',
         'profiles' => 'Profile',

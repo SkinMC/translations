@@ -11,6 +11,7 @@ return [
     'armor' => 'Rüstungsständer',
     'banners' => 'Banner',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner-Galerie',
     'profile' => 'Mein Profil',
 
     'generators' => 'Generatoren',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Skin bearbeiten',
     'make_avatar' => 'Avatar erstellen',
     'find_heads' => 'Spielerköpfe anzeigen',
+    'no_results_found' => 'Noch keine Vorschläge. Drücke Enter um danach zu suchen.',
 
     'home' => 'Startseite',
     'help' => 'Hilfe',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Inserate',
     'add' => 'Hinzufügen',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profil',
+        'server' => 'Server',
+        'project' => 'Projekt',
+        'skin_tag' => 'Skin-Tag',
+        'server_category' => 'Serverkategorie',
+        'modrinth_category' => 'Projektkategorie',
+    ],
+
     'theme' => [
         'title' => 'Thema',
         'dark' => 'Dunkel',
         'light' => 'Hell',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Sprache',
 ];

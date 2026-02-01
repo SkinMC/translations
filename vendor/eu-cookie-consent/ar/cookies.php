@@ -2,6 +2,7 @@
 
 return [
     'acceptAllButton' => 'قبول الكل',
+    'declineAll' => 'Decline All',
     'save' => 'حفظ',
     'PopupTitle' => 'موافقة ملفات تعريف الارتباط',
     'PopupDescription' => 'يستخدم SkinMC ملفات تعريف الارتباط لتوفير الوظائف والميزات.',

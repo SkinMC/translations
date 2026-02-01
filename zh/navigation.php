@@ -11,6 +11,7 @@ return [
     'armor' => '盔甲架',
     'banners' => '旗帜',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => '个人资料',
 
     'generators' => '生成器',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => '编辑皮肤',
     'make_avatar' => '制作头像',
     'find_heads' => '查找玩家的头部',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => '首页',
     'help' => '帮助',
@@ -80,10 +82,22 @@ return [
     'listings' => '列表',
     'add' => '添加',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => '暗色模式',
         'light' => '亮色模式',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

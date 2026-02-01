@@ -22,5 +22,6 @@ return [
     'blocked' => 'Uw account is gedeactiveerd op :date. Als u denkt dat dit een fout was, bezoek dan het <a target="_blank" href=":url">support center</a> voor hulp.',
     'show-password' => 'Wachtwoord tonen',
     'hide-password' => 'Wachtwoord verbergen',
-    'invite_code' => 'Uitnodigingscode'
+    'invite_code' => 'Uitnodigingscode',
+    'ghost' => 'Ghost',
 ];

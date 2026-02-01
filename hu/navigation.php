@@ -11,6 +11,7 @@ return [
     'armor' => 'Páncélállvány-szerkesztő',
     'banners' => 'Zászlók',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Saját profil',
 
     'generators' => 'Generators',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Kinézet szerkesztése',
     'make_avatar' => 'Beállítás profilképként',
     'find_heads' => 'Játékosfejek keresése',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Kezdőlap',
     'help' => 'Súgó',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Adatbázis',
     'add' => 'Új',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'Dark',
         'light' => 'Light',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

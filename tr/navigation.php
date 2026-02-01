@@ -11,6 +11,7 @@ return [
     'armor' => 'Zırh Askısı',
     'banners' => 'Flamalar',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Profilim',
 
     'generators' => 'Oluşturucular',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Skin\'i düzenle',
     'make_avatar' => 'Avatar yap',
     'find_heads' => 'Oyuncu kafalarını bulun',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Ana sayfa',
     'help' => 'Yardım',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Listeler',
     'add' => 'Ekle',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'Koyu',
         'light' => 'Aydınlık',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

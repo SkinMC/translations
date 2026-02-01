@@ -13,8 +13,12 @@ return [
     |
     */
 
-    'title' => 'Numrering av sökresultat',
-    'previous' => 'Föregående',
-    'next' => 'Nästa',
+    'title' => 'Numbering of search results',
+    'previous' => 'Previous',
+    'next' => 'Next',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];

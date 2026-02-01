@@ -16,5 +16,9 @@ return [
     'title' => 'Nummering van zoekresultaten',
     'previous' => 'Vorige',
     'next' => 'Volgende',
+    'Showing' => 'Showing',
+    'to' => 'to',
+    'of' => 'of',
+    'results' => 'results',
 
 ];

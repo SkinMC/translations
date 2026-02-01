@@ -2,7 +2,7 @@
 
 return [
     'verified' => 'Vahvistettu profiili',
-    'claimed' => 'Lunastettu profiili',
+    'claimed' => 'Minecraft-tili Yhdistetty',
     'role' => [
         'admin' => 'Ylläpitäjä',
         'moderator' => 'Moderaattori',

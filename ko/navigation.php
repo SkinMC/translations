@@ -11,6 +11,7 @@ return [
     'armor' => '갑옷 거치대',
     'banners' => '배너',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => '내 프로필',
 
     'generators' => '생성기',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => '스킨 편집',
     'make_avatar' => '아바타 만들기',
     'find_heads' => '플레이어 머리 찾기',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => '홈',
     'help' => '도움말',
@@ -80,10 +82,22 @@ return [
     'listings' => '목록',
     'add' => '추가',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => '어둡게',
         'light' => '밝게',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

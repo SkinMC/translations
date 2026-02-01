@@ -11,6 +11,7 @@ return [
     'armor' => 'Harnashouder',
     'banners' => 'Banieren',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Mijn profiel',
 
     'generators' => 'Generatoren',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Bewerk skin',
     'make_avatar' => 'Maak een avatar',
     'find_heads' => 'Vind speler hoofden',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Start',
     'help' => 'Help',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Listings',
     'add' => 'Toevoegen',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'Donker',
         'light' => 'Licht',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

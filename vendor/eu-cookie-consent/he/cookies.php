@@ -2,6 +2,7 @@
 
 return [
     'acceptAllButton' => 'אשר הכל',
+    'declineAll' => 'Decline All',
     'save' => 'שמור',
     'PopupTitle' => 'הסכם עוגיות',
     'PopupDescription' => 'SkinMC משתמש בעוגיות על מנת לתת מגוון אפשרויות.',

@@ -2,52 +2,52 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
-        'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'black' => 'Musta',
+        'red' => 'Punainen',
+        'green' => 'Vihreä',
+        'brown' => 'Ruskea',
+        'blue' => 'Sininen',
+        'purple' => 'Violetti',
+        'cyan' => 'Turkoosi',
+        'gray' => 'Harmaa',
+        'dark_gray' => 'Tummanharmaa',
+        'pink' => 'Vaaleanpunainen',
+        'lime' => 'Limenvihreä',
+        'yellow' => 'Keltainen',
+        'light_blue' => 'Vaaleansininen',
+        'magenta' => 'Purppura',
+        'orange' => 'Oranssi',
+        'white' => 'Valkoinen',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Täysin :color Kenttä',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
+        'bs' => 'Pohja',           // stripe_bottom
+        'ts' => 'Yläosa',         // stripe_top
+        'ls' => 'Kalpea Dexter',   // stripe_left
+        'rs' => 'Kalpea Sinister', // stripe_right
+        'cs' => 'Kalpea',          // stripe_center
+        'ms' => 'Alaosa',          // stripe_middle
+        'drs' => 'Kaarre',         // stripe_downright
+        'dls' => 'Kaartuva Sinister', // stripe_downleft
         'ss' => 'Paly',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => 'Risti',
+        'sc' => 'Saltiiri',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => 'Kaartuvaa Sinisteriä kohden',       // diagonal_left
+        'rd' => 'Kaartoa kohden',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'Kaartuvaa kääntöä kohden',      // diagonal_up_left
+        'rud' => 'Kaartuvaa käänteis sinisteriä kohden', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
+        'vh' => 'Kalpeaa kohden',              // half_vertical
+        'vhr' => 'Kalpekaa kääntöä kohden',   // half_vertical_right
         'hh' => 'Per Fess',              // half_horizontal
         'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
 
@@ -73,7 +73,7 @@ return [
         'bri' => 'Field Masoned',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
+        'gra' => 'Liukuväri',     // gradient
         'gru' => 'Base Gradient', // gradient_up
 
         // Charges (creatures / objects)

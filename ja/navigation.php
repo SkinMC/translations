@@ -11,6 +11,7 @@ return [
     'armor' => '防具立て',
     'banners' => 'バナー',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'マイプロフィール',
 
     'generators' => '生成',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'スキンを編集',
     'make_avatar' => 'アバターを作成',
     'find_heads' => 'プレイヤーのヘッドを見つける',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'ホーム',
     'help' => 'ヘルプ',
@@ -80,10 +82,22 @@ return [
     'listings' => '一覧',
     'add' => '追加',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'ダーク',
         'light' => 'ライト',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

@@ -11,6 +11,7 @@ return [
     'armor' => 'Stojak na zbroję',
     'banners' => 'Banery',
     'banner' => 'Banner Editor',
+    'banner_gallery' => 'Banner Gallery',
     'profile' => 'Mój profil',
 
     'generators' => 'Generatory',
@@ -50,6 +51,7 @@ return [
     'edit_skin' => 'Edytuj skórkę',
     'make_avatar' => 'Stwórz awatar',
     'find_heads' => 'Znajdź głowy gracza',
+    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
 
     'home' => 'Strona główna',
     'help' => 'Pomoc',
@@ -80,10 +82,22 @@ return [
     'listings' => 'Oferty',
     'add' => 'Dodaj',
 
+    // Autocomplete types
+    'autocomplete' => [
+        'profile' => 'Profile',
+        'server' => 'Server',
+        'project' => 'Project',
+        'skin_tag' => 'Skin Tag',
+        'server_category' => 'Server Category',
+        'modrinth_category' => 'Project Category',
+    ],
+
     'theme' => [
         'title' => 'Theme',
         'dark' => 'Ciemny',
         'light' => 'Jasny',
-        'auto' => 'Auto'
+        'auto' => 'Auto',
     ],
+
+    'language' => 'Language',
 ];

@@ -23,8 +23,8 @@ return [
             'text' => ':user vastasi :model kommenttiin'
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
+            'title' => 'Tykätty kommentti',
+            'text' => ':user tykkäsi kommentistasi!'
         ]
     ],
     'post' => [
@@ -37,8 +37,8 @@ return [
             'text' => ':user mainitsi sinut heidän julkaisussaan!'
         ],
         'repost' => [
-            'title' => 'Repost',
-            'text' => ':user reposted your post!'
+            'title' => 'Uudelleenjulkaise',
+            'text' => ':user uudelleenjulkaisi julkaisusi!'
         ]
     ],
     'level' => [

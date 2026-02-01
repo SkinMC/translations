@@ -2,11 +2,11 @@
 
 return [
     'verified' => 'Verifiziertes Profil',
-    'claimed' => 'Bestätigtes Profil',
+    'claimed' => 'Minecraft-Konto verknüpft',
     'role' => [
         'admin' => 'Administrator',
         'moderator' => 'Moderator',
-        'user' => 'Benutzer',
+        'user' => 'Nutzer',
     ],
 ];
 
