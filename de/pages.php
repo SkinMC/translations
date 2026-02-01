@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Trede den Discord Server bei und verbinde dich mit anderen, schreibe über Spiele, teile deine Lieblings Packs und hole dir Hilfe von der Community.',
         'other_twitter' => 'Folge uns auf Twitter um zu sehen wenn ein neues Update oder Feature, Skin der Woche sowie noch vieles mehr veröffentlicht wird.',
         'other_instagram' => 'Folge SkinMC auf Instagram, um neue Minecraft Skins und Bilder zu entdecken.',
-        'other_facebook' => 'Werde Fan auf Facebook und sehe alle Beiträge, in denen du kommentieren und mit anderen reden kannst, während du neue Minecraft-Inhalte finden kannst.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Deine</span> <span>Plattform</span> <span>für</span> <span>Minecraft</span> <span>Skins.</span>',
