@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Discord sunucusuna katılın ve diğer kullanıcılarla bağlantı kurun, oyunlar hakkında sohbet edin, en sevdiğiniz favori paketleri paylaşın ve topluluktan yardım alın.',
         'other_twitter' => 'Twitter\'da takip ederek yeni güncellemelerin veya özelliklerin ne zaman yayınlandığını öğrenin, haftanın temalarını görün ve daha fazlasını keşfedin.',
         'other_instagram' => 'Yeni öne çıkan harika Minecraft Ciltlerini ve görsellerine göz atmak ve keşfetmek için SkinMC\'yi Instagram\'da takip edin.',
-        'other_facebook' => 'Facebook\'ta hayran olun ve Minecraft içeriğini keşfederken yorum yapabileceğiniz ve başkalarıyla konuşabileceğiniz tüm gönderileri görün.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Minecraft</span> <span>Skinleri</span> <span>için</span> <span>platformunuz.</span>',
