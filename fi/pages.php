@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Liity Discord palvelimeen ja ota yhteys muihin, juttele peleistä, jaa suosikkipaketit ja saa apua yhteisöltä.',
         'other_twitter' => 'Seuraa Twitterissä nähdäksesi milloin uusi päivitys tai ominaisuus on julkaistu, katso viikon skini ja paljon muuta.',
         'other_instagram' => 'Seuraa SkinMC:tä Instagramissa selataksesi ja löytääksesi uusia hienoja Minecraft Skinejä ja kuvia.',
-        'other_facebook' => 'Ryhdy faniksi Facebookissa ja näe kaikki julkaisut, joihin voit kommentoida ja puhua muiden kanssa tutkiessasi Minecraftin sisältöä.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Sinun</span> <span>alustasi</span> <span></span> <span>Minecraft</span> <span>olemusta.</span>',
