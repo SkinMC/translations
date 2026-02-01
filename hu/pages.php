@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Csatlakozz a Discord-szerverhez, ha barátkozni szeretnél, játékokról beszélgetni, megosztani a kedvenc gyűjteményeidet, vagy segítséget kérnél!',
         'other_twitter' => 'A Twitter-profilunkon értesülhetsz az új frissítésekről és funkciókról, illetve megtekintheted a hét kinézetét.',
         'other_instagram' => 'Az Instagram-oldalunkon megtekintheted a király új Minecraft-kinézeteket és képeket.',
-        'other_facebook' => 'A Facebook-oldalunkon hozzászólhatsz a bejegyzéseinkhez és másokkal beszélgethetsz, miközben Minecraftos tartalmakat nézegetsz.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>A</span> <span>Minecraft-kinézetek</span> <span>tárháza.</span>',
