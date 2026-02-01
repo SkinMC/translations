@@ -221,7 +221,7 @@ return [
         'other_discord' => '加入Discord服务器并与他人建立联系，聊聊关于游戏的事情，分享您最喜欢的整合包，并获得来自社区的帮助。',
         'other_twitter' => '在 Twitter 上关注以查看新更新或功能发布的时间，查看每周皮肤等等。',
         'other_instagram' => '在Instagram上关注SkinMC，浏览并发现酷炫的新特色Minecraft皮肤和图像。',
-        'other_facebook' => '在Facebook上成为粉丝，查看所有帖子，在探索《我的世界》内容时，您可以在这些帖子中发表评论并与他人交谈。',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '</span>你的</span> </span>Minecraft</span> </span>皮肤</span> <span>平台</span>
