@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Discordサーバーに参加して、他の人とつながり、ゲームについてチャットしたり、お気に入りのパックを共有したり、コミュニティからヘルプを得たりしましょう。',
         'other_twitter' => 'ツイッターをフォローして、新しいアップデートや機能のリリース、今週のスキンなどをご覧ください。',
         'other_instagram' => 'インスタグラムでSkinMCをフォローして、新しいマインクラフトスキンや画像を見つけましょう。',
-        'other_facebook' => 'Facebookでファンになって、Minecraftのコンテンツに関する投稿を探検しながら他の人と話しましょう!',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span></span> <span>プラットフォーム</span> <span>for</span> <span>Minecraft</span> <span>スキン。</span>',
