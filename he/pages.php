@@ -221,7 +221,7 @@ return [
         'other_discord' => 'הצטרפו לשרת הדסיקורד כדי להתחבר עם אחרים, לדבר על משחקים, לשתף את החבילות האהובות עליכם ולקבל עזרה מהקהילה.',
         'other_twitter' => 'עקבו אחרינו בטוויטר כדי להתעדכן אם יש עדכון או אפשרות חדשה שיוצאת, וכדי לראות את הסקין של השבוע ועוד.',
         'other_instagram' => 'עקבו אחרי SkinMC באינטסגרם כדי לצפות סקינים מגניבים ומדהימים.',
-        'other_facebook' => 'הפכו למעריצים שלנו בפייסבוק ותראו את כל הפוסטים שתוכלו להגיב עליהם ולדבר עם אחרים בזמן שאתם נהנים מתוכן של מיינקראפט.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>הפלטפורמה</span> <span>שלכם</span> <span>למציאת</span> <span>סקינים</span> <span>למיינקראפט.</span>',
