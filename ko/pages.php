@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Discord 서버에 참가해서 다른 분과 연결하고, 게임 관련 대화를 하고, 내 최애 팩을 공유하고, 커뮤니티 지원을 받아보세요.',
         'other_twitter' => 'Twitter에서 팔로우해서 언제 새 업데이트나 기능이 출시되는지 확인하고, 이번 주의 스킨을 확인해 보세요.',
         'other_instagram' => 'Instagram에서 SkinMC를 팔로우해서 멋지고 특색있는 Minecraft 스킨과 사진을 살펴보고 발견해 보세요.',
-        'other_facebook' => 'Facebook에서 팬이 되어 내가 Minecraft 콘텐츠를 탐험하면서 다른 분께 댓글을 남기고 대화할 수 있는 모든 게시물을 확인해 보세요.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Minecraft</span> <span>스킨</span><span>을 위한</span> <span>나만의</span> <span>플랫폼</span>',
