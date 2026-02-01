@@ -26,13 +26,13 @@ return [
 
         // Stripes
         'bs' => 'Pohja',           // stripe_bottom
-        'ts' => 'Yläosa',         // stripe_top
-        'ls' => 'Kalpea Dexter',   // stripe_left
-        'rs' => 'Kalpea Sinister', // stripe_right
+        'ts' => 'Pää',         // stripe_top
+        'ls' => 'Kalpea Oikea',   // stripe_left
+        'rs' => 'Kalpea Vasen', // stripe_right
         'cs' => 'Kalpea',          // stripe_center
-        'ms' => 'Alaosa',          // stripe_middle
+        'ms' => 'Vaakaviiva',          // stripe_middle
         'drs' => 'Kaarre',         // stripe_downright
-        'dls' => 'Kaartuva Sinister', // stripe_downleft
+        'dls' => 'Kaartuva Vasen', // stripe_downleft
         'ss' => 'Paly',          // small_stripes
 
         // Crosses
@@ -40,50 +40,50 @@ return [
         'sc' => 'Saltiiri',       // straight_cross
 
         // Diagonals
-        'ld' => 'Kaartuvaa Sinisteriä kohden',       // diagonal_left
-        'rd' => 'Kaartoa kohden',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Kaartuvaa kääntöä kohden',      // diagonal_up_left
-        'rud' => 'Kaartuvaa käänteis sinisteriä kohden', // diagonal_right
+        'ld' => 'Kaartuvaa Vasenta Kohden',       // diagonal_left
+        'rd' => 'Kaartoa Kohden',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'Sisentyvää Kaartoa Kohden',      // diagonal_up_left
+        'rud' => 'Sisentyvää Kaarto Vasenta Kohden', // diagonal_right
 
         // Halves
         'vh' => 'Kalpeaa kohden',              // half_vertical
-        'vhr' => 'Kalpekaa kääntöä kohden',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vhr' => 'Kalpeaa Sisennystä Kohden',   // half_vertical_right
+        'hh' => 'Jokaista Vaakaviivaa Kohden',              // half_horizontal
+        'hhb' => 'Sisentyvää Vaakaviivaa Kohden',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => 'Pohja Oikea Kantoni',    // square_bottom_left
+        'br' => 'Pohja Vasen Kantoni', // square_bottom_right
+        'tl' => 'Pää Oikea Kantoni',  // square_top_left
+        'tr' => 'Pää Vasen Kantoni', // square_top_right
 
         // Triangles
-        'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Pääasiallinen Sisennys',  // triangles_top
+        'bt' => 'Väkänen',           // triangle_bottom
+        'tt' => 'Sisentyvä Väkänen',  // triangle_top
+        'bts' => 'Pohja Sisennys',   // triangles_bottom
+        'tts' => 'Pää Sisennys',  // triangles_top
 
         // Shapes
         'mc' => 'Pyörännys',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mr' => 'Vinoneliö',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => 'Reunus',           // border
+        'cbo' => 'Reunuksen Sisennys', // curly_border
+        'bri' => 'Kenttä Muuraus',    // bricks
 
         // Gradients
         'gra' => 'Liukuväri',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gru' => 'Pohja Liukuväri', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
-        'sku' => 'Skull Charge',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
-        'glb' => 'Globe',         // globe
-        'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
-        'guster' => 'Guster',
+        'cre' => 'Creeper Lataus', // creeper
+        'sku' => 'Kallo Lataus',   // skull
+        'flo' => 'Kukka Lataus', // flower
+        'moj' => 'Asia',         // mojang
+        'glb' => 'Pallo',         // globe
+        'pig' => 'Kuono',         // piglin
+        'flow' => 'Virtaus',
+        'guster' => 'Puuska',
     ],
 ];
