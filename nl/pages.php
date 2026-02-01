@@ -221,7 +221,7 @@ return [
         'other_discord' => 'Word lid van de Discord server en maak verbinding met anderen, chat over spellen, deel je favoriete pakketten en krijg hulp van de gemeenschap.',
         'other_twitter' => 'Volg op Twitter om te zien wanneer een nieuwe update of functie wordt uitgebracht, bekijk de skin van de week en meer.',
         'other_instagram' => 'Volg SkinMC op Instagram om coole nieuwe Minecraft skins en afbeeldingen te ontdekken.',
-        'other_facebook' => 'Word een fan op Facebook en zie alle berichten waar je kan reageren en met anderen kan praten terwijl je Minecraft-content verkent.',
+        'other_bluesky' => 'Follow SkinMC on Bluesky to see when a new update or feature is released, see the skin of the week and more.',
     ],
     'about' => [
         'intro' => '<span>Jouw</span> <span>platform</span> <span>voor</span> <span>Minecraft</span> <span>Skins.</span>',
