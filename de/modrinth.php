@@ -117,6 +117,6 @@ return [
     'continue' => 'Fortfahren',
 
     // General
-    'projects' => 'Projects',
+    'projects' => 'Projekte',
     'project_type' => 'Project type',
 ];
