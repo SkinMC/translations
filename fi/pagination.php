@@ -18,7 +18,7 @@ return [
     'next' => 'Seuraava',
     'Showing' => 'Näkyy',
     'to' => 'vastaanottaja',
-    'of' => '',
+    'of' => '/',
     'results' => 'tulokset',
 
 ];
