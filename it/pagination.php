@@ -16,9 +16,9 @@ return [
     'title' => 'Numerazione dei risultati della ricerca',
     'previous' => 'Precedente',
     'next' => 'Successivo',
-    'Showing' => 'Showing',
-    'to' => 'to',
-    'of' => 'of',
-    'results' => 'results',
+    'Showing' => 'Mostrando',
+    'to' => 'a',
+    'of' => 'di',
+    'results' => 'risultati',
 
 ];
