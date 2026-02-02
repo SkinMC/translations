@@ -11,7 +11,7 @@ return [
     'armor' => 'Supporto per armature',
     'banners' => 'Stendardi',
     'banner' => 'Editor Di Banner',
-    'banner_gallery' => 'Banner Gallery',
+    'banner_gallery' => 'Galleria Stendardi',
     'profile' => 'Profilo personale',
 
     'generators' => 'Generatori',
@@ -51,7 +51,7 @@ return [
     'edit_skin' => 'Modifica skin',
     'make_avatar' => 'Crea avatar',
     'find_heads' => 'Trova teste del giocatore',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Ancora nessun suggerimento. Premi Invio per cercarlo.',
 
     'home' => 'Schermata Home',
     'help' => 'Aiuto',
@@ -84,12 +84,12 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
+        'profile' => 'Profilo',
         'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'project' => 'Progetto',
+        'skin_tag' => 'Etichetta Skin',
+        'server_category' => 'Categoria Server',
+        'modrinth_category' => 'Categoria Progetto',
     ],
 
     'theme' => [
@@ -99,5 +99,5 @@ return [
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'Lingua',
 ];

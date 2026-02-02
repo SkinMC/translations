@@ -13,7 +13,7 @@ return [
 
     'home' => [
         'hero_slogan' => 'Ваше місце для скинів Minecraft.',
-        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
+        'hero_slogan_alt_1' => 'Все про Minecraft. В одному місці.',
         'hero_slogan_alt_2' => 'Where Minecrafters meet.',
         'hero_cta' => 'Здивувати мене',
         'hero_explore_cta' => 'Дослідити скини',
@@ -398,7 +398,7 @@ return [
             'toolbar' => [
                 'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
-                'clear_layers' => 'Clear layers',
+                'clear_layers' => 'Очистити шари',
                 'help' => 'Help',
                 'save_banner' => 'Save banner',
                 'submit_to_gallery' => 'Add to gallery',
@@ -406,7 +406,7 @@ return [
                 'minecraft_version' => 'Minecraft version',
                 'texture_type' => 'Texture type',
                 'banner' => 'Banner',
-                'shield' => 'Shield',
+                'shield' => 'Щит',
                 'version_1_21' => '1.21+',
                 'version_1_16' => '1.16 - 1.20',
                 'version_1_13' => '1.13 - 1.15',
