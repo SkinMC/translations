@@ -398,7 +398,7 @@ return [
             'toolbar' => [
                 'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
-                'clear_layers' => '',
+                'clear_layers' => 'Очистити шари',
                 'help' => 'Help',
                 'save_banner' => 'Save banner',
                 'submit_to_gallery' => 'Add to gallery',
