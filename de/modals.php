@@ -53,7 +53,7 @@ return [
         'title' => 'Feedback',
         'type' => [
             'select' => 'Feedback-Typ wählen',
-            'label' => 'Feedback-Typ',
+            'label' => 'Feedbackart',
             'comment' => 'Kommentare',
             'question' => 'Fragen',
             'bug' => 'Fehlerbericht',
