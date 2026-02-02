@@ -118,5 +118,5 @@ return [
 
     // General
     'projects' => 'Projekte',
-    'project_type' => 'Project type',
+    'project_type' => 'Projekttyp',
 ];
