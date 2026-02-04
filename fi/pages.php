@@ -343,6 +343,8 @@ return [
         'title' => 'Mukautettu Minecraft Toteemi',
         'subtitle' => 'Käytä Minecraft Totemi generaattoria luodakseen mukautetun resurssipaketin, jossa on Kuolematon Totemi tahansa skinistä.',
         'download_info' => 'Oletko tyytyväinen esikatseluun? Valitse Minecraft-versiosi tallentaaksesi mukautetun resurssipaketin:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Minecraft Mukautettu Totemi Generaattori',
             'description' => 'Mukautetut Minecraft Totemit: generoi ja luo mukautettu Minecraft Resurssipaketti, jossa Kuolematon Totemi käyttää sinun tai muiden pelaajien Minecraft skiniä.',
