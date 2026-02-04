@@ -24,6 +24,14 @@ return [
         'plugin' => 'Naviguez et découvrez les meilleurs plugins Minecraft',
     ],
 
+    'sort_label' => [
+        'downloads' => 'Most downloaded',
+        'newest' => 'Newest',
+        'updated' => 'Recently updated',
+        'followers' => 'Most followed',
+    ],
+    'page_n' => 'Page :num',
+
     // Page descriptions
     'description' => [
         'browse' => 'Découvrez des mods, shaders et packs de ressources pour Minecraft',
