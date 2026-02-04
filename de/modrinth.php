@@ -62,6 +62,7 @@ return [
     'env_server' => 'Server',
     'env_both' => 'Client & Server',
     'categories' => 'Kategorien',
+    'filtered_by' => 'Filtered by :category category.',
 
     // Results
     'no_results' => 'Keine Projekte gefunden',
