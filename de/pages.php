@@ -54,7 +54,7 @@ return [
         'banner' => 'Minecraft Avatar Generator',
         'banner_description' => 'Generiere und zeige dir benutzerdefinierte Minecraft-Banner und Muster.',
         'capes' => 'Minecraft-Umhänge',
-        'capes_description' => 'Durchsuche eine gigantische Minecraft-Umhang-Sammlung oder erstelle deine eigenen.',
+        'capes_description' => 'Durchstöbere eine der größten Sammlungen von Minecraft-Umhängen oder erstelle deine eigene.',
 
     ],
     'profile' => [
