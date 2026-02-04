@@ -343,6 +343,8 @@ return [
         'title' => 'Aangepaste Minecraft Totem',
         'subtitle' => 'Gebruik de Minecraft Totem generator om een aangepast bronpakket te maken met een Totem of Undying van elke skin.',
         'download_info' => 'Blij met het voorbeeld? Kies je Minecraft-versie om je aangepaste bronpakket op te slaan:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Minecraft Aangepaste Totem Generator',
             'description' => 'Custom Minecraft Totems: generate and create a custom Minecraft Resource Pack with a Totem of Undying using your or any other players Minecraft skin.',
