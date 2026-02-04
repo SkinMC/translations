@@ -343,6 +343,8 @@ return [
         'title' => 'カスタム トーテム',
         'subtitle' => 'トーテムジェネレーターを使って、トーテムに好きなスキンが入ったカスタムリソースパックを作成できます。',
         'download_info' => 'プレビューをお楽しみいただけましたか？カスタムリソース パックを保存するには、Minecraft のバージョンを選択してください',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'カスタムトーテムジェネレーター',
             'description' => 'カスタムトーテム：自分や他のプレイヤーのスキンを使って、不死のトーテムを含むカスタムリソースパックを生成して作成します。',
