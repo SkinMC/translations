@@ -24,6 +24,14 @@ return [
         'plugin' => 'Selaa ja löydä parhaat Minecraft palvelimen laajennukset',
     ],
 
+    'sort_label' => [
+        'downloads' => 'Most downloaded',
+        'newest' => 'Newest',
+        'updated' => 'Recently updated',
+        'followers' => 'Most followed',
+    ],
+    'page_n' => 'Page :num',
+
     // Page descriptions
     'description' => [
         'browse' => 'Löydä Minecraftin modit, varjostimet ja resurssipaketit',
