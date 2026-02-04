@@ -343,6 +343,8 @@ return [
         'title' => 'Egyedi Minecraft-totem',
         'subtitle' => 'A totemszerkesztővel egyedi forráscsomagot hozhatsz létre, melyben az életmentés toteme az általad megadott kinézetre hasonlít.',
         'download_info' => 'Elégedett vagy? Válaszd ki az alábbi legördülő listáról az általad használt Minecraft-verziót, majd kattints a „Letöltés” gombra!',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Egyedi Minecrafttotem-szerkesztő',
             'description' => 'Egyedi Minecraft-totemek: A totemszerkesztővel egyedi forráscsomagot hozhatsz létre, melyben az életmentés toteme az általad megadott kinézetre hasonlít.',
