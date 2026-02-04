@@ -24,6 +24,14 @@ return [
         'plugin' => 'Просмотрите и откройте для себя лучшие плагины для серверов Minecraft',
     ],
 
+    'sort_label' => [
+        'downloads' => 'Most downloaded',
+        'newest' => 'Newest',
+        'updated' => 'Recently updated',
+        'followers' => 'Most followed',
+    ],
+    'page_n' => 'Page :num',
+
     // Page descriptions
     'description' => [
         'browse' => 'Откройте для себя моды, шейдеры и пакеты ресурсов для Minecraft',
