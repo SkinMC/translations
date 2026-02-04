@@ -344,6 +344,8 @@ return [
         'title' => '自定义Minecraft图腾',
         'subtitle' => '使用Minecraft 图腾生成器创建一个自定义资源包，其中包含任何皮肤的不死图腾。',
         'download_info' => '喜欢这个预览吗？选择您的Minecraft版本来保存您的自定义资源包：',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Minecraft自定义图腾生成器',
             'description' => '自定义Minecraft物品：使用您或任何其他玩家的Minecraft皮肤生成和创建一个自定义Minecraft资源包，带有不死图腾。',
