@@ -24,6 +24,14 @@ return [
         'plugin' => 'Durchsuche und entdecke die besten Minecraft-Server-Plugins',
     ],
 
+    'sort_label' => [
+        'downloads' => 'Most downloaded',
+        'newest' => 'Newest',
+        'updated' => 'Recently updated',
+        'followers' => 'Most followed',
+    ],
+    'page_n' => 'Page :num',
+
     // Page descriptions
     'description' => [
         'browse' => 'Entdecke Mods, Shader und Ressourcenpakete für Minecraft',
@@ -54,6 +62,7 @@ return [
     'env_server' => 'Server',
     'env_both' => 'Client & Server',
     'categories' => 'Kategorien',
+    'filtered_by' => 'Filtered by :category category.',
 
     // Results
     'no_results' => 'Keine Projekte gefunden',

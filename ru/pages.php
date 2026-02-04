@@ -343,6 +343,8 @@ return [
         'title' => 'Кастомный тотем Minecraft',
         'subtitle' => 'Используйте генератор тотем Minecraft для создания пользовательского ресурспака с тотем бессмертия из любого Minecraft скина.',
         'download_info' => 'Вам понравилось? Выберите вашу версию Minecraft чтобы сохранить кастомный ресурс пак:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Minecraft генератор кастомных тотемов',
             'description' => 'Кастомные тотемы Minecraft: создайте свой кастомный Minecraft ресурс пак с тотемом бессмертия, используя ваш или ник другого игрока Minecraft.',

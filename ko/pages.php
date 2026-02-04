@@ -340,6 +340,8 @@ return [
         'title' => '맞춤 Minecraft 토템',
         'subtitle' => 'Minecraft 토템 생성기를 사용해서 어떠한 스킨이든지 불사의 토템이 있는 사용자 지정 리소스팩을 만들어 보세요.',
         'download_info' => '미리 보기에 만족하시나요? Minecraft 버전을 고르고 사용자 지정 리소스 팩에 저장해 보세요:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Minecraft 맞춤 토템 생성기',
             'description' => 'Custom Minecraft Totems: generate and create a custom Minecraft Resource Pack with a Totem of Undying using your or any other players Minecraft skin.',

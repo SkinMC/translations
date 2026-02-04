@@ -344,6 +344,8 @@ return [
         'title' => 'Totem Minecraft Personalizzato',
         'subtitle' => 'Usa il generatore di Totem per Minecraft per creare un pacchetto di risorse personalizzato con un Totem dell\'Immortalità da qualsiasi skin.',
         'download_info' => 'Felice con l\'anteprima? Scegli la tua versione di Minecraft per salvare il tuo pacchetto di risorse personalizzato:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Generatore Di Totem Personalizzato per Minecraft',
             'description' => 'Totem di Minecraft personalizzati: genera e crea un pacchetto di risorse di Minecraft personalizzato con un Totem dell\'Immortalità usando la tua o la skin di qualsiasi altro giocatore di Minecraft.',

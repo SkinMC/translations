@@ -7,7 +7,7 @@ return [
         ],
         'register' => [
             'title' => 'Registriere dich bei SkinMC',
-            'subtitle' => 'Starte jetzt und erstelle deinen Account für einen vollen Zugriff.',
+            'subtitle' => 'Starte und erstelle jetzt deinen Account für den Vollzugriff.',
         ],
     ],
 
@@ -54,7 +54,7 @@ return [
         'banner' => 'Minecraft Avatar Generator',
         'banner_description' => 'Generiere und zeige dir benutzerdefinierte Minecraft-Banner und Muster.',
         'capes' => 'Minecraft-Umhänge',
-        'capes_description' => 'Durchsuche eine gigantische Minecraft-Umhang-Sammlung oder erstelle deine eigenen.',
+        'capes_description' => 'Durchstöbere eine der größten Sammlungen von Minecraft-Umhängen oder erstelle deine eigene.',
 
     ],
     'profile' => [
@@ -343,6 +343,8 @@ return [
         'title' => 'Eigenes Minecraft-Totem',
         'subtitle' => 'Benutze den Minecraft Totem Generator, um ein eigenes Ressource pack mit einem Totem der Unsterblichkeit von jedem Skin zu erstellen.',
         'download_info' => 'Sieht\'s gut aus? Wähle deine Minecraft-Version aus, um dein benutzerdefiniertes Ressource pack zu speichern:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Eigenes Minecraft Totem Generator',
             'description' => 'Eigene Minecraft-Totems: generiere und erstelle ein eigenes Ressource pack mit einem Totem der Unsterblichkeit mit deinem oder einem anderen Spieler Skin.',
@@ -500,7 +502,7 @@ return [
             'favourites_label' => 'Favoriten',
             'similar_banners' => 'Ähnliche Banner',
         ],
-        'already_exists' => 'This banner is already in the gallery.',
+        'already_exists' => 'Dieses Banner ist bereits in der Galerie.',
     ],
     'search' => [
         'meta' => [
@@ -509,7 +511,7 @@ return [
         'what_are_you_searching_for' => 'Was suchst du?',
         'title' => 'Suchergebnisse',
         'results' => 'Seite :current für :count Ergebnis|Seite :current von etwa :count Ergebnissen ',
-        'results_count' => ':count result|:count results',
+        'results_count' => ':count Ergebnis|:count Ergebnisse',
         'time' => '(:time Sekunden)',
         'username_available' => 'Benutzername verfügbar*',
         'username_unavailable' => 'Benutzername nicht verfügbar',
@@ -1289,15 +1291,15 @@ return [
             'posts-count' => ':count post|:count posts',
             'hashtag' => 'Hashtag',
             'hashtags' => 'Hashtags',
-            'no-results' => 'No hashtags found',
+            'no-results' => 'Keine Hashtags gefunden',
         ],
         'search' => [
             'title' => 'Search',
-            'placeholder' => 'Search posts, hashtags...',
-            'no-results' => 'No results found',
-            'posts' => 'Posts',
-            'no-hashtags-found' => 'No hashtags found matching ":query"',
-            'no-results-found' => 'No results found for ":query"',
+            'placeholder' => 'Nach Beiträgen, Hashtags suchen...',
+            'no-results' => 'Keine Ergebnisse gefunden',
+            'posts' => 'Beiträge',
+            'no-hashtags-found' => 'Keine Hashtags mit ":query" gefunden',
+            'no-results-found' => 'Keine Ergebnisse für ":query" gefunden',
         ],
         'poll' => [
             'title' => 'Umfrage',

@@ -343,6 +343,8 @@ return [
         'title' => 'Користувацький тотем Minecraft',
         'subtitle' => 'Скористайтеся генератором тотема Minecraft, щоб створити власний пакет ресурсів із тотемом безсмертя з будь-якого скіна.',
         'download_info' => 'Задоволені результатом? Виберіть свою версію Minecraft, щоб зберегти власний пакет ресурсів:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Генератор користувацьких тотемів Minecraft',
             'description' => 'Користувацькі тотеми Minecraft: генеруйте та створюйте власний пакет ресурсів Minecraft із тотемом безсмертя, використовуючи свій або будь-який інший скин гравця Minecraft.',
