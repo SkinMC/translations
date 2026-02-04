@@ -24,6 +24,14 @@ return [
         'plugin' => 'Durchsuche und entdecke die besten Minecraft-Server-Plugins',
     ],
 
+    'sort_label' => [
+        'downloads' => 'Most downloaded',
+        'newest' => 'Newest',
+        'updated' => 'Recently updated',
+        'followers' => 'Most followed',
+    ],
+    'page_n' => 'Page :num',
+
     // Page descriptions
     'description' => [
         'browse' => 'Entdecke Mods, Shader und Ressourcenpakete für Minecraft',
