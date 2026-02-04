@@ -343,6 +343,8 @@ return [
         'title' => 'Custom Minecraft Totem',
         'subtitle' => 'Use the Minecraft Totem generator to create a custom resource pack with a Totem of Undying from any skin.',
         'download_info' => 'Happy with the preview? Choose your Minecraft version to save your custom resource pack:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Minecraft Custom Totem Generator',
             'description' => 'Custom Minecraft Totems: generate and create a custom Minecraft Resource Pack with a Totem of Undying using your or any other players Minecraft skin.',
