@@ -62,6 +62,7 @@ return [
     'env_server' => 'Palvelin',
     'env_both' => 'Asiakas & Palvelin',
     'categories' => 'Kategoriat',
+    'filtered_by' => 'Filtered by :category category.',
 
     // Results
     'no_results' => 'Projekteja ei löytynyt',
