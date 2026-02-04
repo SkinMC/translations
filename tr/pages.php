@@ -343,6 +343,8 @@ return [
         'title' => 'Özel Minecraft Totemi',
         'subtitle' => 'Minecraft Totem oluşturucuyu kullanarak herhangi bir görünümden Ölümsüz Totem içeren özel bir kaynak paketi oluşturun.',
         'download_info' => 'Önizlemeyi beğendiniz mi? Özel kaynak paketinizi kaydetmek için Minecraft sürümünüzü seçin:',
+        'download_failed' => 'Could not load skin image. Check the username or try uploading an image.',
+        'base64_size' => 'The image must be less than 256KB.',
         'meta' => [
             'title' => 'Özel Minecraft Totemi Oluşturucu',
             'description' => 'Özel Minecraft Totemleri: Kendi veya başka oyuncuların Minecraft skin\'lerini kullanarak Ölümsüzlük Totemi ile özel bir Minecraft Kaynak Paketi oluşturun.',
