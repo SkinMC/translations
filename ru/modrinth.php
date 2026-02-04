@@ -62,6 +62,7 @@ return [
     'env_server' => 'Сервер',
     'env_both' => 'Клиент & Сервер',
     'categories' => 'Категории',
+    'filtered_by' => 'Filtered by :category category.',
 
     // Results
     'no_results' => 'Проекты не найдены',
