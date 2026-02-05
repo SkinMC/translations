@@ -40,7 +40,7 @@ return [
     'tags' => [
         'title' => 'Tags',
         'pending' => 'Ausstehende Tags',
-        'banned' => 'Gesperrte Tags',
+        'banned' => 'Gebannte Tags',
     ],
     'reports' => [
         'title' => 'Meldungen',
