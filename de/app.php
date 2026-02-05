@@ -30,7 +30,7 @@ Füge deinem Profil Links zu deinen sozialen Medien hinzu. Lass jeden wissen, wo
     'screenshots' => [
         'find' => 'Finde einen Minecraft Spieler',
         'claim' => 'Beanspruche & passe dein Profil an',
-        'qr' => 'Erstelle deinen eigenen QR Code',
+        'qr' => 'Erstelle deinen eigenen QR-Code',
         'qr_scanner' => 'Eingebauter QR Code Scanner',
         'new_skins' => 'Täglich tausende neue Skins',
         'achievement' =>  'Errungenschaft Generator',
