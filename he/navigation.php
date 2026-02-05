@@ -5,7 +5,7 @@ return [
     'avatars' => 'אווטרים',
     'editor' => 'עורך',
     'heads' => 'ראשים',
-    'capes' => 'קייפס',
+    'capes' => 'גלימות',
     'servers' => 'שרתים',
     'achievement' => 'הישגים',
     'armor' => 'ארמור סטנד',
