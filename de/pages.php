@@ -22,7 +22,7 @@ return [
         'skin_editor' => 'Skin-Editor',
         'skin_editor_detail' => 'Gestalte deinen eigenen Skin',
         'avatar_maker' => 'Avatar-Generator',
-        'avatar_maker_detail' => 'Erstelle deine eigenen Minecraft Profilbilder.',
+        'avatar_maker_detail' => 'Erstelle deine eigenen Minecraft-Profilbilder.',
         'trending' => 'Beliebt',
         'minecraft_skin' => 'Minecraft-Skin',
         'favourite' => 'Favorit',
@@ -336,7 +336,7 @@ return [
         ],
         'meta' => [
             'title' => 'Minecraft Avatar Generator',
-            'description' => 'Minecraft Avatar Maker: Erstelle eigene Minecraft-Profilbilder mit deinem Minecraft-Skin',
+            'description' => 'Minecraft Avatar-Maker: Erstelle eigene Minecraft-Profilbilder mit deinem Minecraft-Skin',
         ],
     ],
     'totem' => [
