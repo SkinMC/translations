@@ -60,7 +60,7 @@ return [
             'feature' => 'Funktionsanfrage',
             ],
         'submit' => 'Absenden',
-        'nps' => 'Auf einer Skala von 0 bis 10 wie wahrscheinlich ist es, dass du SkinMC einem Freund empfiehlst?',
+        'nps' => 'Auf einer Skala von 0 bis 10: Wie wahrscheinlich ist es, dass du SkinMC deinen Freunden empfiehlst?',
         'success' => [
             'title' => 'Vielen Dank!',
             'message' => 'Deine Nachricht wurde gesendet, erwarte bald eine Antwort! Für weitere Fragen melde dich bei unserem Discord oder schicke eine weitere Nachricht.',
