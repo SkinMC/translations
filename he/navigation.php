@@ -24,7 +24,7 @@ return [
     'resource_packs' => 'Resource Packs',
     'modpacks' => 'Modpacks',
     'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'plugins' => 'תוספים',
 
     'logout' => 'התנתק',
     'register' => 'הירשם',
@@ -86,7 +86,7 @@ return [
     'autocomplete' => [
         'profile' => 'Profile',
         'server' => 'Server',
-        'project' => 'Project',
+        'project' => 'פרויקט',
         'skin_tag' => 'Skin Tag',
         'server_category' => 'Server Category',
         'modrinth_category' => 'Project Category',
@@ -99,5 +99,5 @@ return [
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'שפה',
 ];
