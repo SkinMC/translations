@@ -2,88 +2,88 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
-        'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'black' => 'Fekete',
+        'red' => 'Vörös',
+        'green' => 'Zöld',
+        'brown' => 'Barna',
+        'blue' => 'Kék',
+        'purple' => 'Lila',
+        'cyan' => 'Türkizkék',
+        'gray' => 'Szürke',
+        'dark_gray' => 'Sötétszürke',
+        'pink' => 'Rózsaszín',
+        'lime' => 'Limezöld',
+        'yellow' => 'Sárga',
+        'light_blue' => 'Világoskék',
+        'magenta' => 'Bíborvörös',
+        'orange' => 'Narancssárga',
+        'white' => 'Fehér',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Teljes :color mező',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
-        'ss' => 'Paly',          // small_stripes
+        'bs' => 'Alsó sáv',           // stripe_bottom
+        'ts' => 'Felső sáv',         // stripe_top
+        'ls' => 'Sápadt Dexter',   // stripe_left
+        'rs' => 'Sápadt bajlós', // stripe_right
+        'cs' => 'Sápadt',          // stripe_center
+        'ms' => 'Stílusos',          // stripe_middle
+        'drs' => 'Hajlít',         // stripe_downright
+        'dls' => 'Bajlós Ferde', // stripe_downleft
+        'ss' => 'Játékos',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => 'Kereszt',
+        'sc' => 'Ferde kereszt',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => 'Ferde bal',       // diagonal_left
+        'rd' => 'Ferde',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'Ferde fordított',      // diagonal_up_left
+        'rud' => 'Ferde bal fordított', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vh' => 'Függőleges',              // half_vertical
+        'vhr' => 'Függőleges fordított',   // half_vertical_right
+        'hh' => 'Vízszintes',              // half_horizontal
+        'hhb' => 'Vízszintes fordított',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => 'Jobb alsó sarok',    // square_bottom_left
+        'br' => 'Bal alsó sarok', // square_bottom_right
+        'tl' => 'Szegélyfogazat',  // square_top_left
+        'tr' => 'Bal felső sarok', // square_top_right
 
         // Triangles
         'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'tt' => 'Fordított Chevron',  // triangle_top
+        'bts' => 'Recés alap',   // triangles_bottom
+        'tts' => 'Szegélyfogazat',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mc' => 'Kör',   // circle
+        'mr' => 'Rombusz',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => 'Keret',           // border
+        'cbo' => 'Recés keret', // curly_border
+        'bri' => 'Téglakő',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gra' => 'Színátmenet',     // gradient
+        'gru' => 'Színáttűnés', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
-        'sku' => 'Skull Charge',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
-        'glb' => 'Globe',         // globe
-        'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
-        'guster' => 'Guster',
+        'cre' => 'Creeper', // creeper
+        'sku' => 'Koponya',   // skull
+        'flo' => 'Virág', // flower
+        'moj' => 'Dolog',         // mojang
+        'glb' => 'Földgömb',         // globe
+        'pig' => 'Orr',         // piglin
+        'flow' => 'Áramlás',
+        'guster' => 'Szellő',
     ],
 ];
