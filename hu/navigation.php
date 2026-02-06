@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'skins' => 'Kinézetek',
+    'skins' => 'Skinek',
     'avatars' => 'Profilképkészítő',
     'editor' => 'Kinézetszerkesztő',
     'heads' => 'Fejek',
@@ -10,21 +10,21 @@ return [
     'achievement' => 'Teljesítménykészítő',
     'armor' => 'Páncélállvány-szerkesztő',
     'banners' => 'Zászlók',
-    'banner' => 'Banner Editor',
-    'banner_gallery' => 'Banner Gallery',
-    'profile' => 'Saját profil',
+    'banner' => 'Zászló szerkesztő',
+    'banner_gallery' => 'Zászéó galéria',
+    'profile' => 'Profilom',
 
-    'generators' => 'Generators',
+    'generators' => 'Késíztők',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
-    'discover' => 'Discover',
-    'mods' => 'Mods',
-    'shaders' => 'Shaders',
-    'resource_packs' => 'Resource Packs',
-    'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'feed' => 'Hírfolyam',
+    'discover' => 'Felfedezés',
+    'mods' => 'Modok',
+    'shaders' => 'Shaderek',
+    'resource_packs' => 'Erőforráscsomagok',
+    'modpacks' => 'Modcsomagok',
+    'datapacks' => 'Adatcsomagok',
+    'plugins' => 'Pluginok',
 
     'logout' => 'Kijelentkezés',
     'register' => 'Regisztráció',
@@ -51,7 +51,7 @@ return [
     'edit_skin' => 'Kinézet szerkesztése',
     'make_avatar' => 'Beállítás profilképként',
     'find_heads' => 'Játékosfejek keresése',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Nincsenek javaslatok eddig. Nyomj egy Bevitel-t a kereséshez.',
 
     'home' => 'Kezdőlap',
     'help' => 'Súgó',
@@ -66,13 +66,13 @@ return [
     'community' => 'Közösség',
     'imprint' => 'Impresszum',
     'cookies' => 'Sütik',
-    'terms' => 'Terms of Service',
-    'privacy' => 'Privacy policy',
+    'terms' => 'Használati feltételek',
+    'privacy' => 'Adatvédelmi nyilatkozat',
     'app' => 'Alkalmazás',
     'mod' => 'Mod',
     'totem' => 'Totemkészítő',
-    'cube' => 'Cube',
-    'new' => 'New',
+    'cube' => 'Kocka',
+    'new' => 'Új',
 
     'feedback' => 'Visszajelzés',
     'status' => 'Állapot',
@@ -84,20 +84,20 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'profile' => 'Profil',
+        'server' => 'Szerver',
+        'project' => 'Projekt',
+        'skin_tag' => 'Skin címke',
+        'server_category' => 'Szerver Kategória',
+        'modrinth_category' => 'Projekt Kategória',
     ],
 
     'theme' => [
-        'title' => 'Theme',
-        'dark' => 'Dark',
-        'light' => 'Light',
-        'auto' => 'Auto',
+        'title' => 'Téma',
+        'dark' => 'Sötét',
+        'light' => 'Világos',
+        'auto' => 'Automatikus',
     ],
 
-    'language' => 'Language',
+    'language' => 'Nyelv',
 ];
