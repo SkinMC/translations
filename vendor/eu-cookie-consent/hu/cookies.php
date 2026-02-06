@@ -21,13 +21,13 @@ return [
     'youtube' => 'YouTube',
 
     'analytical' => 'Analytical cookies',
-    'analytical_description' => 'These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. If you do not allow these cookies, information from these cookies will not be used to help site performance.',
+    'analytical_description' => 'Ezek a sütik lehetővé teszik nekünk hogy számon tartsuk a weboldal látogatóinak számát, és azt hogy azok honnan jönnek, hogy a weboldal teljesítményét javíthassuk. Ha nem engedélyezed ezeket a sütiket, az információ amiket kapnánk belőle nem lesznek használhatóak a weboldal teljesítményének javítására.',
     'googleAnalytics' => 'Google Analytics',
     'microsoftClarity' => 'Microsoft Clarity',
 
-    'googleOneTap' => 'Sign in with Google',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap' => 'Bejelentkezés Google-lel',
+    'googleOneTap_description' => 'Ezek a sütik lehetővé teszik hogy a Bejelentkezés Google-lel funkció a gyors bejelentkezéshez vagy fiók létrehozásához működjön. Az adatok amiket a Bejelentkezés Google-lelből szerzünk csak biztonsági célokra hasznosítjuk.',
 
-    'facebookLogin' => 'Sign in with Facebook',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin' => 'Bejelentkezés Facebookkal',
+    'facebookLogin_description' => 'Ezek a sütik lehetővé teszik hogy a Bejelentkezés Facebookkal funkció a gyors bejelentkezéshez vagy fiók létrehozásához működjön.',
 ];
