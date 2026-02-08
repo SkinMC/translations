@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'Nowy obserwujący',
-        'text' => ':user zaczął Cię obserwować!'
+        'text' => ':user zaczął Cię obserwować!',
     ],
     'comment' => [
         'new' => [
             'title' => ':model komentarz',
-            'text' => ':user dodał komenatrz do :model'
+            'text' => ':user dodał komenatrz do :model',
         ],
         'reply' => [
             'title' => 'Odpowiedz na komentarz do :model',
-            'text' => ':user odpowiedział na komentarz :model'
+            'text' => ':user odpowiedział na komentarz :model',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
-        ]
+            'text' => ':user liked your comment!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'Nowa wzmianka',
-            'text' => ':user wspomiał o Tobie w swoim poście!'
+            'text' => ':user wspomiał o Tobie w swoim poście!',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
-        ]
+            'text' => ':user reposted your post!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'Nowy poziom!',
-            'text' => 'Gratulacje osiągnięcia poziomu :level!'
-        ]
+            'text' => 'Gratulacje osiągnięcia poziomu :level!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'Otrzymaliśmy Twoje zgłoszenie! (Sprawa :id)',
-            'text' => 'Nasz zespół zajmie się tym niezwłocznie. Dziękujemy za bycie niesamowitym i pomoc w utrzymaniu dobrej atmosfery! '
+            'text' => 'Nasz zespół zajmie się tym niezwłocznie. Dziękujemy za bycie niesamowitym i pomoc w utrzymaniu dobrej atmosfery! ',
         ],
         'resolved' => [
             'title' => 'Sprawdziliśmy Twoje zgłoszenie! (Sprawa :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'Aktualizacja twojego zgłoszenia (Sprawa :id)',
             'text' => 'Po przeanalizowaniu zgłoszenia, treść którą zgłosiłeś, nie jest sprzeczna z naszymi wytycznymi. Jeśli chcesz, abyśmy przejrzeli coś konkretnego, upewnij się, że zgłosisz skórkę, profil itp., i podaj dodatkowy kontekst w razie potrzeby. Dziękujemy za troskę i zaangażowanie w naszą społeczność!',
-        ]
-    ]
+        ],
+    ],
 ];
