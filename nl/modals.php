@@ -6,6 +6,7 @@ return [
         'email' => 'E-mailadres',
         'password' => 'Wachtwoord',
         'button' => 'Aanmelden',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => 'Wachtwoord vergeten?',
         'reset' => 'Herstel',
         'register' => 'Heb je nog geen account?',
@@ -45,7 +46,7 @@ return [
         'description' => 'Kies uw taal',
         'contribute' => 'Bijdragen',
         'contribute_add' => 'Vertaling toevoegen',
-        'updated' => 'Uw taal is ingesteld'
+        'updated' => 'Uw taal is ingesteld',
     ],
     'copied' => 'Gekopieerd naar klembord!',
     'close' => 'Sluiten',
@@ -58,12 +59,12 @@ return [
             'question' => 'Vragen',
             'bug' => 'Bugmelding',
             'feature' => 'Functie-aanvraag',
-            ],
+        ],
         'submit' => 'Indienen',
         'nps' => 'Op een schaal van 0 tot 10 zou je SkinMC aan een vriend aanraden?',
         'success' => [
             'title' => 'Bedankt!',
             'message' => 'Je bericht is verstuurd, verwacht binnenkort een antwoord! Voor meer vragen, voel je vrij om de Discord te joinen of stuur een ander bericht in.',
-        ]
-    ]
+        ],
+    ],
 ];
