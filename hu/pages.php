@@ -1294,6 +1294,8 @@ return [
             'show_on_profile_tooltip' => 'Controls visibility on your SkinMC profile.',
             'empty' => 'No skins in your history yet. Skins you wear in Minecraft will appear here.',
             'empty_other' => 'No other skins yet. Skins you have worn will appear here; you can show or hide them on your profile.',
+            'empty_not_claimed_title' => 'Link your Minecraft account',
+            'empty_not_claimed' => 'Connect your Minecraft account to see your skin history and choose which skins appear on your profile.',
         ],
         'invite' => [
             'title' => 'Meghívóim',
