@@ -6,6 +6,7 @@ return [
         'email' => 'Email-cím',
         'password' => 'Jelszó',
         'button' => 'Bejelentkezés',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => 'Elfelejtetted a jelszavad?',
         'reset' => 'Visszaállítás',
         'register' => 'Még nincs fiókod?',
@@ -45,7 +46,7 @@ return [
         'description' => 'Válassz nyelvet',
         'contribute' => 'Hozzájárulás',
         'contribute_add' => 'Új fordítás',
-        'updated' => 'Nyelv kiválasztva'
+        'updated' => 'Nyelv kiválasztva',
     ],
     'copied' => 'Vágólapra másolva',
     'close' => 'Bezárás',
@@ -58,12 +59,12 @@ return [
             'question' => 'Kérdések',
             'bug' => 'Hibajelentés',
             'feature' => 'Új funkció kérelmezése',
-            ],
+        ],
         'submit' => 'Küldés',
         'nps' => 'Egy 0-tól 10-ig terjedő skálán mekkora a valószínűsége, hogy ajánlanád a SkinMC-t a barátaidnak?',
         'success' => [
             'title' => 'Köszönjük!',
             'message' => 'Fogadtuk az üzenetedet és hamarosan válaszolunk! Ha további kérdéseid lennének, nyugodtan csatlakozz a Discord-szerverhez vagy küldj el egy újabb üzenetet.',
-        ]
-    ]
+        ],
+    ],
 ];
