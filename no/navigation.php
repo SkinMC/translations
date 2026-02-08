@@ -2,6 +2,12 @@
 
 return [
     'skins' => 'Stiler',
+    'skins_profile' => 'Profile skins',
+    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
+    'creations' => 'Creations',
+    'creations_subtitle' => 'Skins shared by the community',
+    'skin_upload_subtitle' => 'Add your creation',
+    'skin_tags' => 'Tagged',
     'avatars' => 'Avatarer',
     'editor' => 'Redaktør',
     'heads' => 'Heads',
@@ -73,6 +79,9 @@ return [
     'totem' => 'Totems',
     'cube' => 'Cube',
     'new' => 'New',
+
+    'boards' => 'Boards',
+    'boards_subtitle' => 'Your saved collections',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
