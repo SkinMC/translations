@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => '有新的关注者',
-        'text' => ':user 刚刚关注了你！'
+        'text' => ':user 刚刚关注了你！',
     ],
     'comment' => [
         'new' => [
             'title' => ':model 评论',
-            'text' => ':user 对你的 :model 发表了评论'
+            'text' => ':user 对你的 :model 发表了评论',
         ],
         'reply' => [
             'title' => '对 :model 评论的回复',
-            'text' => ':user 回复了一个 :model 评论'
+            'text' => ':user 回复了一个 :model 评论',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
-        ]
+            'text' => ':user liked your comment!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => '新提及我的',
-            'text' => ':user 在他们的帖子中提到了你！'
+            'text' => ':user 在他们的帖子中提到了你！',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
-        ]
+            'text' => ':user reposted your post!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => '你升级了!',
-            'text' => '恭喜您已达到等级 :level！'
-        ]
+            'text' => '恭喜您已达到等级 :level！',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => '我们已收到您的举报！ (案件:id)',
-            'text' => '我们的团队将努力以最快的速度进行调查，感谢您的出色表现，请不要着急。 '
+            'text' => '我们的团队将努力以最快的速度进行调查，感谢您的出色表现，请不要着急。 ',
         ],
         'resolved' => [
             'title' => '我们审查了您的报告(案件:id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => '更新您的举报 (案件 :id)',
             'text' => '在一些侦测工作之后，我们发现您报告的内容不符合我们的准则。 如果你想要我们审查某些具体内容，请确保你报告皮肤、个人资料等，并且在需要时提供额外的上下文信息。 感谢你对我们社区的关心和参与！',
-        ]
-    ]
+        ],
+    ],
 ];
