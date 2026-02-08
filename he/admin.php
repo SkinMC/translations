@@ -25,7 +25,7 @@ return [
         'subtitle' => 'Useful tips for the SkinMC dashboard',
     ],
     'users' => [
-        'title' => 'Users',
+        'title' => 'משתמשים',
         'subtitle' => ':count total users signed up',
         'list' => [
             'username' => 'Username',
