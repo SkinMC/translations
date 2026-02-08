@@ -631,22 +631,6 @@ return [
             'unlisted' => 'Unlisted',
             'draft' => 'Draft',
         ],
-        'add_to_collection' => [
-            'button' => 'Add to collection',
-            'create_first' => 'Create your first collection',
-            'in_collection' => 'In collection',
-            'create_new' => 'Create new collection',
-            'login_required' => 'Please log in to add to a collection.',
-            'not_found' => 'Collection not found.',
-            'collection_full' => 'This collection is full.',
-            'added' => 'Added to collection.',
-        ],
-    ],
-    'collections' => [
-        'by_creator' => 'By :name',
-        'edit_collection' => 'Edit collection',
-        'creations_count' => ':count creation|:count creations',
-        'empty' => 'No creations in this collection yet.',
     ],
     'search' => [
         'meta' => [
