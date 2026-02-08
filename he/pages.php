@@ -401,7 +401,7 @@ return [
                 'title' => 'Banner Editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
-                'help' => 'Help',
+                'help' => 'עזרה',
                 'save_banner' => 'Save banner',
                 'submit_to_gallery' => 'Add to gallery',
                 'reset_from_url' => 'Load from link',
