@@ -2,6 +2,12 @@
 
 return [
     'skins' => 'Skinek',
+    'skins_profile' => 'Profile skins',
+    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
+    'creations' => 'Creations',
+    'creations_subtitle' => 'Skins shared by the community',
+    'skin_upload_subtitle' => 'Add your creation',
+    'skin_tags' => 'Tagged',
     'avatars' => 'Profilképkészítő',
     'editor' => 'Kinézetszerkesztő',
     'heads' => 'Fejek',
@@ -73,6 +79,9 @@ return [
     'totem' => 'Totemkészítő',
     'cube' => 'Kocka',
     'new' => 'Új',
+
+    'boards' => 'Boards',
+    'boards_subtitle' => 'Your saved collections',
 
     'feedback' => 'Visszajelzés',
     'status' => 'Állapot',
