@@ -23,7 +23,7 @@ return [
     'shaders' => 'Shaders',
     'resource_packs' => 'Resource Packs',
     'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
+    'datapacks' => 'חבילות נתונים',
     'plugins' => 'תוספים',
 
     'logout' => 'התנתק',
@@ -85,7 +85,7 @@ return [
     // Autocomplete types
     'autocomplete' => [
         'profile' => 'Profile',
-        'server' => 'Server',
+        'server' => 'שרת',
         'project' => 'פרויקט',
         'skin_tag' => 'Skin Tag',
         'server_category' => 'Server Category',
