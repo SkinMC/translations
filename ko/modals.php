@@ -6,6 +6,7 @@ return [
         'email' => '이메일 주소',
         'password' => '비밀번호',
         'button' => '로그인',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => '비밀번호를 잊으셨나요?',
         'reset' => '재설정',
         'register' => '계정이 없으신가요?',
@@ -45,7 +46,7 @@ return [
         'description' => '언어를 선택하세요',
         'contribute' => '기여',
         'contribute_add' => '번역안 추가하기',
-        'updated' => '언어를 설정했어요'
+        'updated' => '언어를 설정했어요',
     ],
     'copied' => '클립보드에 복사했어요!',
     'close' => '닫기',
@@ -58,12 +59,12 @@ return [
             'question' => '질문',
             'bug' => '버그 제보',
             'feature' => '기능 요청',
-            ],
+        ],
         'submit' => '제출',
         'nps' => '0에서 10 사이로 친구에게 SkinMC를 어느 정도 추천하고 싶으신가요?',
         'success' => [
             'title' => '감사드려요!',
             'message' => '메시지가 전달됐어요. 곧 답변을 드릴게요! 향후 질문은 Discord에 참가하시거나 다른 메시지를 제출해 주세요.',
-        ]
-    ]
+        ],
+    ],
 ];
