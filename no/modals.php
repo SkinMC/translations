@@ -6,6 +6,7 @@ return [
         'email' => 'Epost adresse',
         'password' => 'Passord',
         'button' => 'Logg inn',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => 'Glemt passord?',
         'reset' => 'Reset',
         'register' => 'Har du ikke en konto ennå?',
@@ -45,7 +46,7 @@ return [
         'description' => 'Velg språket ditt',
         'contribute' => 'Bidra',
         'contribute_add' => 'Legg til oversettelse',
-        'updated' => 'Your language has been set'
+        'updated' => 'Your language has been set',
     ],
     'copied' => 'Copied to clipboard!',
     'close' => 'Close',
@@ -58,12 +59,12 @@ return [
             'question' => 'Questions',
             'bug' => 'Bug report',
             'feature' => 'Feature request',
-            ],
+        ],
         'submit' => 'Submit',
         'nps' => 'On a scale from 0 to 10 how likely would you recommend SkinMC to a friend?',
         'success' => [
             'title' => 'Thank you!',
             'message' => 'Your message has been sent, expect a reply soon! For further questions, feel free join the Discord or submit another message.',
-        ]
-    ]
+        ],
+    ],
 ];
