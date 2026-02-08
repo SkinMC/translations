@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'متابع جديد',
-        'text' => ':user يتابعك الآن!'
+        'text' => ':user يتابعك الآن!',
     ],
     'comment' => [
         'new' => [
             'title' => 'تعليق على :model',
-            'text' => ':user قدم تعليقا على :model'
+            'text' => ':user قدم تعليقا على :model',
         ],
         'reply' => [
             'title' => 'الرد على تعليق :model',
-            'text' => ':user رد على تعليق :model'
+            'text' => ':user رد على تعليق :model',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
-        ]
+            'text' => ':user liked your comment!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'حد منشنك',
-            'text' => ':user منشنك في البوست!'
+            'text' => ':user منشنك في البوست!',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
-        ]
+            'text' => ':user reposted your post!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'لقد ارتفع مستواك!',
-            'text' => 'تهانينا على الوصول للمستوى :level!'
-        ]
+            'text' => 'تهانينا على الوصول للمستوى :level!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'لقد تلقينا بلاغك! (القضية رقم :id)',
-            'text' => 'فريقنا يعمل عليها وسوف ينظر فيها على الفور. شكرا لكونك رائع ومساعدتنا على إبقاء الأمور رائعة! '
+            'text' => 'فريقنا يعمل عليها وسوف ينظر فيها على الفور. شكرا لكونك رائع ومساعدتنا على إبقاء الأمور رائعة! ',
         ],
         'resolved' => [
             'title' => 'قمنا بمراجعة البلاغ الخاص بك (القضية رقم :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'تحديث البلاغ الخاص بك (القضية رقم :id)',
             'text' => 'بعد بعض أعمال التحقق، وجدنا أن المحتوى الذي أبلغت عنه لا يتعارض مع المبادئ التوجيهية الخاصة بنا. إذا كنت تريد منا مراجعة شيء محدد، يرجى التأكد من أنك تبلغ عن سكن، الملف الشخصي، إلخ، وتوفير كلام إضافي عند الحاجة. شكرا على اهتمامك ومشاركتك في مجتمعنا!',
-        ]
-    ]
+        ],
+    ],
 ];
