@@ -6,6 +6,7 @@ return [
         'email' => 'כתובת אימייל',
         'password' => 'סיסמה',
         'button' => 'התחבר',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => 'שכחת סיסמא?',
         'reset' => 'איפוס',
         'register' => 'עדיין אין לך חשבון?',
@@ -45,7 +46,7 @@ return [
         'description' => 'בחר את השפה שלך',
         'contribute' => 'תרום',
         'contribute_add' => 'הוספת תרגום',
-        'updated' => 'השפה שלך נקבעה'
+        'updated' => 'השפה שלך נקבעה',
     ],
     'copied' => 'הועתק ללוח!',
     'close' => 'סגור',
@@ -58,12 +59,12 @@ return [
             'question' => 'שאלות',
             'bug' => 'דיווח באג',
             'feature' => 'בקשת תכונה',
-            ],
+        ],
         'submit' => 'שלח',
         'nps' => 'מ-0 עד 10 מה הסיכוי שהיית ממליץ על SkinMC לחבר?',
         'success' => [
             'title' => 'תודה רבה!',
             'message' => 'הודעתך נשלחה, צפה לתשובה בהקדם! לשאלות נוספות, תרגיש חופשי להצטרף לדיסקורד או לשלוח עוד הודעה.',
-        ]
-    ]
+        ],
+    ],
 ];
