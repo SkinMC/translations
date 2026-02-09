@@ -13,8 +13,8 @@ return [
 
     'home' => [
         'hero_slogan' => '你的Minecraft皮肤的地方。',
-        'hero_slogan_alt_1' => 'Everything Minecraft. One place.',
-        'hero_slogan_alt_2' => 'Where Minecrafters meet.',
+        'hero_slogan_alt_1' => 'MC 皮肤创作，一站即可汇集。',
+        'hero_slogan_alt_2' => 'MC 玩家汇聚的地方。',
         'hero_cta' => '给我惊喜',
         'hero_explore_cta' => '探索皮肤',
         'skin_viewer' => '皮肤查看器',
@@ -28,8 +28,8 @@ return [
         'favourite' => '收藏',
         'collections' => '收藏夹',
         'collections_detail' => '每次管理Minecraft皮肤',
-        'creations_title' => 'Skin creations',
-        'creations_description' => 'Browse and upload custom Minecraft skin creations.',
+        'creations_title' => '皮肤作品',
+        'creations_description' => '浏览并上传自定义Minecraft皮肤作品。',
         'about_skinmc' => '关于SkinMC',
         'about_find' => '寻找任何皮肤',
         'about_find_detail' => '使用SkinMC 搜索任何Minecraft用户名来查找、查看和下载您的下一个新皮肤。',
@@ -338,7 +338,7 @@ return [
             'avatar_colour_palette' => '调色板',
             'avatar_colour_basic' => '基本',
             'show_nametag' => 'Show nametag',
-            'loading_3d' => 'Loading 3D viewer…',
+            'loading_3d' => '正在加载 3D 查看器……',
         ],
         'meta' => [
             'title' => 'Minecraft头像生成器',
