@@ -1,23 +1,23 @@
 <?php
 
 return [
-    'browse' => 'Browse',
+    'browse' => '浏览',
 
     // Types
     'types' => [
-        'mod' => 'Mods',
-        'shader' => 'Shaders',
-        'resourcepack' => 'Resource Packs',
-        'modpack' => 'Modpacks',
-        'datapack' => 'Data Packs',
-        'plugin' => 'Plugins',
+        'mod' => '模组',
+        'shader' => '光影',
+        'resourcepack' => '资源包',
+        'modpack' => '整合包',
+        'datapack' => '数据包',
+        'plugin' => '插件',
     ],
 
     // Meta descriptions
     'meta' => [
-        'browse' => 'Browse Minecraft mods, shaders, and resource packs',
-        'mod' => 'Browse and discover the best Minecraft mods',
-        'shader' => 'Browse and discover the best Minecraft shaders',
+        'browse' => '浏览Minecraft模组、光影和资源包',
+        'mod' => '浏览并发现最好的 Minecraft 模组',
+        'shader' => '浏览并发现最好的 Minecraft 光影',
         'resourcepack' => 'Browse and discover the best Minecraft resource packs',
         'modpack' => 'Browse and discover the best Minecraft modpacks',
         'datapack' => 'Browse and discover the best Minecraft data packs',
@@ -27,8 +27,8 @@ return [
     'sort_label' => [
         'downloads' => 'Most downloaded',
         'newest' => 'Newest',
-        'updated' => 'Recently updated',
-        'followers' => 'Most followed',
+        'updated' => '最近更新',
+        'followers' => '最多关注',
     ],
     'page_n' => 'Page :num',
 
@@ -50,7 +50,7 @@ return [
     'all_versions' => 'All versions',
     'show_all_versions' => 'Show snapshots & pre-releases',
     'show_all_loaders' => 'Show all platforms',
-    'loader' => 'Loader',
+    'loader' => '加载器',
     'shader_style' => 'Style',
     'shader_features' => 'Features',
     'shader_performance' => 'Performance impact',
