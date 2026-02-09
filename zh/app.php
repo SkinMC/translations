@@ -10,13 +10,13 @@ return [
     |
     */
 
-    'short_description' => '你的Minecraft皮肤的地方。',
+    'short_description' => '你创造Minecraft皮肤的地方',
     'full_description' => [
         'intro' => 'SkinMC 是你发现、保存和获得Minecraft 基岩版 和 Java版的最佳皮肤的地方。最热门的皮肤每周更新。',
-        'why_skinmc_title' => '什么是 SkinMC？',
+        'why_skinmc_title' => '为什么选择 SkinMC？',
         'why_skinmc_detail' => '这个应用提供了一个内置于二维码扫描器中的专用系统，以快速打开您在桌面版本中找到的皮肤或配置文件。 创建您自己的自定义SkinMC QR码与您的朋友分享。',
         'claim_title' => '确认您的个人资料',
-        'claim_detail' => '连接到Minecraft（仅java），并在您的页面上获得一个独家徽章，以及访问个性化、评论系统和自定义斗篷。 将您的社交媒体链接添加到您的个人资料中。请让每个人都知道在哪里找到您，从Discord、Twitter、YouTube、TikTok和更多其他地方。',
+        'claim_detail' => '连接到Minecraft（仅Java版），并在您的页面上获得一个独家徽章，以及访问个性化、评论系统和自定义斗篷。 将您的社交媒体链接添加到您的个人资料中。让每个人都知道在哪里找到您，从Discord、Twitter、YouTube、TikTok和更多其他地方。',
         'skin_history_title' => '皮肤历史',
         'skin_history_detail' => '在您的个人资料页面上跟踪您以前所有的Minecraft皮肤。快速访问和下载您过去使用过的皮肤。',
         'avatar_generator_title' => '头像生成器',
