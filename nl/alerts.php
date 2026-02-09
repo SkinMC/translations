@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'Nieuwe volger',
-        'text' => ':user volgt je nu!'
+        'text' => ':user volgt je nu!',
     ],
     'comment' => [
         'new' => [
             'title' => ':model commentaar',
-            'text' => ':user heeft een opmerking geplaatst op je :model'
+            'text' => ':user heeft een opmerking geplaatst op je :model',
         ],
         'reply' => [
             'title' => 'Reageer op :model reactie',
-            'text' => ':user antwoordde op een :model reactie'
+            'text' => ':user antwoordde op een :model reactie',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
-        ]
+            'text' => ':user liked your comment!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'Nieuwe vermelding',
-            'text' => ':user noemde je in zijn bericht!'
+            'text' => ':user noemde je in zijn bericht!',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
-        ]
+            'text' => ':user reposted your post!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'Je bent een level omhoog gegaan!',
-            'text' => 'Gefeliciteerd met het bereiken van level :level!'
-        ]
+            'text' => 'Gefeliciteerd met het bereiken van level :level!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'We hebben uw rapport ontvangen! (Zaak :id)',
-            'text' => 'Ons team is er mee bezig en zal er direct naar kijken. Bedankt voor het geweldig zijn en ons helpen om de dingen achter te houden! '
+            'text' => 'Ons team is er mee bezig en zal er direct naar kijken. Bedankt voor het geweldig zijn en ons helpen om de dingen achter te houden! ',
         ],
         'resolved' => [
             'title' => 'We hebben uw rapport beoordeeld (Zaak :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'Update van uw gerapporteerde probleem (Zaak :id)',
             'text' => 'Na wat detectief werk hebben we ontdekt dat de inhoud die je had gerapporteerd niet in strijd is met onze richtlijnen. Als u wilt dat we iets specifieks bekijken, zorg er dan voor dat u de skin, profiel, etc. rapporteert en aanvullende context geeft wanneer dat nodig is. Bedankt voor uw zorgen en betrokkenheid bij onze gemeenschap!',
-        ]
-    ]
+        ],
+    ],
 ];

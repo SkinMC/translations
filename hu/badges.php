@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'verified' => 'Verified Profile',
-    'claimed' => 'Minecraft Account Linked',
+    'verified' => 'Igazolt profil',
+    'claimed' => 'Minecraft fiók csatlakoztatva',
     'role' => [
-        'admin' => 'Administrator',
-        'moderator' => 'Moderator',
-        'user' => 'User',
+        'admin' => 'Adminisztrátor',
+        'moderator' => 'Moderátor',
+        'user' => 'Felhasználó',
     ],
 ];
 

@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'Novo seguidor',
-        'text' => ':user seguiu você!'
+        'text' => ':user seguiu você!',
     ],
     'comment' => [
         'new' => [
             'title' => ':model comentário',
-            'text' => ':user comentou em seu :model'
+            'text' => ':user comentou em seu :model',
         ],
         'reply' => [
             'title' => 'Responder ao comentário no :model',
-            'text' => ':user respondeu a um comentário em :model'
+            'text' => ':user respondeu a um comentário em :model',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
-        ]
+            'text' => ':user liked your comment!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'Nova menção',
-            'text' => ':user mencionou você em uma publicação!'
+            'text' => ':user mencionou você em uma publicação!',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
-        ]
+            'text' => ':user reposted your post!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'Você subiu de nível!',
-            'text' => 'Parabéns por alcançar o nível :level!'
-        ]
+            'text' => 'Parabéns por alcançar o nível :level!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'Recebemos seu relatório! (Caso :id)',
-            'text' => 'Nossa equipe está trabalhando em seu problema. Obrigada por ser gentil e ajudar-nos a manter as coisas calmas! '
+            'text' => 'Nossa equipe está trabalhando em seu problema. Obrigada por ser gentil e ajudar-nos a manter as coisas calmas! ',
         ],
         'resolved' => [
             'title' => 'Nós revisamos seu relatório (Caso :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'Atualização para seu relatório (Case :id)',
             'text' => 'Depois de uma investigação, nós vimos que o conteúdo informado por você não viola nossas diretrizes. Se você quiser a revisão de algo específico, por favor, certifique-se de que a(o) skin, perfil, etc. forneça contexto adicional quando preciso. Obrigada pela preocupação e o envolvimento em nossa comunidade!',
-        ]
-    ]
+        ],
+    ],
 ];

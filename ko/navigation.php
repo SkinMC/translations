@@ -2,6 +2,12 @@
 
 return [
     'skins' => '스킨',
+    'skins_profile' => 'Profile skins',
+    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
+    'creations' => 'Creations',
+    'creations_subtitle' => 'Skins shared by the community',
+    'skin_upload_subtitle' => 'Add your creation',
+    'skin_tags' => 'Tagged',
     'avatars' => '아바타',
     'editor' => '편집기',
     'heads' => '머리',
@@ -73,6 +79,9 @@ return [
     'totem' => '토템',
     'cube' => 'Cube',
     'new' => 'New',
+
+    'boards' => 'Boards',
+    'boards_subtitle' => 'Your saved collections',
 
     'feedback' => '의견 보내기',
     'status' => '상태',

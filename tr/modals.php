@@ -6,6 +6,7 @@ return [
         'email' => 'E-posta adresi',
         'password' => 'Şifre',
         'button' => 'Giriş yap',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => 'Parolanızı mı unuttunuz?',
         'reset' => 'Sıfırla',
         'register' => 'Henüz bir hesabınız yok mu?',
@@ -45,7 +46,7 @@ return [
         'description' => 'Dilinizi seçin',
         'contribute' => 'Katkıda bulun',
         'contribute_add' => 'Çeviri ekle',
-        'updated' => 'Diliniz ayarlandı'
+        'updated' => 'Diliniz ayarlandı',
     ],
     'copied' => 'Panoya kopyalandı!',
     'close' => 'Kapat',
@@ -58,12 +59,12 @@ return [
             'question' => 'Sorular',
             'bug' => 'Hata raporu',
             'feature' => 'Özellik isteği',
-            ],
+        ],
         'submit' => 'Gönder',
         'nps' => '0 ile 10 arasında bir ölçekte, SkinMC\'yi bir arkadaşınıza tavsiye etme olasılığınız ne kadardır?',
         'success' => [
             'title' => 'Teşekkürler!',
             'message' => 'Mesajınız gönderildi, yakında cevap bekleyin! Daha fazla sorunuz varsa, Discord\'a katılabilir veya başka bir mesaj gönderebilirsiniz.',
-        ]
-    ]
+        ],
+    ],
 ];

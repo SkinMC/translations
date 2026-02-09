@@ -9,7 +9,7 @@ return [
         'shader' => 'Shaders',
         'resourcepack' => 'Resource Packs',
         'modpack' => 'Modpacks',
-        'datapack' => 'Data Packs',
+        'datapack' => 'חבילות נתונים',
         'plugin' => 'Plugins',
     ],
 

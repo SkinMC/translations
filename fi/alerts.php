@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'Uusi seuraaja',
-        'text' => ':user seuraa nyt sinua!'
+        'text' => ':user seuraa nyt sinua!',
     ],
     'comment' => [
         'new' => [
             'title' => ':model kommentti',
-            'text' => ':user teki kommentin sinun :model'
+            'text' => ':user teki kommentin sinun :model',
         ],
         'reply' => [
             'title' => 'Vastaa :model kommentilla',
-            'text' => ':user vastasi :model kommenttiin'
+            'text' => ':user vastasi :model kommenttiin',
         ],
         'like' => [
             'title' => 'Tykätty kommentti',
-            'text' => ':user tykkäsi kommentistasi!'
-        ]
+            'text' => ':user tykkäsi kommentistasi!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'Uusi maininta',
-            'text' => ':user mainitsi sinut heidän julkaisussaan!'
+            'text' => ':user mainitsi sinut heidän julkaisussaan!',
         ],
         'repost' => [
             'title' => 'Uudelleenjulkaise',
-            'text' => ':user uudelleenjulkaisi julkaisusi!'
-        ]
+            'text' => ':user uudelleenjulkaisi julkaisusi!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'Olet noussut seuraavalle tasolle!',
-            'text' => 'Onnittelut tason :level saavuttamisesta!'
-        ]
+            'text' => 'Onnittelut tason :level saavuttamisesta!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'Olemme vastaanottaneet raporttisi! (Tapaus :id)',
-            'text' => 'Tiimimme tutkii asiaa välittömästi. Kiitos, että olet mahtava ja autat meitä pitämään asiat rauhallisina! '
+            'text' => 'Tiimimme tutkii asiaa välittömästi. Kiitos, että olet mahtava ja autat meitä pitämään asiat rauhallisina! ',
         ],
         'resolved' => [
             'title' => 'Olemme tarkastaneet raporttisi! (Tapaus :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'Pävitys raporttiisi! (Tapaus :id)',
             'text' => 'Tutkimustyön jälkeen olemme havainneet, että ilmoittamasi sisältö ei ole ohjeidemme vastaista. Jos haluat, että tarkistamme jotain tiettyä asiaa, varmista, että ilmoitat skinin, profiilin jne. ja annat tarvittaessa lisätietoja. Kiitos huolenpidostasi ja osallistumisestasi yhteisöömme!',
-        ]
-    ]
+        ],
+    ],
 ];

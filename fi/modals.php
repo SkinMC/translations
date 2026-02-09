@@ -6,6 +6,7 @@ return [
         'email' => 'Sähköpostiosoite',
         'password' => 'Salasana',
         'button' => 'Kirjaudu sisään',
+        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
         'forgot' => 'Unohditko salasanasi?',
         'reset' => 'Nollaa',
         'register' => 'Eikö sinulla ole vielä tiliä?',
@@ -45,7 +46,7 @@ return [
         'description' => 'Valitse kieli',
         'contribute' => 'Osallistu',
         'contribute_add' => 'Lisää käännös',
-        'updated' => 'Sinun kielesi on asetettu'
+        'updated' => 'Sinun kielesi on asetettu',
     ],
     'copied' => 'Kopiotu leikepöydälle!',
     'close' => 'Sulje',
@@ -58,12 +59,12 @@ return [
             'question' => 'Kysymykset',
             'bug' => 'Vikailmoitus',
             'feature' => 'Kehitysehdotus',
-            ],
+        ],
         'submit' => 'Lähetä',
         'nps' => 'Mittakaavassa 0 - 10 kuinka todennäköisesti suosittelisit SkinMC ystävälle?',
         'success' => [
             'title' => 'Kiitos!',
             'message' => 'Viestisi on lähetetty, odota vastausta pian! Jos haluat lisäkysymyksiä, voit liittyä vapaasti Discordiin tai lähettää toisen viestin.',
-        ]
-    ]
+        ],
+    ],
 ];

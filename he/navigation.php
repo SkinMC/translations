@@ -2,10 +2,16 @@
 
 return [
     'skins' => 'סקינים',
+    'skins_profile' => 'Profile skins',
+    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
+    'creations' => 'Creations',
+    'creations_subtitle' => 'Skins shared by the community',
+    'skin_upload_subtitle' => 'Add your creation',
+    'skin_tags' => 'Tagged',
     'avatars' => 'אווטרים',
     'editor' => 'עורך',
     'heads' => 'ראשים',
-    'capes' => 'קייפס',
+    'capes' => 'גלימות',
     'servers' => 'שרתים',
     'achievement' => 'הישגים',
     'armor' => 'ארמור סטנד',
@@ -23,8 +29,8 @@ return [
     'shaders' => 'Shaders',
     'resource_packs' => 'Resource Packs',
     'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'datapacks' => 'חבילות נתונים',
+    'plugins' => 'תוספים',
 
     'logout' => 'התנתק',
     'register' => 'הירשם',
@@ -74,6 +80,9 @@ return [
     'cube' => 'Cube',
     'new' => 'New',
 
+    'boards' => 'Boards',
+    'boards_subtitle' => 'Your saved collections',
+
     'feedback' => 'משוב',
     'status' => 'סטאטוס',
     'recent_searches_placeholder' => 'תוך כדי הקלדה, החיפושים הקודמים שלך יופיעו כאן.',
@@ -85,8 +94,8 @@ return [
     // Autocomplete types
     'autocomplete' => [
         'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
+        'server' => 'שרת',
+        'project' => 'פרויקט',
         'skin_tag' => 'Skin Tag',
         'server_category' => 'Server Category',
         'modrinth_category' => 'Project Category',
@@ -99,5 +108,5 @@ return [
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'שפה',
 ];

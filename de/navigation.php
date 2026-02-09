@@ -2,6 +2,12 @@
 
 return [
     'skins' => 'Skins',
+    'skins_profile' => 'Profil-Skins',
+    'skins_profile_subtitle' => 'Skins aus Minecraft-Profilen',
+    'creations' => 'Kreationen',
+    'creations_subtitle' => 'Von der Community geteilte Skins',
+    'skin_upload_subtitle' => 'Füge deine Kreation hinzu',
+    'skin_tags' => 'Getagged',
     'avatars' => 'Avatare',
     'editor' => 'Editor',
     'heads' => 'Köpfe',
@@ -73,6 +79,9 @@ return [
     'totem' => 'Totem',
     'cube' => 'Cube',
     'new' => 'Neu',
+
+    'boards' => 'Boards',
+    'boards_subtitle' => 'Deine gespeicherten Sammlungen',
 
     'feedback' => 'Feedback',
     'status' => 'Status',

@@ -30,7 +30,7 @@ return [
         'updated' => 'Recently updated',
         'followers' => 'Most followed',
     ],
-    'page_n' => 'Page :num',
+    'page_n' => 'Seite :num',
 
     // Page descriptions
     'description' => [

@@ -21,11 +21,11 @@ return [
         'usernames' => 'Usernames',
     ],
     'help' => [
-        'title' => 'Help',
+        'title' => 'עזרה',
         'subtitle' => 'Useful tips for the SkinMC dashboard',
     ],
     'users' => [
-        'title' => 'Users',
+        'title' => 'משתמשים',
         'subtitle' => ':count total users signed up',
         'list' => [
             'username' => 'Username',
@@ -50,7 +50,7 @@ return [
         'subtitle' => ':count total posts created',
     ],
     'comments' => [
-        'title' => 'Comments',
+        'title' => 'תגובות',
         'subtitle' => ':count total comments posted',
         'deleted' => [
             'title' => 'Deleted comments',

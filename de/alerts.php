@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'Neuer Follower',
-        'text' => ':user folgt dir jetzt!'
+        'text' => ':user folgt dir jetzt!',
     ],
     'comment' => [
         'new' => [
             'title' => ':model Kommentar',
-            'text' => ':user hat dein :model kommentiert'
+            'text' => ':user hat dein :model kommentiert',
         ],
         'reply' => [
             'title' => 'Antwort auf :model Kommentar',
-            'text' => ':user antwortete auf einen :model Kommentar'
+            'text' => ':user antwortete auf einen :model Kommentar',
         ],
         'like' => [
             'title' => 'Kommentar wurde geliked',
-            'text' => ':user gefällt dein Kommentar!'
-        ]
+            'text' => ':user gefällt dein Kommentar!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'Neue Erwähnung',
-            'text' => ':user hat dich in seinem Beitrag erwähnt!'
+            'text' => ':user hat dich in seinem Beitrag erwähnt!',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user hat deinen Beitrag repostet!'
-        ]
+            'text' => ':user hat deinen Post repostet!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'Du hast das nächste Level erreicht!',
-            'text' => 'Herzlichen Glückwunsch beim Erreichen des Levels :level!'
-        ]
+            'text' => 'Herzlichen Glückwunsch beim Erreichen des Levels :level!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Zum Board hinzugefügt',
+            'text' => ':user wurde zum Mitgestalten des Boards „:board“ hinzugefügt.',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'Wir haben deinen Bericht erhalten (Case :id)',
-            'text' => 'Unser Team wird sich sofort darum kümmern. Danke, dass du uns hilfst, alles im Griff zu behalten! '
+            'text' => 'Unser Team wird sich sofort darum kümmern. Danke, dass du uns hilfst, alles im Griff zu behalten! ',
         ],
         'resolved' => [
             'title' => 'Wir haben deine Meldung überprüft (Case :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'Ein Update zu deinem Bericht (Case :id)',
             'text' => 'Nach einigen Nachforschungen haben wir festgestellt, dass der von dir gemeldete Inhalt nicht gegen unsere Richtlinien verstößt. Wenn du möchtest, dass wir etwas Bestimmtes überprüfen, stelle bitte sicher, dass du den Skin, das Profil usw. meldest, sowie zusätzliche Informationen zur Verfügung stellst, sofern erforderlich. Danke für dein Vertrauen und Engagement in unserer Community!',
-        ]
-    ]
+        ],
+    ],
 ];

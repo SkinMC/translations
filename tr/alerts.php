@@ -11,21 +11,21 @@ return [
     */
     'follower' => [
         'title' => 'Yeni takipçi',
-        'text' => ':kullanıcı seni takip ediyor!'
+        'text' => ':kullanıcı seni takip ediyor!',
     ],
     'comment' => [
         'new' => [
             'title' => ':model yorumu',
-            'text' => ':kullanıcı senin :model \'ine yorum yaptı'
+            'text' => ':kullanıcı senin :model \'ine yorum yaptı',
         ],
         'reply' => [
             'title' => ':model yorumuna cevap ver',
-            'text' => ':kullanıcı :model yorumuna cevap verdi'
+            'text' => ':kullanıcı :model yorumuna cevap verdi',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!'
-        ]
+            'text' => ':user liked your comment!',
+        ],
     ],
     'post' => [
         'like' => [
@@ -34,23 +34,29 @@ return [
         ],
         'mention' => [
             'title' => 'Yeni bahsetme',
-            'text' => ':kullanıcı gönderisinde senden bahsetti!'
+            'text' => ':kullanıcı gönderisinde senden bahsetti!',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!'
-        ]
+            'text' => ':user reposted your post!',
+        ],
     ],
     'level' => [
         'up' => [
             'title' => 'Seviye atladın!',
-            'text' => ':level seviyeye ulaştığınız için tebrikler!'
-        ]
+            'text' => ':level seviyeye ulaştığınız için tebrikler!',
+        ],
+    ],
+    'board' => [
+        'collaborator_added' => [
+            'title' => 'Added to a board',
+            'text' => ':user added you as a collaborator to the board ":board".',
+        ],
     ],
     'report' => [
         'created' => [
             'title' => 'Raporunuzu aldık! (Vaka :id)',
-            'text' => 'Ekibimiz bu konuyla ilgileniyor ve hemen inceleyecek. Harika olduğun ve işleri sakin tutmamıza yardımcı olduğun için teşekkürler! '
+            'text' => 'Ekibimiz bu konuyla ilgileniyor ve hemen inceleyecek. Harika olduğun ve işleri sakin tutmamıza yardımcı olduğun için teşekkürler! ',
         ],
         'resolved' => [
             'title' => 'Raporunuzu inceledik (Vaka :id)',
@@ -59,6 +65,6 @@ return [
         'dismissed' => [
             'title' => 'Raporunuzu güncelleyin (Vaka :id)',
             'text' => 'Biraz araştırma yaptıktan sonra, bildirdiğiniz içeriğin kurallarımıza aykırı olmadığını tespit ettik. Belirli bir şeyi incelememizi istiyorsanız, lütfen skin, profil vb. bilgileri bildirip gerektiğinde ek bilgiler de ekleyin. İlginiz ve topluluğumuza katılımınız için teşekkür ederiz!',
-        ]
-    ]
+        ],
+    ],
 ];
