@@ -5,7 +5,7 @@ return [
     'claimed' => 'Minecraft Account Linked',
     'role' => [
         'admin' => 'Administrator',
-        'moderator' => 'Moderator',
+        'moderator' => '版主',
         'user' => 'User',
     ],
 ];
