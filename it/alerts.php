@@ -69,20 +69,20 @@ return [
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Nuova recensione su :server',
+            'text' => 'Il tuo annuncio ":server" ha ricevuto una nuova recensione (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => 'Punteggio annullato per :server',
+            'text' => 'Il tuo giudizio medio è ora :rating/5 attraverso :recensioni commenti. Considera di rivedere i feedback in Insights.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Traguardo voti raggiunto',
+            'text' => ':server ha raggiunto :votes negli ultimi 30 giorni.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server è stato approvato',
+            'text' => 'La tua richiesta ha superato la revisione ed è ora idoneo ad andare in diretta una volta che tutti i requisiti sono soddisfatti.',
         ],
         'unapproved' => [
             'title' => ':server needs updates',
@@ -95,6 +95,10 @@ return [
         'unpublished' => [
             'title' => ':server was unpublished',
             'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+        ],
+        'verified' => [
+            'title' => ':server is now verified',
+            'text' => 'Your listing received a verification badge.',
         ],
         'photo_requirement_complete' => [
             'title' => 'Photo requirement complete for :server',
