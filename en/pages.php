@@ -900,6 +900,8 @@ return [
             'success' => 'Your vote has been recorded!',
             'login_required' => 'Please log in to vote for this server.',
             'profile_required' => 'Link your Minecraft account to vote.',
+            'server_ineligible' => 'This server is not currently eligible for voting.',
+            'self_vote_blocked' => 'You cannot vote for your own server.',
             'cooldown' => 'You can only vote once every 24 hours.',
             'cooldown_tooltip' => 'You can vote again :time',
             'count' => ':count vote|:count votes',
