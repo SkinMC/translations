@@ -49,8 +49,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'Aggiunto a una scheda',
+            'text' => ':user ti ha aggiunto come collaboratore alla scheda ":board".',
         ],
     ],
     'report' => [
