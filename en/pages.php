@@ -851,6 +851,7 @@ return [
             'tos-checkbox-part-1' => 'By submitting this form you accept SkinMC\'s Terms of Service, Privacy Policy, and Community Guidelines. You also confirm that all of the information is accurate, and follows the',
             'tos-checkbox-part-2' => 'review guidelines.',
             'tos-checkbox-part-3' => 'Your review will be published after submission, but can be subject to review.',
+            'cannot_review_own_server' => 'You cannot review your own server.',
         ],
         'slots' => 'Slots',
         'empty-helper' => 'You can try to do another search.',
