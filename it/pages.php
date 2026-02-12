@@ -13,7 +13,7 @@ return [
 
     'home' => [
         'hero_slogan' => 'Il tuo posto per le skin di Minecraft.',
-        'hero_slogan_alt_1' => 'Tutto Minecraft. Un posto.',
+        'hero_slogan_alt_1' => 'Tutto su Minecraft. In un unico posto.',
         'hero_slogan_alt_2' => 'Dove i Minecrafters si incontrano.',
         'hero_cta' => 'Sorprendimi',
         'hero_explore_cta' => 'Esplora le skin',
@@ -28,8 +28,9 @@ return [
         'favourite' => 'Preferito',
         'collections' => 'Collezioni',
         'collections_detail' => 'Skin di Minecraft adatte per ogni occasione',
-        'creations_title' => 'Creazioni Skin',
-        'creations_description' => 'Sfoglia e carica creazioni skin personalizzate di Minecraft.',
+        'creations_title' => 'Creazioni di Skin',
+        'creations_description' => 'Sfoglia e carica creazioni di skin personalizzate di Minecraft.',
+        'creations_new_updated' => 'New & updated',
         'about_skinmc' => 'Informazioni su SkinMC',
         'about_find' => 'Trova qualsiasi skin',
         'about_find_detail' => 'Usa la ricerca SkinMC per qualsiasi nome utente di Minecraft per trovare, visualizzare e scaricare la tua prossima skin.',
@@ -61,7 +62,75 @@ return [
         'banner_description' => 'Genera e visualizza in anteprima banner e pattern personalizzati di Minecraft.',
         'capes' => 'Mantelli di Minecraft',
         'capes_description' => 'Sfoglia la più grande collezione di mantelli di Minecraft, o crea la tua.',
+        'feature_drop_bubble_title' => 'SkinMC Creator Update',
+        'feature_drop_bubble_cta' => "What's new?",
+        'feature_drop_modal' => [
+            'hero' => [
+                'title' => 'SkinMC Creator Update',
+                'subtitle' => 'More tools. More control. More ways to share.',
+                'description' => 'Built for creators, collectors and server communities.',
+                'cta' => 'Explore what\'s new',
+            ],
 
+            'upload_creations' => [
+                'title' => 'Publish your work.',
+                'description' => 'Upload custom skin creations directly to SkinMC.',
+                'line_1' => 'Add details, credits and choose visibility.',
+                'line_2' => 'Save as draft, unlisted, or publish publicly.',
+            ],
+
+            'custom_heads' => [
+                'title' => 'A new heads gallery.',
+                'description' => 'Upload and explore custom Minecraft heads.',
+                'line_1' => 'Perfect for builders.',
+                'line_2' => 'Perfect for server creators.',
+            ],
+
+            'feed_upgrade' => [
+                'title' => 'Share more. Share better.',
+                'description' => 'Post up to four images in the feed.',
+                'line_1' => 'Share your favourite skins, creations or servers.',
+                'line_2' => 'Directly from where you discover them.',
+            ],
+
+            'editor_upgrade' => [
+                'title' => 'The most powerful SkinMC editor yet.',
+                'description' => 'New creative tools for more control and cleaner detailing.',
+                'line_1' => 'Circle, triangle and square brushes.',
+                'line_2' => 'Size and softness slider.',
+                'line_3' => 'Noise texture brush.',
+                'line_4' => 'Improved fill tool.',
+            ],
+
+            'preview_mode' => [
+                'title' => 'Floating preview.',
+                'description' => 'A minimap for your skin, always in view.',
+                'line_1' => 'Live updates while you paint.',
+                'line_2' => 'Add reference images.',
+                'line_3' => '2D, 3D, or side-by-side.',
+                'line_4' => 'Position it anywhere.',
+            ],
+
+            'server_ranking' => [
+                'title' => 'Improved ranking and voting.',
+                'description' => 'A fairer system with better visibility for quality servers.',
+            ],
+
+            'avatar_generator_upgrade' => [
+                'title' => 'Real-time 3D avatars.',
+                'description' => 'A faster, more powerful avatar generator.',
+                'line_1' => 'Full 3D and bust avatars.',
+                'line_2' => 'Optional name tags.',
+                'line_3' => 'Live preview.',
+                'line_4' => 'High-resolution rendering.',
+            ],
+
+            'closing' => [
+                'title' => 'SkinMC is evolving.',
+                'description' => 'Create. Curate. Share.',
+                'cta' => 'Start creating',
+            ],
+        ],
     ],
     'profile' => [
         'verified' => 'Profilo verificato',
@@ -113,7 +182,7 @@ return [
         'walk' => 'Camminare',
         'run' => 'Correre',
         'fly' => 'Volare',
-        'follow' => 'Segue',
+        'follow' => 'Segui',
         'following' => 'Following',
         'unfollow' => 'Non seguire più',
         'followers' => 'Follower|Followers',
@@ -517,10 +586,10 @@ return [
     'skin_creations' => [
         'search_tab' => 'Creazioni',
         'gallery' => [
-            'title' => 'Creazioni Skin',
-            'description' => 'Sfoglia :count creazioni skin personalizzate di Minecraft.',
+            'title' => 'Creazioni di Skin',
+            'description' => 'Sfoglia :count creazioni di skin personalizzate di Minecraft.',
             'header' => [
-                'title' => 'Creazioni Skin',
+                'title' => 'Creazioni di Skin',
                 'subtitle' => ':count creazione|:count creazioni',
             ],
             'tab_creations' => 'Creazioni',
@@ -536,11 +605,11 @@ return [
             'sort_last_30d' => 'Ultimi 30 giorni',
             'sort_recently_updated' => 'Aggiornate di recente',
             'empty_title' => 'Ancora nessuna creazione',
-            'empty_message' => 'Sii il primo a condividere una creazione Skin.',
+            'empty_message' => 'Sii il primo a condividere una skin creata.',
             'clear_filters' => 'Cancella',
         ],
         'upload' => [
-            'title' => 'Carica creazione skin',
+            'title' => 'Carica una creazione di skin',
             'description' => 'Carica una skin di Minecraft nella galleria.',
             'heading' => 'Carica skin',
             'subtitle' => 'Trascina e rilascia un PNG o scegli un file. Aggiungi un titolo, una descrizione e un\'etichetta.',
@@ -572,8 +641,8 @@ return [
             'remixable_hint' => 'Permetti ad altri utenti di remixare la tua creazione.',
         ],
         'edit' => [
-            'title' => 'Modifica la creazione skin',
-            'description' => 'Modifica la tua creazione skin.',
+            'title' => 'Modifica la skin creata',
+            'description' => 'Modifica la tua skin creata.',
             'heading' => 'Modifica creazione',
             'subtitle' => 'Aggiorna titolo, descrizione, etichette o ricarica la skin.',
             'submit' => 'Salva le modifiche',
@@ -734,7 +803,7 @@ return [
             ],
         ],
         'creations' => [
-            'heading' => 'Creazioni Skin',
+            'heading' => 'Creazioni di Skin',
             'empty_headline' => 'Ancora nessuna skin preferita',
         ],
         'servers' => [
@@ -1393,7 +1462,7 @@ return [
             'toggle' => 'La visibilità della skin è stata modificata',
             'section_currently_worn' => 'Attualmente indossato in Minecraft',
             'section_profile_skins' => 'Skin sul tuo profilo',
-            'active_badge' => 'Active in Minecraft',
+            'active_badge' => 'Attivo in Minecraft',
             'active_synced_copy' => 'Sincronizzato dal tuo account Minecraft.',
             'active_action_copy' => 'Sempre visibile sul tuo profilo. Per nasconderlo, cambia la tua skin in Minecraft.',
             'open_minecraft_skin_settings' => 'Apri impostazioni skin di Minecraft',
@@ -1689,7 +1758,7 @@ return [
             'too_many_attachments' => 'È possibile allegare solo un elemento per post.',
             'types' => [
                 'skin' => 'Skin',
-                'skin_creation' => 'Creazioni Skin',
+                'skin_creation' => 'Creazioni di Skin',
                 'server' => 'Server',
                 'banner' => 'Stendardo',
                 'cape' => 'Mantello',
@@ -1827,7 +1896,7 @@ return [
         'add' => 'Aggiungi',
         'create_placeholder' => 'Come "Edifici Medievali" o "Loadout PvP"',
         'field_name' => 'Nome',
-        'secret_label' => 'Secret',
+        'secret_label' => 'Area segreta',
         'secret_description' => 'Così solo voi e collaboratori potete vederlo.',
         'keep_secret' => 'Mantieni segreta questa bacheca',
         'add_collaborators' => 'Aggiungi collaboratori (opzionale)',
@@ -1843,7 +1912,7 @@ return [
         'empty_boards_subtitle' => 'Salva la tua prima skin per creare automaticamente una bacheca.',
         'browse_skins' => 'Sfoglia le skin',
         'pins_count' => '{0} Nessun Pin|{1} 1 Pin|[2,*] :count Pin',
-        'secret_badge' => 'Secret',
+        'secret_badge' => 'Segreto',
         'public_boards' => 'Bacheche',
         'collaborator_unknown_user' => 'Qualcuno',
         'collaborating' => 'Collaborando',
