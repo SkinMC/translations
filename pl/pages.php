@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'Ulubione',
-        'subtitle' => 'Zobacz i zarządzaj skinami, które zapisałeś później na liście ulubionych',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => 'Sortuj według',
         'toast' => [
             'added' => 'Dodano do listy ulubionych',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'Moje ulubione skórki',
                 'description' => 'Moje ulubione skórki Minecrafta',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
