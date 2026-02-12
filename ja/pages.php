@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'お気に入り',
-        'subtitle' => '後でお気に入りリストに保存したスキンを表示・管理します',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => '並べ替え',
         'toast' => [
             'added' => 'お気に入りリストに追加しました',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'お気に入りのスキン',
                 'description' => 'お気に入りに保存したMinecraft スキン',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
