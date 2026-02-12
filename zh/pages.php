@@ -706,7 +706,7 @@ return [
     ],
     'favourites' => [
         'title' => '收藏夹',
-        'subtitle' => '查看和管理您保存到您的收藏夹中的皮肤和服务器',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => '排序方式',
         'toast' => [
             'added' => '已添加到您的收藏列表',
@@ -721,6 +721,16 @@ return [
             'meta' => [
                 'title' => '我收藏的皮肤',
                 'description' => '我已经收藏的皮肤',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
