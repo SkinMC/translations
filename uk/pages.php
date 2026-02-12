@@ -30,6 +30,7 @@ return [
         'collections_detail' => 'Куровані скини Minecraft на будь-який випадок',
         'creations_title' => 'Skin creations',
         'creations_description' => 'Browse and upload custom Minecraft skin creations.',
+        'creations_new_updated' => 'New & updated',
         'about_skinmc' => 'Про SkinMC',
         'about_find' => 'Знайти будь-який скин',
         'about_find_detail' => 'Використовуйте пошук SkinMC для будь-якого імені користувача Minecraft, щоб знайти, переглянути та завантажити свій наступний новий скін.',
@@ -61,7 +62,75 @@ return [
         'banner_description' => 'Generate and preview custom Minecraft banners and patterns.',
         'capes' => 'Minecraft Capes',
         'capes_description' => 'Browse the largest collection of Minecraft capes, or create your own.',
+        'feature_drop_bubble_title' => 'SkinMC Creator Update',
+        'feature_drop_bubble_cta' => "What's new?",
+        'feature_drop_modal' => [
+            'hero' => [
+                'title' => 'SkinMC Creator Update',
+                'subtitle' => 'More tools. More control. More ways to share.',
+                'description' => 'Built for creators, collectors and server communities.',
+                'cta' => 'Explore what\'s new',
+            ],
 
+            'upload_creations' => [
+                'title' => 'Publish your work.',
+                'description' => 'Upload custom skin creations directly to SkinMC.',
+                'line_1' => 'Add details, credits and choose visibility.',
+                'line_2' => 'Save as draft, unlisted, or publish publicly.',
+            ],
+
+            'custom_heads' => [
+                'title' => 'A new heads gallery.',
+                'description' => 'Upload and explore custom Minecraft heads.',
+                'line_1' => 'Perfect for builders.',
+                'line_2' => 'Perfect for server creators.',
+            ],
+
+            'feed_upgrade' => [
+                'title' => 'Share more. Share better.',
+                'description' => 'Post up to four images in the feed.',
+                'line_1' => 'Share your favourite skins, creations or servers.',
+                'line_2' => 'Directly from where you discover them.',
+            ],
+
+            'editor_upgrade' => [
+                'title' => 'The most powerful SkinMC editor yet.',
+                'description' => 'New creative tools for more control and cleaner detailing.',
+                'line_1' => 'Circle, triangle and square brushes.',
+                'line_2' => 'Size and softness slider.',
+                'line_3' => 'Noise texture brush.',
+                'line_4' => 'Improved fill tool.',
+            ],
+
+            'preview_mode' => [
+                'title' => 'Floating preview.',
+                'description' => 'A minimap for your skin, always in view.',
+                'line_1' => 'Live updates while you paint.',
+                'line_2' => 'Add reference images.',
+                'line_3' => '2D, 3D, or side-by-side.',
+                'line_4' => 'Position it anywhere.',
+            ],
+
+            'server_ranking' => [
+                'title' => 'Improved ranking and voting.',
+                'description' => 'A fairer system with better visibility for quality servers.',
+            ],
+
+            'avatar_generator_upgrade' => [
+                'title' => 'Real-time 3D avatars.',
+                'description' => 'A faster, more powerful avatar generator.',
+                'line_1' => 'Full 3D and bust avatars.',
+                'line_2' => 'Optional name tags.',
+                'line_3' => 'Live preview.',
+                'line_4' => 'High-resolution rendering.',
+            ],
+
+            'closing' => [
+                'title' => 'SkinMC is evolving.',
+                'description' => 'Create. Curate. Share.',
+                'cta' => 'Start creating',
+            ],
+        ],
     ],
     'profile' => [
         'verified' => 'Підтверджений профіль',
