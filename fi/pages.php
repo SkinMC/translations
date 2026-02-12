@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'Suosikit',
-        'subtitle' => 'Tarkastele ja hallitse leikkejä, jotka olet tallentanut myöhemmin suosikkilistassa',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => 'Lajittelujärjestys',
         'toast' => [
             'added' => 'Lisätty suosikkilistaasi',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'Minun suosikkiskinit',
                 'description' => 'Minun suosikiksi tallennetut Minecraft skinit',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
