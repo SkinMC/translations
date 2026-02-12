@@ -1711,7 +1711,7 @@ return [
             'cape_upload' => 'Carica Mantello',
             'compress_image' => 'Comprimi Immagine',
         ],
-        'image_too_large' => 'La tua immagine supera i 5MB',
+        'image_too_large' => 'Your image exceeds :size',
         'compress_first' => 'Comprimi prima l\'immagine.',
         'media' => 'Media',
         'follow-suggestions' => 'Segui il team',
