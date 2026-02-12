@@ -1707,7 +1707,7 @@ return [
             'cape_upload' => 'Cape Upload',
             'compress_image' => 'Compress Image',
         ],
-        'image_too_large' => 'Your image exceeds 5MB',
+        'image_too_large' => 'Your image exceeds :size',
         'compress_first' => 'Compress the image first.',
         'media' => 'Media',
         'follow-suggestions' => 'Kövesd a csapatot!',
