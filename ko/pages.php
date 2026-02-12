@@ -702,7 +702,7 @@ return [
     ],
     'favourites' => [
         'title' => '즐겨찾기',
-        'subtitle' => 'View and manage skins and servers you saved for later in your favourites list',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => '정렬 기준',
         'toast' => [
             'added' => '즐겨찾기 목록에 추가했어요',
@@ -717,6 +717,16 @@ return [
             'meta' => [
                 'title' => '내가 즐겨찾기한 스킨',
                 'description' => '내가 즐겨찾기에 저장한 Minecraft 스킨',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
