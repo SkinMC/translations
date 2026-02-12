@@ -69,53 +69,53 @@ return [
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Neue Bewertung für :server',
+            'text' => 'Für „:server“ wurde eine neue Bewertung abgegeben (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => 'Bewertung für :server gesunken',
+            'text' => 'Deine durchschnittliche Bewertung liegt nun bei :rating/5 aus :reviews Bewertungen. Wirf einen Blick in die Insights für mehr Details.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Voting-Meilenstein erreicht',
+            'text' => ':server hat in den letzten 30 Tagen :votes Stimmen erreicht.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server ist jetzt freigegeben',
+            'text' => 'Dein Eintrag hat die Prüfung bestanden und kann live gehen, sobald alle Anforderungen erfüllt sind.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':server benötigt Updates',
+            'text' => 'Der Status deines Eintrags wurde angepasst. Sieh dir die Details an und nimm bei Bedarf Aktualisierungen vor.',
         ],
         'published' => [
-            'title' => ':server is now live',
-            'text' => 'Your listing is published and visible on the server list.',
+            'title' => ':server ist nun live geschaltet',
+            'text' => 'Dein Eintrag ist veröffentlicht und in der Serverliste sichtbar.',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => ':server ist derzeit nicht veröffentlicht',
+            'text' => 'Dein Eintrag ist öffentlich nicht mehr sichtbar. Überprüfe den Status in deinem Dashboard.',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':server ist nun verifiziert',
+            'text' => 'Dein Eintrag wurde mit einem Verifizierungs-Badge ausgezeichnet.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => 'Die erforderlichen Fotos für :server wurden erfolgreich ergänzt',
+            'published_text' => 'Du hast nun mindestens 5 Bilder hinzugefügt und dein Eintrag ist wieder live.',
+            'pending_text' => 'Du hast nun mindestens 5 Bilder hinzugefügt und dein Eintrag ist wieder live.',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => 'Ergänze weitere Fotos für :server',
+            'text' => 'Dein Eintrag benötigt noch :remaining Foto(s), um das Minimum von :minimum zu erreichen und veröffentlicht zu bleiben.',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'title' => 'Für deinen Server-Eintrag wurden bisher keine Fotos hinzugefügt',
+            'text' => 'Mit mindestens 5 Fotos wirkst du vertrauensvoller und bringst deinen Eintrag einen Schritt näher zur Veröffentlichung.',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'title' => 'Dein Eintrag befindet sich weiterhin in Prüfung',
+            'text' => 'Dein Eintrag wird schon eine Weile geprüft. Ein kurzer Check von Details und Fotos kann helfen, den Prozess reibungslos zu halten.',
         ],
     ],
 ];
