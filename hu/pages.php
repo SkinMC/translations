@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'Kedvencek',
-        'subtitle' => 'A kedvencnek jelölt kinézetek kezelése',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => 'Rendezés',
         'toast' => [
             'added' => 'Kedvencnek jelölve.',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'Kedvenc kinézetek',
                 'description' => 'Az általad kedvencnek jelölt kinézetek.',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
