@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'Улюблене',
-        'subtitle' => 'Переглядайте скіни та сервери, які ви зберегли на потім у своєму списку улюбленого, і керуйте ними',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => 'Сортувати',
         'toast' => [
             'added' => 'Додано до списку улюбленого',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'Мої улюблені скини',
                 'description' => 'Мої улюблені збережені скини Minecraft',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
