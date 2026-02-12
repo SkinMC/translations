@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'Favoritos',
-        'subtitle' => 'Ver y administrar aspectos y servidores que guardaste para más tarde en tu lista de favoritos',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => 'Ordenar por',
         'toast' => [
             'added' => 'Añadida a tu lista de favoritos',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'Mis aspectos favoritos',
                 'description' => 'Mis aspectos favoritos guardados de Minecraft',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
