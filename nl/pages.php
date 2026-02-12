@@ -705,7 +705,7 @@ return [
     ],
     'favourites' => [
         'title' => 'Favorieten',
-        'subtitle' => 'Bekijk en beheer skins en servers die je hebt opgeslagen voor later in je favorietenlijst',
+        'subtitle' => 'View and manage skins, heads, servers and banners you saved for later in your favourites list',
         'sort' => 'Sorteer op',
         'toast' => [
             'added' => 'Added to your favourites list',
@@ -720,6 +720,16 @@ return [
             'meta' => [
                 'title' => 'Mijn favoriete skins',
                 'description' => 'Mijn favoriete opgeslagen Minecraft skins',
+            ],
+        ],
+        'heads' => [
+            'button' => 'Heads',
+            'empty_headline' => 'No heads saved yet.',
+            'empty_subtitle' => 'Heads you save will appear here.',
+            'empty_browse' => 'Browse heads',
+            'meta' => [
+                'title' => 'My favourite heads',
+                'description' => 'My favourite custom Minecraft heads',
             ],
         ],
         'creations' => [
