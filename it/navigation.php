@@ -80,7 +80,7 @@ return [
     'cube' => 'Cubo',
     'new' => 'Nuovo',
 
-    'boards' => 'Schede',
+    'boards' => 'Bacheche',
     'boards_subtitle' => 'Le tue collezioni salvate',
 
     'feedback' => 'Suggerimento',
