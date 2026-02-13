@@ -2,12 +2,12 @@
 
 return [
     'skins' => 'Skin',
-    'skins_profile' => 'Profile skins',
-    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
-    'creations' => 'Creations',
-    'creations_subtitle' => 'Skins shared by the community',
-    'skin_upload_subtitle' => 'Add your creation',
-    'skin_tags' => 'Tagged',
+    'skins_profile' => 'Skin del profilo',
+    'skins_profile_subtitle' => 'Skin da profili Minecraft',
+    'creations' => 'Creazioni',
+    'creations_subtitle' => 'Skin condivise dalla community',
+    'skin_upload_subtitle' => 'Aggiungi la tua creazione',
+    'skin_tags' => 'Etichettata',
     'avatars' => 'Avatar',
     'editor' => 'Editor',
     'heads' => 'Teste',
@@ -80,8 +80,8 @@ return [
     'cube' => 'Cubo',
     'new' => 'Nuovo',
 
-    'boards' => 'Boards',
-    'boards_subtitle' => 'Your saved collections',
+    'boards' => 'Bacheche',
+    'boards_subtitle' => 'Le tue collezioni salvate',
 
     'feedback' => 'Suggerimento',
     'status' => 'Stato',

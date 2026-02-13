@@ -96,6 +96,10 @@ return [
             'title' => ':server was unpublished',
             'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
         ],
+        'verified' => [
+            'title' => ':server is now verified',
+            'text' => 'Your listing received a verification badge.',
+        ],
         'photo_requirement_complete' => [
             'title' => 'Photo requirement complete for :server',
             'published_text' => 'You now have at least 5 images and your listing is live again.',

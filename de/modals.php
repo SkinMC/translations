@@ -6,7 +6,7 @@ return [
         'email' => 'E-Mail-Adresse',
         'password' => 'Passwort',
         'button' => 'Anmelden',
-        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
+        'editor_save_context' => "Melde dich an, um deinen Skin in der Galerie zu speichern. Deine Arbeit geht nicht verloren.",
         'forgot' => 'Passwort vergessen?',
         'reset' => 'Zurücksetzen',
         'register' => 'Noch kein Konto?',

@@ -25,10 +25,10 @@ return [
     ],
 
     'sort_label' => [
-        'downloads' => 'Most downloaded',
-        'newest' => 'Newest',
-        'updated' => 'Recently updated',
-        'followers' => 'Most followed',
+        'downloads' => 'Meist heruntergeladen',
+        'newest' => 'Neuste',
+        'updated' => 'Kürzlich aktualisiert',
+        'followers' => 'Meist gefolgt',
     ],
     'page_n' => 'Seite :num',
 
@@ -62,7 +62,7 @@ return [
     'env_server' => 'Server',
     'env_both' => 'Client & Server',
     'categories' => 'Kategorien',
-    'filtered_by' => 'Filtered by :category category.',
+    'filtered_by' => 'Gefiltert nach :category Kategorie.',
 
     // Results
     'no_results' => 'Keine Projekte gefunden',

@@ -25,12 +25,12 @@ return [
     ],
 
     'sort_label' => [
-        'downloads' => 'Most downloaded',
-        'newest' => 'Newest',
-        'updated' => 'Recently updated',
-        'followers' => 'Most followed',
+        'downloads' => 'Più scaricati',
+        'newest' => 'Più recenti',
+        'updated' => 'Aggiornate di recente',
+        'followers' => 'Più seguite',
     ],
-    'page_n' => 'Page :num',
+    'page_n' => 'Pagina :num',
 
     // Page descriptions
     'description' => [
@@ -62,7 +62,7 @@ return [
     'env_server' => 'Server',
     'env_both' => 'Client & Server',
     'categories' => 'Categorie',
-    'filtered_by' => 'Filtered by :category category.',
+    'filtered_by' => 'Filtrato per categoria :category',
 
     // Results
     'no_results' => 'Nessun progetto trovato',
