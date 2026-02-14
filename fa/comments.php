@@ -39,6 +39,8 @@ return [
     'empty' => 'هنوز نظری وجود ندارد',
     'empty-subtitle' => 'اولین نفری باشید که نظر خود را به اشتراک می گذارد!',
     'deleted' => 'نظزتان با موفقیت حذف شد',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Author',
-    'author-liked' => 'Liked by the post author'
+    'author-liked' => 'Liked by the post author',
 ];
