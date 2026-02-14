@@ -22,6 +22,10 @@ return [
             'title' => ':model yorumuna cevap ver',
             'text' => ':kullanıcı :model yorumuna cevap verdi',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',
