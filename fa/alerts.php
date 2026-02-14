@@ -22,6 +22,10 @@ return [
             'title' => 'پاسخ به نظر مدل',
             'text' => 'کاربر به نظر مدل پاسخ داد',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',
