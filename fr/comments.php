@@ -39,6 +39,8 @@ return [
     'empty' => 'Aucun commentaire pour l\'instant',
     'empty-subtitle' => 'Soyez le premier à partager ce que vous pensez !',
     'deleted' => 'Votre commentaire a bien été supprimé',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Auteur',
-    'author-liked' => 'Aimé par l\'auteur du post'
+    'author-liked' => 'Aimé par l\'auteur du post',
 ];
