@@ -22,6 +22,10 @@ return [
             'title' => 'Svara på :model kommentar',
             'text' => ':user svarade på en :model kommentar',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',
