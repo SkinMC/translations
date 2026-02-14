@@ -22,6 +22,10 @@ return [
             'title' => ':model에 답글 작성됨',
             'text' => ':user님이 :model에 답글을 작성했어요',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',
