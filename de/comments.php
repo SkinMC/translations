@@ -39,6 +39,8 @@ return [
     'empty' => 'Bisher keine Kommentare',
     'empty-subtitle' => 'Sei der Erste und teile mit, was du denkst!',
     'deleted' => 'Dein Kommentar wurde erfolgreich gelöscht',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Autor',
-    'author-liked' => 'Vom Beitragsautor geliked'
+    'author-liked' => 'Vom Beitragsautor geliked',
 ];
