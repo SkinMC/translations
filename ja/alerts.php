@@ -22,6 +22,10 @@ return [
             'title' => ':modelのコメントへの返信',
             'text' => ':userさんが:modelコメントに返信しました',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',
