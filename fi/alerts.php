@@ -22,6 +22,10 @@ return [
             'title' => 'Vastaa :model kommentilla',
             'text' => ':user vastasi :model kommenttiin',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Tykätty kommentti',
             'text' => ':user tykkäsi kommentistasi!',
