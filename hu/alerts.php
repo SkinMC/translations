@@ -22,6 +22,10 @@ return [
             'title' => 'Új válasz ennél: :model',
             'text' => ':user válaszolt a hozzászólásodra ezen: :model',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Hozzászólás kedvelve',
             'text' => ':user: kedveli a hozzászólásod!',
