@@ -22,6 +22,10 @@ return [
             'title' => 'الرد على تعليق :model',
             'text' => ':user رد على تعليق :model',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',

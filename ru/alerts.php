@@ -22,6 +22,10 @@ return [
             'title' => 'Ответить на :model комментарий',
             'text' => ':user ответил на :model комментарий',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Комментарий лайкнул',
             'text' => ':user лайкнул ваш комментарий!',

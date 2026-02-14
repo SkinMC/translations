@@ -22,6 +22,10 @@ return [
             'title' => 'Rispondi al commento di :model',
             'text' => ':user ha risposto a un commento su :model',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Hai messo like al commento',
             'text' => ':user ha messo like al tuo commento!',

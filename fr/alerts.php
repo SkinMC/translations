@@ -22,6 +22,10 @@ return [
             'title' => 'Répondre au commentaire :model',
             'text' => ':user a répondu à un commentaire de :model',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Commentaire aimé',
             'text' => ':user a aimé votre post !',
