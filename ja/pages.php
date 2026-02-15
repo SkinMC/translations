@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'フィード',
         'following' => 'フォロー中',
+        'activity' => 'Activity',
         'sign-up' => '会話に参加するにはサインアップまたはログインしてください。',
         'link-account' => 'Minecraft アカウントをリンクして会話に参加しましょう。',
         'placeholder' => 'What is happening?',
