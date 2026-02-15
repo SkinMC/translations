@@ -1301,6 +1301,7 @@ return [
         'xp_to_next_level' => ':xp XPから次のレベルへ',
         'xp_info' => 'XPとは？',
         'xp_info_tooltip' => 'XPはスキンにタグを追加したり、友達を招待したり、コメントしたりなど様々なアクティビティで獲得できます。XPを獲得するごとにレベルアップしクールなものをアンロックすることができます！',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
