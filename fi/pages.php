@@ -1301,6 +1301,7 @@ return [
         'xp_to_next_level' => ':xp XP seuraavalle tasolle',
         'xp_info' => 'Mitä ovat XP?',
         'xp_info_tooltip' => 'XP:tä on ansaittu erilaisilla toiminnoilla, kuten lisäämällä tageja skineille, kutsumalla ystäviä, kommentoimalla ja paljon muuta. Jokaisella ansaitulla XP:llä voit tasoittaa ylös ja avata siistejä juttuja!',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
