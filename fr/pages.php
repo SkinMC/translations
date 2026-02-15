@@ -1301,6 +1301,7 @@ return [
         'xp_to_next_level' => ':xp XP jusqu\'au niveau suivant',
         'xp_info' => 'Qu\'est-ce que l\'XP ?',
         'xp_info_tooltip' => 'XP est gagné pour diverses activités telles que l\'ajout de balises à des skins, l\'invitation à des amis, les commentaires et bien plus encore. Avec chaque XP gagné, vous pouvez monter de niveau et débloquer des choses cool !',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
