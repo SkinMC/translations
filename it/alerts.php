@@ -122,4 +122,11 @@ return [
             'text' => 'La tua inserzione è in sospeso da un po\'. I dettagli e le foto del doppio controllo aiutano a mantenere la revisione scorrevole.',
         ],
     ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-day streak at risk',
+            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
+            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+        ],
+    ],
 ];
