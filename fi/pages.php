@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Syöte',
         'following' => 'Seurataan',
+        'activity' => 'Activity',
         'sign-up' => 'Rekisteröidy tai kirjaudu sisään liittyäksesi keskusteluun.',
         'link-account' => 'Yhdistä Minecraft-tilisi liittyäksesi keskusteluun.',
         'placeholder' => 'Mitä tapahtuu?',
