@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Fil d\'actualités',
         'following' => 'Abonné',
+        'activity' => 'Activity',
         'sign-up' => 'Inscrivez-vous ou connectez-vous pour rejoindre la conversation.',
         'link-account' => 'Liez votre compte Minecraft pour rejoindre la conversation.',
         'placeholder' => 'Que se passe-t-il?',
