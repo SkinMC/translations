@@ -48,7 +48,7 @@ return [
         'servers_browse' => '서버 둘러보기',
         'servers' => '최고의 Minecraft 서버를 발견해 보세요',
         'servers_new_upcoming' => 'New & upcoming servers',
-        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are currently online.',
+        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are online and showing promising activity.',
         'servers_upcoming_players' => 'players',
         'servers_upcoming_badge' => 'New',
         'heads' => 'Minecraft 머리',
