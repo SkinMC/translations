@@ -1299,6 +1299,7 @@ return [
         'xp_to_next_level' => '다음 레벨까지 :xp 경험치',
         'xp_info' => '경험치란 무엇인가요?',
         'xp_info_tooltip' => '경험치는 스킨에 태그를 추가하고, 친구를 초대하고, 댓글을 작성하는 등 다양한 활동으로 받을 수 있어요. 경험치를 충분히 받으면 레벨 업할 수 있고 여러 것들을 잠금 해제할 수 있어요!',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
