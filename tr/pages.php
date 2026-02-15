@@ -1301,6 +1301,7 @@ return [
         'xp_to_next_level' => 'Sonraki seviye için :xp XP',
         'xp_info' => 'XP nedir?',
         'xp_info_tooltip' => 'XP is earned for various activities such as adding tags to skins, inviting friends, commenting, and much more. With each XP earned you can level up and unlock cool things!',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
