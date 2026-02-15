@@ -1735,6 +1735,7 @@ return [
     'feed' => [
         'title' => '피드',
         'following' => '팔로우 중',
+        'activity' => 'Activity',
         'sign-up' => '가입하거나 로그인해서 대화에 참여하세요.',
         'link-account' => 'Minecraft 계정을 연동해서 대화에 참여하세요.',
         'placeholder' => '무엇이 일어나고 있나요?',
