@@ -122,4 +122,11 @@ return [
             'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
         ],
     ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-day streak at risk',
+            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
+            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+        ],
+    ],
 ];
