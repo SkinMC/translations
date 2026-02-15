@@ -48,7 +48,7 @@ return [
         'servers_browse' => 'Cerca server',
         'servers' => 'Scopri i migliori server Minecraft',
         'servers_new_upcoming' => 'Nuovi & prossimi server',
-        'servers_new_upcoming_browse' => 'Trova nuovi server con comunità più piccole che sono attualmente online.',
+        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are online and showing promising activity.',
         'servers_upcoming_players' => 'giocatori',
         'servers_upcoming_badge' => 'Nuovo',
         'heads' => 'Teste di Minecraft',
