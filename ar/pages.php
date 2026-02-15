@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Feed',
         'following' => 'Following',
+        'activity' => 'Activity',
         'sign-up' => 'Sign up or log in to join the conversation.',
         'link-account' => 'Link your Minecraft account to join the conversation.',
         'placeholder' => 'What is happening?',
