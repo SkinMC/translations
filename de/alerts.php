@@ -122,4 +122,11 @@ return [
             'text' => 'Dein Eintrag wird schon eine Weile geprüft. Ein kurzer Check von Details und Fotos kann helfen, den Prozess reibungslos zu halten.',
         ],
     ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-day streak at risk',
+            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
+            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+        ],
+    ],
 ];
