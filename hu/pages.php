@@ -1899,6 +1899,26 @@ return [
         'external-link-confirmation' => 'Biztosan el akarod hagyni a SkinMC-t?',
         'external-link' => 'Külső hivatkozás',
         'reply' => 'Reply',
+        'streak' => [
+            'label' => ':streak streak',
+            'inline' => [
+                'milestone_unlocked' => 'Congratulations! You unlocked :streak streak.',
+                'at_risk' => 'Streak at risk. Message each other today to keep it.',
+                'lost' => 'You lost your :streak streak.',
+            ],
+            'modal' => [
+                'view_badges' => 'View badges',
+                'status_active' => 'You have a streak going for :streak.',
+                'status_at_risk' => 'Your :streak streak is at risk today.',
+                'status_lost' => 'You lost your :streak streak.',
+                'status_none' => 'No streak yet.',
+                'status_hint_active' => 'Keep messaging each other daily to upgrade your badge.',
+                'status_hint_at_risk' => 'Message each other today to keep your streak alive.',
+                'status_hint_lost' => 'Message each other on consecutive days to start a new streak.',
+                'status_hint_none' => 'Message each other on consecutive days to unlock your first badge.',
+                'milestone_label' => ':streak',
+            ],
+        ],
     ],
     'server' => [
         'manage' => [
