@@ -1738,6 +1738,7 @@ return [
     'feed' => [
         'title' => 'Feed',
         'following' => 'Following',
+        'activity' => 'Activity',
         'sign-up' => 'Sign up or log in to join the conversation.',
         'link-account' => '链接您的 Minecraft 帐户以加入讨论。',
         'placeholder' => '发生了什么事？',
