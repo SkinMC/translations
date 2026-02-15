@@ -48,7 +48,7 @@ return [
         'servers_browse' => 'Entdecke Server',
         'servers' => 'Entdecke die besten Minecraft Server',
         'servers_new_upcoming' => 'Neue & kommende Server',
-        'servers_new_upcoming_browse' => 'Entdecke frische Server mit kleineren Communities, die gerade online sind.',
+        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are online and showing promising activity.',
         'servers_upcoming_players' => 'spieler',
         'servers_upcoming_badge' => 'Neu',
         'heads' => 'Minecraft Köpfe',
