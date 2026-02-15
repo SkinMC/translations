@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Feed',
         'following' => 'Takip edilenler',
+        'activity' => 'Activity',
         'sign-up' => 'Sohbete katılmak için kayıt olun veya giriş yapın.',
         'link-account' => 'Sohbete katılmak için Minecraft hesabını bağla.',
         'placeholder' => 'Ne oluyor?',
