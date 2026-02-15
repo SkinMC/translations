@@ -23,8 +23,8 @@ return [
             'text' => ':user antwortete auf einen :model Kommentar',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => 'Neue Erwähnung',
+            'text' => ':user hat dich in einem Kommentar erwähnt!',
         ],
         'like' => [
             'title' => 'Kommentar wurde geliked',
@@ -124,9 +124,9 @@ return [
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => ':days-Tage-Streak in Gefahr',
+            'text_send_now' => 'Schicke vor Mitternacht (UTC) eine Nachricht, damit deine Streak weiterläuft.',
+            'text_waiting_other' => 'Deine Antwort ist gesendet. Eine weitere Rückmeldung vor Mitternacht (UTC) hält deine Streak aktiv.',
         ],
     ],
 ];
