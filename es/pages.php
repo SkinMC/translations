@@ -48,7 +48,7 @@ return [
         'servers_browse' => 'Navegar servidores',
         'servers' => 'Descubre los mejores servidores de Minecraft',
         'servers_new_upcoming' => 'New & upcoming servers',
-        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are currently online.',
+        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are online and showing promising activity.',
         'servers_upcoming_players' => 'players',
         'servers_upcoming_badge' => 'New',
         'heads' => 'Cabezas de Minecraft',
