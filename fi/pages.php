@@ -48,7 +48,7 @@ return [
         'servers_browse' => 'Selaa palvelimia',
         'servers' => 'Löydä parhaat Minecraft palvelimet',
         'servers_new_upcoming' => 'New & upcoming servers',
-        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are currently online.',
+        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are online and showing promising activity.',
         'servers_upcoming_players' => 'players',
         'servers_upcoming_badge' => 'New',
         'heads' => 'Minecraft päät',
