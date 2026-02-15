@@ -1302,6 +1302,7 @@ return [
         'xp_to_next_level' => ':xp XP 到下一等级',
         'xp_info' => '什么是 XP？',
         'xp_info_tooltip' => 'XP是通过各种活动获得的，比如为皮肤添加标签、邀请朋友、评论等等。每获得XP，您就可以升级并解锁酷炫的东西！',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
