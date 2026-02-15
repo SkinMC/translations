@@ -1741,6 +1741,7 @@ return [
     'feed' => [
         'title' => 'Feed',
         'following' => 'Seguiti',
+        'activity' => 'Activity',
         'sign-up' => 'Registrati o accedi per partecipare alla conversazione.',
         'link-account' => 'Collega il tuo account di Minecraft per partecipare alla conversazione.',
         'placeholder' => 'Che cosa sta succedendo?',
