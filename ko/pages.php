@@ -1307,6 +1307,7 @@ return [
         'my_stuff' => [
             'title' => 'My stuff',
             'creations' => 'Creations',
+            'heads' => 'Heads',
             'collections' => 'Collections',
             'favourites' => 'Favourites',
             'skins' => 'Manage skins',
@@ -1494,6 +1495,31 @@ return [
                 'description' => 'View and manage your skin creations.',
             ],
         ],
+        'heads' => [
+            'title' => 'My heads',
+            'pending_reason' => 'Pending reason',
+            'actions' => 'Head actions',
+            'delete' => 'Delete head',
+            'delete_confirm' => 'Delete this head? This action cannot be undone.',
+            'view_public' => 'View public page',
+            'view_head' => 'View head page',
+            'not_public' => 'Not publicly visible',
+            'blacklisted_section_title' => 'Removed heads',
+            'blacklisted_section_subtitle' => 'These heads were removed during review and can no longer be opened.',
+            'empty_title' => 'No heads yet',
+            'empty_subtitle' => 'Heads you submit will appear here with their moderation state.',
+            'empty_browse' => 'Browse heads',
+            'filters' => [
+                'all' => 'All',
+                'pending' => 'Pending',
+                'published' => 'Published',
+                'private' => 'Private',
+            ],
+            'meta' => [
+                'title' => 'My heads',
+                'description' => 'View the moderation state of your submitted custom heads.',
+            ],
+        ],
         'banners' => [
             'title' => 'Banners',
             'published' => 'Published',
@@ -1624,6 +1650,28 @@ return [
                 'title' => '플레이어 머리',
                 'description' => '플레이어 머리는 Minecraft 플레이어의 현재 스킨 텍스처를 사용해요. 플레이어 머리는 사용자 이름을 기반으로 하기 때문에, 플레이어가 이름이나 스킨을 바꾸면, 머리가 바뀌어요.',
                 'version' => '모든 Minecraft 버전',
+            ],
+        ],
+        'faq' => [
+            'title' => 'How head moderation works',
+            'content' => 'When you submit a head for public listing, it enters a review queue. Our team checks that it meets quality and content guidelines before it appears on the public pages. You can always view and manage your own submissions in your account.',
+            'items' => [
+                [
+                    'title' => 'Pending review',
+                    'content' => 'Heads marked as Pending are currently under review. This may take a little time, especially during busy periods. In some cases, a head may remain pending if it is very similar to an existing one or requires additional consideration. You can edit the details or withdraw it at any time.',
+                ],
+                [
+                    'title' => 'Published heads',
+                    'content' => 'Once approved, your head becomes publicly visible on SkinMC. It will appear in the main gallery and may also be featured in Best Heads if selected by our team.',
+                ],
+                [
+                    'title' => 'Private heads',
+                    'content' => 'Private heads are only visible to you. This may happen if a submission does not meet our public listing guidelines, or if you choose to keep it private. You are free to edit and resubmit it whenever you like.',
+                ],
+                [
+                    'title' => 'Removed heads',
+                    'content' => 'In rare cases, a head may be removed if it conflicts with our content policies. Removed heads are not visible on the site. If you believe a removal was made in error, please contact support.',
+                ],
             ],
         ],
     ],
