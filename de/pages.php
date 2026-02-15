@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Feed',
         'following' => 'Gefolgt',
+        'activity' => 'Activity',
         'sign-up' => 'Registriere dich oder melde dich an, um an der Unterhaltung teilzunehmen.',
         'link-account' => 'Verbinde deinen Minecraft-Account, um an der Unterhaltung teilzunehmen.',
         'placeholder' => 'Was geschieht gerade?',
