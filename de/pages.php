@@ -1301,6 +1301,7 @@ return [
         'xp_to_next_level' => ':xp XP zum nächsten Level',
         'xp_info' => 'Was sind XP?',
         'xp_info_tooltip' => 'XP erhält man für verschiedene Aktivitäten wie das Hinzufügen von Tags zu Skins, das Einladen von Freunden, Kommentieren und vieles mehr. Mit jedem verdienten XP kannst du aufleveln und coole Dinge freischalten!',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
