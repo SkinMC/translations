@@ -1737,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Hírfolyam',
         'following' => 'Követett',
+        'activity' => 'Activity',
         'sign-up' => 'A beszélgetésbe csatlakozáshoz regisztrálj vagy jelentkezz be!',
         'link-account' => 'A beszélgetésbe csatlakozáshoz kapcsold össze a Minecraft-fiókodat a SkinMC-vel!',
         'placeholder' => 'Mi történik?',
