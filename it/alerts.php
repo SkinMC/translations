@@ -124,9 +124,9 @@ return [
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => ':days-giorni di streak a rischio',
+            'text_send_now' => 'Invia un messaggio prima di mezzanotte UTC per mantenere la tua serie viva.',
+            'text_waiting_other' => 'Hai risposto oggi. Hai ancora bisogno di un\'altra risposta prima di mezzanotte UTC.',
         ],
     ],
 ];
