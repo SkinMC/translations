@@ -23,8 +23,8 @@ return [
             'text' => ':user ha risposto a un commento su :model',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => 'Nuova menzione',
+            'text' => ':user ti ha menzionato in un commento!',
         ],
         'like' => [
             'title' => 'Hai messo like al commento',
