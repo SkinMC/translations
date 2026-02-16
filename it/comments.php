@@ -39,8 +39,8 @@ return [
     'empty' => 'Ancora nessun commento',
     'empty-subtitle' => 'Sii il primo a condividere ciò che pensi!',
     'deleted' => 'Il tuo commento è stato con successo eliminato',
-    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
-    'post_error' => 'We could not post your comment right now. Please try again.',
+    'upload_error' => 'Non è stato possibile elaborare quell\'immagine. Si prega di caricare un\'immagine JPEG, PNG o WebP.',
+    'post_error' => 'Non è stato possibile inviare il tuo commento in questo momento. Per favore riprova.',
     'author' => 'Autore',
     'author-liked' => 'L\'autore del post ha messo mi piace',
 ];
