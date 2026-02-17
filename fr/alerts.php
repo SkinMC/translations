@@ -23,8 +23,8 @@ return [
             'text' => ':user a répondu à un commentaire de :model',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => 'Nouvelle mention',
+            'text' => ':user vous a mentionné dans un commentaire !',
         ],
         'like' => [
             'title' => 'Commentaire aimé',
@@ -53,8 +53,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'Ajouté au tableau',
+            'text' => ':user vous a ajouté en tant que collaborateur au tableau ":board".',
         ],
     ],
     'report' => [
@@ -73,11 +73,11 @@ return [
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Nouvel avis sur :server',
+            'text' => 'Votre annonce ":server" a reçu un nouvel avis (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
+            'title' => 'Notation abandonnée pour le :server',
             'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
         ],
         'vote_milestone' => [
@@ -89,15 +89,15 @@ return [
             'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':server nécessite des mises à jour',
+            'text' => 'Votre annonce a été retirée du statut approuvé. Vérifiez les détails de votre annonce et mettez à jour si nécessaire.',
         ],
         'published' => [
-            'title' => ':server is now live',
+            'title' => ':server est maintenant en ligne',
             'text' => 'Your listing is published and visible on the server list.',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
+            'title' => ':server a été dépublié',
             'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
         ],
         'verified' => [
