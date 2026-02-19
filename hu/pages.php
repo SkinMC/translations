@@ -1931,6 +1931,8 @@ return [
         'new_message' => 'Új üzenet',
         'mark_unread' => 'Megjelölés olvasatlaként',
         'send_message' => 'Üzenet küldése',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Üzenet törlése csak neked',
         'latest_conversations' => 'Legutóbbi beszélgetések',
         'delete_conversation' => 'Beszélgetés törlése',
