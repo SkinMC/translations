@@ -1931,6 +1931,8 @@ return [
         'new_message' => 'Yeni mesaj',
         'mark_unread' => 'Okunmadı olarak işaretle',
         'send_message' => 'Mesajı gönder',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Mesajı kendiniz için silin',
         'latest_conversations' => 'Son sohbetler',
         'delete_conversation' => 'Sohbeti sil',
