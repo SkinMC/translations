@@ -1931,6 +1931,8 @@ return [
         'new_message' => 'Новое сообщение',
         'mark_unread' => 'Отметить непрочитанным',
         'send_message' => 'Отправить сообщение',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Удалить сообщение для себя',
         'latest_conversations' => 'Последние беседы',
         'delete_conversation' => 'Удалить беседу',
