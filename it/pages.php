@@ -1935,6 +1935,8 @@ return [
         'new_message' => 'Nuovo messaggio',
         'mark_unread' => 'Segna come non letto',
         'send_message' => 'Invia messaggio',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Elimina il messaggio per te',
         'latest_conversations' => 'Ultime conversazioni',
         'delete_conversation' => 'Elimina conversazione',
