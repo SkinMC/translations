@@ -1931,6 +1931,8 @@ return [
         'new_message' => 'Uusi viesti',
         'mark_unread' => 'Merkitse lukemattomaksi',
         'send_message' => 'Lähetä viesti',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Poista viesti sinulta',
         'latest_conversations' => 'Viimeisimmät keskustelut',
         'delete_conversation' => 'Poista keskustelu',
