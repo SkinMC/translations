@@ -1931,6 +1931,8 @@ return [
         'new_message' => 'Нове повідомлення',
         'mark_unread' => 'Позначити як непрочитане',
         'send_message' => 'Надіслати повідомлення',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Видалити повідомлення для мене',
         'latest_conversations' => 'Останні бесіди',
         'delete_conversation' => 'Видалити бесіду',
