@@ -1932,6 +1932,8 @@ return [
         'new_message' => 'New message',
         'mark_unread' => 'Mark unread',
         'send_message' => 'Send message',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Delete message for you',
         'latest_conversations' => 'Latest conversations',
         'delete_conversation' => 'Delete conversation',
