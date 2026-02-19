@@ -1931,6 +1931,8 @@ return [
         'new_message' => '新しいメッセージ',
         'mark_unread' => '未読にする',
         'send_message' => 'メッセージを送信',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'メッセージを削除',
         'latest_conversations' => '最近の会話',
         'delete_conversation' => '会話を削除',
