@@ -1931,6 +1931,8 @@ return [
         'new_message' => 'Nieuw bericht',
         'mark_unread' => 'Mark unread',
         'send_message' => 'Verstuur bericht',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Bericht voor jou verwijderen',
         'latest_conversations' => 'Latest conversations',
         'delete_conversation' => 'Delete conversation',
