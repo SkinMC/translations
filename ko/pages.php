@@ -1929,6 +1929,8 @@ return [
         'new_message' => '신규 메시지',
         'mark_unread' => '읽지 않음으로 표시',
         'send_message' => '메시지 전송',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => '나를 위해 메시지 삭제하기',
         'latest_conversations' => '최근 대화',
         'delete_conversation' => '대화 삭제',
