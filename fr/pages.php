@@ -28,7 +28,7 @@ return [
         'favourite' => 'Favori',
         'collections' => 'Collections',
         'collections_detail' => 'Skins Minecraft organisés pour chaque occasion',
-        'creations_title' => 'Skin creations',
+        'creations_title' => 'Créations de Skin',
         'creations_description' => 'Browse and upload custom Minecraft skin creations.',
         'creations_new_updated' => 'New & updated',
         'about_skinmc' => 'À propos de SkinMC',
