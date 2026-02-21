@@ -2,12 +2,12 @@
 
 return [
     'skins' => 'Skins',
-    'skins_profile' => 'Profile skins',
-    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
-    'creations' => 'Creations',
-    'creations_subtitle' => 'Skins shared by the community',
-    'skin_upload_subtitle' => 'Add your creation',
-    'skin_tags' => 'Tagged',
+    'skins_profile' => 'Skins de profil',
+    'skins_profile_subtitle' => 'Skins de profils Minecraft',
+    'creations' => 'Créations',
+    'creations_subtitle' => 'Skins partagés par la communauté',
+    'skin_upload_subtitle' => 'Ajouter votre création',
+    'skin_tags' => 'Tagué',
     'avatars' => 'Avatars',
     'editor' => 'Editeur',
     'heads' => 'Tête',
@@ -17,7 +17,7 @@ return [
     'armor' => 'Porte-armure',
     'banners' => 'Bannière',
     'banner' => 'Éditeur de bannière',
-    'banner_gallery' => 'Banner Gallery',
+    'banner_gallery' => 'Galerie de bannières',
     'profile' => 'Mon profil',
 
     'generators' => 'Générateur',
@@ -57,7 +57,7 @@ return [
     'edit_skin' => 'Modifier le skin',
     'make_avatar' => 'Faire un avatar',
     'find_heads' => 'Trouver des têtes de joueur',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Aucune suggestion pour le moment. Appuyez sur Entrée pour la consulter.',
 
     'home' => 'Domicile',
     'help' => 'Aide',
@@ -80,8 +80,8 @@ return [
     'cube' => 'Cube',
     'new' => 'Nouveau',
 
-    'boards' => 'Boards',
-    'boards_subtitle' => 'Your saved collections',
+    'boards' => 'Sections et Catégories',
+    'boards_subtitle' => 'Vos collections enregistrées',
 
     'feedback' => 'Commentaires',
     'status' => 'Statut',
@@ -93,12 +93,12 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'profile' => 'Profil',
+        'server' => 'Serveur',
+        'project' => 'Projet',
+        'skin_tag' => 'Étiquette de skin',
+        'server_category' => 'Catégorie de serveur',
+        'modrinth_category' => 'Catégorie de projet',
     ],
 
     'theme' => [
@@ -108,5 +108,5 @@ return [
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'Langue',
 ];
