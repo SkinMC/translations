@@ -78,15 +78,15 @@ return [
         ],
         'low_rating' => [
             'title' => 'Notation abandonnée pour le :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'text' => 'Votre note moyenne est maintenant de :rating/5 pour :reviews retours. Pensez à revoir vos commentaires dans Insights.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Étape de vote atteinte',
+            'text' => ':server a atteint :votes au cours des 30 derniers jours.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server a été approuvé',
+            'text' => 'Votre annonce a été approuvée et est maintenant éligible pour être publiée une fois que toutes les conditions seront remplies.',
         ],
         'unapproved' => [
             'title' => ':server nécessite des mises à jour',
@@ -94,27 +94,27 @@ return [
         ],
         'published' => [
             'title' => ':server est maintenant en ligne',
-            'text' => 'Your listing is published and visible on the server list.',
+            'text' => 'Votre serveur est publié et visible sur la liste des serveurs.',
         ],
         'unpublished' => [
             'title' => ':server a été dépublié',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'text' => 'Votre serveur n\'est plus visible publiquement. Examinez son état dans votre tableau de bord.',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':server est maintenant vérifié',
+            'text' => 'Votre annonce a reçu un badge de vérification.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => 'Exigence de photo terminée pour :server',
+            'published_text' => 'Vous avez maintenant au moins 5 images et votre annonce est à nouveau en ligne.',
+            'pending_text' => 'Vous avez maintenant au moins 5 images. Votre annonce est prête à être vérifiée.',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => 'Ajouter plus de photos à :server',
+            'text' => 'Votre annonce a besoin de :remaining photo(s) de plus pour atteindre le minimum de :minimum et rester publiable.',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
+            'title' => 'Votre serveur n\'a toujours pas de photos',
             'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
         ],
         'reminder_pending_too_long' => [
