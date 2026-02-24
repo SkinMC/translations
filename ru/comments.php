@@ -39,8 +39,8 @@ return [
     'empty' => 'Нет комментариев',
     'empty-subtitle' => 'Будьте первым, кто поделится тем, что вы думаете!',
     'deleted' => 'Ваш комментарий был удалён',
-    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
-    'post_error' => 'We could not post your comment right now. Please try again.',
+    'upload_error' => 'Мы не смогли обработать это изображение. Пожалуйста, загрузите изображение в формате JPEG, PNG или WebP.',
+    'post_error' => 'Мы не смогли опубликовать ваш комментарий. Повторите попытку позже.',
     'author' => 'Автор',
     'author-liked' => 'Понравилось автору поста',
 ];
