@@ -2,12 +2,12 @@
 
 return [
     'skins' => 'Скины',
-    'skins_profile' => 'Profile skins',
-    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
-    'creations' => 'Creations',
-    'creations_subtitle' => 'Skins shared by the community',
-    'skin_upload_subtitle' => 'Add your creation',
-    'skin_tags' => 'Tagged',
+    'skins_profile' => 'Профиль скинов',
+    'skins_profile_subtitle' => 'Скины из профилей Minecraft',
+    'creations' => 'Творения',
+    'creations_subtitle' => 'Скины, которыми поделилось сообщество',
+    'skin_upload_subtitle' => 'Добавьте свое творение',
+    'skin_tags' => 'Помечено',
     'avatars' => 'Аватары',
     'editor' => 'Редактор',
     'heads' => 'Головы',
@@ -17,7 +17,7 @@ return [
     'armor' => 'Стойка для брони',
     'banners' => 'Баннеры',
     'banner' => 'Редактор флагов',
-    'banner_gallery' => 'Banner Gallery',
+    'banner_gallery' => 'Галерея баннеров',
     'profile' => 'Мой профиль',
 
     'generators' => 'Генераторы',
@@ -80,8 +80,8 @@ return [
     'cube' => 'Куб',
     'new' => 'Новые',
 
-    'boards' => 'Boards',
-    'boards_subtitle' => 'Your saved collections',
+    'boards' => 'Панели',
+    'boards_subtitle' => 'Ваши сохраненные коллекции',
 
     'feedback' => 'Обратная связь',
     'status' => 'Статус',
@@ -108,5 +108,5 @@ return [
         'auto' => 'Авто',
     ],
 
-    'language' => 'Language',
+    'language' => 'Язык',
 ];
