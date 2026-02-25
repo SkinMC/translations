@@ -2053,4 +2053,7 @@ return [
             'left_board' => 'You left the board',
         ],
     ],
+    'advertising' => [
+        'advertisement' => 'Advertisement',
+    ],
 ];
