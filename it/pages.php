@@ -2056,4 +2056,7 @@ return [
             'left_board' => 'Hai lasciato la bacheca',
         ],
     ],
+    'advertising' => [
+        'advertisement' => 'Advertisement',
+    ],
 ];
