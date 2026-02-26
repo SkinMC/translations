@@ -22,6 +22,10 @@ return [
             'title' => 'Reply on :model comment',
             'text' => ':user replied to a :model comment',
         ],
+        'mention' => [
+            'title' => 'New mention',
+            'text' => ':user mentioned you in a comment!',
+        ],
         'like' => [
             'title' => 'Comment liked',
             'text' => ':user liked your comment!',
@@ -116,6 +120,13 @@ return [
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
             'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+        ],
+    ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-day streak at risk',
+            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
+            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
         ],
     ],
 ];

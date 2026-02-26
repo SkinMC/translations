@@ -25,12 +25,12 @@ return [
     ],
 
     'sort_label' => [
-        'downloads' => 'Most downloaded',
-        'newest' => 'Newest',
-        'updated' => 'Recently updated',
-        'followers' => 'Most followed',
+        'downloads' => 'Самые загружаемые',
+        'newest' => 'Новые',
+        'updated' => 'Недавно обновленные',
+        'followers' => 'Самые популярные',
     ],
-    'page_n' => 'Page :num',
+    'page_n' => 'Страница :num',
 
     // Page descriptions
     'description' => [
@@ -62,7 +62,7 @@ return [
     'env_server' => 'Сервер',
     'env_both' => 'Клиент & Сервер',
     'categories' => 'Категории',
-    'filtered_by' => 'Filtered by :category category.',
+    'filtered_by' => 'Отфильтровано по :category.',
 
     // Results
     'no_results' => 'Проекты не найдены',

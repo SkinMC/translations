@@ -39,6 +39,8 @@ return [
     'empty' => 'Még senki sem írt hozzászólást.',
     'empty-subtitle' => 'Kezdd el a beszélgetést!',
     'deleted' => 'Hozzászólás törölve.',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Szerző',
-    'author-liked' => 'Kedvelve a poszt szerzője által'
+    'author-liked' => 'Kedvelve a poszt szerzője által',
 ];

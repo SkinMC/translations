@@ -22,6 +22,10 @@ return [
             'title' => 'Ответить на :model комментарий',
             'text' => ':user ответил на :model комментарий',
         ],
+        'mention' => [
+            'title' => 'Новое упоминание',
+            'text' => ':пользователь упомянул вас в комментарии!',
+        ],
         'like' => [
             'title' => 'Комментарий лайкнул',
             'text' => ':user лайкнул ваш комментарий!',
@@ -49,8 +53,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'Добавлено на доску',
+            'text' => ':пользователь добавил вас в качестве соавтора на доску «:board».',
         ],
     ],
     'report' => [
@@ -69,53 +73,60 @@ return [
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Новый обзор на :server',
+            'text' => 'Ваш объявление «:server» получило новый отзыв (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => 'Рейтинг понижен для :server',
+            'text' => 'Ваша средняя оценка сейчас составляет :rating/5 по результатам :reviews отзывов. Рассмотрите возможность просмотра отзывов в разделе «Статистика».',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Этап голосования достигнут',
+            'text' => ':сервер достиг :голосов голосов за последние 30 дней.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':сервер был одобрен',
+            'text' => 'Ваше объявление прошло проверку и теперь может быть опубликовано после выполнения всех требований.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':сервер нуждается в обновлении',
+            'text' => 'Ваша заявка была переведена из статуса «Утверждена». Просмотрите детали своей заявки и обновите их при необходимости.',
         ],
         'published' => [
-            'title' => ':server is now live',
-            'text' => 'Your listing is published and visible on the server list.',
+            'title' => ':server в настоящее время работает',
+            'text' => 'Ваша запись опубликована и отображается в списке серверов.',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => ':сервер был удален из публикации',
+            'text' => 'Ваша объявление больше не отображается публично. Проверьте статус объявления в своей панели управления.',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':сервер теперь проверен',
+            'text' => 'Ваше объявление получило значок подтверждения.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => 'Требования к фотографиям выполнены для :сервер',
+            'published_text' => 'Теперь у вас есть как минимум 5 изображений, и ваше объявление снова доступно.',
+            'pending_text' => 'Теперь у вас есть как минимум 5 изображений. Ваше объявление готово к модерации.',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => 'Добавить больше фотографий на :сервер',
+            'text' => 'Вашему объявлению необходимо добавить еще :remaining фотографий, чтобы достичь минимального кол-ва :minimum и оставаться доступным для публикации.',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'title' => 'На вашем сервере все еще нет фотографий',
+            'text' => 'Добавьте не менее 5 фотографий, чтобы повысить доверие и продвинуть ваше объявление к публикации.',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'title' => 'Ваша заявка все еще находится на рассмотрении',
+            'text' => 'Ваше объявление находится в ожидании уже некоторое время. Проверьте еще раз детали и фотографии, чтобы процесс проверки прошел гладко.',
+        ],
+    ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-day серия под угрозой',
+            'text_send_now' => 'Отправьте сообщение до полуночи по Гринвичу, чтобы сохранить свою серию.',
+            'text_waiting_other' => 'Вы ответили сегодня. Вам еще нужно получить один ответ до полуночи по Гринвичу.',
         ],
     ],
 ];

@@ -22,6 +22,10 @@ return [
             'title' => 'Antwort auf :model Kommentar',
             'text' => ':user antwortete auf einen :model Kommentar',
         ],
+        'mention' => [
+            'title' => 'Neue Erwähnung',
+            'text' => ':user hat dich in einem Kommentar erwähnt!',
+        ],
         'like' => [
             'title' => 'Kommentar wurde geliked',
             'text' => ':user gefällt dein Kommentar!',
@@ -116,6 +120,13 @@ return [
         'reminder_pending_too_long' => [
             'title' => 'Dein Eintrag befindet sich weiterhin in Prüfung',
             'text' => 'Dein Eintrag wird schon eine Weile geprüft. Ein kurzer Check von Details und Fotos kann helfen, den Prozess reibungslos zu halten.',
+        ],
+    ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-Tage-Streak in Gefahr',
+            'text_send_now' => 'Schicke vor Mitternacht (UTC) eine Nachricht, damit deine Streak weiterläuft.',
+            'text_waiting_other' => 'Deine Antwort ist gesendet. Eine weitere Rückmeldung vor Mitternacht (UTC) hält deine Streak aktiv.',
         ],
     ],
 ];

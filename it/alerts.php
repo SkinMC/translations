@@ -22,6 +22,10 @@ return [
             'title' => 'Rispondi al commento di :model',
             'text' => ':user ha risposto a un commento su :model',
         ],
+        'mention' => [
+            'title' => 'Nuova menzione',
+            'text' => ':user ti ha menzionato in un commento!',
+        ],
         'like' => [
             'title' => 'Hai messo like al commento',
             'text' => ':user ha messo like al tuo commento!',
@@ -116,6 +120,13 @@ return [
         'reminder_pending_too_long' => [
             'title' => 'La tue inserzione è ancora in attesa di revisione',
             'text' => 'La tua inserzione è in sospeso da un po\'. I dettagli e le foto del doppio controllo aiutano a mantenere la revisione scorrevole.',
+        ],
+    ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-giorni di streak a rischio',
+            'text_send_now' => 'Invia un messaggio prima di mezzanotte UTC per mantenere la tua serie viva.',
+            'text_waiting_other' => 'Hai risposto oggi. Hai ancora bisogno di un\'altra risposta prima di mezzanotte UTC.',
         ],
     ],
 ];

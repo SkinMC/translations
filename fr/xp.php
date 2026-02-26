@@ -20,6 +20,11 @@ return [
         'sign_up' => 'Bienvenue sur SkinMC.',
         'invite_friend' => 'Ami invité',
         'invited_friend' => 'Invité par un ami',
+        'chat_streak_milestone_3' => 'Série de 3 jours débloquée',
+        'chat_streak_milestone_10' => 'Série de 10 jours débloquée',
+        'chat_streak_milestone_30' => 'Série de 30 jours débloquée',
+        'chat_streak_milestone_100' => 'Série de 100 jours débloquée',
+        'chat_streak_milestone_200' => 'Série de 200 jours débloquée',
     ],
     'empty' => 'Gagnez de l\'XP pour en voir ici.',
 ];

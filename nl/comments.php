@@ -39,6 +39,8 @@ return [
     'empty' => 'Nog geen reacties',
     'empty-subtitle' => 'Wees de eerste om te delen wat je denkt!',
     'deleted' => 'Uw reactie is succesvol verwijderd',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Author',
-    'author-liked' => 'Liked by the post author'
+    'author-liked' => 'Liked by the post author',
 ];

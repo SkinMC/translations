@@ -2,64 +2,64 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
-        'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'black' => 'Черный',
+        'red' => 'Красный',
+        'green' => 'Зелёный',
+        'brown' => 'Коричневый',
+        'blue' => 'Синий',
+        'purple' => 'Фиолетовый',
+        'cyan' => 'Бирюзовый',
+        'gray' => 'Серый',
+        'dark_gray' => 'Тёмно-серый',
+        'pink' => 'Розовый',
+        'lime' => 'Лаймовый',
+        'yellow' => 'Жёлтый',
+        'light_blue' => 'Голубой',
+        'magenta' => 'Пурпурный',
+        'orange' => 'Оранжевый',
+        'white' => 'Белый',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Полностью: поле цвета',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
-        'ss' => 'Paly',          // small_stripes
+        'bs' => 'База',           // stripe_bottom
+        'ts' => 'Главный',         // stripe_top
+        'ls' => 'Бледный Декстер',   // stripe_left
+        'rs' => 'Бледный Зловещий', // stripe_right
+        'cs' => 'Бледный',          // stripe_center
+        'ms' => 'Фесс',          // stripe_middle
+        'drs' => 'Изгиб',         // stripe_downright
+        'dls' => 'Изгиб влево', // stripe_downleft
+        'ss' => 'Пали',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => 'Крест',
+        'sc' => 'Солтир',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => 'По левой стороне',       // diagonal_left
+        'rd' => 'Через Изгиб',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'На изгиб, перевернутый',      // diagonal_up_left
+        'rud' => 'Перевернутый изгиб влево', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vh' => 'Для Бледный',              // half_vertical
+        'vhr' => 'На пале Инвертированный',   // half_vertical_right
+        'hh' => 'Для Фесса',              // half_horizontal
+        'hhb' => 'Перевернутый пополам',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => 'База Декстер Кантон',    // square_bottom_left
+        'br' => 'База Зловещий Кантон', // square_bottom_right
+        'tl' => 'Начальник Декстер Кантон',  // square_top_left
+        'tr' => 'Главный Злодей Кантон', // square_top_right
 
         // Triangles
-        'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
+        'bt' => 'Шеврон',           // triangle_bottom
+        'tt' => 'Перевернутый шеврон',  // triangle_top
         'bts' => 'Base Indented',   // triangles_bottom
         'tts' => 'Chief Indented',  // triangles_top
 

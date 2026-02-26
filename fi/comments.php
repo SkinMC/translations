@@ -39,6 +39,8 @@ return [
     'empty' => 'Ei kommentteja vielä',
     'empty-subtitle' => 'Ole ensimmäinen, joka jakaa mitä ajattelet!',
     'deleted' => 'Kommenttisi poistettiin onnistuneesti',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Tekijä',
-    'author-liked' => 'Julkaisun kirjoittajan tykkäämä'
+    'author-liked' => 'Julkaisun kirjoittajan tykkäämä',
 ];

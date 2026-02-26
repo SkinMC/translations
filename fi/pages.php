@@ -48,7 +48,7 @@ return [
         'servers_browse' => 'Selaa palvelimia',
         'servers' => 'Löydä parhaat Minecraft palvelimet',
         'servers_new_upcoming' => 'New & upcoming servers',
-        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are currently online.',
+        'servers_new_upcoming_browse' => 'Find fresh servers with smaller communities that are online and showing promising activity.',
         'servers_upcoming_players' => 'players',
         'servers_upcoming_badge' => 'New',
         'heads' => 'Minecraft päät',
@@ -1301,6 +1301,7 @@ return [
         'xp_to_next_level' => ':xp XP seuraavalle tasolle',
         'xp_info' => 'Mitä ovat XP?',
         'xp_info_tooltip' => 'XP:tä on ansaittu erilaisilla toiminnoilla, kuten lisäämällä tageja skineille, kutsumalla ystäviä, kommentoimalla ja paljon muuta. Jokaisella ansaitulla XP:llä voit tasoittaa ylös ja avata siistejä juttuja!',
+        'how_to_earn_xp' => 'How to earn XP',
         'table' => [
             'description' => 'Description',
             'points' => 'Points',
@@ -1308,6 +1309,7 @@ return [
         'my_stuff' => [
             'title' => 'My stuff',
             'creations' => 'Creations',
+            'heads' => 'Heads',
             'collections' => 'Collections',
             'favourites' => 'Favourites',
             'skins' => 'Manage skins',
@@ -1495,6 +1497,31 @@ return [
                 'description' => 'View and manage your skin creations.',
             ],
         ],
+        'heads' => [
+            'title' => 'My heads',
+            'pending_reason' => 'Pending reason',
+            'actions' => 'Head actions',
+            'delete' => 'Delete head',
+            'delete_confirm' => 'Delete this head? This action cannot be undone.',
+            'view_public' => 'View public page',
+            'view_head' => 'View head page',
+            'not_public' => 'Not publicly visible',
+            'blacklisted_section_title' => 'Removed heads',
+            'blacklisted_section_subtitle' => 'These heads were removed during review and can no longer be opened.',
+            'empty_title' => 'No heads yet',
+            'empty_subtitle' => 'Heads you submit will appear here with their moderation state.',
+            'empty_browse' => 'Browse heads',
+            'filters' => [
+                'all' => 'All',
+                'pending' => 'Pending',
+                'published' => 'Published',
+                'private' => 'Private',
+            ],
+            'meta' => [
+                'title' => 'My heads',
+                'description' => 'View the moderation state of your submitted custom heads.',
+            ],
+        ],
         'banners' => [
             'title' => 'Banners',
             'published' => 'Published',
@@ -1627,6 +1654,28 @@ return [
                 'version' => 'Kaikki Minecraft versiot',
             ],
         ],
+        'faq' => [
+            'title' => 'How head moderation works',
+            'content' => 'When you submit a head for public listing, it enters a review queue. Our team checks that it meets quality and content guidelines before it appears on the public pages. You can always view and manage your own submissions in your account.',
+            'items' => [
+                [
+                    'title' => 'Pending review',
+                    'content' => 'Heads marked as Pending are currently under review. This may take a little time, especially during busy periods. In some cases, a head may remain pending if it is very similar to an existing one or requires additional consideration. You can edit the details or withdraw it at any time.',
+                ],
+                [
+                    'title' => 'Published heads',
+                    'content' => 'Once approved, your head becomes publicly visible on SkinMC. It will appear in the main gallery and may also be featured in Best Heads if selected by our team.',
+                ],
+                [
+                    'title' => 'Private heads',
+                    'content' => 'Private heads are only visible to you. This may happen if a submission does not meet our public listing guidelines, or if you choose to keep it private. You are free to edit and resubmit it whenever you like.',
+                ],
+                [
+                    'title' => 'Removed heads',
+                    'content' => 'In rare cases, a head may be removed if it conflicts with our content policies. Removed heads are not visible on the site. If you believe a removal was made in error, please contact support.',
+                ],
+            ],
+        ],
     ],
     'mod' => [
         'title' => 'SkinMC Modi: Ilmaiset mukautetut viitat',
@@ -1688,6 +1737,7 @@ return [
     'feed' => [
         'title' => 'Syöte',
         'following' => 'Seurataan',
+        'activity' => 'Activity',
         'sign-up' => 'Rekisteröidy tai kirjaudu sisään liittyäksesi keskusteluun.',
         'link-account' => 'Yhdistä Minecraft-tilisi liittyäksesi keskusteluun.',
         'placeholder' => 'Mitä tapahtuu?',
@@ -1881,6 +1931,8 @@ return [
         'new_message' => 'Uusi viesti',
         'mark_unread' => 'Merkitse lukemattomaksi',
         'send_message' => 'Lähetä viesti',
+        'load_older_messages' => 'Load older messages',
+        'sending' => 'Sending',
         'delete_message' => 'Poista viesti sinulta',
         'latest_conversations' => 'Viimeisimmät keskustelut',
         'delete_conversation' => 'Poista keskustelu',
@@ -1899,6 +1951,26 @@ return [
         'external-link-confirmation' => 'Oletko varma, että haluat mennä sinne?',
         'external-link' => 'Ulkoinen linkki',
         'reply' => 'Vastaa',
+        'streak' => [
+            'label' => ':streak streak',
+            'inline' => [
+                'milestone_unlocked' => 'Congratulations! You unlocked :streak streak.',
+                'at_risk' => 'Streak at risk. Message each other today to keep it.',
+                'lost' => 'You lost your :streak streak.',
+            ],
+            'modal' => [
+                'view_badges' => 'View badges',
+                'status_active' => 'You have a streak going for :streak.',
+                'status_at_risk' => 'Your :streak streak is at risk today.',
+                'status_lost' => 'You lost your :streak streak.',
+                'status_none' => 'No streak yet.',
+                'status_hint_active' => 'Keep messaging each other daily to upgrade your badge.',
+                'status_hint_at_risk' => 'Message each other today to keep your streak alive.',
+                'status_hint_lost' => 'Message each other on consecutive days to start a new streak.',
+                'status_hint_none' => 'Message each other on consecutive days to unlock your first badge.',
+                'milestone_label' => ':streak',
+            ],
+        ],
     ],
     'server' => [
         'manage' => [
@@ -1979,5 +2051,8 @@ return [
             'collaborator_removed' => 'Collaborator removed',
             'left_board' => 'You left the board',
         ],
+    ],
+    'advertising' => [
+        'advertisement' => 'Advertisement',
     ],
 ];

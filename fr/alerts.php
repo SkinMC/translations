@@ -22,6 +22,10 @@ return [
             'title' => 'Répondre au commentaire :model',
             'text' => ':user a répondu à un commentaire de :model',
         ],
+        'mention' => [
+            'title' => 'Nouvelle mention',
+            'text' => ':user vous a mentionné dans un commentaire !',
+        ],
         'like' => [
             'title' => 'Commentaire aimé',
             'text' => ':user a aimé votre post !',
@@ -49,8 +53,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'Ajouté au tableau',
+            'text' => ':user vous a ajouté en tant que collaborateur au tableau ":board".',
         ],
     ],
     'report' => [
@@ -69,53 +73,60 @@ return [
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Nouvel avis sur :server',
+            'text' => 'Votre annonce ":server" a reçu un nouvel avis (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => 'Notation abandonnée pour le :server',
+            'text' => 'Votre note moyenne est maintenant de :rating/5 pour :reviews retours. Pensez à revoir vos commentaires dans Insights.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Étape de vote atteinte',
+            'text' => ':server a atteint :votes au cours des 30 derniers jours.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server a été approuvé',
+            'text' => 'Votre annonce a été approuvée et est maintenant éligible pour être publiée une fois que toutes les conditions seront remplies.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':server nécessite des mises à jour',
+            'text' => 'Votre annonce a été retirée du statut approuvé. Vérifiez les détails de votre annonce et mettez à jour si nécessaire.',
         ],
         'published' => [
-            'title' => ':server is now live',
-            'text' => 'Your listing is published and visible on the server list.',
+            'title' => ':server est maintenant en ligne',
+            'text' => 'Votre serveur est publié et visible sur la liste des serveurs.',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => ':server a été dépublié',
+            'text' => 'Votre serveur n\'est plus visible publiquement. Examinez son état dans votre tableau de bord.',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':server est maintenant vérifié',
+            'text' => 'Votre annonce a reçu un badge de vérification.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => 'Exigence de photo terminée pour :server',
+            'published_text' => 'Vous avez maintenant au moins 5 images et votre annonce est à nouveau en ligne.',
+            'pending_text' => 'Vous avez maintenant au moins 5 images. Votre annonce est prête à être vérifiée.',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => 'Ajouter plus de photos à :server',
+            'text' => 'Votre annonce a besoin de :remaining photo(s) de plus pour atteindre le minimum de :minimum et rester publiable.',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
+            'title' => 'Votre serveur n\'a toujours pas de photos',
             'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
             'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+        ],
+    ],
+    'streak' => [
+        'at_risk' => [
+            'title' => ':days-day streak at risk',
+            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
+            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
         ],
     ],
 ];

@@ -39,6 +39,8 @@ return [
     'empty' => 'אין תגובות כרגע',
     'empty-subtitle' => 'תהיה הראשון לשתף את מה שאתה חושב עליו!',
     'deleted' => 'התגובה שלך נמחקה בהצלחה',
+    'upload_error' => 'We could not process that image. Please upload a JPEG, PNG, or WebP image.',
+    'post_error' => 'We could not post your comment right now. Please try again.',
     'author' => 'Author',
-    'author-liked' => 'Liked by the post author'
+    'author-liked' => 'Liked by the post author',
 ];
