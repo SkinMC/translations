@@ -2059,4 +2059,10 @@ return [
     'advertising' => [
         'advertisement' => 'Advertisement',
     ],
+    'consent' => [
+        'youtube' => [
+            'enable' => 'Enable cookies to view this video',
+            'preview' => 'Preview',
+        ],
+    ],
 ];
