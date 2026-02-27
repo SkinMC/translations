@@ -18,23 +18,23 @@ return [
         'browse' => '浏览Minecraft模组、光影和资源包',
         'mod' => '浏览并发现最好的 Minecraft 模组',
         'shader' => '浏览并发现最好的 Minecraft 光影',
-        'resourcepack' => 'Browse and discover the best Minecraft resource packs',
-        'modpack' => 'Browse and discover the best Minecraft modpacks',
-        'datapack' => 'Browse and discover the best Minecraft data packs',
-        'plugin' => 'Browse and discover the best Minecraft server plugins',
+        'resourcepack' => '浏览并发现最好的 Minecraft 资源包',
+        'modpack' => '浏览并发现最好的 Minecraft 模组',
+        'datapack' => '浏览并发现最好的 Minecraft 数据包',
+        'plugin' => '浏览并发现最好的 Minecraft 服务器插件',
     ],
 
     'sort_label' => [
-        'downloads' => 'Most downloaded',
-        'newest' => 'Newest',
+        'downloads' => '最多下载',
+        'newest' => '最新',
         'updated' => '最近更新',
         'followers' => '最多关注',
     ],
-    'page_n' => 'Page :num',
+    'page_n' => '第 :num 页',
 
     // Page descriptions
     'description' => [
-        'browse' => 'Discover mods, shaders, and resource packs for Minecraft',
+        'browse' => '探索Minecraft的模组、光影和资源包',
         'mod' => 'Explore and discover the best mods to enhance your Minecraft experience',
         'shader' => 'Transform your Minecraft visuals with stunning shaders',
         'resourcepack' => 'Customise your Minecraft look with resource packs and textures',
