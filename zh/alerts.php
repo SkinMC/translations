@@ -23,12 +23,12 @@ return [
             'text' => ':user 回复了一个 :model 评论',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => '新提及我的',
+            'text' => ':user 在一个评论中提到了您！',
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'title' => '已赞评论',
+            'text' => ':user 赞了您的评论！',
         ],
     ],
     'post' => [
@@ -42,7 +42,7 @@ return [
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'text' => ':user 转发了您的帖子！',
         ],
     ],
     'level' => [
