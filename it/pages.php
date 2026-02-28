@@ -1935,8 +1935,8 @@ return [
         'new_message' => 'Nuovo messaggio',
         'mark_unread' => 'Segna come non letto',
         'send_message' => 'Invia messaggio',
-        'load_older_messages' => 'Load older messages',
-        'sending' => 'Sending',
+        'load_older_messages' => 'Carica i messaggi più vecchi',
+        'sending' => 'Invio in corso',
         'delete_message' => 'Elimina il messaggio per te',
         'latest_conversations' => 'Ultime conversazioni',
         'delete_conversation' => 'Elimina conversazione',
@@ -2057,12 +2057,12 @@ return [
         ],
     ],
     'advertising' => [
-        'advertisement' => 'Advertisement',
+        'advertisement' => 'Pubblicità',
     ],
     'consent' => [
         'youtube' => [
-            'enable' => 'Enable cookies to view this video',
-            'preview' => 'Preview',
+            'enable' => 'Abilita i cookie per visualizzare questo video',
+            'preview' => 'Anteprima',
         ],
     ],
 ];
