@@ -115,18 +115,18 @@ return [
         ],
         'reminder_no_images' => [
             'title' => 'Votre serveur n\'a toujours pas de photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Ajoutez au moins 5 photos pour améliorer la crédibilité de votre serveur et rendre votre annonce publique.',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'title' => 'Votre annonce est toujours en attente de révision',
+            'text' => 'Votre annonce est en attente depuis un certain temps. Vérifier les détails et les photos pour aider la revue de votre serveur.',
         ],
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => 'Série de :days jours à risque',
+            'text_send_now' => 'Envoyez un message avant minuit UTC pour garder votre série en vie.',
+            'text_waiting_other' => 'Vous avez répondu aujourd\'hui. Vous avez encore besoin d\'une réponse avant minuit UTC.',
         ],
     ],
 ];
