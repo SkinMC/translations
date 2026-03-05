@@ -45,6 +45,12 @@ return [
             'text' => ':user 转发了您的帖子！',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => '你升级了!',
