@@ -45,6 +45,12 @@ return [
             'text' => ':user: újraposztolta a posztod!',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Szintet léptél!',
