@@ -45,6 +45,12 @@ return [
             'text' => ':user a reposté votre post !',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Vous êtes passé au niveau supérieur !',
