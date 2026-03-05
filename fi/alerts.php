@@ -45,6 +45,12 @@ return [
             'text' => ':user uudelleenjulkaisi julkaisusi!',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Olet noussut seuraavalle tasolle!',
