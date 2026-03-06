@@ -77,6 +77,12 @@ return [
             'text' => '신고 하신 내용을 검토 해 보았으나 별 다른 문제를 발견하지 못했습니다. 또 다른 문제를 발견하신다면 제보 부탁드립니다. 커뮤니티에 관심을 가져주셔 감사드립니다.',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
