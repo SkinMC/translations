@@ -77,6 +77,12 @@ return [
             'text' => 'Dopo qualche indagine, abbiamo scoperto che il contenuto che hai segnalato non va contro le nostre linee guida. Se vuoi farci visionare qualcosa di specifico, assicurati di segnalare la skin, il profilo, ecc, e di fornire un contesto aggiuntivo quando necessario. Grazie per la tua sollecitazione e il tuo aiuto alla nostra comunità!',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'Nuova recensione su :server',
