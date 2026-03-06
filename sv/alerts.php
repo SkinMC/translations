@@ -77,6 +77,12 @@ return [
             'text' => 'Efter lite detektivarbete har vi upptäckt att innehållet som du anmälde inte går mot våra riktlinjer. Om du vill att vi ska granska något specifikt kan du anmäla utseendet, profilen etc och ger oss ytterligare kontext när det behövs. Tack för din involvering och oro i våran community!',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
