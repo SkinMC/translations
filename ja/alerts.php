@@ -77,6 +77,12 @@ return [
             'text' => 'いくつかの調査の結果、ご報告いただいた内容はガイドラインに反していないことがわかりました。具体的な内容を確認してほしい場合は、必ずスキンやプロフィールなどを報告してください。私たちのコミュニティへの関心と参加に感謝します！',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
