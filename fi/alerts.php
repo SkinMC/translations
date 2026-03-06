@@ -77,6 +77,12 @@ return [
             'text' => 'Tutkimustyön jälkeen olemme havainneet, että ilmoittamasi sisältö ei ole ohjeidemme vastaista. Jos haluat, että tarkistamme jotain tiettyä asiaa, varmista, että ilmoitat skinin, profiilin jne. ja annat tarvittaessa lisätietoja. Kiitos huolenpidostasi ja osallistumisestasi yhteisöömme!',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
