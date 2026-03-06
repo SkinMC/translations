@@ -77,6 +77,12 @@ return [
             'text' => 'Biraz araştırma yaptıktan sonra, bildirdiğiniz içeriğin kurallarımıza aykırı olmadığını tespit ettik. Belirli bir şeyi incelememizi istiyorsanız, lütfen skin, profil vb. bilgileri bildirip gerektiğinde ek bilgiler de ekleyin. İlginiz ve topluluğumuza katılımınız için teşekkür ederiz!',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
