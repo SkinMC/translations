@@ -77,6 +77,12 @@ return [
             'text' => 'Egy kis kutatómunka után megtaláltuk hogy a probléma amit bejelentettél nem megy szembe a szabályainkkal. Ha szeretnéd hogy valami specifikusba nézzünk bele, kérlek bizonyosodj meg róla hogy a skin-t, profilt, stb. amikor bejelented, írj mellé részletesebb információt ha kell. Köszönjük hogy érdekel hogy mi történik a közösségünkben!',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
