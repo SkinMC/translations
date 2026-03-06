@@ -77,6 +77,12 @@ return [
             'text' => 'بعد بعض أعمال التحقق، وجدنا أن المحتوى الذي أبلغت عنه لا يتعارض مع المبادئ التوجيهية الخاصة بنا. إذا كنت تريد منا مراجعة شيء محدد، يرجى التأكد من أنك تبلغ عن سكن، الملف الشخصي، إلخ، وتوفير كلام إضافي عند الحاجة. شكرا على اهتمامك ومشاركتك في مجتمعنا!',
         ],
     ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
