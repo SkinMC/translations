@@ -45,6 +45,12 @@ return [
             'text' => ':user reposted your post!',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => '¡Has subido de nivel!',
@@ -69,6 +75,12 @@ return [
         'dismissed' => [
             'title' => 'Update to your report (Case :id)',
             'text' => 'Después de un trabajo de detective, hemos encontrado que el contenido que usted había reportado no va en contra de nuestras directrices. Si desea que revisemos algo específico, por favor asegúrese de que reporta la skin, el perfil, etc, y proporcione un contexto adicional cuando sea necesario. ¡Gracias por su preocupación y participación en nuestra comunidad!',
+        ],
+    ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [

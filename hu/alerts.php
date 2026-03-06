@@ -45,6 +45,12 @@ return [
             'text' => ':user: újraposztolta a posztod!',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Szintet léptél!',
@@ -69,6 +75,12 @@ return [
         'dismissed' => [
             'title' => 'Az ügyed frissítve lett (Ügy :id)',
             'text' => 'Egy kis kutatómunka után megtaláltuk hogy a probléma amit bejelentettél nem megy szembe a szabályainkkal. Ha szeretnéd hogy valami specifikusba nézzünk bele, kérlek bizonyosodj meg róla hogy a skin-t, profilt, stb. amikor bejelented, írj mellé részletesebb információt ha kell. Köszönjük hogy érdekel hogy mi történik a közösségünkben!',
+        ],
+    ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [

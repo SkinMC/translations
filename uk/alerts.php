@@ -45,6 +45,12 @@ return [
             'text' => ':user reposted your post!',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Ви підвищили свій рівень!',
@@ -69,6 +75,12 @@ return [
         'dismissed' => [
             'title' => 'Оновлення до вашої скарги (Регістр :id)',
             'text' => 'Провівши розслідування, ми з’ясували, що вміст, про який ви повідомили, не суперечить нашим правилам. Якщо бажаєте, щоб ми перевірили щось конкретне, будь ласка, обов’язково вказуйте скін, профіль тощо, а також надайте додатковий контекст, якщо це необхідно. Дякуємо за вашу турботу та участь у нашій спільноті!',
+        ],
+    ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [

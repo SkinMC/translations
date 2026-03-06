@@ -1596,6 +1596,48 @@ return [
             'open' => 'Open notification settings',
             'save' => 'Save',
             'saved' => 'Notification settings updated.',
+            'push' => [
+                'title' => 'Push notifications',
+                'description' => 'Get high-priority alerts on this device when you are away from SkinMC.',
+                'toggle' => 'Enable push notifications',
+                'device_title' => 'This device',
+                'enable_device' => 'Enable on this device',
+                'disable_device' => 'Disable on this device',
+                'device_status_unknown' => 'Checking push state for this device…',
+                'device_status_unsupported' => 'Push notifications are not supported on this browser.',
+                'device_status_missing_key' => 'Push notifications are temporarily unavailable.',
+                'device_status_subscribed' => 'Push is enabled for this device.',
+                'device_status_not_subscribed' => 'Push is not enabled on this device yet.',
+                'device_status_permission_denied' => 'Push permission is blocked. Please enable notifications in your browser settings.',
+                'device_status_error' => 'Could not update push notifications on this device.',
+                'types_title' => 'Push notification types',
+                'types' => [
+                    'reply' => [
+                        'title' => 'Comment replies',
+                        'description' => 'When someone replies to your comment.',
+                    ],
+                    'mention' => [
+                        'title' => 'Mentions',
+                        'description' => 'When someone mentions you in a comment or post.',
+                    ],
+                    'follow' => [
+                        'title' => 'New followers',
+                        'description' => 'When someone starts following your profile.',
+                    ],
+                    'repost' => [
+                        'title' => 'Reposts',
+                        'description' => 'When someone reposts your feed post.',
+                    ],
+                    'message' => [
+                        'title' => 'New messages',
+                        'description' => 'When you receive a new direct message.',
+                    ],
+                    'server_owner' => [
+                        'title' => 'Server owner alerts',
+                        'description' => 'When your server receives moderation, quality, or listing-status alerts.',
+                    ],
+                ],
+            ],
             'server_owner_alerts' => [
                 'title' => 'Server owner alerts',
                 'description' => 'Receive reminders and listing insights to help keep your server visible and up to date.',

@@ -45,6 +45,12 @@ return [
             'text' => ':user uudelleenjulkaisi julkaisusi!',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Olet noussut seuraavalle tasolle!',
@@ -69,6 +75,12 @@ return [
         'dismissed' => [
             'title' => 'Pävitys raporttiisi! (Tapaus :id)',
             'text' => 'Tutkimustyön jälkeen olemme havainneet, että ilmoittamasi sisältö ei ole ohjeidemme vastaista. Jos haluat, että tarkistamme jotain tiettyä asiaa, varmista, että ilmoitat skinin, profiilin jne. ja annat tarvittaessa lisätietoja. Kiitos huolenpidostasi ja osallistumisestasi yhteisöömme!',
+        ],
+    ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [

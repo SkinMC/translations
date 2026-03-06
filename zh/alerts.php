@@ -45,6 +45,12 @@ return [
             'text' => ':user 转发了您的帖子！',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => '你升级了!',
@@ -69,6 +75,12 @@ return [
         'dismissed' => [
             'title' => '更新您的举报 (案件 :id)',
             'text' => '在一些侦测工作之后，我们发现您报告的内容不符合我们的准则。 如果你想要我们审查某些具体内容，请确保你报告皮肤、个人资料等，并且在需要时提供额外的上下文信息。 感谢你对我们社区的关心和参与！',
+        ],
+    ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [

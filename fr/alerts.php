@@ -45,6 +45,12 @@ return [
             'text' => ':user a reposté votre post !',
         ],
     ],
+    'chat' => [
+        'new_message' => [
+            'title' => 'New message',
+            'text' => ':user sent you a message.',
+        ],
+    ],
     'level' => [
         'up' => [
             'title' => 'Vous êtes passé au niveau supérieur !',
@@ -69,6 +75,12 @@ return [
         'dismissed' => [
             'title' => 'Mise à jour de votre signalement (Case :id)',
             'text' => 'Après un travail de détection, nous avons découvert que le contenu que vous avez signalé ne va pas à l\'encontre de nos lignes directrices. Si vous voulez que nous examinions quelque chose de spécifique, assurez-vous de signaler le skin, le profil, etc, et de fournir un contexte supplémentaire lorsque nécessaire. Merci pour votre préoccupation et votre implication dans notre communauté!',
+        ],
+    ],
+    'system' => [
+        'discord_invite' => [
+            'title' => 'Join the discord',
+            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [

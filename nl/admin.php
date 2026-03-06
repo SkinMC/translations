@@ -54,7 +54,7 @@ return [
         'subtitle' => ':count aantal reacties geplaatst',
         'deleted' => [
             'title' => 'Verwijderde opmerkingen',
-            'subtitle' => ':count aantal reacties verwijderd',
+            'subtitle' => ':count aantal verwijderde reacties',
         ]
     ]
 ];
