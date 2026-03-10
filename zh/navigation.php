@@ -19,6 +19,7 @@ return [
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
     'profile' => '个人资料',
+    'wallpapers' => 'Wallpapers',
 
     'generators' => '生成器',
 
