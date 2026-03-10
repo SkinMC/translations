@@ -19,6 +19,7 @@ return [
     'banner' => 'Éditeur de bannière',
     'banner_gallery' => 'Galerie de bannières',
     'profile' => 'Mon profil',
+    'wallpapers' => 'Wallpapers',
 
     'generators' => 'Générateur',
 
