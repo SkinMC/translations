@@ -134,6 +134,12 @@ return [
             'text' => 'Dein Eintrag wird schon eine Weile geprüft. Ein kurzer Check von Details und Fotos kann helfen, den Prozess reibungslos zu halten.',
         ],
     ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Wallpaper challenge winner',
+            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+        ],
+    ],
     'streak' => [
         'at_risk' => [
             'title' => ':days-Tage-Streak in Gefahr',
