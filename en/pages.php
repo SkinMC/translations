@@ -714,7 +714,7 @@ return [
             'drag_or_click' => 'Drag and drop or click to choose',
             'choose_desktop_image' => 'Choose desktop image',
             'choose_mobile_image' => 'Choose mobile image',
-            'desktop_hint' => 'Landscape only, at least 2560x1440, up to :max_mb MB.',
+            'desktop_hint' => 'Landscape only, at least 1920x1080, up to :max_mb MB.',
             'mobile_hint' => 'Portrait only, at least 1080x1920, up to :max_mb MB.',
             'replace' => 'Replace',
             'clear' => 'Clear',
