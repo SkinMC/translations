@@ -20,6 +20,8 @@ return [
         'sign_up' => 'SkinMC에 오신 걸 환영해요.',
         'invite_friend' => '친구 초대하기',
         'invited_friend' => '친구에게 초대 받기',
+        'wallpaper_create' => 'Submitted a wallpaper',
+        'wallpaper_approved' => 'Wallpaper was approved',
         'chat_streak_milestone_3' => 'Unlocked a 3-day chat streak',
         'chat_streak_milestone_10' => 'Unlocked a 10-day chat streak',
         'chat_streak_milestone_30' => 'Unlocked a 30-day chat streak',
