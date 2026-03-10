@@ -134,6 +134,12 @@ return [
             'text' => 'Votre annonce est en attente depuis un certain temps. Vérifier les détails et les photos pour aider la revue de votre serveur.',
         ],
     ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Wallpaper challenge winner',
+            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+        ],
+    ],
     'streak' => [
         'at_risk' => [
             'title' => 'Série de :days jours à risque',
