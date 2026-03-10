@@ -19,6 +19,7 @@ return [
     'banner' => 'Zászló szerkesztő',
     'banner_gallery' => 'Zászéó galéria',
     'profile' => 'Profilom',
+    'wallpapers' => 'Wallpapers',
 
     'generators' => 'Késíztők',
 
