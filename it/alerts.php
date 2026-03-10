@@ -134,6 +134,12 @@ return [
             'text' => 'La tua inserzione è in sospeso da un po\'. I dettagli e le foto del doppio controllo aiutano a mantenere la revisione scorrevole.',
         ],
     ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Wallpaper challenge winner',
+            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+        ],
+    ],
     'streak' => [
         'at_risk' => [
             'title' => ':days-giorni di streak a rischio',
