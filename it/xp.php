@@ -20,6 +20,8 @@ return [
         'sign_up' => 'Benvenuto su SkinMC.',
         'invite_friend' => 'Invita un amico',
         'invited_friend' => 'Invitato da un amico',
+        'wallpaper_create' => 'Submitted a wallpaper',
+        'wallpaper_approved' => 'Wallpaper was approved',
         'chat_streak_milestone_3' => 'Sbloccato una streak in chat di 3 giorni',
         'chat_streak_milestone_10' => 'Sbloccato una streak in chat di 10 giorni',
         'chat_streak_milestone_30' => 'Sbloccato una streak in chat di 30 giorni',
