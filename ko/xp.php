@@ -25,6 +25,7 @@ return [
         'chat_streak_milestone_30' => 'Unlocked a 30-day chat streak',
         'chat_streak_milestone_100' => 'Unlocked a 100-day chat streak',
         'chat_streak_milestone_200' => 'Unlocked a 200-day chat streak',
+        'wallpaper_challenge_winner' => 'Won the monthly wallpaper challenge',
     ],
     'empty' => '여길 보려면 경험치를 더 모아 오세요.',
 ];
