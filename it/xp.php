@@ -25,6 +25,7 @@ return [
         'chat_streak_milestone_30' => 'Sbloccato una streak in chat di 30 giorni',
         'chat_streak_milestone_100' => 'Sbloccato una streak in chat di 100 giorni',
         'chat_streak_milestone_200' => 'Sbloccato una streak in chat di 200 giorni',
+        'wallpaper_challenge_winner' => 'Won the monthly wallpaper challenge',
     ],
     'empty' => 'Guadagna un po\' di XP per vederlo qui.',
 ];
