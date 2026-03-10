@@ -715,7 +715,7 @@ return [
             'choose_desktop_image' => 'Choose desktop image',
             'choose_mobile_image' => 'Choose mobile image',
             'desktop_hint' => 'Landscape only, at least 1920x1080, up to :max_mb MB.',
-            'mobile_hint' => 'Portrait only, at least 1080x1920, up to :max_mb MB.',
+            'mobile_hint' => 'Portrait only, at least 720x1280, ideally 1080x1920, up to :max_mb MB.',
             'replace' => 'Replace',
             'clear' => 'Clear',
             'crop' => 'Crop',
