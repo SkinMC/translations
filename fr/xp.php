@@ -25,6 +25,7 @@ return [
         'chat_streak_milestone_30' => 'Série de 30 jours débloquée',
         'chat_streak_milestone_100' => 'Série de 100 jours débloquée',
         'chat_streak_milestone_200' => 'Série de 200 jours débloquée',
+        'wallpaper_challenge_winner' => 'Won the monthly wallpaper challenge',
     ],
     'empty' => 'Gagnez de l\'XP pour en voir ici.',
 ];
