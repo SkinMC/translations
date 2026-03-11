@@ -1161,6 +1161,7 @@ return [
             'title' => 'Minecraft 망토',
             'subtitle' => 'Minecraft의 공식 망토예요. 망토는 기념품이고 플레이어 스킨과 함께 착용돼요. 겉날개를 착용했을 때의 모습을 변경할 수도 있어요.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
