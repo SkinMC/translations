@@ -1164,6 +1164,7 @@ return [
             'title' => 'Майнкрафт плащи',
             'subtitle' => 'Официальные плащи Minecraft. Плащи — это памятные предметы, которые находятся в дополнение к скину игрока. Они также могут изменить внешний вид при появлении элитр.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
