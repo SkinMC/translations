@@ -1164,6 +1164,7 @@ return [
             'title' => 'Capas de Minecraft',
             'subtitle' => 'Capas oficiales de Minecraft. Las capas son objetos conmemorativos y se llevan como complemento de la apariencia del jugador. También pueden cambiar la apariencia cuando se usa un elytra.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
