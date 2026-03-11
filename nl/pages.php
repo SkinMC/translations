@@ -1164,6 +1164,7 @@ return [
             'title' => 'Minecraft capes',
             'subtitle' => 'Officiële capes van Minecraft zijn herdenkingsvoorwerpen en worden gedragen als aanvulling op de spelers skin. Ze kunnen ook het uiterlijk veranderen als een elytra wordt gedragen.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
