@@ -1164,6 +1164,7 @@ return [
             'title' => 'Minecraft capes',
             'subtitle' => 'Official capes of Minecraft. Capes are commemorative items and are worn as addition to the player skin. They can also change the appearance when an elytra is worn.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
