@@ -1164,6 +1164,7 @@ return [
             'title' => 'Minecraft-köpenyek',
             'subtitle' => 'A Minecraftban elérhető hivatalos köpenyek listája. Minden köpeny díszítő célt szolgál és az alap kinézetet egészíti ki. Ha a köpenyt viselő játékos kitinszárnyat vesz fel, a köpenye is megváltozik.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
