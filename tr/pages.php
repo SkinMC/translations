@@ -1164,6 +1164,7 @@ return [
             'title' => 'Minecraft pelerinleri',
             'subtitle' => 'Official capes of Minecraft',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
