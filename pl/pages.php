@@ -1164,6 +1164,7 @@ return [
             'title' => 'Pelerynki Minecraft',
             'subtitle' => 'Oficjalne pelerynki gry Minecraft. Pelerynki są przedmiotami pamiątkowymi i są noszone jako dodatek do skórki gracza. Mogą również zmienić wygląd po założeniu elytry.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
