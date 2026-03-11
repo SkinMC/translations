@@ -1165,6 +1165,7 @@ return [
             'title' => 'Mantelli di Minecraft',
             'subtitle' => 'Mantelli ufficiali di Minecraft. I mantelli sono oggetti commemorativi e vengono indossati come aggiunta alla skin del giocatore. Possono anche cambiare l\'aspetto quando viene indossato un elytra.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
