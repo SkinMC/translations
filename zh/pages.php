@@ -1165,6 +1165,7 @@ return [
             'title' => 'Minecraft披风',
             'subtitle' => 'Minecraft官方斗篷。斗篷是一种纪念物品，除了作为玩家的皮肤外，还可以佩戴。当戴上鞘翅时，它们也可以改变外观。',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
