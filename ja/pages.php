@@ -1164,6 +1164,7 @@ return [
             'title' => 'MinecraftのCapes',
             'subtitle' => 'Minecraft の公式ケープ',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
