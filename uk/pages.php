@@ -1164,6 +1164,7 @@ return [
             'title' => 'Плащі Minecraft',
             'subtitle' => 'Офіційні плащі Minecraft. Плащі є пам’ятними предметами та носяться як доповнення до скіна гравця. Вони також можуть змінювати зовнішній вигляд при носінні надкрил.',
             'sort_downloads' => 'Most downloads',
+            'sort_profiles' => 'Most used capes',
             'type_filter_aria' => 'Cape type filter',
             'sort_aria' => 'Sort capes',
             'empty_title' => 'No capes found',
