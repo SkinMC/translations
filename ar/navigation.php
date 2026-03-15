@@ -19,6 +19,7 @@ return [
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
     'profile' => 'ملفي الشخصي',
+    'wallpapers' => 'Wallpapers',
 
     'generators' => 'Generators',
 

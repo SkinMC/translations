@@ -134,6 +134,12 @@ return [
             'text' => 'Ваше объявление находится в ожидании уже некоторое время. Проверьте еще раз детали и фотографии, чтобы процесс проверки прошел гладко.',
         ],
     ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Wallpaper challenge winner',
+            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+        ],
+    ],
     'streak' => [
         'at_risk' => [
             'title' => ':days-day серия под угрозой',
