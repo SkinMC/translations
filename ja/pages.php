@@ -2309,6 +2309,12 @@ return [
         'everyone-info' => 'SkinMCにいる人、いない人。',
         'followers' => 'フォロワー',
         'followers-info' => 'サインインまたはフォローしているメンバー。',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => '自分だけ',
         'private-info' => 'プライベート投稿のみが表示されます。',
         'submit' => '投稿',
