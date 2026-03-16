@@ -2309,6 +2309,12 @@ return [
         'everyone-info' => 'A SkinMC-n és azon kívül bárki.',
         'followers' => 'Követők',
         'followers-info' => 'Csak azok, akik be vannak jelentkezve és követnek téged.',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => 'Csak én',
         'private-info' => 'Privát bejegyzés, amit csak te láthatsz.',
         'submit' => 'Küldés',
