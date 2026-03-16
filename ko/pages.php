@@ -2307,6 +2307,12 @@ return [
         'everyone-info' => 'SkinMC에 있는 누구나',
         'followers' => '팔로워',
         'followers-info' => '로그인했거나 나를 팔로우하는 사람만',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => '나만',
         'private-info' => '나 자신만 볼 수 있는 비공개 게시물',
         'submit' => '게시물',
