@@ -2310,6 +2310,12 @@ return [
         'everyone-info' => '无论是否在 SkinMC 上，任何人都可以。',
         'followers' => '粉丝',
         'followers-info' => '登入或关注我的人。',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => '只有我',
         'private-info' => '只有我可以看到私人帖子。',
         'submit' => '帖子',
