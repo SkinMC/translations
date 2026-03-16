@@ -2309,6 +2309,12 @@ return [
         'everyone-info' => 'Любой человек на или вне SkinMC.',
         'followers' => 'Подписчики',
         'followers-info' => 'Зашедшие или подписанные на меня.',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => 'Только я',
         'private-info' => 'Приватная запись видна только мне.',
         'submit' => 'Опубликовать',
