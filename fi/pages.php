@@ -2309,6 +2309,12 @@ return [
         'everyone-info' => 'Kuka tahansa SkinMC:n tai sen ulkopuolella.',
         'followers' => 'Seuraajat',
         'followers-info' => 'Sisään kirjautunut tai jäsenet, jotka seuraa minua.',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => 'Vain minä',
         'private-info' => 'Yksityinen julkaisu, vain minä näen.',
         'submit' => 'Julkaise',
