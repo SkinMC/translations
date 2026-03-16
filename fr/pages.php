@@ -2309,6 +2309,12 @@ return [
         'everyone-info' => 'N\'importe qui sur ou hors SkinMC.',
         'followers' => 'Abonnés',
         'followers-info' => 'Connecté ou des membres qui me suivent.',
+        'followers_only' => [
+            'badge' => 'Followers-only post',
+            'title' => 'Only followers can view this post.',
+            'description' => 'Follow :username to view the post.',
+            'description_guest' => 'Sign in and follow :username to view the post.',
+        ],
         'private' => 'Seulement moi',
         'private-info' => 'Publication privée que je peux voir.',
         'submit' => 'Poster',
