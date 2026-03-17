@@ -6,7 +6,7 @@ return [
         'email' => 'Correo electrónico',
         'password' => 'Contraseña',
         'button' => 'Iniciar sesión',
-        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
+        'editor_save_context' => "Inicia sesión para guardar tu aspecto en la galería. Tu progreso no se perderá.",
         'forgot' => '¿Olvidó su contraseña?',
         'reset' => 'Restablecer',
         'register' => '¿Aún no tiene una cuenta?',
@@ -22,7 +22,7 @@ return [
         'existing' => '¿Ya tienes una cuenta?',
         'button' => 'Aceptar y continuar',
         'terms_by_selecting' => 'Al seleccionar',
-        'terms_agree_to' => ', I agree to SkinMC\'s',
+        'terms_agree_to' => ', estoy de acuerdo con SkinMC',
         'terms_acknowledge' => 'y reconozco el',
     ],
     'recover' => [
@@ -43,7 +43,7 @@ return [
     ],
     'language' => [
         'title' => 'Idioma',
-        'description' => 'Seleccione su idioma',
+        'description' => 'Selecciona tu idioma',
         'contribute' => 'Contribuir',
         'contribute_add' => 'Agregar traducción',
         'updated' => 'Se ha establecido tu idioma',
