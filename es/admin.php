@@ -50,7 +50,7 @@ return [
         'subtitle' => ':count total de publicaciones creadas',
     ],
     'wallpapers' => [
-        'title' => 'Wallpapers',
+        'title' => 'Fondos de Pantalla',
         'challenge' => [
             'title' => 'Wallpaper challenge',
             'description' => 'Select the winner for :challenge_month. The selected wallpaper will be featured on the homepage in :display_month.',
