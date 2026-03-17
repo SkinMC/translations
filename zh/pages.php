@@ -2367,6 +2367,7 @@ return [
             'success' => '已转发！',
             'removed' => '转发已删除。',
             'already_reposted' => '您已经转发了这个内容。',
+            'not_available' => 'This post is not available to repost.',
             'undo' => '取消转发',
             'original_deleted' => '原帖已被删除。',
             'deleted_post' => '这则帖文已被删除',
