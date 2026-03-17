@@ -2366,6 +2366,7 @@ return [
             'success' => 'Uudelleenjulkaistu!',
             'removed' => 'Uudelleenjulkaisu poistettu.',
             'already_reposted' => 'Olet jo uudelleenjulkaissut tämän.',
+            'not_available' => 'This post is not available to repost.',
             'undo' => 'Kumoa uudelleenjulkaisu',
             'original_deleted' => 'Alkuperäinen julkaisu on poistettu.',
             'deleted_post' => 'Tämä julkaisu on poistettu',
