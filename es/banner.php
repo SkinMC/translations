@@ -2,27 +2,27 @@
 
 return [
     'colors' => [
-        'black' => 'negro',
-        'red' => 'rojo',
-        'green' => 'verde',
-        'brown' => 'marrón',
-        'blue' => 'azul',
-        'purple' => 'morado',
-        'cyan' => 'cian',
-        'gray' => 'gris',
-        'dark_gray' => 'gris oscuro',
-        'pink' => 'rosa',
-        'lime' => 'verde lima',
-        'yellow' => 'amarillo',
-        'light_blue' => 'azul claro',
-        'magenta' => 'magenta',
-        'orange' => 'naranja',
-        'white' => 'blanco',
+        'black' => 'Negro',
+        'red' => 'Rojo',
+        'green' => 'Verde',
+        'brown' => 'Marrón',
+        'blue' => 'Azul',
+        'purple' => 'Morado',
+        'cyan' => 'Cian',
+        'gray' => 'Gris',
+        'dark_gray' => 'Gris Oscuro',
+        'pink' => 'Rosa',
+        'lime' => 'Lima',
+        'yellow' => 'Amarillo',
+        'light_blue' => 'Azul claro',
+        'magenta' => 'Magenta',
+        'orange' => 'Naranja',
+        'white' => 'Blanco',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Paño completamente :color',
+        'base' => 'Estandarte totalmente :color',
 
         // Stripes
         'bs' => 'Campaña',           // stripe_bottom
