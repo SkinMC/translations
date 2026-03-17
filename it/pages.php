@@ -30,7 +30,7 @@ return [
         'collections_detail' => 'Skin di Minecraft adatte per ogni occasione',
         'creations_title' => 'Creazioni di Skin',
         'creations_description' => 'Sfoglia e carica creazioni di skin personalizzate di Minecraft.',
-        'wallpapers_title' => 'Wallpapers',
+        'wallpapers_title' => 'Sfondi',
         'wallpapers_description' => 'Discover desktop and mobile Minecraft wallpaper pairs from the community.',
         'hero_challenge_credit' => ':title by :username',
         'hero_challenge_winner' => 'Wallpaper challenge winner for :month',
