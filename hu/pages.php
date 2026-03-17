@@ -2366,6 +2366,7 @@ return [
             'success' => 'Újraposztolva!',
             'removed' => 'Újraposztolás visszavonva.',
             'already_reposted' => 'Már újraposztoltad.',
+            'not_available' => 'This post is not available to repost.',
             'undo' => 'Újraposztolás visszavonása',
             'original_deleted' => 'Az eredeti posztot már törölték.',
             'deleted_post' => 'Ezt a posztot mér törölték',
