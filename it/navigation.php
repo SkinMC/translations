@@ -19,7 +19,7 @@ return [
     'banner' => 'Editor Di Banner',
     'banner_gallery' => 'Galleria Stendardi',
     'profile' => 'Profilo personale',
-    'wallpapers' => 'Wallpapers',
+    'wallpapers' => 'Sfondi',
 
     'generators' => 'Generatori',
 
