@@ -2370,6 +2370,7 @@ return [
             'success' => 'Ripubblicato!',
             'removed' => 'Repost rimosso.',
             'already_reposted' => 'Hai già ripubblicato questo.',
+            'not_available' => 'This post is not available to repost.',
             'undo' => 'Annulla il repost',
             'original_deleted' => 'Il post originale è stato eliminato.',
             'deleted_post' => 'Questo post è stato eliminato',
