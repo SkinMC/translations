@@ -2366,6 +2366,7 @@ return [
             'success' => 'Repostet!',
             'removed' => 'Repost entfernt.',
             'already_reposted' => 'Du hast dies bereits repostet.',
+            'not_available' => 'This post is not available to repost.',
             'undo' => 'Repost rückgängig machen',
             'original_deleted' => 'Der ursprüngliche Post wurde gelöscht.',
             'deleted_post' => 'Dieser Post wurde gelöscht',
