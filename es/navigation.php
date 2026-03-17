@@ -2,12 +2,12 @@
 
 return [
     'skins' => 'Aspectos',
-    'skins_profile' => 'Profile skins',
-    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
-    'creations' => 'Creations',
-    'creations_subtitle' => 'Skins shared by the community',
-    'skin_upload_subtitle' => 'Add your creation',
-    'skin_tags' => 'Tagged',
+    'skins_profile' => 'Aspectos de perfiles',
+    'skins_profile_subtitle' => 'Diseños de perfiles de Minecraft',
+    'creations' => 'Creaciones',
+    'creations_subtitle' => 'Aspectos compartidos por la comunidad',
+    'skin_upload_subtitle' => 'Añade tu creación',
+    'skin_tags' => 'Etiquetas',
     'avatars' => 'Avatares',
     'editor' => 'Editor',
     'heads' => 'Cabezas',
@@ -16,21 +16,21 @@ return [
     'achievement' => 'Logros',
     'armor' => 'Soporte para armadura',
     'banners' => 'Estandartes',
-    'banner' => 'Banner Editor',
-    'banner_gallery' => 'Banner Gallery',
+    'banner' => 'Editor de Estandartes',
+    'banner_gallery' => 'Galería de Estandartes',
     'profile' => 'Mi perfil',
-    'wallpapers' => 'Wallpapers',
+    'wallpapers' => 'Fondos de pantalla',
 
     'generators' => 'Generadores',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
-    'discover' => 'Discover',
+    'feed' => 'Inicio',
+    'discover' => 'Descubrir',
     'mods' => 'Mods',
     'shaders' => 'Shaders',
-    'resource_packs' => 'Resource Packs',
+    'resource_packs' => 'Paquete de recursos',
     'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
+    'datapacks' => 'Datapacks',
     'plugins' => 'Plugins',
 
     'logout' => 'Cerrar sesión',
@@ -58,7 +58,7 @@ return [
     'edit_skin' => 'Editar aspecto',
     'make_avatar' => 'Crear avatar',
     'find_heads' => 'Buscar cabezas de jugador',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'no_results_found' => 'Aún no hay sugerencias. Pulsa Enter para buscarlo.',
 
     'home' => 'Inicio',
     'help' => 'Ayuda',
@@ -78,11 +78,11 @@ return [
     'app' => 'Aplicación',
     'mod' => 'Mod',
     'totem' => 'Totems',
-    'cube' => 'Cube',
-    'new' => 'New',
+    'cube' => 'Cubo',
+    'new' => 'Nuevo',
 
-    'boards' => 'Boards',
-    'boards_subtitle' => 'Your saved collections',
+    'boards' => 'Tablones',
+    'boards_subtitle' => 'Tus colecciones guardadas',
 
     'feedback' => 'Opiniones',
     'status' => 'Estado',
@@ -94,20 +94,20 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
-        'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'profile' => 'Perfil',
+        'server' => 'Servidor',
+        'project' => 'Proyecto',
+        'skin_tag' => 'Etiqueta de aspecto',
+        'server_category' => 'Categoría del servidor',
+        'modrinth_category' => 'Categoría del proyecto',
     ],
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'Tema',
         'dark' => 'Oscuro',
         'light' => 'Claro',
-        'auto' => 'Auto',
+        'auto' => 'Automático',
     ],
 
-    'language' => 'Language',
+    'language' => 'Idioma',
 ];
