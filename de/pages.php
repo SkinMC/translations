@@ -2433,8 +2433,13 @@ return [
                 'title_generated' => 'Metadata generated',
                 'ready' => 'Ready',
             ],
-            'duration_limit' => 'Maximum video duration: :seconds seconds.',
-            'too_large' => 'Your video exceeds :size',
+            'errors' => [
+                'unsupported' => 'Please choose an MP4, MOV, WebM, or M4V video.',
+                'too_large' => 'Please choose a video up to :size.',
+                'too_large_server' => 'This server currently accepts videos up to :size. Please choose a smaller video.',
+                'too_long' => 'Please choose a video no longer than :seconds seconds.',
+                'unreadable' => 'We could not read that video. Please try a different file.',
+            ],
         ],
         'embed' => [
             'title' => 'Einbetten',
