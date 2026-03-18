@@ -1759,6 +1759,7 @@ return [
             'logout' => 'SkinMC 계정에서 로그아웃하고 싶으신가요?',
             'automatic_backups' => '자동 저장된 스킨 백업',
             'automatic_backups_info' => 'SkinMC 플러스 회원으로서 스킨이 매일 백업돼요.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft 망토',
