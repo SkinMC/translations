@@ -15,20 +15,20 @@ return [
     ],
     'comment' => [
         'new' => [
-            'title' => ':model comment',
+            'title' => ':model comentar',
             'text' => ':user hizo un comentario en tu :model',
         ],
         'reply' => [
-            'title' => 'Reply on :model comment',
-            'text' => ':user replied to a :model comment',
+            'title' => 'Responder a :model comentario',
+            'text' => ':user respondió a un comentario :model',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => 'Nueva mención',
+            'text' => '¡:user te mencionó en su publicación!',
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'title' => 'Has dado un me gusta al comentario',
+            'text' => '¡A :user le gustó tu publicación!',
         ],
     ],
     'post' => [
@@ -41,14 +41,14 @@ return [
             'text' => '¡:user te mencionó en su publicación!',
         ],
         'repost' => [
-            'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'title' => 'Republicar',
+            'text' => '¡A :user le gustó tu publicación!',
         ],
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Nuevo mensaje',
+            'text' => ':user te envió un mensaje.',
         ],
     ],
     'level' => [
@@ -59,8 +59,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'Agregado a un tablero',
+            'text' => ':user te agregó como colaborador al tablero ":board".',
         ],
     ],
     'report' => [
@@ -73,78 +73,78 @@ return [
             'text' => 'Hola, el problema reportado ha sido tratado y ahora está arreglado. ¡Gracias por ser un superhéroe de nuestra comunidad!',
         ],
         'dismissed' => [
-            'title' => 'Update to your report (Case :id)',
+            'title' => 'Hemos revisado tu informe (Caso :id)',
             'text' => 'Después de un trabajo de detective, hemos encontrado que el contenido que usted había reportado no va en contra de nuestras directrices. Si desea que revisemos algo específico, por favor asegúrese de que reporta la skin, el perfil, etc, y proporcione un contexto adicional cuando sea necesario. ¡Gracias por su preocupación y participación en nuestra comunidad!',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Únete al Discord',
+            'text' => 'Hola, estás invitado a unirte al servidor Discord de SkinMC.',
         ],
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Nueva reseña en :server',
+            'text' => 'Tu anuncio de ":server", ha recibió una nueva reseña (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => 'Valoración descartada para :server',
+            'text' => 'Tu calificación media es ahora :rating/5 a través de :reviews reseñas. Considera revisar las reseñas en detalles.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Hito de voto alcanzado',
+            'text' => ':server alcanzó :votes en los últimos 30 días.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server ha sido aprobado',
+            'text' => 'Su anuncio ha pasado la revisión y ahora es elegible para estar en línea una vez que se cumplan todos los requisitos.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':server necesita actualizaciones',
+            'text' => 'Tu anuncio de servidor fue retirado del estado aprobado. Revisa los detalles de tu anuncio y actualiza según sea necesario.',
         ],
         'published' => [
-            'title' => ':server is now live',
-            'text' => 'Your listing is published and visible on the server list.',
+            'title' => ':server ahora está en línea',
+            'text' => 'Tu anuncio de servidor está publicado y visible en la lista de servidores.',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => ':server ha sido despublicado',
+            'text' => 'Su anuncio de servidor ya no es visible públicamente. Revise el estado del anuncio en su panel de control.',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':server está ahora verificado',
+            'text' => 'Tu anuncio de servidor recibió una insignia de verificación.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => 'Requisito de foto completo para :server',
+            'published_text' => 'Ahora tienes al menos 5 imágenes y tu anuncio está en línea de nuevo.',
+            'pending_text' => 'Ahora tienes al menos 5 imágenes. Tu anuncio está listo para ser moderado.',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => 'Añadir más fotos a :server',
+            'text' => 'Su anuncio necesita :remaining foto(s) más para alcanzar el mínimo :minimum y permanezca publicable.',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'title' => 'El anuncio de tu servidor aún no tiene fotos',
+            'text' => 'Añade al menos 5 fotos para mejorar la confianza y mover tu anuncio hacia la publicación.',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'title' => 'Su anuncio todavía está pendiente de revisión',
+            'text' => 'Tu anuncio ha estado pendiente durante un tiempo. Revisa dos veces los detalles y las fotos para ayudar a mantener la revisión sin problemas.',
         ],
     ],
     'wallpaper' => [
         'challenge_winner' => [
-            'title' => 'Wallpaper challenge winner',
-            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+            'title' => 'Desafío de fondo de pantalla',
+            'text' => 'Tu fondo de pantalla ":título" fue seleccionado como el ganador durante :month.',
         ],
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => ':days-day racha en riesgo',
+            'text_send_now' => 'Envía un mensaje antes de medianoche UTC para mantener tu racha viva.',
+            'text_waiting_other' => 'Has respondido hoy. Aún necesitas una respuesta antes de la medianoche UTC.',
         ],
     ],
 ];
