@@ -47,8 +47,8 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Nouveau message',
+            'text' => ':user vous a envoyé un message.',
         ],
     ],
     'level' => [
@@ -79,8 +79,8 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Rejoignez le Discord',
+            'text' => 'Salut, tu es invité à rejoindre le serveur Discord SkinMC.',
         ],
     ],
     'server' => [
@@ -136,8 +136,8 @@ return [
     ],
     'wallpaper' => [
         'challenge_winner' => [
-            'title' => 'Wallpaper challenge winner',
-            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+            'title' => 'Vainqueur du défi "fond d\'écran"',
+            'text' => 'Votre fond d\'écran ":title" a été sélectionné comme gagnant pour :month.',
         ],
     ],
     'streak' => [
