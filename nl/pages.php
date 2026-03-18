@@ -1761,6 +1761,7 @@ return [
             'logout' => 'Wil je je uitloggen uit je SkinMC account?',
             'automatic_backups' => 'Automatic skin backups',
             'automatic_backups_info' => 'Als SkinMC plus lid worden jouw skins elke dag geback-upt.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft Cape',
