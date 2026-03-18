@@ -1761,6 +1761,7 @@ return [
             'logout' => 'Бажаєте вийти зі свого облікового запису SkinMC?',
             'automatic_backups' => 'Автоматичні резервні копії скинів',
             'automatic_backups_info' => 'Як учасник SkinMC plus резервні копії ваших скінів створюються щодня.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'Плащ Minecraft SkinMC',
