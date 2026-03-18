@@ -1146,6 +1146,7 @@ return [
         'view_profile' => '查看个人资料',
         'view_all' => '查看全部',
         'filters' => '筛选器',
+        'profile_lookup_pending' => 'Looking up profile...',
         'more_results' => '更多结果',
         'more_results_fallback' => '更多结果',
         'close' => '关闭',
