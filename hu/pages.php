@@ -1145,6 +1145,7 @@ return [
         'view_profile' => 'Profil megtekintése',
         'view_all' => 'Minden megnézése',
         'filters' => 'Szűrők',
+        'profile_lookup_pending' => 'Looking up profile...',
         'more_results' => 'több eredmények',
         'more_results_fallback' => 'több eredmények',
         'close' => 'Bezárás',
