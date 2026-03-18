@@ -1761,6 +1761,7 @@ return [
             'logout' => 'Haluatko kirjautua ulos SkinMC tililtäsi?',
             'automatic_backups' => 'Automaattiset skinin varmuuskopiot',
             'automatic_backups_info' => 'SkinMC plus jäsenenä sinun skinisi varmuuskopioidaan päivittäin.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft Viitta',
