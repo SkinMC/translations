@@ -1761,6 +1761,7 @@ return [
             'logout' => 'SkinMC hesabınızdan çıkış yapmak istiyor musunuz?',
             'automatic_backups' => 'Otomatik skin yedeklemeleri',
             'automatic_backups_info' => 'SkinMC plus üyesi olarak, skinleriniz her gün yedeklenir.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft Pelerin',
