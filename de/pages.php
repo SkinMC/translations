@@ -1145,6 +1145,7 @@ return [
         'view_profile' => 'Profil ansehen',
         'view_all' => 'Alle anzeigen',
         'filters' => 'Filter',
+        'profile_lookup_pending' => 'Looking up profile...',
         'more_results' => 'weitere Ergebnisse',
         'more_results_fallback' => 'weitere Ergebnisse',
         'close' => 'Schließen',
