@@ -1761,6 +1761,7 @@ return [
             'logout' => 'Вы хотите выйти из аккаунта SkinMC?',
             'automatic_backups' => 'Автоматическое резервное копирование скинов',
             'automatic_backups_info' => 'Так как у Вас активен SkinMC Plus, резервные копии Ваших скинов создаются ежедневно.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'Плащ SkinMC',
