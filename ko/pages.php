@@ -1142,6 +1142,7 @@ return [
         'view_profile' => '프로필 보기',
         'view_all' => 'View all',
         'filters' => 'Filters',
+        'profile_lookup_pending' => 'Looking up profile...',
         'more_results' => 'more results',
         'more_results_fallback' => 'more results',
         'close' => 'Close',
