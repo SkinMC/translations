@@ -1145,6 +1145,7 @@ return [
         'view_profile' => 'Näytä profiili',
         'view_all' => 'Näytä kaikki',
         'filters' => 'Suodattimet',
+        'profile_lookup_pending' => 'Looking up profile...',
         'more_results' => 'lisää tuloksia',
         'more_results_fallback' => 'lisää tuloksia',
         'close' => 'Sulje',
