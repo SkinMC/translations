@@ -1761,6 +1761,7 @@ return [
             'logout' => 'Voulez-vous vous déconnecter de votre compte SkinMC ?',
             'automatic_backups' => 'Sauvegardes automatiques de skin',
             'automatic_backups_info' => 'En tant que membre de SkinMC plus vos skins sont sauvegardés quotidiennement.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'Cape Minecraft SkinMC',
