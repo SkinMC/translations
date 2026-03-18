@@ -1762,6 +1762,7 @@ return [
             'logout' => '您想要退出登录吗？',
             'automatic_backups' => '自动备份皮肤',
             'automatic_backups_info' => '作为 SkinMC puls 会员，您的皮肤每天都会备份。',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft 披风',
