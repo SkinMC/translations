@@ -1761,6 +1761,7 @@ return [
             'logout' => '¿Quieres cerrar sesión de tu cuenta SkinMC?',
             'automatic_backups' => 'Copias de seguridad de skin automáticas',
             'automatic_backups_info' => 'As a SkinMC plus member your skins are backed up daily.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'Capa de Minecraft de SkinMC',
