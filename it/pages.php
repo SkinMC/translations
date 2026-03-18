@@ -1762,6 +1762,7 @@ return [
             'logout' => 'Vuoi uscire dal tuo account SkinMC?',
             'automatic_backups' => 'Backup automatico della skin',
             'automatic_backups_info' => 'Come membro SkinMC plus le tue skin vengono salvate ogni giorno.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'Mantello SkinMC',
