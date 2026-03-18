@@ -1761,6 +1761,7 @@ return [
             'logout' => 'SkinMCアカウントからログアウトしますか？',
             'automatic_backups' => 'スキンの自動バックアップ',
             'automatic_backups_info' => 'SkinMC plus会員になると、スキンは毎日バックアップされます。',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft マント',
