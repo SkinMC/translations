@@ -1761,6 +1761,7 @@ return [
             'logout' => 'Möchtest du dich von deinem SkinMC-Konto abmelden?',
             'automatic_backups' => 'Automatische Skin-Backups',
             'automatic_backups_info' => 'Als SkinMC plus Mitglied werden deine Skins täglich gesichert.',
+            'last_backup' => 'Last backup',
         ],
         'capes' => [
             'title' => 'SkinMC Minecraft Umhang',
