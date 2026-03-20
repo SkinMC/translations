@@ -52,7 +52,7 @@ return [
     'wallpapers' => [
         'title' => 'Wallpapers',
         'challenge' => [
-            'title' => 'Wallpaper challenge',
+            'title' => 'Achtergrond challenge',
             'description' => 'Select the winner for :challenge_month. The selected wallpaper will be featured on the homepage in :display_month.',
             'back_to_moderation' => 'Back to moderation',
             'month_label' => 'Challenge month',
