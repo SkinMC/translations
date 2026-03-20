@@ -50,10 +50,10 @@ return [
         'subtitle' => ':count 已创建的全部帖子',
     ],
     'wallpapers' => [
-        'title' => 'Wallpapers',
+        'title' => '壁纸',
         'challenge' => [
-            'title' => 'Wallpaper challenge',
-            'description' => 'Select the winner for :challenge_month. The selected wallpaper will be featured on the homepage in :display_month.',
+            'title' => '壁纸比拼',
+            'description' => '选择 :challenge_month月的获胜者。选中的壁纸将在 :display_month月的主页上展示。',
             'back_to_moderation' => 'Back to moderation',
             'month_label' => 'Challenge month',
             'previous_month' => 'Previous month',
