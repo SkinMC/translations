@@ -47,8 +47,8 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => '新消息',
+            'text' => ':user 向您发送了一条消息。',
         ],
     ],
     'level' => [
