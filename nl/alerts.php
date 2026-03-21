@@ -15,40 +15,40 @@ return [
     ],
     'comment' => [
         'new' => [
-            'title' => ':model commentaar',
-            'text' => ':user Heeft een reactie geplaatst op je :model',
+            'title' => ':model comment',
+            'text' => ':user Heeft een comment geplaatst op je :model',
         ],
         'reply' => [
-            'title' => 'Reageer op :model reactie',
-            'text' => ':user antwoordde op een :model reactie',
+            'title' => 'Reageer op :model comment',
+            'text' => ':user antwoordde op een :model comment',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => 'Nieuwe vermelding',
+            'text' => ':user heeft je genoemd in een reactie!',
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'title' => 'Reactie geliked',
+            'text' => ':user heeft je comment geliked',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Like ontvangen',
+            'title' => 'Like gekregen',
             'text' => ':user heeft je post geliked!',
         ],
         'mention' => [
             'title' => 'Nieuwe vermelding',
-            'text' => ':user noemde je in zijn bericht!',
+            'text' => ':user noemde je in zijn/haar bericht!',
         ],
         'repost' => [
-            'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'title' => 'Herplaats',
+            'text' => ':user heeft je post herplaatst!',
         ],
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Nieuw bericht',
+            'text' => ':user heeft je een bericht gestuurd',
         ],
     ],
     'level' => [
@@ -59,92 +59,92 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'toegevoegd aan een board',
+            'text' => ':user heeft je als partner toegevoegd aan het board ":board".',
         ],
     ],
     'report' => [
         'created' => [
             'title' => 'We hebben uw rapport ontvangen! (Zaak :id)',
-            'text' => 'Ons team is er mee bezig en zal er direct naar kijken. Bedankt voor het geweldig zijn en ons helpen om de dingen achter te houden! ',
+            'text' => 'Ons team is ermee bezig en zal er direct naar kijken. Thx voor geweldig zijn en ons helpen!',
         ],
         'resolved' => [
             'title' => 'We hebben uw rapport beoordeeld (Zaak :id)',
-            'text' => 'Hallo daar, het gerapporteerde probleem is geregeld en is nu opgelost. Bedankt om een superheld van onze gemeenschap te zijn!',
+            'text' => 'Het gerapporteerde probleem is geregeld en is nu opgelost. Bedankt met een superheld van onze community te zijn!',
         ],
         'dismissed' => [
             'title' => 'Update van uw gerapporteerde probleem (Zaak :id)',
-            'text' => 'Na wat detectief werk hebben we ontdekt dat de inhoud die je had gerapporteerd niet in strijd is met onze richtlijnen. Als u wilt dat we iets specifieks bekijken, zorg er dan voor dat u de skin, profiel, etc. rapporteert en aanvullende context geeft wanneer dat nodig is. Bedankt voor uw zorgen en betrokkenheid bij onze gemeenschap!',
+            'text' => 'Na wat detective werk hebben we ontdekt dat de inhoud die je had gerapporteerd niet in strijd is met onze richtlijnen. Als je wilt dat we iets specifieks bekijken, zorg er dan voor dat u de skin, profiel, etc. rapporteert en aanvullende context geeft wanneer dat nodig is. Bedankt voor uw zorgen en betrokkenheid bij onze community!',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join de Discord',
+            'text' => 'Hey daar, je bent uitgenodigd om de SkinMC Discord server te joinen',
         ],
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => 'Nieuwe review op :server',
+            'text' => 'Je weergegeven server ":server" heeft een review gekregen (:rating/5)',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => 'rating gedaald voor :server',
+            'text' => 'De gemiddelde rating is nu :rating/5 over :reviews reviews.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Vote mijlpaal bereikt',
+            'text' => ':server heeft :votes votes bereikt in de laatste 30 dagen',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server is geaccepteerd',
+            'text' => 'Je listing is herzien en kan worden gepubliceerd zodra aan alle vereisten is voldaan.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':server heeft updates nodig',
+            'text' => 'Je listing is uit de goedgekeurde status gehaald. Controleer de aanvraag gegevens en werk indien nodig bij.',
         ],
         'published' => [
             'title' => ':server is nu online',
-            'text' => 'Your listing is published and visible on the server list.',
+            'text' => 'Je listing is gepubliceerd en is nu te zien op de server lijst',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => 'Publicatie voor :server is ongedaan gemaakt',
+            'text' => 'Je listing is niet meer publiekelijk zichtbaar. Controleer je aanvraag status in het Dashboard',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':server is nu geverifieerd',
+            'text' => 'Je listing heeft een verificatie badge gekregen.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => 'vereiste foto\'s voltooid voor :server',
+            'published_text' => 'Je hebt nu minimaal 5 afbeeldingen en je listing is opnieuw gepubliceerd',
+            'pending_text' => 'Je hebt nu minimaal 5 afbeeldingen. Je listing is nu klaar voor moderatie',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => 'Voeg meer foto\'s toe aan :server',
+            'text' => 'Je listing heeft nog :remaining foto(s) nodig om het minimum van :minimum te bereiken en online te blijven',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'title' => 'Je server listing heeft nog steeds geen foto\'s',
+            'text' => 'Voeg op zijn minst 5 foto\'s toe om vertrouwen te vergroten en je aanvraag naar publicatie',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'title' => 'Je aanvraag wacht nog steeds op review',
+            'text' => 'Je listing is al een tijdje in de wacht. Controleer de foto\'s nog een keer om de beoordeling soepel te laten verlopen.',
         ],
     ],
     'wallpaper' => [
         'challenge_winner' => [
-            'title' => 'Wallpaper challenge winner',
-            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+            'title' => 'Achtergrond Challenge winnaar',
+            'text' => 'Je achtergrond ":title" is geselecteerd als winnaar voor :maand',
         ],
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => 'je :days-dagen streak is in gevaar',
+            'text_send_now' => 'Stuur een bericht vóór middernacht UTC om je streak levend te houden',
+            'text_waiting_other' => 'Je reageerde vandaag. Je moet een reactie terugkrijgen vóór middernacht UTC',
         ],
     ],
 ];
