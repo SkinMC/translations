@@ -2,12 +2,12 @@
 
 return [
     'skins' => 'Skins',
-    'skins_profile' => 'Profile skins',
-    'skins_profile_subtitle' => 'Skins from Minecraft profiles',
-    'creations' => 'Creations',
-    'creations_subtitle' => 'Skins shared by the community',
-    'skin_upload_subtitle' => 'Add your creation',
-    'skin_tags' => 'Tagged',
+    'skins_profile' => 'Profiel skins',
+    'skins_profile_subtitle' => 'Skins van Minecraft profielen',
+    'creations' => 'Creaties',
+    'creations_subtitle' => 'Skins gedeeld door de community',
+    'skin_upload_subtitle' => 'Voeg je creatie toe',
+    'skin_tags' => 'Gelabeld',
     'avatars' => 'Avatars',
     'editor' => 'Editor',
     'heads' => 'Hoofden',
@@ -16,16 +16,16 @@ return [
     'achievement' => 'Prestatie',
     'armor' => 'Harnashouder',
     'banners' => 'Banieren',
-    'banner' => 'Banner Editor',
-    'banner_gallery' => 'Banner Gallery',
+    'banner' => 'Banier Editor',
+    'banner_gallery' => 'Banier Galerij',
     'profile' => 'Mijn profiel',
-    'wallpapers' => 'Wallpapers',
+    'wallpapers' => 'Achtergronden',
 
     'generators' => 'Generatoren',
 
     // Navigation dropdowns
     'feed' => 'Feed',
-    'discover' => 'Discover',
+    'discover' => 'Ontdek',
     'mods' => 'Mods',
     'shaders' => 'Shaders',
     'resource_packs' => 'Resource Packs',
@@ -46,7 +46,7 @@ return [
     'recent_searches' => 'Recente zoekopdrachten',
     'username' => 'Gebruikersnaam',
     'uuid' => 'UUID',
-    'search' => 'Zoeken',
+    'search' => 'Zoek',
     'search_placeholder' => 'Probeer',
     'search_placeholder_uuid' => 'Voer UUID in',
     'start_search' => 'Begin met zoeken',
@@ -57,10 +57,10 @@ return [
     'view_skin' => 'Bekijk skin',
     'edit_skin' => 'Bewerk skin',
     'make_avatar' => 'Maak een avatar',
-    'find_heads' => 'Vind speler hoofden',
-    'no_results_found' => 'No suggestions yet. Hit Enter to look it up.',
+    'find_heads' => 'Vindt speler hoofden',
+    'no_results_found' => 'Nog geen suggesties, Druk Enter om het te bekijken',
 
-    'home' => 'Start',
+    'home' => 'Home',
     'help' => 'Help',
     'tools' => 'Hulpprogramma\'s',
     'more-tools' => 'Meer hulpprogramma\'s',
@@ -78,15 +78,15 @@ return [
     'app' => 'App',
     'mod' => 'Mod',
     'totem' => 'Totems',
-    'cube' => 'Cube',
-    'new' => 'New',
+    'cube' => 'Kubus',
+    'new' => 'Nieuw',
 
     'boards' => 'Boards',
-    'boards_subtitle' => 'Your saved collections',
+    'boards_subtitle' => 'Je opgeslagen collecties',
 
     'feedback' => 'Feedback',
     'status' => 'Status',
-    'recent_searches_placeholder' => 'Naarmate je begint met zoeken, worden de vorige zoekopdrachten hier getoond.',
+    'recent_searches_placeholder' => 'Vorige zoekopdrachten hier getoond.',
     'recent_views_placeholder' => 'Na een aantal profielen te hebben bezocht, worden hier de bezochte profielen getoond.',
     'moderate' => 'Modereren',
     'listings' => 'Listings',
@@ -94,20 +94,20 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
+        'profile' => 'Profiel',
         'server' => 'Server',
         'project' => 'Project',
         'skin_tag' => 'Skin Tag',
-        'server_category' => 'Server Category',
-        'modrinth_category' => 'Project Category',
+        'server_category' => 'Server Categorie',
+        'modrinth_category' => 'Project Categorie',
     ],
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'Thema',
         'dark' => 'Donker',
         'light' => 'Licht',
         'auto' => 'Auto',
     ],
 
-    'language' => 'Language',
+    'language' => 'Taal',
 ];
