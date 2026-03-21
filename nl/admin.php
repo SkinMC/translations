@@ -26,7 +26,7 @@ return [
     ],
     'users' => [
         'title' => 'Gebruikers',
-        'subtitle' => ':count aantal gebruikers hebben zich ingeschreven',
+        'subtitle' => ':count aantal ingeschreven gebruikers',
         'list' => [
             'username' => 'Gebruikersnaam',
             'email' => 'E-mail',
@@ -47,13 +47,13 @@ return [
     ],
     'feed' => [
         'title' => 'Feed berichten',
-        'subtitle' => ':count aantal berichten gemaakt',
+        'subtitle' => ':count aantal gemaakte berichten',
     ],
     'wallpapers' => [
-        'title' => 'Wallpapers',
+        'title' => 'Achtergronden',
         'challenge' => [
             'title' => 'Achtergrond challenge',
-            'description' => 'Select the winner for :challenge_month. The selected wallpaper will be featured on the homepage in :display_month.',
+            'description' => 'Selecteer de winnaar voor de challenge Maand. De geselecteerde achtergrond zal worden tentoongesteld op de homepage in de Display Maand',
             'back_to_moderation' => 'Back to moderation',
             'month_label' => 'Challenge month',
             'previous_month' => 'Previous month',
@@ -99,7 +99,7 @@ return [
     ],
     'comments' => [
         'title' => 'Reacties',
-        'subtitle' => ':count aantal reacties geplaatst',
+        'subtitle' => ':count aantal geplaatste reacties',
         'deleted' => [
             'title' => 'Verwijderde opmerkingen',
             'subtitle' => ':count aantal verwijderde reacties',
