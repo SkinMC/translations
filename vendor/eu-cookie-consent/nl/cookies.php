@@ -2,16 +2,16 @@
 
 return [
     'acceptAllButton' => 'Accepteer alle',
-    'declineAll' => 'Decline All',
+    'declineAll' => 'Weiger alle',
     'save' => 'Opslaan',
     'PopupTitle' => 'Cookie toestemming',
-    'PopupDescription' => 'SkinMC gebruikt cookies om functionaliteit en functies te leveren.',
+    'PopupDescription' => 'SkinMC gebruikt cookies om functionaliteit en features te leveren',
 
     'customise' => 'Aanpassen',
     'customise_title' => 'Cookies aanpassen',
 
     'essential' => 'Essentiële data',
-    'essential_description' => 'Essentiële data-cookies zijn vereist om de site te runnen die u technisch bezoekt. U kunt deze niet deactiveren.',
+    'essential_description' => 'Essentiële data cookies zijn vereist om de site te runnen die u technisch bezoekt. U kunt deze niet deactiveren.',
 
     'session' => 'Sessie Cookie: PHP gebruikt een cookie om sessies van gebruikers te identificeren.',
     'xsrf-token' => 'XSRF-Token Cookie: automatisch gemaakt CSRF "token" voor elke actieve gebruikerssessie beheerd door de toepassing. Deze token wordt gebruikt om te controleren of de geauthenticeerde gebruiker degene is die de aanvragen aan de applicatie doet.',
