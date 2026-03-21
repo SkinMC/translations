@@ -16,7 +16,7 @@ return [
     'comment' => [
         'new' => [
             'title' => ':model commentaar',
-            'text' => ':user heeft een opmerking geplaatst op je :model',
+            'text' => ':user Heeft een reactie geplaatst op je :model',
         ],
         'reply' => [
             'title' => 'Reageer op :model reactie',
