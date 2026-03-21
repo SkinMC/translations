@@ -89,7 +89,7 @@ return [
             'set_winner' => 'Set winner',
             'selected' => 'Selected',
             'no_entries' => 'No eligible challenge entries for :month.',
-            'unknown_creator' => 'Unknown creator',
+            'unknown_creator' => 'onbekende maker',
             'unknown_user' => 'Unknown',
             'system_user' => 'System',
             'flash_saved' => 'Challenge winner saved.',
