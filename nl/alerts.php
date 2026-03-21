@@ -105,7 +105,7 @@ return [
             'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
         ],
         'published' => [
-            'title' => ':server is now live',
+            'title' => ':server is nu online',
             'text' => 'Your listing is published and visible on the server list.',
         ],
         'unpublished' => [
