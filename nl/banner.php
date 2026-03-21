@@ -2,27 +2,27 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
+        'black' => 'Zwart',
+        'red' => 'Rood',
+        'green' => 'Groen',
+        'brown' => 'Bruin',
+        'blue' => 'Blauw',
+        'purple' => 'Paars',
+        'cyan' => 'Cyaan',
+        'gray' => 'Grijs',
+        'dark_gray' => 'Donker Grijs',
+        'pink' => 'Roze',
+        'lime' => 'Licht Groen',
+        'yellow' => 'Geel',
+        'light_blue' => 'Licht Blauw',
         'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'orange' => 'Oranje',
+        'white' => 'Wit',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Volledig :color Field',
 
         // Stripes
         'bs' => 'Base',           // stripe_bottom
