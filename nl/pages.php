@@ -93,14 +93,14 @@ return [
             'feed_upgrade' => [
                 'title' => 'Deel meer, Deel beter',
                 'description' => 'Post wel tot 4 foto\'s naar de Feed.',
-                'line_1' => 'Share your favourite skins, creations or servers.',
-                'line_2' => 'Directly from where you discover them.',
+                'line_1' => 'Deel je favoriete Skins, creaties of servers',
+                'line_2' => 'Meteen van waar je ze hebt gevonden',
             ],
 
             'editor_upgrade' => [
-                'title' => 'The most powerful SkinMC editor yet.',
-                'description' => 'New creative tools for more control and cleaner detailing.',
-                'line_1' => 'Circle, triangle and square brushes.',
+                'title' => 'De meest sterkste en meest krachtige SkinMC editor tot nu toe',
+                'description' => 'Nieuwe creatieve tools voor meer controle en cleanere details',
+                'line_1' => 'Cirkel, driehoek en vierkant kwasten',
                 'line_2' => 'Size and softness slider.',
                 'line_3' => 'Noise texture brush.',
                 'line_4' => 'Improved fill tool.',
@@ -108,8 +108,8 @@ return [
 
             'preview_mode' => [
                 'title' => 'Floating preview.',
-                'description' => 'A minimap for your skin, always in view.',
-                'line_1' => 'Live updates while you paint.',
+                'description' => 'Een minimap voor je Skin, altijd in zicht.',
+                'line_1' => 'Live updates terwijl je schildert',
                 'line_2' => 'Add reference images.',
                 'line_3' => '2D, 3D, or side-by-side.',
                 'line_4' => 'Position it anywhere.',
@@ -130,9 +130,9 @@ return [
             ],
 
             'closing' => [
-                'title' => 'SkinMC is evolving.',
-                'description' => 'Create. Curate. Share.',
-                'cta' => 'Start creating',
+                'title' => 'SkinMC evolueert',
+                'description' => 'Maak, Stel Samen, Deel',
+                'cta' => 'Start met maken',
             ],
         ],
     ],
@@ -172,7 +172,7 @@ return [
             'meta_description' => ':username\'s Aangepaste Minecraft Profiel QR-code',
         ],
         'about' => [
-            'meta_description' => 'View :username\'s Minecraft profile details, including UUID, name history, and stats.',
+            'meta_description' => 'Zie :username\'s Minecraft profiel details, onder andere UUID, geschiedenis en statistieken',
         ],
         'sub_nav' => [
             'skin' => 'Skin',
@@ -218,12 +218,12 @@ return [
         ],
         'creations' => [
             'meta_title' => ':username Creations',
-            'title' => 'Creations',
-            'filters_label' => 'Creation filters',
+            'title' => 'Creaties',
+            'filters_label' => 'Creatie filters',
             'empty_public' => 'This profile has no public creations yet.',
             'empty_wallpapers' => 'This profile has no public wallpapers yet.',
             'empty_illustration_alt' => 'Minecraft skin stand',
-            'wallpaper_albums_title' => 'Wallpaper albums',
+            'wallpaper_albums_title' => 'Achtergrond Albums',
             'filters' => [
                 'all' => 'Alle',
                 'skin' => 'Skins',
