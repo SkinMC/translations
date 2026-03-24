@@ -854,7 +854,7 @@ return [
             'meta_description' => 'Unisciti alla sfida di sfondo di SkinMC mensile ed esplora la lista ristretta della comunità di questo mese.',
             'heading' => 'Sfida dello sfondo',
             'intro' => 'Condividere il vostro migliore desktop e bloccare la coppia di schermo su SkinMC. Ogni mese abbiamo la lista di shortlist per i caricamenti della comunità, quindi scegliere un vincitore per visualizzare sulla homepage il mese successivo.',
-            'upload_entry' => 'Upload challenge entry',
+            'upload_entry' => 'Carica e partecipa alla sfida',
             'view_archive' => 'Visualizza l\'archivio dei vincitori',
             'winner_for_month' => 'Vincitore di :month',
             'winner_selected_title' => 'Vincitore selezionato',
