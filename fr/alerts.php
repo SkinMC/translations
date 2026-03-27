@@ -47,8 +47,8 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Nouveau message',
+            'text' => ':user vous a envoyé un message.',
         ],
     ],
     'level' => [
@@ -79,8 +79,8 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Rejoignez le Discord',
+            'text' => 'Salut, tu es invité à rejoindre le serveur Discord SkinMC.',
         ],
     ],
     'server' => [
@@ -132,6 +132,12 @@ return [
         'reminder_pending_too_long' => [
             'title' => 'Votre annonce est toujours en attente de révision',
             'text' => 'Votre annonce est en attente depuis un certain temps. Vérifier les détails et les photos pour aider la revue de votre serveur.',
+        ],
+    ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Vainqueur du défi "fond d\'écran"',
+            'text' => 'Votre fond d\'écran ":title" a été sélectionné comme gagnant pour :month.',
         ],
     ],
     'streak' => [

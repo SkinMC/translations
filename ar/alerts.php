@@ -134,6 +134,12 @@ return [
             'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
         ],
     ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Wallpaper challenge winner',
+            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+        ],
+    ],
     'streak' => [
         'at_risk' => [
             'title' => ':days-day streak at risk',

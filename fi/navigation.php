@@ -19,6 +19,7 @@ return [
     'banner' => 'Bannerin Muokkaaja',
     'banner_gallery' => 'Banneri Galleria',
     'profile' => 'Profiilini',
+    'wallpapers' => 'Wallpapers',
 
     'generators' => 'Generaattorit',
 

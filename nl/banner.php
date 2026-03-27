@@ -2,88 +2,88 @@
 
 return [
     'colors' => [
-        'black' => 'Black',
-        'red' => 'Red',
-        'green' => 'Green',
-        'brown' => 'Brown',
-        'blue' => 'Blue',
-        'purple' => 'Purple',
-        'cyan' => 'Cyan',
-        'gray' => 'Grey',
-        'dark_gray' => 'Dark Grey',
-        'pink' => 'Pink',
-        'lime' => 'Lime',
-        'yellow' => 'Yellow',
-        'light_blue' => 'Light Blue',
+        'black' => 'Zwart',
+        'red' => 'Rood',
+        'green' => 'Groen',
+        'brown' => 'Bruin',
+        'blue' => 'Blauw',
+        'purple' => 'Paars',
+        'cyan' => 'Cyaan',
+        'gray' => 'Grijs',
+        'dark_gray' => 'Donker Grijs',
+        'pink' => 'Roze',
+        'lime' => 'Licht Groen',
+        'yellow' => 'Geel',
+        'light_blue' => 'Licht Blauw',
         'magenta' => 'Magenta',
-        'orange' => 'Orange',
-        'white' => 'White',
+        'orange' => 'Oranje',
+        'white' => 'Wit',
     ],
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => 'Volledig :color Veld',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
-        'ss' => 'Paly',          // small_stripes
+        'bs' => 'Schildvoet',           // stripe_bottom
+        'ts' => 'Schildhoofd',         // stripe_top
+        'ls' => 'Rechterpaal',   // stripe_left
+        'rs' => 'Linkerpaal', // stripe_right
+        'cs' => 'Paal',          // stripe_center
+        'ms' => 'Dwarsbalk',          // stripe_middle
+        'drs' => 'Rechterschuinbalk',         // stripe_downright
+        'dls' => 'Linkerschuinbalk', // stripe_downleft
+        'ss' => 'Palem',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => 'Kruis',
+        'sc' => 'Andreaskruis',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => 'Schuinlinks verdeeld',       // diagonal_left
+        'rd' => 'Schuinrechts verdeeld',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => 'Omgekeerd schuinrechts verdeeld',      // diagonal_up_left
+        'rud' => 'Omgekeerd Schuinlinks Verdeeld', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vh' => 'Gepaald',              // half_vertical
+        'vhr' => 'Omgekeerd Gepaald',   // half_vertical_right
+        'hh' => 'Gebalkt',              // half_horizontal
+        'hhb' => 'Omgekeerd Gebalkt',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => 'Kwartier Rechtsonder',    // square_bottom_left
+        'br' => 'Kwartier Linksonder', // square_bottom_right
+        'tl' => 'Kwartier Rechtsboven',  // square_top_left
+        'tr' => 'Kwartier Linksboven', // square_top_right
 
         // Triangles
-        'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'bt' => 'Keper',           // triangle_bottom
+        'tt' => 'Omgekeerde Keper',  // triangle_top
+        'bts' => 'Gegolfd Schildvoet',   // triangles_bottom
+        'tts' => 'Gegolfd Schildhoofd',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mc' => 'Blauwe koek',   // circle
+        'mr' => 'Lozanje',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => 'Zoom',           // border
+        'cbo' => 'Ingesprongen Zoom', // curly_border
+        'bri' => 'Metselwerk',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gra' => 'Gradiënt',     // gradient
+        'gru' => 'Schildvoet Gradiënt', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
-        'sku' => 'Skull Charge',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
+        'cre' => 'Creeperwapen', // creeper
+        'sku' => 'Schedelwapen',   // skull
+        'flo' => 'Bloemwapen', // flower
+        'moj' => 'Mojang logo',         // mojang
         'glb' => 'Globe',         // globe
-        'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
-        'guster' => 'Guster',
+        'pig' => 'Snoet',         // piglin
+        'flow' => 'Windstroming',
+        'guster' => 'Rukwind',
     ],
 ];

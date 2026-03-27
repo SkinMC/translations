@@ -19,6 +19,7 @@ return [
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
     'profile' => '내 프로필',
+    'wallpapers' => 'Wallpapers',
 
     'generators' => '생성기',
 

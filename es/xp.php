@@ -10,7 +10,7 @@ return [
     |
     */
     'award' => [
-        'feed_post' => 'Publicado en el feed',
+        'feed_post' => 'Publicado en el inicio',
         'tag_approved' => 'La etiqueta que agregaste fue aprobada',
         'tag_approved_vote' => 'Etiqueta por la que votaste fue aprobada',
         'comment' => 'Dejar un comentario',
@@ -20,11 +20,14 @@ return [
         'sign_up' => '¡Bienvenido/a a SkinMC!',
         'invite_friend' => 'Invitar a un amigo',
         'invited_friend' => 'Invitado por un amigo',
-        'chat_streak_milestone_3' => 'Unlocked a 3-day chat streak',
-        'chat_streak_milestone_10' => 'Unlocked a 10-day chat streak',
-        'chat_streak_milestone_30' => 'Unlocked a 30-day chat streak',
-        'chat_streak_milestone_100' => 'Unlocked a 100-day chat streak',
-        'chat_streak_milestone_200' => 'Unlocked a 200-day chat streak',
+        'wallpaper_create' => 'Se envió un fondo de pantalla',
+        'wallpaper_approved' => 'Fondo de pantalla aprobado',
+        'chat_streak_milestone_3' => 'Racha de chat de 3 días desbloqueada',
+        'chat_streak_milestone_10' => 'Racha de chat de 10 días desbloqueada',
+        'chat_streak_milestone_30' => 'Racha de chat de 30 días desbloqueada',
+        'chat_streak_milestone_100' => 'Racha de chat de 100 días desbloqueada',
+        'chat_streak_milestone_200' => 'Racha de chat de 200 días desbloqueada',
+        'wallpaper_challenge_winner' => 'Ganó el desafío mensual de fondos de pantalla',
     ],
     'empty' => 'Gana XP para verla aquí.',
 ];

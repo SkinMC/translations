@@ -47,8 +47,8 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => '新消息',
+            'text' => ':user 向您发送了一条消息。',
         ],
     ],
     'level' => [
@@ -132,6 +132,12 @@ return [
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
             'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+        ],
+    ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Wallpaper challenge winner',
+            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
         ],
     ],
     'streak' => [

@@ -47,8 +47,8 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Nuovo messaggio',
+            'text' => ':user ti ha inviato un messaggio.',
         ],
     ],
     'level' => [
@@ -79,8 +79,8 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Entra nel server Discord',
+            'text' => 'Ciao, sei invitato a unirti al server SkinMC Discord.',
         ],
     ],
     'server' => [
@@ -132,6 +132,12 @@ return [
         'reminder_pending_too_long' => [
             'title' => 'La tue inserzione è ancora in attesa di revisione',
             'text' => 'La tua inserzione è in sospeso da un po\'. I dettagli e le foto del doppio controllo aiutano a mantenere la revisione scorrevole.',
+        ],
+    ],
+    'wallpaper' => [
+        'challenge_winner' => [
+            'title' => 'Vincitore della sfida dello sfondo',
+            'text' => 'Il tuo sfondo ":title" è stato selezionato come vincitore per :month.',
         ],
     ],
     'streak' => [
