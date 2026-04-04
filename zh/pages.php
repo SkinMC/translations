@@ -79,14 +79,14 @@ return [
             'upload_creations' => [
                 'title' => '发布您的作品',
                 'description' => '将自制皮肤直接上传到 SkinMC。',
-                'line_1' => 'Add details, credits and choose visibility.',
+                'line_1' => '添加细节，积分以及可调的可见性。',
                 'line_2' => '保存为草稿，私有或公开发布。',
             ],
 
             'custom_heads' => [
-                'title' => 'A new heads gallery.',
-                'description' => 'Upload and explore custom Minecraft heads.',
-                'line_1' => 'Perfect for builders.',
+                'title' => '一个新的头颅画廊。',
+                'description' => '上传和探索自定义Minecraft头部。',
+                'line_1' => '非常适合创作者。',
                 'line_2' => 'Perfect for server creators.',
             ],
 
