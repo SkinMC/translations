@@ -87,18 +87,18 @@ return [
                 'title' => '一个新的头颅画廊。',
                 'description' => '上传和探索自定义Minecraft头部。',
                 'line_1' => '非常适合创作者。',
-                'line_2' => 'Perfect for server creators.',
+                'line_2' => '非常适合创作者。',
             ],
 
             'feed_upgrade' => [
-                'title' => 'Share more. Share better.',
-                'description' => 'Post up to four images in the feed.',
-                'line_1' => 'Share your favourite skins, creations or servers.',
+                'title' => '分享更多，分享更多好东西。',
+                'description' => '在动态中最多可发布四张图片。',
+                'line_1' => '分享你最爱的皮肤，作品或服务器。',
                 'line_2' => 'Directly from where you discover them.',
             ],
 
             'editor_upgrade' => [
-                'title' => 'The most powerful SkinMC editor yet.',
+                'title' => '迄今为止功能最强大的 SkinMC 编辑器。',
                 'description' => 'New creative tools for more control and cleaner detailing.',
                 'line_1' => 'Circle, triangle and square brushes.',
                 'line_2' => 'Size and softness slider.',
@@ -783,10 +783,10 @@ return [
                 'read_cc_by_nc' => 'Read CC BY-NC 4.0',
             ],
             'messages' => [
-                'unsupported_image_type' => 'Only JPEG, PNG, and WebP images are supported.',
-                'desktop_preview_failed' => 'Could not preview desktop image.',
-                'mobile_preview_failed' => 'Could not preview mobile image.',
-                'choose_mobile_before_crop' => 'Choose an image first before cropping.',
+                'unsupported_image_type' => '仅支持JPEG, PNG,和WebP图形。',
+                'desktop_preview_failed' => '无法预览桌面图片。',
+                'mobile_preview_failed' => '无法预览移动端图片。',
+                'choose_mobile_before_crop' => '裁剪前先选择一张图片。',
                 'editor_preview_failed' => 'Could not load image editor preview.',
                 'editor_unavailable' => 'Image editor is unavailable right now.',
                 'editor_start_failed' => 'Could not start image editor.',
