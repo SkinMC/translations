@@ -60,30 +60,30 @@ return [
         // Triangles
         'bt' => 'Шеврон',           // triangle_bottom
         'tt' => 'Перевернутый шеврон',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'bts' => 'Базовый с отступом',   // triangles_bottom
+        'tts' => 'Главный с отступом',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mc' => 'Кокарда',   // circle
+        'mr' => 'Ромб',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => 'Кайма',           // border
+        'cbo' => 'Кайма с отступом', // curly_border
+        'bri' => 'Поле каменной кладки',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gra' => 'Градиент',     // gradient
+        'gru' => 'Градиент основания', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
-        'sku' => 'Skull Charge',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
-        'glb' => 'Globe',         // globe
-        'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
-        'guster' => 'Guster',
+        'cre' => 'Заряд крипера', // creeper
+        'sku' => 'Заряд черепа',   // skull
+        'flo' => 'Цветочный заряд', // flower
+        'moj' => 'Нечто',         // mojang
+        'glb' => 'Глобус',         // globe
+        'pig' => 'Рыло',         // piglin
+        'flow' => 'Цвветок',
+        'guster' => 'Порыв ветра',
     ],
 ];
