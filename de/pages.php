@@ -2321,7 +2321,7 @@ return [
         'private-info' => 'Privater Beitrag nur kann ich ihn sehen.',
         'submit' => 'Post',
         'like' => 'Like',
-        'comment' => 'Antwort',
+        'comment' => 'Antworten',
         'share' => 'Teilen',
         'share_dialog' => [
             'title' => 'Teilen',
