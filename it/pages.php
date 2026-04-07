@@ -908,7 +908,7 @@ return [
         'gallery' => [
             'meta_title' => 'Album Sfondi',
             'meta_description' => 'Sfoglia :count album di sfondi pubblici dalla comunità SkinMC.',
-            'switcher_label' => 'Wallpaper browsing switcher',
+            'switcher_label' => 'Selettore della navigazione sfondo',
             'switcher_wallpapers' => 'Sfondi',
             'switcher_albums' => 'Album',
             'heading' => 'Album Sfondi',
