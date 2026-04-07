@@ -1311,7 +1311,7 @@ return [
             'badge_banned' => 'Bannato',
             'badge_custom' => 'Personalizzato',
             'preview_mode' => 'Modalità anteprima del Mantello',
-            'stance_mode' => 'Cape stance mode',
+            'stance_mode' => 'Modalità posizione del mantello',
             'stance_stand' => 'In piedi',
             'stance_fly' => 'Volo',
             'type' => 'Tipologia',
