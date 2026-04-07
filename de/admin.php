@@ -50,9 +50,9 @@ return [
         'subtitle' => ':count insgesamt erstellte Beiträge',
     ],
     'wallpapers' => [
-        'title' => 'Wallpapers',
+        'title' => 'Hintergrundbilder',
         'challenge' => [
-            'title' => 'Wallpaper challenge',
+            'title' => 'Hintergrundbilder-Challenge',
             'description' => 'Select the winner for :challenge_month. The selected wallpaper will be featured on the homepage in :display_month.',
             'back_to_moderation' => 'Back to moderation',
             'month_label' => 'Challenge month',
@@ -63,7 +63,7 @@ return [
             'no_winner_selected' => 'No winner selected',
             'selected_winner' => 'Selected winner',
             'displays_on_home' => 'Displays on home in :month',
-            'open_wallpaper' => 'Open wallpaper',
+            'open_wallpaper' => 'Hintergrundbild öffnen',
             'clear_reason_placeholder' => 'Reason for clearing (optional)',
             'clear_confirm' => 'Clear winner for :month?',
             'clear_winner' => 'Clear winner',
