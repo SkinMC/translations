@@ -86,7 +86,7 @@ return [
             'stats_downloads' => ':count downloads',
             'stats_favourites' => ':count favourites',
             'reason_placeholder' => 'Reason (optional)',
-            'set_winner' => 'Set winner',
+            'set_winner' => 'Sieger festlegen',
             'selected' => 'Selected',
             'no_entries' => 'No eligible challenge entries for :month.',
             'unknown_creator' => 'Unknown creator',
