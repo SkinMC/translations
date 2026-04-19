@@ -110,7 +110,7 @@ return [
                 'title' => 'Floating preview.',
                 'description' => 'A minimap for your skin, always in view.',
                 'line_1' => 'Live updates while you paint.',
-                'line_2' => 'Add reference images.',
+                'line_2' => 'Добавляй референсные изображения.',
                 'line_3' => '2D, 3D, or side-by-side.',
                 'line_4' => 'Position it anywhere.',
             ],
