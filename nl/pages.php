@@ -2337,7 +2337,7 @@ return [
                 'x' => 'Share on X',
                 'facebook' => 'Share on Facebook',
                 'reddit' => 'Share on Reddit',
-                'whatsapp' => 'Share on WhatsApp',
+                'whatsapp' => 'Deel via Whatsapp',
                 'telegram' => 'Share on Telegram',
                 'email' => 'Share by email',
                 'bluesky' => 'Share on Bluesky',
