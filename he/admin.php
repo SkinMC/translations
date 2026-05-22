@@ -35,7 +35,7 @@ return [
         ],
     ],
     'skins' => [
-        'title' => 'Skins',
+        'title' => 'סקינים',
     ],
     'tags' => [
         'title' => 'Tags',
