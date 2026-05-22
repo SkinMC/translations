@@ -14,8 +14,8 @@ return [
         'total-members' => 'Total members',
         'claimed-profiles' => 'Claimed profiles',
         'profiles' => 'Profiles',
-        'skins' => 'Skins',
-        'users' => 'Users',
+        'skins' => 'סקינים',
+        'users' => 'משתמשים',
         'last-30-days' => 'Last 30 days',
         'members' => 'Members',
         'usernames' => 'Usernames',
@@ -28,8 +28,8 @@ return [
         'title' => 'משתמשים',
         'subtitle' => ':count total users signed up',
         'list' => [
-            'username' => 'Username',
-            'email' => 'Email',
+            'username' => 'שם משתמש',
+            'email' => 'דוא"ל',
             'status' => 'Status',
             'role' => 'Role'
         ],
