@@ -41,7 +41,7 @@ return [
             'text' => ':user 在他们的帖子中提到了你！',
         ],
         'repost' => [
-            'title' => 'Repost',
+            'title' => '转发',
             'text' => ':user 转发了您的帖子！',
         ],
     ],
@@ -59,8 +59,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => '已添加到看板',
+            'text' => ':user 将您作为合作者添加到了看板":board"中。',
         ],
     ],
     'report' => [
@@ -79,8 +79,9 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => '加入Discord频道',
+            'text' => '你好！
+你被邀请加入 SkinMC Discord 服务器。',
         ],
     ],
     'server' => [

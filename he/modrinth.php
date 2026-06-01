@@ -92,7 +92,7 @@ return [
     'game_versions' => 'Game versions',
     'loaders' => 'Loaders',
     'client' => 'Client',
-    'server' => 'Server',
+    'server' => 'שרת',
     'links' => 'Links',
     'source_code' => 'Source Code',
     'issues' => 'Issues',

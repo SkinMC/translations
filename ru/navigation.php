@@ -19,7 +19,7 @@ return [
     'banner' => 'Редактор флагов',
     'banner_gallery' => 'Галерея баннеров',
     'profile' => 'Мой профиль',
-    'wallpapers' => 'Wallpapers',
+    'wallpapers' => 'Обои',
 
     'generators' => 'Генераторы',
 

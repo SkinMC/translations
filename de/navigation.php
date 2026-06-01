@@ -19,7 +19,7 @@ return [
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner-Galerie',
     'profile' => 'Mein Profil',
-    'wallpapers' => 'Wallpapers',
+    'wallpapers' => 'Hintergrundbilder',
 
     'generators' => 'Generatoren',
 

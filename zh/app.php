@@ -10,7 +10,7 @@ return [
     |
     */
 
-    'short_description' => '你创造Minecraft皮肤的地方',
+    'short_description' => '创造Minecraft皮肤的地方',
     'full_description' => [
         'intro' => 'SkinMC 是你发现、保存和获得Minecraft 基岩版 和 Java版的最佳皮肤的地方。最热门的皮肤每周更新。',
         'why_skinmc_title' => '为什么选择 SkinMC？',
