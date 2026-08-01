@@ -23,7 +23,7 @@ return [
     'account_disabled' => 'This account has been disabled. Review the reason and available options below.',
     'appeal_session_expired' => 'Your appeal session expired. Sign in again to review or continue your appeal.',
     'appeal_signed_in' => 'You are signed in to another account. We returned you to its support area.',
-    'registration_restricted' => 'This email belongs to a disabled account that was permanently deleted. It cannot be used to create another account.',
+    'registration_restricted' => 'This email address is unavailable.',
     'show-password' => 'Show password',
     'hide-password' => 'Hide password',
     'invite_code' => 'Invite code',
