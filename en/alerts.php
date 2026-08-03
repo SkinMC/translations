@@ -86,19 +86,23 @@ return [
     'support_ticket' => [
         'created' => [
             'title' => 'We received your support ticket #:id',
-            'text' => 'Your ticket ":subject" is now in the support queue.',
+            'text' => 'Support ticket #:id is now in the support queue.',
         ],
         'staff_reply' => [
             'title' => 'New reply on support ticket #:id',
-            'text' => 'SkinMC Support replied to ":subject".',
+            'text' => 'SkinMC Support replied to ticket #:id.',
         ],
         'resolved' => [
             'title' => 'Support ticket #:id was resolved',
-            'text' => 'Your ticket ":subject" has been marked resolved.',
+            'text' => 'Support ticket #:id has been marked resolved.',
         ],
         'reopened' => [
             'title' => 'Support ticket #:id was reopened',
-            'text' => 'Your ticket ":subject" has been reopened.',
+            'text' => 'Support ticket #:id has been reopened.',
+        ],
+        'updated' => [
+            'title' => 'Support ticket update',
+            'text' => 'Your support ticket status was updated.',
         ],
     ],
     'server' => [

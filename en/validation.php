@@ -96,6 +96,7 @@ return [
     'not_regex' => 'The :attribute format is invalid.',
     'numeric' => 'The :attribute must be a number.',
     'password' => 'The password is incorrect.',
+    'password_max_bytes' => 'The :attribute must not exceed :max bytes.',
     'present' => 'The :attribute field must be present.',
     'regex' => 'The :attribute format is invalid.',
     'required' => 'The :attribute field is required.',
