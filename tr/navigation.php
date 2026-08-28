@@ -24,14 +24,14 @@ return [
     'generators' => 'Oluşturucular',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
-    'discover' => 'Discover',
-    'mods' => 'Mods',
-    'shaders' => 'Shaders',
-    'resource_packs' => 'Resource Packs',
-    'modpacks' => 'Modpacks',
-    'datapacks' => 'Data Packs',
-    'plugins' => 'Plugins',
+    'feed' => 'Akış',
+    'discover' => 'Keşfet',
+    'mods' => 'Modlar',
+    'shaders' => 'Shaderlar',
+    'resource_packs' => 'Kaynak Paketleri',
+    'modpacks' => 'Mod Paketleri',
+    'datapacks' => 'Veri Paketleri',
+    'plugins' => 'Eklentiler',
 
     'logout' => 'Çıkış',
     'register' => 'Kaydol',
@@ -78,8 +78,8 @@ return [
     'app' => 'Uygulama',
     'mod' => 'Mod',
     'totem' => 'Totemler',
-    'cube' => 'Cube',
-    'new' => 'New',
+    'cube' => 'Küp',
+    'new' => 'Yeni',
 
     'boards' => 'Boards',
     'boards_subtitle' => 'Your saved collections',
@@ -94,9 +94,9 @@ return [
 
     // Autocomplete types
     'autocomplete' => [
-        'profile' => 'Profile',
-        'server' => 'Server',
-        'project' => 'Project',
+        'profile' => 'Profil',
+        'server' => 'Sunucu',
+        'project' => 'Proje',
         'skin_tag' => 'Skin Tag',
         'server_category' => 'Server Category',
         'modrinth_category' => 'Project Category',
