@@ -18,6 +18,7 @@ return [
     'banners' => 'Stendardi',
     'banner' => 'Editor Di Banner',
     'banner_gallery' => 'Galleria Stendardi',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Profilo personale',
     'wallpapers' => 'Sfondi',
 
