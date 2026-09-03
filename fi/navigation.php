@@ -18,6 +18,7 @@ return [
     'banners' => 'Bannerit',
     'banner' => 'Bannerin Muokkaaja',
     'banner_gallery' => 'Banneri Galleria',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Profiilini',
     'wallpapers' => 'Wallpapers',
 
