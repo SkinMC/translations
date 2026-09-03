@@ -18,6 +18,7 @@ return [
     'banners' => '旗帜',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => '个人资料',
     'wallpapers' => '壁纸',
 
