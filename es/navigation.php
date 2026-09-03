@@ -18,6 +18,7 @@ return [
     'banners' => 'Estandartes',
     'banner' => 'Editor de Estandartes',
     'banner_gallery' => 'Galería de Estandartes',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Mi perfil',
     'wallpapers' => 'Fondos de pantalla',
 
