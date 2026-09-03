@@ -18,6 +18,7 @@ return [
     'banners' => 'Banery',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Mój profil',
     'wallpapers' => 'Wallpapers',
 
