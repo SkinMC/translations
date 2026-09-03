@@ -18,6 +18,7 @@ return [
     'banners' => '배너',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => '내 프로필',
     'wallpapers' => 'Wallpapers',
 
