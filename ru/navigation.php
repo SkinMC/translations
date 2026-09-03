@@ -18,6 +18,7 @@ return [
     'banners' => 'Баннеры',
     'banner' => 'Редактор флагов',
     'banner_gallery' => 'Галерея баннеров',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Мой профиль',
     'wallpapers' => 'Обои',
 
