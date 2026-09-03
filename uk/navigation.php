@@ -18,6 +18,7 @@ return [
     'banners' => 'Стяги',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Мій профіль',
     'wallpapers' => 'Wallpapers',
 
