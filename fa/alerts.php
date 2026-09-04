@@ -79,13 +79,13 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
+            'title' => 'عضو دیسکورد شوید',
             'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
+            'title' => 'نظر جدید در :server',
             'text' => 'Your listing ":server" received a new review (:rating/5).',
         ],
         'low_rating' => [

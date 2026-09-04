@@ -27,8 +27,8 @@ return [
         // Stripes
         'bs' => 'Schildvoet',           // stripe_bottom
         'ts' => 'Schildhoofd',         // stripe_top
-        'ls' => 'Rechterpaal',   // stripe_left
-        'rs' => 'Linkerpaal', // stripe_right
+        'ls' => 'Linkerpaal',   // stripe_left
+        'rs' => 'Rechterpaal', // stripe_right
         'cs' => 'Paal',          // stripe_center
         'ms' => 'Dwarsbalk',          // stripe_middle
         'drs' => 'Rechterschuinbalk',         // stripe_downright

@@ -47,7 +47,7 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
+            'title' => 'הודעה חדשה',
             'text' => ':user sent you a message.',
         ],
     ],

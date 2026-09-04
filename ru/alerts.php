@@ -47,8 +47,8 @@ return [
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Новое сообщение',
+            'text' => ':user отправил вам сообщение.',
         ],
     ],
     'level' => [
@@ -66,7 +66,7 @@ return [
     'report' => [
         'created' => [
             'title' => 'Мы получили вашу жалобу! (Номер :id)',
-            'text' => 'Ваша жалоба сформирована и наша команда рассмотрит её в ближайшее время.',
+            'text' => 'Ваша жалоба сформирована и наша команда рассмотрит её в ближайшее время. ',
         ],
         'resolved' => [
             'title' => 'Ваша жалоба под номером :id рассмотрена',
@@ -79,8 +79,8 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Присоединиться к Discord',
+            'text' => 'Привет! Вас приглашают присоединиться к серверу Discord SkinMC.',
         ],
     ],
     'server' => [
@@ -136,8 +136,8 @@ return [
     ],
     'wallpaper' => [
         'challenge_winner' => [
-            'title' => 'Wallpaper challenge winner',
-            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+            'title' => 'Победитель конкурса обоев',
+            'text' => 'Ваши обои ":title" были выбраны победителем за :month.',
         ],
     ],
     'streak' => [

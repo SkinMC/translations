@@ -18,6 +18,7 @@ return [
     'banners' => 'באנרים',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'הפרופיל שלי',
     'wallpapers' => 'Wallpapers',
 
@@ -26,7 +27,7 @@ return [
     // Navigation dropdowns
     'feed' => 'Feed',
     'discover' => 'Discover',
-    'mods' => 'Mods',
+    'mods' => 'מודים',
     'shaders' => 'Shaders',
     'resource_packs' => 'Resource Packs',
     'modpacks' => 'Modpacks',
@@ -103,7 +104,7 @@ return [
     ],
 
     'theme' => [
-        'title' => 'Theme',
+        'title' => 'ערכת נושא',
         'dark' => 'כהה',
         'light' => 'בהיר',
         'auto' => 'Auto',

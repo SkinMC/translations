@@ -18,6 +18,7 @@ return [
     'banners' => 'البنرات',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'ملفي الشخصي',
     'wallpapers' => 'Wallpapers',
 
