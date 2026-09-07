@@ -2,6 +2,7 @@
 
 return [
     'browse' => '浏览',
+    'download_on_modrinth' => 'Download on Modrinth',
 
     // Types
     'types' => [
