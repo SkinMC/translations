@@ -69,7 +69,7 @@ return [
             'clear_winner' => '清除获胜者',
             'winner_unavailable' => '所选壁纸不可用。',
             'display_month' => '显示月份: :month',
-            'choose_from_shortlist' => '从下面的快捷列表中选择一个壁纸。',
+            'choose_from_shortlist' => '从下面的候选名单中选择一张壁纸。',
             'recent_changes' => '最近变化',
             'action_replaced' => '已替换的获胜者',
             'action_set' => '设置获胜者',
