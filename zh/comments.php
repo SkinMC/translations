@@ -20,7 +20,7 @@ return [
     'sr-only' => '跳转到评论 :comment_id。',
     'reply' => '回复',
     'share' => '分享',
-    'tweet' => '发布到Tweeter',
+    'tweet' => '发布到Twitter',
     'copy' => '复制链接',
     'more' => '更多',
     'report' => '举报',
