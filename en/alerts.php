@@ -83,6 +83,28 @@ return [
             'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
         ],
     ],
+    'support_ticket' => [
+        'created' => [
+            'title' => 'We received your support ticket #:id',
+            'text' => 'Support ticket #:id is now in the support queue.',
+        ],
+        'staff_reply' => [
+            'title' => 'New reply on support ticket #:id',
+            'text' => 'SkinMC Support replied to ticket #:id.',
+        ],
+        'resolved' => [
+            'title' => 'Support ticket #:id was resolved',
+            'text' => 'Support ticket #:id has been marked resolved.',
+        ],
+        'reopened' => [
+            'title' => 'Support ticket #:id was reopened',
+            'text' => 'Support ticket #:id has been reopened.',
+        ],
+        'updated' => [
+            'title' => 'Support ticket update',
+            'text' => 'Your support ticket status was updated.',
+        ],
+    ],
     'server' => [
         'review_received' => [
             'title' => 'New review on :server',
