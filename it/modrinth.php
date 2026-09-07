@@ -2,6 +2,7 @@
 
 return [
     'browse' => 'Sfoglia',
+    'download_on_modrinth' => 'Download on Modrinth',
 
     // Types
     'types' => [
