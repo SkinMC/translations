@@ -642,7 +642,7 @@ return [
             'banner_give_command' => 'Команда для выдачи баннера',
             'setblock_command' => 'Комманда для установки баннера как блок',
             'shield_give_command' => 'Команда для выдачи щита с баннером',
-            'views_count' => ':count просмотр|:count просмотров',
+            'views_count' => ':count просмотр|:count просмотра|:count просмотров',
             'favourites_count' => ':count избранных|:count избранных',
             'favourite_label' => 'избранное',
             'favourites_label' => 'избранные',
