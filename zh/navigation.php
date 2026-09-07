@@ -18,13 +18,14 @@ return [
     'banners' => '旗帜',
     'banner' => 'Banner Editor',
     'banner_gallery' => 'Banner Gallery',
+    'cape_editor' => 'Cape Editor',
     'profile' => '个人资料',
-    'wallpapers' => 'Wallpapers',
+    'wallpapers' => '壁纸',
 
     'generators' => '生成器',
 
     // Navigation dropdowns
-    'feed' => 'Feed',
+    'feed' => '订阅',
     'discover' => 'Discover',
     'mods' => 'Mods',
     'shaders' => 'Shaders',
@@ -106,8 +107,8 @@ return [
         'title' => 'Theme',
         'dark' => '暗色模式',
         'light' => '亮色模式',
-        'auto' => 'Auto',
+        'auto' => '自动',
     ],
 
-    'language' => 'Language',
+    'language' => '语言',
 ];

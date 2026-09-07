@@ -18,6 +18,7 @@ return [
     'banners' => 'Banieren',
     'banner' => 'Banier Editor',
     'banner_gallery' => 'Banier Galerij',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Mijn profiel',
     'wallpapers' => 'Achtergronden',
 

@@ -23,12 +23,12 @@ return [
             'text' => ':kullanıcı :model yorumuna cevap verdi',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'title' => 'Yeni bahsetme',
+            'text' => ':user bir yorumda senden bahsetti!',
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'title' => 'Yorum beğenildi',
+            'text' => ':user yorumunu beğendi!',
         ],
     ],
     'post' => [
@@ -41,14 +41,14 @@ return [
             'text' => ':kullanıcı gönderisinde senden bahsetti!',
         ],
         'repost' => [
-            'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'title' => 'Yeniden paylaşım',
+            'text' => ':user gönderini yeniden paylaştı!',
         ],
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => 'Yeni mesaj',
+            'text' => ':user sana bir mesaj gönderdi.',
         ],
     ],
     'level' => [
@@ -59,8 +59,8 @@ return [
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => 'Bir panoya eklendi',
+            'text' => ':user seni ":board" panosuna katkıda bulunan olarak ekledi.',
         ],
     ],
     'report' => [
@@ -79,72 +79,72 @@ return [
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Discord\'a katıl',
+            'text' => 'Selam, SkinMC Discord sunucusuna davetlisin.',
         ],
     ],
     'server' => [
         'review_received' => [
-            'title' => 'New review on :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'title' => ':server üzerinde yeni inceleme',
+            'text' => ':server" ilanınız yeni bir inceleme aldı (:rating/5).',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => ':server için puan düştü',
+            'text' => ':reviews inceleme genelinde ortalama puanınız şu anda :rating/5. Analizler bölümündeki geri bildirimleri gözden geçirmeyi düşünün.',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => 'Oy hedef zincirine ulaşıldı',
+            'text' => ':server son 30 günde :votes oya ulaştı.',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => ':server onaylandı',
+            'text' => 'İlanınız incelemeyi geçti ve tüm gereksinimler karşılandığında yayına girmeye hak kazandı.',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => ':server güncelleme gerektiriyor',
+            'text' => 'İlanınız onaylı durumdan çıkarıldı. İlan detaylarınızı inceleyin ve gerektiği şekilde güncelleyin.',
         ],
         'published' => [
-            'title' => ':server is now live',
-            'text' => 'Your listing is published and visible on the server list.',
+            'title' => ':server artık yayında',
+            'text' => 'İlanınız yayınlandı ve sunucu listesinde görünür durumda.',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => ':server yayından kaldırıldı',
+            'text' => 'İlanınız artık herkese açık olarak görünmüyor. Kontrol panelinizden ilan durumunu gözden geçirin.',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => ':server artık doğrulandı',
+            'text' => 'İlanınız bir doğrulama rozeti aldı.',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => ':server için fotoğraf gereksinimi tamamlandı',
+            'published_text' => 'Artık en az 5 görseliniz var ve ilanınız tekrar yayında.',
+            'pending_text' => 'Artık en az 5 görseliniz var. İlanınız moderasyon için hazır.',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'title' => ':server için daha fazla fotoğraf ekle',
+            'text' => 'İlanınızın en az :minimum fotoğrafa ulaşması ve yayınlanabilir kalması için :remaining fotoğraf(lar) daha gerekiyor.',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'title' => 'Sunucu ilanınızda hâlâ fotoğraf yok',
+            'text' => 'Güvenilirliği artırmak ve ilanınızı yayınlanmaya yaklaştırmak için en az 5 fotoğraf ekleyin.',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'title' => 'İlanınız hâlâ inceleme bekliyor',
+            'text' => 'İlanınız bir süredir beklemede. İncelemenin sorunsuz ilerlemesine yardımcı olmak için detayları ve fotoğrafları tekrar kontrol edin.',
         ],
     ],
     'wallpaper' => [
         'challenge_winner' => [
-            'title' => 'Wallpaper challenge winner',
-            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+            'title' => 'Duvar kağıdı yarışması kazananı',
+            'text' => '":title" başlıklı duvar kağıdınız :month ayı için kazanan seçildi.',
         ],
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => ':days günlük seriniz riskte',
+            'text_send_now' => 'Serinizi devam ettirmek için gece yarısından (UTC) önce bir mesaj gönderin.',
+            'text_waiting_other' => 'Bugün yanıt verdiniz. Serinizi korumak için gece yarısından (UTC) önce hâlâ geri bir yanıta ihtiyacınız var.',
         ],
     ],
 ];

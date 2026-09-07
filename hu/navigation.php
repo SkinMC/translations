@@ -18,6 +18,7 @@ return [
     'banners' => 'Zászlók',
     'banner' => 'Zászló szerkesztő',
     'banner_gallery' => 'Zászéó galéria',
+    'cape_editor' => 'Cape Editor',
     'profile' => 'Profilom',
     'wallpapers' => 'Wallpapers',
 
