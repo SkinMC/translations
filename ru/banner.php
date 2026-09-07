@@ -77,13 +77,13 @@ return [
         'gru' => 'Градиент основания', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Заряд крипера', // creeper
-        'sku' => 'Заряд черепа',   // skull
-        'flo' => 'Цветочный заряд', // flower
+        'cre' => 'Крипер', // creeper
+        'sku' => 'Череп',   // skull
+        'flo' => 'Цветок', // flower
         'moj' => 'Нечто',         // mojang
         'glb' => 'Глобус',         // globe
         'pig' => 'Рыло',         // piglin
-        'flow' => 'Цвветок',
+        'flow' => 'Поток',
         'guster' => 'Порыв ветра',
     ],
 ];
