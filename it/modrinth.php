@@ -2,6 +2,16 @@
 
 return [
     'browse' => 'Sfoglia',
+    'connect_account' => 'Connect Modrinth',
+    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
+    'connection_saved' => 'Your Modrinth account is now connected.',
+    'connection_removed' => 'Your Modrinth account connection has been removed.',
+    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
+    'connection_cancelled' => 'Modrinth connection cancelled.',
+    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
+    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
+    'view_skinmc_profile' => 'View SkinMC profile',
+    'close' => 'Close',
     'download_on_modrinth' => 'Download on Modrinth',
 
     // Types
