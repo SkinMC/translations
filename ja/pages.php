@@ -2683,6 +2683,18 @@ return [
             'week' => 'For 1 week',
             'forever' => 'Until I turn them on',
         ],
+        'notifications' => [
+            'sound' => 'Message sounds',
+            'sound_help' => 'Play sounds for new unread conversations, sent messages, and messages received in your open chat.',
+            'saved_on_browser' => 'Saved for this account on this browser.',
+            'saved_for_page' => 'Applies until you reload this page.',
+            'test_sound' => 'Preview sounds',
+            'preview_notification' => 'Notification',
+            'preview_sent' => 'Sent',
+            'preview_received' => 'Received',
+            'unread_conversations' => ':count unread conversations',
+            'unread_conversations_one' => ':count unread conversation',
+        ],
         'groups' => [
             'new' => 'New group',
             'default_name' => 'Group',
