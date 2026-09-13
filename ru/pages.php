@@ -2645,6 +2645,14 @@ return [
         'empty-subtitle' => 'Добавьте его первыми',
     ],
     'inbox' => [
+        'dock' => [
+            'use_sidebar' => 'Use chat sidebar',
+            'open_full_page' => 'Open full messages page',
+            'close' => 'Close chat',
+            'resize' => 'Resize chat sidebar',
+            'load_error' => 'Chat could not be loaded.',
+            'loading' => 'Loading messages…',
+        ],
         'tools' => [
             'deleted_message' => 'Message deleted',
             'edited' => 'Edited',
