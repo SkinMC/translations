@@ -16,9 +16,9 @@ return [
     'achievement' => 'Achievement',
     'armor' => 'Supporto per armature',
     'banners' => 'Stendardi',
-    'banner' => 'Editor Di Banner',
+    'banner' => 'Editor di Banner',
     'banner_gallery' => 'Galleria Stendardi',
-    'cape_editor' => 'Cape Editor',
+    'cape_editor' => 'Editor di Mantelli',
     'profile' => 'Profilo personale',
     'wallpapers' => 'Sfondi',
 
