@@ -2,7 +2,7 @@
 
 return [
     'title' => 'Account bloccati',
-    'description' => 'Gestisci gli account bloccati. Solo tu puoi vedere questa lista.',
+    'description' => 'Manage the accounts you have blocked.',
     'empty_page' => 'Nessun account bloccato rimane su questa pagina.',
     'empty' => 'Non hai bloccato alcun account.',
     'block' => 'Blocca :username',
@@ -14,9 +14,8 @@ return [
     'cancel' => 'Annulla',
     'block_description' => 'You won’t see each other’s posts or be able to message or follow each other. You’ll both be removed from each other’s followers. You can unblock them in settings.',
     'groups_description' => 'Nei gruppi condivisi, resterete membri ma non vedrete i rispettivi messaggi o riceverete notifiche gli uni dagli altri.',
-    'public_description' => 'I post pubblici e i dati di Minecraft rimangono accessibili una volta disconnessi.',
     'blocked' => 'Account bloccato.',
-    'unblocked' => 'Account unblocked. Following has not been restored.',
+    'unblocked' => 'Account unblocked.',
     'error' => 'La modifica non può essere salvata. Riprova.',
     'saving' => 'Salvataggio in corso…',
     'unavailable' => 'Questa interazione non è disponibile.',
