@@ -2,7 +2,7 @@
 
 return [
     'title' => 'Blocked accounts',
-    'description' => 'Manage the accounts you have blocked. Only you can see this list.',
+    'description' => 'Manage the accounts you have blocked.',
     'empty_page' => 'No blocked accounts remain on this page.',
     'empty' => 'You haven’t blocked any accounts.',
     'block' => 'Block :username',
@@ -14,9 +14,8 @@ return [
     'cancel' => 'Cancel',
     'block_description' => 'You won’t see each other’s posts or be able to message or follow each other. You’ll both be removed from each other’s followers. You can unblock them in settings.',
     'groups_description' => 'In shared groups, you’ll stay members but won’t see each other’s messages or receive notifications from each other.',
-    'public_description' => 'Public posts and Minecraft data remain accessible when signed out.',
     'blocked' => 'Account blocked.',
-    'unblocked' => 'Account unblocked. Following has not been restored.',
+    'unblocked' => 'Account unblocked.',
     'error' => 'Your change couldn’t be saved. Please try again.',
     'saving' => 'Saving…',
     'unavailable' => 'This interaction is unavailable.',
