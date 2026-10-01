@@ -1379,7 +1379,7 @@ return [
                 'helpers' => 'Aiuti per il disegno',
                 'mirror' => 'Specchia',
                 'mirror_aria' => 'Mirror drawing across cape and elytra faces (M)',
-                'color_picker' => 'Apri il contagocce',
+                'color_picker' => 'Apri il selettore di colore',
                 'brush_size' => 'Dimensione pennello',
             ],
             'canvas' => [
@@ -1407,7 +1407,7 @@ return [
             ],
             'panels' => [
                 'drag' => 'Trascina :panel',
-                'return' => 'Rilascia :pannello nella barra laterale',
+                'return' => 'Rilascia :panel nella barra laterale',
                 'return_title' => 'Return to sidebar',
                 'collapse' => 'Collapse :panel panel',
                 'collapse_title' => 'Collapse panel',
