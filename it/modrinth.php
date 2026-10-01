@@ -2,17 +2,17 @@
 
 return [
     'browse' => 'Sfoglia',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => 'Connetti Modrinth',
+    'connect_description' => 'Collega il tuo account Modrinth per visualizzarlo sul tuo profilo e collega i progetti al tuo profilo Minecraft. Sarai portato a Modrinth per confermare la proprietà.',
+    'connection_saved' => 'Il tuo account Modrinth è ora connesso.',
+    'connection_removed' => 'La connessione al tuo account Modrinth è stata rimossa.',
+    'connection_failed' => 'Non è stato possibile collegare il tuo account Modrinth. Riprova.',
+    'connection_cancelled' => 'Connessione Modrinth annullata.',
+    'connection_unavailable' => 'Le connessioni dell\'account Modrinth non sono attualmente disponibili. Riprova più tardi.',
+    'connection_taken' => 'Questo account Modrinth è già connesso ad un altro account SkinMC.',
+    'view_skinmc_profile' => 'Visualizza il profilo SkinMC',
+    'close' => 'Chiudi',
+    'download_on_modrinth' => 'Scarica su Modrinth',
 
     // Types
     'types' => [
