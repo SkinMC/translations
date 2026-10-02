@@ -2,8 +2,8 @@
 
 return [
     'security' => [
-        'title' => 'Security and safety',
-        'description' => 'Manage your login, message permissions and blocked accounts.',
-        'messaging' => 'Messages and invitations',
+        'title' => 'Безопасность и защита',
+        'description' => 'Управляйте входом в аккаунт, разрешениями на сообщения и заблокированными аккаунтами.',
+        'messaging' => 'Сообщения и приглашения',
     ],
 ];
