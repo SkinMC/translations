@@ -2,17 +2,17 @@
 
 return [
     'browse' => 'Просмотр',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => 'Привязать Modrinth',
+    'connect_description' => 'Привяжите свой аккаунт Modrinth, чтобы отображать его в профиле и связать свои проекты с профилем Minecraft. Для подтверждения владения вы будете перенаправлены на Modrinth.',
+    'connection_saved' => 'Ваш аккаунт Modrinth успешно привязан.',
+    'connection_removed' => 'Аккаунт Modrinth отвязан.',
+    'connection_failed' => 'Не удалось привязать ваш аккаунт Modrinth. Пожалуйста, повторите попытку.',
+    'connection_cancelled' => 'Подключение Modrinth отменено.',
+    'connection_unavailable' => 'Привязка аккаунта Modrinth в настоящее время недоступна. Пожалуйста, повторите попытку позже.',
+    'connection_taken' => 'Данный аккаунт Modrinth уже привязан к другому аккаунту SkinMC.',
+    'view_skinmc_profile' => 'Просмотр SkinMC профиля',
+    'close' => 'Закрыть',
+    'download_on_modrinth' => 'Скачать на Modrinth',
 
     // Types
     'types' => [
@@ -20,7 +20,7 @@ return [
         'shader' => 'Шейдеры',
         'resourcepack' => 'Наборы ресурсов',
         'modpack' => 'Модпаки',
-        'datapack' => 'Набор ресурсов',
+        'datapack' => 'Дата Паки',
         'plugin' => 'Плагины',
     ],
 
