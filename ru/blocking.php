@@ -22,8 +22,8 @@ return [
     'content_unavailable' => 'Этот контент недоступен.',
     'profile_blocked' => 'Вы заблокировали :username.',
     'profile_unavailable' => 'Социальный контент этого аккаунта недоступен.',
-    'conversation_unavailable' => 'Messaging is unavailable for this conversation. Your previous messages are still here for reference and reporting.',
+    'conversation_unavailable' => 'Отправка сообщений в этой беседе недоступна. Ваши прежние сообщения по-прежнему здесь их можно просмотреть и пожаловаться на них.',
     'blocked_on' => 'Заблокирован :date',
     'back_settings' => 'Назад к настройкам',
-    'shared_group_notice' => 'This group includes an account you can’t interact with. Their messages and notifications will be hidden. Group membership remains visible.',
+    'shared_group_notice' => 'В этой группе есть аккаунт, с которым вы не можете взаимодействовать. Его сообщения и уведомления будут скрыты. Участие в группе остаётся видимым.',
 ];
