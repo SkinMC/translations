@@ -50,6 +50,10 @@ return [
             'title' => 'Nuovo messaggio',
             'text' => ':user ti ha inviato un messaggio.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
