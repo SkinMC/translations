@@ -67,6 +67,12 @@ return [
             'text' => ':user heeft je als partner toegevoegd aan het board ":board".',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => 'We hebben uw rapport ontvangen! (Zaak :id)',
