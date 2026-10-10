@@ -1833,6 +1833,12 @@ return [
     'editor' => [
         'import' => [
             'title' => '导入皮肤',
+            'destination' => 'Import to',
+            'this_skin' => 'This skin',
+            'new_skin' => 'New skin',
+            'import_layer' => 'Import a skin layer',
+            'destination_help' => 'Adds a new layer on top. Drag layers to change their order. .skinmc projects always open as a new file.',
+            'target_changed' => 'The active skin changed. Open Import in the skin you want to add to and try again.',
             'import_by_username' => '通过用户名导入',
             'import_button' => '导入',
             'drag' => '拖放皮肤到此处，或点击',
@@ -2109,8 +2115,6 @@ return [
             'visible_parts' => 'Visible model parts',
             'new_layer' => 'Layer :number',
             'skin_layer' => 'Skin',
-            'layer_count_one' => ':count layer',
-            'layer_count_many' => ':count layers',
             'hide_layer' => 'Hide :name',
             'show_layer' => 'Show :name',
             'select_layer' => 'Edit :name',
