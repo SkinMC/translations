@@ -67,6 +67,12 @@ return [
             'text' => ':user te agregó como colaborador al tablero ":board".',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => '¡Hemos recibido tu informe! (Caso :id)',
