@@ -67,6 +67,12 @@ return [
             'text' => ':user seni ":board" panosuna katkıda bulunan olarak ekledi.',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => 'Raporunuzu aldık! (Vaka :id)',
