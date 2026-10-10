@@ -1833,6 +1833,12 @@ return [
     'editor' => [
         'import' => [
             'title' => 'Importa Skin',
+            'destination' => 'Import to',
+            'this_skin' => 'This skin',
+            'new_skin' => 'New skin',
+            'import_layer' => 'Import a skin layer',
+            'destination_help' => 'Adds a new layer on top. Drag layers to change their order. .skinmc projects always open as a new file.',
+            'target_changed' => 'The active skin changed. Open Import in the skin you want to add to and try again.',
             'import_by_username' => 'Importa per nome utente',
             'import_button' => 'Importa',
             'drag' => 'Trascina e rilascia qui un tema, o fai clic',
@@ -2109,8 +2115,6 @@ return [
             'visible_parts' => 'Visible model parts',
             'new_layer' => 'Layer :number',
             'skin_layer' => 'Skin',
-            'layer_count_one' => ':count layer',
-            'layer_count_many' => ':count layers',
             'hide_layer' => 'Hide :name',
             'show_layer' => 'Show :name',
             'select_layer' => 'Edit :name',
