@@ -67,6 +67,12 @@ return [
             'text' => ':пользователь добавил вас в качестве соавтора на доску «:board».',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => 'Мы получили вашу жалобу! (Номер :id)',
