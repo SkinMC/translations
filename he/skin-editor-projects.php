@@ -44,6 +44,8 @@ return [
     'invitations_empty' => 'No invitations right now',
     'invitations_empty_help' => 'Invitations to edit a skin together will appear here.',
     'community' => 'Community',
+    'publish_base' => 'Publish skin base',
+    'publish_base_help' => 'Share reusable clothing, hair or accessories that others can add to their skins.',
     'publish_community' => 'Publish to community',
     'update_community' => 'Update community skin',
     'publish_community_help' => 'Share your finished skin in the public gallery.',
