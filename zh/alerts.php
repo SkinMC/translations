@@ -67,6 +67,12 @@ return [
             'text' => ':user 将您作为合作者添加到了看板":board"中。',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => '我们已收到您的举报！ (案件:id)',
