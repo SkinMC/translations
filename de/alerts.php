@@ -67,6 +67,12 @@ return [
             'text' => ':user wurde zum Mitgestalten des Boards „:board“ hinzugefügt.',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => 'Wir haben deinen Bericht erhalten (Case :id)',
