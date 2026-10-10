@@ -67,6 +67,12 @@ return [
             'text' => ':user ti ha aggiunto come collaboratore alla bacheca ":board".',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => 'Abbiamo ricevuto il tuo report! (Caso :id)',
