@@ -1935,7 +1935,7 @@ return [
             'import_file_types' => 'PNG, JPG or .skinmc project.',
             'choose_import_file' => 'Choose file',
             'project_description' => 'Keep layers, names and the model editable in a .skinmc project. Open it here to continue editing.',
-            'png_description' => 'Download a Minecraft PNG of the visible layers. Editable layers are preserved in a project backup.',
+            'png_description' => 'Download a Minecraft PNG of the visible layers or publish.',
             'view2d' => '2D view',
             'view3d' => '3D view',
             'fit_view' => 'Fit / reset view',
