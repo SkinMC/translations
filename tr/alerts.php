@@ -50,6 +50,10 @@ return [
             'title' => 'Yeni mesaj',
             'text' => ':user sana bir mesaj gönderdi.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
@@ -61,6 +65,12 @@ return [
         'collaborator_added' => [
             'title' => 'Bir panoya eklendi',
             'text' => ':user seni ":board" panosuna katkıda bulunan olarak ekledi.',
+        ],
+    ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
         ],
     ],
     'report' => [

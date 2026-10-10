@@ -50,6 +50,10 @@ return [
             'title' => '新消息',
             'text' => ':user 向您发送了一条消息。',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
@@ -61,6 +65,12 @@ return [
         'collaborator_added' => [
             'title' => '已添加到看板',
             'text' => ':user 将您作为合作者添加到了看板":board"中。',
+        ],
+    ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
         ],
     ],
     'report' => [

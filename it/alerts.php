@@ -50,6 +50,10 @@ return [
             'title' => 'Nuovo messaggio',
             'text' => ':user ti ha inviato un messaggio.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
@@ -61,6 +65,12 @@ return [
         'collaborator_added' => [
             'title' => 'Aggiunto ad una bacheca',
             'text' => ':user ti ha aggiunto come collaboratore alla bacheca ":board".',
+        ],
+    ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
         ],
     ],
     'report' => [

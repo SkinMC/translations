@@ -50,6 +50,10 @@ return [
             'title' => 'Новое сообщение',
             'text' => ':user отправил вам сообщение.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
@@ -61,6 +65,12 @@ return [
         'collaborator_added' => [
             'title' => 'Добавлено на доску',
             'text' => ':пользователь добавил вас в качестве соавтора на доску «:board».',
+        ],
+    ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
         ],
     ],
     'report' => [
