@@ -67,6 +67,12 @@ return [
             'text' => ':user added you as a collaborator to the board ":board".',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
             'title' => 'Hozzánk került a bejelentésed! (Ügy :id)',
