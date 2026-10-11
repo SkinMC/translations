@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Arama sonuçlarının numaralandırılması',
+    'title' => 'Result pages',
     'previous' => 'Önceki',
     'next' => 'Sonraki',
     'Showing' => 'Showing',
