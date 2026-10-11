@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Nieuwe volger',
-        'text' => ':user volgt je nu!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model comment',
-            'text' => ':user Heeft een comment geplaatst op je :model',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Reageer op :model comment',
-            'text' => ':user antwoordde op een :model comment',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'Nieuwe vermelding',
-            'text' => ':user heeft je genoemd in een reactie!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Reactie geliked',
-            'text' => ':user heeft je comment geliked',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Like gekregen',
-            'text' => ':user heeft je post geliked!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Nieuwe vermelding',
-            'text' => ':user noemde je in zijn/haar bericht!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Herplaats',
-            'text' => ':user heeft je post herplaatst!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'Je bent een level omhoog gegaan!',
+            'title' => 'You levelled up!',
             'text' => 'Gefeliciteerd met het bereiken van level :level!',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'We hebben uw rapport ontvangen! (Zaak :id)',
-            'text' => 'Ons team is ermee bezig en zal er direct naar kijken. Thx voor geweldig zijn en ons helpen!',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'We hebben uw rapport beoordeeld (Zaak :id)',
-            'text' => 'Het gerapporteerde probleem is geregeld en is nu opgelost. Bedankt met een superheld van onze community te zijn!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Update van uw gerapporteerde probleem (Zaak :id)',
-            'text' => 'Na wat detective werk hebben we ontdekt dat de inhoud die je had gerapporteerd niet in strijd is met onze richtlijnen. Als je wilt dat we iets specifieks bekijken, zorg er dan voor dat u de skin, profiel, etc. rapporteert en aanvullende context geeft wanneer dat nodig is. Bedankt voor uw zorgen en betrokkenheid bij onze community!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join de Discord',
-            'text' => 'Hey daar, je bent uitgenodigd om de SkinMC Discord server te joinen',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Voeg meer foto\'s toe aan :server',
-            'text' => 'Je listing heeft nog :remaining foto(s) nodig om het minimum van :minimum te bereiken en online te blijven',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Je server listing heeft nog steeds geen foto\'s',
-            'text' => 'Voeg op zijn minst 5 foto\'s toe om vertrouwen te vergroten en je aanvraag naar publicatie',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Je aanvraag wacht nog steeds op review',
-            'text' => 'Je listing is al een tijdje in de wacht. Controleer de foto\'s nog een keer om de beoordeling soepel te laten verlopen.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
