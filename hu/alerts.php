@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Új követő',
-        'text' => ':user követ téged!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => 'Hozzászólás ehhez: :model',
-            'text' => ':user hozzászólt a :model -led hez.',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Új válasz ennél: :model',
-            'text' => ':user válaszolt a hozzászólásodra ezen: :model',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Hozzászólás kedvelve',
-            'text' => ':user: kedveli a hozzászólásod!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Kedvelést szereztél',
-            'text' => ':user kedvelte a bejegyzésedet!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Új említés',
-            'text' => ':user megemlített Téged!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Újraposztolás',
-            'text' => ':user: újraposztolta a posztod!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'Szintet léptél!',
+            'title' => 'You levelled up!',
             'text' => 'Gratulálunk a(z) :level:. szint eléréséhez!',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'Hozzánk került a bejelentésed! (Ügy :id)',
-            'text' => 'A csapatunk dolgozik rajta, és azonnal vet egy pillantást a problémádra. Köszönjük hogy ilyen király és fantasztikus vagy hogy segítesz nekünk nyugisan tartani a dolgokat! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Megnéztük a jelentésedet (Ügy :id)',
-            'text' => 'Üdv, a bejelentett problémáról már gondoskodtunk, és szortíroztuk. Köszönjük hogy a szuperhőse vagy a közösségünknek!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Az ügyed frissítve lett (Ügy :id)',
-            'text' => 'Egy kis kutatómunka után megtaláltuk hogy a probléma amit bejelentettél nem megy szembe a szabályainkkal. Ha szeretnéd hogy valami specifikusba nézzünk bele, kérlek bizonyosodj meg róla hogy a skin-t, profilt, stb. amikor bejelented, írj mellé részletesebb információt ha kell. Köszönjük hogy érdekel hogy mi történik a közösségünkben!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
