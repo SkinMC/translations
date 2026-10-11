@@ -31,7 +31,7 @@ return [
             'username' => 'Kullanıcı Adı',
             'email' => 'E-Posta',
             'status' => 'İstatistikler',
-            'role' => 'Rol'
+            'role' => 'Rol',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Şikayetler',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Akış gönderileri',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Silinmiş yorumlar',
             'subtitle' => ':silinmiş toplam yorumları say',
-        ]
-    ]
+        ],
+    ],
 ];
