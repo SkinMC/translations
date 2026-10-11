@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Uusi seuraaja',
-        'text' => ':user seuraa nyt sinua!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model kommentti',
-            'text' => ':user teki kommentin sinun :model',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Vastaa :model kommentilla',
-            'text' => ':user vastasi :model kommenttiin',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Tykätty kommentti',
-            'text' => ':user tykkäsi kommentistasi!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Tykkäys vastaanotettu',
-            'text' => ':user tykkäsi julkaisustasi!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Uusi maininta',
-            'text' => ':user mainitsi sinut heidän julkaisussaan!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Uudelleenjulkaise',
-            'text' => ':user uudelleenjulkaisi julkaisusi!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'Olet noussut seuraavalle tasolle!',
+            'title' => 'You levelled up!',
             'text' => 'Onnittelut tason :level saavuttamisesta!',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'Olemme vastaanottaneet raporttisi! (Tapaus :id)',
-            'text' => 'Tiimimme tutkii asiaa välittömästi. Kiitos, että olet mahtava ja autat meitä pitämään asiat rauhallisina! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Olemme tarkastaneet raporttisi! (Tapaus :id)',
-            'text' => 'Hei siellä, raportoitu asia on hoidettu ja on nyt selvitetty. Kiitos, että olet yhteisömme supersankari!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Pävitys raporttiisi! (Tapaus :id)',
-            'text' => 'Tutkimustyön jälkeen olemme havainneet, että ilmoittamasi sisältö ei ole ohjeidemme vastaista. Jos haluat, että tarkistamme jotain tiettyä asiaa, varmista, että ilmoitat skinin, profiilin jne. ja annat tarvittaessa lisätietoja. Kiitos huolenpidostasi ja osallistumisestasi yhteisöömme!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
