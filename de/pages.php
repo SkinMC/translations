@@ -2887,6 +2887,15 @@ return [
         ],
     ],
     'feed' => [
+        'unlike' => 'Unlike',
+        'timeline' => [
+            'load_more' => 'Load more',
+            'loading' => 'Loading posts…',
+            'load_failed' => 'Could not load more posts. Try again.',
+            'retry' => 'Try again',
+            'end' => 'You’re all caught up.',
+            'empty' => 'No posts yet',
+        ],
         'composer' => [
             'saved' => 'Draft saved',
             'saving' => 'Saving draft…',
@@ -2986,6 +2995,7 @@ return [
             'quote_title' => 'Beitrag zitieren',
             'quote_label' => 'Kommentar hinzufügen (optional)',
             'quote_placeholder' => 'Teile deine Gedanken...',
+            'quote_required' => 'Add text, an image, a video or a GIF.',
             'reposted' => 'repostet',
             'success' => 'Reposted.',
             'removed' => 'Repost entfernt.',
@@ -3014,6 +3024,7 @@ return [
             'no-results-found' => 'Keine Ergebnisse für ":query" gefunden',
         ],
         'poll' => [
+            'open_image' => 'Open image for :option',
             'title' => 'Umfrage',
             'create' => 'Umfrage erstellen',
             'option' => 'Option',
