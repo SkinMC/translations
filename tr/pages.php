@@ -261,9 +261,9 @@ return [
         'unfollow' => 'Takibi bırak',
         'followers' => 'Takipçi|Takipçiler',
         'toast' => [
-            'following' => 'Şimdi takip ediyorsunuz :kullanıcı adı!',
+            'following' => 'Now following :username.',
             'follow-self-error' => 'Üzgünüm :kullanıcı adı, kendinizi takip edemezsiniz.',
-            'unfollowed' => 'Takibi bıraktınız :username',
+            'unfollowed' => 'Unfollowed :username.',
         ],
         'edit' => 'Profili düzenle',
         'country' => 'Ülke',
@@ -271,15 +271,15 @@ return [
         'menu' => 'Menü',
         'joined' => 'Katıldım',
         'role' => 'Rol',
-        'server-fav-list-empty' => 'Görünüşe göre :username kullanıcısının henüz favori sunucusu yok. :username bir sunucuyu favori olarak kaydettiğinde, onu burada görebilirsiniz.',
-        'server-own-list-empty' => 'Görünüşe göre :username henüz herhangi bir sunucuya sahip değil. :username bir sunucu listelediğinde, onu burada görebilirsiniz.',
-        'capes-list-empty' => 'Görünüşe göre :username henüz pelerin giymiyor. :username pelerin giydiğinde, bunu burada görebilirsiniz.',
-        'feed-own-list-empty' => 'Görünüşe göre henüz feed\'e hiçbir şey göndermediniz! Gönderdiğinizde, gönderilerinizi burada görebilirsiniz.',
-        'feed-list-empty' => 'Hmm, görünüşe göre :username henüz feed\'e hiçbir şey paylaşmamış. :username bir şey paylaştığında, bunu burada görebilirsiniz.',
-        'following-own-list-empty' => 'Görünüşe göre henüz kimseyi takip etmiyorsunuz! İnsanları takip etmeye başladığınızda, onları burada görebilirsiniz.',
-        'following-list-empty' => 'Hmm, :kullanıcı adı kimseyi takip etmiyor gibi görünüyor. Kullanıcı adı kişileri takip etmeye başladığında onları burada görebilirsiniz.',
+        'server-fav-list-empty' => ':username hasn’t saved any favourite servers yet.',
+        'server-own-list-empty' => ':username hasn’t listed any servers yet.',
+        'capes-list-empty' => ':username isn’t wearing a cape yet.',
+        'feed-own-list-empty' => 'No posts yet. Share something with the community.',
+        'feed-list-empty' => ':username hasn’t posted anything yet.',
+        'following-own-list-empty' => 'You’re not following anyone yet. Find someone whose work you enjoy.',
+        'following-list-empty' => ':username isn’t following anyone yet.',
         'followers-own-list-empty' => 'İnsanlar profilinizi takip etmeye başladığında, burada görüneceklerdir.',
-        'followers-list-empty' => 'Hmm, :username kimse tarafından takip edilmiyor gibi görünüyor. Takip eden ilk kişi sen ol :username. Daha fazla kişi takip ettiğinde, onları burada görebilirsiniz.',
+        'followers-list-empty' => ':username has no followers yet.',
         'render' => 'Görüntüleyici',
         '3d' => '3D görüntü',
         '2d' => '2D görüntü',
@@ -340,16 +340,16 @@ return [
     ],
     'skin-tags' => [
         'faq' => 'Etiketler nedir?',
-        'about' => 'Etiketler, dış görünümlere ilgili kategoriler eklemenin bir yoludur. Etiket eklemek, beğendiğiniz daha fazla dış görünümü kolayca keşfetmenizi sağlar!',
+        'about' => 'Tags describe a skin and help people find similar skins.',
         'guidelines' => [
             'good' => [
-                'title' => 'İyi etiketler için genel kurallar şunlardır:',
+                'title' => 'Good tags are',
                 'short' => 'Kısa',
                 'descriptive' => 'Tanımlayıcı & Açıklayıcı',
                 'spelled' => 'Doğru Yazıldı',
             ],
             'bad' => [
-                'title' => 'Gibi etiketler eklemeyin:',
+                'title' => 'Avoid tags that are',
                 'general' => 'Çok genel',
                 'specific' => 'Çok spesifik',
                 'too-many-tags' => 'Üç ayrı etiket olmalıdır',
@@ -357,10 +357,10 @@ return [
             ],
         ],
         'toast' => [
-            'added' => 'Oylama için “:tag” etiketi eklendi',
-            'removed' => '“:tag” etiketi kaldırıldı',
-            'upvote' => '”:tag” beğenildi',
-            'downvote' => '”:tag” beğenilmedi',
+            'added' => 'Tag “:tag” added for voting.',
+            'removed' => 'Tag “:tag” removed.',
+            'upvote' => 'Upvoted “:tag”.',
+            'downvote' => 'Downvoted “:tag”.',
         ],
         'vote' => [
             'up' => 'Yukarı oy',
@@ -370,8 +370,8 @@ return [
     ],
     'contact' => [
         'contact' => 'İletişim',
-        'email' => 'Sorularınız için lütfen <a href="mailto:support@skinmc.net">support@skinmc.net</a> adresinden bize yazmaktan çekinmeyin.',
-        'faq' => 'Sorunuz zaten orada yanıtlanmışsa, öncelikle <a href=":link">FAQ page</a> göz atmanızı rica ederiz.',
+        'email' => 'Email us at <a href="mailto:support@skinmc.net">support@skinmc.net</a>.',
+        'faq' => 'Check the <a href=":link">FAQs</a> for answers to common questions.',
         'other' => 'Bağlanmanın diğer yolları',
         'other_discord' => 'Discord sunucusuna katılın ve diğer kullanıcılarla bağlantı kurun, oyunlar hakkında sohbet edin, en sevdiğiniz favori paketleri paylaşın ve topluluktan yardım alın.',
         'other_twitter' => 'Twitter\'da takip ederek yeni güncellemelerin veya özelliklerin ne zaman yayınlandığını öğrenin, haftanın temalarını görün ve daha fazlasını keşfedin.',
@@ -382,17 +382,17 @@ return [
         'intro' => '<span>Minecraft</span> <span>Skinleri</span> <span>için</span> <span>platformunuz.</span>',
         'header_credit' => '“Epic Nether Battle” adlı illüstrasyon',
         'info' => 'Her şeyin kaydını tutun.',
-        'info_explainer' => 'Bir oyuncunun isim geçmişini görüntüleyin, önceki görünümlerini görün, arkadaş olarak ekleyin, görünümleri indirin ve hatta ayrıntı istatistiklerini alın.',
-        'card_find_title' => 'Herhangi bir Minecraft Oyuncusunu Bul',
-        'card_find_detail' => 'İstediğiniz herhangi bir oyuncunun kullanıcı adını veya UUID\'sini arayarak başlayın.',
+        'info_explainer' => 'Browse a player’s skin history and statistics, download skins and follow their profile.',
+        'card_find_title' => 'Find a Minecraft player',
+        'card_find_detail' => 'Search for a player by username or UUID.',
         'card_view_title' => 'Görüntüle, kaydet ve düzenle',
         'card_view_detail' => 'Beğendiğiniz bir tema buldunuz mu? İndirerek kaydedin veya düzenleyiciyi kullanarak kendi temanızı oluşturun.',
-        'card_claim_title' => 'Doğrulanın',
-        'card_claim_detail' => 'Minecraft hesabını bağla ve profilini talep ederek harika yeni özelliklerin kilidini aç!',
+        'card_claim_title' => 'Claim your profile',
+        'card_claim_detail' => 'Link your Minecraft account to claim your profile.',
         'card_customise_title' => 'Profilinizi özelleştirin',
-        'card_customise_detail' => 'Doğrulanmış oyuncular sosyal medya bağlantılarını ekleyebilir ve profillerini kendilerine ait hale getirebilirler.',
-        'card_friends_title' => 'Arkadaşlarınızı ekleyin',
-        'card_friends_detail' => 'SkinMC\'de arkadaşlarınızla bağlantı kurun ve profilinizde arkadaş listenizi gösterin.',
+        'card_customise_detail' => 'Add a bio, social links and an avatar to your profile.',
+        'card_friends_title' => 'Follow players',
+        'card_friends_detail' => 'Follow Minecraft players to keep up with their posts.',
         'card_history_title' => 'Kullanıcı adı ve skin geçmişi',
         'card_history_detail' => 'Gelişmiş arama özelliğini kullanarak bir oyuncunun kullanıcı adı/skin geçmişini bulabilir ve görüntüleyebilirsiniz.',
         'founders' => 'Kurucular',
@@ -400,65 +400,112 @@ return [
         'head_of_design' => 'Tasarım başkanı',
         'head_of_code' => 'Kod başkanı',
         'feedback' => 'Bize geri bildirimde bulunun',
-        'faq' => 'Minecraft, Skinler ve daha fazlası hakkında sorularınız mı var? En sık sorulan soruların yanıtlarını içeren SSS bölümümüzü okuyun.',
-        'faq_link' => 'SSS merkezini ziyaret edin',
-        'contact' => 'İletişim kurmak mı istiyorsunuz veya başka sorularınız mı var? Doğrudan bizimle iletişime geçin.',
+        'faq' => 'Find answers to common questions about Minecraft and skins.',
+        'faq_link' => 'Read FAQs',
+        'contact' => 'Still need help? Get in touch.',
         'contact_link' => 'Bize ulaşın',
 
     ],
     'faq' => [
         'title' => 'SSS',
-        'subtitle' => 'Sıkça sorulan sorular',
+        'subtitle' => 'Help with SkinMC, skins and Minecraft servers.',
         'help' => 'Daha fazla yardıma ihtiyacın mı var?',
         'discord' => 'Diğer Minecraft oyuncularıyla sohbet etmek için Discord sunucusuna katılın.',
         'contact' => 'Bize ulaşın',
+        'categories' => [
+            'skins' => 'Skins',
+            'usernames' => 'Usernames',
+            'servers' => 'Servers',
+            'capes' => 'SkinMC capes',
+            'account' => 'Account',
+            'contact' => 'Contact',
+        ],
         'q' => [
-            'change_skin_t' => 'Minecraft Skin\'imi nasıl değiştiririm?',
+            'change_skin_t' => 'How do I change my skin in Minecraft: Java Edition?',
             'change_skin' => '
-                <p>To change your Skin do the following:</p>
+                <p>Download the skin as a PNG, then open the Minecraft Launcher.</p>
                 <ol>
-                    <li>Visit <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a> and sign in with your Mojang account.</li><li>Once signed in, select <b>"Skin"</b> on the left menu.</li><li>Then, choose a Model you prefer and upload a the Skin of your liking.</li>
-                </ol>',
-            'change_username_t' => 'Minecraft kullanıcı adımı nasıl değiştiririm?',
+                    <li>Choose <strong>Minecraft: Java Edition</strong> and open <strong>Skins</strong>.</li>
+                    <li>Select <strong>New Skin</strong>, give it a name and choose the wide or slim model to match your skin.</li>
+                    <li>Select <strong>Browse</strong> and choose the downloaded PNG.</li>
+                    <li>Select <strong>Save &amp; Use</strong> to apply it.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/what-is-minecraft-skin" target="_blank" rel="noopener noreferrer">Minecraft skin guide</a> for more help.</p>',
+            'change_username_t' => 'How do I change my Minecraft username?',
             'change_username' => '
-                <p>To change your Username do the following:</p>
+                <p>For Minecraft: Java Edition:</p>
                 <ol>
-                    <li>Visit <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account.mojang.com/login</a> and log in with your Mojang account.</li>
-                    <li>Find your Minecraft Profile Name and press the <b>"(Change)"</b> button</li>
-                    <li>On the next page, enter your desired new username.</li>
-                    <li>Finally, confirm the changes by entering your password and pressing "Change name".</li>
-                </ol>',
-            'dl_t' => 'Birinin Minecraft Skin\'ini nasıl indirebilirim?',
+                    <li>Log in to <a href="https://www.minecraft.net/en-us/login" target="_blank" rel="noopener noreferrer">Minecraft.net</a> with your Microsoft account and open <strong>All Games</strong>.</li>
+                    <li>Under <strong>Minecraft: Java Edition</strong>, select <strong>Change Profile Name</strong>.</li>
+                    <li>Enter a name and select <strong>Change Your Profile Name</strong>.</li>
+                </ol>
+                <p>In Bedrock Edition, your name depends on your account and platform. See <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s guide to changing your profile name</a>.</p>',
+            'dl_t' => 'How do I download a player’s Minecraft skin?',
             'dl' => '
-                <p>To download anyones Minecraft Skin do the following:</p>
                 <ol>
-                    <li>Press on the search bar and enter the username of the player you would like to download the skin from.</li>
-                    <li>On the profile page you can preview the skin</li>
-                    <li>Click on the <strong>Download Skin</strong> button under the preview</li>
+                    <li>Search SkinMC for the player’s Minecraft username.</li>
+                    <li>Open their profile to preview the skin.</li>
+                    <li>Select <strong>Download skin</strong> to save the PNG.</li>
                 </ol>',
-            'submit_q' => 'Bir koleksiyona nasıl skin gönderebilirim?',
-            'submit_a' => '<p>Please fill out the following short form with the usernames and their category of which you would like to add to the collections. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Collection submission form</a>',
-            'mcpe_t' => 'Minecraft PE\'de Skin kullanabilir miyim?',
+            'submit_q' => 'How do I create a collection?',
+            'submit_a' => '<p>Log in, open <strong>Collections</strong> in your account and choose <strong>Create collection</strong>. Give it a title, choose from your uploaded skins, skin bases and capes, then arrange them and save.</p><p>Visitors only see public, approved items. Draft and unlisted items stay hidden.</p>',
+            'mcpe_t' => 'Can I use downloaded skins in Minecraft: Bedrock Edition?',
             'mcpe' => '
-                <p>Yes. To use the Skin in Minecraft Pocket Edition do the following:</p>
+                <p>Yes, on Windows and mobile. Custom skin imports are not supported on consoles.</p>
                 <ol>
-                    <li>Open SkinMC.net on your smartphone and tap the search bar</li>
-                    <li>Enter the username of the player\'s skin you would like to download</li>
-                    <li>Tap the <strong>Download Skin</strong> button under the preview </li>
-                    <li>Open Minecraft PE and tap on <strong>Profile</strong> on the right side</li>
-                    <li>Tap on the <strong>+</strong>, or edit character and go to the "classic skins tab"</li>
-                    <li>Tap on "owned", then "import", then "choose new skin"</li>
-                </ol>',
-            'change_times_t' => 'Kullanıcı adımı ne sıklıkla değiştirebilirim?',
-            'change_times' => '<p>Minecraft kullanıcı adınızı her <strong>30 günde bir</strong> <strong>bir kez</strong> değiştirebilirsiniz.</p>',
-            'available_t' => 'Kullanıcı adımı değiştirdikten sonra, diğer kullanıcılar ne zaman bu kullanıcı adını talep edebilir?',
-            'available' => '<p>If you want to change back to your previous username, you can change back <strong>after 30 days.</strong> Everyone else needs to wait an additional <strong>7 days</strong> (37 days after changing) before they can claim your old username. </p>',
-            'username_history_t' => 'Kullanıcı adı geçmişimi silebilir misiniz lütfen?',
+                    <li>Download a skin from SkinMC as a PNG.</li>
+                    <li>Open Minecraft and select <strong>Dressing Room</strong>.</li>
+                    <li>Choose a character, select <strong>Edit Character</strong> and open <strong>Classic Skins</strong>.</li>
+                    <li>Under <strong>Owned</strong>, select <strong>Import</strong>, then <strong>Choose New Skin</strong>.</li>
+                    <li>Choose the downloaded PNG and the model that matches your skin.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/character-creator-faq" target="_blank" rel="noopener noreferrer">Minecraft Character Creator FAQ</a> for platform support.</p>',
+            'change_times_t' => 'How often can I change my Java username?',
+            'change_times' => '<p>You can change your Minecraft: Java Edition profile name once every <strong>30 days</strong>.</p>',
+            'available_t' => 'Can I change back to my previous Java username?',
+            'available' => '<p>You can change back after <strong>30 days</strong>. Check <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s profile name guidance</a> before changing your name.</p>',
+            'username_history_t' => 'Can I hide my username history on SkinMC?',
             'username_history' => '
-                <p>As the username history data comes from Mojang, the username history can not be removed. Mojang has previously stated that their intention was that previous usernames can be seen¹, and that they provide a direct method for the public to access this information².</p>
-                <p class="font-14">¹<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames</a></p>
-                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter.com/dinnerbone/status/554739042529849345</a> (Tweet archived 2 years ago: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>)
-                </p>',
+                <p>Yes. Link your Minecraft account, open your profile customisation settings and turn on <strong>Make username history private</strong>.</p>
+                <p>This hides your history from other visitors on SkinMC. You can still see it when logged in. It does not remove information from other websites.</p>',
+            'add_server_t' => 'How do I add my server to SkinMC?',
+            'add_server' => '<p>Log in to SkinMC and link your Minecraft account, then choose <strong>Add new server</strong>. Enter the server details and save the listing.</p><p>Upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.</p>',
+            'server_requirements_t' => 'What are the requirements for a server listing?',
+            'server_requirements' => '
+                <ul>
+                    <li>You must own the server or be authorised to represent it.</li>
+                    <li>Link the Minecraft account you use as the owner or representative to SkinMC.</li>
+                    <li>The server must follow the <a href="https://www.minecraft.net/eula">Minecraft EULA</a>.</li>
+                    <li>Add accurate server details, a clear description and at least :count photos with descriptions.</li>
+                </ul>
+                <p>Our team checks the listing and ownership before approval. We may ask you to make changes before it goes live.</p>',
+            'server_description_t' => 'What should I include in my server description?',
+            'server_description' => '<p>Help players understand what playing on the server is like. Describe the game modes, community and any features that make it different.</p><p>Use clear, specific details and mention anything players need to know before joining. Keep the description accurate and up to date.</p>',
+            'server_images_t' => 'How do I add photos to my server listing?',
+            'server_images' => '
+                <ol>
+                    <li>Open <a href=":manage_url">Manage your servers</a> and choose <strong>Edit server</strong>.</li>
+                    <li>Choose <strong>Add photo</strong> or <strong>Add new image</strong> in the images section.</li>
+                    <li>Select a JPG or PNG up to :max_size and add a description of what it shows.</li>
+                    <li>Save the photo and repeat for the other images.</li>
+                </ol>
+                <p>Use photos that show what players can expect, such as the spawn area, builds or game modes. A listing needs at least :count photos and approval before it can go live.</p>',
+            'server_publication_t' => 'Why is my server listing not live yet?',
+            'server_publication' => '<p>A listing needs approval and at least :count photos before it can go live. Check its status in <a href=":manage_url">Manage your servers</a> and add any missing photos.</p><p>If you remove photos and fall below the minimum, the listing is hidden until you add enough photos again.</p>',
+            'server_reviews_t' => 'How do I write a server review?',
+            'server_reviews' => '<p>Log in and link your Minecraft account, then open a server listing and choose <strong>Write a review</strong>.</p><p>Only review servers you have played on. Describe your own experience, be honest and specific, and keep criticism constructive. Include useful suggestions where you can. You cannot review your own server.</p>',
+            'profile_verification_t' => 'What does a verified profile mean?',
+            'profile_verification' => '<p>The verification badge shows that SkinMC has checked the identity of a recognisable person behind a profile. It is reviewed separately from linking a Minecraft account.</p><p>To be considered, the profile must be public, authentic and active, with relevant links that help confirm the person’s identity.</p>',
+            'request_verification_t' => 'How do I request profile verification?',
+            'request_verification' => '<p><a href=":support_url">Contact support</a> with your name, a short introduction, the reason for your request and a link to your SkinMC profile. Include links to your official website or social accounts that help confirm your identity.</p><p>SkinMC reviews each request. Meeting the requirements does not guarantee a badge. You can also link to your SkinMC profile from your official website or social accounts to help people recognise it.</p>',
+            'lose_verification_t' => 'Can a profile lose verification?',
+            'lose_verification' => '<p>Yes. SkinMC may remove the badge if the account becomes inactive or breaks the terms of service.</p>',
+            'contact_t' => 'How do I contact support?',
+            'contact' => 'Contact support with a description of the problem and any details that could help us understand it, such as the page link or an error message.',
+            'feedback_t' => 'How do I send feedback?',
+            'feedback' => 'Send us your feedback through support. Tell us what you were trying to do and what could work better.',
+            'feature_request_t' => 'How do I suggest a feature?',
+            'feature_request' => 'Send your suggestion through support. Describe what you’d like to do and how it would help.',
         ],
     ],
     'avatars' => [
@@ -517,7 +564,7 @@ return [
     'achievement' => [
         'header' => [
             'title' => 'Kendi Minecraft başarımınızı oluşturun',
-            'subtitle' => 'Minecraft Başarım Oluşturucuyu kullanarak kendi özel başarımınızı oluşturun ve istediğiniz her alanda ilerlemenizi gösterin!',
+            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and show your advancements wherever you like.',
         ],
         'generator' => [
             'yellow_text' => 'Sarı yazı',
@@ -537,8 +584,8 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft Zırh Standı Oluşturucu',
-            'subtitle' => 'Kendi özel Minecraft Zırh Standlarınızı oluşturun ve tasarlayın. Farklı pozlar, pozisyonlar oluşturun, öğeleri yerleştirin ve çok daha fazlasını yapın.',
+            'title' => 'Minecraft armour stand creator',
+            'subtitle' => 'Set the pose, position and items for a custom armour stand.',
         ],
         'meta' => [
             'title' => 'Minecraft Zırh Standı Oluşturucu',
@@ -548,15 +595,15 @@ return [
     'banner' => [
         'editor' => [
             'header' => [
-                'title' => 'Minecraft Flama Düzenleyici',
-                'subtitle' => 'Kendi özel Minecraft Flamalarınızı tasarlayın ve oluşturun. Bunlar dünyanızı süslemek için kullanılabilir veya genellikle <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> pelerinleri olarak da kullanılır.',
+                'title' => 'Minecraft banner editor',
+                'subtitle' => 'Design banners for your world or use them as <a href="https://optifine.net" target="_blank" rel="nofollow">OptiFine</a> capes.',
             ],
             'meta' => [
                 'title' => 'Minecraft Flama Oluşturucu',
                 'description' => 'Oyundaki tüm desen ve renkleri kullanarak kendi özel Minecraft Flama tasarımlarınızı oluşturun ve tasarlayın! Bunlar, dünyanızı süslemek için kullanılabilir veya Flama Pelerinini kullanarak Optifine Pelerin olarak giyilebilir. Flamalar veya kalkanlar için hediye kodları oluşturabilirsiniz.',
             ],
             'toolbar' => [
-                'title' => 'Banner Editor',
+                'title' => 'Banner editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => 'Clear layers',
                 'help' => 'Help',
@@ -748,9 +795,9 @@ return [
             'tags_aria' => 'Wallpaper tags',
             'tags_remove_aria' => 'Remove tag',
             'tags_hint' => 'Add up to :max descriptive tags.',
-            'license_label' => 'License',
+            'license_label' => 'Licence',
             'license_help' => 'Need help choosing?',
-            'license_select' => 'Select a license',
+            'license_select' => 'Select a licence',
             'challenge_opt_in_label' => 'Enter the monthly wallpaper challenge',
             'challenge_opt_in_hint' => 'If selected, your entry can be featured on the SkinMC homepage next month.',
             'challenge_help' => 'Learn more',
@@ -784,10 +831,10 @@ return [
             'crop_modal_apply' => 'Use crop',
             'close' => 'Close',
             'license_modal' => [
-                'title' => 'Need help choosing a license?',
+                'title' => 'Need help choosing a licence?',
                 'description' => 'Choose how others can use your wallpaper. Use the links below to read the full Creative Commons terms.',
                 'cc_by' => 'Recommended for most use cases. Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Use when you want adaptations to stay open under the same license, with attribution.',
+                'cc_by_sa' => 'Use when you want adaptations to stay open under the same licence, with attribution.',
                 'cc_by_nc' => 'Use when you want attribution but do not allow commercial use.',
                 'read_cc_by' => 'Read CC BY 4.0',
                 'read_cc_by_sa' => 'Read CC BY-SA 4.0',
@@ -839,7 +886,7 @@ return [
             'resolution' => 'Resolution',
             'resolution_desktop' => 'Desktop: :value',
             'resolution_mobile' => 'Mobile: :value',
-            'license' => 'License',
+            'license' => 'Licence',
             'learn_more' => 'Learn more',
             'winner_badge' => 'Winner',
             'winner_challenge_label' => 'Wallpaper challenge',
@@ -855,9 +902,9 @@ return [
             'similar_wallpapers' => 'Similar wallpapers',
             'license_info' => [
                 'cc_by' => 'Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same license.',
+                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same licence.',
                 'cc_by_nc' => 'Allows sharing and edits with attribution, but no commercial use.',
-                'default' => 'Creative Commons license selected by the creator.',
+                'default' => 'Creative Commons licence selected by the creator.',
             ],
         ],
         'challenge' => [
@@ -1108,24 +1155,24 @@ return [
             'save_new_version' => 'Save new version',
             'save_updated_skin_version' => 'Save updated skin version',
             'save_as_new_creation' => 'Save as new creation',
-            'published_successfully' => 'Your skin has been published successfully!',
+            'published_successfully' => 'Skin published.',
             'saved_new_version' => 'New version saved.',
             'previous_skin_available' => 'A previously edited skin was found. Would you like to restore it?',
             'restore_skin' => 'Restore',
-            'skin_loaded' => 'Skin loaded successfully',
+            'skin_loaded' => 'Skin loaded.',
             'preparing_upload' => 'Preparing your upload…',
             'bridge_fail_missing' => 'Your skin is still safe in the editor. Try saving to gallery again.',
-            'bridge_fail_invalid' => 'Your skin is still safe in the editor. We couldn\'t use the saved copy — please try saving to gallery again.',
-            'bridge_fail_server' => 'Your skin is still safe in the editor. Something went wrong — please try saving to gallery again.',
+            'bridge_fail_invalid' => 'Couldn’t use the saved copy. Your skin is still in the editor. Try saving to the gallery again.',
+            'bridge_fail_server' => 'Couldn’t prepare the upload. Your skin is still in the editor. Try saving to the gallery again.',
             'pending_replaced' => 'Your previous pending upload was replaced with your latest skin.',
             'claim_step' => 'Step 1 of 2',
             'claim_title' => 'Link your Minecraft account',
-            'claim_description' => 'To publish skins to the gallery, link your Minecraft account first. This is a quick, one-time setup.',
+            'claim_description' => 'Link your Minecraft account to publish skins to the gallery.',
             'claim_skin_safe' => 'Your skin is saved and will be ready to publish right after linking.',
-            'claim_button' => 'Link Minecraft Account',
-            'claim_reassurance' => 'Your skin is safe — you\'ll continue to publishing after linking.',
+            'claim_button' => 'Link Minecraft account',
+            'claim_reassurance' => 'Your skin is safe. You’ll continue to publishing after linking.',
             'claim_posting' => 'Saving your skin…',
-            'claim_fail' => 'Something went wrong — your skin is safe in the editor. Please try again.',
+            'claim_fail' => 'Couldn’t save your skin for publishing. It’s still in the editor. Try again.',
         ],
         'visibility' => [
             'public' => 'Public',
@@ -1134,7 +1181,7 @@ return [
         ],
     ],
     'skin_bases' => [
-        'search_tab' => 'Skin Bases',
+        'search_tab' => 'Skin bases',
         'card' => [
             'label' => 'Skin base',
         ],
@@ -1150,7 +1197,7 @@ return [
             'title' => 'Minecraft Skin Bases',
             'description' => 'Browse :count reusable Minecraft skin bases and templates.',
             'header' => [
-                'title' => 'Skin Bases',
+                'title' => 'Skin bases',
                 'subtitle' => ':count base|:count bases',
             ],
             'upload' => 'Upload base',
@@ -1262,7 +1309,7 @@ return [
         'toast' => [
             'added' => 'Favoriler listenize eklendi',
             'removed' => 'Favoriler listenizden çıkarıldı',
-            'login_required' => 'Sign in to add to favourites',
+            'login_required' => 'Log in to add to favourites',
         ],
         'skins' => [
             'button' => 'Skinler',
@@ -1352,7 +1399,7 @@ return [
     'cape' => [
         'editor' => [
             'title' => 'Minecraft pelerin düzenleyicisi',
-            'subtitle' => 'Minecraft pelerin düzenleyicisini kullanarak kendi özel tasarım pelerinini oluştur.',
+            'subtitle' => 'Design a cape with the Minecraft cape editor.',
             'loading' => [
                 'aria_label' => 'Loading Minecraft cape editor',
                 'name' => 'SkinMC Cape Editor',
@@ -1534,7 +1581,7 @@ return [
                 'equipped' => 'Cape equipped',
                 'apply' => 'Apply cape',
                 'link_to_apply' => 'Link Minecraft account to apply',
-                'sign_in_to_apply' => 'Sign in to apply this cape',
+                'sign_in_to_apply' => 'Log in to apply this cape',
             ],
             'meta' => [
                 'title' => 'Minecraft Capes List',
@@ -1624,8 +1671,8 @@ return [
             'cannot_review_own_server' => 'You cannot review your own server.',
         ],
         'slots' => 'Slotlar',
-        'empty-helper' => 'You can try to do another search.',
-        'empty' => 'Hmm, burası hala boş.',
+        'empty-helper' => 'Try a different search.',
+        'empty' => 'No servers found',
         'verified' => 'Doğrulanmış',
         'review_translate_show_original' => 'Orijinalini göster',
         'review_translate' => 'Yorumu çevir',
@@ -1637,9 +1684,9 @@ return [
             'social_links' => 'Sosyal bağlantılar',
             'trailer_video' => 'Tanıtım videosu',
             'images' => 'Görüntüler',
-            'images_description' => 'Daha sonra, sunucunuzun sunduğu hizmetleri tanıtmak için fotoğraf yükleyebilirsiniz.',
-            'submit' => 'Gönder',
-            'lets_get_your_server_added' => 'Sunucunuzu ekleyelim.',
+            'images_description' => 'Upload photos from your server dashboard after saving the listing.',
+            'submit' => 'Finish',
+            'lets_get_your_server_added' => 'Add your server',
             'basics-subtitle' => 'İnsanlara sunucunuzun ne hakkında olduğunu anlatın.',
             'description' => 'Açıklama',
             'description_tips' => 'İşte bazı ipuçları',
@@ -1649,26 +1696,26 @@ return [
             'social_links_description' => 'Oyuncular sosyal medyada sunucunuza nereden bağlanabilirler?',
             'trailer_video_description' => 'Sunucunuzu bir YouTube videosuyla tanıtın.',
             'trailer_video_hint' => 'Video URL\'sini veya kimliğini (ID) yapıştırın:',
-            'ready_to_submit_your_server' => 'Sunucunuzu göndermeye hazır mısınız?',
-            'review-hint' => 'Gönderildikten sonra ekip, sunucu listeleme başvurunuzu dikkatlice inceleyecektir. Ardından karar verildikten sonra sunucunuz yayınlanacak veya yayına girmeden önce değişiklikler talep edilecektir.',
+            'ready_to_submit_your_server' => 'Create your server listing',
+            'review-hint' => 'After saving, upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.',
             'terms' => [
                 'part-1' => 'Bu formu göndererek, SkinMC\'nin Hizmet Şartları, Gizlilik Politikası ve Topluluk Kurallarını kabul etmiş olursunuz. Ayrıca, yukarıdaki tüm bilgilerin doğru olduğunu ve',
                 'part-2' => 'kurulum için sunucu gereksinimlerini',
                 'part-3' => ', ve Minecraft sunucusunun temsil ettiğiniz kuruluş tarafından sahip olunduğunu ve yönetildiğini de kabul etmiş olursunuz.',
             ],
-            'submit-application' => 'Başvuruyu gönder',
+            'submit-application' => 'Create listing',
             'video-id-helper' => [
                 'part-1' => 'Video kimliği, ardından gelen sayı ve harf dizisidir',
                 'part-2' => 'Örneğin, video url\'niz ise',
                 'part-3' => ', video kimliğiniz',
             ],
-            'welcome_description' => 'Bu adımda, sunucunuzu eklemeye başlayacağız. Sunucunuz hakkında biraz bilgi verin, bir açıklama yazın ve bir sonraki adımda bazı resimler yükleyebilirsiniz.',
+            'welcome_description' => 'Enter your server details to create a listing. You can upload photos after saving.',
         ],
         'votes' => [
             'vote' => 'Vote',
             'voted' => 'Voted',
-            'success' => 'Your vote has been recorded!',
-            'login_required' => 'Please log in to vote for this server.',
+            'success' => 'Vote recorded.',
+            'login_required' => 'Log in to vote for this server.',
             'profile_required' => 'Link your Minecraft account to vote.',
             'server_ineligible' => 'This server is not currently eligible for voting.',
             'self_vote_blocked' => 'You cannot vote for your own server.',
@@ -1677,18 +1724,18 @@ return [
             'count' => ':count vote|:count votes',
         ],
         'copy_server_ip' => 'Sunucunun IP\'sini kopyala',
-        'all_minecraft_servers' => 'Tüm Minecraft Sunucuları',
+        'all_minecraft_servers' => 'All Minecraft servers',
         'promo' => [
-            'title' => 'Bir Minecraft sunucusuna ev sahipliği yapıyor musunuz?',
-            'ready_to_list_your_server' => 'Sunucunuzu listelemeye hazır mısınız?',
-            'everything_you_need' => 'Sunucunuzu büyütmek için ihtiyacınız olan her şey',
+            'title' => 'List your Minecraft server',
+            'ready_to_list_your_server' => 'Ready to list your server?',
+            'everything_you_need' => 'Help players find your server',
             'list_your_server' => 'Sunucunuzu listeleyin',
             'list_your_server_description' => 'Sunucunuz için bir liste oluşturun, fotoğraflar, sosyal medya hesapları ve daha fazlasını ekleyin.',
             'find_players' => 'Oyuncuları bulun',
             'find_players_description' => 'Sunucunuza katılacak yeni oyuncular bulun ve onlara ulaşın, topluluğunuzu büyütün.',
             'get_reviews' => 'Yorumları alın',
             'get_reviews_description' => 'Topluluğunuzdan sunucunuzu incelemelerini isteyin ve onlara oyun içinde ödül verin.',
-            'why_list_on_skinmc' => 'Sunucunuzu SkinMC\'ye neden kaydetmelisiniz',
+            'why_list_on_skinmc' => 'Why list on SkinMC?',
             'others' => 'Diğerleri',
             'quality_check_and_confirmation' => 'Kalite kontrolü ve onay',
             'quality_check_description' => 'Ekibimiz kaliteyi sağlamak için her sunucuyu inceler.',
@@ -1696,38 +1743,38 @@ return [
             'verified_players_description' => 'Votifier entegrasyonu ile meşru hesaplardan gerçek oyuncu yorumlarını toplayın.',
             'international' => 'Uluslararası',
             'international_description' => 'Çeviri özellikleri sayesinde, listeniz daha fazla oyuncuya ulaşabilir.',
-            'server_listing_page' => 'Güçlü Sunucu listeleme sayfası',
-            'server_listing_page_description' => 'Fotoğraflar, açıklama metinleri, YouTube videoları ekleyin ve oyuncuların sunucunuza neden katılmaları gerektiğini vurgulayın.',
+            'server_listing_page' => 'Server listing page',
+            'server_listing_page_description' => 'Show players what your server offers with photos, a description and YouTube videos.',
             'social_connections' => 'Sosyal medya bağlantıları',
-            'social_connections_description' => 'Sunucularınızın sosyal medya hesaplarını bağlayın ve yeni oyunculara sizi nerede bulabileceklerini gösterin.',
+            'social_connections_description' => 'Add social links so players know where to find your community.',
             'verified_badge' => 'Doğrulama rozeti',
             'verified_badge_description' => 'Otantik sunucular doğrulama rozeti için başvurabilirler.',
             'owner_profile' => 'Sahibin profili',
-            'owner_profile_description' => 'Özel profilinizi tamamlayarak kişisel bir dokunuş ekleyin.',
+            'owner_profile_description' => 'Let players know who runs the server.',
             'categories' => 'Kategoriler',
-            'categories_description' => 'Sunucunuzun daha kolay bulunabilmesi için farklı kategoriler.',
+            'categories_description' => 'Help players find your server by category.',
             'vote' => 'Oyla',
             'vote_description' => 'Kullanıcılardan sunucunuz için oy vermelerini isteyin.',
             'review' => 'Review',
             'review_description' => 'Ask users to review your server.',
             'fair_listings' => 'Adil listeler',
-            'fair_listings_description' => 'Sunucu listeleri SkinMC\'deki sonuçlarda yapay olarak yükseltilemez.',
-            'support' => '24 saat destek',
-            'support_description' => 'Yardıma mı ihtiyacınız var veya sorularınız mı var? Her zaman bize ulaşabilir ve hızlı bir yanıt alabilirsiniz.',
-            'custom_features' => 'Özel özellikler',
-            'custom_features_description' => 'Sunucunuz için bir özellik eksik mi? Bir bilet açın, biz de onu sağlayalım.',
+            'fair_listings_description' => 'Server listings cannot be artificially boosted in results on SkinMC.',
+            'support' => 'Support',
+            'support_description' => 'Contact us if you need help with your listing.',
+            'custom_features' => 'Feature requests',
+            'custom_features_description' => 'Have a feature in mind? Send us a suggestion.',
             'faq' => [
                 'title' => 'Sorularınızın yanıtları',
-                'suited-question' => 'Minecraft Sunucum SkinMC için uygun mu?',
-                'suited-answer' => 'SkinMC\'deki Minecraft Oyuncuları yeni deneyimler ve içerikler keşfetmeyi ve topluluklarla etkileşim kurmayı severler. Platformda çok çeşitli, benzersiz ve eğlenceli Minecraft sunucuları bulabilirsiniz. Büyük bir ağdan küçük bir hayatta kalma sunucusuna kadar, bu sunucular birinin gününü güzelleştirebilir!',
+                'suited-question' => 'Can I list my Minecraft server on SkinMC?',
+                'suited-answer' => 'SkinMC lists servers of different sizes and styles, from small survival communities to larger networks. Check the server requirements before submitting your listing.',
                 'get-started-question' => 'Nasıl başlayabilirim?',
-                'get-started-answer' => 'Adding your Minecraft Server to the SkinMC Server List is very easy! You will first need to create an account, if you haven\'t already, and then follow the setup guide to get your server listed. Add a few photos and a nice description, and your server will be published in no time!',
-                'players-question' => 'Minecraft sunucuma nasıl daha fazla oyuncu çekebilirim?',
-                'players-answer' => 'Building a community is the most crucial part of a long lasting Minecraft Server. Use the Minecraft Server List on SkinMC to find a new audience and continue to build your community. Ask your players to recommend your Server, or share your listing on social media platforms. Collecting good reviews can also play an important role to a great Server listing presence that attracts new players.',
+                'get-started-answer' => 'Log in to SkinMC, link your Minecraft account and choose Add new server. Enter your server details, save the listing and upload photos. Our team will review it before it goes live.',
+                'players-question' => 'How can I help players find my server?',
+                'players-answer' => 'Describe what makes your server worth joining, add photos and keep the listing up to date. Share it with your community and invite players to leave honest reviews.',
                 'more-question' => 'Daha fazla sorum var. Nereden yardım alabilirim?',
-                'more-answer' => 'You can reach out to SkinMC at any time, 24 hours, by using either the help button, the help desk, or by joining the Discord server.',
+                'more-answer' => 'Contact SkinMC support through the help desk or Discord.',
             ],
-            'ready_to_list_description' => 'Add your Minecraft Server to the SkinMC Server List in just a few minutes. If you need any help, you can reach out around the clock and receive answers quickly.',
+            'ready_to_list_description' => 'Create a listing to introduce your server to new players. Contact us if you need help.',
         ],
         'manage' => [
             'index' => [
@@ -2154,7 +2201,7 @@ return [
         'zoom_out' => 'Uzaklaştır (CTRL -)',
         'saved' => 'Az önce kaydedildi',
         'saving' => 'Otomatik kaydediliyor...',
-        'save_error' => 'Bir hata oluştu',
+        'save_error' => 'Couldn’t save the cape.',
         'new_skin' => 'Yeni skin',
         'automatically_saved_skins' => 'Automatically saved skins',
         'recovered_skins' => 'Recovered skins',
@@ -2317,9 +2364,9 @@ return [
             'download' => 'Kendinizin ve diğer oyuncuların pelerinlerini oyun içerisinde görmek için SkinMC modunu indirin.',
             'learn-more' => 'Daha fazlasını öğren',
             'link-account' => 'Pelerin yüklemek için lütfen Minecraft hesabınıza bağlanın.',
-            'updated' => 'Pelerininiz güncellendi!',
-            'removed' => 'Pelerininiz kaldırıldı.',
-            'active' => 'Pelerininiz etkinleştirildi!',
+            'updated' => 'Cape updated.',
+            'removed' => 'Cape removed.',
+            'active' => 'Cape activated.',
             'preview_mode' => 'Cape preview mode',
             'loading_preview' => 'Loading cape preview',
             'uploading' => 'Uploading cape',
@@ -2377,26 +2424,26 @@ return [
         'security' => [
             'title' => 'Güvenlik',
             'email' => 'E-posta adresi',
-            'email-title' => 'E-posta adresinizi güncelleyin.',
+            'email-title' => 'Update your email address',
             'save' => 'Kaydet',
             'password' => 'Şifre',
-            'password-title' => 'Şifrenizi herhangi bir zamanda değiştirebilirsiniz.',
-            'social-provider' => 'Şifreniz gibi hesap bilgilerinizi güncellemek için lütfen giriş sağlayıcınızı ziyaret edin:',
-            'social-provider-email' => 'Giriş sağlayıcınızla ilişkili e-posta adresiniz',
-            'social-provider-connected' => 'Şu anda bağlı giriş sağlayıcıları',
+            'password-title' => 'Change your password',
+            'social-provider' => 'Manage your email address and password with your login provider:',
+            'social-provider-email' => 'Email address used by your login provider',
+            'social-provider-connected' => 'Connected login providers',
             'current-password' => 'Şu anki şifre',
             'forgot' => 'Şifrenizi mi unuttunuz?',
             'edit' => 'Düzenle',
-            'delete' => 'Hesabımı sil',
-            'account-deletion' => 'SkinMC hesabınızı silin.',
-            'delete-info' => 'Devam etmek için lütfen onaylayın',
-            'delete-confirmation' => 'Deleting your account is irreversible. All your personal information and content such as posts, favourites, uploaded capes, customisations, etc. will be deleted and can not be recovered.',
+            'delete' => 'Delete account',
+            'account-deletion' => 'Delete your SkinMC account',
+            'delete-info' => 'Confirm account deletion',
+            'delete-confirmation' => 'Deleting your account is permanent. Your personal information and content, including posts, favourites, uploaded capes and customisations, will be deleted and cannot be recovered.',
             'delete-confirmation-info' => 'Devam etmek için şifrenizi girin',
             'delete-confirmation-info-social' => 'Type "delete" to confirm account deletion',
             'type-delete' => 'Type "delete" to confirm',
             'type-delete-label' => 'Type "delete" to confirm',
-            'yes-confirm-delete' => 'Evet, silme işlemini kabul ediyorum',
-            'account-successfully-deleted' => 'Hesabınız ve verileriniz başarıyla silinmiştir.',
+            'yes-confirm-delete' => 'Delete account',
+            'account-successfully-deleted' => 'Account and data deleted.',
         ],
         'social' => [
             'title' => 'Sosyal hesaplar',
@@ -2405,9 +2452,9 @@ return [
             'link-account' => 'Link your Minecraft account to SkinMC to display your social links on your profile.',
             'finish-setup' => 'Kurulumu tamamla',
             'connect-account' => 'Hesaplarını bağla',
-            'connect-description' => 'Choose which accounts you wish to connect and unlock special SkinMC integrations.',
+            'connect-description' => 'Choose which accounts to connect to SkinMC.',
             'empty' => 'Hiç hesap eklenmemiş',
-            'empty-description' => 'Your social media accounts will show up here and on your public profile. Once added they will add more personalisation to your page as well as enable integrations.',
+            'empty-description' => 'Add social accounts to show them on your public profile.',
             'connect' => 'Bağlan',
             'username' => 'Kullanıcı adı',
             'spotify' => 'Spotify kullanıcı adınızı ekleyerek profilinizde Spotify bilgilerinizi gösterin.',
@@ -2427,11 +2474,11 @@ return [
             'includes_skinmc_plus_benefits' => 'SkinMC artı avantajları içerir',
         ],
         'recover' => [
-            'title' => 'Hesabınızı kurtarın',
-            'subtitle' => 'Hesabınızı kurtarma işlemini tamamlamak için lütfen yeni şifrenizi girin ve onaylayın.',
+            'title' => 'Reset password',
+            'subtitle' => 'Enter and confirm your new password.',
             'new_password' => 'Yeni şifre',
-            'repeat_new_password' => 'Yeni şifreyi tekrar yazın',
-            'submit' => 'Hesabınızı kurtarın',
+            'repeat_new_password' => 'Confirm new password',
+            'submit' => 'Reset password',
         ],
         'customise' => [
             'title' => 'Profilinizi özelleştirin',
@@ -2462,24 +2509,24 @@ return [
             'manage' => 'Bağlı Minecraft hesabını yönet',
             'description' => 'Bağlı Minecraft hesabınızı görüntüleyin ve yönetin',
             'title' => 'Bağlı Minecraft hesabı',
-            'current' => 'Şu anda bağlı Minecraft hesabı.',
-            'status' => 'Artık tüm SkinMC özelliklerine tam erişiminiz var!',
+            'current' => 'Linked Minecraft account',
+            'status' => 'Your Minecraft account is linked.',
             'linked' => 'Bağlantılı',
             'disconnect' => 'Bağlantıyı Kes',
             'disconnect-title' => 'Minecraft hesabından bağlantıyı kes',
-            'disconnect-info' => 'Minecraft hesabınızla bağlantıyı kesmek istediğinizden emin misiniz?',
-            'disconnect-features' => 'Yorum yapma, özelleştirme ve bağlantılı bir Minecraft hesabı gerektiren diğer özelliklere erişiminizi kaybedeceksiniz. Bunları tekrar kullanmak için bir Minecraft hesabı bağlamanız gerekecektir.',
-            'disconnect-following' => 'Minecraft hesabınızı bağlantısını keserseniz, takip ettiğiniz tüm profiller kalıcı olarak silinir.',
-            'disconnect-posts' => 'Oluşturduğunuz feed gönderileri ve beğendikleriniz silinecektir.',
+            'disconnect-info' => 'Disconnect your Minecraft account?',
+            'disconnect-features' => 'You’ll lose access to commenting, customisation and other features that need a linked Minecraft account. Link an account again to use them.',
+            'disconnect-following' => 'You’ll unfollow every profile you currently follow.',
+            'disconnect-posts' => 'Your feed posts and server reviews will be deleted, and your feed likes will be removed.',
             'can-not-undo' => 'Bu işlem geri alınamaz.',
             'are-you-sure' => 'Emin misiniz?',
-            'confirm' => 'Evet, bağlantıyı kesmeyi onaylıyorum',
-            'cancel' => 'Hayır, iptal et',
-            'success' => 'Hesabınızın bağlantısı başarıyla kesildi!',
+            'confirm' => 'Disconnect account',
+            'cancel' => 'Cancel',
+            'success' => 'Minecraft account disconnected.',
         ],
         'finish-setup' => [
             'title' => 'Hesap kurulumunu tamamla',
-            'description' => 'Hesabınızı kurmayı tamamlayın ve Minecraft hesabınızı SkinMC\'ye bağlayarak tüm özelliklere tam erişim elde edin.',
+            'description' => 'Link your Minecraft account to finish setting up your profile.',
             'link' => 'Minecraft hesabı bağla',
             'get-started' => 'Başlayın',
             'skip' => 'Atla',
@@ -2809,16 +2856,16 @@ return [
         'headline' => 'SkinMC Android Uygulamasına merhaba deyin.',
         'play-store-attribution' => 'Google Play ve Google Play logosu Google LLC kuruluşunun ticari markalarıdır.',
         'features' => 'Hareket halindeyken kullanışlı özellikler',
-        'feature-qr' => 'Dahili QR Kod tarayıcı',
-        'feature-qr-detail' => 'Yerleşik QR kodu tarayıcısını kullanarak masaüstünüzden uygulamaya kolayca bir görünüm ekleyin veya arkadaşlarınızın özel profil QR kodunu tarayın.',
+        'feature-qr' => 'QR code scanner',
+        'feature-qr-detail' => 'Scan a skin or profile QR code to open it in the app.',
         'feature-files' => 'Doğrudan dosyalara kaydeder',
         'feature-files-detail' => 'Android Dosya Yöneticisi kullanılarak, uygulama Skins\'i kolayca kaydedebilir ve Bedrock Edition\'da uygulamayı kolaylaştırır.',
         'feature-noads' => 'Reklam yok',
-        'feature-noads-detail' => 'Dikkatinizi dağıtmayan, temiz bir arayüz. Web\'den uygulamaya kadar rahatsız edici reklamlar olmadan reklam içermeyen bir deneyimin keyfini çıkarın.',
+        'feature-noads-detail' => 'Use SkinMC without ads on the website and in the app.',
         'feature-experience' => 'Deneyim',
         'feature-experience-detail' => 'Ekstra özelliklerle SkinMC deneyiminin tadını her yerde çıkarın. Profilinizi özelleştirin, biyografinizi ekleyin, eğlenceli bir QR kodu oluşturun ve daha fazlasını yapın!',
-        'get-app-headline' => 'SkinMC Uygulamasını indirin',
-        'get-app-detail' => 'Android cihazınız için size özel Minecraft arkadaşı — ücretsiz olarak kullanılabilir.',
+        'get-app-headline' => 'Get the SkinMC app',
+        'get-app-detail' => 'SkinMC for Android. Available for free.',
     ],
     'random' => [
         'title' => 'Rastgele Minecraft skini yükleniyor',
@@ -2889,7 +2936,7 @@ return [
             'badge' => 'Followers-only post',
             'title' => 'Only followers can view this post.',
             'description' => 'Follow :username to view the post.',
-            'description_guest' => 'Sign in and follow :username to view the post.',
+            'description_guest' => 'Log in and follow :username to view the post.',
         ],
         'private' => 'Sadece ben',
         'private-info' => 'Sadece benim görebildiğim özel gönderi.',
@@ -2903,7 +2950,7 @@ return [
             'native' => 'Share via device',
             'copy_link' => 'Copy link',
             'social' => 'Popular networks',
-            'copied' => 'Link copied!',
+            'copied' => 'Link copied.',
             'native_failed' => 'Could not open the share menu.',
             'native_unsupported' => 'Native sharing is not available on this device.',
             'close' => 'Close',
@@ -2917,7 +2964,7 @@ return [
                 'bluesky' => 'Share on Bluesky',
                 'pinterest' => 'Pin on Pinterest',
             ],
-            'copy_failed' => 'Could not copy the link. Please try again.',
+            'copy_failed' => 'Couldn’t copy the link. Try again.',
         ],
         'remaining' => 'Kalan',
         'profile' => ':username tarafından gönderiler',
@@ -2927,10 +2974,10 @@ return [
         'post' => [
             'meta' => ':username SkinMC\'de: :text',
             'title' => 'Gönderi',
-            'created' => 'Durum güncellemesi yayınlandı!',
-            'confirm-delete' => 'Bu gönderiyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.',
+            'created' => 'Post published.',
+            'confirm-delete' => 'Delete this post? This cannot be undone.',
             'delete' => 'Gönderiyi sil',
-            'deleted' => 'Gönderiniz silindi.',
+            'deleted' => 'Post deleted.',
         ],
         'repost' => [
             'button' => 'Repost',
@@ -2940,7 +2987,7 @@ return [
             'quote_label' => 'Add a comment (optional)',
             'quote_placeholder' => 'Add your thoughts...',
             'reposted' => 'reposted',
-            'success' => 'Reposted!',
+            'success' => 'Reposted.',
             'removed' => 'Repost removed.',
             'already_reposted' => 'You have already reposted this.',
             'not_available' => 'This post is not available to repost.',
@@ -2978,7 +3025,7 @@ return [
             'votes' => '{0} votes|{1} vote|[2,*] votes',
             'ended' => 'Poll ended',
             'ends_in' => 'Ends :time',
-            'login_required' => 'Sign in to vote',
+            'login_required' => 'Log in to vote',
         ],
         'gif' => [
             'title' => 'GIF',
@@ -3095,7 +3142,7 @@ return [
     ],
     'following' => [
         'title' => 'Takip edilenler',
-        'text' => 'Bu gönderiyi görmek için giriş yapın.',
+        'text' => 'Log in to view this post.',
     ],
     'tags' => [
         'empty' => 'Henüz oylanacak etiket yok',
@@ -3407,7 +3454,7 @@ return [
             'recipient_unavailable' => 'This person is unavailable.',
             'message_required' => 'Please enter a message.',
             'sticker_unavailable' => 'This sticker is unavailable.',
-            'rate_limited' => 'Please slow down. You are sending messages too quickly.',
+            'rate_limited' => 'Too many messages. Wait a moment before sending another.',
             'streak' => [
                 'status_lost' => 'Lost :days-day streak',
                 'status_reply' => 'Reply today to keep your streak',
@@ -3478,7 +3525,7 @@ return [
         'title' => 'Boards',
         'meta_title' => 'My Boards',
         'meta_description' => 'Organize your saved Minecraft skins, creations, and banners into boards.',
-        'all_pins' => 'All Pins',
+        'all_pins' => 'All pins',
         'save' => 'Save',
         'saved' => 'Saved',
         'save_to_board' => 'Save to board',
