@@ -31,7 +31,7 @@ return [
             'username' => '사용자 이름',
             'email' => '이메일 주소',
             'status' => '상태',
-            'role' => '역할'
+            'role' => '역할',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => '보고서',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => '게시물 피드',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => '삭제된 댓글 수',
             'subtitle' => '총 삭제된 댓글 :count개',
-        ]
-    ]
+        ],
+    ],
 ];
