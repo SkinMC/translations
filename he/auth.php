@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'הפרטים האלו לא תואמים את הנתונים שלנו.',
-    'password' => 'הסיסמה שהוזנה אינה נכונה.',
-    'throttle' => 'ביצעת יותר מדי ניסיונות התחברות. אנא נסה שוב בעוד :seconds שניות.',
-    'welcome-back' => 'ברוך השב, נעים לראות אותך!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'ברוך הבא לSkinMC!',
     'see-you-soon' => 'נתראה בקרוב!',
-    'blocked' => 'חשבונך הושבת בתאריך :date. אם אתה סבור שזו הייתה שגיאה, בקר ב<a target="_blank" href=":url">מרכז התמיכה</a> לקבלת עזרה.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'הצג סיסמה',
     'hide-password' => 'הסתר סיסמה',
     'invite_code' => 'קוד הזמנה',
