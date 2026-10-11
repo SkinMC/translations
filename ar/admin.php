@@ -31,7 +31,7 @@ return [
             'username' => 'إسم المستخدم',
             'email' => 'البريد الإلكتروني',
             'status' => 'الحالة',
-            'role' => 'الرتبه'
+            'role' => 'الرتبه',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'الشكاوى',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'الاقتراحات',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'التعليقات المحذوفة',
             'subtitle' => ':count مجموع التعليقات المحذوفة',
-        ]
-    ]
+        ],
+    ],
 ];
