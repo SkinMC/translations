@@ -31,7 +31,7 @@ return [
             'username' => 'Логин',
             'email' => 'Электронная почта',
             'status' => 'Статус',
-            'role' => 'Роль'
+            'role' => 'Роль',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Жалобы',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Посты в ленте',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Удаленные комментарии',
             'subtitle' => ':count всего удаленных комментариев',
-        ]
-    ]
+        ],
+    ],
 ];
