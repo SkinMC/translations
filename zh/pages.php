@@ -261,9 +261,9 @@ return [
         'unfollow' => '取消关注',
         'followers' => '关注者',
         'toast' => [
-            'following' => '你正在关注 :username ！',
+            'following' => 'Now following :username.',
             'follow-self-error' => '对不起:username, 你不能关注自己。',
-            'unfollowed' => '你已经取消关注 :用户名',
+            'unfollowed' => 'Unfollowed :username.',
         ],
         'edit' => '编辑个人资料',
         'country' => 'Country',
@@ -271,15 +271,15 @@ return [
         'menu' => 'Menu',
         'joined' => '注册时间',
         'role' => '角色',
-        'server-fav-list-empty' => '似乎 :username 尚未收藏任何服务器。如果 :username 收藏了服务器，您可以在这里看到。',
-        'server-own-list-empty' => '似乎 :username 尚未设置拥有的服务器。如果 :username 设置了服务器，您可以在这里看到。',
-        'capes-list-empty' => '似乎 :username 尚未穿戴任何披风。如果 :username 穿戴了披风，您可以在这里看到。',
-        'feed-own-list-empty' => '看起来你还没有发布任何内容！如果你发布了，你可以在这里看到你的帖子。',
-        'feed-list-empty' => '唔...，似乎 :username 还没有发布任何内容。如果 :username 发布了一些内容，您可以在这里看到。',
-        'following-own-list-empty' => '看起来你还没有关注任何人！一旦你开始关注人，你可以在这里看到他们。',
-        'following-list-empty' => '嘿，看起来 :username 好像没有关注任何人。一旦 :username 开始关注其他人，你就可以在这里看到。',
+        'server-fav-list-empty' => ':username hasn’t saved any favourite servers yet.',
+        'server-own-list-empty' => ':username hasn’t listed any servers yet.',
+        'capes-list-empty' => ':username isn’t wearing a cape yet.',
+        'feed-own-list-empty' => 'No posts yet. Share something with the community.',
+        'feed-list-empty' => ':username hasn’t posted anything yet.',
+        'following-own-list-empty' => 'You’re not following anyone yet. Find someone whose work you enjoy.',
+        'following-list-empty' => ':username isn’t following anyone yet.',
         'followers-own-list-empty' => '一旦人们开始关注您的个人资料，他们就会出现在这里。',
-        'followers-list-empty' => 'Hmm，看起来没有任何人跟随 :username。 成为第一个跟随 :username的人。一旦有更多人跟随，你可以在这里看到他们。',
+        'followers-list-empty' => ':username has no followers yet.',
         'render' => '渲染器',
         '3d' => '3D 渲染',
         '2d' => '2D 渲染',
@@ -340,16 +340,16 @@ return [
     ],
     'skin-tags' => [
         'faq' => '什么是标签？',
-        'about' => '标签是您添加皮肤到相关类别的一种方式。添加标签可以让您轻松地发现更多皮肤！',
+        'about' => 'Tags describe a skin and help people find similar skins.',
         'guidelines' => [
             'good' => [
-                'title' => '关于良好标签的一般准则是：',
+                'title' => 'Good tags are',
                 'short' => '短',
                 'descriptive' => '说明',
                 'spelled' => '正确写法',
             ],
             'bad' => [
-                'title' => '请不要添加以下标签',
+                'title' => 'Avoid tags that are',
                 'general' => '过于笼统',
                 'specific' => '太特定的',
                 'too-many-tags' => '应该是三个独立的标签',
@@ -357,10 +357,10 @@ return [
             ],
         ],
         'toast' => [
-            'added' => '标签 ":tag" 已添加到投票',
-            'removed' => '标签 ":tag" 已被移除',
-            'upvote' => '已对 ":tag" 表示赞成。',
-            'downvote' => '已对 ":tag" 表示反对。',
+            'added' => 'Tag “:tag” added for voting.',
+            'removed' => 'Tag “:tag” removed.',
+            'upvote' => 'Upvoted “:tag”.',
+            'downvote' => 'Downvoted “:tag”.',
         ],
         'vote' => [
             'up' => '赞成票',
@@ -370,8 +370,8 @@ return [
     ],
     'contact' => [
         'contact' => '联系人',
-        'email' => '如果您有任何问题，请随时在 <a href="mailto:support@skinmc.net">support@skinmc.net</a> 上向我们进行反馈。',
-        'faq' => '我们恳请您先查看 <a href=":link">常见问题</a> 页面，或许您的问题将在此得到解答。',
+        'email' => 'Email us at <a href="mailto:support@skinmc.net">support@skinmc.net</a>.',
+        'faq' => 'Check the <a href=":link">FAQs</a> for answers to common questions.',
         'other' => '其他连接',
         'other_discord' => '加入Discord服务器并与他人建立联系，聊聊关于游戏的事情，分享您最喜欢的整合包，并获得来自社区的帮助。',
         'other_twitter' => '在 Twitter 上关注以查看新更新或功能发布的时间，查看每周皮肤等等。',
@@ -383,17 +383,17 @@ return [
 //</span>你</span> </span>的</span> </span>Minecraft</span> </span>皮</span> </span>肤</span> <span>平</span> </span>台</span>',
         'header_credit' => '示例“Epic Nether Battle”By',
         'info' => '跟上一切进度。',
-        'info_explainer' => '查看玩家历史名称，查看他们以前的皮肤，将他们添加为朋友，下载皮肤，甚至获取详细统计。',
-        'card_find_title' => '查找任何Minecraft玩家',
-        'card_find_detail' => '通过搜索您选择的任何玩家用户名或 UUID 来开始。',
+        'info_explainer' => 'Browse a player’s skin history and statistics, download skins and follow their profile.',
+        'card_find_title' => 'Find a Minecraft player',
+        'card_find_detail' => 'Search for a player by username or UUID.',
         'card_view_title' => '查看、保存&编辑',
         'card_view_detail' => '找到你喜欢的皮肤了吗？通过下载或使用编辑器将其保存为你自己的皮肤。',
-        'card_claim_title' => '获取验证',
-        'card_claim_detail' => '连接您的Minecraft账户并索取您的个人资料以解锁更多精彩功能！',
+        'card_claim_title' => 'Claim your profile',
+        'card_claim_detail' => 'Link your Minecraft account to claim your profile.',
         'card_customise_title' => '自定义你的个人资料',
-        'card_customise_detail' => '已验证的玩家可以添加他们的社交媒体链接并自行设置他们的个人资料。',
-        'card_friends_title' => '添加好友',
-        'card_friends_detail' => '在 SkinMC 上与您的朋友连接，然后在个人资料中显示您的朋友列表。',
+        'card_customise_detail' => 'Add a bio, social links and an avatar to your profile.',
+        'card_friends_title' => 'Follow players',
+        'card_friends_detail' => 'Follow Minecraft players to keep up with their posts.',
         'card_history_title' => '用户名&历史皮肤',
         'card_history_detail' => '使用高级搜索来查找和查看玩家的用户名/皮肤历史记录。',
         'founders' => '创建者',
@@ -401,65 +401,112 @@ return [
         'head_of_design' => '设计主管',
         'head_of_code' => '代码负责人',
         'feedback' => '向我们发送反馈',
-        'faq' => '有关Minecraft、皮肤和更多的问题？阅读我们的常见问题解答。',
-        'faq_link' => '访问常见问题中心',
-        'contact' => '您想要联系或有进一步的问题吗？直接联系我们。',
+        'faq' => 'Find answers to common questions about Minecraft and skins.',
+        'faq_link' => 'Read FAQs',
+        'contact' => 'Still need help? Get in touch.',
         'contact_link' => '联系我们',
 
     ],
     'faq' => [
         'title' => '常见问题解答',
-        'subtitle' => '常见问题',
+        'subtitle' => 'Help with SkinMC, skins and Minecraft servers.',
         'help' => '需要更多帮助?',
         'discord' => '加入Discord服务器来与其他Minecraft玩家聊天。',
         'contact' => '联系我们',
+        'categories' => [
+            'skins' => 'Skins',
+            'usernames' => 'Usernames',
+            'servers' => 'Servers',
+            'capes' => 'SkinMC capes',
+            'account' => 'Account',
+            'contact' => 'Contact',
+        ],
         'q' => [
-            'change_skin_t' => '如何更改我的Minecraft皮肤？',
+            'change_skin_t' => 'How do I change my skin in Minecraft: Java Edition?',
             'change_skin' => '
-                <p>要更改皮肤，请执行以下操作：</p>
+                <p>Download the skin as a PNG, then open the Minecraft Launcher.</p>
                 <ol>
-                    <li>访问<a href="https://my.minecraft.net/zh-hans/login/">“登录|Minecraft”</a>并使用您的账户登录</li><li>登录后，选择左侧菜单上的我的游戏→<b>“更改皮肤”</b></li><li>然后，选择你喜欢的模型并上传你喜欢的皮肤。</li>
-                </ol>',
-            'change_username_t' => '如何更改我的Minecraft用户名？',
+                    <li>Choose <strong>Minecraft: Java Edition</strong> and open <strong>Skins</strong>.</li>
+                    <li>Select <strong>New Skin</strong>, give it a name and choose the wide or slim model to match your skin.</li>
+                    <li>Select <strong>Browse</strong> and choose the downloaded PNG.</li>
+                    <li>Select <strong>Save &amp; Use</strong> to apply it.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/what-is-minecraft-skin" target="_blank" rel="noopener noreferrer">Minecraft skin guide</a> for more help.</p>',
+            'change_username_t' => 'How do I change my Minecraft username?',
             'change_username' => '
-                <p>要更改您的用户名，请做以下操作：</p>
+                <p>For Minecraft: Java Edition:</p>
                 <ol>
-                    <li>访问 <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account.mojang.com/login</a> 并使用您的 Mojang 帐户登录。</li>
-                    <li>查找您的Minecraft 配置文件名并按 <b>"(更改)"</b> 按钮</li>
-                    <li>在下一页， 输入您所需的新用户名。</li>
-                    <li>通过输入密码确认更改并按“更改名称”。</li>
-                </ol>',
-            'dl_t' => '如何下载某人的Minecraft皮肤？',
+                    <li>Log in to <a href="https://www.minecraft.net/en-us/login" target="_blank" rel="noopener noreferrer">Minecraft.net</a> with your Microsoft account and open <strong>All Games</strong>.</li>
+                    <li>Under <strong>Minecraft: Java Edition</strong>, select <strong>Change Profile Name</strong>.</li>
+                    <li>Enter a name and select <strong>Change Your Profile Name</strong>.</li>
+                </ol>
+                <p>In Bedrock Edition, your name depends on your account and platform. See <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s guide to changing your profile name</a>.</p>',
+            'dl_t' => 'How do I download a player’s Minecraft skin?',
             'dl' => '
-                <p>要下载任何一款Minecraft皮肤，请执行以下操作：</p>
                 <ol>
-                    <li>按下搜索栏，输入要下载皮肤的玩家的用户名。</li>
-                    <li>在个人资料页面上，您可以预览皮肤</li>
-                    <li>点击预览下的<strong>下载皮肤</strong>按钮</li>
+                    <li>Search SkinMC for the player’s Minecraft username.</li>
+                    <li>Open their profile to preview the skin.</li>
+                    <li>Select <strong>Download skin</strong> to save the PNG.</li>
                 </ol>',
-            'submit_q' => '如何向收藏提交皮肤？',
-            'submit_a' => '<p>请填写以下简短表格，其中包含要添加到收藏中的用户名及其类别。 <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">收藏提交表</a>',
-            'mcpe_t' => '我可以在 Minecraft PE 上使用皮肤吗？',
+            'submit_q' => 'How do I create a collection?',
+            'submit_a' => '<p>Log in, open <strong>Collections</strong> in your account and choose <strong>Create collection</strong>. Give it a title, choose from your uploaded skins, skin bases and capes, then arrange them and save.</p><p>Visitors only see public, approved items. Draft and unlisted items stay hidden.</p>',
+            'mcpe_t' => 'Can I use downloaded skins in Minecraft: Bedrock Edition?',
             'mcpe' => '
-                <p>对要在Minecraft PE（手机版）中使用皮肤，请执行以下操作：</p>
+                <p>Yes, on Windows and mobile. Custom skin imports are not supported on consoles.</p>
                 <ol>
-                    <li>在手机上打开SkinMC.net，然后点击搜索栏r</li>
-                    <li>输入您想要下载的玩家皮肤的用户名</li>
-                    <li>点击预览下的<strong>下载皮肤</strong>按钮 </li>
-                    <li>打开Minecraft PE，点击右侧的<strong>个人资料</strong></li>
-                    <li>点击<strong>+</strong>，或编辑角色并转到“经典皮肤选项卡”</li>
-                    <li>点击“拥有”，然后点击“导入”，然后单击“选择新皮肤”</li>
-                </ol>',
-            'change_times_t' => '我可以多长时间更改我的用户名？',
-            'change_times' => '<p>您可以<strong>每30天</strong>更改<strong>一次</strong>您的Minecraft用户名</p>',
-            'available_t' => '在我更改了我的用户名后，他人何时可以申请它？',
-            'available' => '<p>如果你想要改回你以前的用户名, 你可以在 <strong>30天后</strong>重新更改。其他所有人都需要等待额外的<strong>7天</strong> (更改后37天)才能申领您的旧用户名。 </p>',
-            'username_history_t' => '你可以删除我的用户名历史记录吗？',
+                    <li>Download a skin from SkinMC as a PNG.</li>
+                    <li>Open Minecraft and select <strong>Dressing Room</strong>.</li>
+                    <li>Choose a character, select <strong>Edit Character</strong> and open <strong>Classic Skins</strong>.</li>
+                    <li>Under <strong>Owned</strong>, select <strong>Import</strong>, then <strong>Choose New Skin</strong>.</li>
+                    <li>Choose the downloaded PNG and the model that matches your skin.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/character-creator-faq" target="_blank" rel="noopener noreferrer">Minecraft Character Creator FAQ</a> for platform support.</p>',
+            'change_times_t' => 'How often can I change my Java username?',
+            'change_times' => '<p>You can change your Minecraft: Java Edition profile name once every <strong>30 days</strong>.</p>',
+            'available_t' => 'Can I change back to my previous Java username?',
+            'available' => '<p>You can change back after <strong>30 days</strong>. Check <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s profile name guidance</a> before changing your name.</p>',
+            'username_history_t' => 'Can I hide my username history on SkinMC?',
             'username_history' => '
-                <p>由于用户名历史数据来自Mojang，因此无法删除用户名历史。Mojang之前曾表示，他们的意图是可以看到以前的用户名¹，并为公众提供了一种直接访问这些信息的方法²。</p>
-                <p class="font-14">¹<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames</a></p>
-                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter.com/dinnerbone/status/554739042529849345</a>（2年前存档的推文：<a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>）
-                </p>',
+                <p>Yes. Link your Minecraft account, open your profile customisation settings and turn on <strong>Make username history private</strong>.</p>
+                <p>This hides your history from other visitors on SkinMC. You can still see it when logged in. It does not remove information from other websites.</p>',
+            'add_server_t' => 'How do I add my server to SkinMC?',
+            'add_server' => '<p>Log in to SkinMC and link your Minecraft account, then choose <strong>Add new server</strong>. Enter the server details and save the listing.</p><p>Upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.</p>',
+            'server_requirements_t' => 'What are the requirements for a server listing?',
+            'server_requirements' => '
+                <ul>
+                    <li>You must own the server or be authorised to represent it.</li>
+                    <li>Link the Minecraft account you use as the owner or representative to SkinMC.</li>
+                    <li>The server must follow the <a href="https://www.minecraft.net/eula">Minecraft EULA</a>.</li>
+                    <li>Add accurate server details, a clear description and at least :count photos with descriptions.</li>
+                </ul>
+                <p>Our team checks the listing and ownership before approval. We may ask you to make changes before it goes live.</p>',
+            'server_description_t' => 'What should I include in my server description?',
+            'server_description' => '<p>Help players understand what playing on the server is like. Describe the game modes, community and any features that make it different.</p><p>Use clear, specific details and mention anything players need to know before joining. Keep the description accurate and up to date.</p>',
+            'server_images_t' => 'How do I add photos to my server listing?',
+            'server_images' => '
+                <ol>
+                    <li>Open <a href=":manage_url">Manage your servers</a> and choose <strong>Edit server</strong>.</li>
+                    <li>Choose <strong>Add photo</strong> or <strong>Add new image</strong> in the images section.</li>
+                    <li>Select a JPG or PNG up to :max_size and add a description of what it shows.</li>
+                    <li>Save the photo and repeat for the other images.</li>
+                </ol>
+                <p>Use photos that show what players can expect, such as the spawn area, builds or game modes. A listing needs at least :count photos and approval before it can go live.</p>',
+            'server_publication_t' => 'Why is my server listing not live yet?',
+            'server_publication' => '<p>A listing needs approval and at least :count photos before it can go live. Check its status in <a href=":manage_url">Manage your servers</a> and add any missing photos.</p><p>If you remove photos and fall below the minimum, the listing is hidden until you add enough photos again.</p>',
+            'server_reviews_t' => 'How do I write a server review?',
+            'server_reviews' => '<p>Log in and link your Minecraft account, then open a server listing and choose <strong>Write a review</strong>.</p><p>Only review servers you have played on. Describe your own experience, be honest and specific, and keep criticism constructive. Include useful suggestions where you can. You cannot review your own server.</p>',
+            'profile_verification_t' => 'What does a verified profile mean?',
+            'profile_verification' => '<p>The verification badge shows that SkinMC has checked the identity of a recognisable person behind a profile. It is reviewed separately from linking a Minecraft account.</p><p>To be considered, the profile must be public, authentic and active, with relevant links that help confirm the person’s identity.</p>',
+            'request_verification_t' => 'How do I request profile verification?',
+            'request_verification' => '<p><a href=":support_url">Contact support</a> with your name, a short introduction, the reason for your request and a link to your SkinMC profile. Include links to your official website or social accounts that help confirm your identity.</p><p>SkinMC reviews each request. Meeting the requirements does not guarantee a badge. You can also link to your SkinMC profile from your official website or social accounts to help people recognise it.</p>',
+            'lose_verification_t' => 'Can a profile lose verification?',
+            'lose_verification' => '<p>Yes. SkinMC may remove the badge if the account becomes inactive or breaks the terms of service.</p>',
+            'contact_t' => 'How do I contact support?',
+            'contact' => 'Contact support with a description of the problem and any details that could help us understand it, such as the page link or an error message.',
+            'feedback_t' => 'How do I send feedback?',
+            'feedback' => 'Send us your feedback through support. Tell us what you were trying to do and what could work better.',
+            'feature_request_t' => 'How do I suggest a feature?',
+            'feature_request' => 'Send your suggestion through support. Describe what you’d like to do and how it would help.',
         ],
     ],
     'avatars' => [
@@ -518,7 +565,7 @@ return [
     'achievement' => [
         'header' => [
             'title' => '创建你自己的Minecraft成就',
-            'subtitle' => '使用Minecraft成就生成器创建您自己的自定义成就，并在您喜欢的任何东西中显示您的进度！',
+            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and show your advancements wherever you like.',
         ],
         'generator' => [
             'yellow_text' => '黄色文本',
@@ -538,8 +585,8 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft盔甲架创作者',
-            'subtitle' => '生成并创建您自己的自定义Minecraft盔甲架。创建不同的姿势、位置、放置项目等等。',
+            'title' => 'Minecraft armour stand creator',
+            'subtitle' => 'Set the pose, position and items for a custom armour stand.',
         ],
         'meta' => [
             'title' => 'Minecraft盔甲架创作者',
@@ -549,15 +596,15 @@ return [
     'banner' => [
         'editor' => [
             'header' => [
-                'title' => 'Minecraft 旗帜编辑器',
-                'subtitle' => '设计和创建您自己的自定义Minecraft旗帜。这些可以用来装饰你的世界，也可以被视为<a href="https://optifine.net" target="_blank" rel="nofollow">可选</a>皮肤。',
+                'title' => 'Minecraft banner editor',
+                'subtitle' => 'Design banners for your world or use them as <a href="https://optifine.net" target="_blank" rel="nofollow">OptiFine</a> capes.',
             ],
             'meta' => [
                 'title' => 'Minecraft 旗帜创作者',
                 'description' => '使用游戏中的所有图案和颜色创建和设计您自己的自定义Minecraft 旗帜设计！这些可以用来装饰你的世界，也可以用旗帜披风作为可选披风穿着。你可以生成旗帜或盾牌的代码。',
             ],
             'toolbar' => [
-                'title' => '旗帜编辑器',
+                'title' => 'Banner editor',
                 'randomise' => 'Randomise',
                 'clear_layers' => '清空图层',
                 'help' => '帮助',
@@ -749,9 +796,9 @@ return [
             'tags_aria' => 'Wallpaper tags',
             'tags_remove_aria' => 'Remove tag',
             'tags_hint' => 'Add up to :max descriptive tags.',
-            'license_label' => 'License',
+            'license_label' => 'Licence',
             'license_help' => 'Need help choosing?',
-            'license_select' => 'Select a license',
+            'license_select' => 'Select a licence',
             'challenge_opt_in_label' => 'Enter the monthly wallpaper challenge',
             'challenge_opt_in_hint' => 'If selected, your entry can be featured on the SkinMC homepage next month.',
             'challenge_help' => 'Learn more',
@@ -785,10 +832,10 @@ return [
             'crop_modal_apply' => 'Use crop',
             'close' => 'Close',
             'license_modal' => [
-                'title' => 'Need help choosing a license?',
+                'title' => 'Need help choosing a licence?',
                 'description' => 'Choose how others can use your wallpaper. Use the links below to read the full Creative Commons terms.',
                 'cc_by' => 'Recommended for most use cases. Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Use when you want adaptations to stay open under the same license, with attribution.',
+                'cc_by_sa' => 'Use when you want adaptations to stay open under the same licence, with attribution.',
                 'cc_by_nc' => 'Use when you want attribution but do not allow commercial use.',
                 'read_cc_by' => 'Read CC BY 4.0',
                 'read_cc_by_sa' => 'Read CC BY-SA 4.0',
@@ -840,7 +887,7 @@ return [
             'resolution' => 'Resolution',
             'resolution_desktop' => 'Desktop: :value',
             'resolution_mobile' => 'Mobile: :value',
-            'license' => 'License',
+            'license' => 'Licence',
             'learn_more' => 'Learn more',
             'winner_badge' => 'Winner',
             'winner_challenge_label' => 'Wallpaper challenge',
@@ -856,9 +903,9 @@ return [
             'similar_wallpapers' => 'Similar wallpapers',
             'license_info' => [
                 'cc_by' => 'Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same license.',
+                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same licence.',
                 'cc_by_nc' => 'Allows sharing and edits with attribution, but no commercial use.',
-                'default' => 'Creative Commons license selected by the creator.',
+                'default' => 'Creative Commons licence selected by the creator.',
             ],
         ],
         'challenge' => [
@@ -1109,24 +1156,24 @@ return [
             'save_new_version' => 'Save new version',
             'save_updated_skin_version' => 'Save updated skin version',
             'save_as_new_creation' => 'Save as new creation',
-            'published_successfully' => 'Your skin has been published successfully!',
+            'published_successfully' => 'Skin published.',
             'saved_new_version' => 'New version saved.',
             'previous_skin_available' => 'A previously edited skin was found. Would you like to restore it?',
             'restore_skin' => 'Restore',
-            'skin_loaded' => 'Skin loaded successfully',
+            'skin_loaded' => 'Skin loaded.',
             'preparing_upload' => 'Preparing your upload…',
             'bridge_fail_missing' => 'Your skin is still safe in the editor. Try saving to gallery again.',
-            'bridge_fail_invalid' => 'Your skin is still safe in the editor. We couldn\'t use the saved copy — please try saving to gallery again.',
-            'bridge_fail_server' => 'Your skin is still safe in the editor. Something went wrong — please try saving to gallery again.',
+            'bridge_fail_invalid' => 'Couldn’t use the saved copy. Your skin is still in the editor. Try saving to the gallery again.',
+            'bridge_fail_server' => 'Couldn’t prepare the upload. Your skin is still in the editor. Try saving to the gallery again.',
             'pending_replaced' => 'Your previous pending upload was replaced with your latest skin.',
             'claim_step' => 'Step 1 of 2',
             'claim_title' => 'Link your Minecraft account',
-            'claim_description' => 'To publish skins to the gallery, link your Minecraft account first. This is a quick, one-time setup.',
+            'claim_description' => 'Link your Minecraft account to publish skins to the gallery.',
             'claim_skin_safe' => 'Your skin is saved and will be ready to publish right after linking.',
-            'claim_button' => 'Link Minecraft Account',
-            'claim_reassurance' => 'Your skin is safe — you\'ll continue to publishing after linking.',
+            'claim_button' => 'Link Minecraft account',
+            'claim_reassurance' => 'Your skin is safe. You’ll continue to publishing after linking.',
             'claim_posting' => 'Saving your skin…',
-            'claim_fail' => 'Something went wrong — your skin is safe in the editor. Please try again.',
+            'claim_fail' => 'Couldn’t save your skin for publishing. It’s still in the editor. Try again.',
         ],
         'visibility' => [
             'public' => 'Public',
@@ -1135,7 +1182,7 @@ return [
         ],
     ],
     'skin_bases' => [
-        'search_tab' => 'Skin Bases',
+        'search_tab' => 'Skin bases',
         'card' => [
             'label' => 'Skin base',
         ],
@@ -1151,7 +1198,7 @@ return [
             'title' => 'Minecraft Skin Bases',
             'description' => 'Browse :count reusable Minecraft skin bases and templates.',
             'header' => [
-                'title' => 'Skin Bases',
+                'title' => 'Skin bases',
                 'subtitle' => ':count base|:count bases',
             ],
             'upload' => 'Upload base',
@@ -1263,7 +1310,7 @@ return [
         'toast' => [
             'added' => '已添加到您的收藏列表',
             'removed' => '已从您的收藏列表中移除',
-            'login_required' => '登录以添加到收藏夹',
+            'login_required' => 'Log in to add to favourites',
         ],
         'skins' => [
             'button' => '皮肤',
@@ -1353,7 +1400,7 @@ return [
     'cape' => [
         'editor' => [
             'title' => 'Minecraft披风编辑器',
-            'subtitle' => '使用Minecraft披风编辑器来创建你自己的自定义披风。',
+            'subtitle' => 'Design a cape with the Minecraft cape editor.',
             'loading' => [
                 'aria_label' => 'Loading Minecraft cape editor',
                 'name' => 'SkinMC Cape Editor',
@@ -1535,7 +1582,7 @@ return [
                 'equipped' => 'Cape equipped',
                 'apply' => 'Apply cape',
                 'link_to_apply' => 'Link Minecraft account to apply',
-                'sign_in_to_apply' => 'Sign in to apply this cape',
+                'sign_in_to_apply' => 'Log in to apply this cape',
             ],
             'meta' => [
                 'title' => ':cape Minecraft披风',
@@ -1625,8 +1672,8 @@ return [
             'cannot_review_own_server' => 'You cannot review your own server.',
         ],
         'slots' => '栏位',
-        'empty-helper' => '您可以尝试其他搜索。',
-        'empty' => 'Hmm 这里仍然是空的。',
+        'empty-helper' => 'Try a different search.',
+        'empty' => 'No servers found',
         'verified' => '已验证',
         'review_translate_show_original' => '显示原始内容',
         'review_translate' => '翻译评论',
@@ -1638,9 +1685,9 @@ return [
             'social_links' => '社交链接',
             'trailer_video' => '预告片视频',
             'images' => '图片',
-            'images_description' => '您可以上传照片，以展示您的服务器提供的内容。',
-            'submit' => '提交',
-            'lets_get_your_server_added' => '让我们添加您的服务器吧。',
+            'images_description' => 'Upload photos from your server dashboard after saving the listing.',
+            'submit' => 'Finish',
+            'lets_get_your_server_added' => 'Add your server',
             'basics-subtitle' => '让人们知道你的服务器是关于什么的。',
             'description' => '描述',
             'description_tips' => '这里有一些小提示',
@@ -1650,26 +1697,26 @@ return [
             'social_links_description' => '玩家在哪里可以在社交媒体上连接到你的服务器',
             'trailer_video_description' => '用YouTube视频展示您的服务器。',
             'trailer_video_hint' => '粘贴视频 URL 或 ID：',
-            'ready_to_submit_your_server' => '准备好提交您的服务器了吗？',
-            'review-hint' => '在提交后，团队将仔细审查您的服务器列表应用程序。然后根据决定，您的服务器将被发布，或者在运行前请求更改。',
+            'ready_to_submit_your_server' => 'Create your server listing',
+            'review-hint' => 'After saving, upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.',
             'terms' => [
                 'part-1' => '通过提交此表格，您有权接受SkinMC的服务条款、隐私政策和社区指南。您还确认以上所有信息都是准确的，您已正确遵循。',
                 'part-2' => '服务器安装要求',
                 'part-3' => '，Minecraft服务器由您所代表的实体所有和管理。',
             ],
-            'submit-application' => '提交申请',
+            'submit-application' => 'Create listing',
             'video-id-helper' => [
                 'part-1' => '视频ID是数字和字母的字符串',
                 'part-2' => '例如，如果您的视频URL是',
                 'part-3' => '，然后您的视频 ID 将是',
             ],
-            'welcome_description' => '在这一步骤中，我们将开始添加您的服务器。 告诉我们一点有关它的信息，写一个描述，下一步你可以上传一些图像。',
+            'welcome_description' => 'Enter your server details to create a listing. You can upload photos after saving.',
         ],
         'votes' => [
             'vote' => 'Vote',
             'voted' => 'Voted',
-            'success' => 'Your vote has been recorded!',
-            'login_required' => 'Please log in to vote for this server.',
+            'success' => 'Vote recorded.',
+            'login_required' => 'Log in to vote for this server.',
             'profile_required' => 'Link your Minecraft account to vote.',
             'server_ineligible' => 'This server is not currently eligible for voting.',
             'self_vote_blocked' => 'You cannot vote for your own server.',
@@ -1678,18 +1725,18 @@ return [
             'count' => ':count vote|:count votes',
         ],
         'copy_server_ip' => '复制服务器IP',
-        'all_minecraft_servers' => '所有Minecraft服务器',
+        'all_minecraft_servers' => 'All Minecraft servers',
         'promo' => [
-            'title' => '您是Minecraft服务器的服主吗？',
-            'ready_to_list_your_server' => '准备好列出您的服务器吗？',
-            'everything_you_need' => '发展服务器所需的一切',
+            'title' => 'List your Minecraft server',
+            'ready_to_list_your_server' => 'Ready to list your server?',
+            'everything_you_need' => 'Help players find your server',
             'list_your_server' => '列出您的服务器',
             'list_your_server_description' => '为您的服务器创建一个列表、添加照片、社交媒体等等。',
             'find_players' => '查找玩家',
             'find_players_description' => '寻找和接触新玩家以加入您的服务器并扩大您的社团。',
             'get_reviews' => '获得评论',
             'get_reviews_description' => '请您的社团查看您的服务器，并在游戏中奖励他们。',
-            'why_list_on_skinmc' => '为什么你应该在SkinMC上列出你的服务器',
+            'why_list_on_skinmc' => 'Why list on SkinMC?',
             'others' => '其它',
             'quality_check_and_confirmation' => '质量检查与确认',
             'quality_check_description' => '我们的团队审查每个服务器以确保质量。',
@@ -1697,38 +1744,38 @@ return [
             'verified_players_description' => '从 Votifier 整合的合法账户中收集真实玩家的评论。',
             'international' => '多语言环境',
             'international_description' => '通过翻译功能，您的列表可供更多玩家使用。',
-            'server_listing_page' => '强大的服务器列表页面',
-            'server_listing_page_description' => '添加照片，描述文本，YouTube视频，并突出显示玩家加入您的服务器的理由。',
+            'server_listing_page' => 'Server listing page',
+            'server_listing_page_description' => 'Show players what your server offers with photos, a description and YouTube videos.',
             'social_connections' => '社交媒体连接',
-            'social_connections_description' => '连接您的服务器社交账户，显示新的玩家可以找到您。',
+            'social_connections_description' => 'Add social links so players know where to find your community.',
             'verified_badge' => '验证徽章',
             'verified_badge_description' => '验证服务器可以申请验证徽章。',
             'owner_profile' => '所有者个人资料',
-            'owner_profile_description' => '通过自定义您的个人资料，增加个人魅力。',
+            'owner_profile_description' => 'Let players know who runs the server.',
             'categories' => '类别',
-            'categories_description' => '不同的类别将更容易找到您的服务器。',
+            'categories_description' => 'Help players find your server by category.',
             'vote' => '投票',
             'vote_description' => '请用户为您的服务器投票。',
             'review' => 'Review',
             'review_description' => 'Ask users to review your server.',
             'fair_listings' => '公平列表',
-            'fair_listings_description' => 'SkinMC 上的服务器列表无法人为提升搜索结果排名。',
-            'support' => '24小时支持',
-            'support_description' => '您需要帮助吗？还是有一些疑问？您可以随时联系，我们会尽快回复。',
-            'custom_features' => '自定义功能',
-            'custom_features_description' => '您的服务器缺少一个功能？打开一个工单，我们会实现它。',
+            'fair_listings_description' => 'Server listings cannot be artificially boosted in results on SkinMC.',
+            'support' => 'Support',
+            'support_description' => 'Contact us if you need help with your listing.',
+            'custom_features' => 'Feature requests',
+            'custom_features_description' => 'Have a feature in mind? Send us a suggestion.',
             'faq' => [
                 'title' => '常见问题',
-                'suited-question' => '我的Minecraft服务器是否适合SkinMC？',
-                'suited-answer' => 'SkinMC上的Minecraft体玩家热衷于探索新的验、内容和社区交流。 在这个平台上，您会找到各种不同的、独特的、有趣的Minecraft服务器。 不管是一个庞大的服务器，或是一个小的生存服务器，都有其独特的乐趣！',
+                'suited-question' => 'Can I list my Minecraft server on SkinMC?',
+                'suited-answer' => 'SkinMC lists servers of different sizes and styles, from small survival communities to larger networks. Check the server requirements before submitting your listing.',
                 'get-started-question' => '我该如何使用？',
-                'get-started-answer' => '将您的Minecraft服务器添加到SkinMC 服务器列表非常简单！您将首先需要创建一个SkinMC帐户（如果您尚未创建的话），然后按照设置指南提交您的服务器。 添加几张照片和一些精彩的描述，您的服务器将立即发布！',
-                'players-question' => '如何为我的Minecraft服务器吸引更多玩家？',
-                'players-answer' => '建设一个社区是一个Minecraft 服务器持久的的最关键部分。 使用 SkinMC 上的 Minecraft 服务器列表来寻找新的受众并继续建立您的社区。 请玩家推荐您的服务器，或在社交媒体平台上分享您的列表。 收集好的评论对于吸引新玩家的优秀服务器列表也可以发挥重要作用。',
+                'get-started-answer' => 'Log in to SkinMC, link your Minecraft account and choose Add new server. Enter your server details, save the listing and upload photos. Our team will review it before it goes live.',
+                'players-question' => 'How can I help players find my server?',
+                'players-answer' => 'Describe what makes your server worth joining, add photos and keep the listing up to date. Share it with your community and invite players to leave honest reviews.',
                 'more-question' => '我还有一些问题，我可以从哪里得到解答？',
-                'more-answer' => '您可以随时点击帮助按钮，与SkinMC联系， 或加入我们的Discord服务器。',
+                'more-answer' => 'Contact SkinMC support through the help desk or Discord.',
             ],
-            'ready_to_list_description' => '只需几分钟即可将您的Minecraft服务器添加到SkinMC服务器列表。 如果您需要帮助，您可以随时随地联系我们，我们会尽快回复。',
+            'ready_to_list_description' => 'Create a listing to introduce your server to new players. Contact us if you need help.',
         ],
         'manage' => [
             'index' => [
@@ -2155,7 +2202,7 @@ return [
         'zoom_out' => '缩小 (CTRL -)',
         'saved' => '刚刚保存最后一个',
         'saving' => '自动保存中...',
-        'save_error' => '出现了错误。',
+        'save_error' => 'Couldn’t save the cape.',
         'new_skin' => '新建皮肤',
         'automatically_saved_skins' => 'Automatically saved skins',
         'recovered_skins' => 'Recovered skins',
@@ -2318,9 +2365,9 @@ return [
             'download' => '下载 SkinMC Mod 以查看您和其他玩家在游戏中的披风。',
             'learn-more' => '了解更多',
             'link-account' => '要上传斗篷，请先链接您的 Minecraft 帐户。',
-            'updated' => '您的披风已更新！',
-            'removed' => '您的披风已被移除。',
-            'active' => '你的披风已激活！',
+            'updated' => 'Cape updated.',
+            'removed' => 'Cape removed.',
+            'active' => 'Cape activated.',
             'preview_mode' => 'Cape preview mode',
             'loading_preview' => 'Loading cape preview',
             'uploading' => 'Uploading cape',
@@ -2378,26 +2425,26 @@ return [
         'security' => [
             'title' => '帐号安全',
             'email' => '电子邮件地址',
-            'email-title' => '更新您的电子邮件地址。',
+            'email-title' => 'Update your email address',
             'save' => '保存',
             'password' => '密码',
-            'password-title' => '随时更改您的密码。',
-            'social-provider' => '要更新您的账户信息，例如您的密码，请访问您的登录提供商：',
-            'social-provider-email' => '您与您登录提供商关联的电子邮件地址',
-            'social-provider-connected' => '当前已链接的其他账号',
+            'password-title' => 'Change your password',
+            'social-provider' => 'Manage your email address and password with your login provider:',
+            'social-provider-email' => 'Email address used by your login provider',
+            'social-provider-connected' => 'Connected login providers',
             'current-password' => '旧密码',
             'forgot' => '忘记密码？',
             'edit' => '编辑',
-            'delete' => '删除我的账户',
-            'account-deletion' => '删除您的 SkinMC 帐户。',
-            'delete-info' => '请再次确认以继续',
-            'delete-confirmation' => '删除帐户是不可逆的。您的所有个人信息和内容，例如帖子、收藏夹、上传的披风、自定义信息等等，都将被删除，无法恢复。',
+            'delete' => 'Delete account',
+            'account-deletion' => 'Delete your SkinMC account',
+            'delete-info' => 'Confirm account deletion',
+            'delete-confirmation' => 'Deleting your account is permanent. Your personal information and content, including posts, favourites, uploaded capes and customisations, will be deleted and cannot be recovered.',
             'delete-confirmation-info' => '输入您的密码以继续',
             'delete-confirmation-info-social' => '输入 "delete" 以确认帐户删除',
             'type-delete' => '输入 "delete" 以确认',
             'type-delete-label' => '输入 "delete" 以确认',
-            'yes-confirm-delete' => '是的，确认删除',
-            'account-successfully-deleted' => '您的帐户和数据已经成功删除。',
+            'yes-confirm-delete' => 'Delete account',
+            'account-successfully-deleted' => 'Account and data deleted.',
         ],
         'social' => [
             'title' => '社交媒体帐户',
@@ -2406,9 +2453,9 @@ return [
             'link-account' => '将您的 Minecraft 账户链接到SkinMC 以在您的个人资料上显示您的社交链接。',
             'finish-setup' => '完成设置',
             'connect-account' => '绑定你的账号',
-            'connect-description' => 'Choose which accounts you wish to connect and unlock special SkinMC integrations.',
+            'connect-description' => 'Choose which accounts to connect to SkinMC.',
             'empty' => '未添加账户',
-            'empty-description' => '您的社交媒体账户将显示在这里和您的公开个人资料中。 一旦添加，他们将添加更多的个性化到您的页面，并启用集成。',
+            'empty-description' => 'Add social accounts to show them on your public profile.',
             'connect' => '连接',
             'username' => '用户名',
             'spotify' => '添加您的 Spotify 用户名来显示您的 Spotify 信息到您的个人资料中。',
@@ -2428,11 +2475,11 @@ return [
             'includes_skinmc_plus_benefits' => 'Includes SkinMC plus benefits',
         ],
         'recover' => [
-            'title' => '恢复您的账户',
-            'subtitle' => '请输入您的新密码并确认新密码以完成恢复您的帐户。',
+            'title' => 'Reset password',
+            'subtitle' => 'Enter and confirm your new password.',
             'new_password' => '新密码',
-            'repeat_new_password' => '再次输入新的密码',
-            'submit' => '恢复账户',
+            'repeat_new_password' => 'Confirm new password',
+            'submit' => 'Reset password',
         ],
         'customise' => [
             'title' => '自定义你的个人资料',
@@ -2463,24 +2510,24 @@ return [
             'manage' => '管理关联的 Minecraft 账户',
             'description' => '查看和管理您关联的 Minecraft 帐户',
             'title' => '链接的Minecraft帐户',
-            'current' => '当前关联的 Minecraft 账户。',
-            'status' => '您现在可以完全访问所有 SkinMC 功能！',
+            'current' => 'Linked Minecraft account',
+            'status' => 'Your Minecraft account is linked.',
             'linked' => '已关联',
             'disconnect' => '取消关联',
             'disconnect-title' => '取消关联的Minecraft账号',
-            'disconnect-info' => '您确定要断开您的 Minecraft 帐户吗？',
-            'disconnect-features' => '您将无法访问评论、定制和需要关联的 Minecraft 账户的其他功能。 若要再次使用这些，您将被要求链接到Minecraft账户。',
-            'disconnect-following' => '断开您的 Minecraft 账户将永久移除您关注的所有个人资料。',
-            'disconnect-posts' => '您创建的帖子和赞将被删除。',
+            'disconnect-info' => 'Disconnect your Minecraft account?',
+            'disconnect-features' => 'You’ll lose access to commenting, customisation and other features that need a linked Minecraft account. Link an account again to use them.',
+            'disconnect-following' => 'You’ll unfollow every profile you currently follow.',
+            'disconnect-posts' => 'Your feed posts and server reviews will be deleted, and your feed likes will be removed.',
             'can-not-undo' => '此操作无法撤消。',
             'are-you-sure' => '您确定吗？',
-            'confirm' => '是，确认断开连接',
-            'cancel' => '否，取消',
-            'success' => '您的账户已成功断开连结！',
+            'confirm' => 'Disconnect account',
+            'cancel' => 'Cancel',
+            'success' => 'Minecraft account disconnected.',
         ],
         'finish-setup' => [
             'title' => '完成账户设置',
-            'description' => '完成设置您的帐户，并通过链接您的 Minecraft 帐户到 SkinMC 获得所有功能的完全访问权限。',
+            'description' => 'Link your Minecraft account to finish setting up your profile.',
             'link' => '链接 Minecraft 账号',
             'get-started' => '开始',
             'skip' => '跳过',
@@ -2810,16 +2857,16 @@ return [
         'headline' => '跟SkinMC安卓应用程序打个招呼。',
         'play-store-attribution' => 'Google Play和Google Play标志是Google LLC的商标。',
         'features' => 'Convenient features for on the go',
-        'feature-qr' => '以二维码扫描器生成',
-        'feature-qr-detail' => '使用二维码扫描器内置的功能来轻松地从桌面获取皮肤到应用程序，或扫描您朋友自定义个人资料的二维码。',
+        'feature-qr' => 'QR code scanner',
+        'feature-qr-detail' => 'Scan a skin or profile QR code to open it in the app.',
         'feature-files' => '直接保存到文件',
         'feature-files-detail' => '通过Android 文件管理器的使用，应用程序可以方便地保存皮肤，使其更容易应用到基岩版中。',
         'feature-noads' => '无广告',
-        'feature-noads-detail' => 'A clean designed interface, without distractions. Enjoy an Ad-free experience without intrusive annoyances from web to app.',
+        'feature-noads-detail' => 'Use SkinMC without ads on the website and in the app.',
         'feature-experience' => 'Experience',
         'feature-experience-detail' => '随时随地享受完整的 SkinMC 体验，添加功能。自定义您的个人资料，添加您的个人资料，创建一个有趣的二维码和更多！',
-        'get-app-headline' => 'Get the SkinMC App',
-        'get-app-detail' => 'Your very own Minecraft companion for your Android — available for free.',
+        'get-app-headline' => 'Get the SkinMC app',
+        'get-app-detail' => 'SkinMC for Android. Available for free.',
     ],
     'random' => [
         'title' => 'Loading random Minecraft skin',
@@ -2890,7 +2937,7 @@ return [
             'badge' => 'Followers-only post',
             'title' => 'Only followers can view this post.',
             'description' => 'Follow :username to view the post.',
-            'description_guest' => 'Sign in and follow :username to view the post.',
+            'description_guest' => 'Log in and follow :username to view the post.',
         ],
         'private' => '只有我',
         'private-info' => '只有我可以看到私人帖子。',
@@ -2904,7 +2951,7 @@ return [
             'native' => 'Share via device',
             'copy_link' => 'Copy link',
             'social' => 'Popular networks',
-            'copied' => 'Link copied!',
+            'copied' => 'Link copied.',
             'native_failed' => 'Could not open the share menu.',
             'native_unsupported' => 'Native sharing is not available on this device.',
             'close' => 'Close',
@@ -2918,7 +2965,7 @@ return [
                 'bluesky' => 'Share on Bluesky',
                 'pinterest' => 'Pin on Pinterest',
             ],
-            'copy_failed' => 'Could not copy the link. Please try again.',
+            'copy_failed' => 'Couldn’t copy the link. Try again.',
         ],
         'remaining' => '剩余',
         'profile' => '由 :username 发布的帖子',
@@ -2928,10 +2975,10 @@ return [
         'post' => [
             'meta' => ':username on SkinMC: :text',
             'title' => '帖子',
-            'created' => '状态更新已发布！',
-            'confirm-delete' => '您确定要删除此帖子？它不能撤消。',
+            'created' => 'Post published.',
+            'confirm-delete' => 'Delete this post? This cannot be undone.',
             'delete' => '删除帖子',
-            'deleted' => '您的帖子已被删除。',
+            'deleted' => 'Post deleted.',
         ],
         'repost' => [
             'button' => '转发',
@@ -2941,7 +2988,7 @@ return [
             'quote_label' => '添加评论(可选)',
             'quote_placeholder' => '添加您的想法……',
             'reposted' => '已转发',
-            'success' => '已转发！',
+            'success' => 'Reposted.',
             'removed' => '转发已删除。',
             'already_reposted' => '您已经转发了这个内容。',
             'not_available' => 'This post is not available to repost.',
@@ -2979,7 +3026,7 @@ return [
             'votes' => '{0} votes|{1} vote|[2,*] votes',
             'ended' => 'Poll ended',
             'ends_in' => 'Ends :time',
-            'login_required' => 'Sign in to vote',
+            'login_required' => 'Log in to vote',
         ],
         'gif' => [
             'title' => 'GIF',
@@ -3096,7 +3143,7 @@ return [
     ],
     'following' => [
         'title' => 'Following',
-        'text' => 'Sign in to view this post.',
+        'text' => 'Log in to view this post.',
     ],
     'tags' => [
         'empty' => 'No tags to vote on yet',
@@ -3408,7 +3455,7 @@ return [
             'recipient_unavailable' => 'This person is unavailable.',
             'message_required' => 'Please enter a message.',
             'sticker_unavailable' => 'This sticker is unavailable.',
-            'rate_limited' => 'Please slow down. You are sending messages too quickly.',
+            'rate_limited' => 'Too many messages. Wait a moment before sending another.',
             'streak' => [
                 'status_lost' => 'Lost :days-day streak',
                 'status_reply' => 'Reply today to keep your streak',
@@ -3479,7 +3526,7 @@ return [
         'title' => 'Boards',
         'meta_title' => 'My Boards',
         'meta_description' => 'Organize your saved Minecraft skins, creations, and banners into boards.',
-        'all_pins' => 'All Pins',
+        'all_pins' => 'All pins',
         'save' => 'Save',
         'saved' => 'Saved',
         'save_to_board' => 'Save to board',
