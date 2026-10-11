@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Неправильный адрес электронной почты или пароль.',
-    'password' => 'Неверный пароль.',
-    'throttle' => 'Слишком много попыток входа. Пожалуйста, попробуйте снова через :seconds секунд.',
-    'welcome-back' => 'С возвращением, приятно видеть Вас!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Добро пожаловать в SkinMC!',
     'see-you-soon' => 'Увидимся!',
-    'blocked' => 'Ваша учетная запись была деактивирована :date. Если вы считаете, что это была ошибка, пожалуйста, посетите <a target="_blank" href=":url">центр поддержки</a> для помощи.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Показать пароль',
     'hide-password' => 'Скрыть пароль',
     'invite_code' => 'Код приглашения',
