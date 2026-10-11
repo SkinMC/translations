@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'announcements' => [
+        'label' => 'Announcements',
+        'previous' => 'Previous announcement',
+        'next' => 'Next announcement',
+        'opens_new_tab' => 'Opens in a new tab',
+    ],
     'auth' => [
         'login' => [
             'title' => 'Tervetuloa SkinMC:iin',
