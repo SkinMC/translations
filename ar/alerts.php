@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'متابع جديد',
-        'text' => ':user يتابعك الآن!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => 'تعليق على :model',
-            'text' => ':user قدم تعليقا على :model',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'الرد على تعليق :model',
-            'text' => ':user رد على تعليق :model',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'تلقيت إعجاب',
-            'text' => ':user أعجب ببوستك!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'حد منشنك',
-            'text' => ':user منشنك في البوست!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'لقد ارتفع مستواك!',
+            'title' => 'You levelled up!',
             'text' => 'تهانينا على الوصول للمستوى :level!',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'لقد تلقينا بلاغك! (القضية رقم :id)',
-            'text' => 'فريقنا يعمل عليها وسوف ينظر فيها على الفور. شكرا لكونك رائع ومساعدتنا على إبقاء الأمور رائعة! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'قمنا بمراجعة البلاغ الخاص بك (القضية رقم :id)',
-            'text' => 'مرحبًا، تم الاهتمام بالمسألة المبلغ عنها وتم فرزها الآن. شكراً لكونك بطلاً خارقاً لمجتمعنا!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'تحديث البلاغ الخاص بك (القضية رقم :id)',
-            'text' => 'بعد بعض أعمال التحقق، وجدنا أن المحتوى الذي أبلغت عنه لا يتعارض مع المبادئ التوجيهية الخاصة بنا. إذا كنت تريد منا مراجعة شيء محدد، يرجى التأكد من أنك تبلغ عن سكن، الملف الشخصي، إلخ، وتوفير كلام إضافي عند الحاجة. شكرا على اهتمامك ومشاركتك في مجتمعنا!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
