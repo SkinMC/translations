@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'O lugar para skins de Minecraft',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'O SkinMC é o lugar para descobrir, salvar, e obter as melhores skins para Minecraft Bedrock e Java. A lista de skins em alta atualiza todas as semanas.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Por que SkinMC?',
-        'why_skinmc_detail' => 'O aplicativo oferece um escaneador de QR Code exclusivo, para abrir rapidamente skins ou perfis que você encontrou usando a versão para computador. Crie seu próprio QR Code do SkinMC e compartilhe com seus amigos.',
-        'claim_title' => 'Reinvindicar perfil',
-        'claim_detail' => 'Conecte-se com o Minecraft (apenas Java) e obtenha um emblema exclusivo em sua página junto ao acesso à personalização, sistema de comentário, e capas personalizadas. Deixe todos saberem onde encontrá-lo, do Discord, Twitter, YouTube, TikTok e muito mais.',
-        'skin_history_title' => 'Histórico de skin',
-        'skin_history_detail' => 'Mantenha o rastro de todas as suas skins anteriores do Minecraft com o histórico de skins na página do seu perfil. Acesse rapidamente e baixe suas skins usadas no passado.',
-        'avatar_generator_title' => 'Criador de skins',
-        'avatar_generator_detail' => 'O Criador de Skins original para Minecraft o permite selecionar um de 4 estilos populares. Crie uma skin personalizada em Busto, Cubo, Formato da Cabeça, e uma versão 3D bastante personalizada baseada no seu nome de usuário do Java Edition.',
-        'achievements_title' => 'Criador de Progressos/Conquistas',
-        'achievements_detail' => 'Faça suas conquistas personalizadas. Personalize tudo desde o texto amarelo, o texto branco e item exibido.',
-        'no_ads_title' => 'Sem anúncios',
-        'no_ads_detail' => 'SkinMC é inteiramente sem anúncios. Aproveite uma experiência livre de anúncios sem chatices intrusivas.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Encontre qualquer jogador de Minecraft',
-        'claim' => 'Reivindique e personalize seu perfil',
-        'qr' => 'Crie seu QR Code personalizado',
-        'qr_scanner' => 'Leitor de QR Code integrado',
-        'new_skins' => 'Milhares de novas skins todo dia',
-        'achievement' =>  'Criador de conquistas',
-        'avatar' => 'O criador de skins original'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Criador de conquistas',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Obrigada por usar o SkinMC. Com esta atualização você verá correções de erro e melhorias. O que você acha do SkinMC? Avalie-nos!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];
