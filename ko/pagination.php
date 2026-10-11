@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => '검색 결과를 처리하는 중',
+    'title' => 'Result pages',
     'previous' => '이전',
     'next' => '다음',
     'Showing' => 'Showing',
