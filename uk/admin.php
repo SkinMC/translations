@@ -31,7 +31,7 @@ return [
             'username' => 'Імʼя користувача',
             'email' => 'Електронна пошта',
             'status' => 'Статус',
-            'role' => 'Роль'
+            'role' => 'Роль',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Скарги',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Дописи в стрічці',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Видалені коментарі',
             'subtitle' => ':count видалених коментарів',
-        ]
-    ]
+        ],
+    ],
 ];
