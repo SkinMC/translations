@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Disse opplysningene samsvarer ikke med våre oppføringer.',
-    'password' => 'Angitt passord er feil.',
-    'throttle' => 'For mange innloggingsforsøk. Prøv igjen om :seconds sekunder.',
-    'welcome-back' => 'Welcome back, nice to see you!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Welcome to SkinMC!',
     'see-you-soon' => 'See you soon!',
-    'blocked' => 'Your account was deactivated on :date. If you believe this was an error please visit the <a target="_blank" href=":url">support center</a> for assistance.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Show password',
     'hide-password' => 'Hide password',
     'invite_code' => 'Invite code',
