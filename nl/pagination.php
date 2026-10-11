@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Nummering van zoekresultaten',
+    'title' => 'Result pages',
     'previous' => 'Vorige',
     'next' => 'Volgende',
     'Showing' => 'Laten zien',
