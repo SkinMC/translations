@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'A Minecraft-kinézetek tárháza',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'A legjobb Minecraft-kinézeteket—a Minecraft Bedrock- és Java-kiadásokra is—a SkinMC-n fedezheted fel és szerezheted be! A felkapott kinézetek listája hetente frissül.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Miért a SkinMC-t válasszam?',
-        'why_skinmc_detail' => 'Az alkalmazás egy kényelmes QR kód olvasót tartalmaz, amivel könnyen megnyithatod az asztali verzión talált kinézeteket és fiókokat. Létrehozhatod a saját SkinMC QR kódodat is, hogy megoszthatsd a barátaiddal.',
-        'claim_title' => 'Igazold a fiókod',
-        'claim_detail' => 'Kapcsold össze a Minecraft fiókodat (csak a Java-kiadás támogatott) és egy exluzív jelvény fog megjelenni a neved mellett. Ezen felül hozzáférést nyerhetsz a profilod személyre szabásához, a hozzászóláshoz és egyedi köpenyekhez. A közösségi oldalaidra is hivatkozhatsz, hogy mindenki tudja, milyen név alatt találhat meg a Discordon, Twitteren, YouTube-on, TikTokon és sok más helyen.',
-        'skin_history_title' => 'Kinézet-előzmények',
-        'skin_history_detail' => 'A profilod „előzmények”-részlegében nyomon követheted a korábbi kinézeteidet és le is töltheted őket.',
-        'avatar_generator_title' => 'Profilképkészítő',
-        'avatar_generator_detail' => 'Az eredeti Minecraft Profilképkészítővel négy különböző stílus alapján készíthetsz profilképet. Készíts egy egyedi profilképet arc-, mellszobor-, kocka- és egy új teljesen személyre szabható térhatású stílusban is, a Minecraft-felhasználóneved használatával.',
-        'achievements_title' => 'Teljesítmény-/Előrelépéskészítő',
-        'achievements_detail' => 'Készíts egyedi teljesítményeket. Személyre szabható a cím, a leírás és az ikon is.',
-        'no_ads_title' => 'Nincsenek hirdetések',
-        'no_ads_detail' => 'A SkinMC teljesen hirdetésmentes. Élvezd az alkalmazást zavaró tényezők nélkül.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Tekintsd meg bármelyik Minecraft-játékos profilját',
-        'claim' => 'Igazold és szabd személyre a profilodat',
-        'qr' => 'Hozz létre saját QR kódot',
-        'qr_scanner' => 'Beépített QR kód olvasó',
-        'new_skins' => 'Naponta több ezer új kinézet',
-        'achievement' =>  'Teljesítménykészítő',
-        'avatar' => 'Az eredeti profilképkészítő'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Teljesítménykészítő',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Köszönjük, hogy a SkinMC-alkalmazást használod! Ez a frissítés általános- és hibajavításokat tartalmaz. Mit gondolsz a SkinMC-alkalmazásról? Értékelj minket!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];
