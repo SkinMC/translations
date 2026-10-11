@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Dessa uppgifter stämmer inte.',
-    'password' => 'Lösenordet är fel.',
-    'throttle' => 'För många inloggningsförsök. Försök igen om :seconds sekunder.',
-    'welcome-back' => 'Välkommen tillbaka, trevligt att träffas!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Välkommen till SkinMC!',
     'see-you-soon' => 'Ses snart!',
-    'blocked' => 'Ditt konto inaktiverades på :date. Om du tror att detta är ett fel besök <a target="_blank" href=":url">hjälpcentret</a> för hjälp.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Visa lösenord',
     'hide-password' => 'Göm lösenord',
     'invite_code' => 'Inbjudningskod',
