@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'A megadott adatok nem felelnek meg a nyilvántartásunknak.',
-    'password' => 'A megadott jelszó helytelen.',
-    'throttle' => 'Túl sok kísérlet történt. Kérjük, próbálkozz újra :seconds másodperc múlva.',
-    'welcome-back' => 'Üdv megint, jó itt látni téged!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Üdvözlünk a SkinMC-n!',
     'see-you-soon' => 'A viszontlátásra!',
-    'blocked' => 'Ez a fiók letiltásra került ekkor: :date. Ha úgy gondolod, hogy ez téves, látogasd meg az <a target="_blank" href=":url">ügyfélszolgálatot</a>.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Jelszó mutatása',
     'hide-password' => 'Jelszó elrejtése',
     'invite_code' => 'Meghívási kód',
