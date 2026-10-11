@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'مكانك في سكنات ماين كرافت',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC هو مكانك لاكتشاف و حفظ، و الحصول على أفضل سكنات لـ Minecraft Bedrock و Java. ونقوم بتحدث قائمة السكنات الرائجة اسبوعيا.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'لماذا SkinMC؟',
-        'why_skinmc_detail' => 'توفر المنصه حصريا ماسح رمز الاستجابة السريعة (QR)، لفتح السكنات أو الملفات الشخصية بسرعة باستخدام إصدار سطح المكتب. قم بإنشاء رمز SkinMC QR الخاص بك لمشاركته مع أصدقائك.',
-        'claim_title' => 'الحصول على ملفك الشخصي',
-        'claim_detail' => 'اتصل مع Minecraft (Java فقط) واحصل على شارة حصرية معروضة على صفحتك بالإضافة إلى الوصول إلى التخصيص، ونظام التعليقات، والأغطية المخصصة. أضف روابط وسائل الإعلام الاجتماعية الخاصة بك إلى ملفك الشخصي. أخبر الجميع أين يمكنك العثور عليك، من ديسكورد، تويتر، يوتيوب، تيكتوك والعديد غيرها.',
-        'skin_history_title' => 'تاريخ السكن',
-        'skin_history_detail' => 'استمر في تتبع جميع سكنات ماين كرافت السابقة الخاصة بك مع سجل السكنات على صفحة الملف الشخصي الخاص بك. قم بالوصول بسرعة إلى ماضي المستخدم الخاص بك وتنزيله.',
-        'avatar_generator_title' => 'صانع الافتارات',
-        'avatar_generator_detail' => 'مولد الافتارات الأصلي Minecraft يتيح لك الاختيار من 4 أنماط مشهورة. إنشاء صورة رمزية مخصصة ومخصصة في Bust, Cube، تنسيق الرأس وعلامة تجارية جديدة أيضا مخصصة بالكامل في 3D استنادًا إلى اسم المستخدم الخاص بك Java-Edition.',
-        'achievements_title' => 'صانع الانجازات',
-        'achievements_detail' => 'اجعل إنجازاتك الشخصية جداً. قم بتخصيص كل شيء من العنوان الأصفر والنص والعنصر المعروض.',
-        'no_ads_title' => 'لا توجد إعلانات',
-        'no_ads_detail' => 'SkinMC خالية تماما من الإعلانات. استمتع بتجربة خالية من الإعلانات دون مضايقات تدخلية.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'العثور على أي لاعب ماين كرافت',
-        'claim' => 'طلب وتخصيص ملفك الشخصي',
-        'qr' => 'إنشاء رمز QR المخصص',
-        'qr_scanner' => 'بُنيت في ماسح رمز QR',
-        'new_skins' => 'الآلاف من السكنات الجديدة كل يوم',
-        'achievement' =>  'صانع الانجازات',
-        'avatar' => 'صانع الافتارات'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'صانع الانجازات',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'شكرا لاستخدام تطبيق SkinMC. مع هذا التحديث، سوف تتلقى بعض إصلاحات الأخطاء والتحسينات. ماذا تفكر في تطبيق SkinMC؟ قيّمنا!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];
