@@ -31,7 +31,7 @@ return [
             'username' => 'Användarnamn',
             'email' => 'E-post',
             'status' => 'Status',
-            'role' => 'Roll'
+            'role' => 'Roll',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Rapporteringar',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Inlägg på flödet',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Raderade kommentarer',
             'subtitle' => ':count antal raderade kommentarer',
-        ]
-    ]
+        ],
+    ],
 ];
