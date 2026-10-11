@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'welcome-back' => 'Welcome back, nice to see you!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Welcome to SkinMC!',
     'see-you-soon' => 'See you soon!',
-    'blocked' => 'Your account was deactivated on :date. If you believe this was an error please visit the <a target="_blank" href=":url">support center</a> for assistance.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Show password',
     'hide-password' => 'Hide password',
     'invite_code' => 'Invite code',
