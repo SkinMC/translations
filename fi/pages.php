@@ -261,9 +261,9 @@ return [
         'unfollow' => 'Lopeta seuraaminen',
         'followers' => 'Seuraaja|Seuraajat',
         'toast' => [
-            'following' => 'Seuraat nyt :username!',
+            'following' => 'Now following :username.',
             'follow-self-error' => 'Anteeksi :username, et voi seurata itseäsi.',
-            'unfollowed' => 'Olet lopettanut :username seuraamisen',
+            'unfollowed' => 'Unfollowed :username.',
         ],
         'edit' => 'Muokkaa profiilia',
         'country' => 'Country',
@@ -271,15 +271,15 @@ return [
         'menu' => 'Menu',
         'joined' => 'Liittyi',
         'role' => 'Rooli',
-        'server-fav-list-empty' => 'Näyttää siltä, että :username ei saanut ole vielä yhtään suosikkipalvelinta. Kun :username on tallentanut palvelimen suosikikseen, voit nähdä sen täällä.',
-        'server-own-list-empty' => 'Näyttää siltä, että :username ei ole saanut vielä yhtään palvelinta. Kun :username on listannut palvelimen, näet sen täällä.',
-        'capes-list-empty' => 'Näyttää siltä, että :username ei ole vielä pukeutunut mihinkään viittaan. Kun :username on pukeutunut viittaan, näet sen täältä.',
-        'feed-own-list-empty' => 'Näyttää siltä, että et ole vielä julkaissut mitään syötteeseen! Kun olet julkaissut, voit nähdä julkaisujasi täällä.',
-        'feed-list-empty' => 'Hmm, näyttää siltä, että :username ei ole julkaissut vielä mitään syötteeseen. Kun :username julkaisee jotain, voit nähdä sen täällä.',
-        'following-own-list-empty' => 'Näyttää siltä, että et seuraa ketään vielä! Kun alat seurata ihmisiä, voit nähdä ne täällä.',
-        'following-list-empty' => 'Hmm, näyttää siltä, että :username ei seuraa ketään. Kun :username alkaa seurata ihmisiä, voit nähdä ne täällä.',
+        'server-fav-list-empty' => ':username hasn’t saved any favourite servers yet.',
+        'server-own-list-empty' => ':username hasn’t listed any servers yet.',
+        'capes-list-empty' => ':username isn’t wearing a cape yet.',
+        'feed-own-list-empty' => 'No posts yet. Share something with the community.',
+        'feed-list-empty' => ':username hasn’t posted anything yet.',
+        'following-own-list-empty' => 'You’re not following anyone yet. Find someone whose work you enjoy.',
+        'following-list-empty' => ':username isn’t following anyone yet.',
         'followers-own-list-empty' => 'Kun ihmiset alkavat seurata profiiliasi, he näkyvät täällä.',
-        'followers-list-empty' => 'Hmm, näyttää siltä, että :username ei seuraa ketään. Ole ensimmäinen, joka seuraa :username. Kun enemmän ihmisiä seuraa, voit nähdä ne täällä.',
+        'followers-list-empty' => ':username has no followers yet.',
         'render' => 'Renderöijä',
         '3d' => '3D renderöinti',
         '2d' => '2D renderöinti',
@@ -340,16 +340,16 @@ return [
     ],
     'skin-tags' => [
         'faq' => 'Mitä tagit ovat?',
-        'about' => 'Tunnisteet ovat tapa lisätä merkityksellisiä kategorioita skineille. Lisäämällä tunnisteita voit löytää lisää skiniä pidät helposti!',
+        'about' => 'Tags describe a skin and help people find similar skins.',
         'guidelines' => [
             'good' => [
-                'title' => 'Yleiset ohjeet hyvistä tunnisteista ovat:',
+                'title' => 'Good tags are',
                 'short' => 'Lyhyt',
                 'descriptive' => 'Kuvaileva',
                 'spelled' => 'Oikein kirjoitettu',
             ],
             'bad' => [
-                'title' => 'Älä lisää tunnisteita, kuten:',
+                'title' => 'Avoid tags that are',
                 'general' => 'Liian yleinen',
                 'specific' => 'Liian tarkka',
                 'too-many-tags' => 'Pitäisi olla kolme erillistä tagia',
@@ -357,10 +357,10 @@ return [
             ],
         ],
         'toast' => [
-            'added' => 'Tunniste ”:tag” lisätty äänestykseen',
-            'removed' => 'Tunniste ”:tag” on poistettu',
-            'upvote' => 'Ylä-ääni ”:tag”',
-            'downvote' => 'Alaääni ”:tag”',
+            'added' => 'Tag “:tag” added for voting.',
+            'removed' => 'Tag “:tag” removed.',
+            'upvote' => 'Upvoted “:tag”.',
+            'downvote' => 'Downvoted “:tag”.',
         ],
         'vote' => [
             'up' => 'Ylä-ääni',
@@ -370,8 +370,8 @@ return [
     ],
     'contact' => [
         'contact' => 'Yhteystiedot',
-        'email' => 'Voit vapaasti kirjoittaa meille osoitteeseen <a href="mailto:support@skinmc.net">support@skinmc.net</a> mistä tahansa kysymyksestä mitä sinulla on.',
-        'faq' => 'Pyydämme ystävällisesti ensin tarkistaa <a href=":link">UKK sivu</a> jos kysymykseesi on jo vastattu siellä.',
+        'email' => 'Email us at <a href="mailto:support@skinmc.net">support@skinmc.net</a>.',
+        'faq' => 'Check the <a href=":link">FAQs</a> for answers to common questions.',
         'other' => 'Muita tapoja ottaa yhteyttä',
         'other_discord' => 'Liity Discord palvelimeen ja ota yhteys muihin, juttele peleistä, jaa suosikkipaketit ja saa apua yhteisöltä.',
         'other_twitter' => 'Seuraa Twitterissä nähdäksesi milloin uusi päivitys tai ominaisuus on julkaistu, katso viikon skini ja paljon muuta.',
@@ -382,17 +382,17 @@ return [
         'intro' => '<span>Sinun</span> <span>alustasi</span> <span></span> <span>Minecraft</span> <span>olemusta.</span>',
         'header_credit' => 'Kuva "Epic Nether Battle" by',
         'info' => 'Pidä kirjaa kaikesta.',
-        'info_explainer' => 'Katso pelaajien nimi historia, katso heidän edellinen ulkoasu, lisää ne ystävänä, lataa ulkoasuja, ja jopa saada tiedot tilastot.',
-        'card_find_title' => 'Etsi mikä tahansa minecrafter',
-        'card_find_detail' => 'Aloita etsimällä valitsemaasi pelaajien käyttäjänimeä tai UUID:tä.',
+        'info_explainer' => 'Browse a player’s skin history and statistics, download skins and follow their profile.',
+        'card_find_title' => 'Find a Minecraft player',
+        'card_find_detail' => 'Search for a player by username or UUID.',
         'card_view_title' => 'Katso, tallenna ja muokkaa',
         'card_view_detail' => 'Löysitkö ihon, josta pidät? Tallenna se lataamalla tai käyttämällä editoria tehdäksesi siitä oman.',
-        'card_claim_title' => 'Vahvista vahvistus',
-        'card_claim_detail' => 'Linkitä Minecraft-tilisi ja vaadi profiilisi avataksesi uusia viileitä ominaisuuksia!',
+        'card_claim_title' => 'Claim your profile',
+        'card_claim_detail' => 'Link your Minecraft account to claim your profile.',
         'card_customise_title' => 'Muokkaa profiiliasi',
-        'card_customise_detail' => 'Vahvistetut pelaajat voivat lisätä sosiaalisen median linkkinsä ja tehdä profiilinsa omaksi.',
-        'card_friends_title' => 'Lisää ystäväsi',
-        'card_friends_detail' => 'Hanki yhteys ystäviesi kanssa SkinMC:ssä ja näytä kaverilistasi profiilissa.',
+        'card_customise_detail' => 'Add a bio, social links and an avatar to your profile.',
+        'card_friends_title' => 'Follow players',
+        'card_friends_detail' => 'Follow Minecraft players to keep up with their posts.',
         'card_history_title' => 'Käyttäjänimi ja ulkoasun historia',
         'card_history_detail' => 'Käytä lisähakua löytääksesi pelaajan käyttäjätunnuksen tai ulkoasun historian ja nähdäksesi sen.',
         'founders' => 'Perustajat',
@@ -400,65 +400,112 @@ return [
         'head_of_design' => 'Pääsuunnittelija',
         'head_of_code' => 'Pääkoodaaja',
         'feedback' => 'Lähetä meille palautetta',
-        'faq' => 'Kysymyksiä Minecraftista, Skinsistä ja muusta? Lue usein kysytyt kysymykset ja vastaukset yleisimpiin kysymyksiin.',
-        'faq_link' => 'Vieraile UKK keskuksessa',
-        'contact' => 'Haluatko ottaa yhteyttä tai onko sinulla lisäkysymyksiä? Ota meihin suoraan yhteyttä.',
+        'faq' => 'Find answers to common questions about Minecraft and skins.',
+        'faq_link' => 'Read FAQs',
+        'contact' => 'Still need help? Get in touch.',
         'contact_link' => 'Ota meihin yhteyttä',
 
     ],
     'faq' => [
         'title' => 'UKK',
-        'subtitle' => 'Usein kysytyt kysymykset',
+        'subtitle' => 'Help with SkinMC, skins and Minecraft servers.',
         'help' => 'Tarvitsetko lisää apua?',
         'discord' => 'Liity Discord-palvelimeen keskustellaksesi muiden Minecraft-pelaajien kanssa.',
         'contact' => 'Ota meihin yhteyttä',
+        'categories' => [
+            'skins' => 'Skins',
+            'usernames' => 'Usernames',
+            'servers' => 'Servers',
+            'capes' => 'SkinMC capes',
+            'account' => 'Account',
+            'contact' => 'Contact',
+        ],
         'q' => [
-            'change_skin_t' => 'Miten voin muuttaa Minecraft Skini?',
+            'change_skin_t' => 'How do I change my skin in Minecraft: Java Edition?',
             'change_skin' => '
-                <p>Muuttaaksesi Skin tee seuraavasti:</p>
+                <p>Download the skin as a PNG, then open the Minecraft Launcher.</p>
                 <ol>
-                    <li>Vieraile osoitteessa <a href="https://my.minecraft.net/en-us/login/">https://my. inecraft.net/en-us/login/</a> ja kirjaudu sisään Mojang-tililläsi.</li><li>Kun olet kirjautunut sisään, valitse <b>"Skin"</b> vasemmasta valikosta.</li><li>Valitse sitten haluamasi malli ja lataa mielesi Ulkoasu</li>
-                </ol>',
-            'change_username_t' => 'Miten vaihdan Minecraftin käyttäjänimeni?',
+                    <li>Choose <strong>Minecraft: Java Edition</strong> and open <strong>Skins</strong>.</li>
+                    <li>Select <strong>New Skin</strong>, give it a name and choose the wide or slim model to match your skin.</li>
+                    <li>Select <strong>Browse</strong> and choose the downloaded PNG.</li>
+                    <li>Select <strong>Save &amp; Use</strong> to apply it.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/what-is-minecraft-skin" target="_blank" rel="noopener noreferrer">Minecraft skin guide</a> for more help.</p>',
+            'change_username_t' => 'How do I change my Minecraft username?',
             'change_username' => '
-                <p>Muuttaaksesi käyttäjänimeäsi tee seuraavat:</p>
+                <p>For Minecraft: Java Edition:</p>
                 <ol>
-                    <li>Vieraile osoitteessa <a href="https://account.mojang.com/login" target="_blank" rel="nofollow">https://account. ojang.com/login</a> ja kirjaudu sisään Mojang-tililläsi.</li>
-                    <li>Etsi Minecraft-profiilisi nimi ja paina <b>"(Kakku)"</b> painiketta</li>
-                    <li>Seuraavalla sivulla syötä haluamasi uusi käyttäjätunnus.</li>
-                    <li>Lopuksi vahvista muutokset kirjoittamalla salasanasi ja painamalla "Muuta nimi".</li>
-                </ol>',
-            'dl_t' => 'Miten voin ladata jonkun Minecraft Skin?',
+                    <li>Log in to <a href="https://www.minecraft.net/en-us/login" target="_blank" rel="noopener noreferrer">Minecraft.net</a> with your Microsoft account and open <strong>All Games</strong>.</li>
+                    <li>Under <strong>Minecraft: Java Edition</strong>, select <strong>Change Profile Name</strong>.</li>
+                    <li>Enter a name and select <strong>Change Your Profile Name</strong>.</li>
+                </ol>
+                <p>In Bedrock Edition, your name depends on your account and platform. See <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s guide to changing your profile name</a>.</p>',
+            'dl_t' => 'How do I download a player’s Minecraft skin?',
             'dl' => '
-                <p>Jos haluat ladata jonkun Minecraft Skin tehdä seuraavasti:</p>
                 <ol>
-                    <li>Paina hakupalkkia ja kirjoita pelaajan käyttäjätunnus, josta haluat ladata ulkoasun.</li>
-                    <li>Profiilisivulla voit esikatsella ulkoasua</li>
-                    <li>Klikkaa <strong>Lataa Ulkoasu</strong> -painiketta esikatselun alla</li>
+                    <li>Search SkinMC for the player’s Minecraft username.</li>
+                    <li>Open their profile to preview the skin.</li>
+                    <li>Select <strong>Download skin</strong> to save the PNG.</li>
                 </ol>',
-            'submit_q' => 'Miten voin lähettää skinin kokoelmaan?',
-            'submit_a' => '<p>Ole hyvä ja täytä seuraava lyhyt lomake käyttäjätunnuksilla ja niiden luokalla, jonka haluat lisätä kokoelmiin. <a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Kokoelman lähetyslomake</a>',
-            'mcpe_t' => 'Voinko käyttää ihoa Minecraft PE:ssä?',
+            'submit_q' => 'How do I create a collection?',
+            'submit_a' => '<p>Log in, open <strong>Collections</strong> in your account and choose <strong>Create collection</strong>. Give it a title, choose from your uploaded skins, skin bases and capes, then arrange them and save.</p><p>Visitors only see public, approved items. Draft and unlisted items stay hidden.</p>',
+            'mcpe_t' => 'Can I use downloaded skins in Minecraft: Bedrock Edition?',
             'mcpe' => '
-                <p>Kyllä. Jos haluat käyttää Skiniä Minecraft Pocket Editionissa, tee seuraavasti:</p>
+                <p>Yes, on Windows and mobile. Custom skin imports are not supported on consoles.</p>
                 <ol>
-                    <li>Avaa SkinMC. et älypuhelimessasi ja napauta hakupalkkia</li>
-                    <li>Syötä pelaajan ulkoasun käyttäjänimi jonka haluat ladata</li>
-                    <li>Napauta <strong>Lataa Ulkoasu</strong> -painiketta esikatselun alla </li>
-                    <li>Avaa Minecraft PE ja napauta <strong>Profiili</strong> oikealla puolella</li>
-                    <li>Napauta <strong>+</strong>, tai muokkaa hahmoa ja siirry "klassisen oletuksen välilehteen"</li>
-                    <li>Napauta "omistettu", sitten "import", sitten "valitse uusi nahka"</li>
-                </ol>',
-            'change_times_t' => 'Kuinka usein voin vaihtaa käyttäjänimeäni?',
-            'change_times' => '<p>Voit muuttaa Minecraftin käyttäjänimeä <strong>kerran</strong> joka <strong>30 päivä</strong>.</p>',
-            'available_t' => 'Kun olen muuttanut käyttäjänimeni, milloin se tulee saataville muiden vaatia sitä?',
-            'available' => '<p>Jos haluat muuttaa takaisin edelliseen käyttäjänimeesi, voit muuttaa <strong>30 päivän kuluttua.</strong> Kaikkien muiden on odotettava <strong>7 päivää</strong> (37 päivää vaihtamisen jälkeen), ennen kuin he voivat lunastaa vanhan käyttäjätunnuksesi. </p>',
-            'username_history_t' => 'Voitko poistaa käyttäjätunnukseni historiasta?',
+                    <li>Download a skin from SkinMC as a PNG.</li>
+                    <li>Open Minecraft and select <strong>Dressing Room</strong>.</li>
+                    <li>Choose a character, select <strong>Edit Character</strong> and open <strong>Classic Skins</strong>.</li>
+                    <li>Under <strong>Owned</strong>, select <strong>Import</strong>, then <strong>Choose New Skin</strong>.</li>
+                    <li>Choose the downloaded PNG and the model that matches your skin.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/character-creator-faq" target="_blank" rel="noopener noreferrer">Minecraft Character Creator FAQ</a> for platform support.</p>',
+            'change_times_t' => 'How often can I change my Java username?',
+            'change_times' => '<p>You can change your Minecraft: Java Edition profile name once every <strong>30 days</strong>.</p>',
+            'available_t' => 'Can I change back to my previous Java username?',
+            'available' => '<p>You can change back after <strong>30 days</strong>. Check <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s profile name guidance</a> before changing your name.</p>',
+            'username_history_t' => 'Can I hide my username history on SkinMC?',
             'username_history' => '
-                <p>Koska käyttäjätunnuksen historia on peräisin Mojangista, käyttäjätunnuksen historiaa ei voi poistaa. Mojang on aiemmin todennut, että heidän tarkoituksenaan oli, että aiemmat käyttäjätunnukset ovat nähtävissä1, ja että ne tarjoavat suoran menetelmän yleisön käyttää näitä tietoja2.</p>
-                <p class="font-14">1<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help inecraft. et/hc/en-us/articles/360034636712-Minecraft-Usernames</a></p>
-                <p class="font-14 mb-0">2<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter. om/dinnerbone/status/554739042529849345</a> (Tweet archived 2 years ago: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive. s/TeAyj</a>)
-                </p>',
+                <p>Yes. Link your Minecraft account, open your profile customisation settings and turn on <strong>Make username history private</strong>.</p>
+                <p>This hides your history from other visitors on SkinMC. You can still see it when logged in. It does not remove information from other websites.</p>',
+            'add_server_t' => 'How do I add my server to SkinMC?',
+            'add_server' => '<p>Log in to SkinMC and link your Minecraft account, then choose <strong>Add new server</strong>. Enter the server details and save the listing.</p><p>Upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.</p>',
+            'server_requirements_t' => 'What are the requirements for a server listing?',
+            'server_requirements' => '
+                <ul>
+                    <li>You must own the server or be authorised to represent it.</li>
+                    <li>Link the Minecraft account you use as the owner or representative to SkinMC.</li>
+                    <li>The server must follow the <a href="https://www.minecraft.net/eula">Minecraft EULA</a>.</li>
+                    <li>Add accurate server details, a clear description and at least :count photos with descriptions.</li>
+                </ul>
+                <p>Our team checks the listing and ownership before approval. We may ask you to make changes before it goes live.</p>',
+            'server_description_t' => 'What should I include in my server description?',
+            'server_description' => '<p>Help players understand what playing on the server is like. Describe the game modes, community and any features that make it different.</p><p>Use clear, specific details and mention anything players need to know before joining. Keep the description accurate and up to date.</p>',
+            'server_images_t' => 'How do I add photos to my server listing?',
+            'server_images' => '
+                <ol>
+                    <li>Open <a href=":manage_url">Manage your servers</a> and choose <strong>Edit server</strong>.</li>
+                    <li>Choose <strong>Add photo</strong> or <strong>Add new image</strong> in the images section.</li>
+                    <li>Select a JPG or PNG up to :max_size and add a description of what it shows.</li>
+                    <li>Save the photo and repeat for the other images.</li>
+                </ol>
+                <p>Use photos that show what players can expect, such as the spawn area, builds or game modes. A listing needs at least :count photos and approval before it can go live.</p>',
+            'server_publication_t' => 'Why is my server listing not live yet?',
+            'server_publication' => '<p>A listing needs approval and at least :count photos before it can go live. Check its status in <a href=":manage_url">Manage your servers</a> and add any missing photos.</p><p>If you remove photos and fall below the minimum, the listing is hidden until you add enough photos again.</p>',
+            'server_reviews_t' => 'How do I write a server review?',
+            'server_reviews' => '<p>Log in and link your Minecraft account, then open a server listing and choose <strong>Write a review</strong>.</p><p>Only review servers you have played on. Describe your own experience, be honest and specific, and keep criticism constructive. Include useful suggestions where you can. You cannot review your own server.</p>',
+            'profile_verification_t' => 'What does a verified profile mean?',
+            'profile_verification' => '<p>The verification badge shows that SkinMC has checked the identity of a recognisable person behind a profile. It is reviewed separately from linking a Minecraft account.</p><p>To be considered, the profile must be public, authentic and active, with relevant links that help confirm the person’s identity.</p>',
+            'request_verification_t' => 'How do I request profile verification?',
+            'request_verification' => '<p><a href=":support_url">Contact support</a> with your name, a short introduction, the reason for your request and a link to your SkinMC profile. Include links to your official website or social accounts that help confirm your identity.</p><p>SkinMC reviews each request. Meeting the requirements does not guarantee a badge. You can also link to your SkinMC profile from your official website or social accounts to help people recognise it.</p>',
+            'lose_verification_t' => 'Can a profile lose verification?',
+            'lose_verification' => '<p>Yes. SkinMC may remove the badge if the account becomes inactive or breaks the terms of service.</p>',
+            'contact_t' => 'How do I contact support?',
+            'contact' => 'Contact support with a description of the problem and any details that could help us understand it, such as the page link or an error message.',
+            'feedback_t' => 'How do I send feedback?',
+            'feedback' => 'Send us your feedback through support. Tell us what you were trying to do and what could work better.',
+            'feature_request_t' => 'How do I suggest a feature?',
+            'feature_request' => 'Send your suggestion through support. Describe what you’d like to do and how it would help.',
         ],
     ],
     'avatars' => [
@@ -517,7 +564,7 @@ return [
     'achievement' => [
         'header' => [
             'title' => 'Luo oma Minecraft-saavutuksesi',
-            'subtitle' => 'Käytä Minecraft Achievement Generator luoda oman mukautetun saavutuksen ja käyttää näyttää edistysaskeleita kaikessa, mitä haluat!',
+            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and show your advancements wherever you like.',
         ],
         'generator' => [
             'yellow_text' => 'Keltainen teksti',
@@ -537,8 +584,8 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraft Haarniskajalustan Luoja',
-            'subtitle' => 'Generoi ja luo oma mukautettu Minecraft haarniskajalusta. Luo erilaisia asentoja, sijoituksia, aseta esineitä ja paljon muuta.',
+            'title' => 'Minecraft armour stand creator',
+            'subtitle' => 'Set the pose, position and items for a custom armour stand.',
         ],
         'meta' => [
             'title' => 'Minecraft Haarniskajalustan Luoja',
@@ -548,15 +595,15 @@ return [
     'banner' => [
         'editor' => [
             'header' => [
-                'title' => 'Minecraft Bannerin Muokkaaja',
-                'subtitle' => 'Suunnittele ja luo omat Minecraft bannerit. Näitä voidaan käyttää koristamaan maailmasi tai käytetään yleisesti myös <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a> viittana.',
+                'title' => 'Minecraft banner editor',
+                'subtitle' => 'Design banners for your world or use them as <a href="https://optifine.net" target="_blank" rel="nofollow">OptiFine</a> capes.',
             ],
             'meta' => [
                 'title' => 'Minecraft Bannerin Muokkaaja',
                 'description' => 'Luo ja suunnittele ikioma Minecraft-bannerisi, jossa on kaikki pelin kuviot ja värit! Niitä voidaan käyttää maailmasi koristeluun tai käyttää Optifine-viittana Banneriviitan avulla. Voit luoda antamiskoodeja bannereille tai kilville.',
             ],
             'toolbar' => [
-                'title' => 'Bannerin Muokkaaja',
+                'title' => 'Banner editor',
                 'randomise' => 'Satunnannainen',
                 'clear_layers' => 'Tyhjennä kerrokset',
                 'help' => 'Apua',
@@ -748,9 +795,9 @@ return [
             'tags_aria' => 'Wallpaper tags',
             'tags_remove_aria' => 'Remove tag',
             'tags_hint' => 'Add up to :max descriptive tags.',
-            'license_label' => 'License',
+            'license_label' => 'Licence',
             'license_help' => 'Need help choosing?',
-            'license_select' => 'Select a license',
+            'license_select' => 'Select a licence',
             'challenge_opt_in_label' => 'Enter the monthly wallpaper challenge',
             'challenge_opt_in_hint' => 'If selected, your entry can be featured on the SkinMC homepage next month.',
             'challenge_help' => 'Learn more',
@@ -784,10 +831,10 @@ return [
             'crop_modal_apply' => 'Use crop',
             'close' => 'Close',
             'license_modal' => [
-                'title' => 'Need help choosing a license?',
+                'title' => 'Need help choosing a licence?',
                 'description' => 'Choose how others can use your wallpaper. Use the links below to read the full Creative Commons terms.',
                 'cc_by' => 'Recommended for most use cases. Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Use when you want adaptations to stay open under the same license, with attribution.',
+                'cc_by_sa' => 'Use when you want adaptations to stay open under the same licence, with attribution.',
                 'cc_by_nc' => 'Use when you want attribution but do not allow commercial use.',
                 'read_cc_by' => 'Read CC BY 4.0',
                 'read_cc_by_sa' => 'Read CC BY-SA 4.0',
@@ -839,7 +886,7 @@ return [
             'resolution' => 'Resolution',
             'resolution_desktop' => 'Desktop: :value',
             'resolution_mobile' => 'Mobile: :value',
-            'license' => 'License',
+            'license' => 'Licence',
             'learn_more' => 'Learn more',
             'winner_badge' => 'Winner',
             'winner_challenge_label' => 'Wallpaper challenge',
@@ -855,9 +902,9 @@ return [
             'similar_wallpapers' => 'Similar wallpapers',
             'license_info' => [
                 'cc_by' => 'Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same license.',
+                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same licence.',
                 'cc_by_nc' => 'Allows sharing and edits with attribution, but no commercial use.',
-                'default' => 'Creative Commons license selected by the creator.',
+                'default' => 'Creative Commons licence selected by the creator.',
             ],
         ],
         'challenge' => [
@@ -1108,24 +1155,24 @@ return [
             'save_new_version' => 'Save new version',
             'save_updated_skin_version' => 'Save updated skin version',
             'save_as_new_creation' => 'Save as new creation',
-            'published_successfully' => 'Your skin has been published successfully!',
+            'published_successfully' => 'Skin published.',
             'saved_new_version' => 'New version saved.',
             'previous_skin_available' => 'A previously edited skin was found. Would you like to restore it?',
             'restore_skin' => 'Restore',
-            'skin_loaded' => 'Skin loaded successfully',
+            'skin_loaded' => 'Skin loaded.',
             'preparing_upload' => 'Preparing your upload…',
             'bridge_fail_missing' => 'Your skin is still safe in the editor. Try saving to gallery again.',
-            'bridge_fail_invalid' => 'Your skin is still safe in the editor. We couldn\'t use the saved copy — please try saving to gallery again.',
-            'bridge_fail_server' => 'Your skin is still safe in the editor. Something went wrong — please try saving to gallery again.',
+            'bridge_fail_invalid' => 'Couldn’t use the saved copy. Your skin is still in the editor. Try saving to the gallery again.',
+            'bridge_fail_server' => 'Couldn’t prepare the upload. Your skin is still in the editor. Try saving to the gallery again.',
             'pending_replaced' => 'Your previous pending upload was replaced with your latest skin.',
             'claim_step' => 'Step 1 of 2',
             'claim_title' => 'Link your Minecraft account',
-            'claim_description' => 'To publish skins to the gallery, link your Minecraft account first. This is a quick, one-time setup.',
+            'claim_description' => 'Link your Minecraft account to publish skins to the gallery.',
             'claim_skin_safe' => 'Your skin is saved and will be ready to publish right after linking.',
-            'claim_button' => 'Link Minecraft Account',
-            'claim_reassurance' => 'Your skin is safe — you\'ll continue to publishing after linking.',
+            'claim_button' => 'Link Minecraft account',
+            'claim_reassurance' => 'Your skin is safe. You’ll continue to publishing after linking.',
             'claim_posting' => 'Saving your skin…',
-            'claim_fail' => 'Something went wrong — your skin is safe in the editor. Please try again.',
+            'claim_fail' => 'Couldn’t save your skin for publishing. It’s still in the editor. Try again.',
         ],
         'visibility' => [
             'public' => 'Public',
@@ -1134,7 +1181,7 @@ return [
         ],
     ],
     'skin_bases' => [
-        'search_tab' => 'Skin Bases',
+        'search_tab' => 'Skin bases',
         'card' => [
             'label' => 'Skin base',
         ],
@@ -1150,7 +1197,7 @@ return [
             'title' => 'Minecraft Skin Bases',
             'description' => 'Browse :count reusable Minecraft skin bases and templates.',
             'header' => [
-                'title' => 'Skin Bases',
+                'title' => 'Skin bases',
                 'subtitle' => ':count base|:count bases',
             ],
             'upload' => 'Upload base',
@@ -1262,7 +1309,7 @@ return [
         'toast' => [
             'added' => 'Lisätty suosikkilistaasi',
             'removed' => 'Poistettu suosikkilistastasi',
-            'login_required' => 'Kirjaudu sisään lisätäksesi suosikkeihin',
+            'login_required' => 'Log in to add to favourites',
         ],
         'skins' => [
             'button' => 'Skinit',
@@ -1352,7 +1399,7 @@ return [
     'cape' => [
         'editor' => [
             'title' => 'Minecraft viitta muokkaaja',
-            'subtitle' => 'Käytä Minecraft viitta muokkaajaa luodaksesi oman mukautetun viitan.',
+            'subtitle' => 'Design a cape with the Minecraft cape editor.',
             'loading' => [
                 'aria_label' => 'Loading Minecraft cape editor',
                 'name' => 'SkinMC Cape Editor',
@@ -1534,7 +1581,7 @@ return [
                 'equipped' => 'Cape equipped',
                 'apply' => 'Apply cape',
                 'link_to_apply' => 'Link Minecraft account to apply',
-                'sign_in_to_apply' => 'Sign in to apply this cape',
+                'sign_in_to_apply' => 'Log in to apply this cape',
             ],
             'meta' => [
                 'title' => 'Minecraft Capes -lista',
@@ -1624,8 +1671,8 @@ return [
             'cannot_review_own_server' => 'You cannot review your own server.',
         ],
         'slots' => 'Paikat',
-        'empty-helper' => 'Voit yrittää tehdä toisen haun.',
-        'empty' => 'Hmm täällä on vielä tyhjää.',
+        'empty-helper' => 'Try a different search.',
+        'empty' => 'No servers found',
         'verified' => 'Vahvistettu',
         'review_translate_show_original' => 'Näytä alkuperäinen',
         'review_translate' => 'Käännä arvostelu',
@@ -1637,9 +1684,9 @@ return [
             'social_links' => 'Sosiaaliset linkit',
             'trailer_video' => 'Traileri video',
             'images' => 'Kuvat',
-            'images_description' => 'Voit ladata kuvia jälkikäteen, jotta voit esitellä mitä palvelin tarjoaa.',
-            'submit' => 'Lähetä',
-            'lets_get_your_server_added' => 'Lisätään palvelimesi.',
+            'images_description' => 'Upload photos from your server dashboard after saving the listing.',
+            'submit' => 'Finish',
+            'lets_get_your_server_added' => 'Add your server',
             'basics-subtitle' => 'Kerro ihmisille, mistä palvelimellasi on kyse.',
             'description' => 'Kuvaus',
             'description_tips' => 'Tässä on muutamia vinkkejä',
@@ -1649,26 +1696,26 @@ return [
             'social_links_description' => 'Missä pelaajat voivat olla yhteydessä palvelimeesi sosiaalisessa mediassa?',
             'trailer_video_description' => 'Esittele palvelimesi YouTube-videolla.',
             'trailer_video_hint' => 'Liitä videon URL-osoite tai ID:',
-            'ready_to_submit_your_server' => 'Oletko valmis lähettämään palvelimesi?',
-            'review-hint' => 'Lähettämisen jälkeen tiimi tarkistaa huolellisesti palvelimen listaushakemuksen. Sitten kun päätös, palvelin julkaistaan, tai muutoksia pyydetään ennen julkiseksi menoa.',
+            'ready_to_submit_your_server' => 'Create your server listing',
+            'review-hint' => 'After saving, upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.',
             'terms' => [
                 'part-1' => 'Tämän lomakkeen lähettämällä sinä hyväksyt SkinMC:n käyttöehdot, yksityisyydensuojan ja yhteisön ohjeet. Vahvistat myös, että kaikki edellä mainitut tiedot ovat paikkaansapitäviä, olet seurannut asianmukaisesti',
                 'part-2' => 'palvelimen asennusta koskevia vaatimuksia',
                 'part-3' => 'ja että Minecraft-palvelimen omistaa ja sitä hallinnoi edustamasi taho.',
             ],
-            'submit-application' => 'Lähetä hakemus',
+            'submit-application' => 'Create listing',
             'video-id-helper' => [
                 'part-1' => 'Videon ID on merkkijono numeroiden ja kirjainten jälkeen',
                 'part-2' => 'Esimerkiksi, jos videon url on',
                 'part-3' => ', sitten videon ID olisi',
             ],
-            'welcome_description' => 'Tässä vaiheessa lähdemme aloittamaan palvelimen lisäämisen. Kerro meille hieman siitä, kirjoita kuvaus, ja seuraavassa vaiheessa voit ladata joitakin kuvia.',
+            'welcome_description' => 'Enter your server details to create a listing. You can upload photos after saving.',
         ],
         'votes' => [
             'vote' => 'Vote',
             'voted' => 'Voted',
-            'success' => 'Your vote has been recorded!',
-            'login_required' => 'Please log in to vote for this server.',
+            'success' => 'Vote recorded.',
+            'login_required' => 'Log in to vote for this server.',
             'profile_required' => 'Link your Minecraft account to vote.',
             'server_ineligible' => 'This server is not currently eligible for voting.',
             'self_vote_blocked' => 'You cannot vote for your own server.',
@@ -1677,18 +1724,18 @@ return [
             'count' => ':count vote|:count votes',
         ],
         'copy_server_ip' => 'Kopioi palvelin IP',
-        'all_minecraft_servers' => 'Kaikki Minecraft Palvelimet',
+        'all_minecraft_servers' => 'All Minecraft servers',
         'promo' => [
-            'title' => 'Ylläpidätkö Minecraft-palvelinta?',
-            'ready_to_list_your_server' => 'Oletko valmis listaamaan palvelimesi?',
-            'everything_you_need' => 'Kaikki mitä tarvitset palvelimesi kasvattamiseen',
+            'title' => 'List your Minecraft server',
+            'ready_to_list_your_server' => 'Ready to list your server?',
+            'everything_you_need' => 'Help players find your server',
             'list_your_server' => 'Listaa palvelimesi',
             'list_your_server_description' => 'Luo listaus palvelimellesi, lisää kuvia, sosiaalista mediaa ja paljon muuta.',
             'find_players' => 'Etsi pelaajia',
             'find_players_description' => 'Etsi ja tavoita uusia pelaajia liittymään palvelimellesi ja kasvattamaan yhteisöäsi.',
             'get_reviews' => 'Hanki arvosteluja',
             'get_reviews_description' => 'Pyydä yhteisöäsi arvostelemaan palvelimesi ja palkitse heidät pelissä.',
-            'why_list_on_skinmc' => 'Miksi sinun pitäisi listata palvelimesi SkinMC:ssä',
+            'why_list_on_skinmc' => 'Why list on SkinMC?',
             'others' => 'Muut',
             'quality_check_and_confirmation' => 'Laadun tarkistus ja vahvistus',
             'quality_check_description' => 'Tiimimme arvioi jokaisen palvelimen laadun takaamiseksi.',
@@ -1696,38 +1743,38 @@ return [
             'verified_players_description' => 'Kerää aitoja pelaajien arvosteluja laillisilta tileiltä Votifier integraatiolla.',
             'international' => 'Kansainvälinen',
             'international_description' => 'Käännösominaisuuksilla listauksesi on saatavilla useammalle pelaajalle.',
-            'server_listing_page' => 'Tehokas Palvelin listaus sivu',
-            'server_listing_page_description' => 'Lisää kuvia, kuvaustekstejä, youtube videoita, ja korosta, miksi pelaajien pitäisi liittyä palvelimellesi.',
+            'server_listing_page' => 'Server listing page',
+            'server_listing_page_description' => 'Show players what your server offers with photos, a description and YouTube videos.',
             'social_connections' => 'Sosiaalisen median yhteydet',
-            'social_connections_description' => 'Yhdistä palvelimet sosiaalitilejä ja näytä uusille pelaajille, mistä he voivat löytää sinut.',
+            'social_connections_description' => 'Add social links so players know where to find your community.',
             'verified_badge' => 'Vahvistusmerkki',
             'verified_badge_description' => 'Aidot palvelimet voivat hakea vahvistusmerkkiä.',
             'owner_profile' => 'Omistajan profiili',
-            'owner_profile_description' => 'Lisää henkilökohtainen kosketus, täyttämällä oman mukautetun profiilin.',
+            'owner_profile_description' => 'Let players know who runs the server.',
             'categories' => 'Luokat',
-            'categories_description' => 'Eri luokkia, jotta palvelimesi löytäminen olisi helpompaa.',
+            'categories_description' => 'Help players find your server by category.',
             'vote' => 'Äänestä',
             'vote_description' => 'Pyydä käyttäjiä äänestämään palvelintasi.',
             'review' => 'Review',
             'review_description' => 'Ask users to review your server.',
             'fair_listings' => 'Oikeudenmukaiset listaukset',
-            'fair_listings_description' => 'Palvelin listauksia ei voida keinotekoisesti tehostaa SkinMC:n tuloksissa.',
-            'support' => '24 tunnin tuki',
-            'support_description' => 'Tarvitset apua tai sinulla on kysyttävää? Voit aina ottaa yhteyttä ja saada nopean vastauksen.',
-            'custom_features' => 'Mukautetut ominaisuudet',
-            'custom_features_description' => 'Puuttuuko palvelimeltasi jokin ominaisuus? Avaa lippu, niin me toteutamme sen.',
+            'fair_listings_description' => 'Server listings cannot be artificially boosted in results on SkinMC.',
+            'support' => 'Support',
+            'support_description' => 'Contact us if you need help with your listing.',
+            'custom_features' => 'Feature requests',
+            'custom_features_description' => 'Have a feature in mind? Send us a suggestion.',
             'faq' => [
                 'title' => 'Vastauksia kysymyksiisi',
-                'suited-question' => 'Onko Minecraft Palvelimeni SkinMC:lle sopiva?',
-                'suited-answer' => 'Minecraft Pelaajat SkinMC:ssä rakastavat löytää uusia kokemuksia, sisältöä ja sitoutua yhteisöihin. Alustalla löydät laajan valikoiman erilaisia, ainutlaatuisia, hauskoja Minecraftin palvelimia. Suuresta verkosta jopa pieneen selviytymispalvelimeen, se voi parantaa jonkun päivän!',
+                'suited-question' => 'Can I list my Minecraft server on SkinMC?',
+                'suited-answer' => 'SkinMC lists servers of different sizes and styles, from small survival communities to larger networks. Check the server requirements before submitting your listing.',
                 'get-started-question' => 'Miten pääsen alkuun?',
-                'get-started-answer' => 'Lisäämällä Minecraft Palvelimesi SkinMC Palvelin Listaan on erittäin helppoa! Sinun täytyy ensin luoda tili, jos et ole jo tehnyt, ja sitten seuraa asennusohjeita saadaksesi palvelimen listatuksi. Lisää muutama kuva ja mukava kuvaus, ja palvelin julkaistaan ilman aikaa!',
-                'players-question' => 'Miten voin saada enemmän pelaajia Minecraft Palvelimelleni?',
-                'players-answer' => 'Yhteisön rakentaminen on pitkän kestävän Minecraft Palvelimen tärkein osa. Käytä Minecraftin Palvelin Listaa SkinMC:ssä löytääksesi uuden yleisön ja jatkaaksesi yhteisösi rakentamista. Pyydä pelaajia suosittelemaan palvelintasi tai jakamaan listasi sosiaalisen median alustoille. Hyvien arvostelujen keräämisellä voi myös olla tärkeä rooli, kun halutaan saada hyvä Palvelin listaus, joka houkuttelee uusia pelaajia.',
+                'get-started-answer' => 'Log in to SkinMC, link your Minecraft account and choose Add new server. Enter your server details, save the listing and upload photos. Our team will review it before it goes live.',
+                'players-question' => 'How can I help players find my server?',
+                'players-answer' => 'Describe what makes your server worth joining, add photos and keep the listing up to date. Share it with your community and invite players to leave honest reviews.',
                 'more-question' => 'Minulla on enemmän kysymyksiä. Mistä voin saada apua?',
-                'more-answer' => 'Voit ottaa yhteyttä SkinMC:hen milloin tahansa, 24 tuntia vuorokaudessa, joko käyttämällä apupainiketta, neuvontapalvelua tai liittymällä Discord palvelimeen.',
+                'more-answer' => 'Contact SkinMC support through the help desk or Discord.',
             ],
-            'ready_to_list_description' => 'Lisää Minecraft Palvelimesi SkinMC Palvelin Listaan vain muutamassa minuutissa. Jos tarvitset apua, voit ottaa yhteyttä ympäri vuorokauden ja saada vastauksia nopeasti.',
+            'ready_to_list_description' => 'Create a listing to introduce your server to new players. Contact us if you need help.',
         ],
         'manage' => [
             'index' => [
@@ -2154,7 +2201,7 @@ return [
         'zoom_out' => 'Pienennä (CTRL -)',
         'saved' => 'Viimeksi tallennettu juuri nyt',
         'saving' => 'Tallennetaan automaattisesti...',
-        'save_error' => 'Tapahtui virhe',
+        'save_error' => 'Couldn’t save the cape.',
         'new_skin' => 'Uusi skini',
         'automatically_saved_skins' => 'Automatically saved skins',
         'recovered_skins' => 'Recovered skins',
@@ -2317,9 +2364,9 @@ return [
             'download' => 'Lataa SkinMC Modi nähdäksesi sinun ja muiden pelaajien viitat pelissä.',
             'learn-more' => 'Lue lisää',
             'link-account' => 'Ole hyvä ja linkitä Minecraft-tilisi ladataksesi viitan.',
-            'updated' => 'Viittasi on päivitetty!',
-            'removed' => 'Viittasi on poistettu.',
-            'active' => 'Viittasi on aktivoitu!',
+            'updated' => 'Cape updated.',
+            'removed' => 'Cape removed.',
+            'active' => 'Cape activated.',
             'preview_mode' => 'Cape preview mode',
             'loading_preview' => 'Loading cape preview',
             'uploading' => 'Uploading cape',
@@ -2377,26 +2424,26 @@ return [
         'security' => [
             'title' => 'Turvallisuus',
             'email' => 'Sähköposti osoite',
-            'email-title' => 'Päivitä sähköpostiosoitteesi.',
+            'email-title' => 'Update your email address',
             'save' => 'Tallenna',
             'password' => 'Salasana',
-            'password-title' => 'Vaihda salasanasi milloin tahansa.',
-            'social-provider' => 'Jotta voit päivittää tilitietosi, kuten salasanasi, ole hyvä ja vieraile kirjautumispalveluntarjoajasi:',
-            'social-provider-email' => 'Yhdistetty sähköpostiosoitteesi kirjautumispalveluntarjoajasi kanssa',
-            'social-provider-connected' => 'Tällä hetkellä yhdistetyt kirjautumispalveluntarjoajat',
+            'password-title' => 'Change your password',
+            'social-provider' => 'Manage your email address and password with your login provider:',
+            'social-provider-email' => 'Email address used by your login provider',
+            'social-provider-connected' => 'Connected login providers',
             'current-password' => 'Nykyinen salasana',
             'forgot' => 'Unohditko salasanasi?',
             'edit' => 'Muokkaa',
-            'delete' => 'Poista tilini',
-            'account-deletion' => 'Poista SkinMC tilisi.',
-            'delete-info' => 'Ole hyvä ja vahvista jatkaaksesi',
-            'delete-confirmation' => 'Tilisi poistaminen on peruuttamatonta. Kaikki henkilökohtaiset tietosi ja sisältösi, kuten viestit, suosikit, ladatut viitat, mukautukset jne. poistetaan, eikä niitä voi palauttaa.',
+            'delete' => 'Delete account',
+            'account-deletion' => 'Delete your SkinMC account',
+            'delete-info' => 'Confirm account deletion',
+            'delete-confirmation' => 'Deleting your account is permanent. Your personal information and content, including posts, favourites, uploaded capes and customisations, will be deleted and cannot be recovered.',
             'delete-confirmation-info' => 'Anna salasanasi jatkaaksesi',
             'delete-confirmation-info-social' => 'Kirjoita "poista" vahvistaaksesi tilin poiston',
             'type-delete' => 'Kirjoita "poista" vahvistaaksesi',
             'type-delete-label' => 'Kirjoita "poista" vahvistaaksesi',
-            'yes-confirm-delete' => 'Kyllä, vahvista poisto',
-            'account-successfully-deleted' => 'Tilisi ja tietosi ovat poistettu onnistuneesti.',
+            'yes-confirm-delete' => 'Delete account',
+            'account-successfully-deleted' => 'Account and data deleted.',
         ],
         'social' => [
             'title' => 'Sosiaaliset tilit',
@@ -2405,9 +2452,9 @@ return [
             'link-account' => 'Linkitä Minecraft-tilisi SkinMC:hen näyttääksesi sosiaaliset linkkisi profiilissasi.',
             'finish-setup' => 'Viimeistele määritys',
             'connect-account' => 'Yhdistä tilisi',
-            'connect-description' => 'Valitse mitkä tilit haluat yhdistää ja avata erityisiä SkinMC integraatioita.',
+            'connect-description' => 'Choose which accounts to connect to SkinMC.',
             'empty' => 'Ei lisättyjä tilejä',
-            'empty-description' => 'Sosiaalisen median tilisi näkyvät täällä ja julkisessa profiilissasi. Kun ne on lisätty, ne lisäävät sivusi personointia ja mahdollistavat integraatiot.',
+            'empty-description' => 'Add social accounts to show them on your public profile.',
             'connect' => 'Yhdistä',
             'username' => 'käyttäjänimi',
             'spotify' => 'Lisää Spotify-käyttäjänimesi näyttääksesi Spotifyn tiedot profiilissasi.',
@@ -2427,11 +2474,11 @@ return [
             'includes_skinmc_plus_benefits' => 'Sisältää SkinMC plus hyödyt',
         ],
         'recover' => [
-            'title' => 'Palauta tilisi',
-            'subtitle' => 'Syötä uusi salasana ja vahvista se viimeistelläksesi tilin palautuksen.',
+            'title' => 'Reset password',
+            'subtitle' => 'Enter and confirm your new password.',
             'new_password' => 'Uusi salasana',
-            'repeat_new_password' => 'Toista uusi salasana',
-            'submit' => 'Palauta tili',
+            'repeat_new_password' => 'Confirm new password',
+            'submit' => 'Reset password',
         ],
         'customise' => [
             'title' => 'Mukauta profiiliasi',
@@ -2462,24 +2509,24 @@ return [
             'manage' => 'Hallitse linkitettyä Minecraft-tiliä',
             'description' => 'Katso ja hallinnoi linkitettyä Minecraft-tiliäsi',
             'title' => 'Yhdistetty Minecraft-tili',
-            'current' => 'Tällä hetkellä linkitetty Minecraft-tili.',
-            'status' => 'Sinulla on nyt täysi pääsy kaikkiin SkinMC ominaisuuksiin!',
+            'current' => 'Linked Minecraft account',
+            'status' => 'Your Minecraft account is linked.',
             'linked' => 'Linkitetty',
             'disconnect' => 'Katkaise yhteys',
             'disconnect-title' => 'Katkaise Minecraft-tilin yhteys',
-            'disconnect-info' => 'Oletko varma, että haluat katkaista yhteyden Minecraft-tiliisi?',
-            'disconnect-features' => 'Menetät pääsyn kommentointiin, mukauttamiseen ja muihin ominaisuuksiin, jotka vaativat linkitetyn Minecraft-tilin. Jotta voit käyttää näitä uudelleen, sinun täytyy linkittää Minecraft-tili.',
-            'disconnect-following' => 'Minecraft-tilisi katkaiseminen poistaa pysyvästi kaikki seuraavat profiilit.',
-            'disconnect-posts' => 'Luomasi syöte julkaisut ja tykkäykset poistetaan.',
+            'disconnect-info' => 'Disconnect your Minecraft account?',
+            'disconnect-features' => 'You’ll lose access to commenting, customisation and other features that need a linked Minecraft account. Link an account again to use them.',
+            'disconnect-following' => 'You’ll unfollow every profile you currently follow.',
+            'disconnect-posts' => 'Your feed posts and server reviews will be deleted, and your feed likes will be removed.',
             'can-not-undo' => 'Tätä ei voi peruuttaa.',
             'are-you-sure' => 'Oletko varma?',
-            'confirm' => 'Kyllä, vahvista yhteyden katkaisu',
-            'cancel' => 'Ei, peruuta',
-            'success' => 'Tilisi katkaistiin onnistuneesti!',
+            'confirm' => 'Disconnect account',
+            'cancel' => 'Cancel',
+            'success' => 'Minecraft account disconnected.',
         ],
         'finish-setup' => [
             'title' => 'Viimeistele tilin määritys',
-            'description' => 'Viimeistele tilin määritys ja saat täyden pääsyn kaikkiin ominaisuuksiin linkittämällä Minecraft-tilisi SkinMC:hen.',
+            'description' => 'Link your Minecraft account to finish setting up your profile.',
             'link' => 'Yhdistä Minecraft-tili',
             'get-started' => 'Aloita',
             'skip' => 'Ohita',
@@ -2809,16 +2856,16 @@ return [
         'headline' => 'Sano hei SkinMC Android sovellukselle.',
         'play-store-attribution' => 'Google Play ja Google Play -logo ovat Google LLC: n tavaramerkkejä.',
         'features' => 'Kätevät ominaisuudet tien päällä',
-        'feature-qr' => 'Sisäänrakennettu QR-koodinlukija',
-        'feature-qr-detail' => 'Käytä rakennettua QR-koodinlukijaa helposti saadaksesi skinin työpöydältä sovellukseen, tai skannaa ystäväsi mukautetun profiilin QR-koodi.',
+        'feature-qr' => 'QR code scanner',
+        'feature-qr-detail' => 'Scan a skin or profile QR code to open it in the app.',
         'feature-files' => 'Tallentaa suoraan tiedostoihin',
         'feature-files-detail' => 'Android-tiedostojen hallinnan avulla sovellus voi kätevästi tallentaa skinit, mikä helpottaa hakemista Bedrock Editionissa.',
         'feature-noads' => 'Ei mainoksia',
-        'feature-noads-detail' => 'Puhdas suunniteltu käyttöliittymä ilman häiriötekijöitä. Nauti mainoksettomasta kokemuksesta ilman häiritseviä häiriöitä verkosta sovellukseen.',
+        'feature-noads-detail' => 'Use SkinMC without ads on the website and in the app.',
         'feature-experience' => 'Kokemus',
         'feature-experience-detail' => 'Nauti täydestä SkinMC-kokemuksesta missä tahansa, jossa on lisäominaisuuksia. Mukauta profiiliasi, lisää sinun bio, luo hauska QR-koodi ja paljon muuta!',
-        'get-app-headline' => 'Hanki SkinMC sovellus',
-        'get-app-detail' => 'Oma Minecraft kumppanisi Androidille — saatavilla ilmaiseksi.',
+        'get-app-headline' => 'Get the SkinMC app',
+        'get-app-detail' => 'SkinMC for Android. Available for free.',
     ],
     'random' => [
         'title' => 'Ladataan satunnaista Minecraftin skiniä',
@@ -2889,7 +2936,7 @@ return [
             'badge' => 'Followers-only post',
             'title' => 'Only followers can view this post.',
             'description' => 'Follow :username to view the post.',
-            'description_guest' => 'Sign in and follow :username to view the post.',
+            'description_guest' => 'Log in and follow :username to view the post.',
         ],
         'private' => 'Vain minä',
         'private-info' => 'Yksityinen julkaisu, vain minä näen.',
@@ -2903,7 +2950,7 @@ return [
             'native' => 'Share via device',
             'copy_link' => 'Copy link',
             'social' => 'Popular networks',
-            'copied' => 'Link copied!',
+            'copied' => 'Link copied.',
             'native_failed' => 'Could not open the share menu.',
             'native_unsupported' => 'Native sharing is not available on this device.',
             'close' => 'Close',
@@ -2917,7 +2964,7 @@ return [
                 'bluesky' => 'Share on Bluesky',
                 'pinterest' => 'Pin on Pinterest',
             ],
-            'copy_failed' => 'Could not copy the link. Please try again.',
+            'copy_failed' => 'Couldn’t copy the link. Try again.',
         ],
         'remaining' => 'Jäljellä',
         'profile' => ':username julkaisut',
@@ -2927,10 +2974,10 @@ return [
         'post' => [
             'meta' => ':username SkinMC:ssä: :text',
             'title' => 'Julkaise',
-            'created' => 'Tilapäivitys julkaistu!',
-            'confirm-delete' => 'Oletko varma, että haluat poistaa tämän julkaisun? Sitä ei voi perua.',
+            'created' => 'Post published.',
+            'confirm-delete' => 'Delete this post? This cannot be undone.',
             'delete' => 'Poista julkaisu',
-            'deleted' => 'Julkaisusi poistettiin.',
+            'deleted' => 'Post deleted.',
         ],
         'repost' => [
             'button' => 'Uudelleenjulkaise',
@@ -2940,7 +2987,7 @@ return [
             'quote_label' => 'Lisää kommentti (valinnainen)',
             'quote_placeholder' => 'Lisää ajatuksiasi...',
             'reposted' => 'uudelleenjulkaistu',
-            'success' => 'Uudelleenjulkaistu!',
+            'success' => 'Reposted.',
             'removed' => 'Uudelleenjulkaisu poistettu.',
             'already_reposted' => 'Olet jo uudelleenjulkaissut tämän.',
             'not_available' => 'This post is not available to repost.',
@@ -2978,7 +3025,7 @@ return [
             'votes' => '{0} ääntä|{1} ääni|[2,*] ääntä',
             'ended' => 'Äänestys päättyi',
             'ends_in' => 'Päättyy :time',
-            'login_required' => 'Kirjaudu sisään äänestääksesi',
+            'login_required' => 'Log in to vote',
         ],
         'gif' => [
             'title' => 'GIF',
@@ -3095,7 +3142,7 @@ return [
     ],
     'following' => [
         'title' => 'Seuratut',
-        'text' => 'Kirjaudu sisään nähdäksesi tämän julkaisun.',
+        'text' => 'Log in to view this post.',
     ],
     'tags' => [
         'empty' => 'Ei vielä äänestettäviä tunnisteita',
@@ -3407,7 +3454,7 @@ return [
             'recipient_unavailable' => 'This person is unavailable.',
             'message_required' => 'Please enter a message.',
             'sticker_unavailable' => 'This sticker is unavailable.',
-            'rate_limited' => 'Please slow down. You are sending messages too quickly.',
+            'rate_limited' => 'Too many messages. Wait a moment before sending another.',
             'streak' => [
                 'status_lost' => 'Lost :days-day streak',
                 'status_reply' => 'Reply today to keep your streak',
@@ -3478,7 +3525,7 @@ return [
         'title' => 'Boards',
         'meta_title' => 'My Boards',
         'meta_description' => 'Organize your saved Minecraft skins, creations, and banners into boards.',
-        'all_pins' => 'All Pins',
+        'all_pins' => 'All pins',
         'save' => 'Save',
         'saved' => 'Saved',
         'save_to_board' => 'Save to board',
