@@ -31,7 +31,7 @@ return [
             'username' => 'שם משתמש',
             'email' => 'דוא"ל',
             'status' => 'Status',
-            'role' => 'Role'
+            'role' => 'Role',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Reports',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Feed posts',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Deleted comments',
             'subtitle' => ':count total comments deleted',
-        ]
-    ]
+        ],
+    ],
 ];
