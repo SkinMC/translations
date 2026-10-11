@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => '입력한 정보가 로그인 정보와 일치하지 않아요.',
-    'password' => '입력한 비밀번호가 올바르지 않아요.',
-    'throttle' => '너무 많이 로그인을 시도했어요. :seconds초 후 다시 시도하세요.',
-    'welcome-back' => '다시 오신 걸 환영해요!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'SkinMC에 오신 걸 환영해요!',
     'see-you-soon' => '나중에 다시 봐요!',
-    'blocked' => ':date에 계정이 비활성화됐어요. 이게 오류라고 생각되신다면 <a target="_blank" href=":url">지원 센터</a>에 방문해 주세요.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => '비밀번호 보기',
     'hide-password' => '비밀번호 숨기기',
     'invite_code' => '초대 코드',
