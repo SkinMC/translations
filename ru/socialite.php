@@ -13,10 +13,10 @@ return [
     'link' => [
         'error' => [
             'missing-game-copy' => 'К этой учётной записи не привязан профиль Minecraft. Перейдите на Minecraft.net и войдите с учётной записью к которой привязан Minecraft Java Edition.',
-            'generic' => 'Что-то пошло не так... Попробуйте ещё раз или проконсультируйтесь с технической поддержкой SkinMC по электронной почте или через Discord.',
-            'already-linked' => 'Аккаунт Minecraft уже привязан',
-            'profile-already-linked' => 'Эта учетная запись Minecraft уже привязана к другому пользователю',
-            'failed' => 'Не удалось подключить учетную запись Minecraft. Повторите попытку.',
+            'generic' => 'Couldn’t link the Minecraft account. Try again or contact SkinMC support by email or Discord.',
+            'already-linked' => 'This Minecraft account is already linked.',
+            'profile-already-linked' => 'This Minecraft account is already linked to another SkinMC account.',
+            'failed' => 'Couldn’t link the Minecraft account. Try again.',
         ],
     ],
 
