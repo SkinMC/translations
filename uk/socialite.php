@@ -13,10 +13,10 @@ return [
     'link' => [
         'error' => [
             'missing-game-copy' => 'Цей обліковий запис Microsoft не має Minecraft. Перейдіть на сайт Minecraft.net і увійдіть у свій обліковий запис Microsoft, який має Minecraft Java Edition.',
-            'generic' => 'Гм... щось пішло не так. Спробуйте ще раз або зверніться по допомогу до служби підтримки SkinMC електронною поштою або через Discord.',
-            'already-linked' => 'Minecraft account is already linked',
-            'profile-already-linked' => 'This Minecraft account is already linked to another user',
-            'failed' => 'Failed to link Minecraft account. Please try again.',
+            'generic' => 'Couldn’t link the Minecraft account. Try again or contact SkinMC support by email or Discord.',
+            'already-linked' => 'This Minecraft account is already linked.',
+            'profile-already-linked' => 'This Minecraft account is already linked to another SkinMC account.',
+            'failed' => 'Couldn’t link the Minecraft account. Try again.',
         ],
     ],
 
