@@ -31,7 +31,7 @@ return [
             'username' => '用户名',
             'email' => '电子邮箱',
             'status' => '状态',
-            'role' => '身份'
+            'role' => '身份',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => '举报',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => '订阅帖子',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => '评论已删除',
             'subtitle' => ':count评论已删除',
-        ]
-    ]
+        ],
+    ],
 ];
