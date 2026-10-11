@@ -16,7 +16,7 @@ return [
     'groups_description' => 'Nei gruppi condivisi, resterete membri ma non vedrete i rispettivi messaggi o riceverete notifiche gli uni dagli altri.',
     'blocked' => 'Account bloccato.',
     'unblocked' => 'Account unblocked.',
-    'error' => 'La modifica non può essere salvata. Riprova.',
+    'error' => 'Couldn’t save the change. Try again.',
     'saving' => 'Salvataggio in corso…',
     'unavailable' => 'Questa interazione non è disponibile.',
     'content_unavailable' => 'Questo contenuto non è disponibile.',
