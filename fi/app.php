@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Paikkasi Minecraft Skinille',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC on paikka, jossa voit löytää, tallentaa ja hankkia parhaat skinit Java- ja Bedrock -versiohin. Suosituimpien skinien lista päivitetään joka viikko.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Miksi SkinMC?',
-        'why_skinmc_detail' => 'Sovellus tarjoaa yksinoikeudella rakennettu QR koodiskanneri, jolla avata nopeasti ulkoasuja tai profiileja, jotka olet löytänyt käyttämällä työpöytä versiota. Luo oma mukautettu SkinMC QR koodi jaettavaksi ystäviesi kanssa.',
-        'claim_title' => 'Lunasta profiilisi',
-        'claim_detail' => 'Yhdistä Minecraftiin (vain Java) ja saat ainutlaatuisen merkin, joka näkyy sivulla ja jolla on pääsy personointiin, kommenttijärjestelmään ja mukautettuihin viittoihin. Lisää profiiliisi sosiaalisen median linkit. Kerro kaikille mistä sinut löytää Discordissa, Twitterissä, YouTubessa, TikTokissa ja paljon muuta.',
-        'skin_history_title' => 'Skini Historia',
-        'skin_history_detail' => 'Pidä kirjaa kaikista aiemmista Minecraft-skineistäsi profiilisivusi Skini-historiassa. Pääsy nopeasti ja lataa aiemmin käytetyt Skinit.',
-        'avatar_generator_title' => 'Avatar Generaattori',
-        'avatar_generator_detail' => 'Alkuperäinen Minecraft Avatar Generaattori antaa sinun valita 4 suosittua tyyliä. Luo mukautettu ja yksilöllinen Avatar Rintakuva, Kuutio, Pää -formaatissa ja upouusi myös täysin mukautettu 3D perustuu Java -versio käyttäjänimeen.',
-        'achievements_title' => 'Saavutus/Edistys Generaattori',
-        'achievements_detail' => 'Tee omia henkilökohtaisia saavutuksia. Mukauta kaikkea keltaisesta otsikosta, tekstistä ja näytettävästä kohteesta alkaen.',
-        'no_ads_title' => 'Ei Mainoksia',
-        'no_ads_detail' => 'SkinMC on täysin ilmainen mainoksista. Nauti mainoksettomasta kokemuksesta ilman tunkeilevia ärsykkeitä.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Etsi kuka tahansa Minecraft Pelaaja',
-        'claim' => 'Lunasta ja muokkaa profiiliasi',
-        'qr' => 'Luo mukautettu QR-koodi',
-        'qr_scanner' => 'Sisäänrakennettu QR-koodinlukija',
-        'new_skins' => 'Tuhansia uusia skinejä päivittäin',
-        'achievement' =>  'Saavutus generaattori',
-        'avatar' => 'Alkuperäinen avatar tekijä'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Saavutus generaattori',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Kiitos SkinMC sovelluksen käytöstä. Tämän päivityksen avulla saat joitakin korjauksia ja parannuksia. Mitä mieltä olet SkinMC sovelluksesta? Arvostele meitä!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];
