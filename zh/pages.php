@@ -2888,6 +2888,15 @@ return [
         ],
     ],
     'feed' => [
+        'unlike' => 'Unlike',
+        'timeline' => [
+            'load_more' => 'Load more',
+            'loading' => 'Loading posts…',
+            'load_failed' => 'Could not load more posts. Try again.',
+            'retry' => 'Try again',
+            'end' => 'You’re all caught up.',
+            'empty' => 'No posts yet',
+        ],
         'composer' => [
             'saved' => 'Draft saved',
             'saving' => 'Saving draft…',
@@ -2987,6 +2996,7 @@ return [
             'quote_title' => '引用帖文',
             'quote_label' => '添加评论(可选)',
             'quote_placeholder' => '添加您的想法……',
+            'quote_required' => 'Add text, an image, a video or a GIF.',
             'reposted' => '已转发',
             'success' => 'Reposted.',
             'removed' => '转发已删除。',
@@ -3015,6 +3025,7 @@ return [
             'no-results-found' => 'No results found for ":query"',
         ],
         'poll' => [
+            'open_image' => 'Open image for :option',
             'title' => 'Poll',
             'create' => 'Create a poll',
             'option' => 'Option',
