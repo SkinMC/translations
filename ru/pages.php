@@ -2887,6 +2887,15 @@ return [
         ],
     ],
     'feed' => [
+        'unlike' => 'Unlike',
+        'timeline' => [
+            'load_more' => 'Load more',
+            'loading' => 'Loading posts…',
+            'load_failed' => 'Could not load more posts. Try again.',
+            'retry' => 'Try again',
+            'end' => 'You’re all caught up.',
+            'empty' => 'No posts yet',
+        ],
         'composer' => [
             'saved' => 'Draft saved',
             'saving' => 'Saving draft…',
@@ -2986,6 +2995,7 @@ return [
             'quote_title' => 'Quote post',
             'quote_label' => 'Add a comment (optional)',
             'quote_placeholder' => 'Add your thoughts...',
+            'quote_required' => 'Add text, an image, a video or a GIF.',
             'reposted' => 'reposted',
             'success' => 'Reposted.',
             'removed' => 'Repost removed.',
@@ -3014,6 +3024,7 @@ return [
             'no-results-found' => 'Результаты по запросу ":query" не найдены',
         ],
         'poll' => [
+            'open_image' => 'Open image for :option',
             'title' => 'Опрос',
             'create' => 'Создать опрос',
             'option' => 'Варианты',
