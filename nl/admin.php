@@ -31,7 +31,7 @@ return [
             'username' => 'Gebruikersnaam',
             'email' => 'E-mail',
             'status' => 'Status',
-            'role' => 'Rol'
+            'role' => 'Rol',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Reports',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Feed berichten',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Verwijderde opmerkingen',
             'subtitle' => ':count aantal verwijderde reacties',
-        ]
-    ]
+        ],
+    ],
 ];
