@@ -31,7 +31,7 @@ return [
             'username' => 'Käyttäjänimi',
             'email' => 'Sähköposti',
             'status' => 'Tila',
-            'role' => 'Rooli'
+            'role' => 'Rooli',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Raportit',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Syötteen julkaisut',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Poistetut kommentit',
             'subtitle' => ':count kommentteja poistettu yhteensä',
-        ]
-    ]
+        ],
+    ],
 ];
