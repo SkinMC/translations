@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => '新たなフォロワー',
-        'text' => ':userさんがあなたをフォローされました！',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model コメント',
-            'text' => ':userさんが:modelにコメントしました',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => ':modelのコメントへの返信',
-            'text' => ':userさんが:modelコメントに返信しました',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'いいね！を受け取りました！',
-            'text' => ':userがあなたの投稿にいいね！しました！',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => '新たな返信',
-            'text' => ':userさんがあなたについて投稿しました！',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'レベルアップ！',
+            'title' => 'You levelled up!',
             'text' => 'おめでとうございます :levelに到達しました！',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'あなたのレポートをレビューしました! (ケース:id)',
-            'text' => '私たちがすぐに調査します。物事を冷静に保つのを協力してくれてありがとう！ ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'あなたのレポートをレビューしました (ケース:id)',
-            'text' => 'こんにちは、あなたが報告された問題は処理され、現在ソートされています。私たち、コミュニティのスーパーヒーローになっていただきありがとうございます！',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'レポートの更新 (ケース:id)',
-            'text' => 'いくつかの調査の結果、ご報告いただいた内容はガイドラインに反していないことがわかりました。具体的な内容を確認してほしい場合は、必ずスキンやプロフィールなどを報告してください。私たちのコミュニティへの関心と参加に感謝します！',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
