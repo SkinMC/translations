@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Neuer Follower',
-        'text' => ':user folgt dir jetzt!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model Kommentar',
-            'text' => ':user hat dein :model kommentiert',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Antwort auf :model Kommentar',
-            'text' => ':user antwortete auf einen :model Kommentar',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'Neue Erwähnung',
-            'text' => ':user hat dich in einem Kommentar erwähnt!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Kommentar wurde geliked',
-            'text' => ':user gefällt dein Kommentar!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Like erhalten',
-            'text' => ':user gefällt dein Beitrag!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Neue Erwähnung',
-            'text' => ':user hat dich in seinem Beitrag erwähnt!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user hat deinen Post repostet!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'Du hast das nächste Level erreicht!',
+            'title' => 'You levelled up!',
             'text' => 'Herzlichen Glückwunsch beim Erreichen des Levels :level!',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'Wir haben deinen Bericht erhalten (Case :id)',
-            'text' => 'Unser Team wird sich sofort darum kümmern. Danke, dass du uns hilfst, alles im Griff zu behalten! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Wir haben deine Meldung überprüft (Case :id)',
-            'text' => 'Hallo, das gemeldete Anliegen wurde bearbeitet und ist nun geklärt. Danke, dass du ein wichtiger Teil unserer Community bist!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Ein Update zu deinem Bericht (Case :id)',
-            'text' => 'Nach einigen Nachforschungen haben wir festgestellt, dass der von dir gemeldete Inhalt nicht gegen unsere Richtlinien verstößt. Wenn du möchtest, dass wir etwas Bestimmtes überprüfen, stelle bitte sicher, dass du den Skin, das Profil usw. meldest, sowie zusätzliche Informationen zur Verfügung stellst, sofern erforderlich. Danke für dein Vertrauen und Engagement in unserer Community!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Ergänze weitere Fotos für :server',
-            'text' => 'Dein Eintrag benötigt noch :remaining Foto(s), um das Minimum von :minimum zu erreichen und veröffentlicht zu bleiben.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Für deinen Server-Eintrag wurden bisher keine Fotos hinzugefügt',
-            'text' => 'Mit mindestens 5 Fotos wirkst du vertrauensvoller und bringst deinen Eintrag einen Schritt näher zur Veröffentlichung.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Dein Eintrag befindet sich weiterhin in Prüfung',
-            'text' => 'Dein Eintrag wird schon eine Weile geprüft. Ein kurzer Check von Details und Fotos kann helfen, den Prozess reibungslos zu halten.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
