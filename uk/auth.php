@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Ці облікові дані не збігаються з нашими записами.',
-    'password' => 'Введений пароль неправильний.',
-    'throttle' => 'Забагато спроб входу. Повторіть спробу через :seconds секунд.',
-    'welcome-back' => 'З поверненням, раді вас бачити!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Ласкаво просимо до SkinMC!',
     'see-you-soon' => 'До зустрічі!',
-    'blocked' => 'Ваш обліковий запис було деактивовано на :date. Якщо ви вважаєте, що це помилка, відвідайте <a target="_blank" href=":url">центр підтримки</a>, щоб отримати допомогу.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Показ паролю',
     'hide-password' => 'Приховати пароль',
     'invite_code' => 'Код запрошувача',
