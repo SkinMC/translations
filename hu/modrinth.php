@@ -4,11 +4,11 @@ return [
     'browse' => 'Böngészés',
     'connect_account' => 'Connect Modrinth',
     'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
+    'connection_saved' => 'Modrinth account connected.',
+    'connection_removed' => 'Modrinth account disconnected.',
+    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
     'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
+    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
     'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
     'view_skinmc_profile' => 'View SkinMC profile',
     'close' => 'Close',
@@ -18,9 +18,9 @@ return [
     'types' => [
         'mod' => 'Modok',
         'shader' => 'Shaderek',
-        'resourcepack' => 'Erőforrás csomagok',
+        'resourcepack' => 'Resource packs',
         'modpack' => 'Modcsomagok',
-        'datapack' => 'Adatcsomagok',
+        'datapack' => 'Data packs',
         'plugin' => 'Pluginok',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Fedezz fel modokat, shadereket, és erőforráscsomagokat a Minecrafthoz',
-        'mod' => 'Keresd, és fedezd fel a legjobb modokat hogy fokozd az élményedet a Minecrafttal',
-        'shader' => 'Alakítsd át a grafikáját a Minecraftodnak lenyűgöző shaderekkel',
+        'mod' => 'Find mods that add new ways to play Minecraft.',
+        'shader' => 'Change how Minecraft looks with shaders.',
         'resourcepack' => 'Szabd testre a Minecraftod megjelenését erőforráscsomagokkal',
         'modpack' => 'Találj válogatott mod‑gyűjteményeket, amelyeket készen állsz együtt játszani',
         'datapack' => 'Fokozd az alap Minecraftod adatcsomagokkal és saját funkciókkal',
-        'plugin' => 'Turbózd fel a Minecraft szervered a legjobb pluginokkal',
+        'plugin' => 'Add features to your Minecraft server with plugins.',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Keress projekteket...',
+    'search_placeholder' => 'Search projects',
     'sort_by' => 'Rendezés',
     'game_version' => 'Játék verziója',
     'all_versions' => 'Összes verzió',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Környezet',
     'env_client' => 'Kliens',
     'env_server' => 'Szerver',
-    'env_both' => 'Kliens és Szerver',
+    'env_both' => 'Client and server',
     'categories' => 'Kategóriák',
     'filtered_by' => 'Szűrve :category kategória által.',
 
     // Results
     'no_results' => 'Nem találtunk projekteket',
-    'try_different_filters' => 'Próbálj meg finomítani a kereséseden, vagy a szűrőkön',
+    'try_different_filters' => 'Try a different search or change the filters.',
 
     // Project details
     'by' => 'által',
@@ -105,10 +105,10 @@ return [
     'client' => 'Kliens',
     'server' => 'Szerver',
     'links' => 'Linkek',
-    'source_code' => 'Forráskód',
+    'source_code' => 'Source code',
     'issues' => 'Hibák',
     'wiki' => 'Wiki',
-    'license' => 'Licensz',
+    'license' => 'Licence',
     'related' => 'Kapcsolódó projektek',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'vagy',
     'select_game_version' => 'Válassz játékverziót',
     'select_platform' => 'Válassz platformot',
-    'search_versions' => 'Keresés a verziók között...',
-    'search_categories' => 'Kategóriák keresése...',
+    'search_versions' => 'Search versions',
+    'search_categories' => 'Search categories',
     'all_platforms' => 'Összes platform',
     'platform' => 'Platform',
     'no_versions_found' => 'Egyik verzió sem egyezik a filtereiddel',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Külsős link',
-    'external_link_warning' => 'Készülsz elhagyni a SkinMC-t és meglátogatni egy külsős weboldalt. Kérlek vigyázz és bizonyosodj meg, hogy a link megbízható a folytatás előtt.',
+    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
     'cancel' => 'Megszakítás',
     'continue' => 'Folytatás',
 
