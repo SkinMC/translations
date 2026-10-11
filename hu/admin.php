@@ -31,7 +31,7 @@ return [
             'username' => 'Felhasználónév',
             'email' => 'Email',
             'status' => 'Állapot',
-            'role' => 'Szerep'
+            'role' => 'Szerep',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Jelentések',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Hírcsatorna',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Törölt hozzászólások',
             'subtitle' => ':count törölt hozzászólás',
-        ]
-    ]
+        ],
+    ],
 ];
