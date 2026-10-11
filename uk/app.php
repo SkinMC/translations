@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Ваше місце для скінів Minecraft',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC — це ваше місце, де ви знайдете, збережете та отримаєте найкращі скіни для Minecraft Bedrock і Java Edition. Список найпопулярніших трендових скінів оновлюється щотижня.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Чому SkinMC?',
-        'why_skinmc_detail' => 'Додаток пропонує ексклюзивний вбудований сканер QR-кодів, щоб швидко відкривати скіни або профілі, які ви знайшли за допомогою настільної версії. Створіть власний QR-код SkinMC, щоб поділитися ним із друзями.',
-        'claim_title' => 'Підтвердження свого профілю',
-        'claim_detail' => 'Підключіться до Minecraft (лише Java) і отримайте ексклюзивний значок, який відображатиметься на вашій сторінці, а також доступ до персоналізації, системи коментарів і користувацьких плащів. Додайте посилання на соціальні мережі у свій профіль. Нехай усі знають, де вас знайти, у Discord, Twitter, YouTube, TikTok та багатьох інших.',
-        'skin_history_title' => 'Історія скінів',
-        'skin_history_detail' => 'Відстежуйте всі свої попередні скіни Minecraft за допомогою історії скінів на сторінці свого профілю. Швидко отримуйте доступ і завантажуйте раніше використовувані скіни.',
-        'avatar_generator_title' => 'Генератор аватарів',
-        'avatar_generator_detail' => 'Оригінальний генератор аватарів Minecraft дозволяє вибрати один із 4 популярних стилів. Створіть персоналізований аватар у форматі тіла, куба, голови, а також абсолютно новий, повністю користувацький у 3D, на основі вашого імені користувача Java-Edition.',
-        'achievements_title' => 'Генератор досягнень/прогресу',
-        'achievements_detail' => 'Зробіть власні персональні досягнення. Налаштуйте все, починаючи від жовтого заголовка, тексту та відображеного предмета.',
-        'no_ads_title' => 'Без реклами',
-        'no_ads_detail' => 'SkinMC повністю вільний від реклами. Насолоджуйтесь без реклами без навʼязливих подразнень.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Знайдіть будь-якого гравця Minecraft',
-        'claim' => 'Підтвердити та налаштувати профіль',
-        'qr' => 'Створити власний QR-код',
-        'qr_scanner' => 'Вбудований сканер QR-коду',
-        'new_skins' => 'Тисячі нових скінів щодня',
-        'achievement' =>  'Генератор досягнень',
-        'avatar' => 'Оригінальний редактор аватарів'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Генератор досягнень',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Дякуємо за використання додатку SkinMC. З цим оновленням ви отримаєте деякі виправлення помилок і покращення. Що ви думаєте про додаток SkinMC? Оцініть нас!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];
