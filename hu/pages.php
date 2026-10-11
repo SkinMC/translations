@@ -261,9 +261,9 @@ return [
         'unfollow' => 'Követés megszüntetése',
         'followers' => 'követő',
         'toast' => [
-            'following' => 'Mostantól követed :username-t!',
+            'following' => 'Now following :username.',
             'follow-self-error' => 'Sajnáljuk, :username, de nem követheted önmagad.',
-            'unfollowed' => 'Mostantól már nem követed :username-t.',
+            'unfollowed' => 'Unfollowed :username.',
         ],
         'edit' => 'Profil szerkesztése',
         'country' => 'Country',
@@ -271,15 +271,15 @@ return [
         'menu' => 'Menu',
         'joined' => 'Csatlakozott',
         'role' => 'Szerepkör',
-        'server-fav-list-empty' => 'Úgy látszik hogy :username -nek nincsenek kedvenc szervere még. Amint :username lementett egy szervert a kedvenceként.',
-        'server-own-list-empty' => 'Úgy látszik hogy :username -nek nincsenek szerverei még. Amint :username egy szervert regisztrál, és listázik, itt fogod látni.',
-        'capes-list-empty' => 'Úgy látszik hogy :username nem hord egy köpenyt se. Amint :username egy köpenyt felvesz, itt fogod látni.',
-        'feed-own-list-empty' => 'Úgy látszik még nem posztoltál semmit. Amint posztolsz valamit, itt fogod látni.',
-        'feed-list-empty' => 'Hmmm, úgy látszik :username nem posztolt semmit eddig a hírfolyamára. Amint :username posztol valamit, itt fogod látni.',
-        'following-own-list-empty' => 'Úgy tűnik, hogy még senkit sem követsz. A követett emberek itt fognak megjelenni.',
-        'following-list-empty' => 'Úgy tűnik, hogy :username még senkit sem követ. Az általa követett emberek itt fognak megjelenni.',
+        'server-fav-list-empty' => ':username hasn’t saved any favourite servers yet.',
+        'server-own-list-empty' => ':username hasn’t listed any servers yet.',
+        'capes-list-empty' => ':username isn’t wearing a cape yet.',
+        'feed-own-list-empty' => 'No posts yet. Share something with the community.',
+        'feed-list-empty' => ':username hasn’t posted anything yet.',
+        'following-own-list-empty' => 'You’re not following anyone yet. Find someone whose work you enjoy.',
+        'following-list-empty' => ':username isn’t following anyone yet.',
         'followers-own-list-empty' => 'A Téged követő emberek itt fognak megjelenni.',
-        'followers-list-empty' => 'Hmm… úgy tűnik, hogy :username-t nem követi senki. Légy Te az első! A(z) :username-t követő emberek itt fognak megjelenni.',
+        'followers-list-empty' => ':username has no followers yet.',
         'render' => 'Megjelenítő',
         '3d' => 'Térhatású',
         '2d' => 'Lapos',
@@ -340,16 +340,16 @@ return [
     ],
     'skin-tags' => [
         'faq' => 'Súgó a címkékről',
-        'about' => 'Címkék használatával lehet skineket kategóriákba rendezni. Helyesen megadott címkék segítéségével gyorsabban megtalálhatod a Neked megfelelő skineket.',
+        'about' => 'Tags describe a skin and help people find similar skins.',
         'guidelines' => [
             'good' => [
-                'title' => 'Egy jó címke…',
+                'title' => 'Good tags are',
                 'short' => '…rövid',
                 'descriptive' => '…leíró',
                 'spelled' => '…helyesen írt',
             ],
             'bad' => [
-                'title' => 'Ilyen címkét ne hozz létre:',
+                'title' => 'Avoid tags that are',
                 'general' => 'Túl általános',
                 'specific' => 'Túl pontos',
                 'too-many-tags' => 'Ez három különböző címke legyen',
@@ -357,10 +357,10 @@ return [
             ],
         ],
         'toast' => [
-            'added' => 'A(z) „:tag”-címkét szavazásra bocsátottad.',
-            'removed' => '„:tag”-címke eltávolítva.',
-            'upvote' => 'Pozitívan értékelted a(z) „:tag”-címkét.',
-            'downvote' => 'Negatívan értékelted a(z) „:tag”-címkét.',
+            'added' => 'Tag “:tag” added for voting.',
+            'removed' => 'Tag “:tag” removed.',
+            'upvote' => 'Upvoted “:tag”.',
+            'downvote' => 'Downvoted “:tag”.',
         ],
         'vote' => [
             'up' => 'Tetszik',
@@ -370,8 +370,8 @@ return [
     ],
     'contact' => [
         'contact' => 'Kapcsolat',
-        'email' => 'Ha kérdésed van, nyugodtan fordulj hozzánk a <a href="mailto:support@skinmc.net">support@skinmc.net</a> email-címen.',
-        'faq' => 'Kérjük, látogasd meg a <a href=":link">GY.I.K.-et</a> és ellenőrizd, hogy valaki már megválaszolta-e a kérdésedet.',
+        'email' => 'Email us at <a href="mailto:support@skinmc.net">support@skinmc.net</a>.',
+        'faq' => 'Check the <a href=":link">FAQs</a> for answers to common questions.',
         'other' => 'További kapcsolatfelvételi lehetőségek',
         'other_discord' => 'Csatlakozz a Discord-szerverhez, ha barátkozni szeretnél, játékokról beszélgetni, megosztani a kedvenc gyűjteményeidet, vagy segítséget kérnél!',
         'other_twitter' => 'A Twitter-profilunkon értesülhetsz az új frissítésekről és funkciókról, illetve megtekintheted a hét kinézetét.',
@@ -382,17 +382,17 @@ return [
         'intro' => '<span>A</span> <span>Minecraft-kinézetek</span> <span>tárháza.</span>',
         'header_credit' => 'Az „Epic Nether Battle”-illusztráció készítője:',
         'info' => 'Kövess nyomon mindent!',
-        'info_explainer' => 'Megtekintheted egy játékos felhasználónév- és skinelőzményeit, barátnak jelölheted őt, letöltheted a skineit és még részletes statisztikákat is láthatsz róla.',
-        'card_find_title' => 'Tekintsd meg bármelyik Minecraft-játékos profilját!',
-        'card_find_detail' => 'A kezdéshez keress rá egy játékos felhasználónevére vagy UUID-jére!',
+        'info_explainer' => 'Browse a player’s skin history and statistics, download skins and follow their profile.',
+        'card_find_title' => 'Find a Minecraft player',
+        'card_find_detail' => 'Search for a player by username or UUID.',
         'card_view_title' => 'Nézelődj, ments és szerkessz!',
         'card_view_detail' => 'Megtetszett egy skin? Töltsd le, vagy készíts sajátot a szerkesztővel!',
-        'card_claim_title' => 'Igazold magad!',
-        'card_claim_detail' => 'A Minecraft-fiókod összekapcsolásával igazolhatod a profilod tulajdonjogát, és ezzel különleges funkciók válnak elérhetővé a számodra.',
+        'card_claim_title' => 'Claim your profile',
+        'card_claim_detail' => 'Link your Minecraft account to claim your profile.',
         'card_customise_title' => 'Szabd személyre a profilod!',
-        'card_customise_detail' => 'Az igazolt játékosok önmagukra formálhatják a profiljukat és még a más közösségi oldalakon található profiljaikra is hivatkozhatnak.',
-        'card_friends_title' => 'Jelöld be a barátaid!',
-        'card_friends_detail' => 'Ha kapcsolatba lépsz a SkinMC-s barátaiddal, ők is megjelennek a profilodon.',
+        'card_customise_detail' => 'Add a bio, social links and an avatar to your profile.',
+        'card_friends_title' => 'Follow players',
+        'card_friends_detail' => 'Follow Minecraft players to keep up with their posts.',
         'card_history_title' => 'Felhasználónév- és skinelőzmények',
         'card_history_detail' => 'A fejlett keresőmotor segítségével megtalálhatod bármelyik játékos korábbi neveit és kinézeteit.',
         'founders' => 'Az alapítók',
@@ -400,65 +400,112 @@ return [
         'head_of_design' => 'Fő tervező',
         'head_of_code' => 'Fő programozó',
         'feedback' => 'Visszajelzés',
-        'faq' => 'Kérdésed van a Minecrafttal, a skinekkel, vagy mással kapcsolatban? Olvasd el a GY.I.K.-et és megtudod a válaszokat a leggyakoribb kérdésekre!',
-        'faq_link' => 'GY.I.K.',
-        'contact' => 'Fel akarod venni velünk a kapcsolatot, vagy további kérdéseid vannak? Csak írj!',
+        'faq' => 'Find answers to common questions about Minecraft and skins.',
+        'faq_link' => 'Read FAQs',
+        'contact' => 'Still need help? Get in touch.',
         'contact_link' => 'Kapcsolat',
 
     ],
     'faq' => [
         'title' => 'GY.I.K.',
-        'subtitle' => 'Gyakran ismételt kérdések',
+        'subtitle' => 'Help with SkinMC, skins and Minecraft servers.',
         'help' => 'További segítségre van szükséged?',
         'discord' => 'Csatlakozz a Discord-szerverünkhöz, ahol más Minecraft-játékosokkal is beszélgethetsz!',
         'contact' => 'Kapcsolat',
+        'categories' => [
+            'skins' => 'Skins',
+            'usernames' => 'Usernames',
+            'servers' => 'Servers',
+            'capes' => 'SkinMC capes',
+            'account' => 'Account',
+            'contact' => 'Contact',
+        ],
         'q' => [
-            'change_skin_t' => 'Hogyan változtathatom meg a Minecraft-kinézetemet?',
+            'change_skin_t' => 'How do I change my skin in Minecraft: Java Edition?',
             'change_skin' => '
-                <p>A kinézeted megváltoztatásához az alábbi lépéseket kell követned:</p>
+                <p>Download the skin as a PNG, then open the Minecraft Launcher.</p>
                 <ol>
-                    <li>Látogasd meg a <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a>-honlapot és jelentkezz be a Mojang-fiókoddal!</li><li>Bejelentkezés után kattints bal oldalt a <b>„Skin”</b>-menüpontra!</li><li>Végezetül válaszd ki a kívánt karaktermodellt és töltsd fel a használni kívánt kinézetet!</li>
-                </ol>',
-            'change_username_t' => 'Hogyan változtathatom meg a Minecraft-felhasználónevemet?',
+                    <li>Choose <strong>Minecraft: Java Edition</strong> and open <strong>Skins</strong>.</li>
+                    <li>Select <strong>New Skin</strong>, give it a name and choose the wide or slim model to match your skin.</li>
+                    <li>Select <strong>Browse</strong> and choose the downloaded PNG.</li>
+                    <li>Select <strong>Save &amp; Use</strong> to apply it.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/what-is-minecraft-skin" target="_blank" rel="noopener noreferrer">Minecraft skin guide</a> for more help.</p>',
+            'change_username_t' => 'How do I change my Minecraft username?',
             'change_username' => '
-                <p>A felhasználóneved megváltoztatásához az alábbi lépéseket kell követned:</p>
+                <p>For Minecraft: Java Edition:</p>
                 <ol>
-                    <li>Látogasd meg a <a href="https://my.minecraft.net/en-us/login/">https://my.minecraft.net/en-us/login/</a>-honlapot és jelentkezz be a Mojang-fiókoddal!</li>
-                    <li>Keresd meg a felhasználónevedet, majd kattints a <b>„(Change)”</b>-gombra!</li>
-                    <li>A következő oldalon add meg a használni kívánt felhasználónevet!</li>
-                    <li>Végezetül alkalmazd a változtatásokat a jelszavad újbóli megadásával és a „Change name”-gombra való kattintással!</li>
-                </ol>',
-            'dl_t' => 'Hogyan tölthetem le valaki más Minecraft-kinézetét?',
+                    <li>Log in to <a href="https://www.minecraft.net/en-us/login" target="_blank" rel="noopener noreferrer">Minecraft.net</a> with your Microsoft account and open <strong>All Games</strong>.</li>
+                    <li>Under <strong>Minecraft: Java Edition</strong>, select <strong>Change Profile Name</strong>.</li>
+                    <li>Enter a name and select <strong>Change Your Profile Name</strong>.</li>
+                </ol>
+                <p>In Bedrock Edition, your name depends on your account and platform. See <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s guide to changing your profile name</a>.</p>',
+            'dl_t' => 'How do I download a player’s Minecraft skin?',
             'dl' => '
-                <p>Ha le szeretnéd tölteni valaki más kinézetét, az alábbi lépéseket kell követned:</p>
                 <ol>
-                    <li>Kattints a keresőmezőbe az oldal tetején és gépeld be annak a személynek a felhasználónevét, akinek a kinézetét használni szeretnéd!</li>
-                    <li>Letöltés előtt még a profilján megtekintheted a kinézetét.</li>
-                    <li>Kattints az előnézet alatt a <strong>Kinézet letöltése</strong>-gombra és elindul a letöltés!</li>
+                    <li>Search SkinMC for the player’s Minecraft username.</li>
+                    <li>Open their profile to preview the skin.</li>
+                    <li>Select <strong>Download skin</strong> to save the PNG.</li>
                 </ol>',
-            'submit_q' => 'Gyűjteménybe hogyan nevezhetek ki egy kinézetet?',
-            'submit_a' => '<p>Töltsd ki az alábbi rövid űrlapot és add meg a kinézetet viselő személy felhasználónevét és, hogy melyik gyűjteménybe szeretnéd nevezni!<a href="https://forms.gle/f4Jh5RpGfsHAZ5xE8" target="_blank">Gyűjteménybe nevező űrlap</a>',
-            'mcpe_t' => 'Tölthetek le úgy kinézetet, hogy azt a Minecraft mobiltelefonos kiadásában használjam?',
+            'submit_q' => 'How do I create a collection?',
+            'submit_a' => '<p>Log in, open <strong>Collections</strong> in your account and choose <strong>Create collection</strong>. Give it a title, choose from your uploaded skins, skin bases and capes, then arrange them and save.</p><p>Visitors only see public, approved items. Draft and unlisted items stay hidden.</p>',
+            'mcpe_t' => 'Can I use downloaded skins in Minecraft: Bedrock Edition?',
             'mcpe' => '
-                <p>Igen; a mobiltelefonos kiadásban az alábbi módon használhatsz kinézeteket:</p>
+                <p>Yes, on Windows and mobile. Custom skin imports are not supported on consoles.</p>
                 <ol>
-                    <li>Nyisd meg a SkinMC.net-honlapot az okostelefonodon és koppints a keresőmezőre!</li>
-                    <li>Gépeld be annak a személynek a felhasználónevét, akinek a kinézetét használni szeretnéd!</li>
-                    <li>Koppints rá az előnézet alatt található <strong>Kinézet letöltése</strong>-gombra!</li>
-                    <li>Nyisd meg a Minecraftot és koppints a jobb oldalon található <strong>„Öltöző”</strong>-gombra!</li>
-                    <li>Kattints a bal oldalon található <strong>„+”</strong>-gombra, vagy középen a <strong>„Karakter szerkesztése”</strong>-gombra és bal oldalt válts a <strong>„Klasszikus felületek”</strong>-fülre!</li>
-                    <li>A <strong>„Saját felületek”</strong> alatt koppints rá az üres felületre, majd a jobb oldalon megjelenő <strong>„Új felület kiválasztása”</strong>-gombra és nyisd meg az imént letöltött képet!</li>
-                </ol>',
-            'change_times_t' => 'Milyen gyakran változtathatom meg a felhasználónevemet?',
-            'change_times' => '<p>A Minecraft-felhasználónevedet <strong>30 naponta egyszer</strong> változtathatod meg.</p>',
-            'available_t' => 'Ha megváltoztatom a felhasználónevemet, mennyi idő után foglalhatja le valaki a régi nevemet?',
-            'available' => '<p>Ha vissza akarod szerezni a régi felhasználónevedet, azt csak a <strong>30 nap lejárta után</strong> teheted meg. A 30 nap utáni <strong>7 napos</strong> időszakban még nem foglalható le a neved mások által (tehát módosítás után összesen 37 napod van visszaszerezni a régi neved).</p>',
-            'username_history_t' => 'Lennétek szívesek eltávolítani a felhasználónévelőzményeimet?',
+                    <li>Download a skin from SkinMC as a PNG.</li>
+                    <li>Open Minecraft and select <strong>Dressing Room</strong>.</li>
+                    <li>Choose a character, select <strong>Edit Character</strong> and open <strong>Classic Skins</strong>.</li>
+                    <li>Under <strong>Owned</strong>, select <strong>Import</strong>, then <strong>Choose New Skin</strong>.</li>
+                    <li>Choose the downloaded PNG and the model that matches your skin.</li>
+                </ol>
+                <p>See the <a href="https://www.minecraft.net/en-us/article/character-creator-faq" target="_blank" rel="noopener noreferrer">Minecraft Character Creator FAQ</a> for platform support.</p>',
+            'change_times_t' => 'How often can I change my Java username?',
+            'change_times' => '<p>You can change your Minecraft: Java Edition profile name once every <strong>30 days</strong>.</p>',
+            'available_t' => 'Can I change back to my previous Java username?',
+            'available' => '<p>You can change back after <strong>30 days</strong>. Check <a href="https://help.minecraft.net/hc/en-us/articles/4408950195341" target="_blank" rel="noopener noreferrer">Minecraft’s profile name guidance</a> before changing your name.</p>',
+            'username_history_t' => 'Can I hide my username history on SkinMC?',
             'username_history' => '
-                <p>Mivel a korábbi felhasználóneveket tartalmazó adatbázist nem mi tartjuk fenn, hanem a Mojang, ezért az előzményeket nem tudjuk eltávolítani. A Mojang korábban jelezte, hogy szándékosan elérhetően akarják tartani ezt az információt¹ és, hogy a nyilvánosságnak közvetlen elérést szeretnének biztosítani hozzá².</p>
-                <p class="font-14">¹<a href="https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames" target="_blank" rel="noreferrer">https://help.minecraft.net/hc/en-us/articles/360034636712-Minecraft-Usernames</a> (angol nyelven)</p>
-                <p class="font-14 mb-0">²<a href="https://twitter.com/dinnerbone/status/554739042529849345" target="_blank" rel="noreferrer">https://twitter.com/dinnerbone/status/554739042529849345</a> (angol nyelven) (Tárolt változat 2018-ból: <a href="http://archive.is/TeAyj" target="_blank" rel="noreferrer">http://archive.is/TeAyj</a>)
-                </p>',
+                <p>Yes. Link your Minecraft account, open your profile customisation settings and turn on <strong>Make username history private</strong>.</p>
+                <p>This hides your history from other visitors on SkinMC. You can still see it when logged in. It does not remove information from other websites.</p>',
+            'add_server_t' => 'How do I add my server to SkinMC?',
+            'add_server' => '<p>Log in to SkinMC and link your Minecraft account, then choose <strong>Add new server</strong>. Enter the server details and save the listing.</p><p>Upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.</p>',
+            'server_requirements_t' => 'What are the requirements for a server listing?',
+            'server_requirements' => '
+                <ul>
+                    <li>You must own the server or be authorised to represent it.</li>
+                    <li>Link the Minecraft account you use as the owner or representative to SkinMC.</li>
+                    <li>The server must follow the <a href="https://www.minecraft.net/eula">Minecraft EULA</a>.</li>
+                    <li>Add accurate server details, a clear description and at least :count photos with descriptions.</li>
+                </ul>
+                <p>Our team checks the listing and ownership before approval. We may ask you to make changes before it goes live.</p>',
+            'server_description_t' => 'What should I include in my server description?',
+            'server_description' => '<p>Help players understand what playing on the server is like. Describe the game modes, community and any features that make it different.</p><p>Use clear, specific details and mention anything players need to know before joining. Keep the description accurate and up to date.</p>',
+            'server_images_t' => 'How do I add photos to my server listing?',
+            'server_images' => '
+                <ol>
+                    <li>Open <a href=":manage_url">Manage your servers</a> and choose <strong>Edit server</strong>.</li>
+                    <li>Choose <strong>Add photo</strong> or <strong>Add new image</strong> in the images section.</li>
+                    <li>Select a JPG or PNG up to :max_size and add a description of what it shows.</li>
+                    <li>Save the photo and repeat for the other images.</li>
+                </ol>
+                <p>Use photos that show what players can expect, such as the spawn area, builds or game modes. A listing needs at least :count photos and approval before it can go live.</p>',
+            'server_publication_t' => 'Why is my server listing not live yet?',
+            'server_publication' => '<p>A listing needs approval and at least :count photos before it can go live. Check its status in <a href=":manage_url">Manage your servers</a> and add any missing photos.</p><p>If you remove photos and fall below the minimum, the listing is hidden until you add enough photos again.</p>',
+            'server_reviews_t' => 'How do I write a server review?',
+            'server_reviews' => '<p>Log in and link your Minecraft account, then open a server listing and choose <strong>Write a review</strong>.</p><p>Only review servers you have played on. Describe your own experience, be honest and specific, and keep criticism constructive. Include useful suggestions where you can. You cannot review your own server.</p>',
+            'profile_verification_t' => 'What does a verified profile mean?',
+            'profile_verification' => '<p>The verification badge shows that SkinMC has checked the identity of a recognisable person behind a profile. It is reviewed separately from linking a Minecraft account.</p><p>To be considered, the profile must be public, authentic and active, with relevant links that help confirm the person’s identity.</p>',
+            'request_verification_t' => 'How do I request profile verification?',
+            'request_verification' => '<p><a href=":support_url">Contact support</a> with your name, a short introduction, the reason for your request and a link to your SkinMC profile. Include links to your official website or social accounts that help confirm your identity.</p><p>SkinMC reviews each request. Meeting the requirements does not guarantee a badge. You can also link to your SkinMC profile from your official website or social accounts to help people recognise it.</p>',
+            'lose_verification_t' => 'Can a profile lose verification?',
+            'lose_verification' => '<p>Yes. SkinMC may remove the badge if the account becomes inactive or breaks the terms of service.</p>',
+            'contact_t' => 'How do I contact support?',
+            'contact' => 'Contact support with a description of the problem and any details that could help us understand it, such as the page link or an error message.',
+            'feedback_t' => 'How do I send feedback?',
+            'feedback' => 'Send us your feedback through support. Tell us what you were trying to do and what could work better.',
+            'feature_request_t' => 'How do I suggest a feature?',
+            'feature_request' => 'Send your suggestion through support. Describe what you’d like to do and how it would help.',
         ],
     ],
     'avatars' => [
@@ -517,7 +564,7 @@ return [
     'achievement' => [
         'header' => [
             'title' => 'Hozz létre egyedi teljesítményeket!',
-            'subtitle' => 'A Minecraftteljesítmény-szerkesztővel egyedi előrelépéseket készíthetsz, amiket bármiben felhasználhatsz.',
+            'subtitle' => 'Use the Minecraft Achievement Generator to create your very own custom achievement and show your advancements wherever you like.',
         ],
         'generator' => [
             'yellow_text' => 'Cím',
@@ -537,8 +584,8 @@ return [
     ],
     'armor' => [
         'header' => [
-            'title' => 'Minecraftpáncélállvány-szerkesztő',
-            'subtitle' => 'A páncélállvány-szerkesztő segítségével a játékban használható páncélállványokat rakhatsz össze. Kiválaszthatod a testtartásást, az elhelyezkedését és még sok mást.',
+            'title' => 'Minecraft armour stand creator',
+            'subtitle' => 'Set the pose, position and items for a custom armour stand.',
         ],
         'meta' => [
             'title' => 'Minecraftpáncélállvány-szerkesztő',
@@ -548,15 +595,15 @@ return [
     'banner' => [
         'editor' => [
             'header' => [
-                'title' => 'Minecraftzászló-szerkesztő',
-                'subtitle' => 'Tervezd meg a saját Minecraft-zászlódat! Ezeket díszként vagy <a href="https://optifine.net" target="_blank" rel="nofollow">Optifine</a>-köpenyként is használhatod.',
+                'title' => 'Minecraft banner editor',
+                'subtitle' => 'Design banners for your world or use them as <a href="https://optifine.net" target="_blank" rel="nofollow">OptiFine</a> capes.',
             ],
             'meta' => [
                 'title' => 'Minecraftzászló-szerkesztő',
                 'description' => 'Készítsd el a saját Minecraft-zászlódat a játékban használható lehetőségekkel! Ezekkel a zászlókkal kidíszítheted a világodat vagy beállíthatod őket Optifine-köpenyként. A minták zászlókon vagy pajzsokon való felhasználásához /give-parancsokat is kérhetsz.',
             ],
             'toolbar' => [
-                'title' => 'Zászló szerkesztő',
+                'title' => 'Banner editor',
                 'randomise' => 'Randomizálás',
                 'clear_layers' => 'Rétegek törlése',
                 'help' => 'Segítség',
@@ -748,9 +795,9 @@ return [
             'tags_aria' => 'Wallpaper tags',
             'tags_remove_aria' => 'Remove tag',
             'tags_hint' => 'Add up to :max descriptive tags.',
-            'license_label' => 'License',
+            'license_label' => 'Licence',
             'license_help' => 'Need help choosing?',
-            'license_select' => 'Select a license',
+            'license_select' => 'Select a licence',
             'challenge_opt_in_label' => 'Enter the monthly wallpaper challenge',
             'challenge_opt_in_hint' => 'If selected, your entry can be featured on the SkinMC homepage next month.',
             'challenge_help' => 'Learn more',
@@ -784,10 +831,10 @@ return [
             'crop_modal_apply' => 'Use crop',
             'close' => 'Close',
             'license_modal' => [
-                'title' => 'Need help choosing a license?',
+                'title' => 'Need help choosing a licence?',
                 'description' => 'Choose how others can use your wallpaper. Use the links below to read the full Creative Commons terms.',
                 'cc_by' => 'Recommended for most use cases. Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Use when you want adaptations to stay open under the same license, with attribution.',
+                'cc_by_sa' => 'Use when you want adaptations to stay open under the same licence, with attribution.',
                 'cc_by_nc' => 'Use when you want attribution but do not allow commercial use.',
                 'read_cc_by' => 'Read CC BY 4.0',
                 'read_cc_by_sa' => 'Read CC BY-SA 4.0',
@@ -839,7 +886,7 @@ return [
             'resolution' => 'Resolution',
             'resolution_desktop' => 'Desktop: :value',
             'resolution_mobile' => 'Mobile: :value',
-            'license' => 'License',
+            'license' => 'Licence',
             'learn_more' => 'Learn more',
             'winner_badge' => 'Winner',
             'winner_challenge_label' => 'Wallpaper challenge',
@@ -855,9 +902,9 @@ return [
             'similar_wallpapers' => 'Similar wallpapers',
             'license_info' => [
                 'cc_by' => 'Allows sharing and edits, including commercial use, with attribution.',
-                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same license.',
+                'cc_by_sa' => 'Allows edits and redistribution with attribution under the same licence.',
                 'cc_by_nc' => 'Allows sharing and edits with attribution, but no commercial use.',
-                'default' => 'Creative Commons license selected by the creator.',
+                'default' => 'Creative Commons licence selected by the creator.',
             ],
         ],
         'challenge' => [
@@ -1108,24 +1155,24 @@ return [
             'save_new_version' => 'Save new version',
             'save_updated_skin_version' => 'Save updated skin version',
             'save_as_new_creation' => 'Save as new creation',
-            'published_successfully' => 'Your skin has been published successfully!',
+            'published_successfully' => 'Skin published.',
             'saved_new_version' => 'New version saved.',
             'previous_skin_available' => 'A previously edited skin was found. Would you like to restore it?',
             'restore_skin' => 'Restore',
-            'skin_loaded' => 'Skin loaded successfully',
+            'skin_loaded' => 'Skin loaded.',
             'preparing_upload' => 'Preparing your upload…',
             'bridge_fail_missing' => 'Your skin is still safe in the editor. Try saving to gallery again.',
-            'bridge_fail_invalid' => 'Your skin is still safe in the editor. We couldn\'t use the saved copy — please try saving to gallery again.',
-            'bridge_fail_server' => 'Your skin is still safe in the editor. Something went wrong — please try saving to gallery again.',
+            'bridge_fail_invalid' => 'Couldn’t use the saved copy. Your skin is still in the editor. Try saving to the gallery again.',
+            'bridge_fail_server' => 'Couldn’t prepare the upload. Your skin is still in the editor. Try saving to the gallery again.',
             'pending_replaced' => 'Your previous pending upload was replaced with your latest skin.',
             'claim_step' => 'Step 1 of 2',
             'claim_title' => 'Link your Minecraft account',
-            'claim_description' => 'To publish skins to the gallery, link your Minecraft account first. This is a quick, one-time setup.',
+            'claim_description' => 'Link your Minecraft account to publish skins to the gallery.',
             'claim_skin_safe' => 'Your skin is saved and will be ready to publish right after linking.',
-            'claim_button' => 'Link Minecraft Account',
-            'claim_reassurance' => 'Your skin is safe — you\'ll continue to publishing after linking.',
+            'claim_button' => 'Link Minecraft account',
+            'claim_reassurance' => 'Your skin is safe. You’ll continue to publishing after linking.',
             'claim_posting' => 'Saving your skin…',
-            'claim_fail' => 'Something went wrong — your skin is safe in the editor. Please try again.',
+            'claim_fail' => 'Couldn’t save your skin for publishing. It’s still in the editor. Try again.',
         ],
         'visibility' => [
             'public' => 'Public',
@@ -1134,7 +1181,7 @@ return [
         ],
     ],
     'skin_bases' => [
-        'search_tab' => 'Skin Bases',
+        'search_tab' => 'Skin bases',
         'card' => [
             'label' => 'Skin base',
         ],
@@ -1150,7 +1197,7 @@ return [
             'title' => 'Minecraft Skin Bases',
             'description' => 'Browse :count reusable Minecraft skin bases and templates.',
             'header' => [
-                'title' => 'Skin Bases',
+                'title' => 'Skin bases',
                 'subtitle' => ':count base|:count bases',
             ],
             'upload' => 'Upload base',
@@ -1262,7 +1309,7 @@ return [
         'toast' => [
             'added' => 'Kedvencnek jelölve.',
             'removed' => 'Eltávolítva a kedvencek közül.',
-            'login_required' => 'Jelentkezz be hogy kedvencként jelölj valamit',
+            'login_required' => 'Log in to add to favourites',
         ],
         'skins' => [
             'button' => 'Kinézetek',
@@ -1352,7 +1399,7 @@ return [
     'cape' => [
         'editor' => [
             'title' => 'Minecraftköpeny-szerkesztő',
-            'subtitle' => 'A köpenyszerkesztővel létrehozhatsz egy egyedi Minecraft-köpenyt.',
+            'subtitle' => 'Design a cape with the Minecraft cape editor.',
             'loading' => [
                 'aria_label' => 'Loading Minecraft cape editor',
                 'name' => 'SkinMC Cape Editor',
@@ -1534,7 +1581,7 @@ return [
                 'equipped' => 'Cape equipped',
                 'apply' => 'Apply cape',
                 'link_to_apply' => 'Link Minecraft account to apply',
-                'sign_in_to_apply' => 'Sign in to apply this cape',
+                'sign_in_to_apply' => 'Log in to apply this cape',
             ],
             'meta' => [
                 'title' => '„:cape” Minecraft-köpeny',
@@ -1624,8 +1671,8 @@ return [
             'cannot_review_own_server' => 'You cannot review your own server.',
         ],
         'slots' => 'Helyek száma',
-        'empty-helper' => 'Megpróbálhatsz megint keresni.',
-        'empty' => 'Hmm… Nincs itt semmi.',
+        'empty-helper' => 'Try a different search.',
+        'empty' => 'No servers found',
         'verified' => 'Ellenőrzött',
         'review_translate_show_original' => 'Eredeti megjelenítése',
         'review_translate' => 'Értékelés lefordítása',
@@ -1637,9 +1684,9 @@ return [
             'social_links' => 'Közösség',
             'trailer_video' => 'Előzetes',
             'images' => 'Képek',
-            'images_description' => 'Később feltölthetsz képeket, hogy bemutathasd, mit kínál a szervered.',
-            'submit' => 'Közzététel',
-            'lets_get_your_server_added' => 'Adjuk hozzá a szerveredet az adatbázishoz!',
+            'images_description' => 'Upload photos from your server dashboard after saving the listing.',
+            'submit' => 'Finish',
+            'lets_get_your_server_added' => 'Add your server',
             'basics-subtitle' => 'Meséld el, hogy miről szól a szervered!',
             'description' => 'Leírás',
             'description_tips' => 'Néhány ötlet',
@@ -1649,26 +1696,26 @@ return [
             'social_links_description' => 'Milyen közösségi oldalakon van jelen a szervered?',
             'trailer_video_description' => 'Mutasd be a szerveredet egy YouTube-videó beágyazásával!',
             'trailer_video_hint' => 'A videó hivatkozása vagy azonosítója:',
-            'ready_to_submit_your_server' => 'Készen állsz a beküldésre?',
-            'review-hint' => 'Beküldés után a csapatunk alaposan átvizsgálja a szerverhozzáadási kérelmedet. Bírálás után a szervered azonnal felkerül a listára vagy, ha változtatásokat kérünk, visszaküldjük Neked.',
+            'ready_to_submit_your_server' => 'Create your server listing',
+            'review-hint' => 'After saving, upload photos from your server dashboard to complete the listing. Our team will review it before it goes live.',
             'terms' => [
                 'part-1' => 'Az űrlap beküldésével beleegyezel a SkinMC szolgáltatási feltételeibe, adatvédelmi- és közösségi irányelveibe. Továbbá megerősíted, hogy a megadott információ pontos és megfelel a',
                 'part-2' => 'szerverhozzáadási követelményeknek',
                 'part-3' => 'és, hogy a Minecraft-szerver, melynek a listázását kérelmezed, a Te tulajdonodban áll, vagy a tulajdonos megbízásából cselekszel.',
             ],
-            'submit-application' => 'Kérelem beküldése',
+            'submit-application' => 'Create listing',
             'video-id-helper' => [
                 'part-1' => 'A videóazonosító az a betű- és számsor, ami a videó hivatkozásában az alábbi rész után következik:',
                 'part-2' => 'Pl.: Ha a videó hivatkozása az alábbi:',
                 'part-3' => ', akkor ebből a videóazonosító:',
             ],
-            'welcome_description' => 'Kezdjük meg a szervered hozzáadását! Meséld el, hogy miről szól a szerver, majd tölts fel róla képeket.',
+            'welcome_description' => 'Enter your server details to create a listing. You can upload photos after saving.',
         ],
         'votes' => [
             'vote' => 'Vote',
             'voted' => 'Voted',
-            'success' => 'Your vote has been recorded!',
-            'login_required' => 'Please log in to vote for this server.',
+            'success' => 'Vote recorded.',
+            'login_required' => 'Log in to vote for this server.',
             'profile_required' => 'Link your Minecraft account to vote.',
             'server_ineligible' => 'This server is not currently eligible for voting.',
             'self_vote_blocked' => 'You cannot vote for your own server.',
@@ -1677,18 +1724,18 @@ return [
             'count' => ':count vote|:count votes',
         ],
         'copy_server_ip' => 'Szerver IP-címének másolása',
-        'all_minecraft_servers' => 'Minden Minecraft-szerver',
+        'all_minecraft_servers' => 'All Minecraft servers',
         'promo' => [
-            'title' => 'Van saját Minecraft-szervered?',
-            'ready_to_list_your_server' => 'Készen állsz a szervered beküldésre?',
-            'everything_you_need' => 'Tudnivalók egy szerver népszerűsítéséhez',
+            'title' => 'List your Minecraft server',
+            'ready_to_list_your_server' => 'Ready to list your server?',
+            'everything_you_need' => 'Help players find your server',
             'list_your_server' => 'Listázd a szervered!',
             'list_your_server_description' => 'Add hozzá a szerveredet az adatbázisunkhoz és mutasd be másoknak képekkel, közösségi hivatkozásokkal és másokkal!',
             'find_players' => 'Játékosok toborzása',
             'find_players_description' => 'Találj új játékosokat és terjeszd ki a közösségedet!',
             'get_reviews' => 'Véleménygyűjtés',
             'get_reviews_description' => 'Kérdd meg a játékosaidat, hogy írjanak véleményt a szerveredről és jutalmazd meg őket a játékban!',
-            'why_list_on_skinmc' => 'Okok, amiért megéri a SkinMC-n listázni a szerveredet',
+            'why_list_on_skinmc' => 'Why list on SkinMC?',
             'others' => 'Egyebek',
             'quality_check_and_confirmation' => 'Minőség-ellenőrzés és vizsgálat',
             'quality_check_description' => 'A csapatunk minden szervert átvizsgál.',
@@ -1696,38 +1743,38 @@ return [
             'verified_players_description' => 'A Votifier-integrációnak köszönhetően hiteles értékeléseket kaphatsz valódi felhasználóktól.',
             'international' => 'Nemzetközi',
             'international_description' => 'A gépifordítói-funkciónak köszönhetően a szervered oldala még több felhasználó számára elérhető.',
-            'server_listing_page' => 'Sokoldalú szerveroldal',
-            'server_listing_page_description' => 'A szerveroldalon megjelenetnek fényképek, leírások és videók, és kiemelheted a lehetséges játékosok számára, hogy miért csatlakozzanak.',
+            'server_listing_page' => 'Server listing page',
+            'server_listing_page_description' => 'Show players what your server offers with photos, a description and YouTube videos.',
             'social_connections' => 'Közösségi oldalak',
-            'social_connections_description' => 'A szervered közösségi oldalaira is hivatkozhatsz, az új játékosok számára.',
+            'social_connections_description' => 'Add social links so players know where to find your community.',
             'verified_badge' => 'Hitelesítő jelvény',
             'verified_badge_description' => 'A hiteles szerverek jelvényt is kérelmezhetnek.',
             'owner_profile' => 'Tulajdonosi profilok',
-            'owner_profile_description' => 'A saját profiloldalad személyre szabásával személyesebbé teheted azt.',
+            'owner_profile_description' => 'Let players know who runs the server.',
             'categories' => 'Kategóriák',
-            'categories_description' => 'A különböző kategóriáknak köszönhetően mások könnyebben megtalálhatják a szervered.',
+            'categories_description' => 'Help players find your server by category.',
             'vote' => 'Szavazás',
             'vote_description' => 'Megkérhetsz más felhasználókat, hogy szavazzanak a szerveredre.',
             'review' => 'Review',
             'review_description' => 'Ask users to review your server.',
             'fair_listings' => 'Igazságosság',
-            'fair_listings_description' => 'A szerverek megjelenési sorrendjén nem lehet mesterségesen változtatni.',
-            'support' => '24 órás támogatás',
-            'support_description' => 'Kérdésed van vagy segítségre van szükséged? Bármikor felveheted velünk a kapcsolatot és gyorsan válaszolunk, éjjel-nappal.',
-            'custom_features' => 'Egyedi funkciók',
-            'custom_features_description' => 'Hiányolsz egy funkciót? Hozz létre egy támogatási jegyet és intézkedünk!',
+            'fair_listings_description' => 'Server listings cannot be artificially boosted in results on SkinMC.',
+            'support' => 'Support',
+            'support_description' => 'Contact us if you need help with your listing.',
+            'custom_features' => 'Feature requests',
+            'custom_features_description' => 'Have a feature in mind? Send us a suggestion.',
             'faq' => [
                 'title' => 'Kérdezz-felelek',
-                'suited-question' => 'A SkinMC-re való a Minecraft-szerverem?',
-                'suited-answer' => 'A SkinMC-t meglátogató Minecraft-játékosok imádnak új élményeket, tartalmakat és közösségeket felfedezni. Ezen a platformon rengeteg új és egyedi szervert fedezhetsz fel. Itt bármit felfedezhetsz a nagyobb közösségektől a kisebb túlélő szerverekig.',
+                'suited-question' => 'Can I list my Minecraft server on SkinMC?',
+                'suited-answer' => 'SkinMC lists servers of different sizes and styles, from small survival communities to larger networks. Check the server requirements before submitting your listing.',
                 'get-started-question' => 'Mivel kezdjem?',
-                'get-started-answer' => 'A szervered listázása nagyon egyszerű a SkinMC-n! Először is, regisztrálj egy fiókot ha még nem tetted volna meg, majd kövesd a szerverhozzáadási varázsló lépéseit! Csak írj leírást és csatolj néhány fényképet, és a szervered seperc alatt listázva lesz!',
-                'players-question' => 'Hogyan csalogathatok több játékost a Minecraft-szerveremre?',
-                'players-answer' => 'Egy erős Minecraft-szerver kulcsa a közösségépítés. A SkinMC szerverböngészője segítségével könnyen találhatsz új közönséget, amiből közösséget építhetsz. Kérd meg a játékosaidat, hogy ajánlják másoknak a szerveredet és osszák meg közösségi oldalakon. Kedvező értékelések is nagy szerepet játszhatnak a szerver népszerűsítésében.',
+                'get-started-answer' => 'Log in to SkinMC, link your Minecraft account and choose Add new server. Enter your server details, save the listing and upload photos. Our team will review it before it goes live.',
+                'players-question' => 'How can I help players find my server?',
+                'players-answer' => 'Describe what makes your server worth joining, add photos and keep the listing up to date. Share it with your community and invite players to leave honest reviews.',
                 'more-question' => 'Egyéb kérdésem van. Hol kaphatok segítséget?',
-                'more-answer' => 'A SkinMC-t éjjel-nappal felkeresheted a Súgó-gombbal és az ügyfélszolgálaton, vagy a Discord-szerveren.',
+                'more-answer' => 'Contact SkinMC support through the help desk or Discord.',
             ],
-            'ready_to_list_description' => 'A Minecraft-szerveredet néhány perc alatt hozzáadhatod a SkinMC adatbázisához. Ha segítségre van szükséged, éjjel-nappal elérhetsz minket.',
+            'ready_to_list_description' => 'Create a listing to introduce your server to new players. Contact us if you need help.',
         ],
         'manage' => [
             'index' => [
@@ -2154,7 +2201,7 @@ return [
         'zoom_out' => 'Zoom out (CTRL -)',
         'saved' => 'Legutóbbi frissítés: Most',
         'saving' => 'Automatikus mentés folyamatban…',
-        'save_error' => 'Hiba történt',
+        'save_error' => 'Couldn’t save the cape.',
         'new_skin' => 'New skin',
         'automatically_saved_skins' => 'Automatically saved skins',
         'recovered_skins' => 'Recovered skins',
@@ -2317,9 +2364,9 @@ return [
             'download' => 'A SkinMC mod letöltésével láthatod a saját és mások egyéni köpenyeit a játékon belül.',
             'learn-more' => 'További információ',
             'link-account' => 'Köpeny feltöltéséhez össze kell kapcsolnod a Minecraft-fiókodat!',
-            'updated' => 'Köpeny frissítve.',
-            'removed' => 'Köpeny eltávolítva.',
-            'active' => 'Köpeny bekapcsolva.',
+            'updated' => 'Cape updated.',
+            'removed' => 'Cape removed.',
+            'active' => 'Cape activated.',
             'preview_mode' => 'Cape preview mode',
             'loading_preview' => 'Loading cape preview',
             'uploading' => 'Uploading cape',
@@ -2377,26 +2424,26 @@ return [
         'security' => [
             'title' => 'Biztonság',
             'email' => 'Email-cím',
-            'email-title' => 'Email-cím frissítése.',
+            'email-title' => 'Update your email address',
             'save' => 'Mentés',
             'password' => 'Jelszó',
-            'password-title' => 'A jelszavad bármikor megváltoztathatod.',
-            'social-provider' => 'To update your account information, such as your password, please visit your login provider:',
-            'social-provider-email' => 'Your associated email address with your login provider',
-            'social-provider-connected' => 'Currently connected login providers',
+            'password-title' => 'Change your password',
+            'social-provider' => 'Manage your email address and password with your login provider:',
+            'social-provider-email' => 'Email address used by your login provider',
+            'social-provider-connected' => 'Connected login providers',
             'current-password' => 'Jelenlegi jelszó',
             'forgot' => 'Elfelejtetted a jelszavad?',
             'edit' => 'Szerkesztés',
-            'delete' => 'Fiók törlése',
-            'account-deletion' => 'SkinMC-fiók törlése.',
-            'delete-info' => 'A folytatáshoz megerősítés szükséges',
-            'delete-confirmation' => 'A fiókod törlése végleges! Minden személyes adatod és az általad megosztott tartalmak, pl. a bejegyzéseid, kedvenceid, feltöltött köpenyeid, a személyre szabott profilod, stb. törölve lesz. Ez a folyamat visszavonhatatlan.',
+            'delete' => 'Delete account',
+            'account-deletion' => 'Delete your SkinMC account',
+            'delete-info' => 'Confirm account deletion',
+            'delete-confirmation' => 'Deleting your account is permanent. Your personal information and content, including posts, favourites, uploaded capes and customisations, will be deleted and cannot be recovered.',
             'delete-confirmation-info' => 'A folytatáshoz add meg a jelszavad!',
             'delete-confirmation-info-social' => 'Type "delete" to confirm account deletion',
             'type-delete' => 'Type "delete" to confirm',
             'type-delete-label' => 'Type "delete" to confirm',
-            'yes-confirm-delete' => 'Igen; fiók törlése',
-            'account-successfully-deleted' => 'A fiókod és minden hozzá tartozó adat törlésre került.',
+            'yes-confirm-delete' => 'Delete account',
+            'account-successfully-deleted' => 'Account and data deleted.',
         ],
         'social' => [
             'title' => 'Közösségi oldalak',
@@ -2405,9 +2452,9 @@ return [
             'link-account' => 'A közösségi oldalaid hivatkozásához először össze kell kapcsolnod a SkinMC-t a Minecraft-fiókoddal!',
             'finish-setup' => 'Befejezés',
             'connect-account' => 'Fiókok összekapcsolása',
-            'connect-description' => 'Válaszd ki, hogy mely fiókokat szeretnél összekapcsolni a SkinMC-vel és használni a hozzájuk tartozó integrációkat!',
+            'connect-description' => 'Choose which accounts to connect to SkinMC.',
             'empty' => 'Nincsenek kapcsolatok',
-            'empty-description' => 'A közösségi oldalaid itt és a nyilvános profilodon fognak megjelenni. Kapcsolódás után még egyedibbé tehetik az profilodat és használhatod a hozzájuk tartozó integrációkat.',
+            'empty-description' => 'Add social accounts to show them on your public profile.',
             'connect' => 'Összekapcsolás',
             'username' => 'felhasználónév',
             'spotify' => 'Ha szeretnél a profilodon Spotify-adatokat megjeleníteni, add meg a Spotify-felhasználónevedet!',
@@ -2427,11 +2474,11 @@ return [
             'includes_skinmc_plus_benefits' => 'Includes SkinMC plus benefits',
         ],
         'recover' => [
-            'title' => 'Fiók helyreállítása',
-            'subtitle' => 'A fiók helyreállításához adj meg egy új jelszót!',
+            'title' => 'Reset password',
+            'subtitle' => 'Enter and confirm your new password.',
             'new_password' => 'Új jelszó',
-            'repeat_new_password' => 'Jelszó újra',
-            'submit' => 'Fiók helyreállítása',
+            'repeat_new_password' => 'Confirm new password',
+            'submit' => 'Reset password',
         ],
         'customise' => [
             'title' => 'Fiók testreszabása',
@@ -2462,24 +2509,24 @@ return [
             'manage' => 'Összekapcsolt Minecraft-fiók kezelése',
             'description' => 'A Minecraft-fiókod megtekintése és kezelése.',
             'title' => 'Összekapcsolt Minecraft-fiók',
-            'current' => 'A jelenleg összekapcsolt Minecraft-fiók.',
-            'status' => 'Hozzáférést nyertél az összes SkinMC-funkcióhoz!',
+            'current' => 'Linked Minecraft account',
+            'status' => 'Your Minecraft account is linked.',
             'linked' => 'Összekapcsolva',
             'disconnect' => 'Szétválasztás',
             'disconnect-title' => 'Minecraft-fiók szétválasztása',
-            'disconnect-info' => 'Biztosan szét szeretnéd választani a Minecraft- és SkinMC-fiókjaidat?',
-            'disconnect-features' => 'A szétkapcsolás után nem leszel képes új hozzászólásokat írni, a profilod testreszabására, illetve az olyan további funkciók használatára, amelyek egy összekapcsolt Minecraft-fiókot igényelnek. Ahhoz, hogy ezeket újra használhasd, ismételten össze kell majd kapcsolnod a fiókjaidat.',
-            'disconnect-following' => 'Ezen felül a követett felhasználók listája véglegesen ki lesz ürítve,',
-            'disconnect-posts' => 'és a múltban létrehozott idővonalas bejegyzéseid és kedveléseid is törlésre kerülnek.',
+            'disconnect-info' => 'Disconnect your Minecraft account?',
+            'disconnect-features' => 'You’ll lose access to commenting, customisation and other features that need a linked Minecraft account. Link an account again to use them.',
+            'disconnect-following' => 'You’ll unfollow every profile you currently follow.',
+            'disconnect-posts' => 'Your feed posts and server reviews will be deleted, and your feed likes will be removed.',
             'can-not-undo' => 'Ezt nem lehet visszavonni.',
             'are-you-sure' => 'Biztos vagy benne?',
-            'confirm' => 'Igen; szétkapcsolás',
-            'cancel' => 'Mégse',
-            'success' => 'A fiókjaidat sikeresen szétkapcsoltuk.',
+            'confirm' => 'Disconnect account',
+            'cancel' => 'Cancel',
+            'success' => 'Minecraft account disconnected.',
         ],
         'finish-setup' => [
             'title' => 'Fiókbeállítások véglegesítése',
-            'description' => 'Az összes SkinMC-funkció feloldásához össze kell kapcsolnod ezt a Minecraft-fiókoddal.',
+            'description' => 'Link your Minecraft account to finish setting up your profile.',
             'link' => 'Minecraft-fiók összekapcsolása',
             'get-started' => 'Folytatás',
             'skip' => 'Kihagyás',
@@ -2809,16 +2856,16 @@ return [
         'headline' => 'Bemutatjuk a SkinMC Android-alkalmazást',
         'play-store-attribution' => 'A Google Play és a Google Play logó a Google LLC védjegyei.',
         'features' => 'Hordozható funkciók',
-        'feature-qr' => 'Beépített QR kód olvasó',
-        'feature-qr-detail' => 'A beépített QR kód olvasóval könnyen megnyithatsz egy kinézetet a mobilalkalmazásban, vagy megnézheted a barátaid profilját.',
+        'feature-qr' => 'QR code scanner',
+        'feature-qr-detail' => 'Scan a skin or profile QR code to open it in the app.',
         'feature-files' => 'Közvetlen mentés',
         'feature-files-detail' => 'Az Android Fájlkezelő használatával az alkalmazás könnyen tud kinézeteket menteni, amiket rögtön használhatsz a játék telefonos kiadásában.',
         'feature-noads' => 'Hirdetések nélkül',
-        'feature-noads-detail' => 'Letisztult felület, zavaró tényezők nélkül. A mobilalkalmazásban nincsenek hirdetések.',
+        'feature-noads-detail' => 'Use SkinMC without ads on the website and in the app.',
         'feature-experience' => 'Funkcióteljesség',
         'feature-experience-detail' => 'A SkinMC-élmény mobilon sincs leegyszerűsítve. Szabd személyre a profilod, mesélj magadról, hozz létre QR kódokat és még sok más!',
-        'get-app-headline' => 'A SkinMC-alkalmazás letöltése',
-        'get-app-detail' => 'Tökéletes társ a Minecrafthoz Androidon – teljesen ingyen.',
+        'get-app-headline' => 'Get the SkinMC app',
+        'get-app-detail' => 'SkinMC for Android. Available for free.',
     ],
     'random' => [
         'title' => 'Véletlenszerű Minecraft-kinézet betöltése…',
@@ -2889,7 +2936,7 @@ return [
             'badge' => 'Followers-only post',
             'title' => 'Only followers can view this post.',
             'description' => 'Follow :username to view the post.',
-            'description_guest' => 'Sign in and follow :username to view the post.',
+            'description_guest' => 'Log in and follow :username to view the post.',
         ],
         'private' => 'Csak én',
         'private-info' => 'Privát bejegyzés, amit csak te láthatsz.',
@@ -2903,7 +2950,7 @@ return [
             'native' => 'Share via device',
             'copy_link' => 'Copy link',
             'social' => 'Popular networks',
-            'copied' => 'Link copied!',
+            'copied' => 'Link copied.',
             'native_failed' => 'Could not open the share menu.',
             'native_unsupported' => 'Native sharing is not available on this device.',
             'close' => 'Close',
@@ -2917,7 +2964,7 @@ return [
                 'bluesky' => 'Share on Bluesky',
                 'pinterest' => 'Pin on Pinterest',
             ],
-            'copy_failed' => 'Could not copy the link. Please try again.',
+            'copy_failed' => 'Couldn’t copy the link. Try again.',
         ],
         'remaining' => 'Hátralévő',
         'profile' => ':username bejegyzései',
@@ -2927,10 +2974,10 @@ return [
         'post' => [
             'meta' => ':username bejegyzése a SkinMC-n: :text',
             'title' => 'Bejegyzés',
-            'created' => 'Állapotfrissítés közzétéve.',
-            'confirm-delete' => 'Biztosan törölni akarod ezt a bejegyzést? Ezt nem lehet visszavonni!',
+            'created' => 'Post published.',
+            'confirm-delete' => 'Delete this post? This cannot be undone.',
             'delete' => 'Törlés',
-            'deleted' => 'Bejegyzés törölve.',
+            'deleted' => 'Post deleted.',
         ],
         'repost' => [
             'button' => 'Újraposztolás',
@@ -2940,7 +2987,7 @@ return [
             'quote_label' => 'Kommentelj (opcionális)',
             'quote_placeholder' => 'Írd ide a gondolataidat...',
             'reposted' => 'újraposztolva',
-            'success' => 'Újraposztolva!',
+            'success' => 'Reposted.',
             'removed' => 'Újraposztolás visszavonva.',
             'already_reposted' => 'Már újraposztoltad.',
             'not_available' => 'This post is not available to repost.',
@@ -2978,7 +3025,7 @@ return [
             'votes' => '{0} votes|{1} vote|[2,*] votes',
             'ended' => 'Poll ended',
             'ends_in' => 'Ends :time',
-            'login_required' => 'Sign in to vote',
+            'login_required' => 'Log in to vote',
         ],
         'gif' => [
             'title' => 'GIF',
@@ -3095,7 +3142,7 @@ return [
     ],
     'following' => [
         'title' => 'Követett',
-        'text' => 'A bejegyzés megtekintéséhez be kell jelentkezned!',
+        'text' => 'Log in to view this post.',
     ],
     'tags' => [
         'empty' => 'Még nincs mire szavazni.',
@@ -3407,7 +3454,7 @@ return [
             'recipient_unavailable' => 'This person is unavailable.',
             'message_required' => 'Please enter a message.',
             'sticker_unavailable' => 'This sticker is unavailable.',
-            'rate_limited' => 'Please slow down. You are sending messages too quickly.',
+            'rate_limited' => 'Too many messages. Wait a moment before sending another.',
             'streak' => [
                 'status_lost' => 'Lost :days-day streak',
                 'status_reply' => 'Reply today to keep your streak',
@@ -3478,7 +3525,7 @@ return [
         'title' => 'Boards',
         'meta_title' => 'My Boards',
         'meta_description' => 'Organize your saved Minecraft skins, creations, and banners into boards.',
-        'all_pins' => 'All Pins',
+        'all_pins' => 'All pins',
         'save' => 'Save',
         'saved' => 'Saved',
         'save_to_board' => 'Save to board',
