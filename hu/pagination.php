@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Találatok számlálása',
+    'title' => 'Result pages',
     'previous' => 'Előző',
     'next' => 'Következő',
     'Showing' => 'Showing',
