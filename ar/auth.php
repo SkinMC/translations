@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'هذه البيانات غير صحيحة.',
-    'password' => 'كلمة المرور المدخلة غير صحيحة.',
-    'throttle' => 'هناك محاولات كثيرة لتسجيل الدخول.. برجاء الانتظار :seconds ثانية.',
-    'welcome-back' => 'مرحبا بعودتك، لطيف رؤيتك!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'مرحبا بكم في SkinMC!',
     'see-you-soon' => 'أراك قريباً!',
-    'blocked' => 'تم إلغاء تنشيط حسابك في :date. إذا كنت تعتقد أن هذا خطأ يرجى زيارة مركز الدعم <a target="_blank" href=":url"></a> للحصول على المساعدة.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'إظهار كلمة المرور',
     'hide-password' => 'إخفاء كلمة السر',
     'invite_code' => 'كود الدعوة',
