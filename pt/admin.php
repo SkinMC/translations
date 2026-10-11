@@ -31,7 +31,7 @@ return [
             'username' => 'Nome de usuário',
             'email' => 'E-mail',
             'status' => 'Estado',
-            'role' => 'Função'
+            'role' => 'Função',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'Relatórios',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Publicações do feed',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'Comentários excluídos',
             'subtitle' => ':count comentários totais',
-        ]
-    ]
+        ],
+    ],
 ];
