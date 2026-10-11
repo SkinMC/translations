@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'Ditt lösenord har återställts!',
-    'sent' => 'Vi har mailat din lösenordsåterställningslänk!',
-    'throttled' => 'Vänta innan du försöker igen.',
-    'token' => 'Denna återställningstoken för lösenord är ogiltig.',
-    'user' => "Vi kan inte hitta en användare med den e-postadressen.",
+    'reset' => 'Password reset.',
+    'sent' => 'Password reset link sent. Check your email.',
+    'throttled' => 'Wait a moment before trying again.',
+    'token' => 'This password reset link is invalid. Request a new link.',
+    'user' => 'No account was found with that email address.',
 
 ];
