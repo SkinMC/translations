@@ -31,7 +31,7 @@ return [
             'username' => 'ユーザー名',
             'email' => 'メールアドレス',
             'status' => 'ステータス',
-            'role' => 'ロール'
+            'role' => 'ロール',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => '報告',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'フィード投稿',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'コメントを削除',
             'subtitle' => ':count 件のコメントが削除されました',
-        ]
-    ]
+        ],
+    ],
 ];
