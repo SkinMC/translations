@@ -31,7 +31,7 @@ return [
             'username' => 'نام کاربری',
             'email' => 'ایمیل',
             'status' => 'وضعيت',
-            'role' => 'سطح'
+            'role' => 'سطح',
         ],
     ],
     'skins' => [
@@ -44,6 +44,10 @@ return [
     ],
     'reports' => [
         'title' => 'گزارش‌ها',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'لیست اخبار',
@@ -103,6 +107,6 @@ return [
         'deleted' => [
             'title' => 'نظر های حذف شده',
             'subtitle' => 'شمارش همه نظرات حذف شده',
-        ]
-    ]
+        ],
+    ],
 ];
