@@ -16,7 +16,7 @@ return [
     'groups_description' => 'In shared groups, you’ll stay members but won’t see each other’s messages or receive notifications from each other.',
     'blocked' => 'Account blocked.',
     'unblocked' => 'Account unblocked.',
-    'error' => 'Your change couldn’t be saved. Please try again.',
+    'error' => 'Couldn’t save the change. Try again.',
     'saving' => 'Saving…',
     'unavailable' => 'This interaction is unavailable.',
     'content_unavailable' => 'This content is unavailable.',
