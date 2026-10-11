@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Новий підписник',
-        'text' => ':user підписується на вас!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model коментар',
-            'text' => ':user коментує :model',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Відповідь на коментар :model',
-            'text' => ':user відповідає на коментар :model',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Хтось поставив вподобайку',
-            'text' => ':user сподобався ваш допис!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Нова згадка',
-            'text' => ':user згадує вас у своєму дописі!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -57,7 +57,7 @@ return [
     ],
     'level' => [
         'up' => [
-            'title' => 'Ви підвищили свій рівень!',
+            'title' => 'You levelled up!',
             'text' => 'Вітаємо з досягненням рівня :level!',
         ],
     ],
@@ -75,22 +75,22 @@ return [
     ],
     'report' => [
         'created' => [
-            'title' => 'Ми отримали ваш звіт! (Регістр :id)',
-            'text' => 'Наша команда працює над цим питанням та негайно його розгляне. Дякуємо за те, що ви чудові та допомагаєте нам зберігати спокій! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Ми розглянули вашу скаргу (Регістр :id)',
-            'text' => 'Привіт, проблема, про яку ви повідомили, була вирішена і зараз знаходиться на стадії вирішення. Дякуємо за те, що ви є такими супергероями нашої спільноти!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Оновлення до вашої скарги (Регістр :id)',
-            'text' => 'Провівши розслідування, ми з’ясували, що вміст, про який ви повідомили, не суперечить нашим правилам. Якщо бажаєте, щоб ми перевірили щось конкретне, будь ласка, обов’язково вказуйте скін, профіль тощо, а також надайте додатковий контекст, якщо це необхідно. Дякуємо за вашу турботу та участь у нашій спільноті!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [
