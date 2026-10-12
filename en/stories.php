@@ -3,6 +3,13 @@
 return [
     'unavailable' => 'This story is no longer available.',
     'copied' => 'Link copied.',
+    'copy_link' => 'Copy link',
+    'open_page' => 'Open story page',
+    'read_caption' => 'Read caption',
+    'less' => 'Show less',
+    'following_label' => 'Following',
+    'community_label' => 'Community',
+    'earlier' => 'Earlier stories',
     'title' => 'Stories',
     'story' => 'Story',
     'by_user' => ':username’s story',
