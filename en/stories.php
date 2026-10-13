@@ -1,6 +1,10 @@
 <?php
 
 return [
+    'like' => 'Like story',
+    'unlike' => 'Unlike story',
+    'like_failed' => 'Your like could not be saved. Try again.',
+    'likes' => '{0} No likes yet|{1} :count like|[2,*] :count likes',
     'unavailable' => 'This story is no longer available.',
     'copied' => 'Link copied.',
     'copy_link' => 'Copy link',
@@ -12,6 +16,7 @@ return [
     'earlier' => 'Earlier stories',
     'manual_advance' => 'Advance stories manually',
     'replay' => 'Replay story',
+    'back_to_story' => 'Back to story',
     'sending' => 'Sending…',
     'reply_failed' => 'Your reply could not be confirmed. Try again.',
     'action_failed' => 'This action could not be confirmed. Check the story before trying again.',
@@ -130,6 +135,7 @@ return [
         'compare_output_sizes' => 'Compare output sizes',
         'publish_story' => 'Publish story',
         'uploading_story' => 'Uploading…',
+        'resume_upload' => 'Review story upload',
         'processing_story' => 'Processing…',
         'checking_publication' => 'Checking publication…',
         'upload_progress' => 'Story upload progress',
@@ -278,6 +284,9 @@ return [
         'reply_preview' => 'Reply to story…',
         'avatar_unavailable' => 'Link your Minecraft profile to add your skin.',
         'keep_your_edits' => 'Keep your edits?',
+        'save_draft_title' => 'Save this story?',
+        'save_draft_description' => 'Keep a draft on this device to finish later.',
+        'save_draft' => 'Save draft',
         'your_draft_stays_here_until_you_reload_the_page' => 'Your edits stay on this page until you reload.',
         'keep_draft' => 'Keep draft',
         'discard' => 'Discard',
