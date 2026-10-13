@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'site_menu' => 'SkinMC menu',
+    'close_menu' => 'Close menu',
+    'unread_updates' => 'Unread notifications or messages',
+    'feed_navigation' => 'Feed navigation',
+    'more_feed' => 'More in the feed',
+    'more' => 'More',
     'skins' => 'Skin',
     'skins_profile' => 'Skin del profilo',
     'skins_profile_subtitle' => 'Skin da profili Minecraft',
