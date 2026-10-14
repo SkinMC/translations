@@ -13,8 +13,6 @@ return [
         'signup' => 'Зареєструватися',
         'google' => 'Продовжити через Google',
         'microsoft' => 'Продовжити через Microsoft',
-        'facebook' => 'Продовжити через Facebook',
-        'twitter' => 'Продовжити через Twitter',
         'divider' => 'або',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'Сканувати QR-код',
-        'done' => 'Готово',
     ],
     'language' => [
-        'title' => 'Мова',
         'description' => 'Виберіть свою мову',
         'contribute' => 'Зробити внесок',
         'contribute_add' => 'Додати переклад',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'Закрити',
-    'feedback' => [
-        'title' => 'Зворотний звʼязок',
-        'type' => [
-            'select' => 'Виберіть тип зворотного звʼязку',
-            'label' => 'Тип зворотного звʼязку',
-            'comment' => 'Коментар',
-            'question' => 'Запитання',
-            'bug' => 'Звіт про помилку',
-            'feature' => 'Запропонувати функцію',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
