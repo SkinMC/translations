@@ -28,7 +28,6 @@ return [
         'title' => '用户',
         'subtitle' => ':count 总计用户注册',
         'list' => [
-            'username' => '用户名',
             'email' => '电子邮箱',
             'status' => '状态',
             'role' => '身份',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => '标签',
         'pending' => '待定标签',
-        'banned' => '已封禁标签',
     ],
     'reports' => [
         'title' => '举报',
