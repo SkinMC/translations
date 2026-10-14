@@ -13,8 +13,6 @@ return [
         'signup' => 'サインアップ',
         'google' => 'Googleで続ける',
         'microsoft' => 'Microsoftで続ける',
-        'facebook' => 'Facebookで続ける',
-        'twitter' => 'X（旧Twitter）で続ける',
         'divider' => 'または',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'QRコードを読み取る',
-        'done' => '完了',
     ],
     'language' => [
-        'title' => '言語',
         'description' => '言語を選択してください',
         'contribute' => '貢献',
         'contribute_add' => '翻訳を追加',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => '閉じる',
-    'feedback' => [
-        'title' => 'フィードバック',
-        'type' => [
-            'select' => 'フィードバックの種類を選択',
-            'label' => 'フィードバックタイプ',
-            'comment' => 'コメント',
-            'question' => '質問',
-            'bug' => 'バグ報告',
-            'feature' => '新しい機能の提案',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
