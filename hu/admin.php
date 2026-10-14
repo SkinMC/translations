@@ -28,7 +28,6 @@ return [
         'title' => 'Felhasználók',
         'subtitle' => ':count felhasználó',
         'list' => [
-            'username' => 'Felhasználónév',
             'email' => 'Email',
             'status' => 'Állapot',
             'role' => 'Szerep',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Címkék',
         'pending' => 'Ellenőrzésre váró címkék',
-        'banned' => 'Tiltott címkék',
     ],
     'reports' => [
         'title' => 'Jelentések',
