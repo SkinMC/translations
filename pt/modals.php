@@ -13,8 +13,6 @@ return [
         'signup' => 'Criar conta',
         'google' => 'Continuar com o Google',
         'microsoft' => 'Continuar com a Microsoft',
-        'facebook' => 'Continuar com o Facebook',
-        'twitter' => 'Continuar com o Twitter',
         'divider' => 'ou',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'Escanear QR code',
-        'done' => 'Concluído',
     ],
     'language' => [
-        'title' => 'Idioma',
         'description' => 'Escolha seu idioma',
         'contribute' => 'Contribua',
         'contribute_add' => 'Adicionar tradução',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'Fechar',
-    'feedback' => [
-        'title' => 'Feedback',
-        'type' => [
-            'select' => 'Selecionar tipo de feedback',
-            'label' => 'Tipo de feedback',
-            'comment' => 'Comentários',
-            'question' => 'Perguntas',
-            'bug' => 'Informar erro',
-            'feature' => 'Sugerir recurso',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
