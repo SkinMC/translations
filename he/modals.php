@@ -13,8 +13,6 @@ return [
         'signup' => 'הירשם',
         'google' => 'היכנס באמצעות גוגל',
         'microsoft' => 'המשך עם מיקרוסופט',
-        'facebook' => 'היכנס באמצעות פייסבוק',
-        'twitter' => 'היכנס באמצעות טוויטר',
         'divider' => 'או',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'סרוק ברקוד',
-        'done' => 'סיום',
     ],
     'language' => [
-        'title' => 'שפה',
         'description' => 'בחר את השפה שלך',
         'contribute' => 'תרום',
         'contribute_add' => 'הוספת תרגום',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'סגור',
-    'feedback' => [
-        'title' => 'משוב',
-        'type' => [
-            'select' => 'בחר סוג משוב',
-            'label' => 'סוג משוב',
-            'comment' => 'תגובות',
-            'question' => 'שאלות',
-            'bug' => 'דיווח באג',
-            'feature' => 'בקשת תכונה',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
