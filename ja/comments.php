@@ -32,6 +32,7 @@ return [
     'posting' => 'Posting…',
     'uploading' => 'Uploading…',
     'confirm_delete' => 'Delete this comment? This cannot be undone.',
+    'confirm_delete_title' => 'Delete this comment?',
     'share' => '共有',
     'copy' => 'リンクをコピー',
     'more' => 'もっと見る',
