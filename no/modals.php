@@ -13,8 +13,6 @@ return [
         'signup' => 'Registrer deg',
         'google' => 'Fortsett med Google',
         'microsoft' => 'Continue with Microsoft',
-        'facebook' => 'Fortsett med Facebook',
-        'twitter' => 'Fortsett med Twitter',
         'divider' => 'or',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'Scan QR code',
-        'done' => 'Ferdig',
     ],
     'language' => [
-        'title' => 'Språk',
         'description' => 'Velg språket ditt',
         'contribute' => 'Bidra',
         'contribute_add' => 'Legg til oversettelse',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'Close',
-    'feedback' => [
-        'title' => 'Feedback',
-        'type' => [
-            'select' => 'Select feedback type',
-            'label' => 'Feedback type',
-            'comment' => 'Comments',
-            'question' => 'Questions',
-            'bug' => 'Bug report',
-            'feature' => 'Feature request',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
