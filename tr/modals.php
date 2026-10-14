@@ -13,8 +13,6 @@ return [
         'signup' => 'Kaydol',
         'google' => 'Google ile Devam Et',
         'microsoft' => 'Microsoft ile devam et',
-        'facebook' => 'Facebook ile Devam Et',
-        'twitter' => 'Twitter ile Devam Et',
         'divider' => 'veya',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'QR kodunu taratın',
-        'done' => 'Bitti',
     ],
     'language' => [
-        'title' => 'Dil',
         'description' => 'Dilinizi seçin',
         'contribute' => 'Katkıda bulun',
         'contribute_add' => 'Çeviri ekle',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'Kapat',
-    'feedback' => [
-        'title' => 'Geri Bildirim',
-        'type' => [
-            'select' => 'Geri bildirim türünü seçin',
-            'label' => 'Geri bildirim türü',
-            'comment' => 'Yorumlar',
-            'question' => 'Sorular',
-            'bug' => 'Hata raporu',
-            'feature' => 'Özellik isteği',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
