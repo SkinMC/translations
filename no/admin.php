@@ -28,7 +28,6 @@ return [
         'title' => 'Users',
         'subtitle' => ':count total users signed up',
         'list' => [
-            'username' => 'Username',
             'email' => 'Email',
             'status' => 'Status',
             'role' => 'Role',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Tags',
         'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
     ],
     'reports' => [
         'title' => 'Reports',
