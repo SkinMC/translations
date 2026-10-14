@@ -28,7 +28,6 @@ return [
         'title' => 'ユーザー',
         'subtitle' => ':count 人の登録数',
         'list' => [
-            'username' => 'ユーザー名',
             'email' => 'メールアドレス',
             'status' => 'ステータス',
             'role' => 'ロール',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'タグ',
         'pending' => '保留中のタグ',
-        'banned' => '禁止タグ',
     ],
     'reports' => [
         'title' => '報告',
