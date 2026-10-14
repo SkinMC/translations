@@ -28,7 +28,6 @@ return [
         'title' => 'Användare',
         'subtitle' => ':count antal registrerade användare',
         'list' => [
-            'username' => 'Användarnamn',
             'email' => 'E-post',
             'status' => 'Status',
             'role' => 'Roll',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Taggar',
         'pending' => 'Väntande taggar',
-        'banned' => 'Bannade taggar',
     ],
     'reports' => [
         'title' => 'Rapporteringar',
