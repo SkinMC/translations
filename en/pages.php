@@ -2732,6 +2732,7 @@ return [
                 'title' => 'Story Archive',
                 'subtitle' => 'Your archived stories are only visible to you',
                 'empty' => 'No archived stories yet',
+                'page-empty' => 'No stories on this page',
                 'empty-description' => 'Stories you post will appear here after 24 hours.',
             ],
         ],
