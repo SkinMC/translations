@@ -13,8 +13,6 @@ return [
         'signup' => '가입',
         'google' => 'Google로 계속',
         'microsoft' => 'Microsoft로 계속',
-        'facebook' => 'Facebook으로 계속',
-        'twitter' => 'Twitter로 계속',
         'divider' => '또는',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'QR 코드 스캔',
-        'done' => '완료',
     ],
     'language' => [
-        'title' => '언어',
         'description' => '언어를 선택하세요',
         'contribute' => '기여',
         'contribute_add' => '번역안 추가하기',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => '닫기',
-    'feedback' => [
-        'title' => '의견 보내기',
-        'type' => [
-            'select' => '의견 유형을 선택하세요',
-            'label' => '의견 유형',
-            'comment' => '댓글',
-            'question' => '질문',
-            'bug' => '버그 제보',
-            'feature' => '기능 요청',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
