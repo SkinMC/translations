@@ -28,7 +28,6 @@ return [
         'title' => 'Utilisateurs',
         'subtitle' => ':count nombre total d\'utilisateurs inscrits',
         'list' => [
-            'username' => 'Pseudo',
             'email' => 'Email',
             'status' => 'Status',
             'role' => 'Rôle',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Étiquettes',
         'pending' => 'Étiquettes en attente',
-        'banned' => 'Tag Banni',
     ],
     'reports' => [
         'title' => 'Signaler',
