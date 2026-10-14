@@ -13,8 +13,6 @@ return [
         'signup' => '注册',
         'google' => '使用谷歌账户登录',
         'microsoft' => '使用微软账户登录',
-        'facebook' => '使用Facebook账户登录',
-        'twitter' => '使用 Twitter 账户登录',
         'divider' => '或',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => '扫描二维码',
-        'done' => '已完成',
     ],
     'language' => [
-        'title' => '语言',
         'description' => '选择您的语言',
         'contribute' => '协助翻译',
         'contribute_add' => '添加翻译',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => '关闭',
-    'feedback' => [
-        'title' => '反馈意见',
-        'type' => [
-            'select' => '请选择反馈类型',
-            'label' => '反馈类型',
-            'comment' => '评论',
-            'question' => '问题',
-            'bug' => 'Bug反馈',
-            'feature' => '功能建议',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
