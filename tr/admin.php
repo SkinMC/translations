@@ -28,7 +28,6 @@ return [
         'title' => 'Kullanıcılar',
         'subtitle' => ':kayıtlı toplam kullanıcıları say',
         'list' => [
-            'username' => 'Kullanıcı Adı',
             'email' => 'E-Posta',
             'status' => 'İstatistikler',
             'role' => 'Rol',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Etiketler',
         'pending' => 'Beklemedeki etiketler',
-        'banned' => 'Yasaklı etiketler',
     ],
     'reports' => [
         'title' => 'Şikayetler',
