@@ -13,8 +13,6 @@ return [
         'signup' => 'Regisztráció',
         'google' => 'Folytatás Google-lel',
         'microsoft' => 'Tovább Microsofttal',
-        'facebook' => 'Folytatás Facebook-kal',
-        'twitter' => 'Folytatás Twitter-rel',
         'divider' => 'vagy',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'QR kód beolvasása',
-        'done' => 'Kész',
     ],
     'language' => [
-        'title' => 'Nyelv',
         'description' => 'Válassz nyelvet',
         'contribute' => 'Hozzájárulás',
         'contribute_add' => 'Új fordítás',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'Bezárás',
-    'feedback' => [
-        'title' => 'Visszajelzés',
-        'type' => [
-            'select' => 'Milyen kategóriában szeretnél visszajelzést küldeni?',
-            'label' => 'Visszajelzés kategóriája',
-            'comment' => 'Hozzászólások',
-            'question' => 'Kérdések',
-            'bug' => 'Hibajelentés',
-            'feature' => 'Új funkció kérelmezése',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
