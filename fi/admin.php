@@ -28,7 +28,6 @@ return [
         'title' => 'Käyttäjät',
         'subtitle' => ':count käyttäjiä rekisteröitynyt yhteensä',
         'list' => [
-            'username' => 'Käyttäjänimi',
             'email' => 'Sähköposti',
             'status' => 'Tila',
             'role' => 'Rooli',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Tunnisteet',
         'pending' => 'Odottavat tunnisteet',
-        'banned' => 'Kielletyt tunnisteet',
     ],
     'reports' => [
         'title' => 'Raportit',
