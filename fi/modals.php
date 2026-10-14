@@ -13,8 +13,6 @@ return [
         'signup' => 'Rekisteröidy nyt',
         'google' => 'Jatka Googlella',
         'microsoft' => 'Jatka Microsoftilla',
-        'facebook' => 'Jatka Facebookilla',
-        'twitter' => 'Jatka Twitterillä',
         'divider' => 'tai',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'Skannaa QR-koodi',
-        'done' => 'Valmis',
     ],
     'language' => [
-        'title' => 'Kieli',
         'description' => 'Valitse kieli',
         'contribute' => 'Osallistu',
         'contribute_add' => 'Lisää käännös',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'Sulje',
-    'feedback' => [
-        'title' => 'Palaute',
-        'type' => [
-            'select' => 'Valitse palautteen tyyppi',
-            'label' => 'Palautteen tyyppi',
-            'comment' => 'Kommentit',
-            'question' => 'Kysymykset',
-            'bug' => 'Vikailmoitus',
-            'feature' => 'Kehitysehdotus',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
