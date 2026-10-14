@@ -13,8 +13,6 @@ return [
         'signup' => 'ثبت‌نام کنید!',
         'google' => 'ادامه با گوگل',
         'microsoft' => 'Continue with Microsoft',
-        'facebook' => 'ورود از طریق فیسبوک',
-        'twitter' => 'ورود از طریق فیس بوک',
         'divider' => 'or',
     ],
     'signup' => [
@@ -39,10 +37,8 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'اسکن کیو ار کد',
-        'done' => 'انجام شد',
     ],
     'language' => [
-        'title' => 'زبان',
         'description' => 'زبان خود را انتخاب کنید',
         'contribute' => 'مشارکت',
         'contribute_add' => 'اضافه کردن ترجمه جدید',
@@ -50,21 +46,4 @@ return [
     ],
     'copied' => 'Copied to clipboard.',
     'close' => 'بستن',
-    'feedback' => [
-        'title' => 'بازخورد',
-        'type' => [
-            'select' => 'انتخاب نوع بازخورد',
-            'label' => 'تایپ بازخورد',
-            'comment' => 'نظرات',
-            'question' => 'سوال ها',
-            'bug' => 'گزارش اشکال',
-            'feature' => 'درخواست قابلیت جدید',
-        ],
-        'submit' => 'Send feedback',
-        'nps' => 'On a scale from 0 to 10, how likely are you to recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Feedback sent',
-            'message' => 'Thanks for sharing your feedback.',
-        ],
-    ],
 ];
