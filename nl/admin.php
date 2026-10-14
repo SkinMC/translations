@@ -28,7 +28,6 @@ return [
         'title' => 'Gebruikers',
         'subtitle' => ':count aantal ingeschreven gebruikers',
         'list' => [
-            'username' => 'Gebruikersnaam',
             'email' => 'E-mail',
             'status' => 'Status',
             'role' => 'Rol',
@@ -40,7 +39,6 @@ return [
     'tags' => [
         'title' => 'Tags',
         'pending' => 'Openstaande tags',
-        'banned' => 'Verbannen tags',
     ],
     'reports' => [
         'title' => 'Reports',
