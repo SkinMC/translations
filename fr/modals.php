@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'confirmation' => [
+        'cancel' => 'Cancel',
+        'delete' => 'Delete',
+        'continue' => 'Continue',
+        'description' => 'This cannot be undone.',
+        'failed' => 'This action could not be completed. Please try again.',
+        'loading' => 'Working…',
+    ],
     'login' => [
         'title' => 'Se connecter',
         'email' => 'Adresse e-mail',
