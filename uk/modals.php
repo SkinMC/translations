@@ -1,20 +1,26 @@
 <?php
 
 return [
+    'confirmation' => [
+        'cancel' => 'Cancel',
+        'delete' => 'Delete',
+        'continue' => 'Continue',
+        'description' => 'This cannot be undone.',
+        'failed' => 'This action could not be completed. Please try again.',
+        'loading' => 'Working…',
+    ],
     'login' => [
         'title' => 'Увійти',
         'email' => 'Електронна адреса',
         'password' => 'Пароль',
         'button' => 'Вхід',
-        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
+        'editor_save_context' => 'Log in to save your skin to the gallery. Your work stays in the editor.',
         'forgot' => 'Забули свій пароль?',
-        'reset' => 'Скидання',
+        'reset' => 'Reset password',
         'register' => 'Не маєте облікового запису?',
         'signup' => 'Зареєструватися',
         'google' => 'Продовжити через Google',
         'microsoft' => 'Продовжити через Microsoft',
-        'facebook' => 'Продовжити через Facebook',
-        'twitter' => 'Продовжити через Twitter',
         'divider' => 'або',
     ],
     'signup' => [
@@ -26,45 +32,26 @@ return [
         'terms_acknowledge' => 'і визнаю, що',
     ],
     'recover' => [
-        'title' => 'Відновити обліковий запис',
-        'description' => 'Забули пароль? Відновіть його, ввівши адресу електронної пошти, щоб отримати його назад.',
-        'button' => 'Надіслати ел. лист для відновлення',
-        'found' => 'Знайшли свій пароль?',
+        'title' => 'Reset password',
+        'description' => 'Enter your email address to receive a password reset link.',
+        'button' => 'Send reset link',
+        'found' => 'Remember your password?',
     ],
     'logout' => [
         'title' => 'Вихід',
-        'description' => 'Ви дійсно бажаєте вийти зі свого облікового запису SkinMC?',
+        'description' => 'Log out of your SkinMC account?',
         'logout' => 'Вийти',
         'cancel' => 'Скасувати',
     ],
     'profile_qrcode' => [
         'title' => 'Сканувати QR-код',
-        'done' => 'Готово',
     ],
     'language' => [
-        'title' => 'Мова',
         'description' => 'Виберіть свою мову',
         'contribute' => 'Зробити внесок',
         'contribute_add' => 'Додати переклад',
-        'updated' => 'Вашу мову змінено',
+        'updated' => 'Language updated.',
     ],
-    'copied' => 'Скопійовано в буфер обміну!',
+    'copied' => 'Copied to clipboard.',
     'close' => 'Закрити',
-    'feedback' => [
-        'title' => 'Зворотний звʼязок',
-        'type' => [
-            'select' => 'Виберіть тип зворотного звʼязку',
-            'label' => 'Тип зворотного звʼязку',
-            'comment' => 'Коментар',
-            'question' => 'Запитання',
-            'bug' => 'Звіт про помилку',
-            'feature' => 'Запропонувати функцію',
-        ],
-        'submit' => 'Надіслати',
-        'nps' => 'За шкалою від 0 до 10, наскільки ймовірно ви б порекомендували SkinMC друзям?',
-        'success' => [
-            'title' => 'Дякую!',
-            'message' => 'Ваше повідомлення надіслано, очікуйте відповідь найближчим часом! Якщо у вас виникнуть додаткові запитання, приєднуйтеся до сервера Discord або надішліть інше повідомлення.',
-        ],
-    ],
 ];

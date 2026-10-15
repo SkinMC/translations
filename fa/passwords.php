@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'گذرواژه شما بازگردانی شد!',
-    'sent' => 'لینک بازگردانی گذرواژه به ایمیل شما ارسال شد!',
-    'throttled' => 'لطفا قبل از تلاش مجدد صبر کنید.',
-    'token' => 'مشخصه‌ی بازگردانی گذرواژه معتبر نیست.',
-    'user' => "ما کاربری با این نشانی ایمیل نداریم.",
+    'reset' => 'Password reset.',
+    'sent' => 'Password reset link sent. Check your email.',
+    'throttled' => 'Wait a moment before trying again.',
+    'token' => 'This password reset link is invalid. Request a new link.',
+    'user' => 'No account was found with that email address.',
 
 ];

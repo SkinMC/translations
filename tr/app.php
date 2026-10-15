@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Minecraft Ciltleri için yeriniz',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC, Minecraft Bedrock ve Java Edition için en iyi Ciltleri keşfetme, kaydetme ve edinme yerinizdir. En popüler trend Skin\'lerin listesi her hafta güncellenir.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Neden SkinMC?',
-        'why_skinmc_detail' => 'Uygulama, masaüstü sürümünü kullanarak bulduğunuz ciltleri veya profilleri hızlı bir şekilde açmak için özel bir yerleşik QR Kodu tarayıcısı sunar. Arkadaşlarınızla paylaşmak için kendi özel SkinMC QR Kodunuzu oluşturun.',
-        'claim_title' => 'Profilinizi Talep Edin',
-        'claim_detail' => 'Minecraft (Sadece Java) ile bağlanın ve kişiselleştirme, yorum sistemi ve özel pelerinlere erişim ile birlikte sayfanızda görüntülenen özel bir rozet edinin. Sosyal medya bağlantılarınızı profilinize ekleyin. Discord, Twitter, YouTube, TikTok ve daha pek çok yerde sizi nerede bulabileceklerini herkese bildirin.',
-        'skin_history_title' => 'Cilt Geçmişi',
-        'skin_history_detail' => 'Profil sayfanızdaki cilt geçmişi ile önceki tüm Minecraft Ciltlerinizi takip edin. Geçmişte kullandığınız Ciltlere hızlıca erişin ve indirin.',
-        'avatar_generator_title' => 'Avatar Oluşturucu',
-        'avatar_generator_detail' => 'Orijinal Minecraft Avatar Oluşturucu, 4 popüler stil arasından seçim yapmanızı sağlar. Büst, Küp, Kafa biçiminde özel ve kişiselleştirilmiş bir Avatar oluşturun ve Java-Edition kullanıcı adınızı temel alarak 3D olarak tamamen özel yepyeni bir Avatar oluşturun.',
-        'achievements_title' => 'Başarım/İlerleme Üretici',
-        'achievements_detail' => 'Kendi kişiselleştirilmiş başarımlarınızı oluşturun. Sarı başlık, metin ve görüntülenen öğeye kadar her şeyi özelleştirin.',
-        'no_ads_title' => 'Reklam Yok',
-        'no_ads_detail' => 'SkinMC tamamen reklamsızdır. Müdahaleci rahatsızlıklar olmadan Reklamsız bir deneyimin keyfini çıkarın.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Herhangi bir Minecraft Oyuncusunu Bul',
-        'claim' => 'Profilinizi talep edin & özelleştirin',
-        'qr' => 'Özel QR Kodunuzu oluşturun',
-        'qr_scanner' => 'Dahili QR Kod tarayıcı',
-        'new_skins' => 'Her gün binlerce yeni görünüm',
-        'achievement' =>  'Başarım oluşturucu',
-        'avatar' => 'Orijinal avatar yapıcı'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Başarım oluşturucu',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'SkinMC Uygulamasını kullandığınız için teşekkürler. Bu güncelleme ile bazı hata düzeltmeleri ve iyileştirmeler alacaksınız. SkinMC uygulaması hakkında ne düşünüyorsunuz? Bize puan verin!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];

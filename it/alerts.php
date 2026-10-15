@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Nuovo follower',
-        'text' => ':user ti segue!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model commento',
-            'text' => ':user ha fatto un commento sul tuo :model',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Rispondi al commento di :model',
-            'text' => ':user ha risposto a un commento su :model',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'Nuova menzione',
-            'text' => ':user ti ha menzionato in un commento!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Hai messo like al commento',
-            'text' => ':user ha messo like al tuo commento!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Mi piace ricevuto',
-            'text' => 'A :user è piaciuto il tuo messaggio!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Nuova menzione',
-            'text' => ':user ti ha menzionato nel loro post!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Ripubblica',
-            'text' => ':user ha ripubblicato il tuo post!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -50,10 +50,14 @@ return [
             'title' => 'Nuovo messaggio',
             'text' => ':user ti ha inviato un messaggio.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
-            'title' => 'Sei salito di livello!',
+            'title' => 'You levelled up!',
             'text' => 'Congratulazioni per aver raggiunto il livello :level!',
         ],
     ],
@@ -63,24 +67,30 @@ return [
             'text' => ':user ti ha aggiunto come collaboratore alla bacheca ":board".',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
-            'title' => 'Abbiamo ricevuto il tuo report! (Caso :id)',
-            'text' => 'La nostra squadra è sempre allerta e agirà il prima possibile. Grazie per la tua disponibilità nell\'aiutarci a mantenere un ambiente tranquillo! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Abbiamo esaminato il tuo report (Caso :id)',
-            'text' => 'Ehilà, il problema segnalato è stato ricevuto ed è ora registrato. Grazie per essere un supereroe della nostra comunità!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Abbiamo esaminato il tuo rapporto (Caso :id)',
-            'text' => 'Dopo qualche indagine, abbiamo scoperto che il contenuto che hai segnalato non va contro le nostre linee guida. Se vuoi farci visionare qualcosa di specifico, assicurati di segnalare la skin, il profilo, ecc, e di fornire un contesto aggiuntivo quando necessario. Grazie per la tua sollecitazione e il tuo aiuto alla nostra comunità!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Entra nel server Discord',
-            'text' => 'Ciao, sei invitato a unirti al server SkinMC Discord.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -123,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Aggiungi altre foto a :server',
-            'text' => 'La tua inserzione ha bisogno :remaining più foto per raggiungere il minimo di :minimum e rimanere attiva.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Il tuo elenco server non ha ancora foto',
-            'text' => 'Aggiungi almeno 5 foto per migliorare la fiducia e avanzare la tua inserzione verso la pubblicazione.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'La tue inserzione è ancora in attesa di revisione',
-            'text' => 'La tua inserzione è in sospeso da un po\'. I dettagli e le foto del doppio controllo aiutano a mantenere la revisione scorrevole.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [

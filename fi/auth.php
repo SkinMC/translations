@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Nämä kirjautumistiedot eivät vastaa tietojamme.',
-    'password' => 'Annettu salasana on virheellinen.',
-    'throttle' => 'Liian monta kirjautumisyritystä. Yritä uudelleen :seconds sekunnin kuluttua.',
-    'welcome-back' => 'Tervetuloa takaisin, mukava nähdä sinut!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'Tervetuloa SkinMC:iin!',
     'see-you-soon' => 'Nähdään pian!',
-    'blocked' => 'Tilisi poistettiin käytöstä :date. Jos uskot, että tämä oli virhe, käy <a target="_blank" href=":url">tukikeskuksessa</a> saadaksesi apua.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Näytä salasana',
     'hide-password' => 'Piilota salasana',
     'invite_code' => 'Kutsukoodi',

@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'A jelszó alaphelyzetbe állítása megtörtént.',
-    'sent' => 'Elküldtük a jelszóhelyreállító hivatkozást a megadott email címre.',
-    'throttled' => 'Próbáld újra később.',
-    'token' => 'A jelszóhelyreállító jogkivonat helytelen.',
-    'user' => "Nem rendelkezik felhasználó ezzel az email címmel.",
+    'reset' => 'Password reset.',
+    'sent' => 'Password reset link sent. Check your email.',
+    'throttled' => 'Wait a moment before trying again.',
+    'token' => 'This password reset link is invalid. Request a new link.',
+    'user' => 'No account was found with that email address.',
 
 ];

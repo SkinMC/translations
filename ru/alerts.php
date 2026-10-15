@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Новый подписчик',
-        'text' => ':user теперь ваш подписчик!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model комментарий',
-            'text' => ':user прокомментировал ваш :model',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => 'Ответить на :model комментарий',
-            'text' => ':user ответил на :model комментарий',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'Новое упоминание',
-            'text' => ':пользователь упомянул вас в комментарии!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Комментарий лайкнул',
-            'text' => ':user лайкнул ваш комментарий!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Кто-то вас лайкнул',
-            'text' => ':user лайкнул ваш пост!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Новое упоминание',
-            'text' => ':user упомянул вас в своем посте!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Репост',
-            'text' => ':user перепостил ваш пост!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -50,10 +50,14 @@ return [
             'title' => 'Новое сообщение',
             'text' => ':user отправил вам сообщение.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
-            'title' => 'Ваш уровень повышен!',
+            'title' => 'You levelled up!',
             'text' => 'Поздравляем с достижением :level уровня!',
         ],
     ],
@@ -63,24 +67,30 @@ return [
             'text' => ':пользователь добавил вас в качестве соавтора на доску «:board».',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
-            'title' => 'Мы получили вашу жалобу! (Номер :id)',
-            'text' => 'Ваша жалоба сформирована и наша команда рассмотрит её в ближайшее время. ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Ваша жалоба под номером :id рассмотрена',
-            'text' => 'Отправленная вами проблема была рассмотрена и прямо сейчас ведётся её решение. Спасибо, что помогаете нам с каждым разом становиться всё лучше! Вы - настоящий герой этого сообщества!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Жалоба под номером :id отклонена',
-            'text' => 'После тщательной проверки мы не обнаружили ничего противоречащего нашим правилам в контенте, на который вы пожаловались. Если вы хотите, чтобы мы рассмотрели что-то конкретное, то убедитесь, что вы пожаловались на скин, профиль и т.п., а также предоставили контекст в необходимых местах. Спасибо за вашу заботу и увлечённость в наше сообщество!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Присоединиться к Discord',
-            'text' => 'Привет! Вас приглашают присоединиться к серверу Discord SkinMC.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -123,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Добавить больше фотографий на :сервер',
-            'text' => 'Вашему объявлению необходимо добавить еще :remaining фотографий, чтобы достичь минимального кол-ва :minimum и оставаться доступным для публикации.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'На вашем сервере все еще нет фотографий',
-            'text' => 'Добавьте не менее 5 фотографий, чтобы повысить доверие и продвинуть ваше объявление к публикации.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Ваша заявка все еще находится на рассмотрении',
-            'text' => 'Ваше объявление находится в ожидании уже некоторое время. Проверьте еще раз детали и фотографии, чтобы процесс проверки прошел гладко.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [

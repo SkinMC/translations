@@ -1,20 +1,26 @@
 <?php
 
 return [
+    'confirmation' => [
+        'cancel' => 'Cancel',
+        'delete' => 'Delete',
+        'continue' => 'Continue',
+        'description' => 'This cannot be undone.',
+        'failed' => 'This action could not be completed. Please try again.',
+        'loading' => 'Working…',
+    ],
     'login' => [
         'title' => 'Zaloguj się',
         'email' => 'Adres e-mail',
         'password' => 'Hasło',
         'button' => 'Zaloguj się',
-        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
+        'editor_save_context' => 'Log in to save your skin to the gallery. Your work stays in the editor.',
         'forgot' => 'Zapomniałeś hasła?',
-        'reset' => 'Resetuj',
+        'reset' => 'Reset password',
         'register' => 'Nie masz jeszcze konta?',
         'signup' => 'Zarejestruj',
         'google' => 'Kontynuuj z Google',
         'microsoft' => 'Kontynuuj z Microsoft',
-        'facebook' => 'Kontynuuj z Facebookiem',
-        'twitter' => 'Kontynuuj z Twittera',
         'divider' => 'lub',
     ],
     'signup' => [
@@ -26,45 +32,26 @@ return [
         'terms_acknowledge' => 'i potwierdzam',
     ],
     'recover' => [
-        'title' => 'Odzyskaj konto',
-        'description' => 'Utracono hasło? Odzyskaj je poprzez wprowadzenie adresu e-mail, aby go odzyskać.',
-        'button' => 'Wyślij e-mail odzyskiwania',
-        'found' => 'Znaleziono hasło?',
+        'title' => 'Reset password',
+        'description' => 'Enter your email address to receive a password reset link.',
+        'button' => 'Send reset link',
+        'found' => 'Remember your password?',
     ],
     'logout' => [
         'title' => 'Wyloguj się',
-        'description' => 'Czy na pewno chcesz wylogować się ze swojego konta SkinMC?',
+        'description' => 'Log out of your SkinMC account?',
         'logout' => 'Wyloguj się',
         'cancel' => 'Anuluj',
     ],
     'profile_qrcode' => [
         'title' => 'Zeskanuj kod QR',
-        'done' => 'Gotowe',
     ],
     'language' => [
-        'title' => 'Język',
         'description' => 'Wybierz swój język',
         'contribute' => 'Wesprzyj',
         'contribute_add' => 'Dodaj tłumaczenie',
-        'updated' => 'Twój język został ustawiony',
+        'updated' => 'Language updated.',
     ],
-    'copied' => 'Skopiowano do schowka!',
+    'copied' => 'Copied to clipboard.',
     'close' => 'Zamknij',
-    'feedback' => [
-        'title' => 'Sugestie',
-        'type' => [
-            'select' => 'Wybierz typ sugestii',
-            'label' => 'Typ sugestii',
-            'comment' => 'Komentarze',
-            'question' => 'Pytania',
-            'bug' => 'Raport błędu',
-            'feature' => 'Zgłoszenie nowej funkcji',
-        ],
-        'submit' => 'Prześlij',
-        'nps' => 'W skali od 0 do 10, jak prawdopodobne jest, że polecisz SkinMC znajomemu?',
-        'success' => [
-            'title' => 'Dziękujemy!',
-            'message' => 'Twoja wiadomość została wysłana, spodziewaj się odpowiedzi wkrótce! Jeśli masz dalsze pytania, śmiało dołącz do Discorda lub prześlij kolejną wiadomość.',
-        ],
-    ],
 ];

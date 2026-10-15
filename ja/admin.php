@@ -28,10 +28,9 @@ return [
         'title' => 'ユーザー',
         'subtitle' => ':count 人の登録数',
         'list' => [
-            'username' => 'ユーザー名',
             'email' => 'メールアドレス',
             'status' => 'ステータス',
-            'role' => 'ロール'
+            'role' => 'ロール',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'タグ',
         'pending' => '保留中のタグ',
-        'banned' => '禁止タグ',
     ],
     'reports' => [
         'title' => '報告',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'フィード投稿',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'コメントを削除',
             'subtitle' => ':count 件のコメントが削除されました',
-        ]
-    ]
+        ],
+    ],
 ];

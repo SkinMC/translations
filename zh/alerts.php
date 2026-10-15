@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => '有新的关注者',
-        'text' => ':user 刚刚关注了你！',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model 评论',
-            'text' => ':user 对你的 :model 发表了评论',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => '对 :model 评论的回复',
-            'text' => ':user 回复了一个 :model 评论',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => '新提及我的',
-            'text' => ':user 在一个评论中提到了您！',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => '已赞评论',
-            'text' => ':user 赞了您的评论！',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => '收到点赞',
-            'text' => ':user 赞了你的帖子！',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => '新提及我的',
-            'text' => ':user 在他们的帖子中提到了你！',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => '转发',
-            'text' => ':user 转发了您的帖子！',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -50,10 +50,14 @@ return [
             'title' => '新消息',
             'text' => ':user 向您发送了一条消息。',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
-            'title' => '你升级了!',
+            'title' => 'You levelled up!',
             'text' => '恭喜您已达到等级 :level！',
         ],
     ],
@@ -63,25 +67,30 @@ return [
             'text' => ':user 将您作为合作者添加到了看板":board"中。',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
-            'title' => '我们已收到您的举报！ (案件:id)',
-            'text' => '我们的团队将努力以最快的速度进行调查，感谢您的出色表现，请不要着急。 ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => '我们审查了您的报告(案件:id)',
-            'text' => '您好，举报的问题已经得到处理，现在已经解决了。感谢您成为我们社区的超级英雄！',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => '更新您的举报 (案件 :id)',
-            'text' => '在一些侦测工作之后，我们发现您报告的内容不符合我们的准则。 如果你想要我们审查某些具体内容，请确保你报告皮肤、个人资料等，并且在需要时提供额外的上下文信息。 感谢你对我们社区的关心和参与！',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => '加入Discord频道',
-            'text' => '你好！
-你被邀请加入 SkinMC Discord 服务器。',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -124,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [

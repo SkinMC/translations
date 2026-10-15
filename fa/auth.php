@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'مشخصات وارد شده با اطلاعات ما سازگار نیست.',
-    'password' => 'کلمه عبور صحیح نیست.',
-    'throttle' => 'تعداد دفعات تلاش برای ورود به سیستم بسیار زیاد است. لطفا در :seconds ثانیه دیگر تلاش نمایید.',
-    'welcome-back' => 'خوش آمدید، خوشحالم که شما را می بینم!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'به اسکین ام سی خوش امدید!',
     'see-you-soon' => 'به زودی میبینمت!',
-    'blocked' => 'حساب کاربری شما در تاریخ :date غیرفعال شد. اگر فکر می کنید این یک خطا بوده است، لطفاً برای دریافت راهنمایی به <a target="_blank" href=":url">مرکز پشتیبانی</a> مراجعه کنید.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'نمایش گذرواژه',
     'hide-password' => 'رمز عبور را پنهان کن',
     'invite_code' => 'کد دعوت',

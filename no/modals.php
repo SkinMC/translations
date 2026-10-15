@@ -1,20 +1,26 @@
 <?php
 
 return [
+    'confirmation' => [
+        'cancel' => 'Cancel',
+        'delete' => 'Delete',
+        'continue' => 'Continue',
+        'description' => 'This cannot be undone.',
+        'failed' => 'This action could not be completed. Please try again.',
+        'loading' => 'Working…',
+    ],
     'login' => [
         'title' => 'Logg inn',
         'email' => 'Epost adresse',
         'password' => 'Passord',
         'button' => 'Logg inn',
-        'editor_save_context' => "Log in to save your skin to the gallery. Your work won\\'t be lost.",
+        'editor_save_context' => 'Log in to save your skin to the gallery. Your work stays in the editor.',
         'forgot' => 'Glemt passord?',
-        'reset' => 'Reset',
+        'reset' => 'Reset password',
         'register' => 'Har du ikke en konto ennå?',
         'signup' => 'Registrer deg',
         'google' => 'Fortsett med Google',
         'microsoft' => 'Continue with Microsoft',
-        'facebook' => 'Fortsett med Facebook',
-        'twitter' => 'Fortsett med Twitter',
         'divider' => 'or',
     ],
     'signup' => [
@@ -26,45 +32,26 @@ return [
         'terms_acknowledge' => 'and acknowledge the',
     ],
     'recover' => [
-        'title' => 'Gjenopprett konto',
-        'description' => 'Glemt passordet? Gjenopprett det ved å skrive inn din e-postadresse for å få det tilbake.',
-        'button' => 'Send gjenopprettingse-post',
-        'found' => 'Funnet ditt passord?',
+        'title' => 'Reset password',
+        'description' => 'Enter your email address to receive a password reset link.',
+        'button' => 'Send reset link',
+        'found' => 'Remember your password?',
     ],
     'logout' => [
         'title' => 'Log out',
-        'description' => 'Are you sure you would like to log out of your SkinMC account?',
+        'description' => 'Log out of your SkinMC account?',
         'logout' => 'Log out',
         'cancel' => 'Cancel',
     ],
     'profile_qrcode' => [
         'title' => 'Scan QR code',
-        'done' => 'Ferdig',
     ],
     'language' => [
-        'title' => 'Språk',
         'description' => 'Velg språket ditt',
         'contribute' => 'Bidra',
         'contribute_add' => 'Legg til oversettelse',
-        'updated' => 'Your language has been set',
+        'updated' => 'Language updated.',
     ],
-    'copied' => 'Copied to clipboard!',
+    'copied' => 'Copied to clipboard.',
     'close' => 'Close',
-    'feedback' => [
-        'title' => 'Feedback',
-        'type' => [
-            'select' => 'Select feedback type',
-            'label' => 'Feedback type',
-            'comment' => 'Comments',
-            'question' => 'Questions',
-            'bug' => 'Bug report',
-            'feature' => 'Feature request',
-        ],
-        'submit' => 'Submit',
-        'nps' => 'On a scale from 0 to 10 how likely would you recommend SkinMC to a friend?',
-        'success' => [
-            'title' => 'Thank you!',
-            'message' => 'Your message has been sent, expect a reply soon! For further questions, feel free join the Discord or submit another message.',
-        ],
-    ],
 ];

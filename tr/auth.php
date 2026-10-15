@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Bu kimlik bilgileri kayıtlarımızla uyuşmuyor.',
-    'password' => 'Sağlanan şifre yanlış.',
-    'throttle' => 'Çok fazla oturum açma girişiminde bulundunuz. Lütfen :seconds saniye içerisinde tekrar deneyiz.',
-    'welcome-back' => 'Tekrar hoş geldiniz, sizi görmek güzel!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'SkinMC\'ye hoş geldiniz!',
     'see-you-soon' => 'Yakında görüşürüz!',
-    'blocked' => 'Your account was deactivated on :date. Bunun bir hata olduğunu düşünüyorsanız, lütfen yardım için <a target="_blank" href=":url">support center</a>  adresini ziyaret edin.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Şifreyi göster',
     'hide-password' => 'Şifreyi gizle',
     'invite_code' => 'Davet kodu',

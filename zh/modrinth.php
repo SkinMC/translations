@@ -4,11 +4,11 @@ return [
     'browse' => '浏览',
     'connect_account' => 'Connect Modrinth',
     'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
+    'connection_saved' => 'Modrinth account connected.',
+    'connection_removed' => 'Modrinth account disconnected.',
+    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
     'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
+    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
     'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
     'view_skinmc_profile' => 'View SkinMC profile',
     'close' => 'Close',
@@ -18,9 +18,9 @@ return [
     'types' => [
         'mod' => '模组',
         'shader' => '光影',
-        'resourcepack' => '资源包',
+        'resourcepack' => 'Resource packs',
         'modpack' => '整合包',
-        'datapack' => '数据包',
+        'datapack' => 'Data packs',
         'plugin' => '插件',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => '探索Minecraft的模组、光影和资源包',
-        'mod' => 'Explore and discover the best mods to enhance your Minecraft experience',
-        'shader' => 'Transform your Minecraft visuals with stunning shaders',
+        'mod' => 'Find mods that add new ways to play Minecraft.',
+        'shader' => 'Change how Minecraft looks with shaders.',
         'resourcepack' => 'Customise your Minecraft look with resource packs and textures',
         'modpack' => 'Find curated collections of mods ready to play together',
         'datapack' => 'Enhance vanilla Minecraft with data packs and custom features',
-        'plugin' => 'Power up your Minecraft server with the best plugins',
+        'plugin' => 'Add features to your Minecraft server with plugins.',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects...',
+    'search_placeholder' => 'Search projects',
     'sort_by' => 'Sort by',
     'game_version' => 'Game version',
     'all_versions' => 'All versions',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Environment',
     'env_client' => 'Client',
     'env_server' => 'Server',
-    'env_both' => 'Client & Server',
+    'env_both' => 'Client and server',
     'categories' => 'Categories',
     'filtered_by' => 'Filtered by :category category.',
 
     // Results
     'no_results' => 'No projects found',
-    'try_different_filters' => 'Try adjusting your filters or search query',
+    'try_different_filters' => 'Try a different search or change the filters.',
 
     // Project details
     'by' => 'by',
@@ -105,10 +105,10 @@ return [
     'client' => 'Client',
     'server' => 'Server',
     'links' => 'Links',
-    'source_code' => 'Source Code',
+    'source_code' => 'Source code',
     'issues' => 'Issues',
     'wiki' => 'Wiki',
-    'license' => 'License',
+    'license' => 'Licence',
     'related' => 'Related projects',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'or',
     'select_game_version' => 'Select game version',
     'select_platform' => 'Select platform',
-    'search_versions' => 'Search versions...',
-    'search_categories' => 'Search categories...',
+    'search_versions' => 'Search versions',
+    'search_categories' => 'Search categories',
     'all_platforms' => 'All platforms',
     'platform' => 'Platform',
     'no_versions_found' => 'No versions match your filters',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'External link',
-    'external_link_warning' => 'You are about to leave SkinMC and visit an external website. Please be careful and make sure you trust this link before continuing.',
+    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
     'cancel' => 'Cancel',
     'continue' => 'Continue',
 

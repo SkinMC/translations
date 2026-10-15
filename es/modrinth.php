@@ -4,11 +4,11 @@ return [
     'browse' => 'Buscar',
     'connect_account' => 'Connect Modrinth',
     'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
+    'connection_saved' => 'Modrinth account connected.',
+    'connection_removed' => 'Modrinth account disconnected.',
+    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
     'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
+    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
     'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
     'view_skinmc_profile' => 'View SkinMC profile',
     'close' => 'Close',
@@ -18,9 +18,9 @@ return [
     'types' => [
         'mod' => 'Mods',
         'shader' => 'Shaders',
-        'resourcepack' => 'Paquete de recursos',
+        'resourcepack' => 'Resource packs',
         'modpack' => 'Modpacks',
-        'datapack' => 'Datapacks',
+        'datapack' => 'Data packs',
         'plugin' => 'Plugins',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Descubre mods, shaders y paquetes de recursos para Minecraft',
-        'mod' => 'Explora y descubre los mejores mods para mejorar tu experiencia de Minecraft',
-        'shader' => 'Transforma los gráficos de Minecraft con shaders impresionantes',
+        'mod' => 'Find mods that add new ways to play Minecraft.',
+        'shader' => 'Change how Minecraft looks with shaders.',
         'resourcepack' => 'Personaliza la apariencia de Minecraft con paquetes de recursos y texturas',
         'modpack' => 'Encuentra colecciones de mods listos para jugar juntos',
         'datapack' => 'Mejorar Minecraft vanilla con datapacks y características personalizadas',
-        'plugin' => 'Enciende tu servidor de Minecraft con los mejores plugins',
+        'plugin' => 'Add features to your Minecraft server with plugins.',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Buscar proyectos...',
+    'search_placeholder' => 'Search projects',
     'sort_by' => 'Ordenar por',
     'game_version' => 'Versión del juego',
     'all_versions' => 'Todas las versiones',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Entorno',
     'env_client' => 'Cliente',
     'env_server' => 'Servidor',
-    'env_both' => 'Cliente y servidor',
+    'env_both' => 'Client and server',
     'categories' => 'Categorías',
     'filtered_by' => 'Filtrado por :category categoría.',
 
     // Results
     'no_results' => 'No se han encontrado proyectos',
-    'try_different_filters' => 'Intenta ajustar tus filtros o consulta de búsqueda',
+    'try_different_filters' => 'Try a different search or change the filters.',
 
     // Project details
     'by' => 'por',
@@ -105,10 +105,10 @@ return [
     'client' => 'Cliente',
     'server' => 'Servidor',
     'links' => 'Enlaces',
-    'source_code' => 'Código fuente',
+    'source_code' => 'Source code',
     'issues' => 'Problemas',
     'wiki' => 'Wiki',
-    'license' => 'Licencia',
+    'license' => 'Licence',
     'related' => 'Proyectos relacionados',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'o',
     'select_game_version' => 'Seleccionar versión del juego',
     'select_platform' => 'Seleccionar plataforma',
-    'search_versions' => 'Buscar versiones...',
-    'search_categories' => 'Buscar categorías...',
+    'search_versions' => 'Search versions',
+    'search_categories' => 'Search categories',
     'all_platforms' => 'Todas las plataformas',
     'platform' => 'Plataforma',
     'no_versions_found' => 'Ninguna versión coincide con sus filtros',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Enlace externo',
-    'external_link_warning' => 'Estás a punto de salir de SkinMC y visitar un sitio web externo. Por favor, ten cuidado y asegúrate de confiar en este enlace antes de continuar.',
+    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
     'cancel' => 'Cancelar',
     'continue' => 'Continuar',
 

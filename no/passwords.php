@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'Ditt passord har blitt tilbakestilt!',
-    'sent' => 'Vi har sendt deg en lenke for nullstilling av passordet ditt!',
-    'throttled' => 'Vennligst vent før du prøver på nytt.',
-    'token' => 'Denne passordresetten er ugyldig.',
-    'user' => "Vi finner ikke en bruker med den e-postadressen.",
+    'reset' => 'Password reset.',
+    'sent' => 'Password reset link sent. Check your email.',
+    'throttled' => 'Wait a moment before trying again.',
+    'token' => 'This password reset link is invalid. Request a new link.',
+    'user' => 'No account was found with that email address.',
 
 ];

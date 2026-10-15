@@ -13,10 +13,10 @@ return [
     'link' => [
         'error' => [
             'missing-game-copy' => 'Tällä Microsoft-tilillä ei ole Minecraftia. Siirry osoitteeseen Minecraft.net ja kirjaudu sisään siihen Microsoft-tiliin, jolla on Minecraft Java Edition.',
-            'generic' => 'Hmm... jokin meni pieleen. Yritä uudelleen tai ota yhteyttä SkinMC tukeen sähköpostitse tai Discordissa saadaksesi apua.',
-            'already-linked' => 'Minecraft-tili on jo linkitetty',
-            'profile-already-linked' => 'Tämä Minecraft-tili on jo linkitetty toiseen käyttäjään',
-            'failed' => 'Minecraft-tilin yhdistäminen epäonnistui. Yritä uudelleen.',
+            'generic' => 'Couldn’t link the Minecraft account. Try again or contact SkinMC support by email or Discord.',
+            'already-linked' => 'This Minecraft account is already linked.',
+            'profile-already-linked' => 'This Minecraft account is already linked to another SkinMC account.',
+            'failed' => 'Couldn’t link the Minecraft account. Try again.',
         ],
     ],
 

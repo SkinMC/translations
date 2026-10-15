@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => '用户名或密码错误。',
-    'password' => '密码错误！',
-    'throttle' => '尝试登录次数过多，请在 :seconds 秒后再试。',
-    'welcome-back' => '欢迎回来，很高兴见到你！',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => '欢迎使用SkinMC ！',
     'see-you-soon' => '期待与你下次相遇~',
-    'blocked' => '您的账户已在 :date被停用。点击<a target="_blank" href=":url">支持中心</a>寻求帮助。',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => '显示密码',
     'hide-password' => '隐藏密码',
     'invite_code' => '邀请码',

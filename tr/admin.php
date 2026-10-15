@@ -28,10 +28,9 @@ return [
         'title' => 'Kullanıcılar',
         'subtitle' => ':kayıtlı toplam kullanıcıları say',
         'list' => [
-            'username' => 'Kullanıcı Adı',
             'email' => 'E-Posta',
             'status' => 'İstatistikler',
-            'role' => 'Rol'
+            'role' => 'Rol',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Etiketler',
         'pending' => 'Beklemedeki etiketler',
-        'banned' => 'Yasaklı etiketler',
     ],
     'reports' => [
         'title' => 'Şikayetler',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Akış gönderileri',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Silinmiş yorumlar',
             'subtitle' => ':silinmiş toplam yorumları say',
-        ]
-    ]
+        ],
+    ],
 ];

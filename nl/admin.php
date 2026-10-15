@@ -28,10 +28,9 @@ return [
         'title' => 'Gebruikers',
         'subtitle' => ':count aantal ingeschreven gebruikers',
         'list' => [
-            'username' => 'Gebruikersnaam',
             'email' => 'E-mail',
             'status' => 'Status',
-            'role' => 'Rol'
+            'role' => 'Rol',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Tags',
         'pending' => 'Openstaande tags',
-        'banned' => 'Verbannen tags',
     ],
     'reports' => [
         'title' => 'Reports',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Feed berichten',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Verwijderde opmerkingen',
             'subtitle' => ':count aantal verwijderde reacties',
-        ]
-    ]
+        ],
+    ],
 ];

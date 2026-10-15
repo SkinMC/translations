@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => '検索結果の番号',
+    'title' => 'Result pages',
     'previous' => '前',
     'next' => '次へ',
     'Showing' => 'Showing',

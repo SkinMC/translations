@@ -1,20 +1,26 @@
 <?php
 
 return [
+    'confirmation' => [
+        'cancel' => 'Cancel',
+        'delete' => 'Delete',
+        'continue' => 'Continue',
+        'description' => 'This cannot be undone.',
+        'failed' => 'This action could not be completed. Please try again.',
+        'loading' => 'Working…',
+    ],
     'login' => [
         'title' => 'Inloggen',
         'email' => 'E-mailadres',
         'password' => 'Wachtwoord',
         'button' => 'Log in',
-        'editor_save_context' => "Log in om je Skin in de galerij op te slaan. Je Progress wordt niet verloren",
+        'editor_save_context' => 'Log in to save your skin to the gallery. Your work stays in the editor.',
         'forgot' => 'Wachtwoord vergeten?',
-        'reset' => 'Herstel',
+        'reset' => 'Reset password',
         'register' => 'Nog geen account?',
         'signup' => 'Registreren',
         'google' => 'Doorgaan met Google',
         'microsoft' => 'Doorgaan met Microsoft',
-        'facebook' => 'Doorgaan met Facebook',
-        'twitter' => 'Doorgaan met Twitter',
         'divider' => 'of',
     ],
     'signup' => [
@@ -26,45 +32,26 @@ return [
         'terms_acknowledge' => 'en erken de',
     ],
     'recover' => [
-        'title' => 'Herstel account',
-        'description' => 'Wachtwoord vergeten? Herstel het door uw e-mailadres in te voeren om het terug te krijgen.',
-        'button' => 'Verzend Herstel e-mail ',
-        'found' => 'Wachtwoord gevonden?',
+        'title' => 'Reset password',
+        'description' => 'Enter your email address to receive a password reset link.',
+        'button' => 'Send reset link',
+        'found' => 'Remember your password?',
     ],
     'logout' => [
         'title' => 'Log uit',
-        'description' => 'Weet je zeker dat je uit je SkinMC account wilt loggen?',
+        'description' => 'Log out of your SkinMC account?',
         'logout' => 'Log uit',
         'cancel' => 'Annuleren',
     ],
     'profile_qrcode' => [
         'title' => 'QR code scannen',
-        'done' => 'Gedaan',
     ],
     'language' => [
-        'title' => 'Taal',
         'description' => 'Kies je taal',
         'contribute' => 'Draag bij',
         'contribute_add' => 'Voeg vertaling toe',
-        'updated' => 'Uw taal is ingesteld',
+        'updated' => 'Language updated.',
     ],
-    'copied' => 'Gekopieerd naar klembord!',
+    'copied' => 'Copied to clipboard.',
     'close' => 'Sluiten',
-    'feedback' => [
-        'title' => 'Feedback',
-        'type' => [
-            'select' => 'Selecteer type feedback',
-            'label' => 'Type feedback',
-            'comment' => 'comments',
-            'question' => 'Vragen',
-            'bug' => 'Bugmelding',
-            'feature' => 'Vraag feature aan',
-        ],
-        'submit' => 'Indienen',
-        'nps' => 'Op een schaal van 0 tot 10 zou je SkinMC aan een vriend aanraden?',
-        'success' => [
-            'title' => 'Bedankt!',
-            'message' => 'Je bericht is verstuurd, verwacht binnenkort een antwoord! Voor meer vragen, voel je vrij om de Discord te joinen of stuur een ander bericht in.',
-        ],
-    ],
 ];

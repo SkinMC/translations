@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Votre lieu pour les skins Minecraft',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC est votre endroit pour découvrir, enregistrer et obtenir les meilleures Skins pour Minecraft Bedrock et Java Edition. La liste des mises à jour des apparences les plus populaires chaque semaine.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Pourquoi SkinMC?',
-        'why_skinmc_detail' => 'L\'application offre un scanner de QR Code exclusif pour ouvrir rapidement des skins ou des profils que vous avez trouvés en utilisant la version de bureau. Créez votre propre code QR SkinMC personnalisé à partager avec vos amis.',
-        'claim_title' => 'Réclamer votre profil',
-        'claim_detail' => 'Connectez-vous avec Minecraft (Java uniquement) et obtenez un badge exclusif affiché sur votre page avec accès à la personnalisation, au système de commentaires et aux capes personnalisés. Ajoutez vos liens de réseaux sociaux à votre profil. Faites savoir à tout le monde où vous trouver, à partir de Discord, Twitter, YouTube, TikTok et bien plus encore.',
-        'skin_history_title' => 'Historique des skins',
-        'skin_history_detail' => 'Gardez une trace de tous vos skins Minecraft précédents avec l\'historique des skins sur votre page de profil. Accédez rapidement et téléchargez vos skins utilisés précédemment.',
-        'avatar_generator_title' => 'Générateur d\'Avatar',
-        'avatar_generator_detail' => 'Le générateur original d\'Avatar Minecraft vous permet de choisir parmi 4 styles populaires. Créez un avatar personnalisé et personnalisé en format Bust, Cube, Head et tout nouveau également entièrement personnalisé en 3D basé sur votre nom d\'utilisateur Java-Edition.',
-        'achievements_title' => 'Générateur de Succès / Réalisation',
-        'achievements_detail' => 'Créez vos propres réalisations personnalisées. Personnalisez tout depuis le titre jaune, le texte et l\'objet affichés.',
-        'no_ads_title' => 'Aucune publicité',
-        'no_ads_detail' => 'SkinMC est complètement sans publicité. Profiter d\'une agréable expérience sans publicité dérangeante.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Trouver n\'importe quel joueur Minecraft',
-        'claim' => 'Revendiquer et personnaliser votre profil',
-        'qr' => 'Créez votre code QR personnalisé',
-        'qr_scanner' => 'Scanner de QR Code intégré',
-        'new_skins' => 'Des milliers de nouveaux skins tous les jours',
-        'achievement' =>  'Générateur de succès',
-        'avatar' => 'Le fabricant de l\'avatar original'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Générateur de succès',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Merci d\'avoir utilisé l\'application SkinMC. Avec cette mise à jour, vous recevrez quelques corrections de bugs et améliorations. Que pensez-vous de l\'application SkinMC ? Notez-nous!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];

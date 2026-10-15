@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'ログインIDもしくはパスワードが違います。',
-    'password' => 'パスワードが間違っています。',
-    'throttle' => 'ログイン試行回数が多すぎます。:seconds 秒後にもう一度お試しください。',
-    'welcome-back' => 'おかえりなさい、お会いできて嬉しいです！',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => 'SkinMCへようこそ！',
     'see-you-soon' => 'またお会いしましょう！',
-    'blocked' => 'あなたのアカウントは:dateにより無効化されました。エラーと思われる場合は、<a target="_blank" href=":url">サポートセンター</a>までお問い合わせください。',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'パスワードを表示する',
     'hide-password' => 'パスワードを隠す',
     'invite_code' => '招待コード',

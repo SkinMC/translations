@@ -14,12 +14,12 @@ return [
     */
 
     'failed' => 'Estas credenciales no coinciden con nuestros registros.',
-    'password' => 'La contraseña escrita es inválida.',
-    'throttle' => 'Demasiados intentos fallidos. Reintente en :seconds segundos.',
-    'welcome-back' => 'Bienvenido de nuevo, ¡Nos alegramos de verte!',
+    'password' => 'The password is incorrect.',
+    'throttle' => 'Too many login attempts. Try again in :seconds seconds.',
+    'welcome-back' => 'Welcome back :3',
     'welcome' => '¡Bienvenido a SkinMC!',
     'see-you-soon' => '¡Nos vemos pronto!',
-    'blocked' => 'Tu cuenta fue desactivada el :date. Si crees que esto fue un error, por favor visita el <a target="_blank" href=":url">centro de soporte</a> para obtener asistencia.',
+    'blocked' => 'Your account was deactivated on :date. If you think this was a mistake, contact the <a target="_blank" href=":url">support centre</a>.',
     'show-password' => 'Mostrar contraseña',
     'hide-password' => 'Ocultar contraseña',
     'invite_code' => 'Código de Invitación',

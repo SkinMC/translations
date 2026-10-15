@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Hakutulosten numerointi',
+    'title' => 'Result pages',
     'previous' => 'Edellinen',
     'next' => 'Seuraava',
     'Showing' => 'Näkyy',

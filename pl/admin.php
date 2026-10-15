@@ -28,10 +28,9 @@ return [
         'title' => 'Użytkownicy',
         'subtitle' => ':count zarejestrowanych użytkowników',
         'list' => [
-            'username' => 'Nazwa użytkownika',
             'email' => 'E-mail',
             'status' => 'Status',
-            'role' => 'Rola'
+            'role' => 'Rola',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Tagi',
         'pending' => 'Oczekujące tagi',
-        'banned' => 'Zablokowane tagi',
     ],
     'reports' => [
         'title' => 'Zgłoszenia',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Posty',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Usunięte komentarze',
             'subtitle' => ':count usuniętych komentarzy',
-        ]
-    ]
+        ],
+    ],
 ];
