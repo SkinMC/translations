@@ -26,7 +26,7 @@ return [
     'signup' => [
         'title' => 'Sign up',
         'existing' => 'Already have an account?',
-        'button' => 'Agree and continue',
+        'button' => 'Sign up',
         'terms_by_selecting' => 'By selecting',
         'terms_agree_to' => ', I agree to SkinMC\'s',
         'terms_acknowledge' => 'and acknowledge the',
