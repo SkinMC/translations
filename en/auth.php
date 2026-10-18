@@ -39,6 +39,9 @@ return [
     ],
     'login' => [
         'remember_device' => 'Remember this device',
+        'welcome_back_name' => 'Welcome back, :name :3',
+        'use_another_account' => 'Use another account',
+        'forget_account' => 'Forget this account',
         'skin_preview' => 'Skin preview: your current skin design from the editor',
     ],
     'registration' => [

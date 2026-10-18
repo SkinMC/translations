@@ -21,6 +21,7 @@ return [
         'signup' => 'Sign up',
         'google' => 'Continue with Google',
         'microsoft' => 'Continue with Microsoft',
+        'facebook' => 'Continue with Facebook',
         'divider' => 'or',
     ],
     'signup' => [
