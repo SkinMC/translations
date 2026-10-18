@@ -43,6 +43,7 @@ return [
         'use_another_account' => 'Use another account',
         'use_password' => 'Use password instead',
         'not_you' => 'Not you?',
+        'choose_account' => 'Choose an account',
         'saved_account' => 'Saved account',
         'saved_in_browser' => 'Saved in this browser',
         'remove' => 'Remove',
