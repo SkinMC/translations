@@ -2481,19 +2481,19 @@ return [
             'title' => 'Come funziona la moderazione della testa',
             'content' => 'Quando si invia una test per la lista pubblica, entra in una coda di revisione. Il nostro team controlla che soddisfi le linee guida di qualità e contenuto prima che appaia sulle pagine pubbliche. Puoi sempre visualizzare e gestire i tuoi invii nel tuo account.',
             'items' => [
-                [
+                0 => [
                     'title' => 'Revisione in sospeso',
                     'content' => 'Le teste contrassegnate come in attesa sono attualmente in fase di revisione. Questo potrebbe richiedere un po\' di tempo, soprattutto durante i periodi di affollamento. In alcuni casi, una testa può rimanere in sospeso se è molto simile a quella esistente o richiede ulteriore considerazione. Puoi modificare i dettagli o ritirarli in qualsiasi momento.',
                 ],
-                [
+                1 => [
                     'title' => 'Teste pubblicate',
                     'content' => 'Una volta approvata, la testa diventa visibile pubblicamente su SkinMC. Apparirà nella galleria principale e potrebbe anche essere presente nelle migliori teste se selezionata dal nostro team.',
                 ],
-                [
+                2 => [
                     'title' => 'Teste private',
                     'content' => 'Le teste private sono visibili solo per te. Questo può accadere se una richiesta non soddisfa le nostre linee guida pubbliche d\'inserimento, o se si sceglie di tenerla privato. Sei libero di modificare e ripresentarla ogni volta che vuoi.',
                 ],
-                [
+                3 => [
                     'title' => 'Teste rimosse',
                     'content' => 'In rari casi, una testa può essere rimossa se è in conflitto con le nostre politiche di contenuto. Le teste rimosse non sono visibili sul sito. Se credi che una rimozione sia stata fatta per errore, contatta il supporto.',
                 ],
