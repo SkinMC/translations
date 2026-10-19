@@ -28,10 +28,9 @@ return [
         'title' => 'المستخدمين',
         'subtitle' => ':count مجموع المستخدمين المسجلين',
         'list' => [
-            'username' => 'إسم المستخدم',
             'email' => 'البريد الإلكتروني',
             'status' => 'الحالة',
-            'role' => 'الرتبه'
+            'role' => 'الرتبه',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'التصنيفات',
         'pending' => 'العلامات المعلقة',
-        'banned' => 'العلامات المحظورة',
     ],
     'reports' => [
         'title' => 'الشكاوى',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'الاقتراحات',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'التعليقات المحذوفة',
             'subtitle' => ':count مجموع التعليقات المحذوفة',
-        ]
-    ]
+        ],
+    ],
 ];

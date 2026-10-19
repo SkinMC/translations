@@ -4,11 +4,11 @@ return [
     'browse' => 'Selaa',
     'connect_account' => 'Connect Modrinth',
     'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
+    'connection_saved' => 'Modrinth account connected.',
+    'connection_removed' => 'Modrinth account disconnected.',
+    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
     'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
+    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
     'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
     'view_skinmc_profile' => 'View SkinMC profile',
     'close' => 'Close',
@@ -18,9 +18,9 @@ return [
     'types' => [
         'mod' => 'Modit',
         'shader' => 'Varjostimet',
-        'resourcepack' => 'Resurssipaketit',
+        'resourcepack' => 'Resource packs',
         'modpack' => 'Modipaketit',
-        'datapack' => 'Datapaketit',
+        'datapack' => 'Data packs',
         'plugin' => 'Laajennukset',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Löydä Minecraftin modit, varjostimet ja resurssipaketit',
-        'mod' => 'Tutki ja löydä parhaat modit parantaaksesi Minecraft kokemustasi',
-        'shader' => 'Muunna Minecraft visuaalisi upeilla varjostimilla',
+        'mod' => 'Find mods that add new ways to play Minecraft.',
+        'shader' => 'Change how Minecraft looks with shaders.',
         'resourcepack' => 'Muokkaa Minecraftin ulkoasua resurssipaketeilla ja tekstuureilla',
         'modpack' => 'Etsi kuratoituja modeja, jotka ovat valmiita pelattavaksi yhdessä',
         'datapack' => 'Paranna vanilla Minecraftia datapaketeilla ja mukautetuilla ominaisuuksilla',
-        'plugin' => 'Tehosta Minecraft palvelintasi parhailla laajennuksilla',
+        'plugin' => 'Add features to your Minecraft server with plugins.',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Etsi projekteja...',
+    'search_placeholder' => 'Search projects',
     'sort_by' => 'Lajittele',
     'game_version' => 'Peliversio',
     'all_versions' => 'Kaikki versiot',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Ympäristö',
     'env_client' => 'Asiakas',
     'env_server' => 'Palvelin',
-    'env_both' => 'Asiakas & Palvelin',
+    'env_both' => 'Client and server',
     'categories' => 'Kategoriat',
     'filtered_by' => 'Filtered by :category category.',
 
     // Results
     'no_results' => 'Projekteja ei löytynyt',
-    'try_different_filters' => 'Kokeile muuttaa suodattimia tai hakua',
+    'try_different_filters' => 'Try a different search or change the filters.',
 
     // Project details
     'by' => 'tehnyt',
@@ -105,10 +105,10 @@ return [
     'client' => 'Asiakas',
     'server' => 'Palvelin',
     'links' => 'Linkit',
-    'source_code' => 'Lähdekoodi',
+    'source_code' => 'Source code',
     'issues' => 'Ongelmat',
     'wiki' => 'Wiki',
-    'license' => 'Lisenssi',
+    'license' => 'Licence',
     'related' => 'Liittyvät projektit',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'tai',
     'select_game_version' => 'Valitse pelin versio',
     'select_platform' => 'Valitse alusta',
-    'search_versions' => 'Etsi versioita...',
-    'search_categories' => 'Etsi kategorioita...',
+    'search_versions' => 'Search versions',
+    'search_categories' => 'Search categories',
     'all_platforms' => 'Kaikki alustat',
     'platform' => 'Alusta',
     'no_versions_found' => 'Suodattimia vastaavia versioita ei löytynyt',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Ulkoinen linkki',
-    'external_link_warning' => 'Olet poistumassa SkinMC:stä ja käymässä ulkoisella verkkosivustolla. Ole varovainen ja varmista, että luotat tähän linkkiin ennen jatkamista.',
+    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
     'cancel' => 'Peruuta',
     'continue' => 'Jatka',
 

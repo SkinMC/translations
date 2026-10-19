@@ -28,10 +28,9 @@ return [
         'title' => 'کاربر ها',
         'subtitle' => 'شمارش کل کاربران ثبت نام شده',
         'list' => [
-            'username' => 'نام کاربری',
             'email' => 'ایمیل',
             'status' => 'وضعيت',
-            'role' => 'سطح'
+            'role' => 'سطح',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'برچسب ها',
         'pending' => 'وظایف در انتظار',
-        'banned' => 'ای پی های ممنوع شده',
     ],
     'reports' => [
         'title' => 'گزارش‌ها',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'لیست اخبار',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'نظر های حذف شده',
             'subtitle' => 'شمارش همه نظرات حذف شده',
-        ]
-    ]
+        ],
+    ],
 ];

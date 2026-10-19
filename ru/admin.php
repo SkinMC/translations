@@ -28,10 +28,9 @@ return [
         'title' => 'Пользователи',
         'subtitle' => ':count всего пользователей зарегистрировались',
         'list' => [
-            'username' => 'Логин',
             'email' => 'Электронная почта',
             'status' => 'Статус',
-            'role' => 'Роль'
+            'role' => 'Роль',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Тэги',
         'pending' => 'Нерассмотренные теги',
-        'banned' => 'Заблокированные тэги',
     ],
     'reports' => [
         'title' => 'Жалобы',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Посты в ленте',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Удаленные комментарии',
             'subtitle' => ':count всего удаленных комментариев',
-        ]
-    ]
+        ],
+    ],
 ];

@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'یک جا برای پوسته های ماین کرفت',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'اسکین ام سی مکان شما برای کشف، ذخیره و دریافت بهترین پوسته برای ماین کرفت بدراک و جاوا است. فهرستی از محبوب‌ترین به‌روزرسانی‌های پرطرفدار پوسته در هر هفته.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'چرا اسکین ام سی?',
-        'why_skinmc_detail' => 'این برنامه یک اسکنر انحصاری کد کیو ار را ارائه می دهد تا به سرعت پوسته ها یا پروفایل هایی را که با استفاده از نسخه دسکتاپ پیدا کرده اید باز کند. کد کیو ار اسکین ام سی سفارشی خود را ایجاد کنید تا با دوستان خود به اشتراک بگذارید.',
-        'claim_title' => 'پروفایل خود را درست کنید',
-        'claim_detail' => 'با ماین کرفت (فقط جاوا) ارتباط برقرار کنید و یک نشان انحصاری که در صفحه شما نمایش داده می شود همراه با دسترسی به شخصی سازی، سیستم نظرات و شنل های سفارشی دریافت کنید. پیوندهای رسانه های اجتماعی خود را به نمایه خود اضافه کنید. به همه اجازه دهید از دیسکورد، تویتر، یوتوب، تیک تاک و بسیاری موارد دیگر شما را در کجا پیدا کنند.',
-        'skin_history_title' => 'تاریخچه پوسته ها',
-        'skin_history_detail' => 'تمام پوسته های قبلی ماین کرفت خود را با سابقه پوست در صفحه نمایه خود پیگیری کنید. به سرعت به پوسته های استفاده شده قبلی خود دسترسی پیدا کرده و دانلود کنید.',
-        'avatar_generator_title' => 'پیدا کن اواتار',
-        'avatar_generator_detail' => 'پیدا کننده اواتار ماین کرفت اصلی به شما امکان می دهد از بین 4 سبک محبوب انتخاب کنید. یک آواتار سفارشی و شخصی‌شده با فرمت نیم تنه، مکعب، سر و کاملاً جدید و کاملاً سفارشی به صورت سه بعدی بر اساس نام کاربری Java-Edition خود ایجاد کنید.',
-        'achievements_title' => 'درست کننده دستاورد یا پیشرفت',
-        'achievements_detail' => 'دستاوردهای شخصی سازی شده خود را بسازید. همه چیز از عنوان زرد رنگ، متن و مورد نمایش داده شده را سفارشی کنید.',
-        'no_ads_title' => 'هیچ تبلیغاتی',
-        'no_ads_detail' => 'اسکین ام سی کاملاً بدون تبلیغات است. از تجربه ای بدون آگهی و بدون مزاحمت های مزاحم لذت ببرید.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'هر بازیکن ماین کرفت رو پیدا کن',
-        'claim' => 'پروفایلت رو ادعا کن و شخصی سازی کن',
-        'qr' => 'کیو ار کد سفارشی خود را درست کنیم',
-        'qr_scanner' => 'کیو ار کد اسکنر ساخته شده در خوده اسکین ام سی',
-        'new_skins' => 'هزاران پوسته های جدید هر روز',
-        'achievement' =>  'درست کن دستاورد',
-        'avatar' => 'درست کن اواتار اورجینال'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'درست کن دستاورد',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'برای استفاده از برنامه اسکین ام سی متشکریم. با این به روز رسانی، برخی از رفع اشکال و بهبودها را دریافت خواهید کرد. نظر شما در مورد اپلیکیشن اسکین ام سی چیست؟ به ما رای دهید!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];

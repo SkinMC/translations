@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Ditt sted for Minecraft skall',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC is your place to discover, save, and get the best Skins for Minecraft Bedrock and Java Edition. The list of the most popular trending Skins updates every week.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Hvorfor SkinMC?',
-        'why_skinmc_detail' => 'The app offers an exclusive built in QR Code scanner, to quickly open skins or profiles you have found using the desktop version. Create your own custom SkinMC QR Code to share with your friends.',
-        'claim_title' => 'Claim your Profile',
-        'claim_detail' => 'Connect with Minecraft (Java Only) and get an exclusive badge displayed on your page together with access to personalisation, comment system, and custom capes. Add your social media links to your profile. Let everyone know where to find you, from Discord, Twitter, YouTube, TikTok and many more.',
-        'skin_history_title' => 'Skin History',
-        'skin_history_detail' => 'Keep track of all your previous Minecraft Skins with the Skin history on your Profile page. Quickly access and download your past used Skins.',
-        'avatar_generator_title' => 'Avatar Generator',
-        'avatar_generator_detail' => 'The original Minecraft Avatar Generator lets you choose from 4 popular styles. Create a custom and personalised Avatar in Bust, Cube, Head format, and brand new also fully custom in 3D based from your Java-Edition username.',
-        'achievements_title' => 'Achievement/Advancement Generator',
-        'achievements_detail' => 'Make your very own personalised achievements. Customise everything from the yellow title, text and item displayed.',
-        'no_ads_title' => 'Ingen annonser',
-        'no_ads_detail' => 'SkinMC is completely free of ads. Enjoy an Ad-free experience without intrusive annoyances.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Find any Minecraft Player',
-        'claim' => 'Claim & customise your Profile',
-        'qr' => 'Create your custom QR Code',
-        'qr_scanner' => 'Built in QR Code scanner',
-        'new_skins' => 'Thousands of new Skins everyday',
-        'achievement' =>  'Achievement generator',
-        'avatar' => 'The original avatar maker'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Achievement generator',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Thanks for using the SkinMC App. With this update you will receive some bug fixes and improvements. What do you think of the SkinMC app? Rate us!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];

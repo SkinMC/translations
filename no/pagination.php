@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Nummerering av søkeresultater',
+    'title' => 'Result pages',
     'previous' => 'Forrige',
     'next' => 'Neste',
     'Showing' => 'Showing',

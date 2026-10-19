@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => '创造Minecraft皮肤的地方',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC 是你发现、保存和获得Minecraft 基岩版 和 Java版的最佳皮肤的地方。最热门的皮肤每周更新。',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => '为什么选择 SkinMC？',
-        'why_skinmc_detail' => '这个应用提供了一个内置于二维码扫描器中的专用系统，以快速打开您在桌面版本中找到的皮肤或配置文件。 创建您自己的自定义SkinMC QR码与您的朋友分享。',
-        'claim_title' => '确认您的个人资料',
-        'claim_detail' => '连接到Minecraft（仅Java版），并在您的页面上获得一个独家徽章，以及访问个性化、评论系统和自定义斗篷。 将您的社交媒体链接添加到您的个人资料中。让每个人都知道在哪里找到您，从Discord、Twitter、YouTube、TikTok和更多其他地方。',
-        'skin_history_title' => '皮肤历史',
-        'skin_history_detail' => '在您的个人资料页面上跟踪您以前所有的Minecraft皮肤。快速访问和下载您过去使用过的皮肤。',
-        'avatar_generator_title' => '头像生成器',
-        'avatar_generator_detail' => '原版Minecraft头像生成器允许您从四种流行样式中选择。 在 Bust, Cube, Head 格式中创建一个自定义和个性化的头像，并且根据您的 Java 版用户名在 3D 中创建全新的自定义功能。',
-        'achievements_title' => '成就/进阶生成器',
-        'achievements_detail' => '让你自己的个性化成就。自定义从黄色标题、文本和项目显示的所有内容。',
-        'no_ads_title' => '无广告',
-        'no_ads_detail' => 'SkinMC 完全没有广告。享受沉浸式体验。'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => '查找任何Minecraft玩家',
-        'claim' => '认领并自定义您的个人资料',
-        'qr' => '创建您的自定义二维码',
-        'qr_scanner' => '以二维码扫描器生成',
-        'new_skins' => '每天都有数以千计的新皮肤。',
-        'achievement' =>  '成就生成器',
-        'avatar' => '头像原始制造者'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => '成就生成器',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => '感谢使用SkinMC。通过此更新，您将收到一些错误修正和改进后的版本。 你对SkinMC有什么想法？给我们评分！'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];

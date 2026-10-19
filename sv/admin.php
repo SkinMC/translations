@@ -28,10 +28,9 @@ return [
         'title' => 'Användare',
         'subtitle' => ':count antal registrerade användare',
         'list' => [
-            'username' => 'Användarnamn',
             'email' => 'E-post',
             'status' => 'Status',
-            'role' => 'Roll'
+            'role' => 'Roll',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Taggar',
         'pending' => 'Väntande taggar',
-        'banned' => 'Bannade taggar',
     ],
     'reports' => [
         'title' => 'Rapporteringar',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Inlägg på flödet',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Raderade kommentarer',
             'subtitle' => ':count antal raderade kommentarer',
-        ]
-    ]
+        ],
+    ],
 ];

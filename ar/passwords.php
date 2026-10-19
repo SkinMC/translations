@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'تمت إعادة تعيين كلمة المرور!',
-    'sent' => 'تم إرسال تفاصيل استعادة كلمة المرور الخاصة بك إلى بريدك الإلكتروني!',
-    'throttled' => 'الرجاء الانتظار قبل إعادة المحاولة.',
-    'token' => 'رمز استعادة كلمة المرور الذي أدخلته غير صحيح.',
-    'user' => "لم يتم العثور على أي حساب بهذا البريد الإلكتروني.",
+    'reset' => 'Password reset.',
+    'sent' => 'Password reset link sent. Check your email.',
+    'throttled' => 'Wait a moment before trying again.',
+    'token' => 'This password reset link is invalid. Request a new link.',
+    'user' => 'No account was found with that email address.',
 
 ];

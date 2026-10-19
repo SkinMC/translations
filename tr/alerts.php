@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Yeni takipçi',
-        'text' => ':kullanıcı seni takip ediyor!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model yorumu',
-            'text' => ':kullanıcı senin :model \'ine yorum yaptı',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => ':model yorumuna cevap ver',
-            'text' => ':kullanıcı :model yorumuna cevap verdi',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'Yeni bahsetme',
-            'text' => ':user bir yorumda senden bahsetti!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Yorum beğenildi',
-            'text' => ':user yorumunu beğendi!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Beğeni alındı',
-            'text' => ':kullanıcı gönderini beğendi!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => 'Yeni bahsetme',
-            'text' => ':kullanıcı gönderisinde senden bahsetti!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Yeniden paylaşım',
-            'text' => ':user gönderini yeniden paylaştı!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -50,10 +50,14 @@ return [
             'title' => 'Yeni mesaj',
             'text' => ':user sana bir mesaj gönderdi.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
-            'title' => 'Seviye atladın!',
+            'title' => 'You levelled up!',
             'text' => ':level seviyeye ulaştığınız için tebrikler!',
         ],
     ],
@@ -63,24 +67,30 @@ return [
             'text' => ':user seni ":board" panosuna katkıda bulunan olarak ekledi.',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
-            'title' => 'Raporunuzu aldık! (Vaka :id)',
-            'text' => 'Ekibimiz bu konuyla ilgileniyor ve hemen inceleyecek. Harika olduğun ve işleri sakin tutmamıza yardımcı olduğun için teşekkürler! ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => 'Raporunuzu inceledik (Vaka :id)',
-            'text' => 'Merhaba, bildirilen sorun çözüldü ve artık halledildi. Topluluğumuzun süper kahramanı olduğun için teşekkürler!',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => 'Raporunuzu güncelleyin (Vaka :id)',
-            'text' => 'Biraz araştırma yaptıktan sonra, bildirdiğiniz içeriğin kurallarımıza aykırı olmadığını tespit ettik. Belirli bir şeyi incelememizi istiyorsanız, lütfen skin, profil vb. bilgileri bildirip gerektiğinde ek bilgiler de ekleyin. İlginiz ve topluluğumuza katılımınız için teşekkür ederiz!',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Discord\'a katıl',
-            'text' => 'Selam, SkinMC Discord sunucusuna davetlisin.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -123,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => ':server için daha fazla fotoğraf ekle',
-            'text' => 'İlanınızın en az :minimum fotoğrafa ulaşması ve yayınlanabilir kalması için :remaining fotoğraf(lar) daha gerekiyor.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Sunucu ilanınızda hâlâ fotoğraf yok',
-            'text' => 'Güvenilirliği artırmak ve ilanınızı yayınlanmaya yaklaştırmak için en az 5 fotoğraf ekleyin.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'İlanınız hâlâ inceleme bekliyor',
-            'text' => 'İlanınız bir süredir beklemede. İncelemenin sorunsuz ilerlemesine yardımcı olmak için detayları ve fotoğrafları tekrar kontrol edin.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [

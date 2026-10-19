@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => '새로운 팔로워',
-        'text' => ':user님이 팔로우 하고 있습니다!',
+        'text' => ':user is now following you.',
     ],
     'comment' => [
         'new' => [
             'title' => ':model에 댓글 작성되었습니다.',
-            'text' => ':user님이 :model에 댓글을 작성했어요',
+            'text' => ':user commented on your :model.',
         ],
         'reply' => [
-            'title' => ':model에 답글 작성됨',
-            'text' => ':user님이 :model에 답글을 작성했어요',
+            'title' => 'Reply to a :model comment',
+            'text' => ':user replied to a :model comment.',
         ],
         'mention' => [
             'title' => 'New mention',
-            'text' => ':user mentioned you in a comment!',
+            'text' => ':user mentioned you in a comment.',
         ],
         'like' => [
             'title' => 'Comment liked',
-            'text' => ':user liked your comment!',
+            'text' => ':user liked your comment.',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => '좋아요를 받음',
-            'text' => ':user님이 내 포스트에 좋아요를 달았어요!',
+            'title' => 'Post liked',
+            'text' => ':user liked your post.',
         ],
         'mention' => [
             'title' => '새 언급',
-            'text' => ':user님이 작성한 포스트에 나를 언급했어요!',
+            'text' => ':user mentioned you in their post.',
         ],
         'repost' => [
             'title' => 'Repost',
-            'text' => ':user reposted your post!',
+            'text' => ':user reposted your post.',
         ],
     ],
     'chat' => [
@@ -50,10 +50,14 @@ return [
             'title' => 'New message',
             'text' => ':user sent you a message.',
         ],
+        'group_invitation' => [
+            'title' => 'Group chat invitation',
+            'text' => ':user invited you to join the group chat ":group".',
+        ],
     ],
     'level' => [
         'up' => [
-            'title' => '당신의 레벨이 올랐습니다!',
+            'title' => 'You levelled up!',
             'text' => ':level레벨에 도달하신 것을 축하드려요!',
         ],
     ],
@@ -63,24 +67,30 @@ return [
             'text' => ':user added you as a collaborator to the board ":board".',
         ],
     ],
+    'skin_editor' => [
+        'project_invitation' => [
+            'title' => 'Skin project invitation',
+            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+        ],
+    ],
     'report' => [
         'created' => [
-            'title' => '신고를 접수했어요!(케이스 :id)',
-            'text' => '팀이 검토를 시작했습니다 인내를 가지고 기다려 주십시오 ',
+            'title' => 'Report received (case :id)',
+            'text' => 'Your report has been sent to our moderation team for review.',
         ],
         'resolved' => [
-            'title' => '신고가 확인되었습니다(케이스 :id)',
-            'text' => '안녕하세요 신고하신 문제에 대해 조치가 취해졌습니다. 귀하에 도움에 감사드립니다.',
+            'title' => 'Report reviewed (case :id)',
+            'text' => 'Our moderation team has completed its review and closed your report.',
         ],
         'dismissed' => [
-            'title' => '신고 내용에 변경 사항이 있습니다(케이스 :id)',
-            'text' => '신고 하신 내용을 검토 해 보았으나 별 다른 문제를 발견하지 못했습니다. 또 다른 문제를 발견하신다면 제보 부탁드립니다. 커뮤니티에 관심을 가져주셔 감사드립니다.',
+            'title' => 'Report dismissed (case :id)',
+            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the discord',
-            'text' => 'Hi there, you\'re invited to join the SkinMC Discord server.',
+            'title' => 'Join the SkinMC Discord',
+            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
         ],
     ],
     'server' => [
@@ -123,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs :remaining more photo(s) to reach the minimum of :minimum and stay publishable.',
+            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
         ],
         'reminder_no_images' => [
             'title' => 'Your server listing still has no photos',
-            'text' => 'Add at least 5 photos to improve trust and move your listing toward publication.',
+            'text' => 'Add photos to complete your server listing.',
         ],
         'reminder_pending_too_long' => [
             'title' => 'Your listing is still pending review',
-            'text' => 'Your listing has been pending for a while. Double-check details and photos to help keep review smooth.',
+            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
         ],
     ],
     'wallpaper' => [

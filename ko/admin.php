@@ -28,10 +28,9 @@ return [
         'title' => '사용자',
         'subtitle' => '가입한 총 회원 수 :count명',
         'list' => [
-            'username' => '사용자 이름',
             'email' => '이메일 주소',
             'status' => '상태',
-            'role' => '역할'
+            'role' => '역할',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => '태그',
         'pending' => '보류 중인 태그',
-        'banned' => '차단된 태그',
     ],
     'reports' => [
         'title' => '보고서',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => '게시물 피드',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => '삭제된 댓글 수',
             'subtitle' => '총 삭제된 댓글 :count개',
-        ]
-    ]
+        ],
+    ],
 ];

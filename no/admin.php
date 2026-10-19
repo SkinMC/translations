@@ -28,10 +28,9 @@ return [
         'title' => 'Users',
         'subtitle' => ':count total users signed up',
         'list' => [
-            'username' => 'Username',
             'email' => 'Email',
             'status' => 'Status',
-            'role' => 'Role'
+            'role' => 'Role',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Tags',
         'pending' => 'Pending tags',
-        'banned' => 'Banned tags',
     ],
     'reports' => [
         'title' => 'Reports',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Feed posts',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Deleted comments',
             'subtitle' => ':count total comments deleted',
-        ]
-    ]
+        ],
+    ],
 ];

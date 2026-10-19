@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => '搜索结果编号',
+    'title' => 'Result pages',
     'previous' => '上一页',
     'next' => '下一页',
     'Showing' => 'Showing',

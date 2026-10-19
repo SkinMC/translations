@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Numeracja wyników wyszukiwania',
+    'title' => 'Result pages',
     'previous' => 'Poprzedni',
     'next' => 'Następny',
     'Showing' => 'Showing',

@@ -13,10 +13,10 @@ return [
     'link' => [
         'error' => [
             'missing-game-copy' => 'Ce compte Microsoft ne possède pas Minecraft. Allez sur Minecraft.net et connectez-vous à votre compte Microsoft qui possède Minecraft Java Édition.',
-            'generic' => 'Hmm... quelque chose s\'est mal passé. Veuillez réessayer ou contacter l\'assistance SkinMC par e-mail ou sur Discord pour obtenir de l\'aide.',
-            'already-linked' => 'Le compte Minecraft est déjà associé',
-            'profile-already-linked' => 'Ce compte Minecraft est déjà associé à un autre utilisateur',
-            'failed' => 'Impossible de lier le compte Minecraft. Veuillez réessayer.',
+            'generic' => 'Couldn’t link the Minecraft account. Try again or contact SkinMC support by email or Discord.',
+            'already-linked' => 'This Minecraft account is already linked.',
+            'profile-already-linked' => 'This Minecraft account is already linked to another SkinMC account.',
+            'failed' => 'Couldn’t link the Minecraft account. Try again.',
         ],
     ],
 

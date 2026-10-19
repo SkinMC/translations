@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'מיספור של תוצאות החיפוש',
+    'title' => 'Result pages',
     'previous' => 'הקודם',
     'next' => 'הבא',
     'Showing' => 'Showing',

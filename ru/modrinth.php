@@ -2,25 +2,25 @@
 
 return [
     'browse' => 'Просмотр',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Your Modrinth account is now connected.',
-    'connection_removed' => 'Your Modrinth account connection has been removed.',
-    'connection_failed' => 'We could not connect your Modrinth account. Please try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are currently unavailable. Please try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => 'Привязать Modrinth',
+    'connect_description' => 'Привяжите свой аккаунт Modrinth, чтобы отображать его в профиле и связать свои проекты с профилем Minecraft. Для подтверждения владения вы будете перенаправлены на Modrinth.',
+    'connection_saved' => 'Modrinth account connected.',
+    'connection_removed' => 'Modrinth account disconnected.',
+    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
+    'connection_cancelled' => 'Подключение Modrinth отменено.',
+    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
+    'connection_taken' => 'Данный аккаунт Modrinth уже привязан к другому аккаунту SkinMC.',
+    'view_skinmc_profile' => 'Просмотр SkinMC профиля',
+    'close' => 'Закрыть',
+    'download_on_modrinth' => 'Скачать на Modrinth',
 
     // Types
     'types' => [
         'mod' => 'Моды',
         'shader' => 'Шейдеры',
-        'resourcepack' => 'Наборы ресурсов',
+        'resourcepack' => 'Resource packs',
         'modpack' => 'Модпаки',
-        'datapack' => 'Набор ресурсов',
+        'datapack' => 'Data packs',
         'plugin' => 'Плагины',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Откройте для себя моды, шейдеры и пакеты ресурсов для Minecraft',
-        'mod' => 'Исследуйте и откройте для себя лучшие моды, которые улучшат ваш опыт игры в Minecraft',
-        'shader' => 'Преобразите графику Minecraft с помощью потрясающих шейдеров',
+        'mod' => 'Find mods that add new ways to play Minecraft.',
+        'shader' => 'Change how Minecraft looks with shaders.',
         'resourcepack' => 'Настройте свой внешний вид в Minecraft с помощью пакетов ресурсов и текстур',
         'modpack' => 'Найдите тщательно подобранные коллекции модификаций, готовых к совместной игре',
         'datapack' => 'Улучшайте классическую версию Minecraft с помощью пакетов данных и настраиваемых функций',
-        'plugin' => 'Усильте свой сервер Minecraft с помощью лучших плагинов',
+        'plugin' => 'Add features to your Minecraft server with plugins.',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Поиск проектов...',
+    'search_placeholder' => 'Search projects',
     'sort_by' => 'Сортировать по',
     'game_version' => 'Версия игры',
     'all_versions' => 'Все версии',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Среда',
     'env_client' => 'Клиент',
     'env_server' => 'Сервер',
-    'env_both' => 'Клиент & Сервер',
+    'env_both' => 'Client and server',
     'categories' => 'Категории',
     'filtered_by' => 'Отфильтровано по :category.',
 
     // Results
     'no_results' => 'Проекты не найдены',
-    'try_different_filters' => 'Попробуйте изменить фильтры или поисковый запрос',
+    'try_different_filters' => 'Try a different search or change the filters.',
 
     // Project details
     'by' => 'автор',
@@ -105,10 +105,10 @@ return [
     'client' => 'Клиент',
     'server' => 'Сервер',
     'links' => 'Ссылки',
-    'source_code' => 'Исходный код',
+    'source_code' => 'Source code',
     'issues' => 'Проблемы',
     'wiki' => 'Вики',
-    'license' => 'Лицензия',
+    'license' => 'Licence',
     'related' => 'Связанные проекты',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'или',
     'select_game_version' => 'Выберите версию игры',
     'select_platform' => 'Выбрать платформу',
-    'search_versions' => 'Поиск версий...',
-    'search_categories' => 'Поиск категорий...',
+    'search_versions' => 'Search versions',
+    'search_categories' => 'Search categories',
     'all_platforms' => 'Все платформы',
     'platform' => 'Платформа',
     'no_versions_found' => 'Нет версий, соответствующих вашим фильтрам',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Внешняя ссылка',
-    'external_link_warning' => 'Вы собираетесь покинуть SkinMC и перейти на внешний веб-сайт. Будьте осторожны и убедитесь, что вы доверяете этой ссылке, прежде чем продолжить.',
+    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
     'cancel' => 'Отмена',
     'continue' => 'Продолжить',
 

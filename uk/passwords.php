@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'Ваш пароль скинуто!',
-    'sent' => 'Ми надіслали ваше посилання для зміни пароля електронною поштою!',
-    'throttled' => 'Зачекайте, перш ніж повторювати спробу.',
-    'token' => 'Цей токен скидання пароля недійсний.',
-    'user' => "Ми не можемо знайти користувача з такою електронною адресою.",
+    'reset' => 'Password reset.',
+    'sent' => 'Password reset link sent. Check your email.',
+    'throttled' => 'Wait a moment before trying again.',
+    'token' => 'This password reset link is invalid. Request a new link.',
+    'user' => 'No account was found with that email address.',
 
 ];

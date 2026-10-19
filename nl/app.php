@@ -10,30 +10,30 @@ return [
     |
     */
 
-    'short_description' => 'Jouw plek voor Minecraft skins',
+    'short_description' => 'Discover and save Minecraft skins',
     'full_description' => [
-        'intro' => 'SkinMC is je plek om de beste skins voor Minecraft Bedrock en Java Edition te ontdekken, op te slaan en te krijgen. De lijst met de meest populaire trendende skins update elke week.',
+        'intro' => 'Discover and save Minecraft skins for Java Edition and supported Bedrock platforms. Browse trending skins to find your next look.',
         'why_skinmc_title' => 'Waarom SkinMC?',
-        'why_skinmc_detail' => 'De app biedt een exclusieve ingebouwde QR-Code scanner aan om snel skins of profielen te openen die je gevonden hebt met de desktop-versie. Maak je eigen aangepaste SkinMC QR-Code om deze te delen met je vrienden.',
-        'claim_title' => 'Claim je profiel',
-        'claim_detail' => 'Maak verbinding met Minecraft (alleen Java) en krijg een exclusieve badge weergegeven op je pagina met toegang tot personalisatie, commentaarsysteem en aangepaste caps. Voeg je social media links toe aan je profiel. Laat iedereen weten waar je je kunt vinden, van Discord, Twitter, YouTube, TikTok en nog veel meer.',
-        'skin_history_title' => 'Skin Geschiedenis',
-        'skin_history_detail' => 'Houd al je vorige Minecraft-skins bij met de stijlgeschiedenis op je profielpagina. Snel toegang tot en download je vorige skins.',
-        'avatar_generator_title' => 'Avatar Generator',
-        'avatar_generator_detail' => 'Met de originele Minecraft Avatar Generator kun je kiezen uit 4 populaire stijlen. Maak een aangepaste en gepersonaliseerde Avatar in Bust, Cube, Head format, en gloednieuw ook volledig aangepast in 3D gebaseerd op uw Java-Edition gebruikersnaam.',
-        'achievements_title' => 'Prestatie/Advancement Generator',
-        'achievements_detail' => 'Maak je eigen gepersonaliseerde prestaties. Pas alles aan met de gele titel, tekst en item.',
-        'no_ads_title' => 'Geen advertenties',
-        'no_ads_detail' => 'SkinMC is volledig vrij van advertenties. Geniet van een advertentie-vrije ervaring zonder opdringerige ergernissen.'
+        'why_skinmc_detail' => 'Scan a skin or profile QR code to open it in the app. Share your profile QR code with friends.',
+        'claim_title' => 'Claim your profile',
+        'claim_detail' => 'Link your Minecraft: Java Edition account to claim your profile, add social links, leave comments and use custom capes.',
+        'skin_history_title' => 'Skin history',
+        'skin_history_detail' => 'Browse and download skins saved in your profile’s skin history.',
+        'avatar_generator_title' => 'Avatar generator',
+        'avatar_generator_detail' => 'Create a profile picture from a Minecraft skin. Choose a face, bust, cube or 3D avatar.',
+        'achievements_title' => 'Achievement generator',
+        'achievements_detail' => 'Create a Minecraft achievement image with your own title, text and icon.',
+        'no_ads_title' => 'No ads',
+        'no_ads_detail' => 'Use SkinMC without ads.',
     ],
     'screenshots' => [
-        'find' => 'Vind elke Minecraft Speler',
-        'claim' => 'Claim & pas je profiel aan',
-        'qr' => 'Maak uw aangepaste QR-Code',
-        'qr_scanner' => 'Ingebouwde QR Code scanner',
-        'new_skins' => 'Duizenden nieuwe skins elke dag',
-        'achievement' =>  'Prestatie generator',
-        'avatar' => 'De oorspronkelijke avatar maker'
+        'find' => 'Find a Minecraft player',
+        'claim' => 'Claim and customise your profile',
+        'qr' => 'Share your profile QR code',
+        'qr_scanner' => 'QR code scanner',
+        'new_skins' => 'Discover Minecraft skins',
+        'achievement' => 'Prestatie generator',
+        'avatar' => 'Create a Minecraft avatar',
     ],
-    'patch_notes_update' => 'Bedankt voor het gebruik van de SkinMC app. Met deze update krijg je wat bugfixes en verbeteringen. Wat vind je van de SkinMC app? Beoordeel ons!'
+    'patch_notes_update' => 'Bug fixes and improvements.',
 ];

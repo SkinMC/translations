@@ -28,10 +28,9 @@ return [
         'title' => 'Felhasználók',
         'subtitle' => ':count felhasználó',
         'list' => [
-            'username' => 'Felhasználónév',
             'email' => 'Email',
             'status' => 'Állapot',
-            'role' => 'Szerep'
+            'role' => 'Szerep',
         ],
     ],
     'skins' => [
@@ -40,10 +39,13 @@ return [
     'tags' => [
         'title' => 'Címkék',
         'pending' => 'Ellenőrzésre váró címkék',
-        'banned' => 'Tiltott címkék',
     ],
     'reports' => [
         'title' => 'Jelentések',
+        'empty' => 'No reports',
+    ],
+    'profiles' => [
+        'empty' => 'No profiles found',
     ],
     'feed' => [
         'title' => 'Hírcsatorna',
@@ -103,6 +105,6 @@ return [
         'deleted' => [
             'title' => 'Törölt hozzászólások',
             'subtitle' => ':count törölt hozzászólás',
-        ]
-    ]
+        ],
+    ],
 ];
