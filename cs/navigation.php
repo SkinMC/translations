@@ -1,5 +1,4 @@
 <?php
-
 return [
     'skins' => 'Vzhledy',
     'avatars' => 'Avatary',
@@ -8,32 +7,17 @@ return [
     'capes' => 'Cibule',
     'servers' => 'Servery',
     'achievement' => 'Úspěch',
-    'armor' => 'Armor stand',
     'banners' => 'Banners',
-
     'logout' => 'Odhlásit se',
     'register' => 'Zaregistrovat se',
     'login' => 'Přihlásit se',
     'about' => 'O aplikaci',
     'contact' => 'Contact',
-    'faqs' => 'Časté dotazy',
-
-    'minecraft_name' => 'Název Minecraftu',
-    'minecraft_uuid' => 'Minecraft UUID',
     'recent_searches' => 'Nedávná hledání',
-    'username' => 'Username',
-    'uuid' => 'UUID',
     'search' => 'Hledat',
     'search_placeholder' => 'Vyzkoušejte',
-    'search_placeholder_uuid' => 'Enter UUID',
     'start_search' => 'Začít hledat',
     'cancel_search' => 'Zrušit',
-    'search_type' => 'Typ hledání',
-    'view_skin' => 'Zobrazit vzhled',
-    'edit_skin' => 'Upravit vzhled',
-    'make_avatar' => 'Vytvořit avatar',
-    'find_heads' => 'Find player heads',
-
     'home' => 'Domů',
     'help' => 'Nápověda',
     'tools' => 'Nástroje a nářadí',
@@ -41,9 +25,6 @@ return [
     'skin_viewer' => 'Prohlížeč skinů',
     'avatar_maker' => 'Výrobce avataru',
     'collections' => 'Sbírky',
-    'popular_skins' => 'Populární skiny',
-    'cartoon_skins' => 'Kartónové kůže',
-    'animal_skins' => 'Kůže zvířat',
     'community' => 'Komunita',
     'imprint' => 'Tisk',
     'cookies' => 'Cookies',
