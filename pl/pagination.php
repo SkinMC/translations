@@ -13,12 +13,12 @@ return [
     |
     */
 
-    'title' => 'Result pages',
+    'title' => '',
     'previous' => 'Poprzedni',
     'next' => 'Następny',
-    'Showing' => 'Showing',
-    'to' => 'to',
-    'of' => 'of',
-    'results' => 'results',
+    'Showing' => '',
+    'to' => '',
+    'of' => '',
+    'results' => '',
 
 ];

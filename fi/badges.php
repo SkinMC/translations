@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'verified' => 'Verified profile',
-    'claimed' => 'Minecraft account linked',
+    'verified' => '',
+    'claimed' => '',
     'role' => [
         'admin' => 'Ylläpitäjä',
         'moderator' => 'Moderaattori',

@@ -2,25 +2,25 @@
 
 return [
     'browse' => 'Selaa',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Modrinth account connected.',
-    'connection_removed' => 'Modrinth account disconnected.',
-    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => '',
+    'connect_description' => '',
+    'connection_saved' => '',
+    'connection_removed' => '',
+    'connection_failed' => '',
+    'connection_cancelled' => '',
+    'connection_unavailable' => '',
+    'connection_taken' => '',
+    'view_skinmc_profile' => '',
+    'close' => '',
+    'download_on_modrinth' => '',
 
     // Types
     'types' => [
         'mod' => 'Modit',
         'shader' => 'Varjostimet',
-        'resourcepack' => 'Resource packs',
+        'resourcepack' => '',
         'modpack' => 'Modipaketit',
-        'datapack' => 'Data packs',
+        'datapack' => '',
         'plugin' => 'Laajennukset',
     ],
 
@@ -36,26 +36,26 @@ return [
     ],
 
     'sort_label' => [
-        'downloads' => 'Most downloaded',
-        'newest' => 'Newest',
-        'updated' => 'Recently updated',
-        'followers' => 'Most followed',
+        'downloads' => '',
+        'newest' => '',
+        'updated' => '',
+        'followers' => '',
     ],
-    'page_n' => 'Page :num',
+    'page_n' => '',
 
     // Page descriptions
     'description' => [
         'browse' => 'Löydä Minecraftin modit, varjostimet ja resurssipaketit',
-        'mod' => 'Find mods that add new ways to play Minecraft.',
-        'shader' => 'Change how Minecraft looks with shaders.',
+        'mod' => '',
+        'shader' => '',
         'resourcepack' => 'Muokkaa Minecraftin ulkoasua resurssipaketeilla ja tekstuureilla',
         'modpack' => 'Etsi kuratoituja modeja, jotka ovat valmiita pelattavaksi yhdessä',
         'datapack' => 'Paranna vanilla Minecraftia datapaketeilla ja mukautetuilla ominaisuuksilla',
-        'plugin' => 'Add features to your Minecraft server with plugins.',
+        'plugin' => '',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects',
+    'search_placeholder' => '',
     'sort_by' => 'Lajittele',
     'game_version' => 'Peliversio',
     'all_versions' => 'Kaikki versiot',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Ympäristö',
     'env_client' => 'Asiakas',
     'env_server' => 'Palvelin',
-    'env_both' => 'Client and server',
+    'env_both' => '',
     'categories' => 'Kategoriat',
-    'filtered_by' => 'Filtered by :category category.',
+    'filtered_by' => '',
 
     // Results
     'no_results' => 'Projekteja ei löytynyt',
-    'try_different_filters' => 'Try a different search or change the filters.',
+    'try_different_filters' => '',
 
     // Project details
     'by' => 'tehnyt',
@@ -105,10 +105,10 @@ return [
     'client' => 'Asiakas',
     'server' => 'Palvelin',
     'links' => 'Linkit',
-    'source_code' => 'Source code',
+    'source_code' => '',
     'issues' => 'Ongelmat',
     'wiki' => 'Wiki',
-    'license' => 'Licence',
+    'license' => '',
     'related' => 'Liittyvät projektit',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'tai',
     'select_game_version' => 'Valitse pelin versio',
     'select_platform' => 'Valitse alusta',
-    'search_versions' => 'Search versions',
-    'search_categories' => 'Search categories',
+    'search_versions' => '',
+    'search_categories' => '',
     'all_platforms' => 'Kaikki alustat',
     'platform' => 'Alusta',
     'no_versions_found' => 'Suodattimia vastaavia versioita ei löytynyt',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Ulkoinen linkki',
-    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
+    'external_link_warning' => '',
     'cancel' => 'Peruuta',
     'continue' => 'Jatka',
 

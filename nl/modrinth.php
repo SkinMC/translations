@@ -2,25 +2,25 @@
 
 return [
     'browse' => 'Browse',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Modrinth account connected.',
-    'connection_removed' => 'Modrinth account disconnected.',
-    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => '',
+    'connect_description' => '',
+    'connection_saved' => '',
+    'connection_removed' => '',
+    'connection_failed' => '',
+    'connection_cancelled' => '',
+    'connection_unavailable' => '',
+    'connection_taken' => '',
+    'view_skinmc_profile' => '',
+    'close' => '',
+    'download_on_modrinth' => '',
 
     // Types
     'types' => [
         'mod' => 'Mods',
         'shader' => 'Shaders',
-        'resourcepack' => 'Resource packs',
+        'resourcepack' => '',
         'modpack' => 'Modpacks',
-        'datapack' => 'Data packs',
+        'datapack' => '',
         'plugin' => 'Plugins',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Ontdek mods, shaders en resource packs voor minecraft',
-        'mod' => 'Find mods that add new ways to play Minecraft.',
-        'shader' => 'Change how Minecraft looks with shaders.',
+        'mod' => '',
+        'shader' => '',
         'resourcepack' => 'Pas je eigen Minecraft look aan met resource packs en texturen',
         'modpack' => 'Vindt samengestelde collecties van mods, klaar om te spelen',
         'datapack' => 'Breid je vanilla Minecraft data packs uit met aangepaste features',
-        'plugin' => 'Add features to your Minecraft server with plugins.',
+        'plugin' => '',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects',
+    'search_placeholder' => '',
     'sort_by' => 'Sorteer bij',
     'game_version' => 'Game versie',
     'all_versions' => 'Alle versies',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Omgeving',
     'env_client' => 'Client',
     'env_server' => 'Server',
-    'env_both' => 'Client and server',
+    'env_both' => '',
     'categories' => 'Categorieën',
     'filtered_by' => 'Gefilterd door :category categorie',
 
     // Results
     'no_results' => 'Geen projecten gevonden',
-    'try_different_filters' => 'Try a different search or change the filters.',
+    'try_different_filters' => '',
 
     // Project details
     'by' => 'door',
@@ -105,10 +105,10 @@ return [
     'client' => 'Client',
     'server' => 'Server',
     'links' => 'Links',
-    'source_code' => 'Source code',
+    'source_code' => '',
     'issues' => 'Problemen',
     'wiki' => 'Wiki',
-    'license' => 'Licence',
+    'license' => '',
     'related' => 'Gerelateerde projecten',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'of',
     'select_game_version' => 'Selecteer game versie',
     'select_platform' => 'Selecteer platform',
-    'search_versions' => 'Search versions',
-    'search_categories' => 'Search categories',
+    'search_versions' => '',
+    'search_categories' => '',
     'all_platforms' => 'Alle platformen',
     'platform' => 'Platform',
     'no_versions_found' => 'Geen versie komt overeen met je filters',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Externe link',
-    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
+    'external_link_warning' => '',
     'cancel' => 'Annuleer',
     'continue' => 'Ga verder',
 

@@ -31,7 +31,7 @@ return [
     ],
     'boolean' => ':attribute måste vara sant eller falskt.',
     'confirmed' => ':attribute bekräftelsen matchar inte.',
-    'current_password' => 'The password is incorrect.',
+    'current_password' => '',
     'date' => ':attribute är inte ett giltigt datum.',
     'date_equals' => ':attribute måste vara ett datum som motsvarar :date.',
     'date_format' => ':attribute matchar inte formatet :format.',
@@ -133,7 +133,7 @@ return [
 
     'custom' => [
         'attribute-name' => [
-            'rule-name' => 'custom-message',
+            'rule-name' => '',
         ],
     ],
 

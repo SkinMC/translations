@@ -2,7 +2,7 @@
 
 return [
     'acceptAllButton' => 'Tümünü Kabul Et',
-    'declineAll' => 'Decline All',
+    'declineAll' => '',
     'save' => 'Kaydet',
     'PopupTitle' => 'Çerez onayı',
     'PopupDescription' => 'SkinMC, işlevsellik ve özellikler sağlamak için çerez bilgilerini kullanır.',

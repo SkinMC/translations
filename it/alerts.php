@@ -11,38 +11,38 @@ return [
     */
     'follower' => [
         'title' => 'Nuovo follower',
-        'text' => ':user is now following you.',
+        'text' => '',
     ],
     'comment' => [
         'new' => [
             'title' => ':model commento',
-            'text' => ':user commented on your :model.',
+            'text' => '',
         ],
         'reply' => [
-            'title' => 'Reply to a :model comment',
-            'text' => ':user replied to a :model comment.',
+            'title' => '',
+            'text' => '',
         ],
         'mention' => [
             'title' => 'Nuova menzione',
-            'text' => ':user mentioned you in a comment.',
+            'text' => '',
         ],
         'like' => [
             'title' => 'Hai messo like al commento',
-            'text' => ':user liked your comment.',
+            'text' => '',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Post liked',
-            'text' => ':user liked your post.',
+            'title' => '',
+            'text' => '',
         ],
         'mention' => [
             'title' => 'Nuova menzione',
-            'text' => ':user mentioned you in their post.',
+            'text' => '',
         ],
         'repost' => [
             'title' => 'Ripubblica',
-            'text' => ':user reposted your post.',
+            'text' => '',
         ],
     ],
     'chat' => [
@@ -51,13 +51,13 @@ return [
             'text' => ':user ti ha inviato un messaggio.',
         ],
         'group_invitation' => [
-            'title' => 'Group chat invitation',
-            'text' => ':user invited you to join the group chat ":group".',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'level' => [
         'up' => [
-            'title' => 'You levelled up!',
+            'title' => '',
             'text' => 'Congratulazioni per aver raggiunto il livello :level!',
         ],
     ],
@@ -69,28 +69,28 @@ return [
     ],
     'skin_editor' => [
         'project_invitation' => [
-            'title' => 'Skin project invitation',
-            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'report' => [
         'created' => [
-            'title' => 'Report received (case :id)',
-            'text' => 'Your report has been sent to our moderation team for review.',
+            'title' => '',
+            'text' => '',
         ],
         'resolved' => [
-            'title' => 'Report reviewed (case :id)',
-            'text' => 'Our moderation team has completed its review and closed your report.',
+            'title' => '',
+            'text' => '',
         ],
         'dismissed' => [
-            'title' => 'Report dismissed (case :id)',
-            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the SkinMC Discord',
-            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'server' => [
@@ -133,15 +133,15 @@ return [
         ],
         'photo_requirement_missing' => [
             'title' => 'Aggiungi altre foto a :server',
-            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
+            'text' => '',
         ],
         'reminder_no_images' => [
             'title' => 'Il tuo elenco server non ha ancora foto',
-            'text' => 'Add photos to complete your server listing.',
+            'text' => '',
         ],
         'reminder_pending_too_long' => [
             'title' => 'La tue inserzione è ancora in attesa di revisione',
-            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
+            'text' => '',
         ],
     ],
     'wallpaper' => [

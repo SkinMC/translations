@@ -42,10 +42,10 @@ return [
     ],
     'reports' => [
         'title' => 'Жалобы',
-        'empty' => 'No reports',
+        'empty' => '',
     ],
     'profiles' => [
-        'empty' => 'No profiles found',
+        'empty' => '',
     ],
     'feed' => [
         'title' => 'Посты в ленте',

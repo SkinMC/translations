@@ -42,10 +42,10 @@ return [
     ],
     'reports' => [
         'title' => 'Segnalazioni',
-        'empty' => 'No reports',
+        'empty' => '',
     ],
     'profiles' => [
-        'empty' => 'No profiles found',
+        'empty' => '',
     ],
     'feed' => [
         'title' => 'Elenco feed',

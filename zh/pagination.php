@@ -13,12 +13,12 @@ return [
     |
     */
 
-    'title' => 'Result pages',
+    'title' => '',
     'previous' => '上一页',
     'next' => '下一页',
-    'Showing' => 'Showing',
-    'to' => 'to',
-    'of' => 'of',
-    'results' => 'results',
+    'Showing' => '',
+    'to' => '',
+    'of' => '',
+    'results' => '',
 
 ];
