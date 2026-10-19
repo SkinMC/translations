@@ -1,5 +1,4 @@
 <?php
-
 return [
     'auth' => [
         'login' => [
@@ -7,31 +6,14 @@ return [
         ],
         'register' => [
             'title' => 'Sign up to SkinMC',
-            'subtitle' => 'Get started and create your account for full access.'
-        ]
+            'subtitle' => 'Get started and create your account for full access.',
+        ],
     ],
-
     'home' => [
-        'hero_slogan' => 'Vaše místo pro Minecraft skiny.',
-        'hero_cta' => 'Překvapte mě',
-        'skin_viewer' => 'Prohlížeč vzhledu',
-        'skin_viewer_detail' => 'Procházet :count skinů',
-        'skin_editor' => 'Editor skinů',
-        'skin_editor_detail' => 'Navrhněte si vlastní vzhled',
         'avatar_maker' => 'Avatar generator',
         'avatar_maker_detail' => 'Generate your custom Minecraft avatar profile pictures.',
         'trending' => 'Populární',
         'minecraft_skin' => 'Minecraft vzhled',
-        'favourite' => 'Oblíbená',
-        'collections' => 'Sbírky',
-        'collections_detail' => 'Upravené vzhledy Minecraftu při každé příležitosti',
-        'about_skinmc' => 'O SkinMC',
-        'about_find' => 'Najít jakýkoliv skin',
-        'about_find_detail' => 'Použijte SkinMC vyhledávání pro jakékoliv uživatelské jméno Minecraftu, zobrazte a stáhněte si další nový skin.',
-        'about_download' => 'Stáhnout nebo upravit',
-        'about_download_detail' => 'Byl nalezen vzhled, který se vám líbí? Přidejte jej k oblíbeným, upravte nebo stáhněte a vytvořte si jej.',
-        'about_platform' => 'Křížová platforma',
-        'about_platform_detail' => 'Chcete vzít vzhled na cestách? Naskenujte QR kód a uložte jej do telefonu pro Minecraft PE.',
         'meta' => [
             'title' => 'Prohlížeč vzhledu Minecraftu',
             'description' => 'Prohlédněte si a stáhněte si Minecraft skiny, objevte nejlepší skiny v spravovaných kolekcích, zkontrolujte dostupnost uživatelského jména a historii a mnohem více!',
@@ -45,15 +27,11 @@ return [
         'head_description' => 'Browse the Minecraft heads database, or create new ones.',
         'achievement' => 'Achievement generator',
         'achievement_detail' => 'Create your own, custom and personalised achievements.',
-        'continue' => 'Continue browsing'
+        'continue' => 'Continue browsing',
     ],
     'profile' => [
-        'verified' => 'Verified profile',
-        'minecraft_profile' => 'Profil Minecraftu',
         'show_qr_code' => 'Show QR code',
-        'favourite' => 'Oblíbená',
         'user_title' => ':username Minecraft skin',
-        'user_views' => 'Zobrazeno :views time|Zobrazeno :views časy',
         'uuid' => 'UUID',
         'copy' => 'Kopírovat',
         'link' => 'Odkaz',
@@ -73,27 +51,21 @@ return [
         'skins' => [
             'meta_title' => ':username Minecraft Skin History',
             'meta_description' => 'View :username Minecraft Skins history and previously used Skins. Use the history to browse through old or past used skins, backup and rollback or collect new skins.',
-            'title' => 'Minecraft Skin history'
-        ]
+            'title' => 'Minecraft Skin history',
+        ],
     ],
     'skin' => [
         'meta' => [
             'title' => ':username Minecraft Skin',
-            'description' => 'Minecraft Skin. Download and view the skin, and see which players are also wearing the same skin.',
             'tags' => ':username Minecraft Skin, :username Skin, Minecraft Skin, :username Custom Minecraft Skin, Download Skin, Players with the same skin',
         ],
-        'title' => ':username Minecraft Skin',
-        'head' => 'Head commands',
-        'head_info' => 'To use with command blocks',
         'first_wearing' => 'First player seen wearing this skin:',
         'profiles' => ':profiles profile|:profiles profiles',
-        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin'
+        'profiles_title' => ':profiles profile with this skin|:profiles profiles with this skin',
     ],
     'skins' => [
         'meta' => [
-            'title' => 'Page :current — All Minecraft Skins',
             'description' => 'Browse through our :last pages list of :total custom Minecraft skins and download your favourite next skin!',
-            'tags' => ':username Minecraft Skin, :username Skin, Minecraft Skin, :username Custom Minecraft Skin, Download Skin, Players with the same skin',
         ],
         'subtitle' => 'Page :current of :last from :total Minecraft Skins',
         'sort_by' => 'Sort by',
@@ -107,18 +79,13 @@ return [
         'this_week' => 'Added this week',
         'today' => 'Added today',
         'random' => 'Random',
-        'similar' => 'Similar skins',
-        'no_similar_skins' => 'No similar skins found yet.'
     ],
     'contact' => [
         'contact' => 'Contact',
-        'email' => 'Please feel free to write us at <a href="mailto:support@skinmc.net">support@skinmc.net</a> for any questions you have.',
-        'faq' => 'We kindly ask to first check out the <a href=":link">FAQ page</a> if your question is already answered there.',
         'other' => 'Other ways to connect',
         'other_discord' => 'Join the Discord server and connect with others, chat about games, share your favourite packs and get help from the community.',
         'other_twitter' => 'Follow on Twitter to see when a new update or feature is released, see the skin of the week and more.',
         'other_instagram' => 'Follow SkinMC on Instagram to browse and discover cool new featured Minecraft Skins and images.',
-        'other_facebook' => 'Become a fan on Facebook and see all posts where you can comment and talk to others while exploring Minecraft content.'
     ],
     'about' => [
         'intro' => '<span>Vaše</span> <span>platforma</span> <span>pro</span> <span>Minecraft</span> <span>skiny.</span>',
@@ -138,15 +105,11 @@ return [
         'card_history_title' => 'Uživatelské jméno a historie vzhledu',
         'card_history_detail' => 'Použijte rozšířené vyhledávání k nalezení a zobrazení uživatelského jména/historie vzhledu hráče.',
         'founders' => 'The founders',
-        'founders_cofounder' => 'Cofounder of SkinMC',
-        'head_of_design' => 'Head of design',
-        'head_of_code' => 'Head of code',
         'feedback' => 'Send us feedback',
         'faq' => 'Questions about Minecraft, Skins, and more? Read our FAQs with answers to most frequently asked questions.',
         'faq_link' => 'Visit FAQ center',
         'contact' => 'Do you want to reach out or have further questions? Contact us directly.',
         'contact_link' => 'Contact us',
-
     ],
     'faq' => [
         'title' => 'Časté dotazy',
@@ -212,23 +175,13 @@ return [
             'avatar_cube' => 'Avatar styl krychle',
         ],
         'user' => [
-            'title' => 'Vyberte vzhled',
-            'subtitle' => 'Zadejte Minecraft uživatelské jméno pro avatar, který chcete vygenerovat',
             'form_label' => 'Minecraft uživatelské jméno',
-            'form_submit' => 'Pokračovat',
         ],
         'output' => [
-            'title' => 'Náhled a uložení',
-            'subtitle' => 'Užívejte si svůj nový Minecraft avatar',
-            'download_info' => 'Šťastné s výsledkem? Začněte používat svůj nový avatar stažením zde',
             'download_button' => 'Stáhnout avatar',
             'avatar_style' => 'Styl avataru',
-            'skin_username' => 'Uživatelské jméno skinu',
-            'change' => 'Změnit',
             'generate' => 'Generovat',
             'avatar_colour' => 'Barva pozadí',
-            'avatar_colour_palette' => 'Palette',
-            'avatar_colour_basic' => 'Základní',
         ],
         'meta' => [
             'title' => 'Generátor Minecraft Avatar',
@@ -244,26 +197,13 @@ return [
             'yellow_text' => 'Žlutý text',
             'white_text' => 'Bílý text',
             'choose_icon' => 'Vybrat ikonu',
-            'face' => 'Obličej Minecraft místo ikony',
             'form_submit' => 'Stáhnout',
-            'form_label' => 'Minecraft uživatelské jméno',
-            'download' => 'Stáhnout',
             'embed' => 'Vložit',
             'embed_copy' => 'Kopírovat',
         ],
         'meta' => [
             'title' => 'Generátor úspěchů Minecraftu',
             'description' => 'Vytvářejte vlastní herní úspěchy a pokroky pomocí tvůrce úspěchů. Stáhněte si obrázek přímo, použijte jej v podpisech fóra, vložte HTML nebo BB kód a více',
-        ],
-    ],
-    'armor' => [
-        'header' => [
-            'title' => 'Minecraft Armor Stand Creator',
-            'subtitle' => 'Generate and create your very own custom Minecraft Armor Stands. Create different poses, positions, place items, and much more.',
-        ],
-        'meta' => [
-            'title' => 'Minecraft Armor Stand Creator',
-            'description' => 'Easily generate and create custom Minecraft Armor Stands. The editor helps you make different poses, positions, place items, custom skins, and much more.',
         ],
     ],
     'banner' => [
@@ -293,37 +233,14 @@ return [
             'title' => 'Search results: :search',
         ],
         'title' => 'Výsledky hledání',
-        'results' => 'Page :current for :count result|Page :current of about :count results ',
-        'time' => '(:time seconds)',
-        'username_available' => 'Uživatelské jméno k dispozici*',
-        'username_unavailable' => 'Uživatelské jméno není k dispozici',
-        'username_status' => 'Stav',
-        'username_status_available' => 'Dostupné*',
-        'username_status_unavailable' => 'Unavailable',
-        'username_searches' => 'Vyhledávání',
-        'username_searches_count' => ':count / den',
-        'username_available_disclaimer' => '*Pokud není jméno dočasně nebo trvale zabanováno Mojangem.',
-        'no_results' => 'No profiles found. Try searching with UUID by changing the search type.',
-        'sorry' => 'Sssssssorry...',
     ],
     'collection' => [
-        'title' => 'Sbírka vzhledu Minecraftu',
-        'subtitle' => 'Procházejte naší upravenou sbírkou Minecraftových skinů.',
         'filters' => 'Filtry',
-        'title_trending' => 'Populární',
         'title_all' => 'Všechny Minecraft vzhledy',
-        'filters_skin_type' => 'Typ skinu',
-        'filter_skin_type_steve' => 'Typ Steve',
-        'filter_skin_type_alex' => 'Alex typ',
         'cancel' => 'Zrušit',
-        'apply' => 'Použít',
-        'username_minecraft_skin' => 'Minecraftový vzhled :username',
-        'user_downloads' => '<span class="fw-500">:downloads</span> ke stažení|<span class="fw-500">:downloads</span> stahování',
     ],
     'favourites' => [
         'title' => 'Oblíbené',
-        'subtitle' => 'Zobrazit a spravovat vzhledy, které jste uložili později v seznamu oblíbených',
-        'sort' => 'Sort by',
         'skins' => [
             'button' => 'Skins',
             'empty_headline' => 'No favourite skins yet',
@@ -342,9 +259,8 @@ return [
             'meta' => [
                 'title' => 'My favourite servers',
                 'description' => 'My favourite Minecraft servers',
-             ],
+            ],
         ],
-
     ],
     'cape' => [
         'list' => [
@@ -356,9 +272,7 @@ return [
             ],
         ],
         'detail' => [
-            'title' => ':cape myš',
             'info' => 'Cape information',
-            'profile_list' => 'Profily s touto kapsou',
             'profiles' => ':profiles profile|:profiles profiles',
             'meta' => [
                 'title' => 'Minecraft Capes seznam',
@@ -370,11 +284,7 @@ return [
         'title' => 'Minecraft servery',
         'subtitle' => 'Procházet a prozkoumat minecraft servery',
         'filters' => [
-            'trending' => 'Populární',
             'updated' => 'Aktualizováno',
-            'new' => 'Nové',
-            'most_viewed' => 'Nejvíce zobrazené',
-            'top_voted' => 'Nejvíce hlasováno'
         ],
         'meta' => [
             'title' => 'Seznam Minecraft serverů',
@@ -386,8 +296,6 @@ return [
             'title' => 'Import Skin',
             'import_by_username' => 'Import by username',
             'import_button' => 'Import',
-            'drag' => 'Drag and drop a skin here, or click',
-            'click' => 'Select image'
         ],
         'saved' => 'Naposledy uložené',
         'saving' => 'Automatické ukládání...',
@@ -395,7 +303,6 @@ return [
         'layers' => 'Vrstvy',
         'body' => [
             'title' => 'Tělo',
-            'overlay' => 'Overlay',
             'head' => 'Hlava',
             'torso' => 'trup',
             'l_arm' => 'Levá paže',
@@ -414,38 +321,23 @@ return [
             'hug' => 'Podložka T',
             'fly' => 'Létání',
         ],
-        'grid' => 'Mřížka',
         'show_grid' => 'Zobrazit mřížku',
         'download' => [
-            'title' => 'Uložit a stáhnout',
-            'subtitle' => 'SkinMC účet',
-            'description' => 'Chcete vytvořit bezplatný SkinMC účet, abyste ušetřili váš skin a budoucí do cloudu?',
-            'start_description' => 'Spustit stahování přímo bez uložení do cloudu',
             'start' => 'Stáhnout skin',
         ],
     ],
     'account' => [
         'settings' => [
             'title' => 'Účet',
-            'show_profile' => 'Přejít na profil',
-            'friends' => 'Přátelé',
-            'friends_detail' => 'Zůstaňte připojeni pomocí seznamu přátel na SkinMC.',
-            'security' => 'Zabezpečení',
-            'security_detail' => 'Aktualizujte své přihlašovací heslo a udržujte svůj účet v bezpečí',
-            'social' => 'Účty na sociálních sítích',
-            'social_detail' => 'Přizpůsobte si svůj profil přidáním sociálních médií',
             'link' => 'Propojit Minecraft účet',
             'link_detail' => 'Propojte svůj Minecraft účet a požádejte o svůj profil.',
             'logout' => 'Chcete se odhlásit z vašeho SkinMC účtu?',
         ],
-        'welcome' => 'Nice to see you!',
         'view-profile' => 'View my profile',
         'security' => [
-            'title' => 'Zabezpečení',
             'email' => 'E-mailová adresa',
             'email-title' => 'Update your email address.',
             'save' => 'Uložit',
-            'password' => 'Heslo',
             'password-title' => 'Change your password at any time.',
             'current-password' => 'Current password',
             'forgot' => 'Forgot password?',
@@ -453,7 +345,6 @@ return [
         ],
         'social' => [
             'title' => 'Účty sociálních sítí',
-            'edit' => 'Upravit',
             'save' => 'Uložit',
             'link-account' => 'Link your Minecraft account to SkinMC to display your social links on your profile.',
             'finish-setup' => 'Finish setup',
@@ -478,11 +369,8 @@ return [
             'facebook' => 'Enter your Facebook username to display your Facebook profile on your profile.',
         ],
         'recover' => [
-            'title' => 'Obnovit svůj účet',
-            'subtitle' => 'Zadejte své nové heslo a potvrďte ho pro dokončení obnovování účtu.',
             'new_password' => 'Nové heslo',
             'repeat_new_password' => 'Opakovat nové heslo',
-            'submit' => 'Obnovit účet',
         ],
         'customise' => [
             'title' => 'Customise your profile',
@@ -497,10 +385,9 @@ return [
                 'title' => 'About me',
                 'description' => 'Write a bio for your profile.',
             ],
-            'emoji' => 'Emoji'
+            'emoji' => 'Emoji',
         ],
         'link' => [
-            'manage' => 'Manage linked Minecraft account',
             'description' => 'See and manage your linked Minecraft account',
             'title' => 'Linked Minecraft account',
             'current' => 'Currently linked Minecraft account.',
@@ -522,53 +409,26 @@ return [
             'social' => 'Add social links',
             'comment' => 'Access to comment system',
             'badge' => 'Badge displayed on your profile',
-            'more' => 'And more...'
+            'more' => 'And more...',
         ],
         'skins' => [
-            'title' => 'Manage Skins'
+            'title' => 'Manage Skins',
         ],
     ],
     'notifications' => [
         'title' => 'Notifications',
         'view_all' => 'View all',
-        'empty_title' => 'You\'re up to date!',
-        'empty_subtitle' => 'New notifications will show up here.',
     ],
     'error' => [
         'offline' => [
             'title' => 'No internet',
             'subtitle' => 'Your internet was disconnected. Please check your connection and reload the page to try again.',
-            'try_again' => 'Try again'
+            'try_again' => 'Try again',
         ],
         '404' => [
             'title' => '404 — Page not found.',
             'subtitle' => 'Hm, it looks like nothing was found at this location. Maybe try going back, or start a new search?',
-            'try_again' => 'Back home'
-        ],
-    ],
-    'heads' => [
-        'list' => [
-            'meta' => [
-                'title' => 'Minecraft heads database',
-                'description' => 'Explore the database of Minecraft heads to decorate your world with, or generate your own give command. View official heads, player heads and custom heads that feature textures which never change.'
-            ],
-            'header' => [
-                'title' => 'Minecraft heads',
-                'subtitle' => 'Explore our database of Minecraft heads to decorate your world, or generate your own give command. Player heads show the current skin worn by a user, and can change as the user updates their skin. Custom heads are linked to the Mojang skin file and never change. Custom heads must be summoned using a command block as the command is very long.',
-            ],
-            'count' => [
-                'heads' => ':heads head|:heads heads',
-            ],
-            'customheads' => [
-                'title' => 'Custom heads',
-                'description' => 'Custom heads use the direct path to the texture file on the Mojang servers. Hence textures will never be deleted and the heads never change.',
-                'version' => 'Minecraft 1.8 or later',
-            ],
-            'playerheads' => [
-                'title' => 'Player heads',
-                'description' => 'Player heads use the current skin texture of a Minecraft player. As they are username based, when the player changes their name or skin, the head changes.',
-                'version' => 'All Minecraft versions',
-            ]
+            'try_again' => 'Back home',
         ],
     ],
 ];
