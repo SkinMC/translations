@@ -1,7 +1,5 @@
 <?php
-
 return [
-
     'login' => [
         'title' => 'Přihlásit se',
         'email' => 'E-mailová adresa',
@@ -13,7 +11,6 @@ return [
         'signup' => 'Zaregistrovat se',
         'google' => 'Pokračovat pomocí Google',
         'facebook' => 'Pokračovat pomocí Facebooku',
-        'twitter' => 'Pokračovat pomocí Twitteru',
         'divider' => 'NEBO',
     ],
     'signup' => [
@@ -35,14 +32,12 @@ return [
     ],
     'profile_qrcode' => [
         'title' => 'Scan QR code',
-        'done' => 'Hotovo',
     ],
     'language' => [
-        'title' => 'Jazyk',
         'description' => 'Vyberte svůj jazyk',
         'contribute' => 'Přispějte',
         'contribute_add' => 'Přidat překlad',
-        'updated' => 'Your language has been set'
+        'updated' => 'Your language has been set',
     ],
-    'copied' => 'Copied to clipboard!'
+    'copied' => 'Copied to clipboard!',
 ];
