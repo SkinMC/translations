@@ -22,68 +22,68 @@ return [
 
     'patterns' => [
         // Base (solid background) – game: "Fully :color Field"
-        'base' => 'Fully :color Field',
+        'base' => '',
 
         // Stripes
-        'bs' => 'Base',           // stripe_bottom
-        'ts' => 'Chief',         // stripe_top
-        'ls' => 'Pale Dexter',   // stripe_left
-        'rs' => 'Pale Sinister', // stripe_right
-        'cs' => 'Pale',          // stripe_center
-        'ms' => 'Fess',          // stripe_middle
-        'drs' => 'Bend',         // stripe_downright
-        'dls' => 'Bend Sinister', // stripe_downleft
-        'ss' => 'Paly',          // small_stripes
+        'bs' => '',           // stripe_bottom
+        'ts' => '',         // stripe_top
+        'ls' => '',   // stripe_left
+        'rs' => '', // stripe_right
+        'cs' => '',          // stripe_center
+        'ms' => '',          // stripe_middle
+        'drs' => '',         // stripe_downright
+        'dls' => '', // stripe_downleft
+        'ss' => '',          // small_stripes
 
         // Crosses
-        'cr' => 'Cross',
-        'sc' => 'Saltire',       // straight_cross
+        'cr' => '',
+        'sc' => '',       // straight_cross
 
         // Diagonals
-        'ld' => 'Per Bend Sinister',       // diagonal_left
-        'rd' => 'Per Bend',                // diagonal_up_right (stripe_downright diagonal)
-        'lud' => 'Per Bend Inverted',      // diagonal_up_left
-        'rud' => 'Per Bend Sinister Inverted', // diagonal_right
+        'ld' => '',       // diagonal_left
+        'rd' => '',                // diagonal_up_right (stripe_downright diagonal)
+        'lud' => '',      // diagonal_up_left
+        'rud' => '', // diagonal_right
 
         // Halves
-        'vh' => 'Per Pale',              // half_vertical
-        'vhr' => 'Per Pale Inverted',   // half_vertical_right
-        'hh' => 'Per Fess',              // half_horizontal
-        'hhb' => 'Per Fess Inverted',   // half_horizontal_bottom
+        'vh' => '',              // half_vertical
+        'vhr' => '',   // half_vertical_right
+        'hh' => '',              // half_horizontal
+        'hhb' => '',   // half_horizontal_bottom
 
         // Squares (cantons)
-        'bl' => 'Base Dexter Canton',    // square_bottom_left
-        'br' => 'Base Sinister Canton', // square_bottom_right
-        'tl' => 'Chief Dexter Canton',  // square_top_left
-        'tr' => 'Chief Sinister Canton', // square_top_right
+        'bl' => '',    // square_bottom_left
+        'br' => '', // square_bottom_right
+        'tl' => '',  // square_top_left
+        'tr' => '', // square_top_right
 
         // Triangles
-        'bt' => 'Chevron',           // triangle_bottom
-        'tt' => 'Inverted Chevron',  // triangle_top
-        'bts' => 'Base Indented',   // triangles_bottom
-        'tts' => 'Chief Indented',  // triangles_top
+        'bt' => '',           // triangle_bottom
+        'tt' => '',  // triangle_top
+        'bts' => '',   // triangles_bottom
+        'tts' => '',  // triangles_top
 
         // Shapes
-        'mc' => 'Roundel',   // circle
-        'mr' => 'Lozenge',   // rhombus
+        'mc' => '',   // circle
+        'mr' => '',   // rhombus
 
         // Borders
-        'bo' => 'Bordure',           // border
-        'cbo' => 'Bordure Indented', // curly_border
-        'bri' => 'Field Masoned',    // bricks
+        'bo' => '',           // border
+        'cbo' => '', // curly_border
+        'bri' => '',    // bricks
 
         // Gradients
-        'gra' => 'Gradient',     // gradient
-        'gru' => 'Base Gradient', // gradient_up
+        'gra' => '',     // gradient
+        'gru' => '', // gradient_up
 
         // Charges (creatures / objects)
-        'cre' => 'Creeper Charge', // creeper
-        'sku' => 'Skull Charge',   // skull
-        'flo' => 'Flower Charge', // flower
-        'moj' => 'Thing',         // mojang
-        'glb' => 'Globe',         // globe
-        'pig' => 'Snout',         // piglin
-        'flow' => 'Flow',
-        'guster' => 'Guster',
+        'cre' => '', // creeper
+        'sku' => '',   // skull
+        'flo' => '', // flower
+        'moj' => '',         // mojang
+        'glb' => '',         // globe
+        'pig' => '',         // piglin
+        'flow' => '',
+        'guster' => '',
     ],
 ];

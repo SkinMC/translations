@@ -42,10 +42,10 @@ return [
     ],
     'reports' => [
         'title' => 'Signaler',
-        'empty' => 'No reports',
+        'empty' => '',
     ],
     'profiles' => [
-        'empty' => 'No profiles found',
+        'empty' => '',
     ],
     'feed' => [
         'title' => 'Publications du flux',

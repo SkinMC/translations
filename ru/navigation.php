@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'site_menu' => 'SkinMC menu',
-    'close_menu' => 'Close menu',
-    'unread_updates' => 'Unread notifications or messages',
-    'feed_navigation' => 'Feed navigation',
-    'more_feed' => 'More in the feed',
-    'more' => 'More',
+    'site_menu' => '',
+    'close_menu' => '',
+    'unread_updates' => '',
+    'feed_navigation' => '',
+    'more_feed' => '',
+    'more' => '',
     'skins' => 'Скины',
     'skins_profile' => 'Профиль скинов',
     'skins_profile_subtitle' => 'Скины из профилей Minecraft',
@@ -26,9 +26,9 @@ return [
     'servers' => 'Серверы',
     'achievement' => 'Достижения',
     'banners' => 'Баннеры',
-    'banner' => 'Banner editor',
-    'banner_gallery' => 'Banner gallery',
-    'cape_editor' => 'Cape editor',
+    'banner' => '',
+    'banner_gallery' => '',
+    'cape_editor' => '',
     'profile' => 'Мой профиль',
     'wallpapers' => 'Обои',
 
@@ -37,9 +37,9 @@ return [
     'discover' => 'Исследуйте',
     'mods' => 'Моды',
     'shaders' => 'Шейдеры',
-    'resource_packs' => 'Resource packs',
+    'resource_packs' => '',
     'modpacks' => 'Модпаки',
-    'datapacks' => 'Data packs',
+    'datapacks' => '',
     'plugins' => 'Плагины',
 
     'logout' => 'Выйти',
@@ -56,7 +56,7 @@ return [
     'cancel_search' => 'Отмена',
     'search_type_all' => 'Все результаты',
     'profiles' => 'Профили',
-    'no_results_found' => 'No suggestions found. Press Enter to search.',
+    'no_results_found' => '',
 
     'home' => 'Главная страница',
     'help' => 'Справка',
@@ -75,8 +75,8 @@ return [
     'new' => 'Новые',
 
     'status' => 'Статус',
-    'recent_searches_placeholder' => 'Your recent searches will appear here.',
-    'recent_views_placeholder' => 'Profiles you visit will appear here.',
+    'recent_searches_placeholder' => '',
+    'recent_views_placeholder' => '',
     'moderate' => 'Модерировать',
     'listings' => 'Списки',
     'add' => 'Добавить',
@@ -86,9 +86,9 @@ return [
         'profile' => 'Профиль',
         'server' => 'Сервер',
         'project' => 'Проект',
-        'skin_tag' => 'Skin tag',
-        'server_category' => 'Server category',
-        'modrinth_category' => 'Project category',
+        'skin_tag' => '',
+        'server_category' => '',
+        'modrinth_category' => '',
     ],
 
     'theme' => [

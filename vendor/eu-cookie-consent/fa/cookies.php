@@ -2,7 +2,7 @@
 
 return [
     'acceptAllButton' => 'قبول کردن همه',
-    'declineAll' => 'Decline All',
+    'declineAll' => '',
     'save' => 'ذخيره',
     'PopupTitle' => 'رضایت کوکی',
     'PopupDescription' => 'اسکین ام سی از کوکی ها برای ارائه عملکرد و ویژگی ها استفاده می کند.',
@@ -27,8 +27,8 @@ return [
     'microsoftClarity' => 'Microsoft Clarity',
 
     'googleOneTap' => 'ورود با گوگل',
-    'googleOneTap_description' => 'These cookies allow functionality from Sign in with Google to quickly sign in or create an account with Google. Data from Sign in with Google is only used for security purposes.',
+    'googleOneTap_description' => '',
 
     'facebookLogin' => 'ورود با حساب Facebook',
-    'facebookLogin_description' => 'These cookies allow functionality from Sign in with Facebook to quickly sign in or create an account with Facebook.',
+    'facebookLogin_description' => '',
 ];

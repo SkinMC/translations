@@ -2,25 +2,25 @@
 
 return [
     'browse' => 'Parcourir',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Modrinth account connected.',
-    'connection_removed' => 'Modrinth account disconnected.',
-    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => '',
+    'connect_description' => '',
+    'connection_saved' => '',
+    'connection_removed' => '',
+    'connection_failed' => '',
+    'connection_cancelled' => '',
+    'connection_unavailable' => '',
+    'connection_taken' => '',
+    'view_skinmc_profile' => '',
+    'close' => '',
+    'download_on_modrinth' => '',
 
     // Types
     'types' => [
         'mod' => 'Mods',
         'shader' => 'Shaders',
-        'resourcepack' => 'Resource packs',
+        'resourcepack' => '',
         'modpack' => 'Modpacks',
-        'datapack' => 'Data packs',
+        'datapack' => '',
         'plugin' => 'Plugins',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Découvrez des mods, shaders et packs de ressources pour Minecraft',
-        'mod' => 'Find mods that add new ways to play Minecraft.',
-        'shader' => 'Change how Minecraft looks with shaders.',
+        'mod' => '',
+        'shader' => '',
         'resourcepack' => 'Personnalisez l\'apparence de votre Minecraft avec les packs de ressources',
         'modpack' => 'Trouver des collections de mods prêtes pour êtres jouées ensemble',
         'datapack' => 'Améliorez Minecraft Vanilla avec des datapacks et des fonctionnalités personnalisées',
-        'plugin' => 'Add features to your Minecraft server with plugins.',
+        'plugin' => '',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects',
+    'search_placeholder' => '',
     'sort_by' => 'Trier par',
     'game_version' => 'Versions du Jeu',
     'all_versions' => 'Toutes les versions',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Environnement',
     'env_client' => 'Client',
     'env_server' => 'Serveur',
-    'env_both' => 'Client and server',
+    'env_both' => '',
     'categories' => 'Catégories',
     'filtered_by' => 'Filtré par catégorie :category category.',
 
     // Results
     'no_results' => 'Aucun projet trouvé',
-    'try_different_filters' => 'Try a different search or change the filters.',
+    'try_different_filters' => '',
 
     // Project details
     'by' => 'par',
@@ -105,10 +105,10 @@ return [
     'client' => 'Client',
     'server' => 'Serveur',
     'links' => 'Liens',
-    'source_code' => 'Source code',
+    'source_code' => '',
     'issues' => 'Bugs',
     'wiki' => 'Wiki',
-    'license' => 'Licence',
+    'license' => '',
     'related' => 'Projets associés',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'ou',
     'select_game_version' => 'Sélectionnez la version du jeu',
     'select_platform' => 'Sélectionnez la Plateforme',
-    'search_versions' => 'Search versions',
-    'search_categories' => 'Search categories',
+    'search_versions' => '',
+    'search_categories' => '',
     'all_platforms' => 'Toutes les plateformes',
     'platform' => 'Plateforme',
     'no_versions_found' => 'Aucune version ne correspond à vos filtres',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Lien externe',
-    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
+    'external_link_warning' => '',
     'cancel' => 'Annuler',
     'continue' => 'Continuer',
 

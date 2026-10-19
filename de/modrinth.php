@@ -2,25 +2,25 @@
 
 return [
     'browse' => 'Stöbern',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Modrinth account connected.',
-    'connection_removed' => 'Modrinth account disconnected.',
-    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => '',
+    'connect_description' => '',
+    'connection_saved' => '',
+    'connection_removed' => '',
+    'connection_failed' => '',
+    'connection_cancelled' => '',
+    'connection_unavailable' => '',
+    'connection_taken' => '',
+    'view_skinmc_profile' => '',
+    'close' => '',
+    'download_on_modrinth' => '',
 
     // Types
     'types' => [
         'mod' => 'Mods',
         'shader' => 'Shader',
-        'resourcepack' => 'Resource packs',
+        'resourcepack' => '',
         'modpack' => 'Modpacks',
-        'datapack' => 'Data packs',
+        'datapack' => '',
         'plugin' => 'Plug-Ins',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Entdecke Mods, Shader und Ressourcenpakete für Minecraft',
-        'mod' => 'Find mods that add new ways to play Minecraft.',
-        'shader' => 'Change how Minecraft looks with shaders.',
+        'mod' => '',
+        'shader' => '',
         'resourcepack' => 'Passe dein Minecraft-Aussehen mit Ressourcenpaketen und Texturen an',
         'modpack' => 'Du findest hier eine Auswahl an Mods, die du direkt zusammen spielen kannst',
         'datapack' => 'Du kannst das normale Minecraft mit Datenpaketen und benutzerdefinierten Funktionen aufpeppen',
-        'plugin' => 'Add features to your Minecraft server with plugins.',
+        'plugin' => '',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects',
+    'search_placeholder' => '',
     'sort_by' => 'Sortieren nach',
     'game_version' => 'Spielversionen',
     'all_versions' => 'Alle Versionen',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Umgebung',
     'env_client' => 'Client',
     'env_server' => 'Server',
-    'env_both' => 'Client and server',
+    'env_both' => '',
     'categories' => 'Kategorien',
     'filtered_by' => 'Gefiltert nach :category Kategorie.',
 
     // Results
     'no_results' => 'Keine Projekte gefunden',
-    'try_different_filters' => 'Try a different search or change the filters.',
+    'try_different_filters' => '',
 
     // Project details
     'by' => 'von',
@@ -105,10 +105,10 @@ return [
     'client' => 'Client',
     'server' => 'Server',
     'links' => 'Links',
-    'source_code' => 'Source code',
+    'source_code' => '',
     'issues' => 'Issues',
     'wiki' => 'Wiki',
-    'license' => 'Licence',
+    'license' => '',
     'related' => 'Ähnliche Projekte',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'oder',
     'select_game_version' => 'Spielversion auswählen',
     'select_platform' => 'Plattform wählen',
-    'search_versions' => 'Search versions',
-    'search_categories' => 'Search categories',
+    'search_versions' => '',
+    'search_categories' => '',
     'all_platforms' => 'Alle Plattformen',
     'platform' => 'Plattform',
     'no_versions_found' => 'Keine Versionen passen zu deinen Filtern',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Externer Link',
-    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
+    'external_link_warning' => '',
     'cancel' => 'Abbrechen',
     'continue' => 'Fortfahren',
 

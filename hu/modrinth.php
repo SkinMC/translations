@@ -2,25 +2,25 @@
 
 return [
     'browse' => 'Böngészés',
-    'connect_account' => 'Connect Modrinth',
-    'connect_description' => 'Connect your Modrinth account to display it on your profile and link your projects to your Minecraft profile. You will be taken to Modrinth to confirm ownership.',
-    'connection_saved' => 'Modrinth account connected.',
-    'connection_removed' => 'Modrinth account disconnected.',
-    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
-    'connection_cancelled' => 'Modrinth connection cancelled.',
-    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
-    'connection_taken' => 'This Modrinth account is already connected to another SkinMC account.',
-    'view_skinmc_profile' => 'View SkinMC profile',
-    'close' => 'Close',
-    'download_on_modrinth' => 'Download on Modrinth',
+    'connect_account' => '',
+    'connect_description' => '',
+    'connection_saved' => '',
+    'connection_removed' => '',
+    'connection_failed' => '',
+    'connection_cancelled' => '',
+    'connection_unavailable' => '',
+    'connection_taken' => '',
+    'view_skinmc_profile' => '',
+    'close' => '',
+    'download_on_modrinth' => '',
 
     // Types
     'types' => [
         'mod' => 'Modok',
         'shader' => 'Shaderek',
-        'resourcepack' => 'Resource packs',
+        'resourcepack' => '',
         'modpack' => 'Modcsomagok',
-        'datapack' => 'Data packs',
+        'datapack' => '',
         'plugin' => 'Pluginok',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Fedezz fel modokat, shadereket, és erőforráscsomagokat a Minecrafthoz',
-        'mod' => 'Find mods that add new ways to play Minecraft.',
-        'shader' => 'Change how Minecraft looks with shaders.',
+        'mod' => '',
+        'shader' => '',
         'resourcepack' => 'Szabd testre a Minecraftod megjelenését erőforráscsomagokkal',
         'modpack' => 'Találj válogatott mod‑gyűjteményeket, amelyeket készen állsz együtt játszani',
         'datapack' => 'Fokozd az alap Minecraftod adatcsomagokkal és saját funkciókkal',
-        'plugin' => 'Add features to your Minecraft server with plugins.',
+        'plugin' => '',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects',
+    'search_placeholder' => '',
     'sort_by' => 'Rendezés',
     'game_version' => 'Játék verziója',
     'all_versions' => 'Összes verzió',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Környezet',
     'env_client' => 'Kliens',
     'env_server' => 'Szerver',
-    'env_both' => 'Client and server',
+    'env_both' => '',
     'categories' => 'Kategóriák',
     'filtered_by' => 'Szűrve :category kategória által.',
 
     // Results
     'no_results' => 'Nem találtunk projekteket',
-    'try_different_filters' => 'Try a different search or change the filters.',
+    'try_different_filters' => '',
 
     // Project details
     'by' => 'által',
@@ -105,10 +105,10 @@ return [
     'client' => 'Kliens',
     'server' => 'Szerver',
     'links' => 'Linkek',
-    'source_code' => 'Source code',
+    'source_code' => '',
     'issues' => 'Hibák',
     'wiki' => 'Wiki',
-    'license' => 'Licence',
+    'license' => '',
     'related' => 'Kapcsolódó projektek',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'vagy',
     'select_game_version' => 'Válassz játékverziót',
     'select_platform' => 'Válassz platformot',
-    'search_versions' => 'Search versions',
-    'search_categories' => 'Search categories',
+    'search_versions' => '',
+    'search_categories' => '',
     'all_platforms' => 'Összes platform',
     'platform' => 'Platform',
     'no_versions_found' => 'Egyik verzió sem egyezik a filtereiddel',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Külsős link',
-    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
+    'external_link_warning' => '',
     'cancel' => 'Megszakítás',
     'continue' => 'Folytatás',
 

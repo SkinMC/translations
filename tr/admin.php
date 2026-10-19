@@ -42,10 +42,10 @@ return [
     ],
     'reports' => [
         'title' => 'Şikayetler',
-        'empty' => 'No reports',
+        'empty' => '',
     ],
     'profiles' => [
-        'empty' => 'No profiles found',
+        'empty' => '',
     ],
     'feed' => [
         'title' => 'Akış gönderileri',
@@ -90,13 +90,13 @@ return [
             'reason_placeholder' => 'Neden (Opsiyonel)',
             'set_winner' => 'Kazananı ayarla',
             'selected' => 'Seçili',
-            'no_entries' => 'No eligible challenge entries for :month.',
+            'no_entries' => '',
             'unknown_creator' => 'Bilinmeyen yapımcı',
             'unknown_user' => 'Bilinmeyen',
             'system_user' => 'Sistem',
-            'flash_saved' => 'Challenge winner saved.',
-            'flash_cleared' => 'Challenge winner cleared.',
-            'flash_none_to_clear' => 'No winner was set for this month.',
+            'flash_saved' => '',
+            'flash_cleared' => '',
+            'flash_none_to_clear' => '',
         ],
     ],
     'comments' => [

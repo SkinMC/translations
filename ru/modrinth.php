@@ -4,11 +4,11 @@ return [
     'browse' => 'Просмотр',
     'connect_account' => 'Привязать Modrinth',
     'connect_description' => 'Привяжите свой аккаунт Modrinth, чтобы отображать его в профиле и связать свои проекты с профилем Minecraft. Для подтверждения владения вы будете перенаправлены на Modrinth.',
-    'connection_saved' => 'Modrinth account connected.',
-    'connection_removed' => 'Modrinth account disconnected.',
-    'connection_failed' => 'Couldn’t connect your Modrinth account. Try again.',
+    'connection_saved' => '',
+    'connection_removed' => '',
+    'connection_failed' => '',
     'connection_cancelled' => 'Подключение Modrinth отменено.',
-    'connection_unavailable' => 'Modrinth account connections are unavailable. Try again later.',
+    'connection_unavailable' => '',
     'connection_taken' => 'Данный аккаунт Modrinth уже привязан к другому аккаунту SkinMC.',
     'view_skinmc_profile' => 'Просмотр SkinMC профиля',
     'close' => 'Закрыть',
@@ -18,9 +18,9 @@ return [
     'types' => [
         'mod' => 'Моды',
         'shader' => 'Шейдеры',
-        'resourcepack' => 'Resource packs',
+        'resourcepack' => '',
         'modpack' => 'Модпаки',
-        'datapack' => 'Data packs',
+        'datapack' => '',
         'plugin' => 'Плагины',
     ],
 
@@ -46,16 +46,16 @@ return [
     // Page descriptions
     'description' => [
         'browse' => 'Откройте для себя моды, шейдеры и пакеты ресурсов для Minecraft',
-        'mod' => 'Find mods that add new ways to play Minecraft.',
-        'shader' => 'Change how Minecraft looks with shaders.',
+        'mod' => '',
+        'shader' => '',
         'resourcepack' => 'Настройте свой внешний вид в Minecraft с помощью пакетов ресурсов и текстур',
         'modpack' => 'Найдите тщательно подобранные коллекции модификаций, готовых к совместной игре',
         'datapack' => 'Улучшайте классическую версию Minecraft с помощью пакетов данных и настраиваемых функций',
-        'plugin' => 'Add features to your Minecraft server with plugins.',
+        'plugin' => '',
     ],
 
     // Filters & Search
-    'search_placeholder' => 'Search projects',
+    'search_placeholder' => '',
     'sort_by' => 'Сортировать по',
     'game_version' => 'Версия игры',
     'all_versions' => 'Все версии',
@@ -71,13 +71,13 @@ return [
     'environment' => 'Среда',
     'env_client' => 'Клиент',
     'env_server' => 'Сервер',
-    'env_both' => 'Client and server',
+    'env_both' => '',
     'categories' => 'Категории',
     'filtered_by' => 'Отфильтровано по :category.',
 
     // Results
     'no_results' => 'Проекты не найдены',
-    'try_different_filters' => 'Try a different search or change the filters.',
+    'try_different_filters' => '',
 
     // Project details
     'by' => 'автор',
@@ -105,10 +105,10 @@ return [
     'client' => 'Клиент',
     'server' => 'Сервер',
     'links' => 'Ссылки',
-    'source_code' => 'Source code',
+    'source_code' => '',
     'issues' => 'Проблемы',
     'wiki' => 'Вики',
-    'license' => 'Licence',
+    'license' => '',
     'related' => 'Связанные проекты',
 
     // Versions
@@ -122,8 +122,8 @@ return [
     'or' => 'или',
     'select_game_version' => 'Выберите версию игры',
     'select_platform' => 'Выбрать платформу',
-    'search_versions' => 'Search versions',
-    'search_categories' => 'Search categories',
+    'search_versions' => '',
+    'search_categories' => '',
     'all_platforms' => 'Все платформы',
     'platform' => 'Платформа',
     'no_versions_found' => 'Нет версий, соответствующих вашим фильтрам',
@@ -132,7 +132,7 @@ return [
 
     // External links
     'external_link' => 'Внешняя ссылка',
-    'external_link_warning' => 'This link opens another website. Only continue if you trust it.',
+    'external_link_warning' => '',
     'cancel' => 'Отмена',
     'continue' => 'Продолжить',
 

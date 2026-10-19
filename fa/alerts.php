@@ -11,150 +11,150 @@ return [
     */
     'follower' => [
         'title' => 'دنبال کننده جدید',
-        'text' => ':user is now following you.',
+        'text' => '',
     ],
     'comment' => [
         'new' => [
             'title' => 'نظر مدل',
-            'text' => ':user commented on your :model.',
+            'text' => '',
         ],
         'reply' => [
-            'title' => 'Reply to a :model comment',
-            'text' => ':user replied to a :model comment.',
+            'title' => '',
+            'text' => '',
         ],
         'mention' => [
-            'title' => 'New mention',
-            'text' => ':user mentioned you in a comment.',
+            'title' => '',
+            'text' => '',
         ],
         'like' => [
-            'title' => 'Comment liked',
-            'text' => ':user liked your comment.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'post' => [
         'like' => [
-            'title' => 'Post liked',
-            'text' => ':user liked your post.',
+            'title' => '',
+            'text' => '',
         ],
         'mention' => [
             'title' => 'اشاره جدید',
-            'text' => ':user mentioned you in their post.',
+            'text' => '',
         ],
         'repost' => [
-            'title' => 'Repost',
-            'text' => ':user reposted your post.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'chat' => [
         'new_message' => [
-            'title' => 'New message',
-            'text' => ':user sent you a message.',
+            'title' => '',
+            'text' => '',
         ],
         'group_invitation' => [
-            'title' => 'Group chat invitation',
-            'text' => ':user invited you to join the group chat ":group".',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'level' => [
         'up' => [
-            'title' => 'You levelled up!',
-            'text' => 'Congratulations on reaching level :level!',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'board' => [
         'collaborator_added' => [
-            'title' => 'Added to a board',
-            'text' => ':user added you as a collaborator to the board ":board".',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'skin_editor' => [
         'project_invitation' => [
-            'title' => 'Skin project invitation',
-            'text' => ':user invited you to edit ":project". Open the invitation to join.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'report' => [
         'created' => [
-            'title' => 'Report received (case :id)',
-            'text' => 'Your report has been sent to our moderation team for review.',
+            'title' => '',
+            'text' => '',
         ],
         'resolved' => [
-            'title' => 'Report reviewed (case :id)',
-            'text' => 'Our moderation team has completed its review and closed your report.',
+            'title' => '',
+            'text' => '',
         ],
         'dismissed' => [
-            'title' => 'Report dismissed (case :id)',
-            'text' => 'Our moderation team reviewed your report and took no action. If something was missed, report the specific content and include details to help us review it.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'system' => [
         'discord_invite' => [
-            'title' => 'Join the SkinMC Discord',
-            'text' => 'Meet other Minecraft players in the SkinMC Discord server.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'server' => [
         'review_received' => [
             'title' => 'نظر جدید در :server',
-            'text' => 'Your listing ":server" received a new review (:rating/5).',
+            'text' => '',
         ],
         'low_rating' => [
-            'title' => 'Rating dropped for :server',
-            'text' => 'Your average rating is now :rating/5 across :reviews reviews. Consider reviewing feedback in Insights.',
+            'title' => '',
+            'text' => '',
         ],
         'vote_milestone' => [
-            'title' => 'Vote milestone reached',
-            'text' => ':server reached :votes votes in the last 30 days.',
+            'title' => '',
+            'text' => '',
         ],
         'approved' => [
-            'title' => ':server was approved',
-            'text' => 'Your listing passed review and is now eligible to go live once all requirements are met.',
+            'title' => '',
+            'text' => '',
         ],
         'unapproved' => [
-            'title' => ':server needs updates',
-            'text' => 'Your listing was moved out of approved status. Review your listing details and update as needed.',
+            'title' => '',
+            'text' => '',
         ],
         'published' => [
-            'title' => ':server is now live',
-            'text' => 'Your listing is published and visible on the server list.',
+            'title' => '',
+            'text' => '',
         ],
         'unpublished' => [
-            'title' => ':server was unpublished',
-            'text' => 'Your listing is no longer visible publicly. Review listing status in your dashboard.',
+            'title' => '',
+            'text' => '',
         ],
         'verified' => [
-            'title' => ':server is now verified',
-            'text' => 'Your listing received a verification badge.',
+            'title' => '',
+            'text' => '',
         ],
         'photo_requirement_complete' => [
-            'title' => 'Photo requirement complete for :server',
-            'published_text' => 'You now have at least 5 images and your listing is live again.',
-            'pending_text' => 'You now have at least 5 images. Your listing is ready for moderation.',
+            'title' => '',
+            'published_text' => '',
+            'pending_text' => '',
         ],
         'photo_requirement_missing' => [
-            'title' => 'Add more photos to :server',
-            'text' => 'Your listing needs at least :minimum photos to be published. Photos still needed: :remaining.',
+            'title' => '',
+            'text' => '',
         ],
         'reminder_no_images' => [
-            'title' => 'Your server listing still has no photos',
-            'text' => 'Add photos to complete your server listing.',
+            'title' => '',
+            'text' => '',
         ],
         'reminder_pending_too_long' => [
-            'title' => 'Your listing is still pending review',
-            'text' => 'Your listing is awaiting moderation. Check that its details and photos are up to date.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'wallpaper' => [
         'challenge_winner' => [
-            'title' => 'Wallpaper challenge winner',
-            'text' => 'Your wallpaper ":title" was selected as the winner for :month.',
+            'title' => '',
+            'text' => '',
         ],
     ],
     'streak' => [
         'at_risk' => [
-            'title' => ':days-day streak at risk',
-            'text_send_now' => 'Send a message before midnight UTC to keep your streak alive.',
-            'text_waiting_other' => 'You replied today. You still need one reply back before midnight UTC.',
+            'title' => '',
+            'text_send_now' => '',
+            'text_waiting_other' => '',
         ],
     ],
 ];
