@@ -2479,19 +2479,19 @@ return [
             'title' => 'How head moderation works',
             'content' => 'When you submit a head for public listing, it enters a review queue. Our team checks that it meets quality and content guidelines before it appears on the public pages. You can always view and manage your own submissions in your account.',
             'items' => [
-                [
+                0 => [
                     'title' => 'Pending review',
                     'content' => 'Heads marked as Pending are currently under review. This may take a little time, especially during busy periods. In some cases, a head may remain pending if it is very similar to an existing one or requires additional consideration. You can edit the details or withdraw it at any time.',
                 ],
-                [
+                1 => [
                     'title' => 'Published heads',
                     'content' => 'Once approved, your head becomes publicly visible on SkinMC. It will appear in the main gallery and may also be featured in Best Heads if selected by our team.',
                 ],
-                [
+                2 => [
                     'title' => 'Private heads',
                     'content' => 'Private heads are only visible to you. This may happen if a submission does not meet our public listing guidelines, or if you choose to keep it private. You are free to edit and resubmit it whenever you like.',
                 ],
-                [
+                3 => [
                     'title' => 'Removed heads',
                     'content' => 'In rare cases, a head may be removed if it conflicts with our content policies. Removed heads are not visible on the site. If you believe a removal was made in error, please contact support.',
                 ],
